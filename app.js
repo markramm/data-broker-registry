@@ -30,14 +30,14 @@ const TAIL_PAGE = 50; let tailShown = TAIL_PAGE;
 document.querySelectorAll("#triage .choice").forEach((b) =>
   b.addEventListener("click", () => { state.tier = b.dataset.tier; save(); track("triage", {tier: b.dataset.tier}); startTool(); }));
 
-$("#reset").addEventListener("click", () => {
+$("#reset")?.addEventListener("click", () => {
   if (!confirm("Clear your progress on this device and start over?")) return;
   localStorage.removeItem(STORE); location.reload();
 });
 
 function startTool() {
-  $("#triage").classList.add("hidden");
-  $("#plan").classList.remove("hidden");
+  $("#triage")?.classList.add("hidden");
+  $("#plan")?.classList.remove("hidden");
   loadBrokers();
 }
 
@@ -45,7 +45,7 @@ function startTool() {
 async function loadBrokers() {
   if (!BROKERS.length) {
     try {
-      const r = await fetch("data/brokers.json");
+      const r = await fetch("data/brokers.json?v=20260626b");
       const d = await r.json();
       BROKERS = d.brokers || [];
     } catch (e) {
