@@ -131,10 +131,24 @@ def main():
                 rows.append(e)
                 enriched += 1
 
-    # sort: people-search-with-working-link first (highest impact, actionable), then the rest
-    rows.sort(key=lambda r: (not (r["people_search"] and r["has_link"]),
-                             not r["has_link"], not r["has_method"], r["name"].lower()))
+    # assign each broker a tier (for the tiered-batch UI):
+    #  crucial = people-search WITH a working one-click link (home-address resellers that matter most)
+    #  high    = any other broker with a working one-click link
+    #  tail    = no working link (manual / search-it — the long tail)
+    for r in rows:
+        if r["has_link"] and r["people_search"]:
+            r["tier"] = "crucial"
+        elif r["has_link"]:
+            r["tier"] = "high"
+        else:
+            r["tier"] = "tail"
 
+    # sort: crucial first, then high, then tail; within a tier by name
+    TIER_ORDER = {"crucial": 0, "high": 1, "tail": 2}
+    rows.sort(key=lambda r: (TIER_ORDER[r["tier"]], r["name"].lower()))
+
+    from collections import Counter as _C
+    tier_counts = dict(_C(r["tier"] for r in rows))
     meta = {
         "_meta": {
             "source": "Data Brokers Watch (github.com/V4NT-ORG/Data-Broker-Watch), GPL-3.0",
@@ -146,6 +160,7 @@ def main():
             "with_any_method": sum(1 for r in rows if r["has_method"]),
             "people_search_actionable": sum(1 for r in rows if r["people_search"] and r["has_link"]),
             "enriched_by_tcp": enriched,
+            "tiers": tier_counts,
         },
         "brokers": rows,
     }

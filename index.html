@@ -90,17 +90,28 @@
   .step.done .t{color:var(--graphite); text-decoration:line-through; text-decoration-color:var(--seal); text-decoration-thickness:2px;}
 
   /* ---- the broker register (the heart) ---- */
-  .register h2{font:700 22px/1.2 var(--mono); margin:34px 0 4px;}
-  .register .sub{font:400 17px/1.5 var(--serif); color:var(--graphite); max-width:62ch; margin:0 0 14px;}
+  .register .sub{font:400 17px/1.5 var(--serif); color:var(--graphite); max-width:62ch; margin:18px 0 14px;}
   .controls{display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin:14px 0;}
   .controls input[type=search]{flex:1; min-width:200px; font:400 16px var(--mono); padding:11px 12px; border:1px solid var(--graphite); background:var(--paper); color:var(--ink);}
   .controls button{font:500 13px var(--mono); letter-spacing:.04em; cursor:pointer; padding:10px 13px; border:1px solid var(--graphite); background:var(--paper); color:var(--ink); text-transform:uppercase;}
-  .controls button.on{background:var(--ink); color:var(--paper); border-color:var(--ink);}
+  .series-link{font:400 16px/1.5 var(--serif); color:var(--graphite); border-top:1px solid var(--rule); margin-top:30px; padding-top:18px;}
+  .series-link a{color:var(--seal);}
+
+  /* ---- tiered batches ---- */
+  .batch{margin:30px 0 10px;}
+  .batch.cleared{opacity:.92;}
+  .batch-head{display:flex; justify-content:space-between; align-items:baseline; gap:12px; flex-wrap:wrap; border-bottom:2px solid var(--ink); padding-bottom:6px;}
+  .batch-head h3{font:700 19px/1.2 var(--mono); margin:0;}
+  .batch-count{font:500 12px var(--mono); letter-spacing:.05em; text-transform:uppercase; color:var(--graphite); white-space:nowrap;}
+  .milestone{font:700 12px var(--mono); letter-spacing:.05em; text-transform:uppercase; color:var(--seal); white-space:nowrap;}
+  .batch-blurb{font:400 16px/1.5 var(--serif); color:var(--graphite); max-width:64ch; margin:8px 0 10px;}
+  .batch-bar{height:6px; background:var(--paper2); border:1px solid var(--rule); overflow:hidden; margin:0 0 8px;}
+  .batch-bar>span{display:block; height:100%; background:var(--seal); width:0; transition:width .4s cubic-bezier(.2,.7,.2,1);}
+  .tail-toggle,.load-more{font:600 13px var(--mono); letter-spacing:.04em; cursor:pointer; padding:8px 12px; border:1.5px solid var(--ink); background:var(--paper); color:var(--ink); text-transform:uppercase; margin-top:4px;}
   .ledger-meta{font:500 12px var(--mono); letter-spacing:.06em; text-transform:uppercase; color:var(--graphite); margin:8px 0;}
 
-  .brk{display:grid; grid-template-columns:24px 26px 1fr auto; gap:10px; align-items:center;
+  .brk{display:grid; grid-template-columns:24px 1fr auto; gap:10px; align-items:center;
        padding:12px 4px; border-bottom:1px solid var(--rule); position:relative;}
-  .brk .ix{font:500 12px var(--mono); color:var(--graphite); text-align:right;}
   .brk .strike-btn{width:20px; height:20px; padding:0; cursor:pointer; background:var(--paper);
        border:1.5px solid var(--graphite); color:var(--paper); font:700 12px var(--mono);
        display:grid; place-content:center; line-height:1;}
@@ -114,7 +125,6 @@
   .brk.done .nm::after{transform:scaleX(1);}
   .brk.done .nm{color:var(--graphite);}
   .brk.done{background:var(--redact); color:var(--paper);}
-  .brk.done .ix{color:#7d756a;}
   .brk.done .nm{color:#a59c8e;}
   .tag{font:600 10px var(--mono); letter-spacing:.08em; text-transform:uppercase; padding:2px 6px; border:1px solid var(--rule); color:var(--graphite);}
   .tag.crucial{color:var(--seal); border-color:var(--seal);}
@@ -130,7 +140,6 @@
   .addlist button{font:600 13px var(--mono); letter-spacing:.04em; cursor:pointer; padding:11px 14px; border:1.5px solid var(--ink); background:var(--paper); color:var(--ink); text-transform:uppercase;}
   .addlist .hint{display:block; font:400 14px/1.4 var(--serif); color:var(--graphite); margin-top:6px;}
 
-  #load-more{font:500 13px var(--mono); text-transform:uppercase; letter-spacing:.05em; cursor:pointer; padding:11px 16px; border:1px solid var(--graphite); background:var(--paper); margin-top:14px;}
 
   /* ---- reset / footer ---- */
   .reset{font:500 12px var(--mono); text-transform:uppercase; letter-spacing:.05em; cursor:pointer; padding:5px 10px; border:1px solid var(--rule); background:transparent; color:var(--graphite);}
@@ -141,7 +150,7 @@
   .hidden{display:none;}
   :focus-visible{outline:3px solid var(--seal); outline-offset:2px;}
   @media (prefers-reduced-motion:reduce){ *{transition:none!important;} .brk .nm::after{transition:none;} }
-  @media (max-width:520px){ body{font-size:17px;} .brk{grid-template-columns:20px 22px 1fr; } .brk .act{grid-column:1/-1; padding-left:46px;} .brk .act{grid-column:2; padding-left:0;} }
+  @media (max-width:520px){ body{font-size:17px;} .brk{grid-template-columns:22px 1fr; } .brk .act{grid-column:2; padding-left:0; padding-top:4px;} .batch-head h3{font-size:17px;} }
 </style>
 </head>
 <body>
@@ -176,26 +185,18 @@
       </div>
     </div>
 
-    <div class="moves" id="moves"></div>
-
     <div class="register">
-      <h2>The register</h2>
-      <p class="sub">Work the top of the list first — those are the people-search sites that resell
-        your home address. Click each opt-out, do it, then strike it from your file. Your progress
-        is saved on this device only.</p>
+      <p class="sub">Work the batches in order. Each one you clear is real progress — and the first
+        batch does most of the work. Click an opt-out, do it, then strike it off. Your progress is
+        saved on this device only.</p>
       <div class="controls">
-        <input type="search" id="search" placeholder="search the register…">
-        <button id="filter-link" class="on">one-click only</button>
-        <button id="filter-all">show all</button>
-      </div>
-      <p class="addlist">
+        <input type="search" id="search" placeholder="search by name…">
         <button id="load-badbool">+ load the high-priority list (BADBOOL)</button>
-        <span class="hint">Adds Yael Grauer's hand-curated, recently-updated opt-outs. Loaded from her
-          list on your tap, not bundled (it's CC&nbsp;BY-NC-SA).</span>
-      </p>
-      <div class="ledger-meta" id="broker-count"></div>
+      </div>
       <div id="brokers"></div>
-      <p id="load-more-wrap"><button id="load-more">show more of the register</button></p>
+      <p class="series-link">Want to lock down the <em>devices</em> too — not just get your data
+        off the brokers? That's a separate job, and we wrote a plain-language guide for it:
+        <a href="https://transparencycascade.org/resources/data-footprint/">Harden Your Device</a>.</p>
     </div>
   </section>
 
