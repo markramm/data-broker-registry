@@ -148,14 +148,20 @@ function renderBrokers() {
               : b.has_method ? `<span class="tag manual">manual</span>` : "";
     const ps = b.people_search ? `<span class="ps">people-search</span>` : "";
     const idx = String(i + 1).padStart(2, "0");
-    return `<label class="brk ${done ? "done" : ""}">
-      <input type="checkbox" data-b="${esc(b.domain)}" ${done ? "checked" : ""}>
+    // NOT a <label> — a label would route clicks on the opt-out <a> to the checkbox. The strike
+    // control is the checkbox + name; the opt-out link is an independent <a>.
+    return `<div class="brk ${done ? "done" : ""}">
+      <button class="strike-btn" data-b="${esc(b.domain)}" aria-pressed="${done}"
+        title="${done ? "Un-strike" : "Strike this broker off once you've opted out"}">${done ? "✕" : ""}</button>
       <span class="ix">${idx}</span>
-      <span class="body"><span class="nm">${esc(b.name)}</span> ${tag} ${ps}</span>
-      <span class="act">${done ? "struck" : action}</span></label>`;
+      <span class="body">
+        <button class="nm-btn" data-b="${esc(b.domain)}"><span class="nm">${esc(b.name)}</span></button>
+        ${tag} ${ps}</span>
+      <span class="act">${done ? "struck" : action}</span></div>`;
   }).join("");
-  $("#brokers").querySelectorAll("input[data-b]").forEach((i) =>
-    i.addEventListener("change", () => { state["b:" + i.dataset.b] = i.checked; save(); renderBrokers(); updateProgress(); }));
+  const toggle = (dom) => { state["b:" + dom] = !state["b:" + dom]; save(); renderBrokers(); updateProgress(); };
+  $("#brokers").querySelectorAll("[data-b]").forEach((el) =>
+    el.addEventListener("click", (e) => { e.preventDefault(); toggle(el.dataset.b); }));
   $("#load-more-wrap").style.display = shown < list.length ? "" : "none";
   updateProgress();
 }

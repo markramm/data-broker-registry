@@ -90,10 +90,15 @@
   .controls button.on{background:var(--ink); color:var(--paper); border-color:var(--ink);}
   .ledger-meta{font:500 12px var(--mono); letter-spacing:.06em; text-transform:uppercase; color:var(--graphite); margin:8px 0;}
 
-  .brk{display:grid; grid-template-columns:26px 1fr auto; gap:10px; align-items:center;
+  .brk{display:grid; grid-template-columns:24px 26px 1fr auto; gap:10px; align-items:center;
        padding:12px 4px; border-bottom:1px solid var(--rule); position:relative;}
   .brk .ix{font:500 12px var(--mono); color:var(--graphite); text-align:right;}
-  .brk input{appearance:none; position:absolute; inset:0; cursor:pointer; opacity:0;}
+  .brk .strike-btn{width:20px; height:20px; padding:0; cursor:pointer; background:var(--paper);
+       border:1.5px solid var(--graphite); color:var(--paper); font:700 12px var(--mono);
+       display:grid; place-content:center; line-height:1;}
+  .brk.done .strike-btn{background:var(--ink); border-color:var(--ink); color:var(--paper);}
+  .brk .strike-btn:hover{border-color:var(--seal);}
+  .brk .nm-btn{background:none; border:0; padding:0; cursor:pointer; text-align:left; font:inherit; color:inherit;}
   .brk .body{display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; min-width:0;}
   .brk .nm{font:500 17px var(--mono); color:var(--ink); position:relative;}
   .brk .nm::after{content:""; position:absolute; left:-3px; right:-3px; top:52%; height:2.5px;
@@ -128,7 +133,7 @@
   .hidden{display:none;}
   :focus-visible{outline:3px solid var(--seal); outline-offset:2px;}
   @media (prefers-reduced-motion:reduce){ *{transition:none!important;} .brk .nm::after{transition:none;} }
-  @media (max-width:520px){ body{font-size:17px;} .brk{grid-template-columns:22px 1fr; } .brk .act{grid-column:2; padding-left:0;} }
+  @media (max-width:520px){ body{font-size:17px;} .brk{grid-template-columns:20px 22px 1fr; } .brk .act{grid-column:1/-1; padding-left:46px;} .brk .act{grid-column:2; padding-left:0;} }
 </style>
 </head>
 <body>
