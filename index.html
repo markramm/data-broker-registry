@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!--
+  Make Yourself Expensive — a free, no-account, no-tracking data-broker opt-out tool.
+  Copyright (C) 2026 Transparency Cascade Press. Licensed GPL-3.0 (see LICENSE).
+  Broker roster from Data Brokers Watch (github.com/V4NT-ORG/Data-Broker-Watch), GPL-3.0.
+  Nothing on this page leaves your browser. No server, no account, no analytics on your actions.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Make Yourself Expensive — free data-broker opt-out tool</title>
+<style>
+  :root { --ink:#1a1a1a; --muted:#666; --accent:#0a5; --line:#e2e2e2; --bg:#fafafa; --done:#0a5; }
+  * { box-sizing:border-box; }
+  body { font:16px/1.55 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; color:var(--ink);
+         background:var(--bg); margin:0; }
+  .wrap { max-width:760px; margin:0 auto; padding:24px 18px 80px; }
+  h1 { font-size:1.7rem; margin:.2em 0 .1em; }
+  .tag { color:var(--muted); font-size:.95rem; margin:0 0 1.2em; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:10px; padding:18px 20px; margin:14px 0; }
+  button { font:inherit; cursor:pointer; border-radius:8px; border:1px solid var(--line);
+           background:#fff; padding:9px 14px; }
+  button.primary { background:var(--ink); color:#fff; border-color:var(--ink); }
+  button.choice { display:block; width:100%; text-align:left; margin:8px 0; padding:14px 16px; }
+  button.choice:hover { border-color:var(--ink); }
+  .progress { position:sticky; top:0; background:var(--bg); padding:10px 0; z-index:5;
+              border-bottom:1px solid var(--line); }
+  .bar { height:8px; background:#eee; border-radius:5px; overflow:hidden; }
+  .bar > span { display:block; height:100%; background:var(--done); width:0; transition:width .3s; }
+  .muted { color:var(--muted); }
+  .step { display:flex; gap:12px; align-items:flex-start; padding:12px 0; border-bottom:1px solid var(--line); }
+  .step:last-child { border-bottom:0; }
+  .step input { margin-top:5px; transform:scale(1.25); }
+  .step.done label { text-decoration:line-through; color:var(--muted); }
+  .broker { display:flex; gap:10px; align-items:center; padding:9px 0; border-bottom:1px solid var(--line); }
+  .broker.done { opacity:.5; }
+  .broker .name { flex:1; }
+  .broker a { color:var(--accent); text-decoration:none; font-weight:600; }
+  .broker .note { font-size:.85rem; color:var(--muted); }
+  .pill { font-size:.72rem; padding:2px 7px; border-radius:20px; background:#eef; color:#225; }
+  .pill.method { background:#fef3e0; color:#8a5300; }
+  .controls { display:flex; gap:10px; flex-wrap:wrap; margin:10px 0; }
+  .controls input[type=search] { flex:1; min-width:180px; padding:9px 12px; border:1px solid var(--line); border-radius:8px; }
+  footer { margin-top:40px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:.85rem; }
+  footer a { color:var(--muted); }
+  .why { background:#f4f8f4; border-color:#cfe8cf; }
+  a.txt { color:var(--accent); }
+  .hidden { display:none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Make Yourself Expensive</h1>
+  <p class="tag">A free, no-account, no-tracking guide to getting your data out of the broker economy.
+     Everything you do here stays in your browser. <a class="txt" href="#why">Who runs this &rarr;</a></p>
+
+  <!-- STEP 1: triage -->
+  <section id="triage" class="card">
+    <h2 style="margin-top:0">First, who are you protecting?</h2>
+    <p class="muted">This tailors your list. There are no wrong answers, and we don't record this.</p>
+    <button class="choice" data-tier="A">I want to reduce my exposure like a normal person.</button>
+    <button class="choice" data-tier="B">I'm higher-risk — an activist, organizer, immigrant, journalist, or I've been targeted.</button>
+  </section>
+
+  <!-- STEP 2: the plan (revealed after triage) -->
+  <section id="plan" class="hidden">
+    <div class="progress">
+      <div class="muted" style="display:flex;justify-content:space-between;margin-bottom:4px">
+        <span id="progress-label">Your progress</span>
+        <span><button id="reset" style="font-size:.8rem;padding:4px 10px">Start over</button></span>
+      </div>
+      <div class="bar"><span id="bar"></span></div>
+    </div>
+
+    <div id="moves"></div>
+
+    <div class="card">
+      <h2 style="margin-top:0">The broker list — work it by hand</h2>
+      <p class="muted">This is the route the Consumer Reports study found beats every paid service
+        (~70% vs ~35%). Start with the people-search sites at the top — those resell your home address.
+        Click each opt-out link, do it, check it off. Your progress is saved on this device only.</p>
+      <div class="controls">
+        <input type="search" id="search" placeholder="Search brokers…">
+        <button id="filter-link" class="primary">Show only one-click opt-outs</button>
+        <button id="filter-all">Show all</button>
+      </div>
+      <div id="broker-count" class="muted" style="margin:6px 0"></div>
+      <div id="brokers"></div>
+      <p class="muted" id="load-more-wrap"><button id="load-more">Show more brokers</button></p>
+    </div>
+  </section>
+
+  <footer id="why">
+    <p><strong>Who runs this, and why you can trust it.</strong> This tool is made by
+       <a href="https://transparencycascade.org">Transparency Cascade Press</a>, a nonprofit newsroom.
+       It is <strong>free and open-source (GPL-3.0)</strong>. It has no account, no server, and no
+       analytics on what you click here — your choices and progress never leave your browser.
+       We make no money from it and there is nothing to sell, which is the point: a tool like this is
+       only useful if it can't be bought out from under you. (We learned that the hard way — the free
+       app we used to recommend, Permission Slip, was handed to a paid service in May 2026.)</p>
+    <p>The broker roster comes from <a href="https://github.com/V4NT-ORG/Data-Broker-Watch">Data Brokers
+       Watch</a> (GPL-3.0); opt-out links for the highest-impact brokers are verified by us. For an even
+       fuller by-hand list, see <a href="https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List">Yael
+       Grauer's "Big Ass Data Broker Opt-Out List."</a> If you're in California, the state's free
+       <a href="https://privacy.ca.gov/">DROP tool</a> sends one deletion request to every registered
+       broker. Companion guide: <a href="https://transparencycascade.org/resources/data-footprint/">Make
+       Yourself Expensive: the field guide.</a></p>
+  </footer>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>

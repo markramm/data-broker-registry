@@ -1,0 +1,7 @@
+[
+  {"domain":"spokeo.com","name":"Spokeo","category":"People Search","people_search":true,"opt_out_url":"https://www.spokeo.com/optout"},
+  {"domain":"whitepages.com","name":"Whitepages","category":"People Search","people_search":true,"opt_out_url":"https://www.whitepages.com/suppression-requests"},
+  {"domain":"truepeoplesearch.com","name":"TruePeopleSearch","category":"People Search","people_search":true,"opt_out_url":"https://www.truepeoplesearch.com/removal"},
+  {"domain":"intelius.com","name":"Intelius","category":"People Search","people_search":true,"opt_out_url":"https://www.intelius.com/opt-out"},
+  {"domain":"beenverified.com","name":"BeenVerified","category":"People Search","people_search":true,"opt_out_url":"https://www.beenverified.com/app/optout/search"}
+]
