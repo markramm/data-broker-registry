@@ -15,6 +15,7 @@ import csv, json, os, re, sys
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(HERE, "data", "data-brokers-watch-source.csv")
 ENRICH = os.path.join(HERE, "data", "brokers-enrichment.json")
+DROP = os.path.join(HERE, "data", "brokers-drop.json")
 OUT = os.path.join(HERE, "data", "brokers.json")
 
 # People-search / address-resellers are the highest-impact for personal safety
@@ -44,6 +45,7 @@ def norm_url(u):
 import json as _json
 _LS_PATH = os.path.join(HERE, "data", "link-status.json")
 LINK_STATUS = _json.load(open(_LS_PATH)) if os.path.exists(_LS_PATH) else {}
+DROP_DOMS = set(_json.load(open(DROP))) if os.path.exists(DROP) else set()
 def url_ok(u):
     """Is this URL usable by a real human? (live or bot-blocked, NOT broken)"""
     if not u:
@@ -70,6 +72,8 @@ def main():
                 continue
             # skip dead brokers
             if (r.get("Health") or "").strip().lower() == "dead":
+                continue
+            if domain in DROP_DOMS:  # researched dead / no-opt-out — remove from actionable register
                 continue
             cats = (r.get("Categories") or "").strip()
             opt_url = norm_url(r.get("Opt Out URL"))
@@ -98,18 +102,32 @@ def main():
         overlay = {e["domain"].lower(): e for e in json.load(open(ENRICH)) if e.get("domain")}
         by_domain = {r["domain"].lower(): r for r in rows if r["domain"]}
         for dom, e in overlay.items():
+            # honest status: trust the URL as one-click only if the researcher VERIFIED it
+            # (fetched the page) OR curl confirms it live/bot-blocked. A "likely" URL that also
+            # fails a curl check is shown as a manual/unconfirmed link, not a silent one-click.
+            def enriched_status(e):
+                u = e.get("opt_out_url", "")
+                if not u:
+                    return "none", False
+                live = LINK_STATUS.get(u) in ("live", "bot-blocked", "redirect")
+                conf = e.get("research_confidence", "verified")
+                if conf == "verified" or live:
+                    return "tcp-verified", True          # safe to present as one-click
+                return "tcp-unconfirmed", False          # likely but unverified — manual, with caveat
             if dom in by_domain:
                 by_domain[dom].update({k: v for k, v in e.items() if v})
+                st, ok = enriched_status(e)
                 by_domain[dom]["source"] = "data-brokers-watch + tcp-verified"
-                by_domain[dom]["has_link"] = bool(by_domain[dom].get("opt_out_url"))
+                by_domain[dom]["link_status"] = st
+                by_domain[dom]["has_link"] = ok
                 by_domain[dom]["has_method"] = bool(by_domain[dom].get("opt_out_url") or by_domain[dom].get("opt_out_method") or by_domain[dom].get("phone"))
-                by_domain[dom]["link_status"] = "tcp-verified"   # our hand-verified link
                 enriched += 1
             else:  # net-new broker we curated
+                st, ok = enriched_status(e)
                 e["source"] = "tcp-verified"
-                e["has_link"] = bool(e.get("opt_out_url"))
+                e["link_status"] = st
+                e["has_link"] = ok
                 e["has_method"] = bool(e.get("opt_out_url") or e.get("opt_out_method") or e.get("phone"))
-                e["link_status"] = "tcp-verified"
                 rows.append(e)
                 enriched += 1
 

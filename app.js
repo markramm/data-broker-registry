@@ -137,12 +137,14 @@ function renderBrokers() {
   $("#brokers").innerHTML = slice.map((b, i) => {
     const done = !!state["b:" + b.domain];
     const usableLink = b.opt_out_url && b.link_status !== "broken";
-    const action = usableLink
+    const unconfirmed = b.link_status === "tcp-unconfirmed";
+    const action = (usableLink || unconfirmed) && b.opt_out_url
       ? `<a href="${esc(b.opt_out_url)}" target="_blank" rel="noopener">opt out &rarr;</a>`
       : (b.opt_out_method || b.phone
           ? `<span class="note">${esc(b.opt_out_method || ("call " + b.phone))}</span>`
           : `<span class="note">search it</span>`);
-    const tag = usableLink ? `<span class="tag${b.crucial ? " crucial" : ""}">${b.crucial ? "crucial" : "1-click"}</span>`
+    const tag = unconfirmed ? `<span class="tag manual">unverified link</span>`
+              : usableLink ? `<span class="tag${b.crucial ? " crucial" : ""}">${b.crucial ? "crucial" : "1-click"}</span>`
               : b.has_method ? `<span class="tag manual">manual</span>` : "";
     const ps = b.people_search ? `<span class="ps">people-search</span>` : "";
     const idx = String(i + 1).padStart(2, "0");

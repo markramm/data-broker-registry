@@ -1,7 +1,307 @@
 [
-  {"domain":"spokeo.com","name":"Spokeo","category":"People Search","people_search":true,"opt_out_url":"https://www.spokeo.com/optout"},
-  {"domain":"whitepages.com","name":"Whitepages","category":"People Search","people_search":true,"opt_out_url":"https://www.whitepages.com/suppression-requests"},
-  {"domain":"truepeoplesearch.com","name":"TruePeopleSearch","category":"People Search","people_search":true,"opt_out_url":"https://www.truepeoplesearch.com/removal"},
-  {"domain":"intelius.com","name":"Intelius","category":"People Search","people_search":true,"opt_out_url":"https://www.intelius.com/opt-out"},
-  {"domain":"beenverified.com","name":"BeenVerified","category":"People Search","people_search":true,"opt_out_url":"https://www.beenverified.com/app/optout/search"}
+ {
+  "domain": "spokeo.com",
+  "name": "Spokeo",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://www.spokeo.com/optout"
+ },
+ {
+  "domain": "whitepages.com",
+  "name": "Whitepages",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://www.whitepages.com/suppression-requests"
+ },
+ {
+  "domain": "truepeoplesearch.com",
+  "name": "TruePeopleSearch",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://www.truepeoplesearch.com/removal"
+ },
+ {
+  "domain": "intelius.com",
+  "name": "Intelius",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://www.intelius.com/opt-out"
+ },
+ {
+  "domain": "beenverified.com",
+  "name": "BeenVerified",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://www.beenverified.com/app/optout/search"
+ },
+ {
+  "domain": "411.com",
+  "name": "411.com",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://www.whitepages.com/suppression-requests",
+  "opt_out_method": "",
+  "research_confidence": "likely",
+  "research_note": "411 powered by Whitepages; opt out via Whitepages suppression flow (bot-blocked but live)"
+ },
+ {
+  "domain": "confi-chek.com",
+  "name": "Confi-Chek",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://www.enformion.com/opt-out/",
+  "opt_out_method": "",
+  "research_confidence": "verified",
+  "research_note": "confi-chek redirects to Enformion; shared opt-out form"
+ },
+ {
+  "domain": "criminalpages.com",
+  "name": "Criminal Pages",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://members.criminalpages.com/customer/opt-out",
+  "opt_out_method": "",
+  "research_confidence": "verified",
+  "research_note": "opt-out form live; site SSL cert may warn"
+ },
+ {
+  "domain": "deathrecords.org",
+  "name": "Death Records",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://infotracer.com/optout/",
+  "opt_out_method": "",
+  "research_confidence": "verified",
+  "research_note": "InfoTracer-branded; opt out via InfoTracer portal"
+ },
+ {
+  "domain": "governmentregistry.org",
+  "name": "Governmentregistry.Org",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://www.governmentregistry.org/opt-out",
+  "opt_out_method": "",
+  "research_confidence": "verified",
+  "research_note": "live opt-out form"
+ },
+ {
+  "domain": "locatefamily.com",
+  "name": "Locatefamily.Com",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://www.locatefamily.com/removal2.html",
+  "opt_out_method": "",
+  "research_confidence": "verified",
+  "research_note": "live, bot-blocks scripted fetch; form-based removal"
+ },
+ {
+  "domain": "peopleconnect.us",
+  "name": "Peopleconnect",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://suppression.peopleconnect.us/",
+  "opt_out_method": "",
+  "research_confidence": "verified",
+  "research_note": "central suppression portal (Intelius/TruthFinder/Instant Checkmate/US Search); no third-party opt-outs"
+ },
+ {
+  "domain": "recordsauthority.com",
+  "name": "Records Authority",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://infotracer.com/optout/",
+  "opt_out_method": "",
+  "research_confidence": "verified",
+  "research_note": "removal handled by parent InfoTracer"
+ },
+ {
+  "domain": "snoopstation.com",
+  "name": "Snoopstation.Com",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://www.intelius.com/opt-out/",
+  "opt_out_method": "",
+  "research_confidence": "verified",
+  "research_note": "Intelius-network; opt out at intelius.com/opt-out (bot-block 403, live)"
+ },
+ {
+  "domain": "truthfinder.com",
+  "name": "Truthfinder",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://www.truthfinder.com/opt-out/",
+  "opt_out_method": "",
+  "research_confidence": "verified",
+  "research_note": "live behind Cloudflare; routes through PeopleConnect suppression"
+ },
+ {
+  "domain": "addresses.com",
+  "name": "Addresses.Com",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://www.addresses.com/optout.php",
+  "opt_out_method": "",
+  "research_confidence": "verified",
+  "research_note": "own opt-out form; bot-block 403, live"
+ },
+ {
+  "domain": "cellphoneregistry.com",
+  "name": "Cell Phone Registry",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://infotracer.com/optout/",
+  "opt_out_method": "",
+  "research_confidence": "likely",
+  "research_note": "InfoTracer-owned; use shared portal"
+ },
+ {
+  "domain": "courtrecords.org",
+  "name": "Court Records",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://members.courtrecords.org/terms?tab=optout",
+  "opt_out_method": "",
+  "research_confidence": "likely",
+  "research_note": "own opt-out; SSL cert may warn"
+ },
+ {
+  "domain": "divorcerecords.org",
+  "name": "Divorce Records",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://infotracer.com/optout/",
+  "opt_out_method": "",
+  "research_confidence": "likely",
+  "research_note": "InfoTracer-owned; shared portal"
+ },
+ {
+  "domain": "freephonetracer.com",
+  "name": "Free Phone Tracker",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://www.beenverified.com/app/optout/search",
+  "opt_out_method": "",
+  "research_confidence": "likely",
+  "research_note": "BeenVerified property"
+ },
+ {
+  "domain": "instantcheckmate.com",
+  "name": "Instant Checkmate",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://suppression.peopleconnect.us/login",
+  "opt_out_method": "",
+  "research_confidence": "verified",
+  "research_note": "PeopleConnect suppression portal"
+ },
+ {
+  "domain": "numberguru.com",
+  "name": "Number Guru",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://www.beenverified.com/app/optout/search",
+  "opt_out_method": "",
+  "research_confidence": "likely",
+  "research_note": "BeenVerified-owned"
+ },
+ {
+  "domain": "persopo.com",
+  "name": "Persopo",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://persopo.com/opt-out.html",
+  "opt_out_method": "",
+  "research_confidence": "verified",
+  "research_note": "own opt-out page live"
+ },
+ {
+  "domain": "reversegenie.com",
+  "name": "Reverse Genie",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://infotracer.com/optout/",
+  "opt_out_method": "",
+  "research_confidence": "verified",
+  "research_note": "InfoTracer-owned"
+ },
+ {
+  "domain": "reverserecords.org",
+  "name": "Reverserecords.Org",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://infotracer.com/optout/",
+  "opt_out_method": "",
+  "research_confidence": "likely",
+  "research_note": "InfoTracer network; own domain cert expired"
+ },
+ {
+  "domain": "detectiveunlimited.com",
+  "name": "Ultimatewhitepages",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://www.peoplesmart.com/svc/optout/search/contact_optouts",
+  "opt_out_method": "",
+  "research_confidence": "likely",
+  "research_note": "PeopleSmart-owned portal (bot-block 403, live)"
+ },
+ {
+  "domain": "cisnationwide.com",
+  "name": "Cis Nationwide",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "http://cisnationwide.com/optout.html",
+  "opt_out_method": "fax 1-888-446-1229 or mail PO Box 990142, Boston MA 02199",
+  "research_confidence": "likely",
+  "research_note": "own opt-out page indexed; not fetched live"
+ },
+ {
+  "domain": "emailtracer.com",
+  "name": "Email Tracer",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://emailtracer.com/optout",
+  "opt_out_method": "",
+  "research_confidence": "likely",
+  "research_note": "own /optout indexed; InfoTracer property; CAPTCHA"
+ },
+ {
+  "domain": "peekyou.com",
+  "name": "Peek You",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://www.peekyou.com/about/contact/ccpa_optout/do_not_sell/",
+  "opt_out_method": "",
+  "research_confidence": "verified",
+  "research_note": "live CCPA do-not-sell form (bot-block 403)"
+ },
+ {
+  "domain": "searchbug.com",
+  "name": "Search Bug",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://www.searchbug.com/ccpa.aspx",
+  "opt_out_method": "",
+  "research_confidence": "verified",
+  "research_note": "own CCPA/Do-Not-Sell form, fetched 200"
+ },
+ {
+  "domain": "myyp.com",
+  "name": "Valley Yellow Pages (Myyp.Com)",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://www.yellowpagesoptout.com/",
+  "opt_out_method": "",
+  "research_confidence": "verified",
+  "research_note": "official print-directory opt-out (myyp.com/optout is 404)"
+ },
+ {
+  "domain": "zoominfo.com",
+  "name": "Zoominfo.Com",
+  "category": "People Search",
+  "people_search": true,
+  "opt_out_url": "https://privacyrequest.zoominfo.com/remove/verify",
+  "opt_out_method": "",
+  "research_confidence": "verified",
+  "research_note": "official ZoomInfo removal portal (bot-block 403, live)"
+ }
 ]
