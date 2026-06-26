@@ -136,12 +136,14 @@ function renderBrokers() {
     `${BROKERS.filter(b => b.has_link).length} have one-click opt-outs`;
   $("#brokers").innerHTML = slice.map((b) => {
     const done = !!state["b:" + b.domain];
-    const action = b.opt_out_url
+    // never present a verified-broken URL as a clickable one-click opt-out
+    const usableLink = b.opt_out_url && b.link_status !== "broken";
+    const action = usableLink
       ? `<a href="${b.opt_out_url}" target="_blank" rel="noopener">opt out &rarr;</a>`
       : (b.opt_out_method || b.phone
           ? `<span class="note">${b.opt_out_method || ("call " + b.phone)}</span>`
-          : `<span class="note">search "${b.name} opt out"</span>`);
-    const pill = b.has_link ? `<span class="pill">1-click</span>`
+          : `<span class="note">search &ldquo;${b.name} opt out&rdquo;</span>`);
+    const pill = usableLink ? `<span class="pill">1-click</span>`
                : b.has_method ? `<span class="pill method">manual</span>` : "";
     return `<div class="broker ${done ? "done" : ""}">
       <input type="checkbox" data-b="${b.domain}" ${done ? "checked" : ""}>

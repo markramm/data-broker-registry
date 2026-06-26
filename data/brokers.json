@@ -4,9 +4,9 @@
   "tool_license": "GPL-3.0",
   "attribution": "Broker roster from Data Brokers Watch / YourDigitalRights.org (GPL-3.0). Opt-out links for high-impact brokers verified by Transparency Cascade Press.",
   "total_brokers": 729,
-  "with_optout_link": 83,
-  "with_any_method": 214,
-  "people_search_actionable": 29,
+  "with_optout_link": 61,
+  "with_any_method": 200,
+  "people_search_actionable": 23,
   "enriched_by_tcp": 5
  },
  "brokers": [
@@ -20,6 +20,7 @@
    "phone": "2063015900",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "bot-blocked",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -34,6 +35,7 @@
    "phone": "Download Search Results",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "bot-blocked",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -48,76 +50,22 @@
    "phone": "(888) 579-5910",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "tcp-verified",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch + tcp-verified"
-  },
-  {
-   "name": "Cell Phone Registry",
-   "domain": "cellphoneregistry.com",
-   "category": "Directory",
-   "people_search": true,
-   "opt_out_url": "https://www.infopay.com/optout ; ccpa: https://members.infotracer.com/ccpaOptOut",
-   "opt_out_method": "Yes - by Opt-Out Form",
-   "phone": "",
-   "needs_form": false,
-   "has_captcha": false,
-   "has_link": true,
-   "has_method": true,
-   "source": "data-brokers-watch"
-  },
-  {
-   "name": "Court Records",
-   "domain": "courtrecords.org",
-   "category": "People Search",
-   "people_search": true,
-   "opt_out_url": "https://members.courtrecords.org/customer/terms?tab=optout",
-   "opt_out_method": "Yes - by Opt-Out Form",
-   "phone": "",
-   "needs_form": false,
-   "has_captcha": false,
-   "has_link": true,
-   "has_method": true,
-   "source": "data-brokers-watch"
-  },
-  {
-   "name": "Criminal Pages",
-   "domain": "criminalpages.com",
-   "category": "People Search",
-   "people_search": true,
-   "opt_out_url": "http://courtregistry.org/index.php?xpath=privacy",
-   "opt_out_method": "Yes - by Opt-Out Form",
-   "phone": "800-309-9351",
-   "needs_form": false,
-   "has_captcha": false,
-   "has_link": true,
-   "has_method": true,
-   "source": "data-brokers-watch"
   },
   {
    "name": "Edvisors Network, Inc.",
    "domain": "edvisors.com",
    "category": "Directory",
    "people_search": true,
-   "opt_out_url": "https://www.edvisors.com/third-party-opt-out/ , https://www.edvisors.com/delete-request/",
+   "opt_out_url": "https://www.edvisors.com/third-party-opt-out/",
    "opt_out_method": "Yes - by Opt-Out Form",
    "phone": "(888) 972-1010",
    "needs_form": false,
    "has_captcha": false,
-   "has_link": true,
-   "has_method": true,
-   "source": "data-brokers-watch"
-  },
-  {
-   "name": "Email Tracer",
-   "domain": "emailtracer.com",
-   "category": "People Search",
-   "people_search": true,
-   "opt_out_url": "http://www.emailtracer.com/tos.php",
-   "opt_out_method": "No",
-   "phone": "",
-   "needs_form": false,
-   "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -132,6 +80,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -146,6 +95,7 @@
    "phone": "20630157 ; FAX",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "bot-blocked",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -160,6 +110,7 @@
    "phone": "(206) 301-5800",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "tcp-verified",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch + tcp-verified"
@@ -174,20 +125,7 @@
    "phone": "2063015900",
    "needs_form": false,
    "has_captcha": false,
-   "has_link": true,
-   "has_method": true,
-   "source": "data-brokers-watch"
-  },
-  {
-   "name": "Peek You",
-   "domain": "peekyou.com",
-   "category": "People Search",
-   "people_search": true,
-   "opt_out_url": "https://www.peekyou.com/about/contact/optout/index.php",
-   "opt_out_method": "Yes - by Opt-Out Form",
-   "phone": "",
-   "needs_form": false,
-   "has_captcha": false,
+   "link_status": "bot-blocked",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -197,11 +135,12 @@
    "domain": "peoplebyname.com",
    "category": "People Search",
    "people_search": true,
-   "opt_out_url": "http://www.peoplebyname.com/remove.php , http://www.peoplebyname.com/remove_number.php",
+   "opt_out_url": "http://www.peoplebyname.com/remove.php",
    "opt_out_method": "Yes - by Opt-Out Form",
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "bot-blocked",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -216,6 +155,7 @@
    "phone": "617-262-9317",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -230,20 +170,7 @@
    "phone": "866-974- 6185",
    "needs_form": false,
    "has_captcha": false,
-   "has_link": true,
-   "has_method": true,
-   "source": "data-brokers-watch"
-  },
-  {
-   "name": "Peopleconnect, Inc.",
-   "domain": "peopleconnect.us",
-   "category": "People Search",
-   "people_search": true,
-   "opt_out_url": "http://www.peopleconnect.us/privacy#p-3 , https://www.intelius.com/optout",
-   "opt_out_method": "Yes - by Opt-Out Form",
-   "phone": "",
-   "needs_form": false,
-   "has_captcha": false,
+   "link_status": "bot-blocked",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -258,6 +185,7 @@
    "phone": "1-888-906-4278",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "bot-blocked",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -272,6 +200,7 @@
    "phone": "800-309-9351",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "redirect",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -286,6 +215,7 @@
    "phone": "2063015700",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "bot-blocked",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -300,6 +230,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "bot-blocked",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -314,6 +245,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -328,6 +260,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "tcp-verified",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch + tcp-verified"
@@ -342,6 +275,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -356,6 +290,7 @@
    "phone": "617-262-9317",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -370,6 +305,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -384,6 +320,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "tcp-verified",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch + tcp-verified"
@@ -398,6 +335,7 @@
    "phone": "(800) 991-3077",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "tcp-verified",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch + tcp-verified"
@@ -412,6 +350,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "bot-blocked",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -426,6 +365,7 @@
    "phone": "1-877-774-2094",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -440,6 +380,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -454,34 +395,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
-   "has_link": true,
-   "has_method": true,
-   "source": "data-brokers-watch"
-  },
-  {
-   "name": "coxtarget.com",
-   "domain": "coxtarget.com",
-   "category": "Direct Marketers",
-   "people_search": false,
-   "opt_out_url": "http://www.coxtarget.com/mailsuppression/s/DisplayMailSuppressionForm",
-   "opt_out_method": "",
-   "phone": "",
-   "needs_form": false,
-   "has_captcha": false,
-   "has_link": true,
-   "has_method": true,
-   "source": "data-brokers-watch"
-  },
-  {
-   "name": "DexKnows",
-   "domain": "dexknows.com",
-   "category": "Direct Marketers",
-   "people_search": false,
-   "opt_out_url": "http://green.dexknows.com/DexGreen/selectDexAction.do",
-   "opt_out_method": "",
-   "phone": "",
-   "needs_form": false,
-   "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -496,20 +410,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
-   "has_link": true,
-   "has_method": true,
-   "source": "data-brokers-watch"
-  },
-  {
-   "name": "DMA Choice Do Not Mail List / Deceased Do Not Contact List",
-   "domain": "thedma.org",
-   "category": "Data Brokers",
-   "people_search": false,
-   "opt_out_url": "https://dmachoice.thedma.org/register.php",
-   "opt_out_method": "",
-   "phone": "",
-   "needs_form": false,
-   "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -524,6 +425,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -538,6 +440,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -552,6 +455,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -566,6 +470,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -580,20 +485,7 @@
    "phone": "(469) 262-0860",
    "needs_form": false,
    "has_captcha": false,
-   "has_link": true,
-   "has_method": true,
-   "source": "data-brokers-watch"
-  },
-  {
-   "name": "Equifax Information Services Llc",
-   "domain": "equifax.com",
-   "category": "Credit Bureaus",
-   "people_search": false,
-   "opt_out_url": "https://help.equifax.com/app/answers/detail/a_id/2/noIntercept/1/kw/prescreen",
-   "opt_out_method": "",
-   "phone": "",
-   "needs_form": false,
-   "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -608,34 +500,7 @@
    "phone": "(714) 830-7617",
    "needs_form": false,
    "has_captcha": false,
-   "has_link": true,
-   "has_method": true,
-   "source": "data-brokers-watch"
-  },
-  {
-   "name": "Fullcontact, Inc.",
-   "domain": "fullcontact.com",
-   "category": "Identity Verification Services",
-   "people_search": false,
-   "opt_out_url": "https://dashboard.fullcontact.com/claim",
-   "opt_out_method": "Yes - by Opt-Out Form",
-   "phone": "",
-   "needs_form": false,
-   "has_captcha": false,
-   "has_link": true,
-   "has_method": true,
-   "source": "data-brokers-watch"
-  },
-  {
-   "name": "Haines & Company Inc.",
-   "domain": "haines.com",
-   "category": "Direct Marketers",
-   "people_search": false,
-   "opt_out_url": "http://www.haines.com/privacy1.htm",
-   "opt_out_method": "",
-   "phone": "",
-   "needs_form": false,
-   "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -650,6 +515,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -664,6 +530,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -678,20 +545,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
-   "has_link": true,
-   "has_method": true,
-   "source": "data-brokers-watch"
-  },
-  {
-   "name": "Innovis",
-   "domain": "innovis.com",
-   "category": "Data Brokers",
-   "people_search": false,
-   "opt_out_url": "https://www.innovis.com/InnovisWeb/pers_lc_opt_out.html",
-   "opt_out_method": "",
-   "phone": "",
-   "needs_form": false,
-   "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -706,6 +560,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -720,6 +575,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "bot-blocked",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -734,34 +590,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
-   "has_link": true,
-   "has_method": true,
-   "source": "data-brokers-watch"
-  },
-  {
-   "name": "Locate People",
-   "domain": "locatepeople.org",
-   "category": "Personal Information",
-   "people_search": false,
-   "opt_out_url": "http://www.locatepeople.org/index.php?xpath=privacy",
-   "opt_out_method": "",
-   "phone": "",
-   "needs_form": false,
-   "has_captcha": false,
-   "has_link": true,
-   "has_method": true,
-   "source": "data-brokers-watch"
-  },
-  {
-   "name": "LocatePLUS",
-   "domain": "locateplus.com",
-   "category": "Personal Information",
-   "people_search": false,
-   "opt_out_url": "https://www.locateplus.com/privacy.asp",
-   "opt_out_method": "",
-   "phone": "",
-   "needs_form": false,
-   "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -776,6 +605,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "bot-blocked",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -790,34 +620,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
-   "has_link": true,
-   "has_method": true,
-   "source": "data-brokers-watch"
-  },
-  {
-   "name": "Merlin Information Services",
-   "domain": "merlindata.com",
-   "category": "Data Brokers",
-   "people_search": false,
-   "opt_out_url": "https://www.merlindata.com/privacystatement.asp#Opt",
-   "opt_out_method": "",
-   "phone": "",
-   "needs_form": false,
-   "has_captcha": false,
-   "has_link": true,
-   "has_method": true,
-   "source": "data-brokers-watch"
-  },
-  {
-   "name": "moneymailerdirect.com",
-   "domain": "moneymailerdirect.com",
-   "category": "Direct Marketers",
-   "people_search": false,
-   "opt_out_url": "http://www.moneymailerdirect.com/PrivacyPolicy.aspx",
-   "opt_out_method": "",
-   "phone": "",
-   "needs_form": false,
-   "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -832,6 +635,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -846,20 +650,7 @@
    "phone": "1-844-638-2878",
    "needs_form": false,
    "has_captcha": false,
-   "has_link": true,
-   "has_method": true,
-   "source": "data-brokers-watch"
-  },
-  {
-   "name": "Oracle America, Inc. (Oracle Data Cloud)",
-   "domain": "oracle.com",
-   "category": "Marketing Data Broker",
-   "people_search": false,
-   "opt_out_url": "https://oracle.ethicspointvp.com/custom/oracle/dp/en/form_data.asp",
-   "opt_out_method": "Yes - by Opt-Out Form",
-   "phone": "",
-   "needs_form": false,
-   "has_captcha": false,
+   "link_status": "bot-blocked",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -874,20 +665,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
-   "has_link": true,
-   "has_method": true,
-   "source": "data-brokers-watch"
-  },
-  {
-   "name": "pch.com",
-   "domain": "pch.com",
-   "category": "Direct Marketers",
-   "people_search": false,
-   "opt_out_url": "http://www.pch.com/infocenter/privacypolicy.shtml?cm_re=PCH.com-_-TopShell-_-Dec08Privacy#12",
-   "opt_out_method": "",
-   "phone": "",
-   "needs_form": false,
-   "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -902,20 +680,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
-   "has_link": true,
-   "has_method": true,
-   "source": "data-brokers-watch"
-  },
-  {
-   "name": "people-finders.ws",
-   "domain": "people-finders.ws",
-   "category": "Data Brokers",
-   "people_search": false,
-   "opt_out_url": "http://www.people-finders.ws/privacy.aspx?popup=true",
-   "opt_out_method": "",
-   "phone": "",
-   "needs_form": false,
-   "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -930,6 +695,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -944,6 +710,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "bot-blocked",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -958,6 +725,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -972,6 +740,7 @@
    "phone": "904-270-9408",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "bot-blocked",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -986,6 +755,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1000,6 +770,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1014,6 +785,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1028,20 +800,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
-   "has_link": true,
-   "has_method": true,
-   "source": "data-brokers-watch"
-  },
-  {
-   "name": "Readers Digest",
-   "domain": "rd.com",
-   "category": "Direct Marketers",
-   "people_search": false,
-   "opt_out_url": "http://www.rd.com/privacy-policy/article10660.html#opting",
-   "opt_out_method": "",
-   "phone": "",
-   "needs_form": false,
-   "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1056,6 +815,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1070,20 +830,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
-   "has_link": true,
-   "has_method": true,
-   "source": "data-brokers-watch"
-  },
-  {
-   "name": "thomson.com",
-   "domain": "thomson.com",
-   "category": "Data Brokers",
-   "people_search": false,
-   "opt_out_url": "http://west.thomson.com/pdf/privacy/opt_out_form.pdf",
-   "opt_out_method": "",
-   "phone": "",
-   "needs_form": false,
-   "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1098,6 +845,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "bot-blocked",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1112,6 +860,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "bot-blocked",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1126,6 +875,7 @@
    "phone": "1-800-437-0479",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1140,6 +890,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1154,6 +905,7 @@
    "phone": "888-9832285",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1168,6 +920,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "live",
    "has_link": true,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1182,6 +935,7 @@
    "phone": "2069735100",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1196,6 +950,7 @@
    "phone": "617-262-9317",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1210,6 +965,7 @@
    "phone": "18442483440",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1224,6 +980,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1238,6 +995,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1252,6 +1010,7 @@
    "phone": "501-240-6049",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1266,6 +1025,7 @@
    "phone": "888-522-7355",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1280,6 +1040,7 @@
    "phone": "770-612-7007",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1294,6 +1055,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1308,6 +1070,7 @@
    "phone": "(888) 612-4309",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1322,6 +1085,7 @@
    "phone": "1-888-896-4442;",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1336,6 +1100,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1350,6 +1115,7 @@
    "phone": "(844) 358-4700 ;",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1364,6 +1130,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1378,6 +1145,7 @@
    "phone": "805.683.6551",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1392,6 +1160,7 @@
    "phone": "951-691-1088",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1406,6 +1175,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1420,6 +1190,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1434,6 +1205,7 @@
    "phone": "888-464-0018",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1448,6 +1220,7 @@
    "phone": "904.854.5100",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1462,6 +1235,7 @@
    "phone": "(314) 485-4882",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1476,6 +1250,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1490,6 +1265,7 @@
    "phone": "402-537-6176",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1504,6 +1280,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1518,6 +1295,22 @@
    "phone": "(888) 672-2140 ;",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
+   "has_link": false,
+   "has_method": true,
+   "source": "data-brokers-watch"
+  },
+  {
+   "name": "Cell Phone Registry",
+   "domain": "cellphoneregistry.com",
+   "category": "Directory",
+   "people_search": true,
+   "opt_out_url": "https://www.infopay.com/optout",
+   "opt_out_method": "Yes - by Opt-Out Form",
+   "phone": "",
+   "needs_form": false,
+   "has_captcha": false,
+   "link_status": "broken",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1532,6 +1325,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1546,6 +1340,7 @@
    "phone": "615-386-2282",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1560,6 +1355,7 @@
    "phone": "Download Search Results",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1574,6 +1370,7 @@
    "phone": "(312) 985-0173",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1588,6 +1385,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1602,6 +1400,7 @@
    "phone": "(407) 259-2428",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1616,6 +1415,22 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
+   "has_link": false,
+   "has_method": true,
+   "source": "data-brokers-watch"
+  },
+  {
+   "name": "Court Records",
+   "domain": "courtrecords.org",
+   "category": "People Search",
+   "people_search": true,
+   "opt_out_url": "https://members.courtrecords.org/customer/terms?tab=optout",
+   "opt_out_method": "Yes - by Opt-Out Form",
+   "phone": "",
+   "needs_form": false,
+   "has_captcha": false,
+   "link_status": "broken",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1630,6 +1445,7 @@
    "phone": "800-309-9352",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1644,6 +1460,22 @@
    "phone": "(888) 943-4636",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
+   "has_link": false,
+   "has_method": true,
+   "source": "data-brokers-watch"
+  },
+  {
+   "name": "Criminal Pages",
+   "domain": "criminalpages.com",
+   "category": "People Search",
+   "people_search": true,
+   "opt_out_url": "http://courtregistry.org/index.php?xpath=privacy",
+   "opt_out_method": "Yes - by Opt-Out Form",
+   "phone": "800-309-9351",
+   "needs_form": false,
+   "has_captcha": false,
+   "link_status": "broken",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1658,6 +1490,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1672,6 +1505,7 @@
    "phone": "(800) 515-8498",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1686,6 +1520,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1700,6 +1535,7 @@
    "phone": "(901) 685-7599",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1714,6 +1550,7 @@
    "phone": "855-755-(3282)",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1728,6 +1565,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1742,6 +1580,7 @@
    "phone": "239-260-1566",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1756,6 +1595,7 @@
    "phone": "800-309-9352",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1770,6 +1610,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1784,6 +1625,7 @@
    "phone": "(610) 228-0906",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1798,6 +1640,7 @@
    "phone": "800-309-9352",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1812,6 +1655,7 @@
    "phone": "(917) 232-8867",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1826,6 +1670,7 @@
    "phone": "(480) 656-5043",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1840,6 +1685,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1854,6 +1700,22 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
+   "has_link": false,
+   "has_method": true,
+   "source": "data-brokers-watch"
+  },
+  {
+   "name": "Email Tracer",
+   "domain": "emailtracer.com",
+   "category": "People Search",
+   "people_search": true,
+   "opt_out_url": "http://www.emailtracer.com/tos.php",
+   "opt_out_method": "No",
+   "phone": "",
+   "needs_form": false,
+   "has_captcha": false,
+   "link_status": "broken",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1868,6 +1730,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1882,6 +1745,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1896,6 +1760,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1910,6 +1775,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1924,6 +1790,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1938,6 +1805,22 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
+   "has_link": false,
+   "has_method": true,
+   "source": "data-brokers-watch"
+  },
+  {
+   "name": "Fullcontact, Inc.",
+   "domain": "fullcontact.com",
+   "category": "Identity Verification Services",
+   "people_search": false,
+   "opt_out_url": "https://dashboard.fullcontact.com/claim",
+   "opt_out_method": "Yes - by Opt-Out Form",
+   "phone": "",
+   "needs_form": false,
+   "has_captcha": false,
+   "link_status": "broken",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1952,6 +1835,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1966,6 +1850,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1980,6 +1865,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -1994,6 +1880,7 @@
    "phone": "800-309-9352",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2008,6 +1895,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2022,6 +1910,7 @@
    "phone": "(609) 602-0631",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2036,6 +1925,7 @@
    "phone": "(414) 316-3472",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2050,6 +1940,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2064,6 +1955,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2078,6 +1970,7 @@
    "phone": "(972) 715-5436",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2092,6 +1985,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2106,6 +2000,7 @@
    "phone": "(832) 866-4512",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2120,6 +2015,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2134,6 +2030,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2148,6 +2045,7 @@
    "phone": "(609) 240-2855",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2162,6 +2060,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2176,6 +2075,7 @@
    "phone": "1 (302) 223-5135",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2190,6 +2090,7 @@
    "phone": "(201) 469-3210",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2204,6 +2105,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2218,6 +2120,7 @@
    "phone": "800-309-9352",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2232,6 +2135,7 @@
    "phone": "2165717694",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2246,6 +2150,7 @@
    "phone": "(800) 776-6373",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2260,6 +2165,7 @@
    "phone": "614.457.8900",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2274,6 +2180,7 @@
    "phone": "1-866-349-5185",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2288,6 +2195,7 @@
    "phone": "703.742.4200",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2302,6 +2210,7 @@
    "phone": "802-684-1179",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2316,6 +2225,7 @@
    "phone": "(313) 749-0982",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2330,6 +2240,22 @@
    "phone": "614.481.6999",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
+   "has_link": false,
+   "has_method": true,
+   "source": "data-brokers-watch"
+  },
+  {
+   "name": "Oracle America, Inc. (Oracle Data Cloud)",
+   "domain": "oracle.com",
+   "category": "Marketing Data Broker",
+   "people_search": false,
+   "opt_out_url": "https://oracle.ethicspointvp.com/custom/oracle/dp/en/form_data.asp",
+   "opt_out_method": "Yes - by Opt-Out Form",
+   "phone": "",
+   "needs_form": false,
+   "has_captcha": false,
+   "link_status": "broken",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2344,6 +2270,22 @@
    "phone": "866-870-2295",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
+   "has_link": false,
+   "has_method": true,
+   "source": "data-brokers-watch"
+  },
+  {
+   "name": "Peek You",
+   "domain": "peekyou.com",
+   "category": "People Search",
+   "people_search": true,
+   "opt_out_url": "https://www.peekyou.com/about/contact/optout/index.php",
+   "opt_out_method": "Yes - by Opt-Out Form",
+   "phone": "",
+   "needs_form": false,
+   "has_captcha": false,
+   "link_status": "broken",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2358,6 +2300,22 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
+   "has_link": false,
+   "has_method": true,
+   "source": "data-brokers-watch"
+  },
+  {
+   "name": "Peopleconnect, Inc.",
+   "domain": "peopleconnect.us",
+   "category": "People Search",
+   "people_search": true,
+   "opt_out_url": "http://www.peopleconnect.us/privacy#p-3",
+   "opt_out_method": "Yes - by Opt-Out Form",
+   "phone": "",
+   "needs_form": false,
+   "has_captcha": false,
+   "link_status": "broken",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2372,6 +2330,7 @@
    "phone": "800-630-2880",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2386,6 +2345,7 @@
    "phone": "1-800-481-9168",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2400,6 +2360,7 @@
    "phone": "(201) 232-2573",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2414,6 +2375,7 @@
    "phone": "(770) 255-1020 ;",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2428,6 +2390,7 @@
    "phone": "(267) 348-4158",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2442,6 +2405,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2456,6 +2420,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2470,6 +2435,7 @@
    "phone": "800-309-9352",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2484,6 +2450,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2498,6 +2465,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2512,6 +2480,7 @@
    "phone": "800-309-9352",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2526,6 +2495,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2540,6 +2510,7 @@
    "phone": "800-309-9352",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2554,6 +2525,7 @@
    "phone": "800-309-9353",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2568,6 +2540,7 @@
    "phone": "800-309-9354",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2582,6 +2555,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2596,6 +2570,7 @@
    "phone": "(913) 782-8544",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2610,6 +2585,7 @@
    "phone": "760-454-7301 ; 8",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2624,6 +2600,7 @@
    "phone": "(206) 301-5800 ;",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2638,6 +2615,7 @@
    "phone": "(844) 422-8347",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2652,6 +2630,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2666,6 +2645,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2680,6 +2660,7 @@
    "phone": "800-899-2272",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2694,6 +2675,7 @@
    "phone": "(703) 955 1540",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2708,6 +2690,7 @@
    "phone": "(800) 332-9479;x",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2722,6 +2705,7 @@
    "phone": "800-446-6536",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2736,6 +2720,7 @@
    "phone": "(303)893-8600",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2750,6 +2735,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2764,6 +2750,7 @@
    "phone": "800-309-9354",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2778,6 +2765,7 @@
    "phone": "(888) 9-LEADCO",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2792,6 +2780,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2806,6 +2795,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2820,6 +2810,7 @@
    "phone": "1-646-742-1771",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2834,6 +2825,7 @@
    "phone": "(877) 723-2689",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2848,6 +2840,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2862,6 +2855,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2876,6 +2870,7 @@
    "phone": "800.706.4741",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2890,6 +2885,7 @@
    "phone": "7029707112",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2904,6 +2900,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2918,6 +2915,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2932,6 +2930,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2946,6 +2945,7 @@
    "phone": "5617574086",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2960,6 +2960,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2974,6 +2975,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -2988,6 +2990,7 @@
    "phone": "86.40000444",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -3002,6 +3005,7 @@
    "phone": "866-904-9666",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": true,
    "source": "data-brokers-watch"
@@ -3016,6 +3020,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3030,6 +3035,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3044,6 +3050,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3058,6 +3065,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3072,6 +3080,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3086,6 +3095,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3100,6 +3110,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3114,6 +3125,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3128,6 +3140,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3142,6 +3155,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3156,6 +3170,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3170,6 +3185,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3184,6 +3200,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3198,6 +3215,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3212,6 +3230,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3226,6 +3245,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3240,6 +3260,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3254,6 +3275,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3268,6 +3290,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3282,6 +3305,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3296,6 +3320,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3310,6 +3335,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3324,6 +3350,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3338,6 +3365,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3352,6 +3380,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3366,6 +3395,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3380,6 +3410,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3394,6 +3425,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3408,6 +3440,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3422,6 +3455,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3436,6 +3470,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3450,6 +3485,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3464,6 +3500,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3478,6 +3515,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3492,6 +3530,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3506,6 +3545,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3520,6 +3560,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3534,6 +3575,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3548,6 +3590,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3562,6 +3605,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3576,6 +3620,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3590,6 +3635,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3604,6 +3650,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3618,6 +3665,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3632,6 +3680,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3646,6 +3695,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3660,6 +3710,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3674,6 +3725,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3688,6 +3740,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3702,6 +3755,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3716,6 +3770,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3730,6 +3785,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3744,6 +3800,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3758,6 +3815,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3772,6 +3830,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3786,6 +3845,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3800,6 +3860,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3814,6 +3875,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3828,6 +3890,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3842,6 +3905,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3856,6 +3920,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3870,6 +3935,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3884,6 +3950,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3898,6 +3965,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3912,6 +3980,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3926,6 +3995,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3940,6 +4010,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3954,6 +4025,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3968,6 +4040,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3982,6 +4055,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -3996,6 +4070,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4010,6 +4085,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4024,6 +4100,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4038,6 +4115,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4052,6 +4130,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4066,6 +4145,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4080,6 +4160,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4094,6 +4175,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4108,6 +4190,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4122,6 +4205,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4136,6 +4220,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4150,6 +4235,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4164,6 +4250,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4178,6 +4265,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4192,6 +4280,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4206,6 +4295,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4220,6 +4310,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4234,6 +4325,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4248,6 +4340,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4262,6 +4355,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4276,6 +4370,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4290,6 +4385,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4304,6 +4400,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4318,6 +4415,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4332,6 +4430,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4346,6 +4445,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4360,6 +4460,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4374,6 +4475,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4388,6 +4490,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4402,6 +4505,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4416,6 +4520,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4430,6 +4535,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4444,6 +4550,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4458,6 +4565,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4472,6 +4580,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4486,6 +4595,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4500,6 +4610,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4514,6 +4625,22 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
+   "has_link": false,
+   "has_method": false,
+   "source": "data-brokers-watch"
+  },
+  {
+   "name": "coxtarget.com",
+   "domain": "coxtarget.com",
+   "category": "Direct Marketers",
+   "people_search": false,
+   "opt_out_url": "http://www.coxtarget.com/mailsuppression/s/DisplayMailSuppressionForm",
+   "opt_out_method": "",
+   "phone": "",
+   "needs_form": false,
+   "has_captcha": false,
+   "link_status": "broken",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4528,6 +4655,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4542,6 +4670,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4556,6 +4685,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4570,6 +4700,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4584,6 +4715,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4598,6 +4730,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4612,6 +4745,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4626,6 +4760,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4640,6 +4775,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4654,6 +4790,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4668,6 +4805,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4682,6 +4820,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4696,6 +4835,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4710,6 +4850,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4724,6 +4865,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4738,6 +4880,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4752,6 +4895,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4766,6 +4910,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4780,6 +4925,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4794,6 +4940,22 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
+   "has_link": false,
+   "has_method": false,
+   "source": "data-brokers-watch"
+  },
+  {
+   "name": "DexKnows",
+   "domain": "dexknows.com",
+   "category": "Direct Marketers",
+   "people_search": false,
+   "opt_out_url": "http://green.dexknows.com/DexGreen/selectDexAction.do",
+   "opt_out_method": "",
+   "phone": "",
+   "needs_form": false,
+   "has_captcha": false,
+   "link_status": "broken",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4808,6 +4970,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4822,6 +4985,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4836,6 +5000,22 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
+   "has_link": false,
+   "has_method": false,
+   "source": "data-brokers-watch"
+  },
+  {
+   "name": "DMA Choice Do Not Mail List / Deceased Do Not Contact List",
+   "domain": "thedma.org",
+   "category": "Data Brokers",
+   "people_search": false,
+   "opt_out_url": "https://dmachoice.thedma.org/register.php",
+   "opt_out_method": "",
+   "phone": "",
+   "needs_form": false,
+   "has_captcha": false,
+   "link_status": "broken",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4850,6 +5030,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4864,6 +5045,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4878,6 +5060,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4892,6 +5075,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4906,6 +5090,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4920,6 +5105,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4934,6 +5120,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4948,6 +5135,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4962,6 +5150,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4976,6 +5165,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -4990,6 +5180,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5004,6 +5195,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5018,6 +5210,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5032,6 +5225,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5046,6 +5240,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5060,6 +5255,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5074,6 +5270,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5088,6 +5285,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5102,6 +5300,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5116,6 +5315,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5130,6 +5330,22 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
+   "has_link": false,
+   "has_method": false,
+   "source": "data-brokers-watch"
+  },
+  {
+   "name": "Equifax Information Services Llc",
+   "domain": "equifax.com",
+   "category": "Credit Bureaus",
+   "people_search": false,
+   "opt_out_url": "https://help.equifax.com/app/answers/detail/a_id/2/noIntercept/1/kw/prescreen",
+   "opt_out_method": "",
+   "phone": "",
+   "needs_form": false,
+   "has_captcha": false,
+   "link_status": "broken",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5144,6 +5360,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5158,6 +5375,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5172,6 +5390,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5186,6 +5405,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5200,6 +5420,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5214,6 +5435,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5228,6 +5450,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5242,6 +5465,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5256,6 +5480,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5270,6 +5495,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5284,6 +5510,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5298,6 +5525,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5312,6 +5540,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5326,6 +5555,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5340,6 +5570,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5354,6 +5585,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5368,6 +5600,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5382,6 +5615,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5396,6 +5630,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5410,6 +5645,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5424,6 +5660,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5438,6 +5675,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5452,6 +5690,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5466,6 +5705,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5480,6 +5720,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5494,6 +5735,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5508,6 +5750,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5522,6 +5765,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5536,6 +5780,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5550,6 +5795,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5564,6 +5810,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5578,6 +5825,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5592,6 +5840,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5606,6 +5855,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5620,6 +5870,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5634,6 +5885,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5648,6 +5900,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5662,6 +5915,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5676,6 +5930,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5690,6 +5945,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5704,6 +5960,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5718,6 +5975,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5732,6 +5990,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5746,6 +6005,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5760,6 +6020,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5774,6 +6035,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5788,6 +6050,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5802,6 +6065,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5816,6 +6080,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5830,6 +6095,22 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
+   "has_link": false,
+   "has_method": false,
+   "source": "data-brokers-watch"
+  },
+  {
+   "name": "Haines & Company Inc.",
+   "domain": "haines.com",
+   "category": "Direct Marketers",
+   "people_search": false,
+   "opt_out_url": "http://www.haines.com/privacy1.htm",
+   "opt_out_method": "",
+   "phone": "",
+   "needs_form": false,
+   "has_captcha": false,
+   "link_status": "broken",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5844,6 +6125,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5858,6 +6140,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5872,6 +6155,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5886,6 +6170,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5900,6 +6185,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5914,6 +6200,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5928,6 +6215,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5942,6 +6230,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5956,6 +6245,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5970,6 +6260,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5984,6 +6275,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -5998,6 +6290,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6012,6 +6305,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6026,6 +6320,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6040,6 +6335,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6054,6 +6350,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6068,6 +6365,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6082,6 +6380,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6096,6 +6395,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6110,6 +6410,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6124,6 +6425,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6138,6 +6440,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6152,6 +6455,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6166,6 +6470,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6180,6 +6485,22 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
+   "has_link": false,
+   "has_method": false,
+   "source": "data-brokers-watch"
+  },
+  {
+   "name": "Innovis",
+   "domain": "innovis.com",
+   "category": "Data Brokers",
+   "people_search": false,
+   "opt_out_url": "https://www.innovis.com/InnovisWeb/pers_lc_opt_out.html",
+   "opt_out_method": "",
+   "phone": "",
+   "needs_form": false,
+   "has_captcha": false,
+   "link_status": "broken",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6194,6 +6515,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6208,6 +6530,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6222,6 +6545,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6236,6 +6560,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6250,6 +6575,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6264,6 +6590,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6278,6 +6605,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6292,6 +6620,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6306,6 +6635,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6320,6 +6650,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6334,6 +6665,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6348,6 +6680,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6362,6 +6695,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6376,6 +6710,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6390,6 +6725,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6404,6 +6740,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6418,6 +6755,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6432,6 +6770,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6446,6 +6785,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6460,6 +6800,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6474,6 +6815,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6488,6 +6830,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6502,6 +6845,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6516,6 +6860,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6530,6 +6875,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6544,6 +6890,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6558,6 +6905,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6572,6 +6920,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6586,6 +6935,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6600,6 +6950,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6614,6 +6965,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6628,6 +6980,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6642,6 +6995,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6656,6 +7010,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6670,6 +7025,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6684,6 +7040,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6698,6 +7055,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6712,6 +7070,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6726,6 +7085,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6740,6 +7100,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6754,6 +7115,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6768,6 +7130,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6782,6 +7145,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6796,6 +7160,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6810,6 +7175,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6824,6 +7190,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6838,6 +7205,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6852,6 +7220,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6866,6 +7235,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6880,6 +7250,37 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
+   "has_link": false,
+   "has_method": false,
+   "source": "data-brokers-watch"
+  },
+  {
+   "name": "Locate People",
+   "domain": "locatepeople.org",
+   "category": "Personal Information",
+   "people_search": false,
+   "opt_out_url": "http://www.locatepeople.org/index.php?xpath=privacy",
+   "opt_out_method": "",
+   "phone": "",
+   "needs_form": false,
+   "has_captcha": false,
+   "link_status": "broken",
+   "has_link": false,
+   "has_method": false,
+   "source": "data-brokers-watch"
+  },
+  {
+   "name": "LocatePLUS",
+   "domain": "locateplus.com",
+   "category": "Personal Information",
+   "people_search": false,
+   "opt_out_url": "https://www.locateplus.com/privacy.asp",
+   "opt_out_method": "",
+   "phone": "",
+   "needs_form": false,
+   "has_captcha": false,
+   "link_status": "broken",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6894,6 +7295,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6908,6 +7310,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6922,6 +7325,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6936,6 +7340,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6950,6 +7355,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6964,6 +7370,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6978,6 +7385,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -6992,6 +7400,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7006,6 +7415,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7020,6 +7430,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7034,6 +7445,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7048,6 +7460,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7062,6 +7475,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7076,6 +7490,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7090,6 +7505,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7104,6 +7520,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7118,6 +7535,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7132,6 +7550,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7146,6 +7565,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7160,6 +7580,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7174,6 +7595,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7188,6 +7610,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7202,6 +7625,22 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
+   "has_link": false,
+   "has_method": false,
+   "source": "data-brokers-watch"
+  },
+  {
+   "name": "Merlin Information Services",
+   "domain": "merlindata.com",
+   "category": "Data Brokers",
+   "people_search": false,
+   "opt_out_url": "https://www.merlindata.com/privacystatement.asp#Opt",
+   "opt_out_method": "",
+   "phone": "",
+   "needs_form": false,
+   "has_captcha": false,
+   "link_status": "broken",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7216,6 +7655,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7230,6 +7670,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7244,6 +7685,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7258,6 +7700,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7272,6 +7715,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7286,6 +7730,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7300,6 +7745,22 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
+   "has_link": false,
+   "has_method": false,
+   "source": "data-brokers-watch"
+  },
+  {
+   "name": "moneymailerdirect.com",
+   "domain": "moneymailerdirect.com",
+   "category": "Direct Marketers",
+   "people_search": false,
+   "opt_out_url": "http://www.moneymailerdirect.com/PrivacyPolicy.aspx",
+   "opt_out_method": "",
+   "phone": "",
+   "needs_form": false,
+   "has_captcha": false,
+   "link_status": "broken",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7314,6 +7775,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7328,6 +7790,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7342,6 +7805,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7356,6 +7820,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7370,6 +7835,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7384,6 +7850,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7398,6 +7865,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7412,6 +7880,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7426,6 +7895,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7440,6 +7910,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7454,6 +7925,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7468,6 +7940,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7482,6 +7955,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7496,6 +7970,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7510,6 +7985,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7524,6 +8000,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7538,6 +8015,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7552,6 +8030,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7566,6 +8045,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7580,6 +8060,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7594,6 +8075,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7608,6 +8090,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7622,6 +8105,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7636,6 +8120,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7650,6 +8135,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7664,6 +8150,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7678,6 +8165,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7692,6 +8180,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7706,6 +8195,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7720,6 +8210,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7734,6 +8225,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7748,6 +8240,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7762,6 +8255,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7776,6 +8270,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7790,6 +8285,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7804,6 +8300,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7818,6 +8315,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7832,6 +8330,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7846,6 +8345,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7860,6 +8360,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7874,6 +8375,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7888,6 +8390,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7902,6 +8405,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7916,6 +8420,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7930,6 +8435,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7944,6 +8450,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7958,6 +8465,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7972,6 +8480,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -7986,6 +8495,22 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
+   "has_link": false,
+   "has_method": false,
+   "source": "data-brokers-watch"
+  },
+  {
+   "name": "pch.com",
+   "domain": "pch.com",
+   "category": "Direct Marketers",
+   "people_search": false,
+   "opt_out_url": "http://www.pch.com/infocenter/privacypolicy.shtml?cm_re=PCH.com-_-TopShell-_-Dec08Privacy#12",
+   "opt_out_method": "",
+   "phone": "",
+   "needs_form": false,
+   "has_captcha": false,
+   "link_status": "broken",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8000,6 +8525,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8014,6 +8540,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8028,6 +8555,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8042,6 +8570,22 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
+   "has_link": false,
+   "has_method": false,
+   "source": "data-brokers-watch"
+  },
+  {
+   "name": "people-finders.ws",
+   "domain": "people-finders.ws",
+   "category": "Data Brokers",
+   "people_search": false,
+   "opt_out_url": "http://www.people-finders.ws/privacy.aspx?popup=true",
+   "opt_out_method": "",
+   "phone": "",
+   "needs_form": false,
+   "has_captcha": false,
+   "link_status": "broken",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8056,6 +8600,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8070,6 +8615,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8084,6 +8630,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8098,6 +8645,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8112,6 +8660,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8126,6 +8675,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8140,6 +8690,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8154,6 +8705,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8168,6 +8720,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8182,6 +8735,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8196,6 +8750,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8210,6 +8765,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8224,6 +8780,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8238,6 +8795,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8252,6 +8810,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8266,6 +8825,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8280,6 +8840,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8294,6 +8855,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8308,6 +8870,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8322,6 +8885,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8336,6 +8900,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8350,6 +8915,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8364,6 +8930,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8378,6 +8945,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8392,6 +8960,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8406,6 +8975,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8420,6 +8990,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8434,6 +9005,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8448,6 +9020,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8462,6 +9035,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8476,6 +9050,22 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
+   "has_link": false,
+   "has_method": false,
+   "source": "data-brokers-watch"
+  },
+  {
+   "name": "Readers Digest",
+   "domain": "rd.com",
+   "category": "Direct Marketers",
+   "people_search": false,
+   "opt_out_url": "http://www.rd.com/privacy-policy/article10660.html#opting",
+   "opt_out_method": "",
+   "phone": "",
+   "needs_form": false,
+   "has_captcha": false,
+   "link_status": "broken",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8490,6 +9080,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8504,6 +9095,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8518,6 +9110,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8532,6 +9125,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8546,6 +9140,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8560,6 +9155,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8574,6 +9170,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8588,6 +9185,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8602,6 +9200,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8616,6 +9215,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8630,6 +9230,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8644,6 +9245,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8658,6 +9260,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8672,6 +9275,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8686,6 +9290,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8700,6 +9305,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8714,6 +9320,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8728,6 +9335,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8742,6 +9350,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8756,6 +9365,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8770,6 +9380,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8784,6 +9395,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8798,6 +9410,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8812,6 +9425,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8826,6 +9440,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8840,6 +9455,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8854,6 +9470,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8868,6 +9485,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8882,6 +9500,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8896,6 +9515,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8910,6 +9530,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8924,6 +9545,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8938,6 +9560,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8952,6 +9575,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8966,6 +9590,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8980,6 +9605,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -8994,6 +9620,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9008,6 +9635,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9022,6 +9650,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9036,6 +9665,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9050,6 +9680,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9064,6 +9695,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9078,6 +9710,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9092,6 +9725,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9106,6 +9740,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9120,6 +9755,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9134,6 +9770,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9148,6 +9785,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9162,6 +9800,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9176,6 +9815,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9190,6 +9830,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9204,6 +9845,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9218,6 +9860,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9232,6 +9875,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9246,6 +9890,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9260,6 +9905,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9274,6 +9920,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9288,6 +9935,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9302,6 +9950,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9316,6 +9965,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9330,6 +9980,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9344,6 +9995,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9358,6 +10010,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9372,6 +10025,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9386,6 +10040,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9400,6 +10055,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9414,6 +10070,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9428,6 +10085,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9442,6 +10100,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9456,6 +10115,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9470,6 +10130,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9484,6 +10145,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9498,6 +10160,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9512,6 +10175,22 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
+   "has_link": false,
+   "has_method": false,
+   "source": "data-brokers-watch"
+  },
+  {
+   "name": "thomson.com",
+   "domain": "thomson.com",
+   "category": "Data Brokers",
+   "people_search": false,
+   "opt_out_url": "http://west.thomson.com/pdf/privacy/opt_out_form.pdf",
+   "opt_out_method": "",
+   "phone": "",
+   "needs_form": false,
+   "has_captcha": false,
+   "link_status": "broken",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9526,6 +10205,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9540,6 +10220,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9554,6 +10235,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9568,6 +10250,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9582,6 +10265,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9596,6 +10280,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9610,6 +10295,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9624,6 +10310,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9638,6 +10325,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9652,6 +10340,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9666,6 +10355,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9680,6 +10370,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9694,6 +10385,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9708,6 +10400,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9722,6 +10415,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9736,6 +10430,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9750,6 +10445,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9764,6 +10460,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9778,6 +10475,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9792,6 +10490,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9806,6 +10505,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9820,6 +10520,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9834,6 +10535,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9848,6 +10550,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9862,6 +10565,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9876,6 +10580,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9890,6 +10595,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9904,6 +10610,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9918,6 +10625,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9932,6 +10640,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9946,6 +10655,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9960,6 +10670,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9974,6 +10685,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -9988,6 +10700,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -10002,6 +10715,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -10016,6 +10730,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -10030,6 +10745,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -10044,6 +10760,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -10058,6 +10775,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -10072,6 +10790,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -10086,6 +10805,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -10100,6 +10820,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -10114,6 +10835,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -10128,6 +10850,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -10142,6 +10865,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -10156,6 +10880,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -10170,6 +10895,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -10184,6 +10910,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -10198,6 +10925,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"
@@ -10212,6 +10940,7 @@
    "phone": "",
    "needs_form": false,
    "has_captcha": false,
+   "link_status": "none",
    "has_link": false,
    "has_method": false,
    "source": "data-brokers-watch"

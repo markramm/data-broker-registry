@@ -33,9 +33,22 @@ def norm_url(u):
         return ""
     if u.lower() in ("n/a", "none", "unclear", "-", "see comments"):
         return ""
+    # DBW packs multiple URLs in one field as "url1 , url2" or "url1 ; ccpa: url2" — take the first.
+    u = re.split(r"\s*[;,]\s*|\s+ccpa:\s*|\s{2,}", u)[0].strip()
     if not u.startswith("http"):
         u = "https://" + u
     return u
+
+# liveness map from scripts/check_links.py (verified 2026-06-26). live/bot-blocked = usable by a
+# human; broken (404/dead) = do NOT present as a working one-click link.
+import json as _json
+_LS_PATH = os.path.join(HERE, "data", "link-status.json")
+LINK_STATUS = _json.load(open(_LS_PATH)) if os.path.exists(_LS_PATH) else {}
+def url_ok(u):
+    """Is this URL usable by a real human? (live or bot-blocked, NOT broken)"""
+    if not u:
+        return False
+    return LINK_STATUS.get(u, "unknown") in ("live", "bot-blocked", "redirect", "unknown")
 
 def has_optout(row):
     """Does this broker have an actionable opt-out path?"""
@@ -72,8 +85,10 @@ def main():
                 "phone": (r.get("Phone Number") or "").strip(),
                 "needs_form": (r.get("Form") or "").strip().lower() in ("yes", "true", "1"),
                 "has_captcha": (r.get("Capcha") or "").strip().lower() in ("yes", "true", "1"),
-                "has_link": bool(opt_url),                     # one-click opt-out URL
-                "has_method": bool(opt_url or method or r.get("Phone Number","").strip()),  # any actionable path
+                "link_status": LINK_STATUS.get(opt_url, "unknown") if opt_url else "none",
+                # has_link = a usable one-click URL (live/bot-blocked, NOT a verified-broken one)
+                "has_link": bool(opt_url) and url_ok(opt_url),
+                "has_method": bool((opt_url and url_ok(opt_url)) or method or r.get("Phone Number","").strip()),
                 "source": "data-brokers-watch",
             })
 
@@ -88,11 +103,13 @@ def main():
                 by_domain[dom]["source"] = "data-brokers-watch + tcp-verified"
                 by_domain[dom]["has_link"] = bool(by_domain[dom].get("opt_out_url"))
                 by_domain[dom]["has_method"] = bool(by_domain[dom].get("opt_out_url") or by_domain[dom].get("opt_out_method") or by_domain[dom].get("phone"))
+                by_domain[dom]["link_status"] = "tcp-verified"   # our hand-verified link
                 enriched += 1
             else:  # net-new broker we curated
                 e["source"] = "tcp-verified"
                 e["has_link"] = bool(e.get("opt_out_url"))
                 e["has_method"] = bool(e.get("opt_out_url") or e.get("opt_out_method") or e.get("phone"))
+                e["link_status"] = "tcp-verified"
                 rows.append(e)
                 enriched += 1
 
