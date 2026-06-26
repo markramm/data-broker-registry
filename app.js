@@ -8,6 +8,10 @@ const state = JSON.parse(localStorage.getItem(STORE) || "{}");
 const save = () => localStorage.setItem(STORE, JSON.stringify(state));
 const $ = (s) => document.querySelector(s);
 
+// Privacy-respecting aggregate event (Plausible). No user/PII — just a count, to answer the
+// one Phase-2 question: is the tool being USED, not just visited. No-op if Plausible isn't loaded.
+const track = (event, props) => { try { window.plausible && window.plausible(event, props ? {props} : undefined); } catch (e) {} };
+
 /* ---- the routing tree (sourced from the field-guide research; Tier A = everyone, B = higher-risk) ---- */
 const MOVES = {
   A: [
@@ -33,7 +37,7 @@ let BROKERS = [], shown = 0, PAGE = 40, filterLink = false, query = "";
 
 /* ---- triage ---- */
 document.querySelectorAll("#triage .choice").forEach((b) =>
-  b.addEventListener("click", () => { state.tier = b.dataset.tier; save(); renderPlan(); }));
+  b.addEventListener("click", () => { state.tier = b.dataset.tier; save(); track("triage", {tier: b.dataset.tier}); renderPlan(); }));
 
 $("#reset").addEventListener("click", () => {
   if (!confirm("Clear your progress on this device and start over?")) return;
@@ -162,6 +166,9 @@ function renderBrokers() {
   const toggle = (dom) => { state["b:" + dom] = !state["b:" + dom]; save(); renderBrokers(); updateProgress(); };
   $("#brokers").querySelectorAll("[data-b]").forEach((el) =>
     el.addEventListener("click", (e) => { e.preventDefault(); toggle(el.dataset.b); }));
+  // the real Phase-2 usage signal: someone actually clicked through to opt out (aggregate count only)
+  $("#brokers").querySelectorAll(".act a").forEach((a) =>
+    a.addEventListener("click", () => track("opt-out-click")));
   $("#load-more-wrap").style.display = shown < list.length ? "" : "none";
   updateProgress();
 }
