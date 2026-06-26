@@ -78,6 +78,46 @@ async function loadBrokers() {
   renderBrokers();
 }
 
+/* ---- optional: load Yael Grauer's BADBOOL list (CC BY-NC-SA) at the user's choice.
+   We do NOT bundle it (license incompatibility with GPL); the user fetches our maintained
+   structured fork of it. This merges its higher-quality opt-out links over the roster. ---- */
+const BADBOOL_URL = "https://raw.githubusercontent.com/markramm/Big-Ass-Data-Broker-Opt-Out-List/structured-data/data/badbool.json";
+async function loadBadbool() {
+  const btn = $("#load-badbool");
+  if (btn) { btn.disabled = true; btn.textContent = "Loading…"; }
+  try {
+    const r = await fetch(BADBOOL_URL);
+    const d = await r.json();
+    const byName = {};
+    BROKERS.forEach(b => { byName[(b.name || "").toLowerCase()] = b; byName[(b.domain || "").toLowerCase()] = b; });
+    let added = 0, improved = 0;
+    (d.brokers || []).forEach(e => {
+      const key = (e.name || "").toLowerCase();
+      const dom = (e.opt_out_url || "").replace(/^https?:\/\//, "").split("/")[0].toLowerCase();
+      const match = byName[key] || byName[dom];
+      const norm = {
+        name: e.name, domain: dom || key, category: e.section || "People Search",
+        people_search: /people|search|directory/i.test(e.section || ""),
+        opt_out_url: e.opt_out_url || "", opt_out_method: e.instructions ? "see instructions" : "",
+        crucial: e.crucial, requires_id: e.requires_id, charges_money: e.charges_money,
+        has_link: !!e.opt_out_url, has_method: !!(e.opt_out_url || e.instructions),
+        source: "badbool",
+      };
+      if (match) {
+        if (norm.opt_out_url && norm.opt_out_url !== match.opt_out_url) { match.opt_out_url = norm.opt_out_url; match.has_link = true; match.source += " + badbool"; match.crucial = norm.crucial; improved++; }
+      } else { BROKERS.push(norm); added++; }
+    });
+    // re-sort: crucial + linked first
+    BROKERS.sort((a, b) => (Number(!(a.crucial && a.has_link)) - Number(!(b.crucial && b.has_link)))
+      || (Number(!a.has_link) - Number(!b.has_link)) || (a.name || "").localeCompare(b.name || ""));
+    state.badbool_loaded = true; save();
+    if (btn) btn.outerHTML = `<span class="muted">✓ BADBOOL loaded — ${added} added, ${improved} improved (Yael Grauer, CC BY-NC-SA)</span>`;
+    shown = PAGE; renderBrokers();
+  } catch (e) {
+    if (btn) { btn.disabled = false; btn.textContent = "Couldn't load — open the list directly"; btn.onclick = () => window.open("https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List"); }
+  }
+}
+
 function filtered() {
   let list = BROKERS;
   if (filterLink) list = list.filter(b => b.has_link);
@@ -118,6 +158,7 @@ $("#load-more").addEventListener("click", () => { shown += PAGE; renderBrokers()
 $("#search").addEventListener("input", (e) => { query = e.target.value; shown = PAGE; renderBrokers(); });
 $("#filter-link").addEventListener("click", () => { filterLink = true; shown = PAGE; renderBrokers(); });
 $("#filter-all").addEventListener("click", () => { filterLink = false; shown = PAGE; renderBrokers(); });
+$("#load-badbool")?.addEventListener("click", loadBadbool);
 
 /* ---- progress (moves + the people-search-with-link brokers, the high-impact core) ---- */
 function updateProgress() {
