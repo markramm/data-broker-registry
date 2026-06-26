@@ -46,15 +46,14 @@ function renderPlan() {
   const tier = state.tier || "A";
   let moves = [...MOVES.A];
   if (tier === "B") moves = [...MOVES.A.filter(m => m[0] === "remove"), ...MOVES.B, ...MOVES.A.filter(m => m[0] !== "remove")];
-  // (CA move surfaced inside the broker section header; kept simple for v1)
-  const html = `<div class="card"><h2 style="margin-top:0">Your plan</h2>` +
+  const html = `<div class="mhead">Your plan · ${tier === "B" ? "high-risk file" : "standard file"}</div>` +
     moves.map(([id, title, desc, url]) => {
       const done = !!state["move:" + id];
       return `<div class="step ${done ? "done" : ""}">
-        <input type="checkbox" data-move="${id}" ${done ? "checked" : ""}>
-        <label><strong>${title}</strong><br><span class="muted">${desc}</span>
-        ${url ? ` <a class="txt" href="${url}" target="_blank" rel="noopener">open &rarr;</a>` : ""}</label></div>`;
-    }).join("") + `</div>`;
+        <input type="checkbox" id="m_${id}" data-move="${id}" ${done ? "checked" : ""}>
+        <label for="m_${id}"><span class="t">${title}</span>
+        <span class="d">${desc}${url ? ` <a class="go" href="${url}" target="_blank" rel="noopener">open &rarr;</a>` : ""}</span></label></div>`;
+    }).join("");
   $("#moves").innerHTML = html;
   $("#moves").querySelectorAll("input[data-move]").forEach((i) =>
     i.addEventListener("change", () => { state["move:" + i.dataset.move] = i.checked; save(); renderPlan(); updateProgress(); }));
@@ -69,8 +68,7 @@ async function loadBrokers() {
       const d = await r.json();
       BROKERS = d.brokers || [];
     } catch (e) {
-      $("#brokers").innerHTML = `<p class="muted">Couldn't load the broker list. You can still use
-        <a class="txt" href="https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List">Yael Grauer's list</a> directly.</p>`;
+      $("#brokers").innerHTML = `<p class="ledger-meta">Couldn&rsquo;t load the register. You can still use <a href="https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List" style="color:var(--seal)">Yael Grauer&rsquo;s list</a> directly.</p>`;
       return;
     }
   }
@@ -111,7 +109,7 @@ async function loadBadbool() {
     BROKERS.sort((a, b) => (Number(!(a.crucial && a.has_link)) - Number(!(b.crucial && b.has_link)))
       || (Number(!a.has_link) - Number(!b.has_link)) || (a.name || "").localeCompare(b.name || ""));
     state.badbool_loaded = true; save();
-    if (btn) btn.outerHTML = `<span class="muted">✓ BADBOOL loaded — ${added} added, ${improved} improved (Yael Grauer, CC BY-NC-SA)</span>`;
+    if (btn) btn.outerHTML = `<span class="ledger-meta">✓ BADBOOL loaded · ${added} added · ${improved} improved · Yael Grauer, CC BY-NC-SA</span>`;
     shown = PAGE; renderBrokers();
   } catch (e) {
     if (btn) { btn.disabled = false; btn.textContent = "Couldn't load — open the list directly"; btn.onclick = () => window.open("https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List"); }
@@ -128,27 +126,31 @@ function filtered() {
   return list;
 }
 
+function esc(s){ return String(s||"").replace(/[<>&"]/g, c=>({"<":"&lt;",">":"&gt;","&":"&amp;",'"':"&quot;"}[c])); }
+
 function renderBrokers() {
   const list = filtered();
   const slice = list.slice(0, shown);
+  const doneN = list.filter(b => state["b:" + b.domain]).length;
   $("#broker-count").textContent =
-    `${list.length} brokers shown · ${list.filter(b => state["b:" + b.domain]).length} done · ` +
-    `${BROKERS.filter(b => b.has_link).length} have one-click opt-outs`;
-  $("#brokers").innerHTML = slice.map((b) => {
+    `${list.length} in register · ${doneN} struck · ${BROKERS.filter(b => b.has_link).length} one-click opt-outs available`;
+  $("#brokers").innerHTML = slice.map((b, i) => {
     const done = !!state["b:" + b.domain];
-    // never present a verified-broken URL as a clickable one-click opt-out
     const usableLink = b.opt_out_url && b.link_status !== "broken";
     const action = usableLink
-      ? `<a href="${b.opt_out_url}" target="_blank" rel="noopener">opt out &rarr;</a>`
+      ? `<a href="${esc(b.opt_out_url)}" target="_blank" rel="noopener">opt out &rarr;</a>`
       : (b.opt_out_method || b.phone
-          ? `<span class="note">${b.opt_out_method || ("call " + b.phone)}</span>`
-          : `<span class="note">search &ldquo;${b.name} opt out&rdquo;</span>`);
-    const pill = usableLink ? `<span class="pill">1-click</span>`
-               : b.has_method ? `<span class="pill method">manual</span>` : "";
-    return `<div class="broker ${done ? "done" : ""}">
-      <input type="checkbox" data-b="${b.domain}" ${done ? "checked" : ""}>
-      <span class="name">${b.name} ${pill} ${b.people_search ? '<span class="note">· people-search</span>' : ""}</span>
-      ${action}</div>`;
+          ? `<span class="note">${esc(b.opt_out_method || ("call " + b.phone))}</span>`
+          : `<span class="note">search it</span>`);
+    const tag = usableLink ? `<span class="tag${b.crucial ? " crucial" : ""}">${b.crucial ? "crucial" : "1-click"}</span>`
+              : b.has_method ? `<span class="tag manual">manual</span>` : "";
+    const ps = b.people_search ? `<span class="ps">people-search</span>` : "";
+    const idx = String(i + 1).padStart(2, "0");
+    return `<label class="brk ${done ? "done" : ""}">
+      <input type="checkbox" data-b="${esc(b.domain)}" ${done ? "checked" : ""}>
+      <span class="ix">${idx}</span>
+      <span class="body"><span class="nm">${esc(b.name)}</span> ${tag} ${ps}</span>
+      <span class="act">${done ? "struck" : action}</span></label>`;
   }).join("");
   $("#brokers").querySelectorAll("input[data-b]").forEach((i) =>
     i.addEventListener("change", () => { state["b:" + i.dataset.b] = i.checked; save(); renderBrokers(); updateProgress(); }));
@@ -164,15 +166,22 @@ $("#load-badbool")?.addEventListener("click", loadBadbool);
 
 /* ---- progress (moves + the people-search-with-link brokers, the high-impact core) ---- */
 function updateProgress() {
+  // the tally counts brokers STRUCK from the register (the page's heartbeat)
+  const struck = BROKERS.filter(b => state["b:" + b.domain]).length;
+  const reg = BROKERS.length;
   const tier = state.tier || "A";
   const moveIds = (tier === "B" ? [...MOVES.A, ...MOVES.B] : MOVES.A).map(m => m[0]);
-  const core = BROKERS.filter(b => b.people_search && b.has_link); // the high-impact actionable set
+  const core = BROKERS.filter(b => b.people_search && b.has_link); // high-impact actionable set
   const total = moveIds.length + core.length;
   const done = moveIds.filter(id => state["move:" + id]).length +
                core.filter(b => state["b:" + b.domain]).length;
   const pct = total ? Math.round(100 * done / total) : 0;
-  $("#bar").style.width = pct + "%";
-  $("#progress-label").textContent = `${done} of ${total} high-impact steps done (${pct}%)`;
+  const tallyEl = $("#tally");
+  if (tallyEl) tallyEl.innerHTML = reg
+    ? `You have struck <b>${struck}</b> of <b>${reg}</b> brokers from your file.`
+    : `Building your file…`;
+  if ($("#bar")) $("#bar").style.width = pct + "%";
+  if ($("#progress-label")) $("#progress-label").innerHTML = `<b>${struck}</b> struck · ${pct}% of high-impact steps`;
 }
 
 /* ---- boot ---- */
