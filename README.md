@@ -47,6 +47,20 @@ To validate a single file while authoring (e.g. as a pre-commit check):
 python3 scripts/validate_broker.py data/brokers/some-broker.md
 ```
 
+## Frontends
+
+This repo is the dataset — the facts, the schema, and the build pipeline that compiles them.
+The static site in `index.html`/`app.js` is one thin frontend for it. A second, more complete
+frontend ("Protect": on-device profile, tiered opt-out actions, dataset-integrity checking)
+lives in a separate repo and consumes the same compiled `data/brokers.json` artifact. Nothing
+about the dataset depends on either frontend; a third frontend is exactly as welcome as the
+first two.
+
+## Contributing
+
+See `CONTRIBUTING.md` — most contributions are adding or correcting a broker entry, which
+doesn't require touching any code.
+
 ## License
 
 This repository uses two licenses, on purpose — a dataset and the software that reads it are
