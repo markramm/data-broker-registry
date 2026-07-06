@@ -1,0 +1,163 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.transparencycascade.org/broker.schema.json",
+  "title": "Broker",
+  "description": "A single data-broker opt-out entry. Authored as YAML frontmatter on a per-broker markdown file under data/brokers/; compiled by scripts/build_brokers.py into data/brokers.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "domain",
+    "category",
+    "people_search",
+    "tier",
+    "priority",
+    "method",
+    "captcha",
+    "id_required",
+    "phone_required",
+    "charges_fee",
+    "required_fields",
+    "legal_basis",
+    "last_verified",
+    "source"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Slug matching the filename (domain with dots replaced by hyphens), e.g. spokeo-com."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "domain": {
+      "type": "string",
+      "pattern": "^[a-z0-9]([a-z0-9-]*[a-z0-9])?(\\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)+$",
+      "description": "Lowercase primary hostname. Used as the merge key against legacy data and link-status.json."
+    },
+    "category": {
+      "type": "string",
+      "minLength": 1
+    },
+    "people_search": {
+      "type": "boolean",
+      "description": "True if this broker resells identity/address/phone lookups (highest personal-safety impact)."
+    },
+    "tier": {
+      "type": "string",
+      "enum": ["auto", "assisted", "guided"],
+      "description": "Authored support-level classification: auto = email/mailto-composable, assisted = deep-link form + copy-per-field helper, guided = link + human instructions (CAPTCHA/ID/phone-gated). Not derived -- an editorial judgment call. method:email implies tier:auto; method:mail or method:phone implies tier:guided; method:form may be either assisted or guided depending on CAPTCHA/ID gating."
+    },
+    "priority": {
+      "type": "string",
+      "enum": ["crucial", "high", "standard"],
+      "description": "Impact ranking, independent of tier. BADBOOL emoji mapping: crucial (previously priority-marked), high (previously high-priority-marked); default standard."
+    },
+    "method": {
+      "type": "string",
+      "enum": ["email", "form", "portal", "mail", "phone", "unsupported"],
+      "description": "The mechanical channel used to opt out. Distinct from tier (tier is UX support level, method is the mechanism)."
+    },
+    "opt_out_url": {
+      "oneOf": [
+        { "type": "string", "format": "uri" },
+        { "type": "string", "pattern": "^<verify:.*>$" },
+        { "type": "null" }
+      ],
+      "description": "The opt-out page URL. An angle-bracket placeholder (<verify: ...>) marks an unconfirmed value -- schema-valid but must render an unverified badge, and last_verified must be null whenever this field is a placeholder. NEVER include user PII in this URL's query string (no email=, ssn=, name=, dob=, address= params, ever) -- enforced by scripts/broker_lib.py at build time, not just by this schema."
+    },
+    "opt_out_email": {
+      "oneOf": [
+        { "type": "string", "format": "email" },
+        { "type": "string", "pattern": "^<verify:.*>$" },
+        { "type": "null" }
+      ],
+      "description": "The address to send a CCPA-style opt-out/deletion request to. Required (non-null, non-placeholder) whenever tier is auto."
+    },
+    "phone": {
+      "oneOf": [
+        { "type": "string", "pattern": "^[0-9+()\\-. extEXT]+$" },
+        { "type": "null" }
+      ]
+    },
+    "captcha": {
+      "type": "boolean",
+      "default": false
+    },
+    "id_required": {
+      "type": "boolean",
+      "default": false,
+      "description": "BADBOOL: broker demands a government ID / driver's license to process the request."
+    },
+    "phone_required": {
+      "type": "boolean",
+      "default": false,
+      "description": "BADBOOL: broker demands a phone call, not just a phone number."
+    },
+    "charges_fee": {
+      "type": "boolean",
+      "default": false,
+      "description": "BADBOOL: broker charges money for opt-out/removal."
+    },
+    "verification": {
+      "type": ["string", "null"],
+      "description": "How the broker confirms the requester's identity/request, e.g. email_confirm, id_upload, notarized, none."
+    },
+    "required_fields": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "listing_url",
+          "email",
+          "full_name",
+          "address",
+          "phone",
+          "dob",
+          "ssn",
+          "gov_id",
+          "vin",
+          "other"
+        ]
+      },
+      "default": [],
+      "description": "Fields the broker's process requires. Presence of ssn, gov_id, or vin triggers the frontend's sensitive-data guardrail before the user proceeds."
+    },
+    "readd_days": {
+      "type": ["integer", "null"],
+      "minimum": 0,
+      "description": "Typical re-add/re-scrape cadence in days. Null if unknown. Drives the frontend's re-check nudge."
+    },
+    "legal_basis": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["ccpa", "cpra", "vcdpa", "cdpa", "gdpr", "none"]
+      },
+      "default": [],
+      "description": "Statutory bases this opt-out relies on, used to select the right request template."
+    },
+    "link_status": {
+      "type": "string",
+      "enum": ["live", "bot-blocked", "redirect", "broken", "unknown"],
+      "default": "unknown",
+      "description": "NOT authored in frontmatter -- merged in at build time from data/link-status.json by URL. Present here only to document the compiled-output shape."
+    },
+    "last_verified": {
+      "type": ["string", "null"],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "ISO 8601 date a human last confirmed this entry's routing against the broker's own page. Must be present (even as explicit null) on every entry -- a MISSING key fails the build; an explicit null means unconfirmed and the frontend must render an unverified badge. Must be null whenever opt_out_url or opt_out_email is a <verify: ...> placeholder."
+    },
+    "source": {
+      "type": "string",
+      "description": "Provenance tag, e.g. dbw, badbool, tcp-research, dbw+tcp-research. Distinguishes TCP-authored content (research_note, tier/priority judgments, instructions_md) from re-derived upstream facts, for licensing/attribution purposes."
+    },
+    "notes": {
+      "type": "string",
+      "description": "Short authoring note, distinct from the markdown body (instructions_md)."
+    }
+  }
+}

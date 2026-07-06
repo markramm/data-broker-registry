@@ -1,0 +1,35 @@
+name: Data conformance
+
+on:
+  pull_request:
+    paths:
+      - "data/**"
+      - "scripts/**"
+      - "broker.schema.json"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Validate every broker file against broker.schema.json
+        run: python3 scripts/validate_broker.py data/brokers/*.md
+
+      - name: Rebuild and diff against committed data/brokers.json
+        run: |
+          python3 scripts/build_brokers.py
+          git diff --exit-code data/brokers.json data/manifest.json || \
+            (echo "::error::data/brokers.json or data/manifest.json is stale -- run scripts/build.sh and commit the result" && exit 1)
+
+      - name: Check data/brokers.json is internally consistent (no hand-edits bypassing the build)
+        run: python3 scripts/build_brokers.py --check
+
+      - name: Require a dataset_version bump when content changed
+        run: python3 scripts/check_semver_bump.py "origin/${{ github.base_ref }}"

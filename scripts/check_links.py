@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """
-Verify the liveness of every broker opt-out URL (from brokers.json + the optional BADBOOL fork),
-and write data/link-status.json. Re-run periodically — broker opt-out pages churn constantly.
+Verify the liveness of every broker opt-out URL authored in data/brokers/*.md, and write
+data/link-status.json. Re-run periodically — broker opt-out pages churn constantly.
+
+Reads the AUTHORED markdown roster directly (not the compiled data/brokers.json), so this can
+run before a first build exists — build_brokers.py then reads this file back in to set each
+entry's link_status. Run via scripts/build.sh, which does both in the right order.
 
 Status meanings:
   live        — 2xx, the page loads
@@ -10,20 +14,26 @@ Status meanings:
   redirect    — 3xx, follow it (curl -L already does; recorded for awareness)
   broken      — 404 / connection-failed / 400. Do NOT present as a working one-click link.
 
-GPL-3.0, (C) 2026 Transparency Cascade Press.
+MIT, (C) 2026 Transparency Cascade Press.
 """
-import csv, json, os, subprocess, concurrent.futures as cf
+import json, os, subprocess, sys, concurrent.futures as cf
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import broker_lib as bl
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BROKERS = os.path.join(HERE, "data", "brokers.json")
 OUT = os.path.join(HERE, "data", "link-status.json")
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Safari/537.36"
 
 def collect_urls():
     urls = set()
-    d = json.load(open(BROKERS))
-    for b in d.get("brokers", []):
-        u = (b.get("opt_out_url") or "").strip()
+    for path in bl.iter_broker_files():
+        text = open(path, encoding="utf-8").read()
+        try:
+            entry, _ = bl.parse_frontmatter(text, path)
+        except bl.BrokerFileError:
+            continue  # a malformed file is validate_broker.py's job to catch, not ours
+        u = (entry.get("opt_out_url") or "").strip()
         if u.startswith("http"):
             urls.add(u)
     return sorted(urls)

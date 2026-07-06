@@ -1,0 +1,76 @@
+Data License: CC BY-NC-SA 4.0
+===============================
+
+The broker dataset in this repository -- data/brokers/*.md, the compiled
+data/brokers.json artifact, and broker.schema.json's structure/field
+definitions -- is licensed under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International License
+(CC BY-NC-SA 4.0):
+
+    https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+This is separate from the application code's license (MIT, see LICENSE).
+A dataset and the software that reads it are different things and carry
+different licenses on purpose.
+
+Attribution
+-----------
+
+This dataset draws on and credits three prior efforts:
+
+  - Privacy Rights Clearinghouse (privacyrights.org) -- data broker registry
+  - Yael Grauer -- Big Ass Data Broker Opt-Out List (BADBOOL)
+    (github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List)
+  - Data Brokers Watch (github.com/V4NT-ORG/Data-Broker-Watch) -- initial
+    roster baseline
+
+Verification research, tiering/priority judgments, and the guided-tier
+instructions in this dataset are original work by Transparency Cascade
+Press.
+
+Scope note: facts vs. expression
+---------------------------------
+
+Broker names, domains, and their own publicly-posted opt-out URLs are
+factual information. Facts are not, by themselves, subject to copyright --
+see Feist Publications v. Rural Telephone Service, 499 U.S. 340 (1991), the
+same principle projects like OpenStreetMap and Wikidata rely on when
+compiling factual data from multiple sources. What IS covered by this
+license is Transparency Cascade Press's own compilation, schema, tiering
+and priority judgments, verification research (research_note fields), and
+the original instructional text (instructions_md) written for each broker.
+
+We credit Privacy Rights Clearinghouse, Yael Grauer, and Data Brokers Watch
+above as a matter of attribution norms and gratitude for their work, not as
+an assertion that their license terms extend to the underlying facts. We are
+not asserting a copyright claim over facts we don't believe are protectable
+in the first place.
+
+This is a good-faith position taken by a small, non-commercial newsroom
+project, not a legal opinion. If a source project has a specific concern
+about how it's credited or represented here, please open an issue -- we'd
+rather fix it than argue about it.
+
+What "non-commercial" means here
+----------------------------------
+
+We (Transparency Cascade Press) do not consider it a violation of this
+license's NC term for someone to:
+
+  - fork this dataset and run a free tool with it (even if that tool is
+    operated by an organization that also does unrelated commercial work)
+  - cite or link to specific entries in journalism, research, or advocacy,
+    including in outlets that are commercial publications
+  - use this dataset to inform a paid consulting engagement about someone's
+    own privacy exposure, as long as the dataset itself isn't resold
+
+We do consider it a violation to repackage this dataset itself (or a
+close derivative of it) as a paid product or paid API without a separate
+agreement with us.
+
+As the rights-holder of our own contributions to this dataset, Transparency
+Cascade Press is not bound by our own NC restriction and may separately
+license our own original content (research notes, tiering judgments,
+instructions) to other parties on different terms if that's ever useful --
+this does not change the CC BY-NC-SA terms under which the dataset is
+published here.
