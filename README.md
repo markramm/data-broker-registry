@@ -1,14 +1,18 @@
-# Make Yourself Expensive
+# data-broker-registry
 
-A free, no-account, no-tracking, **open-source** tool that walks you through getting your
-data out of the data-broker economy — by hand, the way the [Consumer Reports study found beats every
-paid service](https://transparencycascade.org/resources/data-footprint/).
+An open, versioned, schema-validated registry of data brokers and how to opt out of each
+one — the facts, the editorial judgment (how automatable is this opt-out? how urgent?), and
+the build pipeline that compiles them into a single artifact. This is a **dataset repo**, not
+an app: it has no UI of its own on purpose, so it can be consumed by more than one frontend,
+run locally, or forked independently.
 
-Built by [Transparency Cascade Press](https://transparencycascade.org). Nothing you do here leaves
-your browser. There is no server, no account, and no analytics on your actions. We make no money from
-it and there's nothing to sell — which is the point. A reader-protection tool is only trustworthy if
-it can't be bought out from under you. (The free app we used to recommend, Permission Slip, was handed
-to a paid service in May 2026. This one is open source; it stays free and forkable forever.)
+The reference frontend that consumes this dataset is
+[Make Yourself Expensive](https://github.com/markramm/make-yourself-expensive), built by
+[Transparency Cascade Press](https://transparencycascade.org) — a free, no-account,
+no-server tool that walks a reader through opting out of every broker in here by hand, the
+way the [Consumer Reports study found beats every paid service](https://transparencycascade.org/resources/data-footprint/).
+Nothing about this dataset depends on that frontend, though; anyone is welcome to build a
+different one against the same `data/brokers.json` artifact.
 
 ## Data
 
@@ -49,12 +53,11 @@ python3 scripts/validate_broker.py data/brokers/some-broker.md
 
 ## Frontends
 
-This repo is the dataset — the facts, the schema, and the build pipeline that compiles them.
-The static site in `index.html`/`app.js` is one thin frontend for it. A second, more complete
-frontend ("Protect": on-device profile, tiered opt-out actions, dataset-integrity checking)
-lives in a separate repo and consumes the same compiled `data/brokers.json` artifact. Nothing
-about the dataset depends on either frontend; a third frontend is exactly as welcome as the
-first two.
+This repo has no UI of its own. [Make Yourself Expensive](https://github.com/markramm/make-yourself-expensive)
+is the reference frontend (on-device profile, tiered opt-out actions, dataset-integrity
+checking against the `content_hash` this repo's build emits) — but any tool can consume the
+compiled `data/brokers.json` artifact the same way it does. A second or third frontend is
+exactly as welcome as the first.
 
 ## Contributing
 
