@@ -1,22 +1,22 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.7",
-  "content_hash": "sha256:97bc26d198c2484d7d6c9d543a1820302deb16c7ae50e15a34f473cf9c05273d",
+  "dataset_version": "0.1.8",
+  "content_hash": "sha256:5b5d06897bd0faeb308dbd5c7ea67c816f456c8536418140f887aaf27a68645c",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 142,
-  "backlog_count": 580,
-  "total_known": 722,
-  "unverified_count": 121,
+  "authored_count": 165,
+  "backlog_count": 556,
+  "total_known": 721,
+  "unverified_count": 137,
   "tiers": {
-   "guided": 108,
-   "assisted": 30,
-   "auto": 4
+   "guided": 126,
+   "assisted": 34,
+   "auto": 5
   },
   "priorities": {
-   "crucial": 57,
-   "high": 11,
-   "standard": 74
+   "crucial": 69,
+   "high": 20,
+   "standard": 76
   }
  },
  "brokers": [
@@ -224,6 +224,67 @@
    "link_status": "live"
   },
   {
+   "id": "checkpeople-com",
+   "name": "CheckPeople",
+   "domain": "checkpeople.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "assisted",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://checkpeople.com/opt-out",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": "2026-07-29",
+   "source": "badbool",
+   "notes": "WebFetch on checkpeople.com/opt-out loaded successfully and rendered a single-field suppression form (email only) with a Terms/Privacy checkbox. No CAPTCHA, no listing URL, no name/DOB field on this form itself, contrary to some older third-party guides describing a separate full-name+birthdate step. There is also a distinct 'Right to Know' pre-step at checkpeople.com/privacy-rights (requires name+email) for requesting a copy of what CheckPeople holds on you, but it is not required to complete the opt-out -- noted below as optional context, not a required field.",
+   "instructions_md": "1. Go to the [CheckPeople opt-out page](https://checkpeople.com/opt-out).\n2. Enter the email address you want CheckPeople to associate with your suppression request.\n3. Check the box agreeing to the Terms of Service and Privacy Policy, then submit the form.\n4. Watch your inbox for a verification email from CheckPeople and click the confirmation link inside it -- the request is not applied until you confirm.\n5. Optional: if you also want to see what CheckPeople has on file about you before or after opting out, submit a separate \"Right to Know\" request at [checkpeople.com/privacy-rights](https://checkpeople.com/privacy-rights) (requires your name and email); this is informational and not required for the opt-out itself.\n6. Re-check periodically -- people-search sites re-ingest public records, so a listing can reappear months later.",
+   "link_status": "live"
+  },
+  {
+   "id": "clustrmaps-com",
+   "name": "ClustrMaps",
+   "domain": "clustrmaps.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://clustrmaps.com/bl/opt-out",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "listing_url",
+    "email",
+    "full_name",
+    "address"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "badbool",
+   "notes": "Direct WebFetch of clustrmaps.com timed out/failed to connect in this session (no HTTP response, not a 403 -- the domain itself was briefly unreachable from this environment). Cross-checked against multiple independent 2026 removal-guide writeups (Atlas Privacy, Incogni, Security.org, OneRep) that consistently describe the same multi-field form + CAPTCHA + checkbox-selection + email-confirmation flow. CAPTCHA plus a 4-field form (name, email, listing URL, address) pushes this to guided despite there being no ID/phone requirement. An email alternative was also mentioned in guides but not independently confirmed here, so omitted from opt_out_email.",
+   "instructions_md": "1. Go to clustrmaps.com and search your name or address to find your listing; open it and copy its URL from the address bar.\n2. Go to the [ClustrMaps opt-out page](https://clustrmaps.com/bl/opt-out) and enter your full name, email address, the listing URL, and your address.\n3. Solve the CAPTCHA and continue to the next step.\n4. You'll be shown checkboxes for the specific pieces of information tied to your listing -- select all of them for a full removal, then submit.\n5. Check your email for a confirmation message from ClustrMaps and click the verification link to finalize the request.\n6. Repeat for any additional listings under your name; re-check periodically since ClustrMaps can re-source records.",
+   "link_status": "broken"
+  },
+  {
    "id": "confi-chek-com",
    "name": "Confi-Chek",
    "domain": "confi-chek.com",
@@ -250,6 +311,34 @@
    "notes": "MIGRATED research_note: confi-chek redirects to Enformion; shared opt-out form. Fetched enformion.com/opt-out/ directly and confirmed it is live: enter first/middle/last name and email (or agent name/email if acting on someone else's behalf), complete the reCAPTCHA checkbox, then receive an emailed link that must be opened within 24 hours to reach a second form where you re-enter matching info to confirm. Enformion states removal completes within about 3 days (readd/verification cadence). Privacy Rights Clearinghouse notes Confi-Chek itself has no direct opt-out, so the Enformion shared portal is the only real path -- confirmed once here per shared-portal guidance. People-search/background-check aggregator, priority crucial.",
    "instructions_md": "1. Go to the [Enformion opt-out portal](https://www.enformion.com/opt-out/) -- Confi-Chek shares its data and opt-out process with Enformion and has no separate removal form of its own.\n2. Enter your first, middle (optional), and last name and your email address. If you're acting as an authorized agent for someone else, use the agent fields instead.\n3. Complete the reCAPTCHA checkbox and submit.\n4. Check your email within 24 hours for a follow-up link -- it expires after that window.\n5. Click the link and re-enter your information exactly as before so it matches the original request.\n6. Allow about 3 days for Enformion (and therefore Confi-Chek) to fully remove your record.",
    "link_status": "live"
+  },
+  {
+   "id": "courtrecords-org",
+   "name": "CourtRecords.org",
+   "domain": "courtrecords.org",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://www.courtrecords.org/lp_optout.php",
+   "opt_out_email": null,
+   "phone": "800-309-9351",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "listing_url"
+   ],
+   "readd_days": null,
+   "legal_basis": [],
+   "last_verified": null,
+   "source": "data-brokers-watch + tcp-research",
+   "notes": "Confirmed a real, serious security problem directly: the TLS certificate for members.courtrecords.org (the opt-out subdomain referenced by third-party guides, same members.<domain>/customer/opt-out URL pattern as criminalpages.com) is CN=*.courtrecords.org but EXPIRED 2022-09-25 -- almost four years ago -- verified via curl/openssl handshake ('certificate has expired'). The public-facing apex/www opt-out flow at courtrecords.org/lp_optout.php is documented consistently across multiple independent 2025-2026 guides (brandyourself, optery, deletemyinfo): search your name, copy the 'Buy Full Report' link for your listing (this becomes the listing_url/Record ID), go to the opt-out page, paste it in with your name, solve a CAPTCHA, and submit; processing takes 2-15 business days. WebFetch attempts to load the opt-out page directly hit connection resets, so last_verified is left null despite the corroborating guides and the confirmed cert problem on the members subdomain. Same InfoTracer-family URL pattern as criminalpages.com (members.*.org/customer/opt-out, PO Box 990142 Boston MA fax number reused across the family) -- likely shares infrastructure/ownership. People-search site with real personal-safety impact -> crucial priority despite the trust problem.",
+   "instructions_md": "1. Go to [courtrecords.org](https://www.courtrecords.org/) and search your name to find your listing.\n2. Copy the link address behind that listing's \"Buy Full Report\" button -- this is the Record ID/listing URL you'll need for the opt-out form.\n3. Go to the opt-out form at [courtrecords.org/lp_optout.php](https://www.courtrecords.org/lp_optout.php), paste in the listing URL, fill in your name, solve the CAPTCHA, and submit.\n4. Caution: a related subdomain used by this same operator (members.courtrecords.org) is currently presenting an SSL certificate that expired in September 2022 -- if your browser shows a certificate-expired warning anywhere in this flow, do not enter personal information past that warning; stick to the courtrecords.org/lp_optout.php path described above instead.\n5. If you're a judge, prosecutor, law enforcement officer, or immediate family member covered by the Daniel Anderl Judicial Security and Privacy Act, you can instead email privacy@courtrecords.us for expedited removal.\n6. Expect removal within 2-15 business days; you can also call 800-309-9351 with questions, though this number is shared with other sites in the same operator family (InfoTracer-linked, per Criminal Pages' listing) so confirm you're speaking about CourtRecords.org specifically.",
+   "link_status": "broken"
   },
   {
    "id": "criminalpages-com",
@@ -279,6 +368,38 @@
    "notes": "MIGRATED research_note: opt-out form live; site SSL cert may warn. Confirmed the cert issue directly: WebFetch failed with a hostname/altnames mismatch -- members.criminalpages.com presents a certificate for *.infopay.com/infopay.com, not its own domain, which will trip browser security warnings for users. Because of that broken-trust warning (users must click through an untrusted-cert interstitial to reach the form) this is guided rather than assisted despite no CAPTCHA/ID/phone gate. Criminal Pages is owned by InfoTracer; per third-party guides (Optery, JoinDeleteMe) removal can also be done via mail/fax (PO Box 990142, Boston, MA 02199; fax 617-507-0410) or by opting out of InfoTracer's shared portal directly, which is likely more reliable than the cert-broken form. People-search/background-check site, priority crucial.",
    "instructions_md": "1. Go to the [Criminal Pages opt-out form](https://members.criminalpages.com/customer/opt-out). Note: this page currently presents an SSL certificate for a different domain (infopay.com), so your browser will likely show a security warning -- proceed only if you're comfortable verifying the site yourself, or use the alternatives below instead.\n2. On the form, enter your full name, email, and address, and submit the removal request.\n3. If you'd rather avoid the broken-certificate warning, opt out via Criminal Pages' parent company InfoTracer's shared portal at [infotracer.com/optout](https://infotracer.com/optout/), which removes your data from Criminal Pages as well.\n4. As a mail/fax alternative, send a written removal request to: Data Management Department, Criminal Pages, PO Box 990142, Boston, MA 02199, or fax it to 617-507-0410.\n5. You can also call 800-309-9351 with questions about your request's status.",
    "link_status": "broken"
+  },
+  {
+   "id": "cyberbackgroundchecks-com",
+   "name": "CyberBackgroundChecks",
+   "domain": "cyberbackgroundchecks.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://www.cyberbackgroundchecks.com/removal",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "address",
+    "dob",
+    "email"
+   ],
+   "readd_days": 180,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "badbool",
+   "notes": "Direct WebFetch of cyberbackgroundchecks.com/removal returned HTTP 403 (bot-blocked) in this session, so last_verified is left null. Cross-checked against several independent 2026 removal-guide writeups (Incogni, mydataremoval, PrivacyOn, NewReputation) which consistently describe a two-step process: an initial short form (name + email + CAPTCHA) that triggers a verification email, then a second, more detailed form (full name, DOB, address, CAPTCHA again) reachable only via that emailed link. Guides recommend using a disposable email since the site may add submitted addresses to marketing lists. Full-record background-check site reselling addresses/relatives -- priority crucial. Guides note listings can reappear after 3-6 months as the site re-ingests aggregator feeds.",
+   "instructions_md": "1. First find your listing by searching your name on cyberbackgroundchecks.com so you know which record to reference.\n2. Go to the [removal page](https://www.cyberbackgroundchecks.com/removal) and submit the short initial form: your name and an email address (consider using an email you don't mind putting on a marketing list), then solve the CAPTCHA and send the request.\n3. Check that inbox for a verification email from CyberBackgroundChecks and click through to the second, more detailed removal form.\n4. On that second form, fill in your full name, date of birth, and address, solve the CAPTCHA again, and submit.\n5. Allow up to 48 hours for the listing to be removed -- both steps have to be completed, the first form alone does not finish the opt-out.\n6. Because this site re-ingests public-record feeds, plan to re-check and repeat the process every few months if your listing reappears.",
+   "link_status": "bot-blocked"
   },
   {
    "id": "deathrecords-org",
@@ -336,6 +457,34 @@
    "source": "data-brokers-watch + tcp-verified",
    "notes": "MIGRATED research_note: InfoTracer-owned; shared portal. Same infotracer.com/optout/ portal as deathrecords.org; live fetch on 2026-07-03 returned a rate-limit error page rather than the form, so last_verified withheld. Tier/CAPTCHA judgment carried over from the same portal's documented search-then-remove-with-CAPTCHA flow.",
    "instructions_md": "1. Go to the InfoTracer opt-out portal at https://infotracer.com/optout/ (divorcerecords.org shares this removal system with other InfoTracer-branded sites).\n2. Search for your listing by name and state.\n3. Select the matching record(s) from the search results.\n4. Complete the CAPTCHA and submit the removal request with your email address.\n5. Click the confirmation link InfoTracer emails you to finalize the opt-out.\n6. If the portal is unresponsive or the listing persists, call 800-309-9352 and reference divorcerecords.org.",
+   "link_status": "live"
+  },
+  {
+   "id": "emailtracer-com",
+   "name": "EmailTracer",
+   "domain": "emailtracer.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://infotracer.com/optout/",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [],
+   "last_verified": null,
+   "source": "data-brokers-watch + tcp-research",
+   "notes": "emailtracer.com itself did not resolve (DNS NXDOMAIN) from this session despite having live AWS Route53 NS delegation, and WebFetch to infotracer.com/optout/ was rate-limited ('requested too many times') rather than cleanly blocked -- so this reads as bot/rate-limiting infrastructure rather than a dead site. Multiple independent 2026 removal guides (OneRep wiki, PurePrivacy, DeleteMe, meprism, eraseme.app) consistently and specifically identify EmailTracer as owned/operated by InfoTracer and describe the same removal mechanism: go to infotracer.com, click 'Remove my Data,' enter first/last name and state, provide an email, solve a CAPTCHA, submit, then confirm via emailed link; typical processing 3-7 business days. This matches the pattern already confirmed for criminalpages.com (also InfoTracer-family, same members.<domain> URL convention). Treating as guided given the CAPTCHA gate. last_verified left null because I could not personally render either emailtracer.com or the infotracer.com/optout/ form in this session -- based on guide consensus, not direct confirmation.",
+   "instructions_md": "1. EmailTracer is operated by InfoTracer, so the working removal path is through InfoTracer's own opt-out portal rather than emailtracer.com directly.\n2. Go to [infotracer.com](https://infotracer.com/) and click \"Remove my Data\" (or go directly to [infotracer.com/optout/](https://infotracer.com/optout/)).\n3. Enter your first and last name and select your state, then enter an email address (consider using a masked/alias email).\n4. Solve the CAPTCHA and submit the form.\n5. Check your email for a confirmation message and click the confirmation link -- the removal isn't final until you confirm.\n6. Processing typically takes 3-7 business days; since InfoTracer re-ingests public records, expect to need to repeat this periodically, and note that removal from EmailTracer doesn't remove you from other, unrelated data brokers.",
    "link_status": "live"
   },
   {
@@ -556,6 +705,34 @@
    "link_status": "bot-blocked"
   },
   {
+   "id": "libertydata-net",
+   "name": "Libertydata.Net",
+   "domain": "libertydata.net",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "auto",
+   "priority": "crucial",
+   "method": "email",
+   "opt_out_url": null,
+   "opt_out_email": "support@libertydata.net",
+   "phone": "800-299-8280",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [],
+   "last_verified": "2026-07-29",
+   "source": "data-brokers-watch + tcp-research",
+   "notes": "WebFetched libertydata.net's own privacy policy at http://www.libertydata.net/privacypolicy.asp directly and it loaded, confirming: opt out at any time by contacting support@libertydata.net or calling 800-299-8280, no required fields, forms, or fees specified beyond identifying yourself. Independently corroborated by Privacy Rights Clearinghouse's data-broker registry entry for Libertydata.Net (category: people search; opt-out: yes, by email; same support@libertydata.net address), which also notes Libertydata does not consider itself covered by FCRA and has not submitted state data-broker registration documentation -- worth flagging to users as a less-accountable operator. Note: libertydata.net (the site researched here) is unrelated to libertydata.io, which redirected from a www.libertydata.net lookup during initial research but turned out to be a different B2B TIN/EIN-verification company (Liberty Data Inc.) -- do not confuse the two; this entry is scoped to the actual people-search operator at libertydata.net confirmed via its own privacy policy page. Simple, no-CAPTCHA email opt-out -> auto tier; real people-search/address-reseller impact -> crucial priority.",
+   "instructions_md": "1. Email support@libertydata.net and ask to opt out / be removed from Libertydata.Net's people-search database. Include your full name and enough identifying detail (e.g. city/state, or a link to your specific listing if you found one) for them to locate your record.\n2. Alternatively, call 800-299-8280 and make the same request by phone.\n3. Libertydata's own privacy policy states you can opt out \"at any time\" through either channel, with no form, fee, or ID requirement described.\n4. Keep a copy of your email as a timestamped record of the request, since Libertydata says it has not registered as a data broker in the states that require it and does not claim FCRA coverage -- there's less regulatory backstop here than with larger brokers, so documentation helps if you need to follow up.\n5. Watch for the listing to reappear; smaller, loosely-regulated people-search sites like this one frequently re-scrape public records without a fixed schedule.",
+   "link_status": "unknown"
+  },
+  {
    "id": "locatefamily-com",
    "name": "Locatefamily.Com",
    "domain": "locatefamily.com",
@@ -581,6 +758,37 @@
    "source": "data-brokers-watch + tcp-verified",
    "notes": "MIGRATED research_note: live, bot-blocks scripted fetch; form-based removal. WebFetch returned 403 on this pass too (site actively blocks automated fetches), so last_verified is left null rather than freshly confirmed. Prior TCP research found no CAPTCHA and a simple name/listing-URL removal form -- kept those assessments since the page itself couldn't be re-fetched.",
    "instructions_md": "1. Find your listing on LocateFamily.com by searching your name at locatefamily.com, and copy the exact URL of your listing page.\n2. Go to the removal page at locatefamily.com/removal2.html.\n3. Paste the listing URL and enter your full name into the removal form as requested.\n4. Submit the form. If the online form doesn't go through (the site is known to block automated/scripted traffic, so occasional glitches happen for real users too), call 1 (302) 223-5135 and request removal by phone instead.\n5. Because this is a people-search site, consider checking back periodically to confirm your listing hasn't reappeared after a future data refresh.",
+   "link_status": "bot-blocked"
+  },
+  {
+   "id": "mylife-com",
+   "name": "MyLife",
+   "domain": "mylife.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://www.mylife.com/privacyrequest",
+   "opt_out_email": "privacy@mylife.com",
+   "phone": "(888) 704-1900",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "email",
+    "address"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "badbool",
+   "notes": "Direct WebFetch of mylife.com/privacyrequest returned HTTP 403 (bot-blocked) in this session. Cross-checked against multiple independent 2026 guides (Surfshark, OneRep, Incogni, Security.org, LegalClarity, Reputation Rhino) that consistently confirm: no account creation or driver's-license upload is actually required to opt out (the site does push an account-registration popup as a dark pattern -- decline it), the web form at /privacyrequest is the primary path, email to privacy@mylife.com and phone to 888-704-1900 (M-F 6am-5pm PT) are genuine alternatives (not fallback-only), and processing takes roughly 14 business days. id_required and phone_required are both false since neither is actually mandatory through the form/email path -- set guided tier because of the aggressive upsell dark patterns and multi-step, slow-turnaround process, not a hard ID/phone gate.",
+   "instructions_md": "1. Go to the [MyLife privacy request page](https://www.mylife.com/privacyrequest).\n2. If a \"create a free account\" or similar signup popup appears, decline it (look for a \"continue without account\" or close option) -- you do not need an account to submit this request.\n3. Fill in your full name, email, and address on the privacy-request form and submit it.\n4. Watch your email for a confirmation message from MyLife and click the verification link -- the request does not proceed until you confirm.\n5. Alternative paths if the form gives you trouble: email privacy@mylife.com with your full name and profile details, or call (888) 704-1900 (Mon-Fri, 6am-5pm PT) and ask for your Reputation Profile to be deleted -- request a confirmation number if you call.\n6. Allow up to 14 business days for removal; if nothing has changed by then, follow up by phone with any confirmation number you were given.",
    "link_status": "bot-blocked"
   },
   {
@@ -610,6 +818,36 @@
    "source": "data-brokers-watch + tcp-verified",
    "notes": "MIGRATED research_note: BeenVerified-owned. WebFetch could not reach beenverified.com on this pass (tool reported it unable to fetch from that host), so last_verified stays null rather than freshly confirmed. Assessed from well-documented public knowledge of BeenVerified's opt-out flow: it requires searching for and locating your specific profile first (by name + state, or by pasting the listing URL), then submitting an opt-out request tied to that listing plus an email address for confirmation, and the flow is reCAPTCHA-gated. Number Guru itself is a reverse-phone-lookup people-search brand under the BeenVerified umbrella, so priority is crucial.",
    "instructions_md": "1. Go to beenverified.com/app/optout/search and search for your own listing by name and state (or paste the exact listing URL for your Number Guru/BeenVerified profile if you already have it).\n2. Locate your specific record in the search results and select \"This is me\" (or the equivalent opt-out link) next to it.\n3. Complete the reCAPTCHA challenge.\n4. Enter an email address to receive a confirmation link.\n5. Check your email and click the confirmation link to finalize the removal request.\n6. Because this is a people-search/reverse-lookup site, consider checking back periodically -- removed listings can reappear after future data refreshes.",
+   "link_status": "bot-blocked"
+  },
+  {
+   "id": "nuwber-com",
+   "name": "Nuwber",
+   "domain": "nuwber.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "assisted",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://nuwber.com/removal/link",
+   "opt_out_email": "support@nuwber.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "listing_url",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "badbool",
+   "notes": "Direct WebFetch of nuwber.com/removal/link returned HTTP 403 (bot-blocked) in this session. Cross-checked against multiple independent 2026 guides (Incogni, OneRep, Security.org, Minc Law, Nuwber's own support center) that consistently describe a simple 2-field removal form (profile URL + email), no CAPTCHA, no subscription/payment needed. Nuwber's legacy CSV contact record also lists a formal written-deletion-request path via support@nuwber.com or postal mail (901 N Pitt Street, Suite 170, Alexandria, VA 22314) citing CA Gov. Code 6208.1(b)/6254.21(c)(1) -- included as an alternative. No ID or phone required through either path -- assisted tier. Multiple guides also warn Nuwber's 'full report' upsell is a paid dark pattern unrelated to the free opt-out; do not engage with it.",
+   "instructions_md": "1. Search your name (plus city/state, or phone/address/email) on nuwber.com to find your profile; use the state filter if you have common name matches, and copy your specific profile's URL.\n2. Go to the [Nuwber removal page](https://nuwber.com/removal/link).\n3. Paste your profile URL into the form, enter an email address, and submit -- no CAPTCHA and no payment is required (ignore any prompt to buy a \"full report,\" that's an unrelated paid upsell).\n4. Check your email for a confirmation message from Nuwber and click the link to finalize the removal.\n5. Alternative: email support@nuwber.com (or write to Nuwber, 901 N Pitt Street, Suite 170, Alexandria, VA 22314) with your profile URL and a written deletion request if the form doesn't work for you.\n6. Repeat for each distinct profile if you have more than one; re-check periodically since listings can reappear.",
    "link_status": "bot-blocked"
   },
   {
@@ -1167,7 +1405,38 @@
    "source": "data-brokers-watch",
    "notes": "Direct WebFetch of the old tracking-query URL just showed the marketing landing page with no opt-out link visible; replaced opt_out_url with the actual opt-out path (static/view/optout/) reported by current third-party removal guides. Process is name+city+state, CAPTCHA, submit, then confirm via emailed link. Several guides note the site's contact/opt-out flow can be flaky/unreliable, so treat this as guided rather than a clean assisted deep-link. Not freshly fetched successfully so last_verified is null.",
    "instructions_md": "1. Go to `https://www.publicrecordsnow.com/static/view/optout/`.\n2. Enter your first name, last name, city, and state exactly as they appear on your listing.\n3. Complete the CAPTCHA/security check and click \"Opt Out.\"\n4. Check your email for a confirmation message and click the verification link to finalize the removal.\n5. Allow 3-7 business days for the listing to clear. If the opt-out page or confirmation email doesn't work, note that PublicRecordsNow often mirrors data from PeopleFinders -- also submit an opt-out there, since removal from one does not guarantee removal from the other.",
-   "link_status": "live"
+   "link_status": "redirect"
+  },
+  {
+   "id": "radaris-com",
+   "name": "Radaris",
+   "domain": "radaris.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://radaris.com/control-privacy",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "listing_url",
+    "email",
+    "full_name"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "badbool",
+   "notes": "Direct WebFetch of radaris.com/control-privacy returned HTTP 403 (bot-blocked) in this session. Cross-checked against multiple independent 2026 guides (Incogni, Minc Law, OneRep, Security.org, DeleteMe, InternetPrivacy) that consistently describe a multi-step flow: find your profile on the main site, copy its URL (ignore sponsored/ad listings mixed into search results), submit name + email + profile URL on the opt-out form, solve a CAPTCHA, then confirm by email. Guides put total time near an hour including the wait for the confirmation email. CAPTCHA plus a multi-step, several-field process -> guided tier.",
+   "instructions_md": "1. Go to radaris.com and search your name to find your listing; results may include sponsored/ad links mixed in, so make sure you open your actual profile, not an ad, and copy its URL.\n2. Go to the [Radaris privacy control page](https://radaris.com/control-privacy) (linked from \"Remove My Information\" at the bottom of your profile).\n3. Enter your full name, email address, and the profile URL, then solve the CAPTCHA and submit.\n4. Follow any additional confirmation steps the form presents -- Radaris's flow is multi-page, so don't stop until you reach a \"request submitted\" confirmation screen.\n5. Check your email for a verification message from Radaris and click the link to finalize the removal.\n6. Use a disposable or secondary email address if you're worried about being added to marketing lists, and expect the whole process (including the email wait) to take up to an hour.",
+   "link_status": "bot-blocked"
   },
   {
    "id": "recordsauthority-com",
@@ -1319,6 +1588,37 @@
    "link_status": "live"
   },
   {
+   "id": "searchpeoplefree-com",
+   "name": "SearchPeopleFree",
+   "domain": "searchpeoplefree.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://www.searchpeoplefree.com/opt-out",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "address",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "badbool",
+   "notes": "Direct WebFetch of searchpeoplefree.com/opt-out returned HTTP 403 (bot-blocked) in this session, so last_verified is left null. Cross-checked against multiple independent 2026 guides (Incogni, Onerep, Cybernews, guaranteedremovals) which describe a multi-step flow: reach the opt-out form via the 'Do Not Sell or Share My Personal Information' footer link, submit name + email + CAPTCHA, verify via an emailed link, then search your name/location again on a post-verification page and click through 'Continue Removal' / 'Remove this record' on the matching listing. Guides report ~72 hour processing. Full people-search profiles including relatives and address history -- priority crucial.",
+   "instructions_md": "1. On searchpeoplefree.com, scroll to the footer and click \"Do Not Sell or Share My Personal Information\" (or go directly to the [opt-out page](https://www.searchpeoplefree.com/opt-out)).\n2. Enter your full name and an email address, check the box confirming you own that email, solve the CAPTCHA, and click \"Begin removal process.\"\n3. Open the email SearchPeopleFree sends you and click \"Validate My Email.\"\n4. On the page that follows, search your name and location again, find your matching record, and click \"Continue Removal,\" then \"Remove this record.\"\n5. Clear your browser cache and re-check after about 72 hours to confirm the listing is gone.\n6. If you have more than one profile (e.g., from a previous address), repeat the process for each.",
+   "link_status": "bot-blocked"
+  },
+  {
    "id": "skipsmasher-com",
    "name": "Skipmasher, Inc.",
    "domain": "skipsmasher.com",
@@ -1348,6 +1648,38 @@
    "notes": "WebFetch on /Consumers/ returned only marketing copy (Contact page + a wizard.aspx intake tool, both JS-heavy); details drawn from public opt-out-guide summaries and Skip Smasher's own privacy page. Skip Smasher verifies identity by matching name/address/phone before it will remove a record, and provides a toll-free hotline (1-866-505-7170) and privacy email (info@skipsmasher.com) alongside the web wizard. Treated as guided (not assisted) because the flow is a multi-step matching wizard rather than a single deep-linkable form, and confirmation isn't automatic. Not freshly confirmed against a rendered page -- last_verified left null.",
    "instructions_md": "<!-- Real instructions based on Skip Smasher's public opt-out wizard, hotline, and privacy-page description. -->\n1. Go to https://www.skipsmasher.com/Consumers/ and click the \"Start\" / \"Know, Delete and Opt-Out\" button, which opens the removal wizard (wizard.aspx).\n2. Enter your full name and current address exactly as they'd appear in a Skip Smasher record, so the wizard can locate the correct listing(s).\n3. Review any matching record(s) the wizard surfaces and select the one(s) that are you.\n4. Submit the opt-out request through the wizard; if it fails or you'd rather not use the online tool, call the toll-free privacy hotline at 1-866-505-7170 or email info@skipsmasher.com with your name and address instead.\n5. California residents can also use the \"Do Not Share or Sell My Personal Information\" link in the site footer as an alternate route to the same request.\n6. Skip Smasher may take multiple business days to confirm; if your listing reappears, repeat the request -- like most people-search sites it rescrapes public records periodically.",
    "link_status": "live"
+  },
+  {
+   "id": "smartbackgroundchecks-com",
+   "name": "SmartBackgroundChecks",
+   "domain": "smartbackgroundchecks.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://www.smartbackgroundchecks.com/optout",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "listing_url",
+    "email",
+    "full_name",
+    "address"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "badbool",
+   "notes": "Direct WebFetch of smartbackgroundchecks.com/optout returned HTTP 403 (bot-blocked) in this session. Cross-checked against multiple independent 2026 guides (OneRep, Optery, NewReputation, Incogni, mePrism, Clearnym, CrabClear) that consistently describe: enter email, agree to terms, solve CAPTCHA to start; then search by name+city+state to find your record; open it and click a removal button; then confirm via emailed link, with removal completing within about 72 hours. Several guides note SmartBackgroundChecks shares backend data with PeopleFinders, so opting out here may also clear a related PeopleFinders listing -- worth checking separately since that's a distinct site with its own opt-out. CAPTCHA-gated multi-step flow -> guided tier.",
+   "instructions_md": "1. Go to the [SmartBackgroundChecks opt-out page](https://www.smartbackgroundchecks.com/optout) (or click \"Do Not Sell My Info\" in the site footer).\n2. Enter an email address, agree to the terms, solve the CAPTCHA, and click through to begin the removal process.\n3. Search for your record using your first and last name plus city/state.\n4. Open the matching record and click the removal button on your profile page.\n5. Check your email for a confirmation message and click the validation link -- SmartBackgroundChecks says removal typically completes within about 72 hours.\n6. This site shares data with the related broker PeopleFinders; after your SmartBackgroundChecks listing clears, check PeopleFinders separately in case a linked listing remains.",
+   "link_status": "bot-blocked"
   },
   {
    "id": "snoopstation-com",
@@ -1441,6 +1773,38 @@
    "link_status": "live"
   },
   {
+   "id": "spyfly-com",
+   "name": "SpyFly",
+   "domain": "spyfly.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://www.spyfly.com/help-center/remove-my-public-record",
+   "opt_out_email": "support@spyfly.com",
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": true,
+   "required_fields": [
+    "full_name",
+    "address",
+    "dob",
+    "email"
+   ],
+   "readd_days": 75,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "badbool",
+   "notes": "Direct WebFetch of the SpyFly removal page returned HTTP 403 (bot-blocked) in this session, so last_verified is left null. Cross-checked against multiple independent 2026 guides (Incogni, Optery, PurePrivacy, IDStrong, Onerep) which consistently describe: open the removal form (also reachable at spyfly.com/help-center/remove-me-from-website, which redirects to the same flow), enter first/last name, age, and state, solve a CAPTCHA, find your matching record and click 'Remove,' then enter an email and confirm via an emailed verification link. As an alternative, guides list emailing support@spyfly.com directly with first/last name, age, current + previous address, and email. charges_fee is true per BADBOOL -- SpyFly's core product is a paid background-check/monitoring service, and while the removal form itself appears free, do not volunteer personal details (name/age/address/email) unless you've confirmed SpyFly actually has a listing on you, since submitting unnecessary PII to a paid data broker is its own exposure. Guides report re-listing risk on a roughly 60-90 day cycle as public-record feeds refresh.",
+   "instructions_md": "1. Search spyfly.com for your own name to confirm whether they actually have a listing on you -- don't submit personal details through the removal form unless you've confirmed a match, since SpyFly is a paid people-search product.\n2. If you find a listing, go to the [removal form](https://www.spyfly.com/help-center/remove-my-public-record), enter your first name, last name, age, and state, and solve the CAPTCHA.\n3. When your record appears, click \"Remove,\" then enter an email address (consider a secondary one) and check the required boxes.\n4. Check that inbox for SpyFly's verification email and click the confirmation link to complete the request.\n5. If the online form doesn't turn up your record or doesn't work, email support@spyfly.com directly with your first/last name, age, current and previous address, and email, and ask them to remove your listing.\n6. SpyFly's public-record feeds refresh periodically, so recheck every couple of months and repeat the process if your listing reappears.",
+   "link_status": "bot-blocked"
+  },
+  {
    "id": "staterecords-org",
    "name": "State Records (United States State Records)",
    "domain": "staterecords.org",
@@ -1500,7 +1864,7 @@
    "source": "data-brokers-watch",
    "notes": "WebFetch on thatsthem.com/optout succeeded and rendered a clear single-page form: Full Name, Street Address, City, State, ZIP, Email, and Phone, all marked required, with no CAPTCHA and no ID requirement. Requests are stated to process within 72 hours with an email confirmation. Straightforward single-page deep-linkable form -> assisted tier.",
    "instructions_md": "<!-- Real instructions confirmed against the live That'sThem opt-out form. -->\n1. Go to https://thatsthem.com/optout.\n2. Fill in your full name, street address, city, state, and ZIP code exactly as they appear in your listing.\n3. Enter your email address and a phone number (both required by the form).\n4. Submit the form.\n5. Watch your email for a confirmation message -- ThatsThem states requests are typically processed within 72 hours. Note this only removes you from ThatsThem's public search results, not from other services' separate databases.",
-   "link_status": "live"
+   "link_status": "bot-blocked"
   },
   {
    "id": "truepeoplesearch-com",
@@ -1741,6 +2105,69 @@
    "link_status": "live"
   },
   {
+   "id": "advancedbackgroundchecks-com",
+   "name": "Advanced Background Checks",
+   "domain": "advancedbackgroundchecks.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://www.advancedbackgroundchecks.com/removal",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "listing_url",
+    "email",
+    "full_name"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "badbool",
+   "notes": "Direct WebFetch of advancedbackgroundchecks.com/removal returned HTTP 403 (bot-blocked) in this session. Cross-checked against multiple independent 2026 guides (DeleteMe, Optery, OneRep/wiki.onerep, GuaranteedRemovals, DeleteMyInfo, InternetPrivacy, PrivacyOn, mePrism, Clearnym) that consistently describe: reach the removal page via 'Do Not Sell My Personal Information' in the footer, enter an email and solve a CAPTCHA to begin, then search by name plus city/state or zip (city/state/age can reportedly be left blank per BADBOOL, though the guides above show them as standard search fields), locate the matching record, click through to view details, then click a 'REMOVE MY RECORD' button, then confirm via emailed link. Removal reported within about 72 hours. CAPTCHA-gated multi-step -> guided tier, though marked high rather than crucial since it lacks ID/phone gating and the process is well-documented and consistent across sources.",
+   "instructions_md": "1. Go to advancedbackgroundchecks.com, scroll to the footer, and click \"Do Not Sell My Personal Information\" to reach the [removal page](https://www.advancedbackgroundchecks.com/removal).\n2. Enter an email address and solve the CAPTCHA, then click \"Begin Removal Process.\"\n3. Search for your record using your first and last name; city/state or zip and age can help narrow results but aren't strictly required.\n4. Find your matching record, click \"VIEW DETAILS,\" then click the \"REMOVE MY RECORD\" button on your profile.\n5. Check your email for a confirmation message from Advanced Background Checks and click the link to finalize -- removal is reported to complete within about 72 hours.\n6. If you have multiple listings under your name, repeat the process separately for each one.",
+   "link_status": "bot-blocked"
+  },
+  {
+   "id": "archives-com",
+   "name": "Archives.com",
+   "domain": "archives.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://www.archives.com/optout",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "address",
+    "email",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": "2026-07-29",
+   "source": "badbool",
+   "notes": "Fetched live 2026-07-29: archives.com/optout renders a suppression-request form (first/last name required, address line 1 required, phone/email/middle-name optional), a requester-contact block (your name + email, confirmed twice), a free-text field asking you to describe where you found the listing and what search terms you used, a CAPTCHA, and an agreement checkbox. No fee or ID upload is mentioned on the form itself. Genealogy-adjacent people-search site -- to locate the listing you want removed, Archives.com's own search flow normally pushes you into a free-trial signup (archives.com/search) that auto-converts to a paid subscription unless cancelled; you do not need to complete that signup to use the opt-out form, but be aware of the upsell if you go looking for your listing first. Processing stated as within 30 days, confirmed by email once suppressed.",
+   "instructions_md": "1. Go directly to the [Archives.com opt-out form](https://www.archives.com/optout) -- you do not need to create an account or start a free trial to submit this form, even though searching the site for your own listing will try to push you into a paid trial signup.\n2. Fill in the identifying information you want suppressed: first and last name are required, plus at least one address line; phone and email for that listing are optional but help match the right record.\n3. Fill in your own contact details as the requester (name, email, entered twice to confirm), and in the \"additional information\" box briefly note how you found the listing (e.g., \"found via Archives.com people search for [name] in [city, state]\").\n4. Solve the CAPTCHA and check the box agreeing to the opt-out policy, then submit.\n5. Watch your email for Archives.com's confirmation once they've identified and suppressed the matching record -- allow up to 30 days for processing.\n6. If you have multiple listings (e.g., under a maiden name or old address), submit a separate request for each one.",
+   "link_status": "live"
+  },
+  {
    "id": "dmachoice-org",
    "name": "dmachoice.org",
    "domain": "dmachoice.org",
@@ -1857,6 +2284,68 @@
    "link_status": "live"
   },
   {
+   "id": "familytreenow-com",
+   "name": "FamilyTreeNow",
+   "domain": "familytreenow.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://www.familytreenow.com/optout",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "email",
+    "full_name",
+    "dob"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "badbool",
+   "notes": "Direct WebFetch of familytreenow.com/optout returned HTTP 403 (bot-blocked) in this session. Cross-checked against multiple independent 2026 guides (Minc Law, OneRep/wiki.onerep, Optery, Cybernews, Incogni, mePrism, PrivacyOn, CrabClear, Clearnym) that consistently describe: enter an email and solve a CAPTCHA to begin, then search using first/middle/last name, city, state, and birth year to locate your record, then click 'Opt Out This Record,' then confirm via emailed link. Reported removal window up to 72 hours. Birth year is used in the search step, which is why dob is listed as a required field even though it's a year rather than a full date. CAPTCHA-gated -> guided tier; marked high (not crucial) per BADBOOL's flag and because the process, while CAPTCHA-gated, doesn't require ID or phone.",
+   "instructions_md": "1. Go to the [FamilyTreeNow opt-out page](https://www.familytreenow.com/optout).\n2. Enter an email address and solve the CAPTCHA, then click \"Begin Opt Out Procedure.\"\n3. Search using your first name, middle name (if applicable), last name, city, state, and birth year.\n4. Locate your matching record in the results and click the red \"Opt Out This Record\" button.\n5. Check your email for a confirmation message from FamilyTreeNow and click the verification link -- removal is not final until you confirm.\n6. If the CAPTCHA fails to load, try a different browser or clear your cache; removal can take up to 72 hours, and repeat for any additional matching records.",
+   "link_status": "bot-blocked"
+  },
+  {
+   "id": "fastpeoplesearch-com",
+   "name": "FastPeopleSearch",
+   "domain": "fastpeoplesearch.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://www.fastpeoplesearch.com/optout",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "listing_url",
+    "email",
+    "full_name"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "badbool",
+   "notes": "Direct WebFetch of fastpeoplesearch.com/optout failed to connect in this session (tool reported it could not fetch from the host at all, not a 403). Cross-checked against multiple independent 2026 guides (OneRep, NetReputation, Incogni, iolo, Security.org, PrivacyOn, mePrism) that consistently describe a CAPTCHA-heavy flow: enter email, check an authorization box, and solve an initial CAPTCHA; then search by name/city/state to find your listing; open your specific profile and click a removal option; solve a second CAPTCHA to submit; then confirm via an emailed link within 24 hours or restart. Multiple, repeated CAPTCHAs and a tight 24-hour email-confirmation window -> guided tier.",
+   "instructions_md": "1. Go to the [FastPeopleSearch opt-out page](https://www.fastpeoplesearch.com/optout).\n2. Enter your email address, check the authorization box, and solve the CAPTCHA -- expect to be asked to solve more than one CAPTCHA during this process, the site is aggressive about bot checks.\n3. Search for your listing using your full name, city, and state.\n4. Open your specific profile page and select the option to remove your record.\n5. Solve the final CAPTCHA and submit the removal request.\n6. Check your email within 24 hours and click the confirmation link -- if you miss the window, you'll need to restart the whole process. FastPeopleSearch says removal typically completes within about three days.",
+   "link_status": "bot-blocked"
+  },
+  {
    "id": "infutor-com",
    "name": "Infutor Data Solutions",
    "domain": "infutor.com",
@@ -1915,6 +2404,132 @@
    "source": "data-brokers-watch",
    "notes": "Page fetched live. Basic online opt-out/suppression form exists, but LexisNexis distinguishes a limited 'suppression' from full removal: for identity-theft victims, law enforcement, or people at risk of harm, they require supporting documentation (police report, employer letter, or protective order) before applying a full suppression. Page explicitly warns suppression here does not stop other companies/public-records agencies from collecting the same data.",
    "instructions_md": "1. Go to the LexisNexis consumer opt-out page and click the \"submit your suppression request\" link to reach the online suppression form.\n2. Fill in your name and address details as prompted -- this is a basic online form, no account or payment needed.\n3. If you are an identity-theft victim, decide whether to attach a copy of a police report (or other documentation verifying the identity theft) -- this unlocks a stronger suppression than the basic request.\n4. If you are law enforcement/a public official whose position exposes you to a threat of death or serious bodily harm, submit a letter from your supervisor confirming that instead.\n5. If you're at risk for other safety reasons, attach a court protective order, police report, or similar documentation.\n6. Submit the form. Note that LexisNexis suppression only affects LexisNexis's own databases -- it does not stop other data brokers or public-records sources from continuing to collect and sell the same information, so you'll still need to opt out elsewhere separately.",
+   "link_status": "live"
+  },
+  {
+   "id": "neighbor-report",
+   "name": "Neighbor.Report",
+   "domain": "neighbor.report",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://neighbor.report/remove",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "listing_url",
+    "full_name",
+    "address",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "badbool",
+   "notes": "This session's network could not resolve neighbor.report (DNS lookup failure for both the bare domain and www.), so the live page could not be fetched -- last_verified left null. Cross-checked against multiple independent 2026 removal guides (DeleteMe, Onerep, GuaranteedRemovals, Optery) which agree on the flow: find and open your record on the site (the record URL auto-fills into the removal form), fill in name/address/email on the linked /remove form, pick a removal reason, solve a CAPTCHA, then a second step where you click 'Remove' next to each specific field you want erased before applying. Guides report 10-14 business day processing. Neighbor.Report aggregates residential/neighbor lookup data, so treated as priority high pending confirmation it also displays full profiles (would justify crucial).",
+   "instructions_md": "1. Search for your address or name on neighbor.report to locate your listing; note the record's URL.\n2. Open the [removal request form](https://neighbor.report/remove) -- the record URL should auto-populate if you arrived via a link on your listing page, otherwise paste it in.\n3. Fill in your name, residential address, and an email address, and select the reason(s) for removal.\n4. Solve the CAPTCHA and click through to the next step, then click \"Remove\" next to each specific piece of information on your record you want erased, and click \"Apply.\"\n5. Expect processing to take roughly 10-14 business days; use a disposable or secondary email since data brokers are known to add submitted addresses to marketing lists.\n6. Re-check periodically in case the listing is re-added from a later data refresh.",
+   "link_status": "broken"
+  },
+  {
+   "id": "optoutprescreen-com",
+   "name": "OptOutPrescreen.com",
+   "domain": "optoutprescreen.com",
+   "category": "credit_marketing",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "portal",
+   "opt_out_url": "https://www.optoutprescreen.com/",
+   "opt_out_email": null,
+   "phone": "1-888-567-8688",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "address",
+    "dob",
+    "ssn"
+   ],
+   "readd_days": 1825,
+   "legal_basis": [
+    "none"
+   ],
+   "last_verified": null,
+   "source": "badbool",
+   "notes": "IMPORTANT: this is NOT a data broker to remove yourself from -- it is the official, FTC/FCRA-mandated Consumer Credit Reporting Industry opt-out portal, operated jointly by the four nationwide credit bureaus (Equifax, Experian, Innovis, and TransUnion) under the Fair Credit Reporting Act and FACTA. It exists so consumers CAN stop receiving prescreened ('pre-approved') credit and insurance offers -- it does not sell or expose your data, and using it reduces junk mail/solicitation exposure rather than creating any. Included here because it's a legitimate, high-value consumer self-help tool adjacent to this project's mission, not because it's a broker in the usual sense. Direct WebFetch of the homepage returned HTTP 403 (bot-blocked) in this session, so last_verified is left null; corroborated instead via Wikipedia's OptOutPrescreen.com article and multiple credit-bureau/consumer sources (TransUnion, Experian, Equifax, FTC consumer.ftc.gov, Cybernews) which are consistent on the mechanics. The online 5-year opt-out asks for name, address, DOB, and SSN (used only to match you against bureau prescreening lists, per the site's stated purpose) -- required_fields reflects the online option; the permanent opt-out avoids submitting SSN online by instead mailing a signed paper form. priority set to high (not crucial, per instructions) since this is a consumer-empowerment tool rather than an exposure to remediate. Beware impostor sites/calls: the real service will not call or email you first.",
+   "instructions_md": "1. Go to the official site at [optoutprescreen.com](https://www.optoutprescreen.com/) -- verify the URL carefully, as scam sites mimic this domain, and note the real service never calls or emails you first.\n2. Choose to opt out (rather than opt in) of prescreened credit and insurance offers.\n3. For the quick 5-year electronic opt-out, submit your name, address, date of birth, and Social Security number online (this data is used only to match you against the credit bureaus' prescreening lists) -- or call 1-888-567-8688 (1-888-5-OPTOUT) to do the same by phone.\n4. If you want a permanent opt-out instead of the 5-year term, start the request online or by phone, then print, sign, and mail in the confirmation form the site provides -- permanent opt-out cannot be completed electronically alone.\n5. There is no fee either way; this stops prescreened offers, not all marketing mail, so pair it with DMAchoice if you also want to cut down on general marketing mail.\n6. The 5-year opt-out will lapse -- if you chose that option, calendar a reminder to renew, or just do the permanent mail-in version once to avoid repeating this.",
+   "link_status": "bot-blocked"
+  },
+  {
+   "id": "rehold-com",
+   "name": "Rehold",
+   "domain": "rehold.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://rehold.com/",
+   "opt_out_email": "support@rehold.com",
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "address",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "badbool",
+   "notes": "This session's network could not resolve rehold.com (DNS lookup failure), so the live site could not be fetched -- last_verified left null. Cross-checked against multiple independent 2026 removal guides (Incogni, Onerep, IDStrong, Deletemyinfo, internetprivacy.com) which agree Rehold has no standalone opt-out page: you search your own address on rehold.com itself, drill into state -> city -> the matching property listing, open 'information control' on that profile, click 'remove' next to each field you want taken down, click 'apply', then confirm via a link emailed to you. Guides report a ~48-hour turnaround and list support@rehold.com as a fallback contact if the self-service flow doesn't work. Property/address lookup site -- guided tier because of the CAPTCHA/multi-click flow plus the fact there's no dedicated opt-out URL to link directly to.",
+   "instructions_md": "1. Go to rehold.com and search using your street address rather than your name.\n2. Drill down through state, then \"more cities\" to find your city, then scan the property list for your address and click \"view details.\"\n3. On your property's page, click \"information control,\" then click \"remove\" next to each piece of information you want taken down, and click \"apply.\" You'll need to enter your name and email and solve a CAPTCHA as part of this step.\n4. Check your email for a confirmation message from Rehold and click the link to finalize the removal.\n5. Records should disappear within about 48 hours; if they don't, email support@rehold.com directly and describe which listing you need removed.\n6. Rehold pulls from property records that get refreshed periodically, so check back and repeat the process if your listing reappears.",
+   "link_status": "broken"
+  },
+  {
+   "id": "socialcatfish-com",
+   "name": "Social Catfish",
+   "domain": "socialcatfish.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "assisted",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://socialcatfish.com/opt-out/",
+   "opt_out_email": null,
+   "phone": "(844) 422-8347",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "email",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": "2026-07-29",
+   "source": "badbool",
+   "notes": "Replaces a thin legacy stub (source data-brokers-watch, phone-only, opt_out_url null) migrated from data/legacy/data-brokers-watch-source.csv -- this entry supersedes it with a real, verified web opt-out flow. Fetched live 2026-07-29: socialcatfish.com/opt-out/ renders a form with a required state-of-residence dropdown plus first/last name and email as the only mandatory fields; middle initial, age range, extra emails/phones, up to 8 photos, other states lived in, and a direct profile link are all optional but said to speed up matching. A checkbox asks whether you're submitting on your own behalf or as an authorized agent. No CAPTCHA was present in the fetched content and no fee is mentioned. Social Catfish states it will ensure your info isn't for sale within 15 days. They note they may request identity verification if fraud is suspected, and list (844) 422-8347 as a support line. Reverse-image/identity-verification-oriented people-search site -- tier assisted since no CAPTCHA/ID gating was observed, though optional photo upload is a notable data-sharing consideration worth flagging to users.",
+   "instructions_md": "1. Go to the [Social Catfish opt-out form](https://socialcatfish.com/opt-out/) and select your current state of residence from the dropdown.\n2. Fill in the required fields: first name, last name, and email address.\n3. Optionally add details that help them find and remove the right profile faster -- middle initial, age range, other emails/phones, direct link to your Social Catfish profile, or photos -- but you can skip these if you'd rather not share more than necessary.\n4. Confirm whether you're submitting for yourself or as an authorized agent, then submit the form.\n5. Social Catfish states it will stop offering your info for sale within 15 days of the request; if you don't see results, call (844) 422-8347.\n6. Be aware the form may ask for identity verification if they suspect a fraudulent request -- that's a Social Catfish anti-abuse step, not something you need to preemptively provide.",
    "link_status": "live"
   },
   {
@@ -1981,6 +2596,37 @@
    "notes": "MIGRATED research_note: official print-directory opt-out (myyp.com/optout is 404). Confirmed live: yellowpagesoptout.com now 301-redirects to optoutyp.com (Thryv Inc., which owns The Real Yellow Pages/YP brands). That form requires name, email, address, city, state, zip and is reCAPTCHA-gated, so tier is guided rather than assisted despite being a simple form. Note this specific opt-out is for physical yellow-pages-book delivery, not a full address/phone-listing takedown -- myyp.com's underlying directory listing (name/address/phone) may need a separate request directly to the publisher (Pinnacle, Pioneer Telephone Association, or Thryv/The Real Yellow Pages, depending on region) since the site states 'this site is only to opt out of directory delivery.' Kept priority at high (not crucial) given the actual scope here is delivery opt-out, though the underlying listing itself carries people-search-level risk if not separately addressed.",
    "instructions_md": "1. Go to optoutyp.com (the current home of the Yellow Pages directory opt-out, formerly at yellowpagesoptout.com).\n2. Complete the reCAPTCHA challenge on the page.\n3. Fill in your name, email, and full address (address, city, state, zip are all required) and submit the form to stop physical yellow-pages-book delivery to your address.\n4. This form only stops directory delivery -- it does not remove your name/address/phone listing itself. To do that, identify which publisher covers your area (Pinnacle, Pioneer Telephone Association, or Thryv/The Real Yellow Pages) and contact that publisher directly using the email or phone number listed on the opt-out site.\n5. If you're specifically trying to remove a myyp.com online listing (not just stop book delivery), search for your listing on myyp.com first and use the publisher contact info to request its removal explicitly.",
    "link_status": "live"
+  },
+  {
+   "id": "veripages-com",
+   "name": "VeriPages",
+   "domain": "veripages.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://veripages.com/inner/control-privacy",
+   "opt_out_email": "support@veripages.com",
+   "phone": "(844) 217-0978",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "listing_url",
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "badbool",
+   "notes": "Direct WebFetch of veripages.com/inner/control-privacy returned HTTP 403 (bot-blocked) in this session, so last_verified is left null. Cross-checked against several independent 2026 removal guides (Atlas Privacy, DeleteMe, Security.org, Cybernews, Optery) which agree on the flow: search your name + location on veripages.com, open 'View Full Profile' for the matching record, scroll to the bottom and click 'Control Profile' (which routes to the control-privacy opt-out form, also reachable directly), then complete an email-verification + identity-confirmation step. Guides report removal within about 72 hours (often faster). Phone (844) 217-0978 and email support@veripages.com are listed as fallback contacts. CAPTCHA-gated multi-step verification -> guided tier.",
+   "instructions_md": "1. Search your name and location on veripages.com to find your profile, then click \"View Full Profile.\"\n2. Scroll to the bottom of your profile and click \"Control Profile\" -- this takes you to the opt-out form (or go directly to [veripages.com/inner/control-privacy](https://veripages.com/inner/control-privacy) and paste in your profile URL).\n3. Enter your name and email address and solve the CAPTCHA to start the verification process.\n4. Check your email for VeriPages' verification message and confirm your request through the link it contains.\n5. Removal is typically reported within about 72 hours of a completed request.\n6. If the self-service flow doesn't work, contact VeriPages at (844) 217-0978 or support@veripages.com and reference your profile URL.",
+   "link_status": "bot-blocked"
   },
   {
    "id": "thomsonreuters-com",
@@ -2166,6 +2812,34 @@
    "link_status": "unknown"
   },
   {
+   "id": "amrent-com",
+   "name": "AmRent",
+   "domain": "amrent.com",
+   "category": "tenant_screening",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "standard",
+   "method": "phone",
+   "opt_out_url": "http://www.amrent.com/privacy",
+   "opt_out_email": null,
+   "phone": "888-898-6196",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "address"
+   ],
+   "readd_days": null,
+   "legal_basis": [],
+   "last_verified": "2026-07-29",
+   "source": "data-brokers-watch + tcp-research",
+   "notes": "WebFetched amrent.com/privacy and amrent.com/consumer_assistance directly; both loaded and confirmed the process described below. AmRent is a tenant/resident-screening consumer reporting agency (used by landlords, integrated into Rent Manager and similar property-management software), not a classic address/people-search broker despite the legacy CSV's 'People Search' tag. Its own privacy notice states it is exempt from CCPA-style opt-out because it is a consumer reporting agency governed by FCRA/GLBA instead -- 'If you submit your request to us, we may deny the request' for requests that should go to the landlord/data controller. There is no 'opt out of sale' mechanism; the only real consumer-facing rights are FCRA file access and dispute, via phone, mail, or downloadable Consumer Dispute Form / Request My Report Form (no online portal, no email intake -- email is explicitly discouraged). No fee. No government ID required for a standard report/dispute request (ID is only required for the separate human-trafficking-block process). Because the actual lever available to consumers is dispute/access rather than removal, and the site is FCRA-exempt from CCPA, priority is standard rather than crucial; tier is guided because it's phone/mail/form-only with no self-service portal.",
+   "instructions_md": "1. AmRent does not offer a self-service \"opt out of sale\" -- as an FCRA-regulated tenant-screening company, it is exempt from that kind of request, and if you submit one anyway it may be denied.\n2. If you were denied housing or want to see what's in your AmRent tenant-screening report, request your free copy by mail or fax: download the \"Request My Report Form\" from [amrent.com/privacy](http://www.amrent.com/privacy) or [amrent.com/consumer_assistance](http://www.amrent.com/consumer_assistance), fill it out, and mail it to AmRent Consumer Assistance, PO Box 530091, Atlanta, GA 30353 (or call to ask about faxing it).\n3. To dispute inaccurate information on your report, use the \"Consumer Dispute Form\" from the same pages and submit it the same way (mail/fax); AmRent will investigate and correct or remove disputed items.\n4. You can also call AmRent Consumer Assistance at 888-898-6196 with questions about a report or dispute.\n5. If a landlord or property manager denied your application based on an AmRent report, that decision was made by them, not AmRent -- follow up with the landlord directly, since AmRent can't approve or deny applications itself.\n6. Email (consumers@amrent.com) exists but AmRent's own materials discourage using it for sensitive requests -- prefer phone or mail.",
+   "link_status": "live"
+  },
+  {
    "id": "analytics-iq-com",
    "name": "Analyticsiq, Inc.",
    "domain": "analytics-iq.com",
@@ -2260,6 +2934,36 @@
    "source": "data-brokers-watch",
    "instructions_md": "1. Call 888-464-0018 and request removal of your information.\n2. No verified step-by-step procedure exists yet for this broker -- if you learn one, please contribute it.",
    "link_status": "unknown"
+  },
+  {
+   "id": "bisi-com",
+   "name": "BISI (Background Information Services, Inc.)",
+   "domain": "bisi.com",
+   "category": "background_check",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "standard",
+   "method": "email",
+   "opt_out_url": "https://www.bisi.com/?pg=privacy",
+   "opt_out_email": "compliance@bisi.com",
+   "phone": "800-433-6010",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": "2026-07-29",
+   "source": "data-brokers-watch + tcp-research",
+   "notes": "WebFetched bisi.com/?pg=privacy directly and it loaded a genuine CCPA privacy notice. BISI is a pre-employment/volunteer/residential background-screening company (screens people for employers and landlords), not a classic people-search address broker -- the legacy CSV's 'People Search' tag overstates it. It does publish real CCPA rights (know/access, correct, delete, limit use, opt-out of sale/sharing) with a straightforward email-based request channel and identity verification limited to name + email + state of residence (no ID upload, no fee, no CAPTCHA mentioned), so tier is assisted rather than guided. Priority standard: it's a legitimate consumer-reporting/screening business under FCRA, and the CCPA opt-out is a real but narrow lever (it mostly governs marketing-style 'sale/share', not report content, which has its own FCRA dispute channel at bisi.com/consumer).",
+   "instructions_md": "1. Go to [bisi.com/?pg=privacy](https://www.bisi.com/?pg=privacy) and review the California Privacy Notice section for the specific right you want (know/access, delete, correct, limit use, or opt-out of sale/sharing).\n2. Email your request to compliance@bisi.com (or service@bisi.com for general report questions), including your full name, email address, and state of residence so BISI can verify you.\n3. Expect BISI to request \"any other information... to verify your identity or your request\" if what you send isn't enough -- respond to keep the request moving.\n4. If your request is about the *contents* of a background report BISI prepared on you (not a marketing opt-out), use [bisi.com/consumer](https://www.bisi.com/consumer) instead, or call 800-433-6010, to request your file or dispute inaccuracies.\n5. There's no fee and no CAPTCHA/ID-upload gate on the CCPA request path; you should get a response directly from BISI's compliance team.",
+   "link_status": "live"
   },
   {
    "id": "blackknightinc-com",
@@ -2410,6 +3114,36 @@
    "source": "data-brokers-watch",
    "instructions_md": "1. Call (312) 985-0173 and request removal of your information.\n2. No verified step-by-step procedure exists yet for this broker -- if you learn one, please contribute it.",
    "link_status": "unknown"
+  },
+  {
+   "id": "cicreports-com",
+   "name": "Contemporary Information Corp. (CIC)",
+   "domain": "cicreports.com",
+   "category": "background_check",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "standard",
+   "method": "portal",
+   "opt_out_url": "https://consumers.cicreports.com/register",
+   "opt_out_email": null,
+   "phone": "888-316-4242",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "email",
+    "address",
+    "dob"
+   ],
+   "readd_days": null,
+   "legal_basis": [],
+   "last_verified": "2026-07-29",
+   "source": "data-brokers-watch + tcp-research",
+   "notes": "WebFetched cicreports.com, its /consumer-assistance/ page, and the consumers.cicreports.com/register form directly -- all loaded. CIC is a public-records/tenant-screening consumer reporting agency (criminal records, housing court records, identity verification) sold to landlords, insurers, and banks -- an FCRA-governed CRA, not a people-search broker, despite the legacy CSV's 'People Search' tag. There is no blanket CCPA-style opt-out/removal; the real consumer lever is the FCRA dispute process via the Consumer Portal at consumers.cicreports.com/register (free account: name, DOB, email, address; driver's license optional; no CAPTCHA seen; no fee), after which you can dispute specific report items. A separate mail/fax path exists (CIC Consumer Relations, 3700 Crestwood Pkwy #300, Duluth, GA 30096; fax 888.797.2254) but that path explicitly asks for SSN and a copy of a driver's license/state ID, which the portal path avoids -- so the portal is the better-fit default. A dedicated expedited process exists for human-trafficking survivors (888-316-4242). Portal/account-creation flow with a multi-step dispute process -> guided tier; priority standard because this is dispute/access rather than a true opt-out-of-sale, and CIC is a legitimate FCRA CRA.",
+   "instructions_md": "1. Go to [consumers.cicreports.com/register](https://consumers.cicreports.com/register) and create a free Consumer Portal account: first/last name, date of birth, email, address, and a password (driver's license number is optional, not required).\n2. Once registered, use the portal to view what CIC has on file and submit a dispute for any item you believe is inaccurate or shouldn't be there.\n3. If you'd rather not create an account, call CIC Consumer Relations at 888-316-4242 (Mon-Fri, 9am-7pm ET) to start a dispute by phone.\n4. As a mail/fax alternative, write to CIC Consumer Relations, 3700 Crestwood Pkwy #300, Duluth, GA 30096 (fax 888-797-2254) -- note this path asks for more, including your SSN and a copy of a driver's license or state ID, so prefer the online portal or phone if you can.\n5. If you are a survivor of human trafficking seeking removal of adverse items tied to that, CIC has a dedicated expedited process -- call 888-316-4242 and ask for it specifically.\n6. This is a dispute/correction process, not a \"stop selling my data\" opt-out -- CIC operates as an FCRA consumer reporting agency and doesn't offer blanket removal.",
+   "link_status": "live"
   },
   {
    "id": "corporationwiki-com",
@@ -3550,30 +4284,6 @@
    "last_verified": null,
    "source": "data-brokers-watch",
    "instructions_md": "1. Call (913) 782-8544 and request removal of your information.\n2. No verified step-by-step procedure exists yet for this broker -- if you learn one, please contribute it.",
-   "link_status": "unknown"
-  },
-  {
-   "id": "socialcatfish-com",
-   "name": "Social Catfish, Llc",
-   "domain": "socialcatfish.com",
-   "category": "data_brokers",
-   "people_search": false,
-   "tier": "guided",
-   "priority": "standard",
-   "method": "phone",
-   "opt_out_url": null,
-   "opt_out_email": null,
-   "phone": "(844) 422-8347",
-   "captcha": false,
-   "id_required": false,
-   "phone_required": true,
-   "charges_fee": false,
-   "required_fields": [],
-   "readd_days": null,
-   "legal_basis": [],
-   "last_verified": null,
-   "source": "data-brokers-watch",
-   "instructions_md": "1. Call (844) 422-8347 and request removal of your information.\n2. No verified step-by-step procedure exists yet for this broker -- if you learn one, please contribute it.",
    "link_status": "unknown"
   },
   {
