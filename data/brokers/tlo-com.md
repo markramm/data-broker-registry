@@ -1,0 +1,33 @@
+---
+id: tlo-com
+name: "TLO (TLOxp)"
+domain: tlo.com
+category: investigative_skip_trace_data
+people_search: true
+tier: guided
+priority: crucial
+method: portal
+opt_out_url: "https://www.transunion.com/consumer-privacy"
+opt_out_email: "privacy@transunion.com"
+phone: "1-866-310-8783"
+captcha: false
+id_required: true
+phone_required: false
+charges_fee: false
+required_fields: [full_name, address, email, phone, dob, ssn, gov_id]
+readd_days: null
+legal_basis: [ccpa, cpra]
+last_verified: null
+source: "dbw+tcp-research"
+notes: "IMPORTANT: this is NOT a TLO/TLOxp-specific opt-out -- no such mechanism could be found. TLO (tlo.com) and TLOxp (tloxp.tlo.com, the investigator-facing login/search platform) are products of TransUnion LLC (via its TransUnion Risk and Alternative Data Solutions / investigations business, marketed today partly under 'TruLookup powered by TLOxp' at transunion.com/business-needs/investigations-tloxp). Both tlo.com and tloxp.tlo.com returned HTTP 403 (bot-blocked) on every direct fetch attempt, including in a prior research pass -- no TLO-specific privacy or opt-out page could be rendered or located via search. What IS confirmed: TransUnion LLC is registered as a data broker with the California Attorney General (registration #198255, registered 2021-01-07); I independently fetched that CA DOJ registry page twice (via two URL variants) and both times it listed TransUnion's self-declared CCPA contact methods identically: website https://www.transunion.com/consumer-privacy, phone 1-866-310-8783, and email privacy@transunion.com, address 555 W Adams St, Chicago, IL 60661. That CA AG registry page does NOT mention TLO or TLOxp by name or describe scope over specific product lines -- this is TransUnion's company-wide CCPA/CPRA consumer-rights channel, the same one the existing transunion-com.md entry documents (that entry cites a slightly different, unconfirmed URL, transunion.com/consumerprivacy without a hyphen -- I could not resolve which spelling is currently live since both are bot-blocked to direct fetch; the hyphenated /consumer-privacy form is the one independently corroborated by the CA AG registry text, so it is used here). Whether a request submitted through this general channel actually reaches/suppresses TLOxp's investigative database specifically is NOT confirmed -- TransUnion's risk/investigations data lines (which include batches like credit-header and skip-trace data) are commonly carved out or handled differently from marketing data broker opt-outs, and consumer-facing CCPA portals for large CRAs frequently exclude data used for background-check/investigative/FCRA-adjacent purposes. Treat this entry as 'best available TransUnion-wide channel, unconfirmed as to TLO-specific effect' rather than a guaranteed TLO removal path. id_required/ssn/dob/gov_id fields mirror the existing transunion-com.md entry's documented verification burden for TransUnion's CCPA portal generally, since no TLO-specific field requirements could be found. last_verified left null because I could not render either transunion.com/consumer-privacy or tlo.com/tloxp.tlo.com directly -- confirmation rests on the CA AG's registry text, not a rendered TransUnion or TLO page."
+---
+
+<!-- Original instructions, built from the CA AG data broker registry entry for TransUnion LLC and cross-referenced against the repo's existing transunion-com.md entry, because no TLO/TLOxp-specific consumer opt-out page could be found or rendered. -->
+1. Understand the limits first: tlo.com and TLOxp (tloxp.tlo.com) are investigator/law-enforcement/debt-collector-facing tools with no public consumer opt-out page of their own. The only documented path is TransUnion LLC's company-wide CCPA/CPRA consumer-rights channel, and it is not confirmed to specifically cover TLOxp's investigative data.
+2. Go to https://www.transunion.com/consumer-privacy (TransUnion's registered CCPA consumer-privacy portal, per its California data-broker registration). If that exact page has moved, look for "Your Privacy Choices" or "California Privacy Rights" in the transunion.com site footer, or try https://www.transunion.com/consumerprivacy (an older/alternate spelling seen elsewhere) as a fallback.
+3. Alternatively, call TransUnion's registered consumer privacy line at 1-866-310-8783, or email privacy@transunion.com, and explicitly state you are submitting a CCPA/CPRA opt-out and deletion request that you want applied to all TransUnion LLC products and affiliates, by name, including TLO / TLOxp / TransUnion Risk and Alternative Data Solutions and any "investigations" or "TruLookup" branded products.
+4. Be ready to verify your identity: TransUnion's consumer-privacy process for its credit/risk data lines has historically required full name, current and prior addresses, date of birth, phone, email, and either your full Social Security number or last four digits, plus in some cases a copy of a government-issued photo ID.
+5. Select or request deletion / opt-out of sale and sharing of personal information, and ask for written confirmation of which TransUnion databases and affiliated products (including TLO/TLOxp) the request was applied to -- TransUnion is not obligated to volunteer this, so ask directly and keep the response for your records.
+6. If TransUnion's response says investigative/risk/FCRA-adjacent data (the category TLOxp data typically falls under) is outside the scope of this consumer channel, that is itself useful information: it means there may be no self-service consumer opt-out for TLOxp specifically, and your recourse is likely limited to disputing inaccurate information under the Fair Credit Reporting Act (if TLOxp data was used in an FCRA-covered decision about you) or contacting TransUnion's FCRA-dispute process separately, rather than a CCPA opt-out.
+7. Because this is a personal-safety-sensitive investigative platform (used for skip-tracing, i.e., locating people), if you have a documented safety concern -- domestic violence, stalking, law enforcement/protected-professional status -- consider requesting suppression under any address-confidentiality or safety-exception process TransUnion offers for its risk-data products, and be explicit about the safety basis in writing, in addition to the standard CCPA request.
+8. Re-check periodically: since no TLO-specific removal was ever confirmed to exist, treat this as an open request to monitor rather than a one-time fix, and consider escalating to your state Attorney General's data-broker complaint process if TransUnion does not respond or confirm scope within the statutory CCPA timeframe (45 days, extendable).
