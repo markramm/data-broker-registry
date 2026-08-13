@@ -1,22 +1,22 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.13",
-  "content_hash": "sha256:853e010d10108b08f7c3f4495c2da4aee4913477def43f64d66873e825616895",
+  "dataset_version": "0.1.14",
+  "content_hash": "sha256:139d84151dcbf088367bf35324a1dfe151f211d08a3c7680511c9eb92c315cad",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 487,
-  "backlog_count": 93,
-  "total_known": 580,
-  "unverified_count": 458,
+  "authored_count": 494,
+  "backlog_count": 89,
+  "total_known": 583,
+  "unverified_count": 465,
   "tiers": {
-   "guided": 266,
+   "guided": 270,
    "assisted": 152,
-   "auto": 69
+   "auto": 72
   },
   "priorities": {
-   "crucial": 124,
-   "high": 152,
-   "standard": 211
+   "crucial": 125,
+   "high": 155,
+   "standard": 214
   }
  },
  "brokers": [
@@ -1609,6 +1609,36 @@
    "notes": "MIGRATED research_note: live, bot-blocks scripted fetch; form-based removal. WebFetch returned 403 on this pass too (site actively blocks automated fetches), so last_verified is left null rather than freshly confirmed. Prior TCP research found no CAPTCHA and a simple name/listing-URL removal form -- kept those assessments since the page itself couldn't be re-fetched.",
    "instructions_md": "1. Find your listing on LocateFamily.com by searching your name at locatefamily.com, and copy the exact URL of your listing page.\n2. Go to the removal page at locatefamily.com/removal2.html.\n3. Paste the listing URL and enter your full name into the removal form as requested.\n4. Submit the form. If the online form doesn't go through (the site is known to block automated/scripted traffic, so occasional glitches happen for real users too), call 1 (302) 223-5135 and request removal by phone instead.\n5. Because this is a people-search site, consider checking back periodically to confirm your listing hasn't reappeared after a future data refresh.",
    "link_status": "bot-blocked"
+  },
+  {
+   "id": "locateplus-com",
+   "name": "LocatePLUS",
+   "domain": "locateplus.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "email",
+   "opt_out_url": "https://locateplus.com/customers/privacy-policy/",
+   "opt_out_email": "customerservice@locateplus.com",
+   "phone": "1-888-746-3463",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "WebFetch confirmed locateplus.com is live and sells 'billions of current historical, cross-referenced public and private records' for people search, skip tracing, criminal/civil records, phone lookups, and asset searches to a stated 100,000+ professional users (private investigators, bail bondsmen, collections agencies, law enforcement, financial institutions) -- a genuine people-search/investigative-records aggregator with real personal-safety stakes, even though access is sold B2B ('this service is only for businesses') rather than direct-to-consumer. Its privacy policy at locateplus.com/customers/privacy-policy/ states California residents can exercise CCPA rights (opt-out, deletion, correction) via customerservice@locateplus.com or 1-888-746-3463, and separately claims the company 'does not sell or share (as defined under CCPA)' info collected through its own website -- but does not disclaim the underlying third-party-sourced records it resells to subscribers, which is the actual people-search product. Given the CSV's existing opt_out_url pointed to a dead /privacy.asp path (404 on fetch), the URL here was corrected to the live privacy-policy page. Email-only process but the B2B gate and ambiguity around what's actually removable pushed this to guided rather than auto; not independently re-rendered by a human, last_verified left null.",
+   "instructions_md": "1. Email customerservice@locateplus.com and state that you are a California resident exercising your CCPA rights to opt out of the sale/sharing of your personal information and/or request deletion.\n2. Include your full name and any other identifying details (past addresses, phone numbers) that will help LocatePLUS locate your record among its aggregated public/private-records database.\n3. Alternatively, call 1-888-746-3463 to make the same request by phone.\n4. LocatePLUS states it does not sell or share information collected directly through its own website, but it aggregates and resells third-party public/private records to subscribers (investigators, collections agencies, etc.) -- ask explicitly that your record be suppressed from search results and reports, not just from marketing.\n5. Because this is a B2B investigative-records service rather than a self-service consumer opt-out form, expect a manual back-and-forth rather than an instant confirmation; follow up if you don't hear back within a few weeks.",
+   "link_status": "live"
   },
   {
    "id": "mashpanel-com",
@@ -6596,6 +6626,97 @@
    "link_status": "live"
   },
   {
+   "id": "liveintent-com",
+   "name": "LiveIntent, Inc.",
+   "domain": "liveintent.com",
+   "category": "adtech_identity_broker",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "portal",
+   "opt_out_url": "https://privacy.liveintent.com",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "gdpr"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "WebFetch on liveintent.com/privacy confirmed LiveIntent is an email-identity/audience-matching adtech company that builds consumer profiles linked to email addresses for publishers and advertisers -- a genuine identity data broker. Their dedicated consumer privacy portal is at privacy.liveintent.com, offering opt-out of sale/sharing, ad personalization, and deletion requests; the page also states LiveIntent honors Global Privacy Control (GPC) signals automatically with no account needed. Portal is likely form-based with identity verification typical of this class of adtech privacy center -> classified guided rather than auto since no plain opt-out email is offered directly (only the portal). captcha:true is an inference from typical adtech DSR-portal design, not directly observed; not independently re-rendered by a human, last_verified left null.",
+   "instructions_md": "1. Go to https://privacy.liveintent.com, LiveIntent's consumer privacy center.\n2. Choose the request type you want: opt out of the sale/sharing of your personal information, opt out of interest-based advertising, or request deletion of your data.\n3. Enter the email address(es) associated with your identity so LiveIntent can locate and act on your record, and complete any verification step the portal presents.\n4. Submit the request and watch for a confirmation email.\n5. If you use a browser or extension that sends a Global Privacy Control (GPC) signal, LiveIntent states it will automatically treat that as an opt-out of sale/sharing without requiring this form.\n6. Expect a response within 45 days (up to 90 days for complex requests), per LiveIntent's stated CCPA/GDPR timelines.",
+   "link_status": "live"
+  },
+  {
+   "id": "liveramp-com",
+   "name": "LiveRamp, Inc.",
+   "domain": "liveramp.com",
+   "category": "identity_resolution_broker",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "portal",
+   "opt_out_url": "https://liveramp.com/privacy/my-privacy-choices",
+   "opt_out_email": null,
+   "phone": "844-678-0045",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "LiveRamp is one of the largest identity-resolution/data-onboarding companies in adtech, matching offline and online identifiers (email, name, address) across advertisers and publishers -- a major, high-impact data broker even though it doesn't sell people-search profiles directly to consumers. WebFetch on liveramp.com/privacy/my-privacy-choices confirmed a web opt-out submission portal requiring first name, last name, and email ('required in order to make a comprehensive and effective opt out'), a phone opt-out line at 844-678-0045 service code 1 (requires name, phone, home address, email, then a rep follows up), plus separate no-PII device/cookie opt-outs. No CAPTCHA or ID upload was mentioned for the web portal, but the multi-channel/rep-follow-up process and prominence of this identity graph -> guided tier despite the primary web form being simple. Response time stated as 15 days. Not independently re-rendered by a human; last_verified left null.",
+   "instructions_md": "1. Go to https://liveramp.com/privacy/my-privacy-choices, LiveRamp's consumer opt-out submission portal.\n2. Submit the web form with your first name, last name, and email address -- LiveRamp states these three fields are required for an effective opt-out.\n3. Alternatively, call 844-678-0045 and enter service code 1; be ready to give your first and last name, phone number, home address, and email address. A LiveRamp representative will follow up to complete the request.\n4. If you only want to stop tracking on a specific device or browser without submitting personal details, LiveRamp also offers a no-PII mobile-device opt-out and a browser-cookie opt-out, each covering only that device/browser.\n5. LiveRamp states it will respond to opt-out requests within 15 days of receipt.\n6. For California-specific rights language, see https://liveramp.com/privacy/california-privacy-notice/.",
+   "link_status": "live"
+  },
+  {
+   "id": "lotame-com",
+   "name": "Lotame Solutions, Inc.",
+   "domain": "lotame.com",
+   "category": "adtech_identity_broker",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "portal",
+   "opt_out_url": "https://legal.epsilon.com/dsr/",
+   "opt_out_email": null,
+   "phone": "1-866-267-3861",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "email",
+    "address"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "Lotame is a large B2B audience-data/identity-graph company for advertisers. WebFetch on lotame.com/privacy/ (Privacy Center) confirmed Lotame now routes consumer CCPA/GDPR privacy requests to its parent Epsilon's shared Consumer Privacy Request portal at legal.epsilon.com/dsr/ (Lotame's own privacy@lotame.com contact from the legacy CSV was not found on the live page; the portal link was the only confirmed channel), reflecting Lotame's acquisition by Publicis/Epsilon. The Epsilon portal itself (see data/brokers/epsilon-com.md, a separate broker entry for Epsilon directly) offers a country-selector Consumer Privacy Request Form plus a US phone line (1-866-267-3861); exact form fields render via JS and weren't directly visible to WebFetch. captcha:true and required_fields are carried over as inferences from the Epsilon entry's research, not independently re-observed for Lotame specifically. High priority given Lotame's scale as an identity/audience-data broker; not people-search. last_verified left null.",
+   "instructions_md": "1. Go to https://legal.epsilon.com/dsr/ -- Lotame's parent company Epsilon's shared Consumer Privacy Request portal, which now handles Lotame's consumer privacy requests.\n2. Select your country/region (US consumers should pick United States).\n3. Fill out the Consumer Privacy Request Form with your name, email, and mailing address, specifying that your request concerns Lotame specifically (mention \"Lotame\" by name in any free-text field, since the portal is shared across Epsilon's brands).\n4. Submit the form and complete any verification step it presents.\n5. Alternatively, call 1-866-267-3861 to submit the same request by phone.\n6. If acting as an authorized agent on someone else's behalf, be ready to provide written proof of your authority.",
+   "link_status": "live"
+  },
+  {
    "id": "mapquest-com",
    "name": "MapQuest (System1)",
    "domain": "mapquest.com",
@@ -9447,6 +9568,36 @@
    "link_status": "unknown"
   },
   {
+   "id": "littlebrookmedia-com",
+   "name": "Big Brook Media, LLC",
+   "domain": "littlebrookmedia.com",
+   "category": "lead_generation",
+   "people_search": false,
+   "tier": "auto",
+   "priority": "standard",
+   "method": "email",
+   "opt_out_url": "https://littlebrookmedia.com/privacy-policy",
+   "opt_out_email": "info@littlebrookmedia.com",
+   "phone": "845-639-5053",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "WebFetch on littlebrookmedia.com/privacy-policy confirmed the company is a direct-marketing/online lead-generation firm (operating as Big Brook Media, LLC per the policy's legal name and mailing address) that collects consumer contact info via its own 'digital media properties' and sells leads to clients on a pay-per-lead basis -- a genuine data broker per this project's definition. The privacy policy lists an online form, phone (845-639-5053), email (info@littlebrookmedia.com, matching the legacy CSV), and mail (20 South Main Street, New City, NY 10956) as opt-out channels, and requires only a 'verifiable CA User request' with identity-verifying info, no CAPTCHA or ID mentioned -> simple email opt-out, tier auto. Not independently re-rendered by a human; last_verified left null.",
+   "instructions_md": "1. Email info@littlebrookmedia.com and state that you are submitting a CCPA opt-out / deletion request for your personal information.\n2. Include your full name and the email address(es) or other contact details you believe Little Brook Media (operating as Big Brook Media, LLC) has collected about you, so they can verify your identity.\n3. Alternatively, call 845-639-5053 or mail a written request to Big Brook Media, 20 South Main Street, New City, NY 10956.\n4. The company states it acts on verifiable opt-out requests within 15 days of receipt.\n5. Watch for a confirmation reply; if none arrives, follow up by phone using the number above.",
+   "link_status": "live"
+  },
+  {
    "id": "bisi-com",
    "name": "BISI (Background Information Services, Inc.)",
    "domain": "bisi.com",
@@ -10664,6 +10815,37 @@
    "link_status": "live"
   },
   {
+   "id": "listmatch-com",
+   "name": "Email Marketing Services, Inc",
+   "domain": "listmatch.com",
+   "category": "mailing_list_broker",
+   "people_search": false,
+   "tier": "auto",
+   "priority": "standard",
+   "method": "email",
+   "opt_out_url": "https://www.listmatch.co/privacy",
+   "opt_out_email": "dataprivacy@listmatch.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "address",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "listmatch.com 301-redirects to listmatch.co. WebFetch on the live listmatch.co/privacy page confirmed the company is an email-marketing/lead-generation list broker and lists an opt-out email at dataprivacy@listmatch.com (subject line 'CCPA Opt-out'), matching the legacy CSV exactly. Page also mentions a 'Do Not Sell My Info' link and a self-service portal, but the email channel is the simplest confirmed path -> tier auto. Page states the company 'as of 2024 exited consumer data sales' in some regions but still operates the list business and privacy request channel. Not independently re-rendered by a human; last_verified left null.",
+   "instructions_md": "1. Email dataprivacy@listmatch.com with the subject line \"CCPA Opt-out.\"\n2. In the body, include your full name, mailing address, and the email address associated with any listing you believe ListMatch holds, plus a statement that you are requesting deletion/opt-out of the sale of your personal information under the CCPA.\n3. Expect a request for additional verifying information if ListMatch cannot confirm your identity from what you provided.\n4. Watch for a confirmation reply; ListMatch states it acts on requests within the timeframe required by California law.\n5. If you don't hear back within a few weeks, you can also look for the \"Do Not Sell My Info\" link on listmatch.co's homepage or the self-service form at https://www.listmatch.co/privacy as a second channel.",
+   "link_status": "live"
+  },
+  {
    "id": "entelo-com",
    "name": "Entelo, Inc. (now Rival)",
    "domain": "entelo.com",
@@ -11820,6 +12002,35 @@
    "source": "dbw+tcp-research",
    "notes": "Nativo, Inc. (the native-advertising platform) was acquired by Life360 -- nativo.com/privacy-policy now 301-redirects to ads.life360.com/privacy-policy, titled 'Life360 Ads Featuring Nativo Website Privacy Policy.' This is an adtech/programmatic-advertising company, not a people-search or identity-reseller service, so people_search is false and priority is standard (ad-targeting opt-out only, no direct personal-safety exposure). WebFetch of the redirected policy confirmed a CCPA sale/share/targeted-advertising opt-out: the stated primary path is the 'Your Privacy Choices' link in the site footer (a preference-management toggle, consistent with method:form/assisted rather than a plain email), with rights requests (including deletion/access) also acceptable via email at privacy-nativo@life360.com, and a TrustArc-hosted rights-request portal linked in the policy (submit-irm.trustarc.com/...). Because a real email path exists and is explicitly offered for rights requests including opt-out of sale, opt_out_email is populated with that address; tier is kept at assisted rather than auto because the primary documented mechanism is the footer preference toggle/portal, not a bare mailto flow. last_verified left null since this was a single WebFetch render, not human-confirmed.",
    "instructions_md": "1. Note that Nativo, Inc. has been acquired by Life360 and now operates as 'Life360 Ads featuring Nativo' -- its privacy policy lives at https://ads.life360.com/privacy-policy.\n2. To opt out of the sale/sharing of your personal information for targeted advertising, look for the 'Your Privacy Choices' link in the footer of the ads.life360.com site and follow the preference-management flow it opens.\n3. Alternatively, submit a rights request (including opt-out, access, or deletion) through the linked TrustArc request portal referenced in the privacy policy.\n4. If you prefer email, send your request to privacy-nativo@life360.com, describing what you want (opt-out of sale/share, access, or deletion) and including enough information to identify your data (e.g. the email or device identifiers associated with your ad activity).\n5. Because this is a programmatic-advertising/adtech company, the practical effect of this opt-out is limited to ad-targeting based on your browsing/app activity -- it will not remove you from unrelated data-broker or people-search listings.",
+   "link_status": "live"
+  },
+  {
+   "id": "localpages-com",
+   "name": "Local Pages",
+   "domain": "localpages.com",
+   "category": "business_directory",
+   "people_search": false,
+   "tier": "auto",
+   "priority": "standard",
+   "method": "email",
+   "opt_out_url": "http://localpages.com/privacy",
+   "opt_out_email": "contact@localpages.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "none"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "WebFetch confirmed localpages.com is live: a local-business directory/marketplace (businesses claim and manage their own listings, partnered with Yext for listing distribution) plus an e-commerce shop and blog -- no people-search or personal-data-lookup functionality was found. The privacy policy at localpages.com/privacy does not contain CCPA-specific opt-out language, a dedicated opt-out URL, or a data-sale disclosure; it only offers a general unsubscribe/contact channel at contact@localpages.com (the legacy CSV's info@localpages.com was not confirmed live -- contact@ is what the current policy displays). Classified standard priority / auto tier as a low-impact, business-focused directory rather than a personal-data broker; the email channel is for general opt-out of communications/data collection, not a CCPA-specific sale opt-out (no CCPA legal basis could be confirmed, hence legal_basis: [none]). Not independently re-rendered by a human; last_verified left null.",
+   "instructions_md": "1. Email contact@localpages.com and ask to unsubscribe from communications and to stop having your data collected/used by Local Pages.\n2. Include the email address or account you used with the site so they can identify your record.\n3. Local Pages' privacy policy does not describe a dedicated CCPA \"do not sell\" process, so frame your request broadly as a general opt-out/data-removal request.\n4. If you have a claimed business listing you want removed or corrected instead, use the \"Claim Your Business Listing\" flow on localpages.com, which lets you manage that listing's information directly.\n5. Watch for a confirmation reply; no specific response-time commitment was found on the site.",
    "link_status": "live"
   },
   {
