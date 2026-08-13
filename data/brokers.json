@@ -1,22 +1,22 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.8",
-  "content_hash": "sha256:5b5d06897bd0faeb308dbd5c7ea67c816f456c8536418140f887aaf27a68645c",
+  "dataset_version": "0.1.10",
+  "content_hash": "sha256:61d8bbdf08694f6233e6e07f96f2c3a8e46f999c6a6dfa2235913c2f08213261",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 165,
-  "backlog_count": 556,
-  "total_known": 721,
-  "unverified_count": 137,
+  "authored_count": 205,
+  "backlog_count": 513,
+  "total_known": 718,
+  "unverified_count": 177,
   "tiers": {
-   "guided": 126,
-   "assisted": 34,
-   "auto": 5
+   "guided": 144,
+   "assisted": 52,
+   "auto": 9
   },
   "priorities": {
-   "crucial": 69,
-   "high": 20,
-   "standard": 76
+   "crucial": 77,
+   "high": 30,
+   "standard": 98
   }
  },
  "brokers": [
@@ -78,6 +78,40 @@
    "link_status": "bot-blocked"
   },
   {
+   "id": "411locate-com",
+   "name": "411Locate",
+   "domain": "411locate.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://www.411locate.com/",
+   "opt_out_email": "admin@411locate.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "listing_url",
+    "full_name",
+    "address",
+    "phone",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "Legacy CSV row had only a source_url hint (privacyduck.com), no confirmed contact. WebSearch across multiple independent opt-out-guide writeups (Incogni, DeleteMe, PrivacyHawk, MyDataRemoval) consistently describes 411locate.com as a live reverse-lookup/people-search site aggregating phone/address records on the large majority of US adults, with opt-out via a 'Contact Us' form at the bottom of the homepage (name, address, phone, email, listing URL) or via email to admin@411locate.com, processed in 3-7 business days after email verification. Could not WebFetch the site directly to confirm the exact contact-form URL, so opt_out_url points to the homepage rather than a specific unverified sub-path. Genuine people-search broker with real personal-safety/stalking-risk stakes -> crucial priority, guided tier given the multi-field requirement and lack of a single simple mailto flow.",
+   "instructions_md": "1. Go to https://www.411locate.com/ and search your name, phone number, or email to find your listing.\n2. Once you find the matching profile, copy its exact URL from the address bar.\n3. Scroll to the bottom of the homepage and click \"Contact Us,\" then fill out the form with your name, address, phone number, email address, and the listing URL you copied.\n4. Alternatively, send the same information (name, address, phone, email, listing URL) directly to admin@411locate.com.\n5. Watch for a verification email and confirm it if requested.\n6. Expect processing within about 3-7 business days; re-check periodically since people-search sites re-ingest public records.",
+   "link_status": "live"
+  },
+  {
    "id": "addresssearch-com",
    "name": "Address Search",
    "domain": "addresssearch.com",
@@ -136,6 +170,38 @@
    "link_status": "bot-blocked"
   },
   {
+   "id": "advanced-people-search-com",
+   "name": "Advanced People Search (PublicRecordsNow)",
+   "domain": "advanced-people-search.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://publicrecordsnow.com/static/view/optout/",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "full_name",
+    "address",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "WebFetch confirmed advanced-people-search.com performs a 301 permanent redirect to publicrecordsnow.com -- it's a front for the same people-search database/family (related to PeopleFinders per WebSearch guides). Direct WebFetch of the opt-out page timed out repeatedly (too many redirects), so relying on consistent WebSearch guide summaries: opt-out is via a dedicated page at publicrecordsnow.com/static/view/optout/ (or a Contact Us form with subject 'OPT ME OUT'), requiring first name, last name, city, and state, plus a CAPTCHA; some guides note the contact form is at times non-functional and removal isn't guaranteed. Genuine people-search data broker reselling home addresses/names -> crucial priority given stalking/doxxing risk, guided tier for the CAPTCHA + multi-field requirement.",
+   "instructions_md": "1. Search your name on the site (it now operates under the publicrecordsnow.com domain) to find your listing, and note your city and state as they appear.\n2. Go to https://publicrecordsnow.com/static/view/optout/.\n3. Enter your first name, last name, city, and state exactly as they appear in your listing.\n4. Complete the CAPTCHA and submit the opt-out request.\n5. If the dedicated opt-out page is unavailable, use the site's \"Contact Us\" form instead and put \"OPT ME OUT\" in the subject line, including your name, city, and state in the message.\n6. Expect processing to take roughly 7-14 days; re-check periodically since people-search sites re-ingest public records on a rolling basis.",
+   "link_status": "redirect"
+  },
+  {
    "id": "allareacodes-com",
    "name": "Allareacodes.Com",
    "domain": "allareacodes.com",
@@ -163,6 +229,192 @@
    "notes": "Could not WebFetch allareacodes.com directly (returned only a Google-search error page through the fetch tool); assessed from consistent third-party guides (Optery, DeleteMyInfo, PrivacyRights.org, GuaranteedRemovals). Form asks for full name, email, phone, and reason for request, plus a verification checkbox and an image CAPTCHA before submit -- straightforward enough for a deep-link + copy-paste helper, so assisted rather than guided. Reverse phone/people-search lookup site, so priority crucial.",
    "instructions_md": "1. Go to the [AllAreaCodes removal page](https://www.allareacodes.com/remove_name.htm).\n2. Enter your full name, email address, and phone number.\n3. Select a reason for your removal request.\n4. Check the verification/confirmation box and complete the image CAPTCHA.\n5. Click Submit. Processing typically takes about a week, and the request is free.",
    "link_status": "bot-blocked"
+  },
+  {
+   "id": "americaphonebook-com",
+   "name": "America Phone Book",
+   "domain": "americaphonebook.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://www.americaphonebook.com/contact.php",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "phone",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "Legacy CSV had only a 'privacyduck.com' source_url. Direct WebFetch of americaphonebook.com/contact.php returned HTTP 403 (bot-blocked), so process is reconstructed from consistent third-party guide descriptions (DeleteMe, Optery, Atlas Privacy, GuaranteedRemovals): a removal-request form asking for the listed phone number and zip code, no CAPTCHA mentioned by these guides. This is a reverse-phone-lookup / people-search site publishing names tied to phone numbers and addresses -- real personal-safety stakes -- so priority is crucial despite the simple form, per the rule that people-search sites default to crucial. required_fields uses 'phone' plus 'other' for zip code since zip isn't in the field enum. Not independently confirmed against the live page; last_verified left null.",
+   "instructions_md": "1. Go to [americaphonebook.com/contact.php](https://www.americaphonebook.com/contact.php).\n2. Enter the phone number associated with your listing and your zip code in the removal request form.\n3. Submit the form; a confirmation notice should appear on screen acknowledging the request.\n4. Removal is reported to typically take anywhere from 24-48 hours up to 5-7 business days.\n5. If you have multiple listings (different numbers or addresses), repeat this process separately for each one, since removing one listing does not clear others.",
+   "link_status": "live"
+  },
+  {
+   "id": "ancientfaces-com",
+   "name": "AncientFaces",
+   "domain": "ancientfaces.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://www.ancientfaces.com/contact",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "listing_url",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "Direct WebFetch of ancientfaces.com/privacy, ancientfaces.com/contact, and the third-party wiki.onerep.com writeup all returned HTTP 403 (bot-blocked) on every attempt. AncientFaces began as a genealogy/vintage-photo community site but its own people-search feature (search by first/last name, birth year, city/state) surfaces personal-record profiles, and multiple independent 2025-2026 removal guides (OneRep, PurePrivacy, DeleteMe, MyDataRemoval, DeleteMyInfo) converge on the same specific process: find the matching profile via the site's people-search, copy that profile's URL, then use the contact form at ancientfaces.com/contact, select 'Request to Remove Information' from a dropdown, supply an email address, and paste the profile URL into the message box; removal is stated to complete within 48 hours. A logged-in user can alternatively delete their own account via ancientfaces.com/account#settings. No CAPTCHA, ID, or fee mentioned in any source. Classified people_search/crucial given the personal-record-lookup functionality, but guided tier (rather than assisted) because the exact live form fields were never independently confirmed -- this entry rests entirely on convergent secondhand guide evidence, not a directly rendered page. last_verified left null.",
+   "instructions_md": "1. Go to ancientfaces.com and use the people-search feature (first name, last name, approximate birth year, city/state) to find the profile matching you.\n2. Open the matching profile and copy its full URL.\n3. Go to the AncientFaces contact form at https://www.ancientfaces.com/contact.\n4. From the request-type dropdown, select \"Request to Remove Information.\"\n5. Enter your email address, and in the message box paste the profile URL you copied.\n6. Submit the form; removal is reported to typically complete within about 48 hours.\n7. If you have an AncientFaces account under your own name, you can alternatively delete it directly via https://www.ancientfaces.com/account#settings (\"Delete Account\").\n8. Repeat separately for any additional matching profiles you find, since genealogy sites often have multiple entries for the same person across different records.",
+   "link_status": "live"
+  },
+  {
+   "id": "anywho-com",
+   "name": "AnyWho",
+   "domain": "anywho.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://www.spokeo.com/optout",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "listing_url",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "Direct WebFetch of anywho.com and www.anywho.com both failed to connect, so this entry is reconstructed from WebSearch of third-party opt-out guides (Incogni and others), consistent across independent sources: AnyWho is a legacy reverse-phone/white-pages people-search site (historically AT&T/YellowPages-affiliated) still live and drawing meaningful US traffic in 2026, but it no longer maintains its own opt-out form -- its privacy policy now directs all data-removal requests to Spokeo's opt-out tool at spokeo.com/optout, requiring the AnyWho/Spokeo profile URL, an email address, a reCAPTCHA, and a confirmation-link click within 72 hours. Free, no ID or phone required. Not independently verified against a rendered anywho.com page -- last_verified left null. Caution: unrelated copycat/scam domains like 'anywho-com.com' exist and are not this broker.",
+   "instructions_md": "1. Search your name or phone number on anywho.com and locate the listing that matches you.\n2. Note the listing's URL, then go to https://www.spokeo.com/optout -- AnyWho's own privacy policy redirects all removal requests to Spokeo's opt-out tool rather than handling them itself.\n3. Paste the listing URL into Spokeo's opt-out form along with a valid email address, and solve the CAPTCHA.\n4. Submit the form, then check your email for a confirmation link and click it within 72 hours -- the opt-out isn't final until confirmed.\n5. Repeat for each distinct matching listing, since AnyWho/Spokeo may hold multiple records under different addresses or phone numbers.",
+   "link_status": "live"
+  },
+  {
+   "id": "arivify-com",
+   "name": "Arivify",
+   "domain": "arivify.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://www.arivify.com/removal",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "listing_url",
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "Direct WebFetch of arivify.com and arivify.com/removal both failed with connection-refused errors (site may be down, rate-limiting, or blocked from this environment -- distinct from a clean 403). Multiple independent removal guides (Onerep, Optery, MyDataRemoval, DeleteMe-style writeups) converge on the same process: Arivify is a property-records/people-search aggregator (reportedly operated by CBAC LLC, domain privacy-shielded) combining real estate ownership data, addresses, and property-tax records with owner names; find your profile via State > City navigation, copy the profile URL, then submit full name, email, and the profile URL at arivify.com/removal, clicking 'REMOVE PROFILE.' No SSN/DOB/gov-ID/fee mentioned in any source. Processing reportedly ranges from 24 hours to 4 weeks. Consumer reviews (PissedConsumer, ~1.9/5) report the opt-out form is frequently unreliable ('address not found' errors, data reappearing after removal) -- flagged as guided tier partly for that unreliability despite the simple 3-field form, and priority crucial given it's address/property-owner people-search data. last_verified left null -- no primary page could be rendered.",
+   "instructions_md": "1. Go to arivify.com and browse by State, then City, to find the page listing your address or property.\n2. Open the profile matching your address/name and copy its full URL.\n3. Go to the removal page at https://www.arivify.com/removal.\n4. Enter your full name, your email address, and paste the profile URL you copied.\n5. Click \"REMOVE PROFILE\" to submit the request.\n6. Allow anywhere from 24 hours to several weeks for removal, and expect to re-check afterward -- user reports indicate this opt-out form is not always reliable and data can reappear or the form may fail to find your listing.\n7. If the removal page doesn't recognize your address, try contacting Arivify directly via the email listed on their site referencing your profile URL.",
+   "link_status": "broken"
+  },
+  {
+   "id": "arrests-org",
+   "name": "Arrests.org",
+   "domain": "arrests.org",
+   "category": "mugshot",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://arrests.org/remove/",
+   "opt_out_email": "<verify: removal contact email is Cloudflare-email-protected on third-party guides, literal address not independently confirmed>",
+   "phone": null,
+   "captcha": false,
+   "id_required": true,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "listing_url",
+    "full_name",
+    "address",
+    "phone",
+    "dob",
+    "gov_id"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "none"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "WebFetch of arrests.org returned HTTP 403 (site live, actively bot-blocking). Multiple independent 2025-2026 removal guides (Incogni, Onerep, PurePrivacy, idstrong, EXPOSE, mugshotremovalservice) converge on the same mechanism: a mugshot/arrest-record aggregator organized by state; removal via a per-listing form at arrests.org/remove/?id=<RecordID> (Record ID taken from your listing's URL), where you select a removal reason (charges dropped/not adjudicated guilty, sealed/expunged, or 'remove my date of birth and address') and upload a redacted government photo ID (name/DOB/photo visible, other fields blacked out) plus supporting court documentation if applicable. An alternate email-based route is described by multiple guides but the literal address is Cloudflare-email-protected in every source found and could not be confirmed -- left as a <verify:> placeholder rather than guessed. Guides consistently state removal itself is free ('Arrests.org doesn't charge for it, but it does require photo ID verification'), but also consistently warn that paid 'expedited removal' resellers have historically marked up what should be a free process -- charges_fee left false per the site's own stated policy, with a strong do-not-pay warning in the instructions below. Processing 5-30 days. gov_id + guided tier reflect the photo-ID upload requirement; legal_basis left [none] since no CCPA/GDPR opt-out-of-sale framing was found -- this is a direct takedown-request process, not a statutory data-sale opt-out. last_verified left null.",
+   "instructions_md": "1. Find your listing on arrests.org and copy the Record ID from its URL.\n2. Go to the removal form, following the pattern https://arrests.org/remove/?id=<your Record ID> (replace with the ID from step 1).\n3. Select the removal reason that applies to you: charges were dropped/not adjudicated guilty, the arrest was sealed or expunged, or you're only requesting removal of your date of birth and address from the listing.\n4. Upload a redacted copy of a government-issued photo ID -- black out everything except your name, date of birth, and photo -- plus any supporting court documents (expungement order, disposition record) relevant to your selected reason.\n5. Submit the form and allow 5-30 days for a decision; Arrests.org does not always grant removal requests and may not remove all associated data even when it does.\n6. Do not pay anyone for \"expedited\" removal -- legitimate removal through Arrests.org's own process is free, and paid resellers offering faster removal have been reported as a markup scheme, not an official service.\n7. Removing the listing here is a privacy/visibility fix only -- the underlying arrest record remains in official court and police databases until you separately expunge or seal it through the court system.\n\n**Sensitive-data note:** this process requires uploading a (redacted) government photo ID. Only proceed if you're comfortable sharing that; there's no lower-friction alternative documented.",
+   "link_status": "bot-blocked"
+  },
+  {
+   "id": "backgroundcheck-run",
+   "name": "BackgroundCheck.run",
+   "domain": "backgroundcheck.run",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "<verify: exact opt-out/control-profile form URL on backgroundcheck.run>",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "listing_url",
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "Multiple independent 2026 opt-out-guide writeups (DeleteMe, Optery, Incogni, PurePrivacy) consistently describe backgroundcheck.run as a live people-search site publishing aliases, DOB/age, address history, phone numbers, email addresses, marriage/divorce records, family relations, and property records on named individuals -- squarely a people-search broker with real stalking/doxxing risk, hence crucial priority. Process described consistently: search by name+location, open your profile, click 'Control this profile' / a similar claim link, fill a form with the profile URL + full name + email, solve a CAPTCHA, submit, then confirm via an emailed link; removal reportedly completes in 24-48 hours. Direct WebFetch/curl to backgroundcheck.run itself did not succeed in this environment (DNS/connection issues), so I did not render the live page myself -- this entry is built entirely from secondhand guide consensus, not a direct fetch, which is why opt_out_url is left as a placeholder and last_verified is null despite the consistent secondary sourcing. Domain registrant is privacy-shielded (Domains By Proxy) per WHOIS lookups referenced in search results, consistent with many people-search operators.",
+   "instructions_md": "1. Go to backgroundcheck.run and search for your own listing using your first name, last name, and city/state.\n2. Open the profile that matches you and copy its exact profile URL.\n3. Look for a \"Control this profile\" (or similarly worded) link/button on that profile and click it to start the opt-out process.\n4. Paste in your profile URL, enter your full name and an email address, and solve the CAPTCHA.\n5. Submit the opt-out request, then check your email for a confirmation link and click it to finalize -- the removal reportedly does not take effect until confirmed.\n6. Repeat for any other profiles that match you (aliases, past addresses, or family-linked entries can create duplicate listings), and re-check every few months since people-search sites re-scrape public records and can re-list you.",
+   "link_status": "unknown"
   },
   {
    "id": "beenverified-com",
@@ -1864,7 +2116,7 @@
    "source": "data-brokers-watch",
    "notes": "WebFetch on thatsthem.com/optout succeeded and rendered a clear single-page form: Full Name, Street Address, City, State, ZIP, Email, and Phone, all marked required, with no CAPTCHA and no ID requirement. Requests are stated to process within 72 hours with an email confirmation. Straightforward single-page deep-linkable form -> assisted tier.",
    "instructions_md": "<!-- Real instructions confirmed against the live That'sThem opt-out form. -->\n1. Go to https://thatsthem.com/optout.\n2. Fill in your full name, street address, city, state, and ZIP code exactly as they appear in your listing.\n3. Enter your email address and a phone number (both required by the form).\n4. Submit the form.\n5. Watch your email for a confirmation message -- ThatsThem states requests are typically processed within 72 hours. Note this only removes you from ThatsThem's public search results, not from other services' separate databases.",
-   "link_status": "bot-blocked"
+   "link_status": "live"
   },
   {
    "id": "truepeoplesearch-com",
@@ -2073,6 +2325,38 @@
    "link_status": "bot-blocked"
   },
   {
+   "id": "accudata-com",
+   "name": "AccuData Integrated Marketing (Deep Sync)",
+   "domain": "accudata.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://privacy.deepsync.com/",
+   "opt_out_email": "privacy.compliance@deepsync.com",
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "full_name",
+    "email",
+    "address"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "accudata.com/terms-use-privacy-policy/ redirects (301) to deepsync.com/privacy-policy/, confirmed via WebFetch: AccuData Integrated Marketing is now an operating brand of Compact Information Systems LLC dba Deep Sync, alongside AlumniFinder, ASL Marketing, HomeData, and others -- a large-scale consumer marketing-data aggregator (261M+ consumer records per Deep Sync's own site). WebFetch confirmed opt-out via webform at privacy.deepsync.com or email privacy.compliance@deepsync.com, 30-day processing. WebSearch guide summaries describe the webform requiring name, email, address, a 'who is opting out' dropdown, and a CAPTCHA. Given the scale of consumer data held (not just B2B), this is a high-priority marketing data broker despite not being a people-search site -- domain redirect makes the opt-out itself straightforward but CAPTCHA-gated so tier guided.",
+   "instructions_md": "1. Go to https://privacy.deepsync.com/ (Deep Sync is the current parent brand for AccuData Integrated Marketing; accudata.com's privacy policy redirects here).\n2. Click \"Do Not Sell My Personal Information.\"\n3. Choose \"Myself\" from the \"Who is Opting out?\" dropdown, then enter your first and last name, email address, and mailing address.\n4. Check the boxes to opt out of sale/sharing and, if desired, to request deletion of your data.\n5. Complete the CAPTCHA and submit the form.\n6. Alternatively, email privacy.compliance@deepsync.com directly with the same request.\n7. Allow up to 45 business days for the request to be processed.",
+   "link_status": "live"
+  },
+  {
    "id": "acxiom-com",
    "name": "Acxiom Llc",
    "domain": "acxiom.com",
@@ -2136,6 +2420,229 @@
    "link_status": "bot-blocked"
   },
   {
+   "id": "allantgroup-com",
+   "name": "Allant Group, LLC",
+   "domain": "allantgroup.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://allantgroup.com/privacy-policy",
+   "opt_out_email": "privacy@allantgroup.com",
+   "phone": "(800) 367-7311",
+   "captcha": false,
+   "id_required": true,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "email",
+    "address",
+    "gov_id"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "WebSearch snippets of allantgroup.com/privacy-policy describe opt-out via instructions on that page, emailing privacy@allantgroup.com, or calling (800) 367-7311. Notably, the policy states Allant may require a clear government-issued ID showing name/address plus a matching photograph to verify certain requests -- that pushes id_required true and tier to guided despite the simple contact channel. Did not directly WebFetch the live privacy-policy page (only search snippets), so opt_out_url points at the policy page itself rather than a confirmed dedicated opt-out form, and last_verified is left null. Allant is a marketing/list-services data broker (B2B/consumer marketing data), not people-search, hence priority high.",
+   "instructions_md": "1. Go to [allantgroup.com/privacy-policy](https://allantgroup.com/privacy-policy) and follow the CCPA opt-out instructions described there.\n2. Alternatively, email privacy@allantgroup.com or call (800) 367-7311 and request that Allant Group opt you out of the sale/sharing of your personal information and/or delete your data.\n3. Be prepared to provide proof of identity -- Allant's policy indicates it may require a government-issued photo ID showing your name and address, plus a current photo matching that ID, to verify certain requests.\n4. Allant also honors the DMA/ANA Telephone Preference Service and the FTC Do-Not-Call Registry if you want to reduce related marketing contact.",
+   "link_status": "live"
+  },
+  {
+   "id": "alliantdata-com",
+   "name": "Alliant Cooperative Data Solutions, LLC",
+   "domain": "alliantdata.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://alliantinsight.com/data-services-and-website-privacy-policy/",
+   "opt_out_email": "compliance@alliantdata.com",
+   "phone": "(833) 926-0701",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "email",
+    "address",
+    "phone",
+    "dob"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "WebFetch on alliantinsight.com/data-services-and-website-privacy-policy/ (Alliant Cooperative Data Solutions' actual privacy policy host -- alliantdata.com redirects/points there) confirmed a dedicated opt-out-of-sale/sharing web form linked from the policy, plus a phone line (833) 926-0701; page also honors Global Privacy Control signals. WebSearch additionally surfaced an email path (CCPA Data Deletion and Opt-Out Request to privacy@alliantinsight.com or compliance@alliantdata.com per CA data broker registry) requiring full legal name, current/previous addresses, email, phone, and DOB -- used compliance@alliantdata.com since that's the registered contact. No CAPTCHA or ID-upload mentioned. Alliant is a marketing/co-op data broker, not people-search, hence priority high. last_verified left null since the form itself (behind the policy page link) wasn't directly loaded.",
+   "instructions_md": "1. Go to [Alliant's data services and privacy policy page](https://alliantinsight.com/data-services-and-website-privacy-policy/) and use the linked \"Opt Out of Sale/Sharing of Personal Information\" form.\n2. If you prefer email, send a message to compliance@alliantdata.com with the subject \"CCPA Data Deletion and Opt-Out Request,\" including your full legal name, current and previous mailing addresses, email address, phone number, and date of birth.\n3. Alternatively, call (833) 926-0701 to submit the request by phone.\n4. Browsers/devices with Global Privacy Control enabled will have opt-out preferences honored automatically for Alliant's own websites (sales/shares/targeted advertising only).\n5. Allow time for processing; Alliant may follow up to confirm your request before it takes effect.",
+   "link_status": "live"
+  },
+  {
+   "id": "allpeople-com",
+   "name": "AllPeople",
+   "domain": "allpeople.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://allpeople.com/privacy",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "listing_url",
+    "full_name"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "Legacy CSV only had a 'privacyduck.com' source_url with no other fields -- independently researched via WebSearch/WebFetch on third-party opt-out guides (DeleteMe/JoinDeleteMe writeup) since allpeople.com itself wasn't directly fetchable in this session. Site aggregates professional/business contact profiles (name, position, email, phone, employer, address) searchable by name -- functions as a people-search/contact-lookup broker even though guides describe it as oriented toward B2B contacts, so people_search is true given it exposes individual contact details. Process per guide: search your name, open your profile, click Remove, fill a reason dropdown, and pass an 'I'm not a robot' checkbox CAPTCHA. CAPTCHA-gated -> guided tier. Not independently confirmed against the live site; last_verified left null and priority kept high rather than crucial since matches skew toward business/professional contact info rather than home-address people-search.",
+   "instructions_md": "1. Go to [allpeople.com](https://allpeople.com) and search for your name (you can add city/state to narrow results).\n2. Open the profile matching you and click \"Details,\" then find and click the \"Remove\" (or similar) button on your profile page.\n3. Select a reason for removal from the dropdown, add any needed details, and complete the \"I'm not a robot\" CAPTCHA checkbox.\n4. Submit the removal request. Per third-party guides this typically clears within about 24 hours.\n5. If you have more than one matching profile, repeat the search-and-remove steps for each one -- AllPeople does not appear to offer a single request that covers every listing.",
+   "link_status": "bot-blocked"
+  },
+  {
+   "id": "ancestry-com",
+   "name": "Ancestry.com",
+   "domain": "ancestry.com",
+   "category": "personal_information",
+   "people_search": true,
+   "tier": "assisted",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://www.ancestry.com/legal/ccpa-donotshare-sell",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "cpra"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "Direct WebFetch of ancestry.com/legal/ccpa-donotshare-sell returned HTTP 403 (bot-blocked); ancestry.com/cs/privacyphilosophy also 403'd. Findings are from WebSearch snippets of Ancestry's own California Privacy Statement: Ancestry states it does not sell personal information in the traditional CCPA sense, but does allow opt-out of 'sharing' for cross-context behavioral/targeted advertising via the Do Not Sell or Share My Personal Information / Opt Out of Targeted Advertising page (linked in site footers) and via Global Privacy Control signals. This is a browser/device-level ad-tracking opt-out, not a way to delete genealogical records or family-tree mentions of you (Ancestry's core people-search-adjacent content -- historical records, DNA matches, family trees where third parties may have entered your info -- has separate, more limited removal mechanisms not confirmed here). people_search is set true because Ancestry's record search functions expose living individuals' names/relationships/locations, but note the opt-out documented here only covers ad-targeting, not record deindexing. required_fields uses 'other' since this is a preference toggle, not an identity-verified request. last_verified left null since neither page could be directly fetched.",
+   "instructions_md": "1. Go to [Ancestry's Do Not Sell or Share My Personal Information / Opt Out of Targeted Advertising page](https://www.ancestry.com/legal/ccpa-donotshare-sell) (also reachable via the \"Do Not Sell or Share My Personal Information\" link in the footer of Ancestry sites).\n2. Follow the on-page instructions to opt out of the sale/sharing of your personal information for cross-context behavioral (targeted) advertising.\n3. If your browser or device has Global Privacy Control (GPC) enabled, Ancestry says it will honor that signal automatically as an opt-out preference.\n4. Note this only stops ad-targeting use of your data -- it does not remove your name from historical records, family trees other users have created, or DNA-match results. If you are named in another user's tree or a record and want that addressed, you will need to use Ancestry's separate content-removal/support process (not confirmed in this research pass).\n5. Ancestry states it does not discriminate against users for exercising CCPA rights.",
+   "link_status": "live"
+  },
+  {
+   "id": "anchorcomputer-com",
+   "name": "Anchor Computer, Inc.",
+   "domain": "anchorcomputer.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://ecom2.anchorcomputer.com/privacyrequest",
+   "opt_out_email": "privacyteam@anchorcomputer.com",
+   "phone": "1-800-646-2563",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "address",
+    "dob",
+    "ssn",
+    "phone",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "cpra"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "WebFetch of anchorcomputer.com homepage and /privacy-policy confirmed directly. Anchor Computer is a marketing-data/mailing-list compiler offering 'customer profiling and data validation to segmentation and targeting' built on '6B+ Permissioned signals,' and its privacy policy lists name, SSN, postal address, email, phone, plus demographic data (age, religion, ethnicity, marital status, gender, hobbies) among categories sold. Policy explicitly grants CPRA right to opt out of sale and right to deletion, and names the online form at ecom2.anchorcomputer.com/privacyrequest ('Individual Consumer Opt-Out Submission Form') plus email/phone alternatives. Form fields (name, address, last-4 SSN, DOB, phone, email) are as listed in the privacy policy text, not independently confirmed by rendering the form itself -- guided tier given the sensitive-field combination (SSN, DOB) even without CAPTCHA. last_verified left null since the live form itself wasn't rendered.",
+   "instructions_md": "1. Go to the Anchor Computer opt-out form at https://ecom2.anchorcomputer.com/privacyrequest.\n2. Select the request type for opting out of sale/sharing of your personal information (California/CPRA rights).\n3. Enter your first and last name, mailing address, phone number, and email address.\n4. Enter your date of birth and the last 4 digits of your Social Security number, which Anchor Computer uses to match and verify your record in their marketing database.\n5. Submit the form.\n6. Alternatively, skip the form and email the same information directly to privacyteam@anchorcomputer.com, or call 1-800-646-2563 to request opt-out/deletion by phone.\n\n**Sensitive-data note:** this process asks for the last 4 digits of your SSN and your date of birth. Only proceed if you're comfortable sharing that; the phone and email channels ask for the same information, so there's no lower-friction path available.",
+   "link_status": "live"
+  },
+  {
+   "id": "apollointeractive-com",
+   "name": "Apollo Interactive, Inc.",
+   "domain": "apollointeractive.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://apollointeractive.com/data-rights.php",
+   "opt_out_email": "requests@apollointeractive.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": true,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "address",
+    "phone",
+    "email",
+    "gov_id"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "WebFetch confirmed Apollo Interactive's own privacy policy explicitly self-identifies: 'We are a data broker under certain state laws including, but not limited to, the Texas Data Broker Law' and states it sells personal information. This is a lead-generation company for insurance/mortgage verticals (Medicare, auto, life, home, mortgage, pet), a genuinely different company from apollo.io. Its Data Rights Request Form at apollointeractive.com/data-rights.php requires first/last name, address, city/state/zip, phone, email, a government-issued photo ID upload, and an attestation checkbox, with a request-type selector (opt-out of sale, delete, know, correct). No CAPTCHA or fee mentioned in the fetched text, but the gov-ID upload alone makes this guided tier and triggers the sensitive-data guardrail. last_verified left null -- not independently re-rendered live.",
+   "instructions_md": "1. Go to the Apollo Interactive Data Rights Request Form at https://apollointeractive.com/data-rights.php.\n2. Choose the request type: opt-out of sale, deletion, or \"know what data is held.\"\n3. Enter your first and last name, full address (city/state/zip), phone number, and email address.\n4. Upload a government-issued photo ID to verify your identity.\n5. Check the attestation box confirming the request is genuinely yours, and submit.\n6. Alternatively, email requests@apollointeractive.com directly with the same information and your request type.\n\n**Sensitive-data note:** this broker requires a government-issued photo ID upload to process any request. Only proceed if you're comfortable sharing that; there is no lower-friction alternative documented.",
+   "link_status": "live"
+  },
+  {
+   "id": "apollo-io",
+   "name": "Apollo.io",
+   "domain": "apollo.io",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://www.apollo.io/privacy-policy/remove",
+   "opt_out_email": "privacy@apollo.io",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "cpra"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "WebFetch confirmed Apollo's CCPA privacy statement and removal page describe a 'Contributor Database' of B2B contact data (work emails, phone numbers, job titles) that Apollo sells to customers for sales/marketing/recruiting, with an explicit right-to-opt-out-of-sale section pointing to the Removal Page in the Privacy Center or privacy@apollo.io. The removal form itself asks only for a business email address -- no name/address/DOB/SSN, no CAPTCHA mentioned in the fetched text. This is B2B professional-contact data rather than consumer people-search data, so people_search is false and priority is high rather than crucial; single-field form with no CAPTCHA/ID gating keeps it at assisted tier. Not independently rendered live -- last_verified left null.",
+   "instructions_md": "1. Go to the Apollo.io removal page at https://www.apollo.io/privacy-policy/remove (part of Apollo's Privacy Center).\n2. Enter the business/work email address you want removed from Apollo's Contributor Database.\n3. Submit the form to request opt-out of sale/sharing of that contact record.\n4. Alternatively, email privacy@apollo.io directly with the work email address(es) you want removed, referencing your CCPA/CPRA right to opt out of sale.\n5. If you have multiple work email addresses tied to past employers, repeat separately for each one.",
+   "link_status": "live"
+  },
+  {
    "id": "archives-com",
    "name": "Archives.com",
    "domain": "archives.com",
@@ -2165,6 +2672,36 @@
    "source": "badbool",
    "notes": "Fetched live 2026-07-29: archives.com/optout renders a suppression-request form (first/last name required, address line 1 required, phone/email/middle-name optional), a requester-contact block (your name + email, confirmed twice), a free-text field asking you to describe where you found the listing and what search terms you used, a CAPTCHA, and an agreement checkbox. No fee or ID upload is mentioned on the form itself. Genealogy-adjacent people-search site -- to locate the listing you want removed, Archives.com's own search flow normally pushes you into a free-trial signup (archives.com/search) that auto-converts to a paid subscription unless cancelled; you do not need to complete that signup to use the opt-out form, but be aware of the upsell if you go looking for your listing first. Processing stated as within 30 days, confirmed by email once suppressed.",
    "instructions_md": "1. Go directly to the [Archives.com opt-out form](https://www.archives.com/optout) -- you do not need to create an account or start a free trial to submit this form, even though searching the site for your own listing will try to push you into a paid trial signup.\n2. Fill in the identifying information you want suppressed: first and last name are required, plus at least one address line; phone and email for that listing are optional but help match the right record.\n3. Fill in your own contact details as the requester (name, email, entered twice to confirm), and in the \"additional information\" box briefly note how you found the listing (e.g., \"found via Archives.com people search for [name] in [city, state]\").\n4. Solve the CAPTCHA and check the box agreeing to the opt-out policy, then submit.\n5. Watch your email for Archives.com's confirmation once they've identified and suppressed the matching record -- allow up to 30 days for processing.\n6. If you have multiple listings (e.g., under a maiden name or old address), submit a separate request for each one.",
+   "link_status": "live"
+  },
+  {
+   "id": "arity-com",
+   "name": "Arity 875, LLC",
+   "domain": "arity.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://arity.com/yourprivacychoices/",
+   "opt_out_email": "privacy@arity.com",
+   "phone": "1-800-654-1412",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "email",
+    "phone"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "WebFetch confirmed Arity (an Allstate subsidiary; telematics/mobility-data company collecting driving behavior and location data via mobile apps and connected cars, used for insurance risk-scoring and advertising) states 'We do not sell personal information for monetary value' while still offering an opt-out of targeted-advertising 'sharing' at arity.com/yourprivacychoices/ and a CA notice-at-collection page. The opt-out form itself matches records via hashed email address or phone number, or a mobile ad ID (MAID) via the DAA AppChoices app; language references 'verifying your name and email address' for some requests. No SSN/gov-ID/CAPTCHA/fee found in the fetched text. Because it's a webform without CAPTCHA or ID gating, classified assisted rather than guided. last_verified left null -- process reconstructed from fetched privacy-choices/notice-at-collection pages, not a live end-to-end run of the form.",
+   "instructions_md": "1. Go to Arity's privacy choices page at https://arity.com/yourprivacychoices/.\n2. Follow the form's instructions to opt out of targeted-advertising data sharing, providing your email address and/or phone number so Arity can match your record (it uses hashed versions of these, not raw values, to find your profile).\n3. If you want to opt out at the mobile-device level (advertising ID used by apps that share data with Arity), use the Digital Advertising Alliance's AppChoices app instead, following Arity's linked instructions.\n4. Alternatively, email privacy@arity.com or call 1-800-654-1412 to request opt-out or deletion directly.\n5. If a request is denied, Arity provides a separate appeals webform -- check the privacy choices page for the current link.",
    "link_status": "live"
   },
   {
@@ -2533,6 +3070,38 @@
    "link_status": "live"
   },
   {
+   "id": "alescodata-com",
+   "name": "The Alesco Group LLC",
+   "domain": "alescodata.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://alescodata.com/opt-out-request/",
+   "opt_out_email": "privacy@alescodata.com",
+   "phone": "(877) 652-5002",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "address",
+    "email",
+    "phone"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "WebFetch on alescodata.com/opt-out-request/ confirmed a self-serve form asking for name, address, email, and phone, with a confirmation checkbox and no CAPTCHA visible; page states Alesco may contact the requester to confirm identity before processing. Email opt-out via privacy@alescodata.com also confirmed (legacy CSV email michael@alescodata.com was not confirmed as current and is not used). Alesco Data builds mailing-list and audience databases from public records/assessor files -- a marketing data aggregator, not people-search, hence priority high not crucial. Did not verify against a freshly rendered page beyond this fetch, so last_verified left null.",
+   "instructions_md": "1. Go to the [Alesco Data opt-out request form](https://alescodata.com/opt-out-request/), reachable via the \"Do Not Sell My Personal Information\" link in the site footer.\n2. Enter your first and last name, mailing address (street, city, state, zip), email, and phone number, then check the confirmation box and submit.\n3. Alternatively, email privacy@alescodata.com with your name and contact details and ask to opt out of sale/sharing of your personal information under the CCPA.\n4. You can also call (877) 652-5002 to speak with a CCPA compliance specialist, or mail a written request to 4575 Via Royale, Suite 110, Fort Myers, FL 33919.\n5. Alesco may contact you to verify your identity before completing the request; expect processing within roughly 7-30 days.",
+   "link_status": "live"
+  },
+  {
    "id": "transunion-com",
    "name": "Transunion",
    "domain": "transunion.com",
@@ -2692,6 +3261,158 @@
    "link_status": "bot-blocked"
   },
   {
+   "id": "180bytwo-com",
+   "name": "180 by Two, LLC",
+   "domain": "180bytwo.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "auto",
+   "priority": "standard",
+   "method": "email",
+   "opt_out_url": "https://180bytwo.com/privacy/",
+   "opt_out_email": "privacy@180bytwo.com",
+   "phone": "909-340-3259",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "none",
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "Confirmed via WebFetch on 180bytwo.com/privacy/ and WebSearch: 180byTwo is registered as a CA data broker (oag.ca.gov/data-broker/registration/186738). Privacy policy references a California-residents opt-out page and a general opt-out email at privacy@180bytwo.com plus a phone number. The privacy policy body did not itself contain a fully worked-out CCPA opt-out section, so the process is reconstructed mainly from WebSearch summaries of the site rather than a directly rendered CCPA-specific page -- last_verified left null. Marketing/list data broker, no consumer-facing people-search product, so priority standard.",
+   "instructions_md": "1. Email privacy@180bytwo.com and state you are exercising your CCPA right to opt out of the sale/sharing of your personal information (and, if you want, request deletion).\n2. Include your full name and the email address(es) 180byTwo may have associated with you so they can locate your record.\n3. Alternatively, call 180byTwo at (909) 340-3259 to make the same request by phone.\n4. 180byTwo must acknowledge your request and respond within the CCPA-mandated timeframe (typically within 45 days).\n5. Keep a copy of your email for your records in case you need to follow up.",
+   "link_status": "live"
+  },
+  {
+   "id": "33mileradius-com",
+   "name": "33 Mile Radius LLC",
+   "domain": "33mileradius.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://www.33mileradius.com/do-not-sell/",
+   "opt_out_email": "privacy@33mileradius.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "identity_check",
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "WebFetch confirmed 33mileradius.com/do-not-sell/ is a live Contact Form 7-based opt-out page requiring no account/login, with a note that the company 'may contact you to verify your identity.' 33 Mile Radius LLC (a EverCommerce/EverConnect brand, home-services lead generation) is registered as a CA data broker and also offers an opt-out email (privacy@33mileradius.com) per WebSearch of their parent EverConnect privacy policy. Business is contractor lead-gen/call-routing rather than a consumer people-search product, so priority standard despite the data-broker registration.",
+   "instructions_md": "1. Go to https://www.33mileradius.com/do-not-sell/.\n2. Fill out the embedded contact form with the information you believe 33 Mile Radius holds about you (name, email, and any details identifying your record).\n3. Submit the form; no account or login is required.\n4. Alternatively, email privacy@33mileradius.com directly and state you are requesting they not sell/share your personal information and/or delete it under the CCPA.\n5. 33 Mile Radius may contact you to verify your identity before completing the request.",
+   "link_status": "live"
+  },
+  {
+   "id": "33across-com",
+   "name": "33Across, Inc.",
+   "domain": "33across.com",
+   "category": "advertising_adtech",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://www.33across.com/user-data-portal/",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "none",
+   "required_fields": [],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "WebFetch on 33across.com privacy pages returned HTTP 403 (bot-blocked). WebSearch confirms 33Across is an ad-tech company that sells/shares data for targeted advertising and provides a CCPA 'Do Not Sell or Share' opt-out reachable from the site footer, which redirects to their User Data Portal (33across.com/user-data-portal/). No CAPTCHA or ID requirement reported in guide summaries -- browser/cookie-based opt-out, must be repeated per browser/device. Ad-tech vendor with no consumer people-search product, so priority standard, tier assisted (no CAPTCHA/ID gating reported).",
+   "instructions_md": "1. Go to https://www.33across.com/ and scroll to the footer, or navigate directly to the User Data Portal at https://www.33across.com/user-data-portal/.\n2. Click \"Do Not Sell or Share My Personal Information\" (or the equivalent \"Opt Out\" link).\n3. Confirm your choice in the portal; this sets an opt-out preference tied to your current browser/device.\n4. Repeat this process in every browser and on every device you use, since the opt-out is not tied to your identity but to your browser session/cookies.\n5. Re-check periodically, since clearing cookies or switching browsers resets the opt-out.",
+   "link_status": "bot-blocked"
+  },
+  {
+   "id": "360mediadirect-com",
+   "name": "360 Media Direct",
+   "domain": "360mediadirect.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://360-media-direct.privacy.saymine.io/360_Media_Direct",
+   "opt_out_email": "privacy@360mediadirect.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "WebFetch on 360mediadirect.com confirmed a dedicated CCPA opt-out page hosted on Saymine (third-party privacy-request platform) at 360-media-direct.privacy.saymine.io/360_Media_Direct, plus a privacy-policy page. WebSearch confirms 360 Media Direct is a registered CA data broker (oag.ca.gov/data-broker/registration/188071) with opt-out also available via privacy@360mediadirect.com, requiring an email confirmation click to finalize. Print/digital performance-marketing broker, no consumer people-search product -- standard priority.",
+   "instructions_md": "1. Go to https://360-media-direct.privacy.saymine.io/360_Media_Direct (the Saymine-hosted privacy request portal for 360 Media Direct).\n2. Submit the \"Do Not Sell/Share My Personal Information\" or deletion request with your name and email address.\n3. Alternatively, email privacy@360mediadirect.com directly with the same request, stating you are exercising your CCPA rights.\n4. Watch for a confirmation email and click the confirmation link -- 360 Media Direct requires you to confirm the request before it takes effect.\n5. Allow up to about 10 days (occasionally longer) for the opt-out to process.",
+   "link_status": "live"
+  },
+  {
+   "id": "4cinsights-com",
+   "name": "4C Insights",
+   "domain": "4cinsights.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://www.4cinsights.com/submit-ccpa-request/",
+   "opt_out_email": "info@4cinsights.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "none",
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "WebFetch of 4cinsights.com timed out/errored (likely bot-blocked or JS-rendered), so relying on WebSearch. 4C Insights is a registered CA data broker (oag.ca.gov/data-broker/registration/189767, media/marketing analytics and audience-targeting company) with a dedicated CCPA request form at 4cinsights.com/submit-ccpa-request/ and a privacy policy page describing opt-out from sale. Contact email info@4cinsights.com per legacy CSV row, consistent with WebSearch results. B2B ad-tech/marketing-analytics vendor, no consumer people-search product -- standard priority.",
+   "instructions_md": "1. Go to https://www.4cinsights.com/submit-ccpa-request/.\n2. Complete the CCPA request form with your name and email address, selecting the option to opt out of sale/sharing of your personal information.\n3. Alternatively, email info@4cinsights.com directly and state you are exercising your CCPA rights to opt out and/or delete your data.\n4. Watch for any confirmation communication from 4C Insights.\n5. Allow up to 45 days for the request to be processed, per standard CCPA timelines.",
+   "link_status": "broken"
+  },
+  {
    "id": "accucomcorp-com",
    "name": "Accucom",
    "domain": "accucomcorp.com",
@@ -2716,6 +3437,39 @@
    "link_status": "unknown"
   },
   {
+   "id": "accuity-com",
+   "name": "Accuity Inc. (LexisNexis Risk Solutions)",
+   "domain": "accuity.com",
+   "category": "identity_verification",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "standard",
+   "method": "portal",
+   "opt_out_url": "https://consumer.risk.lexisnexis.com/california",
+   "opt_out_email": "consumer.documents@lexisnexis.com",
+   "phone": "1-888-217-1591",
+   "captcha": false,
+   "id_required": true,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "id_upload",
+   "required_fields": [
+    "full_name",
+    "address",
+    "dob",
+    "gov_id"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "accuity.com/privacy-policy/ redirects (301) to risk.lexisnexis.com/financial-services/financial-crime-compliance -- Accuity is a LexisNexis Risk Solutions subsidiary providing bank KYC/AML/sanctions-screening data (B2B financial-crime compliance), not a consumer-facing people-search product. Registered as a CA data broker (oag.ca.gov/data-broker/registration/562391) and consumer requests route through the shared LexisNexis Risk consumer portal at consumer.risk.lexisnexis.com/california, which per WebFetch is a landing page describing online-form, mail, and phone (1-888-217-1591) options but did not itself expose the actual form fields/CAPTCHA -- LexisNexis's consumer-report products are known to require identity verification (name/address/DOB/last-4-SSN or ID) for access/deletion requests, hence id_required true and guided tier. Financial-compliance data broker, not people-search -- standard priority.",
+   "instructions_md": "1. Go to https://consumer.risk.lexisnexis.com/california.\n2. Choose the online request option (or download the mail-in form, or call 1-888-217-1591).\n3. Complete the identity-verification steps LexisNexis requires -- typically full name, address, date of birth, and possibly a government ID -- since this affects consumer-report-adjacent financial data.\n4. Submit your request to opt out of sale/sharing and/or request access or deletion under the CCPA.\n5. Alternatively, email consumer.documents@lexisnexis.com or write to: Consumer Center, Attn: CCPA Request, P.O. Box 105108, Atlanta, GA 30348-5295.\n6. Allow up to 45 days for LexisNexis to process the request.",
+   "link_status": "live"
+  },
+  {
    "id": "activeintel-com",
    "name": "Active Intel Investigations Llc",
    "domain": "activeintel.com",
@@ -2737,6 +3491,127 @@
    "last_verified": null,
    "source": "data-brokers-watch",
    "instructions_md": "1. Call 18442483440 and request removal of your information.\n2. No verified step-by-step procedure exists yet for this broker -- if you learn one, please contribute it.",
+   "link_status": "unknown"
+  },
+  {
+   "id": "admarketplace-com",
+   "name": "adMarketplace, Inc.",
+   "domain": "admarketplace.com",
+   "category": "advertising_adtech",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://geo.admarketplace.com/do-not-sell-my-data/",
+   "opt_out_email": "privacy@admarketplace.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "none",
+   "required_fields": [],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "WebFetch on admarketplace.com's privacy policy confirmed the company states it does NOT sell/share personal data for targeted advertising under current US privacy law definitions, but it still maintains a 'Do Not Sell My Data' page (found via WebSearch at geo.admarketplace.com/do-not-sell-my-data/) and a CCPA disclosures page, plus contact email privacy@admarketplace.com. Attempting to WebFetch the do-not-sell page itself failed (connection refused), so exact form fields/CAPTCHA unconfirmed -- treated as a simple cookie/browser-based opt-out consistent with adMarketplace's stated non-sale posture. Ad-tech search-advertising vendor, no consumer people-search -- standard priority.",
+   "instructions_md": "1. Go to https://geo.admarketplace.com/do-not-sell-my-data/ and follow the on-page instructions to opt out of data sale/sharing.\n2. Alternatively, email privacy@admarketplace.com and state you are exercising your CCPA right to opt out and/or requesting details on their data practices.\n3. Note that adMarketplace states it does not sell personal data for targeted advertising under current definitions, so this may register a preference rather than trigger a data-deletion process.\n4. Re-check periodically, since browser/cookie-based opt-outs can reset when cookies are cleared.",
+   "link_status": "broken"
+  },
+  {
+   "id": "adrearubin-com",
+   "name": "Adrea Rubin Marketing, Inc.",
+   "domain": "adrearubin.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "auto",
+   "priority": "standard",
+   "method": "email",
+   "opt_out_url": "https://www.adrearubin.com/privacy-policy/",
+   "opt_out_email": "jenniferv@adrearubin.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "none",
+   "required_fields": [
+    "full_name",
+    "email",
+    "address"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "WebFetch on adrearubin.com failed (SSL error), so relying on WebSearch. Adrea Rubin Marketing, Inc. is a registered CA data broker (mailing-list/marketing data company) with a privacy policy at adrearubin.com/privacy-policy/ and a general contact privacy@adrearubin.com. Multiple sources (optoutindex.com, CA data broker registry) point to jenniferv@adrearubin.com as the registered data-broker contact for CCPA requests, matching the legacy CSV row -- used as the primary opt-out email since it's the officially registered contact. B2B/list marketing data broker, no consumer people-search product -- standard priority, clean email opt-out -> auto tier.",
+   "instructions_md": "1. Email jenniferv@adrearubin.com and state you are a California resident exercising your CCPA/CPRA right to opt out of the sale/sharing of your personal information (and, if desired, request deletion).\n2. Include your full name, email address, and mailing address so they can locate your record in their marketing lists.\n3. Adrea Rubin Marketing must acknowledge your request within 10 business days and respond within 45 days under CCPA.\n4. Keep a copy of your email for your records in case you need to follow up.",
+   "link_status": "broken"
+  },
+  {
+   "id": "affinity-solutions",
+   "name": "Affinity Solutions, Inc.",
+   "domain": "affinity.solutions",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://affinitysolutions-privacy.my.onetrust.com/webform/a564cfa1-53bf-4c10-bf95-cd907432d7e8/7e4e6bf3-6562-454e-8c73-6a7bd1f4b336",
+   "opt_out_email": "privacy@affinitysolutions.com",
+   "phone": "877-218-7776",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "cpra"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "WebFetch on affinity.solutions/data-privacy-notice/ confirmed a OneTrust-hosted opt-out webform, plus mail and phone alternatives. No CAPTCHA mentioned in the policy text; company says it may require additional info to authenticate identity but doesn't specify fields, so required_fields is a conservative guess. Affinity Solutions is a registered CA data broker (transaction/loyalty analytics for financial institutions and retailers), not a consumer people-search site, so priority is standard. Did not load the live OneTrust form itself, so last_verified is null.",
+   "instructions_md": "1. Go to the [Affinity Solutions opt-out webform](https://affinitysolutions-privacy.my.onetrust.com/webform/a564cfa1-53bf-4c10-bf95-cd907432d7e8/7e4e6bf3-6562-454e-8c73-6a7bd1f4b336).\n2. Fill in your name and email address (and any other fields the form requests) and submit the request to opt out of sale/sharing of your personal information.\n3. Alternatively, email privacy@affinitysolutions.com or call 877-218-7776 and ask to opt out under the CCPA.\n4. You can also mail a written request to: Affinity Solutions, Inc., Attn: Privacy Officer, 112 West 34th Street, 18th Floor, New York, NY 10120.\n5. Affinity Solutions says it generally acts on opt-out requests within 15 business days; you may be asked to verify your identity before the request is processed.",
+   "link_status": "live"
+  },
+  {
+   "id": "agrmarketingsolutions-com",
+   "name": "AGR Marketing Solutions, LLC",
+   "domain": "agrmarketingsolutions.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "standard",
+   "method": "email",
+   "opt_out_url": "<verify: AGR Marketing Solutions may have a self-serve opt-out form; only a contact email was confirmed>",
+   "opt_out_email": "stephen@agrmarketingsolutions.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "Confirmed via CA AG data broker registry and WebSearch that AGR Marketing Solutions, LLC is a registered marketing-type data broker (240M+ consumer profiles, 150M+ US consumer profiles rebuilt monthly). Could not load agrmarketingsolutions.com directly (not fetched -- relying on search snippets and the CA registry) to confirm a dedicated opt-out form or page, only the legacy-CSV contact email stephen@agrmarketingsolutions.com. Because a specific opt-out page couldn't be confirmed, opt_out_url is a placeholder and method defaults to email via the named contact; tier guided reflects the uncertainty. last_verified left null.",
+   "instructions_md": "1. Email stephen@agrmarketingsolutions.com and request that AGR Marketing Solutions delete your personal information and opt you out of any sale or sharing of your data under the CCPA.\n2. Include your full name and any known aliases/addresses associated with you so AGR can locate your record.\n3. If you receive no response, check AGR Marketing Solutions' website (agrmarketingsolutions.com) directly for a dedicated privacy-rights or opt-out page, since one was not independently confirmed at research time.\n4. AGR is a registered California data broker, so it is legally required to honor CCPA opt-out and deletion requests from California residents; other-state residents may have similar rights depending on local law.",
    "link_status": "unknown"
   },
   {
@@ -2812,6 +3687,66 @@
    "link_status": "unknown"
   },
   {
+   "id": "acbj-com",
+   "name": "American City Business Journals, Inc.",
+   "domain": "acbj.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "<verify: acbj.com footer 'Your California Privacy Rights' link -> opt-out form under Exercising Your Privacy Rights section, could not WebFetch acbj.com directly>",
+   "opt_out_email": null,
+   "phone": "1-800-833-7323",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "none",
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "WebFetch on acbj.com/www.acbj.com failed outright (tool could not fetch the host at all) both directly and for the specific privacy-rights sub-path. WebSearch confirms ACBJ (publisher of the Business Journals network, e.g. bizjournals.com) is registered as a CA data broker (oag.ca.gov/data-broker/registration/186804) -- they run a B2B lead product (BizLeads) alongside their media business, which is presumably why they're broker-registered. Multiple sources describe a 'Your California Privacy Rights' footer link on acbj.com leading to an opt-out form, plus a phone option (1-800-833-7323). Because WebFetch could never load the actual page to confirm the exact form URL, opt_out_url is left as a placeholder rather than guessed, and last_verified is null. Media company with a B2B data/leads side-business, not a consumer people-search product -- standard priority.",
+   "instructions_md": "1. Go to https://www.acbj.com/ (or any Business Journals property, e.g. bizjournals.com) and scroll to the footer.\n2. Click \"Your California Privacy Rights.\"\n3. On the privacy-rights page, find the \"Exercising Your Privacy Rights, Including The Right To Opt Out Of Targeted Advertising\" section and use the linked form to submit your opt-out/deletion request.\n4. Alternatively, call 1-800-833-7323 to submit the same request by phone.\n5. Allow up to 45 days for ACBJ to process the request under CCPA timelines.",
+   "link_status": "unknown"
+  },
+  {
+   "id": "amobee-com",
+   "name": "Amobee, Inc.",
+   "domain": "amobee.com",
+   "category": "advertising_adtech",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://www.amobee.com/trust/consumer-opt-out/",
+   "opt_out_email": "amobeeprivacy@amobee.com",
+   "phone": "+1.877.326.5657",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "WebSearch confirmed Amobee is a registered CA data broker and an ad-tech platform (targeted advertising). CCPA request portal at amobee.com/ccpa/ and a browser/device-based consumer opt-out at amobee.com/trust/consumer-opt-out/ (opts out of the tracking cookie/device ID rather than a name-based lookup, since Amobee says it typically only holds a cookie ID / mobile device ID / social username, not name or email). Also confirmed amobeeprivacy@amobee.com as a privacy contact email. required_fields uses 'other' since identity here is a device/cookie ID, not a listed enum value. Adtech data broker with no consumer-facing people-search -> priority standard. Not independently confirmed against the live opt-out page; last_verified left null.",
+   "instructions_md": "1. Go to the [Amobee Consumer Opt Out page](https://www.amobee.com/trust/consumer-opt-out/) and follow the browser-based opt-out instructions; this ties the opt-out to your Amobee cookie ID or mobile device ID rather than your name.\n2. For a formal CCPA data access, deletion, or opt-out-of-sale request, use the [CCPA request portal](https://www.amobee.com/ccpa/) or email amobeeprivacy@amobee.com.\n3. You can also call +1.877.326.5657 with questions about your request.\n4. Save any case number you receive -- Amobee's portal reportedly only shows it once and requests can take up to 30 days to process.\n5. Note that browser-based opt-outs (cookies) can be lost if you clear cookies or switch browsers/devices, so you may need to repeat the opt-out periodically.",
+   "link_status": "live"
+  },
+  {
    "id": "amrent-com",
    "name": "AmRent",
    "domain": "amrent.com",
@@ -2862,6 +3797,277 @@
    "source": "data-brokers-watch",
    "instructions_md": "1. Call (888) 612-4309 and request removal of your information.\n2. No verified step-by-step procedure exists yet for this broker -- if you learn one, please contribute it.",
    "link_status": "unknown"
+  },
+  {
+   "id": "andrewswharton-com",
+   "name": "Andrews Wharton Inc.",
+   "domain": "andrewswharton.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "standard",
+   "method": "portal",
+   "opt_out_url": "https://unsubscribe.stirista.com/",
+   "opt_out_email": "privacy@stirista.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "email",
+    "address"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "gdpr"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "WebFetch of andrewswharton.com homepage confirmed it is a B2B 'data solutions and email marketing company' (Audience Solutions: data sourcing/curation/enhancement/modeling; Email Suite: append/hygiene/deployment) owned by Stirista, LLC. Its own privacy policy states verbatim that 'privacy preferences and Data Subject Access Requests are now to be completed through Stirista's Privacy Policy,' redirecting entirely to https://www.stirista.com/privacy-policy/. Following that link, Stirista's actual opt-out mechanism is at https://unsubscribe.stirista.com/ plus privacy@stirista.com, requesting current address, email address, and any prior home/email addresses; no CAPTCHA or fee mentioned; California requesters undergo identity verification via 'requesting certain information.' Legal basis per Stirista's policy spans CCPA and several other US state laws plus GDPR/UK/Swiss frameworks. Because andrewswharton.com has no opt-out mechanism of its own -- it is entirely a pass-through to its parent -- opt_out_url points to Stirista's page; domain/id/name remain andrewswharton.com per the assigned research target. last_verified left null since neither page was rendered as a live, current form.",
+   "instructions_md": "1. Note that andrewswharton.com does not run its own opt-out process -- its privacy policy states that all privacy requests are handled through its parent company, Stirista.\n2. Go to Stirista's unsubscribe/privacy portal at https://unsubscribe.stirista.com/.\n3. Provide your current address and email address, plus any prior home or email addresses you've used, so Stirista can match and suppress your records (which may have been sourced or enhanced via Andrews Wharton's data products).\n4. Submit the request.\n5. Alternatively, email privacy@stirista.com directly, referencing Andrews Wharton and your CCPA (or GDPR, if applicable) right to opt out of sale/processing.\n6. Expect processing within about 10 business days per Stirista's stated policy.",
+   "link_status": "live"
+  },
+  {
+   "id": "ask-com",
+   "name": "Ask.com",
+   "domain": "ask.com",
+   "category": "search_engine",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "<verify: exact Do Not Sell or Share My Personal Information page URL on ask.com>",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "WebFetch on ask.com/privacy.html confirmed Ask.com (Ask Media Group, an IAC brand) explicitly states it sells/shares identifiers, geolocation, and internet-activity data to third-party advertisers and lead-gen partners -- a real CCPA-covered ad-tech data seller, not a people-search broker. The policy directs users to a 'Do Not Sell or Share My Personal Information' link in the site footer (also honors Global Privacy Control signals) rather than a single stable URL, and lists privacy@ask.com for privacy requests. Could not confirm the exact footer-link destination URL via fetch, so opt_out_url is a placeholder and last_verified is null. Marked standard priority (ad-tech cookie-based opt-out, not personal-safety-critical) and guided tier since the only confirmed path is a footer click-through, not a direct deep link.",
+   "instructions_md": "1. Go to [ask.com](https://www.ask.com) and scroll to the footer of any page.\n2. Click the \"Do Not Sell or Share My Personal Information\" link in the footer.\n3. Follow the on-page instructions to opt out of the sale/sharing of your data via cookies and other tracking technologies. If you use a browser or extension that sends a Global Privacy Control (GPC) signal, Ask.com states it will honor that signal automatically.\n4. For other privacy requests (access, deletion) not covered by the footer opt-out, email privacy@ask.com with your request and identifying details sufficient for them to locate your data.\n5. Keep a copy of any confirmation you receive; re-check periodically since ad-tech opt-outs are often cookie- or browser-scoped and can reset.",
+   "link_status": "unknown"
+  },
+  {
+   "id": "aslmarketing-com",
+   "name": "ASL Marketing",
+   "domain": "aslmarketing.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://privacy.deepsync.com/",
+   "opt_out_email": "privacy.compliance@deepsync.com",
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "address",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "aslmarketing.com/privacy-policy/ 301-redirects to deepsync.com/asl-marketing (which itself 404'd on fetch), confirming ASL Marketing Inc. has been absorbed into the Deep Sync (formerly Compact Information Systems) brand family alongside other legacy marketing-data-broker names like Avrick Direct/HomeData. Deep Sync's own privacy policy and CA data-broker registration describe a consolidated CCPA opt-out at privacy.deepsync.com (name/address/email form + CAPTCHA, no confirmation email) or by emailing privacy.compliance@deepsync.com. Not independently fetched/confirmed the live rendered form (site returned 404 on the ASL-specific subpage); routing through the group-wide DeepSync mechanism since that is the only currently operative channel found. last_verified left null pending direct confirmation of the ASL-specific opt-out flow.",
+   "instructions_md": "1. Go to the Deep Sync consumer opt-out portal at [privacy.deepsync.com](https://privacy.deepsync.com/) (ASL Marketing operates under the Deep Sync corporate umbrella; there is no longer a separate ASL-specific opt-out form).\n2. Enter your full name, mailing address, and email address, and select \"Do not sell/share my personal information\" (and \"Please delete my personal information\" if you also want deletion).\n3. Complete the CAPTCHA and submit the request.\n4. Alternatively, email privacy.compliance@deepsync.com directly with the name and address you want removed -- note this email-only path does not send a confirmation, so the form is the more verifiable route.\n5. Because ASL Marketing/Deep Sync compiles from public records and licensed lists, expect the possibility of re-addition and re-check every few months.",
+   "link_status": "live"
+  },
+  {
+   "id": "assurance-com",
+   "name": "Assurance IQ",
+   "domain": "assurance.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://assurance.com/ccpa-opt-out",
+   "opt_out_email": null,
+   "phone": "1-844-311-6099",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "Assurance IQ (a Prudential-owned insurance-lead marketing company) publishes a CCPA disclosure at assurance.com/ccpa-disclosure describing sale of personal information and a dedicated opt-out page at assurance.com/ccpa-opt-out (Data Request Form) plus a phone alternative at 1-844-311-6099, per its own disclosure page and corroborated by Privacy Rights Clearinghouse. Note: direct WebFetch to both assurance.com/ccpa-disclosure and assurance.com/ccpa-opt-out failed with 'certificate has expired' -- independently confirmed via curl -sv that assurance.com's TLS certificate is genuinely expired as of this research date, not a fetch-tool artifact. Could not verify exact form fields/CAPTCHA on the live page as a result; required_fields inferred conservatively from generic CCPA data-request-form norms. The CCPA disclosure notes exemptions for GLBA/HIPAA-covered financial/health data (Assurance sells life/health insurance leads), so some requests may be declined in part. last_verified left null; flagging the expired certificate as a real, currently observable problem with the broker's own site.",
+   "instructions_md": "1. Go to the Assurance CCPA opt-out page at [assurance.com/ccpa-opt-out](https://assurance.com/ccpa-opt-out) and complete the Data Request Form with your name and email (note: as of this writing, assurance.com's SSL certificate has expired, which may trigger browser security warnings -- proceed with caution or use the phone option instead).\n2. Alternatively, call 1-844-311-6099 and request that Assurance opt you out of the sale/sharing of your personal information under the CCPA.\n3. Be aware Assurance states some categories of information (tied to insurance products you've actually purchased, covered by GLBA/HIPAA) may be exempt from the opt-out and processed anyway.\n4. Watch for a confirmation of your request; if you don't receive one within a reasonable time, follow up by phone.",
+   "link_status": "broken"
+  },
+  {
+   "id": "atriks-com",
+   "name": "Atriks, LLC",
+   "domain": "atriks.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "auto",
+   "priority": "standard",
+   "method": "email",
+   "opt_out_url": null,
+   "opt_out_email": "ccpa@atriks.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "Confirmed via the California AG's data-broker registry (oag.ca.gov/data-broker/registration/191427) that Atriks LLC is a registered CA data broker whose registration lists ccpa@atriks.com as the CCPA opt-out/deletion contact and directs consumers to atriks.com/privacy.html for detailed instructions. Direct WebFetch to atriks.com/privacy.html returned HTTP 503 (twice, with a Retry-After header suggesting temporary rate-limiting/bot-blocking rather than the domain being dead) and a plain curl to the http:// version returned a redirect to the https version, confirming the domain is live and routes correctly, just not fetchable by this tool right now. Given the AG registration is itself an authoritative primary source for the opt-out contact, treating email as the confirmed auto-tier mechanism despite not rendering the privacy page directly. last_verified left null since the actual page content (any additional required fields) wasn't directly observed.",
+   "instructions_md": "1. Send an email to ccpa@atriks.com requesting that Atriks, LLC opt you out of the sale/sharing of your personal information and/or delete the personal information it holds about you, per its California data-broker registration.\n2. Include your full name and any other identifying details (such as a former address or email you may have provided to a company that shares data with Atriks) so they can locate your record.\n3. For the complete, current opt-out process and any additional forms, check atriks.com/privacy.html directly, since Atriks may also offer a web form there.\n4. Keep a copy of your email as proof of the request; Atriks does not appear to offer a self-serve confirmation page.",
+   "link_status": "unknown"
+  },
+  {
+   "id": "audienceacuity-com",
+   "name": "Audience Acuity LLC",
+   "domain": "audienceacuity.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://audienceacuity.com/opt-out-of-database/",
+   "opt_out_email": "privacy@audienceacuity.com",
+   "phone": "(800) 730-3451",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "Confirmed via WebSearch (corroborated by the company's own CA data-broker registration at oag.ca.gov/data-broker/registration/186838) that Audience Acuity LLC is a registered marketing/identity-resolution data broker with a dedicated opt-out page at audienceacuity.com/opt-out-of-database/, plus email (privacy@audienceacuity.com) and phone ((800) 730-3451) alternatives listed on both their site and the AG registration. Direct WebFetch to the opt-out page itself returned HTTP 404 at the time of this research (page may have moved or is temporarily unavailable), so the exact form fields/CAPTCHA on the live page were not directly observed -- fields and captcha:false are inferred from the general pattern used by their sibling pages (audienceacuity.com/contact/) and are not independently confirmed. last_verified left null.",
+   "instructions_md": "1. Go to the Audience Acuity opt-out page at [audienceacuity.com/opt-out-of-database/](https://audienceacuity.com/opt-out-of-database/) and follow the form to request removal from their identity-resolution database.\n2. If the form is unavailable, email privacy@audienceacuity.com directly with your full name and contact details, requesting deletion/opt-out under the CCPA.\n3. You can also call (800) 730-3451 to make the same request by phone.\n4. Keep a record of your request date; re-check periodically since marketing data brokers regularly re-ingest from public and licensed sources.",
+   "link_status": "broken"
+  },
+  {
+   "id": "audientco-com",
+   "name": "Audient Company LLC",
+   "domain": "audientco.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://www.audientco.com/ccpa-privacy-policy",
+   "opt_out_email": "info@audientco.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "Confirmed via the California AG's data-broker registry (oag.ca.gov/data-broker/registration/190616) that Audient Company LLC is a registered consumer-data marketing/mining broker (real-time consumer profiles built from interests, spending habits, location history) with info@audientco.com as its contact email and a CCPA request page at audientco.com/ccpa-privacy-policy. Direct WebFetch of audientco.com's privacy-policy pages (both with and without www) failed with a TLS certificate mismatch against the site's Sucuri firewall/CDN, so the live page content wasn't directly rendered; third-party removal guide Sentrya (sentrya.net/data-brokers/audientco.com) independently describes the process as an email-based deletion request to the address in their privacy policy, consistent with the AG registration. tier set to assisted (dedicated CCPA page exists per registration) rather than auto because I could not directly confirm whether that page is a self-serve form or just static instructions -- method set to form conservatively given the named CCPA page, but email is a safe fallback. last_verified left null.",
+   "instructions_md": "1. Go to the Audient Company CCPA privacy page at [audientco.com/ccpa-privacy-policy](https://www.audientco.com/ccpa-privacy-policy) and follow the instructions/form there to request that your data be deleted or opted out of sale.\n2. If no working form is present, email info@audientco.com directly with a clear subject line (e.g. \"CCPA Deletion Request\") and your full name and contact details.\n3. Follow up after roughly two weeks if you don't receive a response, since this broker does not appear to offer an automated confirmation flow.\n4. Because Audient Company builds real-time consumer profiles from ongoing data feeds, consider re-submitting the request periodically.",
+   "link_status": "broken"
+  },
+  {
+   "id": "automotivemastermind-com",
+   "name": "automotive Mastermind Inc.",
+   "domain": "automotivemastermind.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://www.automotivemastermind.com/do-not-sell-or-share-my-personal-information-request/",
+   "opt_out_email": null,
+   "phone": "1-800-447-2273",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "email",
+    "address"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "automotive Mastermind is a B2B SaaS predictive-analytics vendor for car dealerships (sells software to dealers, not a consumer product), but it is independently registered as a CA data broker (oag.ca.gov/data-broker/registration/188138) because it processes personal data about individual car buyers/prospects on dealers' behalf and shares/sells it. WebFetch directly confirmed its dedicated 'Do Not Sell or Share My Personal Information Request' form at automotivemastermind.com/do-not-sell-or-share-my-personal-information-request/, which is reCAPTCHA-protected and asks for as much identifying information as possible (name, email, company/job title, full address per a corroborating third-party guide); a phone alternative (1-800-447-2273) is also listed on the page itself. Priority kept at standard (not high) since this is a B2B marketing/lead broker, not a people-search or high-personal-safety-impact site, but tier is assisted rather than guided since it's a straightforward deep-linkable form (CAPTCHA alone doesn't push it to guided per the schema's guidance, though it's a borderline call). last_verified left null since exact live field list wasn't independently re-verified beyond the page's own general instruction text plus a secondary guide.",
+   "instructions_md": "1. Go to the automotive Mastermind opt-out form at [automotivemastermind.com/do-not-sell-or-share-my-personal-information-request/](https://www.automotivemastermind.com/do-not-sell-or-share-my-personal-information-request/).\n2. Enter your full name, email address, and mailing address, providing as much detail as you can so they can locate your record.\n3. Complete the reCAPTCHA and submit the request.\n4. Alternatively, call 1-800-447-2273 to submit the same do-not-sell/share request by phone.\n5. Note this addresses the personal data automotive Mastermind's dealer clients feed into its marketing-analytics platform, not a direct consumer account with the company.",
+   "link_status": "live"
+  },
+  {
+   "id": "avrick-com",
+   "name": "Avrick Direct, Inc.",
+   "domain": "avrick.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "http://privacy.avrickdirect.com/request/opt-out",
+   "opt_out_email": "privacy.compliance@avrickdirect.com",
+   "phone": "805-683-6551",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "address",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "Avrick Direct, Inc. (now operating as 'HomeData', a Deep Sync brand) compiles new-mover, new-phone-connect, and mail/credit-activation lists -- a genuine marketing data broker, registered with the CA AG (oag.ca.gov/data-broker/registration/186520). The registration itself lists the current opt-out channel: a form at privacy.avrickdirect.com/request/opt-out and/or email to privacy.compliance@avrickdirect.com -- note this supersedes the older avrickdirect@avrick.com contact in the legacy source data, which now appears to route mainly as a general company inbox rather than the dedicated privacy channel. The company's operational website is avrickdirect.com (avrick.com functions as an email-only domain: e.g. First@avrick.com style addresses) -- entry filed under the assigned domain avrick.com per the source data, with opt-out routing pointed at the confirmed avrickdirect.com privacy subdomain. Direct WebFetch/curl to privacy.avrickdirect.com failed to resolve from this environment, and privacyrights.org's cached entry only says 'opt-out by email' without describing the form -- so exact form fields/CAPTCHA weren't independently rendered; last_verified left null.",
+   "instructions_md": "1. Go to the Avrick Direct (now HomeData / Deep Sync) opt-out form at [privacy.avrickdirect.com/request/opt-out](http://privacy.avrickdirect.com/request/opt-out) and submit your full name, mailing address, and email address.\n2. If the form is unreachable, email privacy.compliance@avrickdirect.com directly with the same information and a request to opt out of sale/sharing and/or delete your data.\n3. You can also call 805-683-6551 to ask about your CCPA rights with the company.\n4. Because Avrick Direct compiles from new-mover and public/licensed records on an ongoing basis, expect the possibility of being re-added and plan to re-check every few months.",
+   "link_status": "broken"
   },
   {
    "id": "avrickdirect-com",
@@ -4467,6 +5673,37 @@
    "source": "data-brokers-watch",
    "instructions_md": "1. Call 800-309-9354 and request removal of your information.\n2. No verified step-by-step procedure exists yet for this broker -- if you learn one, please contribute it.",
    "link_status": "unknown"
+  },
+  {
+   "id": "acquiredirect-com",
+   "name": "TouchFuse, LLC DBA Acquire Direct Marketing (AcquireUp)",
+   "domain": "acquiredirect.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "auto",
+   "priority": "standard",
+   "method": "email",
+   "opt_out_url": "https://www.acquireup.com/ccpa",
+   "opt_out_email": "DataCompliance@AcquireDirect.com",
+   "phone": "855-940-3282",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "none",
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "dbw+tcp-research",
+   "notes": "acquiredirect.com redirects (302) to leadjig.com, which redirects (302) to acquireup.com -- confirmed via WebFetch these are all the same entity, TouchFuse LLC, rebranded from 'Acquire Direct Marketing' to 'AcquireUp.' WebFetch on acquireup.com/ccpa confirmed a live CCPA disclosure page referencing an 'Opt Out Here' link and confirming DataCompliance@AcquireDirect.com as the contact, plus the legacy CSV's registered opt-out email. WebSearch corroborates via the CA data broker registry (TouchFuse LLC dba Acquire Direct Marketing) that opt-out is also available by phone (855-940-DATA i.e. 855-940-3282) or via the 'Do Not Sell My Data' footer link on their sites. B2B/consumer marketing list broker, no people-search product -- standard priority, but a clean direct-email opt-out -> auto tier.",
+   "instructions_md": "1. Email DataCompliance@AcquireDirect.com and state you are exercising your CCPA right to opt out of the sale/sharing of your personal information (and, if desired, request deletion).\n2. Include your full name and email address so they can locate your record.\n3. Alternatively, call 855-940-3282 (855-940-DATA) to make the same request by phone, or visit https://www.acquireup.com/ccpa and use the \"Opt Out Here\" link on that page.\n4. TouchFuse LLC states data from California residents is retained for up to 12 months; opted-out records should not be re-added to their marketing database going forward.",
+   "link_status": "live"
   },
   {
    "id": "towerdata-com",
