@@ -19,7 +19,7 @@ readd_days: null
 legal_basis: ["ccpa"]
 last_verified: null
 source: "data-brokers-watch + tcp-verified"
-notes: "Direct WebFetch of beenverified.com was blocked in this session. Assessed from consistent third-party removal guides (Cybernews, OneRep, NetReputation, Security.org): search your name + state to find your listing, enter email, check the CAPTCHA box, submit, then click a verification link sent by email to finalize. No ID upload or phone call required, so assisted despite CAPTCHA. Prominent people-search/background-check broker, priority crucial."
+notes: "Direct WebFetch of beenverified.com was blocked in this session. Assessed from consistent third-party removal guides (Cybernews, OneRep, NetReputation, Security.org): search your name + state to find your listing, enter email, check the CAPTCHA box, submit, then click a verification link sent by email to finalize. No ID upload or phone call required, so assisted despite CAPTCHA. Prominent people-search/background-check broker, priority crucial. Chrome-driven check (2026-08-13): confirmed captcha:true is accurate and understates the friction -- an interactive Cloudflare 'Verify you are human' checkbox blocks the page before the search/opt-out form is even visible (page redirects internally to /svc/optout/search/). Left last_verified null since the form itself could not be inspected past the bot-check wall."
 ---
 
 1. Go to the [BeenVerified opt-out search page](https://www.beenverified.com/app/optout/search) and enter your full name and state to find your listing.

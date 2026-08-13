@@ -1,20 +1,20 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.14",
-  "content_hash": "sha256:139d84151dcbf088367bf35324a1dfe151f211d08a3c7680511c9eb92c315cad",
+  "dataset_version": "0.1.15",
+  "content_hash": "sha256:b1030ef99ecb6380a05a876abf7f480e6385766eb8f67a9ebd0310328cadef61",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 494,
+  "authored_count": 493,
   "backlog_count": 89,
-  "total_known": 583,
-  "unverified_count": 465,
+  "total_known": 582,
+  "unverified_count": 456,
   "tiers": {
    "guided": 270,
-   "assisted": 152,
+   "assisted": 151,
    "auto": 72
   },
   "priorities": {
-   "crucial": 125,
+   "crucial": 124,
    "high": 155,
    "standard": 214
   }
@@ -476,7 +476,7 @@
    ],
    "last_verified": null,
    "source": "data-brokers-watch + tcp-verified",
-   "notes": "Direct WebFetch of beenverified.com was blocked in this session. Assessed from consistent third-party removal guides (Cybernews, OneRep, NetReputation, Security.org): search your name + state to find your listing, enter email, check the CAPTCHA box, submit, then click a verification link sent by email to finalize. No ID upload or phone call required, so assisted despite CAPTCHA. Prominent people-search/background-check broker, priority crucial.",
+   "notes": "Direct WebFetch of beenverified.com was blocked in this session. Assessed from consistent third-party removal guides (Cybernews, OneRep, NetReputation, Security.org): search your name + state to find your listing, enter email, check the CAPTCHA box, submit, then click a verification link sent by email to finalize. No ID upload or phone call required, so assisted despite CAPTCHA. Prominent people-search/background-check broker, priority crucial. Chrome-driven check (2026-08-13): confirmed captcha:true is accurate and understates the friction -- an interactive Cloudflare 'Verify you are human' checkbox blocks the page before the search/opt-out form is even visible (page redirects internally to /svc/optout/search/). Left last_verified null since the form itself could not be inspected past the bot-check wall.",
    "instructions_md": "1. Go to the [BeenVerified opt-out search page](https://www.beenverified.com/app/optout/search) and enter your full name and state to find your listing.\n2. Select the record that matches you from the search results.\n3. Enter your email address and check the CAPTCHA box, then click \"Send Verification Email.\"\n4. Open the email BeenVerified sends you and click \"Verify Opt-Out.\"\n5. You should land on a confirmation page; allow 24-72 hours for the listing to actually disappear.\n6. Repeat for each additional profile if you have more than one listing under your name.",
    "link_status": "bot-blocked"
   },
@@ -567,37 +567,6 @@
    "source": "badbool",
    "notes": "WebFetch on checkpeople.com/opt-out loaded successfully and rendered a single-field suppression form (email only) with a Terms/Privacy checkbox. No CAPTCHA, no listing URL, no name/DOB field on this form itself, contrary to some older third-party guides describing a separate full-name+birthdate step. There is also a distinct 'Right to Know' pre-step at checkpeople.com/privacy-rights (requires name+email) for requesting a copy of what CheckPeople holds on you, but it is not required to complete the opt-out -- noted below as optional context, not a required field.",
    "instructions_md": "1. Go to the [CheckPeople opt-out page](https://checkpeople.com/opt-out).\n2. Enter the email address you want CheckPeople to associate with your suppression request.\n3. Check the box agreeing to the Terms of Service and Privacy Policy, then submit the form.\n4. Watch your inbox for a verification email from CheckPeople and click the confirmation link inside it -- the request is not applied until you confirm.\n5. Optional: if you also want to see what CheckPeople has on file about you before or after opting out, submit a separate \"Right to Know\" request at [checkpeople.com/privacy-rights](https://checkpeople.com/privacy-rights) (requires your name and email); this is informational and not required for the opt-out itself.\n6. Re-check periodically -- people-search sites re-ingest public records, so a listing can reappear months later.",
-   "link_status": "live"
-  },
-  {
-   "id": "checkthem-com",
-   "name": "CheckThem",
-   "domain": "checkthem.com",
-   "category": "people_search",
-   "people_search": true,
-   "tier": "guided",
-   "priority": "crucial",
-   "method": "form",
-   "opt_out_url": "https://www.checkthem.com/optout/",
-   "opt_out_email": null,
-   "phone": null,
-   "captcha": true,
-   "id_required": false,
-   "phone_required": false,
-   "charges_fee": false,
-   "required_fields": [
-    "listing_url",
-    "email",
-    "full_name"
-   ],
-   "readd_days": null,
-   "legal_basis": [
-    "ccpa"
-   ],
-   "last_verified": null,
-   "source": "dbw+tcp-research",
-   "notes": "Direct WebFetch of checkthem.com/optout/ returned empty content (likely JS-rendered), so the process below is reconstructed from multiple independent, mutually consistent 2026 opt-out-guide writeups (DeleteMe, PrivacyHawk, MyDataRemoval, RemoveMyPhone) that all describe the same flow: search by name+city/state on the optout page, select the matching listing, paste its URL plus an email into a form, solve a CAPTCHA, and click an emailed confirmation link, with removal completing within ~24 hours. CAPTCHA-gated -> guided tier. CheckThem is a people-search site returning background-check-style results (name, age, city/state, relatives), so people_search:true and priority:crucial. Not freshly confirmed against a rendered page -- last_verified left null.",
-   "instructions_md": "1. Go to the [CheckThem opt-out page](https://www.checkthem.com/optout/).\n2. Search for yourself using your first name, last name, and the city/state where you're listed, then click \"Search Now.\"\n3. Find the listing that matches you in the results and click \"Choose.\"\n4. Copy that listing's URL and enter it in the opt-out form along with your email address, then solve the CAPTCHA and click \"Send Verification Email.\"\n5. Open the confirmation email from CheckThem and click the verification link -- the removal isn't final until you confirm.\n6. Your listing should be removed within about 24 hours. If you have multiple listings (different ages, cities, or name variants), repeat the process separately for each one.\n7. If the form doesn't find your listing or you hit issues, you can email a removal request directly with your full name, age as listed, and most recent city/state on file.",
    "link_status": "live"
   },
   {
@@ -748,9 +717,9 @@
     "ccpa",
     "gdpr"
    ],
-   "last_verified": null,
-   "source": "dbw+tcp-research",
-   "notes": "WebFetch/WebSearch confirmed ContactOut indexes and resells personal email addresses and phone numbers scraped from websites and social media (LinkedIn etc.) for sales/recruiting use -- a genuine people-search/contact-data reseller, so people_search true and priority crucial (personal contact info including phone numbers). Their dedicated opt-out page at contactout.com/optout is a two-step process: submit identifying info, then click an emailed verification link, after which they commit to deleting the profile within 24 hours. No CAPTCHA or ID upload was observed in the page description, so classified assisted rather than guided. Note ContactOut states removed profiles can reappear if the source page still exists, so periodic re-checking is warranted.",
+   "last_verified": "2026-08-13",
+   "source": "dbw+tcp-research+chrome-verified",
+   "notes": "WebFetch/WebSearch confirmed ContactOut indexes and resells personal email addresses and phone numbers scraped from websites and social media (LinkedIn etc.) for sales/recruiting use -- a genuine people-search/contact-data reseller, so people_search true and priority crucial (personal contact info including phone numbers). Their dedicated opt-out page at contactout.com/optout is a two-step process: submit identifying info, then click an emailed verification link, after which they commit to deleting the profile within 24 hours. No CAPTCHA or ID upload was observed in the page description, so classified assisted rather than guided. Note ContactOut states removed profiles can reappear if the source page still exists, so periodic re-checking is warranted. Chrome-driven check (2026-08-13): CONFIRMED exactly as documented. Page titled 'Verify your email', single email field, 'Send verification link' button, explicit 24-hour deletion commitment stated on-page, no CAPTCHA visible.",
    "instructions_md": "1. Go to https://www.contactout.com/optout.\n2. Enter your full name and the email address you want removed (or that is associated with your listing).\n3. Click \"Send verification link\" and check your inbox for ContactOut's confirmation email.\n4. Click the link in that email to confirm the opt-out request.\n5. ContactOut states it will delete the matching profile within 24 hours of verification.\n6. Because ContactOut re-scrapes public sources, re-check periodically -- if your information is still publicly available elsewhere (e.g., a public LinkedIn profile), it may be re-indexed and require opting out again.",
    "link_status": "live"
   },
@@ -1061,7 +1030,7 @@
    "people_search": true,
    "tier": "guided",
    "priority": "crucial",
-   "method": "form",
+   "method": "portal",
    "opt_out_url": "https://www.enformion.com/opt-out/",
    "opt_out_email": null,
    "phone": "877-820-8125",
@@ -1077,9 +1046,9 @@
    "legal_basis": [
     "ccpa"
    ],
-   "last_verified": null,
-   "source": "dbw+tcp-research",
-   "notes": "WebFetch on enformion.com/en/privacy/ and enformion.com/opt-out/ (the latter also directly curled but Cloudflare-blocked the curl attempt, so relying on the earlier successful WebFetch render) confirms: Enformion is a people-search/public-records data broker selling 'Data Products' for fraud protection, identity verification, investigations, and debt collection, built from public records and third-party sources. The opt-out flow starts by submitting name and email through a form; Enformion emails a link to the actual opt-out form (email-first, two-step). The form requires a reCAPTCHA checkbox ('Complete the reCAPTCHA checkbox to verify you're not a robot') -- CAPTCHA-gated pushes this to guided tier per instructions. No government ID is required, and no fee is charged. After submission, a confirmation email is also sent, and the privacy policy states 'please allow 3 days for your record to be fully removed.' A phone alternative is listed: 877-820-8125. Authorized agents can submit on a subject's behalf by providing their own name/email alongside the subject's. Important caveat stated by Enformion itself: opting out only affects Enformion's own re-display of public-records data -- the underlying public records aren't erased, and the company explicitly warns your info may reappear in future re-ingestion, consistent with people-search re-add patterns generally. required_fields reflects the initial name+email step; the emailed follow-up form's exact fields weren't independently confirmed, so treat as provisional. priority crucial per instructions given this is a live people-search/address-reseller site with real personal-safety stakes.",
+   "last_verified": "2026-08-13",
+   "source": "dbw+tcp-research+chrome-verified",
+   "notes": "WebFetch on enformion.com/en/privacy/ and enformion.com/opt-out/ (the latter also directly curled but Cloudflare-blocked the curl attempt, so relying on the earlier successful WebFetch render) confirms: Enformion is a people-search/public-records data broker selling 'Data Products' for fraud protection, identity verification, investigations, and debt collection, built from public records and third-party sources. The opt-out flow starts by submitting name and email through a form; Enformion emails a link to the actual opt-out form (email-first, two-step). The form requires a reCAPTCHA checkbox ('Complete the reCAPTCHA checkbox to verify you're not a robot') -- CAPTCHA-gated pushes this to guided tier per instructions. No government ID is required, and no fee is charged. After submission, a confirmation email is also sent, and the privacy policy states 'please allow 3 days for your record to be fully removed.' A phone alternative is listed: 877-820-8125. Authorized agents can submit on a subject's behalf by providing their own name/email alongside the subject's. Important caveat stated by Enformion itself: opting out only affects Enformion's own re-display of public-records data -- the underlying public records aren't erased, and the company explicitly warns your info may reappear in future re-ingestion, consistent with people-search re-add patterns generally. Chrome-driven check (2026-08-13): PARTIAL/corrected -- the URL is correct and loads as a real page titled 'Enformion Privacy Portal.' It's a multi-purpose privacy portal, not a single opt-out form: a dropdown labeled 'Select From Available Forms' offers Right to Opt-out, Right to Delete, Right to Know, and Right to Correct as separate request types -- updated method from form to portal to reflect this. The page's own text also states it handles privacy requests 'for Enformion and our affiliated websites, including Tracers.com and Endato.com' -- worth knowing since a single Enformion opt-out request may cover those sibling sites too, though this wasn't independently tested. Did not select/submit the 'Right to Opt-out' option to avoid entering real personal data at this stage.",
    "instructions_md": "1. Go to https://www.enformion.com/opt-out/.\n2. Enter your name and email address in the initial form, check the authorization confirmation checkbox, and complete the reCAPTCHA.\n3. Submit the form -- Enformion will send a link to your email address that takes you to the actual opt-out form.\n4. Open that emailed link and fill in the opt-out form as completely and accurately as you can; the privacy policy warns that omitted or inaccurate information will only slow down processing.\n5. Submit the completed form. You'll receive a confirmation email from Enformion once the request is logged.\n6. If you'd rather not use the web form, you can instead call 877-820-8125 to start the process by phone.\n7. Allow about 3 days for your record to be removed from Enformion's public-facing listings. This does not delete the underlying public records Enformion draws from, so your profile can reappear later if Enformion re-ingests those sources -- plan to periodically re-check and re-submit.\n8. If you're opting out on someone else's behalf as an authorized agent, include your own name and email in addition to the subject's information.",
    "link_status": "live"
   },
@@ -1201,9 +1170,9 @@
     "ccpa",
     "cpra"
    ],
-   "last_verified": null,
-   "source": "dbw+tcp-research",
-   "notes": "FullContact is a well-documented identity-resolution/identity-verification data broker that matches contact records (email, phone, social profiles) to a unified identity graph, sold to businesses for enrichment and fraud prevention -- high personal-safety impact given the breadth of matched PII. WebFetch on fullcontact.com/privacy-center/ confirmed a live Privacy Portal at https://platform.fullcontact.com/your-privacy-choices with explicit 'Right to Delete' and 'Right to Opt-Out of Sales and Targeted Advertising' language, plus an interactive webform reachable through that portal and a privacy@fullcontact.com email as an alternate channel. The legacy CSV's dashboard.fullcontact.com/claim URL was checked and does NOT resolve (DNS failure) -- it appears stale/retired, so the current platform.fullcontact.com/your-privacy-choices URL was used instead. The privacy policy states identity verification 'may' be required but does not confirm CAPTCHA/ID; tier set to guided out of caution since this is a portal-based flow with identity verification language rather than a plain email opt-out. California requests additionally require signed written permission or power of attorney if submitted by an agent.",
+   "last_verified": "2026-08-13",
+   "source": "dbw+tcp-research+chrome-verified",
+   "notes": "FullContact is a well-documented identity-resolution/identity-verification data broker that matches contact records (email, phone, social profiles) to a unified identity graph, sold to businesses for enrichment and fraud prevention -- high personal-safety impact given the breadth of matched PII. WebFetch on fullcontact.com/privacy-center/ confirmed a live Privacy Portal at https://platform.fullcontact.com/your-privacy-choices with explicit 'Right to Delete' and 'Right to Opt-Out of Sales and Targeted Advertising' language, plus an interactive webform reachable through that portal and a privacy@fullcontact.com email as an alternate channel. The legacy CSV's dashboard.fullcontact.com/claim URL was checked and does NOT resolve (DNS failure) -- it appears stale/retired, so the current platform.fullcontact.com/your-privacy-choices URL was used instead. Chrome-driven check (2026-08-13): CONFIRMED. Page took ~8s to fully render (loading skeleton before content -- worth knowing if a future automated check gives up too early) but then showed exactly 5 options: Access My Data / Correct My Data / Do Not Sell or Share My Data / Limit Sharing Of My Sensitive Data / Delete My Data. Clicked into 'Do Not Sell or Share My Data': first step is a country selector (defaulted to United States), no CAPTCHA seen through that step. California requests additionally require signed written permission or power of attorney if submitted by an agent.",
    "instructions_md": "1. Go to https://platform.fullcontact.com/your-privacy-choices, FullContact's Privacy Portal.\n2. Select the option for deleting your personal data (Right to Delete) or opting out of data sales/targeted advertising, depending on what you want.\n3. Complete the interactive webform with your name and email address so FullContact can locate and process your record.\n4. Be ready to verify your identity if asked -- FullContact's policy states it may need to confirm identity/clarify the request before completing it.\n5. If you'd rather not use the portal, email privacy@fullcontact.com directly with your full name, the email addresses associated with your online accounts, and a clear statement that you are requesting deletion of your personal data and opting out of any sale/sharing of it.\n6. If you are a California resident submitting the request through an authorized agent rather than yourself, be aware FullContact requires signed written permission or power-of-attorney documentation from you first.\n7. Watch for a confirmation email and follow up if you don't receive a response within the timeframe required by applicable law (typically 45 days under CCPA/CPRA).",
    "link_status": "live"
   },
@@ -1389,9 +1358,9 @@
    "legal_basis": [
     "ccpa"
    ],
-   "last_verified": null,
-   "source": "data-brokers-watch + tcp-verified",
-   "notes": "MIGRATED research_note: PeopleConnect suppression portal. This is the shared opt-out hub for PeopleConnect's whole network -- one request here also covers TruthFinder, Intelius, and USSearch (and other files in this batch, e.g. instantpeoplefinder-com, intelregistry-com, point at Intelius/this same corporate family). Direct WebFetch returned only a bare page title (JS-rendered app, no static content), so not freshly confirmed by fetch; assessed from consistent, detailed third-party opt-out guides (OneRep, iolo, PrivacyOn, security.org) describing today's flow: email verify -> DOB -> full legal name -> select matching record -> re-verify identity if needed -> set 'Desired Behavior' to Suppressed. No CAPTCHA, no ID upload, no account/payment required per those sources, but it's a real multi-stage identity-matching flow, not a single deep-linkable form, so tier is guided. Records reportedly suppressed within ~48 hours; readd_days set to 2 as a rough re-check nudge, though PeopleConnect does not publish a formal re-scrape cadence.",
+   "last_verified": "2026-08-13",
+   "source": "data-brokers-watch + tcp-verified + chrome-verified",
+   "notes": "MIGRATED research_note: PeopleConnect suppression portal. This is the shared opt-out hub for PeopleConnect's whole network -- one request here also covers TruthFinder, Intelius, and USSearch (and other files in this batch, e.g. instantpeoplefinder-com, intelregistry-com, point at Intelius/this same corporate family). Direct WebFetch returned only a bare page title (JS-rendered app, no static content), so not freshly confirmed by fetch; assessed from consistent, detailed third-party opt-out guides (OneRep, iolo, PrivacyOn, security.org) describing today's flow: email verify -> DOB -> full legal name -> select matching record -> re-verify identity if needed -> set 'Desired Behavior' to Suppressed. No CAPTCHA, no ID upload, no account/payment required per those sources, but it's a real multi-stage identity-matching flow, not a single deep-linkable form, so tier is guided. Records reportedly suppressed within ~48 hours; readd_days set to 2 as a rough re-check nudge, though PeopleConnect does not publish a formal re-scrape cadence. Chrome-driven check (2026-08-13): CONFIRMED. The documented opt_out_url (suppression.peopleconnect.us/login) loads the identical page as the bare suppression.peopleconnect.us/ root (peopleconnect-us.md) -- the '/login' segment is not a real login wall or distinct flow, just a URL variant of the same Step-1-enter-email page. No CAPTCHA visible at that step.",
    "instructions_md": "1. Go to the PeopleConnect Suppression Center (linked above) -- this single portal also covers TruthFinder, Intelius, and USSearch, so you only need to do this once.\n2. Enter your email address and agree to the Terms and Privacy Policy, then submit.\n3. Check your inbox (including spam) for a confirmation email from PeopleConnect and click \"Verify email.\"\n4. Enter your date of birth, confirm it's correct, and click Continue.\n5. Enter your first, middle, and last legal name, confirm it, and click Continue.\n6. Select the record that matches you from the list shown; if your identity isn't automatically verified, you may need to confirm it via an email address or phone number tied to that record.\n7. Set the \"Desired Behavior\" dropdown to \"Suppressed\" and click Save -- your listing should be hidden within about 48 hours.",
    "link_status": "live"
   },
@@ -1469,7 +1438,7 @@
    "opt_out_url": "https://www.intelius.com/opt-out",
    "opt_out_email": null,
    "phone": "(206) 301-5800",
-   "captcha": true,
+   "captcha": false,
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
@@ -1482,9 +1451,9 @@
    "legal_basis": [
     "ccpa"
    ],
-   "last_verified": null,
-   "source": "data-brokers-watch + tcp-verified",
-   "notes": "Intelius is a hub in the PeopleConnect/CID network: this same opt-out portal (or its suppression-center sibling) is the actual removal mechanism for other files in this batch, including instantpeoplefinder-com and intelregistry-com, both of which point their opt_out_url at Intelius. WebFetch was blocked on both www.intelius.com and intelius.com (host unreachable from this environment) and could not be freshly confirmed. Assessed consistently across multiple third-party guides (cybernews, Optery, GhostMyData, Incogni, security.org): from the homepage, click 'Do Not Sell or Share My Personal Info' -> 'view public data tools' -> 'manage my suppression rules' to reach the opt-out form; then email + CAPTCHA, email verification link (~15 min expiry), legal name + DOB + CAPTCHA, select your matching record, and a final email confirmation link. No ID upload, no fee, no phone-only requirement, but a genuinely multi-step CAPTCHA-gated identity flow -> tier guided. Deletion reported to take ~72 hours once submitted.",
+   "last_verified": "2026-08-13",
+   "source": "data-brokers-watch + tcp-verified + chrome-verified",
+   "notes": "Chrome-driven verification (2026-08-13) confirmed https://www.intelius.com/opt-out redirects directly to https://suppression.peopleconnect.us/login -- the SAME shared PeopleConnect suppression portal used by peopleconnect-us and instantcheckmate-com, not a separate Intelius-specific flow. The reachable step is 'Step 1: Enter your email address' with no CAPTCHA visible; full_name/dob are requested at a later step in the flow per the PeopleConnect suppression entries, not confirmed independently here. Set captcha:false and tier should be treated as equivalent to peopleconnect-us going forward -- the earlier guided/CAPTCHA assessment appears to describe an older or alternate entry point that no longer matches what the documented opt_out_url actually loads. Deletion timing (~72 hours) not re-confirmed live.",
    "instructions_md": "1. Go to Intelius's opt-out page (linked above), or from Intelius.com click \"Do Not Sell or Share My Personal Info\" in the footer, then \"view public data tools\" and \"manage my suppression rules\" to reach the same form.\n2. Enter your email address and complete the CAPTCHA, then submit to receive a verification email.\n3. Open the email and click the verification link promptly -- it typically expires after about 15 minutes.\n4. Provide your legal name and date of birth, completing another CAPTCHA if prompted, and submit.\n5. From the list of matching records, locate your listing (cross-check address or other details) and click \"Remove This Record.\"\n6. Open the confirmation email that follows and click its link -- the removal doesn't finalize until you do. If you'd rather not use the web form, you can call Intelius directly at (206) 301-5800. Full removal typically takes about 72 hours.",
    "link_status": "bot-blocked"
   },
@@ -1721,16 +1690,19 @@
    "required_fields": [
     "full_name",
     "email",
-    "address"
+    "address",
+    "dob",
+    "listing_url",
+    "other"
    ],
    "readd_days": null,
    "legal_basis": [
     "ccpa"
    ],
-   "last_verified": null,
-   "source": "badbool",
-   "notes": "Direct WebFetch of mylife.com/privacyrequest returned HTTP 403 (bot-blocked) in this session. Cross-checked against multiple independent 2026 guides (Surfshark, OneRep, Incogni, Security.org, LegalClarity, Reputation Rhino) that consistently confirm: no account creation or driver's-license upload is actually required to opt out (the site does push an account-registration popup as a dark pattern -- decline it), the web form at /privacyrequest is the primary path, email to privacy@mylife.com and phone to 888-704-1900 (M-F 6am-5pm PT) are genuine alternatives (not fallback-only), and processing takes roughly 14 business days. id_required and phone_required are both false since neither is actually mandatory through the form/email path -- set guided tier because of the aggressive upsell dark patterns and multi-step, slow-turnaround process, not a hard ID/phone gate.",
-   "instructions_md": "1. Go to the [MyLife privacy request page](https://www.mylife.com/privacyrequest).\n2. If a \"create a free account\" or similar signup popup appears, decline it (look for a \"continue without account\" or close option) -- you do not need an account to submit this request.\n3. Fill in your full name, email, and address on the privacy-request form and submit it.\n4. Watch your email for a confirmation message from MyLife and click the verification link -- the request does not proceed until you confirm.\n5. Alternative paths if the form gives you trouble: email privacy@mylife.com with your full name and profile details, or call (888) 704-1900 (Mon-Fri, 6am-5pm PT) and ask for your Reputation Profile to be deleted -- request a confirmation number if you call.\n6. Allow up to 14 business days for removal; if nothing has changed by then, follow up by phone with any confirmation number you were given.",
+   "last_verified": "2026-08-13",
+   "source": "badbool+chrome-verified",
+   "notes": "Direct WebFetch of mylife.com/privacyrequest returned HTTP 403 (bot-blocked) in this session. Cross-checked against multiple independent 2026 guides (Surfshark, OneRep, Incogni, Security.org, LegalClarity, Reputation Rhino) that consistently confirm: no account creation or driver's-license upload is actually required to opt out (the site does push an account-registration popup as a dark pattern -- decline it), the web form at /privacyrequest is the primary path, email to privacy@mylife.com and phone to 888-704-1900 (M-F 6am-5pm PT) are genuine alternatives (not fallback-only), and processing takes roughly 14 business days. id_required and phone_required are both false since neither is actually mandatory through the form/email path -- set guided tier because of the aggressive upsell dark patterns and multi-step, slow-turnaround process, not a hard ID/phone gate. Chrome-driven check (2026-08-13): URL and page title confirmed correct. The page rendered blank in the automated Chrome-extension browsing environment used for the first check, but a human confirmed it renders normally in their own regular Chrome browser and pasted the actual rendered form content back: 'DELETION AND OPT OUT OF SALE OF PERSONAL INFORMATION' -- fields are State*, First/Last Name*, City/Postal Code*, Email*, Birth Year (YYYY)* ('helps us locate your correct profile'), Middle Initial (optional), Maiden Name or Alias Name (optional), and an optional profile-listing URL field. This is meaningfully more fields than the previously-documented full_name/email/address -- updated required_fields to include dob (birth year), listing_url, and other (state/city/zip) accordingly. No CAPTCHA mentioned in the pasted content, consistent with captcha:false above.",
+   "instructions_md": "1. Go to the [MyLife privacy request page](https://www.mylife.com/privacyrequest).\n2. If a \"create a free account\" or similar signup popup appears, decline it (look for a \"continue without account\" or close option) -- you do not need an account to submit this request.\n3. Fill in the required fields: State, First/Last Name, City and Postal/Zip Code, Email, and Birth Year (used to match you to the correct profile among similarly-named people). Optionally add your Middle Initial, a Maiden Name/Alias, and the specific profile-listing URL if you have it -- these help MyLife find the right record faster but aren't strictly required.\n4. Submit the form.\n5. Watch your email for a confirmation message from MyLife and click the verification link -- the request does not proceed until you confirm. MyLife will also unsubscribe and delete any account registered under that email.\n6. Alternative paths if the form gives you trouble: email privacy@mylife.com with your full name and profile details, or call (888) 704-1900 (Mon-Fri, 6am-5pm PT) and ask for your Reputation Profile to be deleted -- request a confirmation number if you call.\n7. Allow up to 14 business days for removal; if nothing has changed by then, follow up by phone with any confirmation number you were given.",
    "link_status": "bot-blocked"
   },
   {
@@ -1828,13 +1800,13 @@
    "domain": "nuwber.com",
    "category": "people_search",
    "people_search": true,
-   "tier": "assisted",
+   "tier": "guided",
    "priority": "crucial",
    "method": "form",
    "opt_out_url": "https://nuwber.com/removal/link",
    "opt_out_email": "support@nuwber.com",
    "phone": null,
-   "captcha": false,
+   "captcha": true,
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
@@ -1846,9 +1818,9 @@
    "legal_basis": [
     "ccpa"
    ],
-   "last_verified": null,
-   "source": "badbool",
-   "notes": "Direct WebFetch of nuwber.com/removal/link returned HTTP 403 (bot-blocked) in this session. Cross-checked against multiple independent 2026 guides (Incogni, OneRep, Security.org, Minc Law, Nuwber's own support center) that consistently describe a simple 2-field removal form (profile URL + email), no CAPTCHA, no subscription/payment needed. Nuwber's legacy CSV contact record also lists a formal written-deletion-request path via support@nuwber.com or postal mail (901 N Pitt Street, Suite 170, Alexandria, VA 22314) citing CA Gov. Code 6208.1(b)/6254.21(c)(1) -- included as an alternative. No ID or phone required through either path -- assisted tier. Multiple guides also warn Nuwber's 'full report' upsell is a paid dark pattern unrelated to the free opt-out; do not engage with it.",
+   "last_verified": "2026-08-13",
+   "source": "badbool + chrome-verified",
+   "notes": "Direct WebFetch of nuwber.com/removal/link returned HTTP 403 (bot-blocked) in this session. Cross-checked against multiple independent 2026 guides (Incogni, OneRep, Security.org, Minc Law, Nuwber's own support center) that consistently describe a simple 2-field removal form (profile URL + email), no CAPTCHA, no subscription/payment needed. Nuwber's legacy CSV contact record also lists a formal written-deletion-request path via support@nuwber.com or postal mail (901 N Pitt Street, Suite 170, Alexandria, VA 22314) citing CA Gov. Code 6208.1(b)/6254.21(c)(1) -- included as an alternative. Multiple guides also warn Nuwber's 'full report' upsell is a paid dark pattern unrelated to the free opt-out; do not engage with it. Chrome-driven check (2026-08-13): CORRECTED -- the page explicitly states 'This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply' directly beneath the Opt Out button. The earlier captcha:false / tier:assisted assessment from secondhand guides was wrong; updated to captcha:true and tier:guided accordingly. URL, form fields (profile URL + email), and no-payment-required are otherwise confirmed correct.",
    "instructions_md": "1. Search your name (plus city/state, or phone/address/email) on nuwber.com to find your profile; use the state filter if you have common name matches, and copy your specific profile's URL.\n2. Go to the [Nuwber removal page](https://nuwber.com/removal/link).\n3. Paste your profile URL into the form, enter an email address, and submit -- no CAPTCHA and no payment is required (ignore any prompt to buy a \"full report,\" that's an unrelated paid upsell).\n4. Check your email for a confirmation message from Nuwber and click the link to finalize the removal.\n5. Alternative: email support@nuwber.com (or write to Nuwber, 901 N Pitt Street, Suite 170, Alexandria, VA 22314) with your profile URL and a written deletion request if the form doesn't work for you.\n6. Repeat for each distinct profile if you have more than one; re-check periodically since listings can reappear.",
    "link_status": "bot-blocked"
   },
@@ -2201,9 +2173,9 @@
    ],
    "readd_days": null,
    "legal_basis": [],
-   "last_verified": null,
-   "source": "data-brokers-watch + tcp-verified",
-   "notes": "MIGRATED research_note: central suppression portal (Intelius/TruthFinder/Instant Checkmate/US Search); no third-party opt-outs. Confirmed via WebSearch (direct fetch returned only a bare page title, no CAPTCHA blocked it, just thin content): this is PeopleConnect's centralized 'Suppression Center' -- one request here suppresses records across the whole PeopleConnect family (Intelius, TruthFinder, Instant Checkmate, US Search, PeopleLookup, PeopleSmart all route here). Flow is email verify -> DOB -> name/aliases -> select matching record(s) -> mark 'Suppressed'. No CAPTCHA or ID upload found in current guides, so kept at assisted rather than guided; re-verify on next pass since PeopleConnect has added CAPTCHA steps in the past. last_verified left null -- not freshly confirmed via direct fetch (blocked/thin response).",
+   "last_verified": "2026-08-13",
+   "source": "data-brokers-watch + tcp-verified + chrome-verified",
+   "notes": "MIGRATED research_note: central suppression portal (Intelius/TruthFinder/Instant Checkmate/US Search); no third-party opt-outs. Confirmed via WebSearch (direct fetch returned only a bare page title, no CAPTCHA blocked it, just thin content): this is PeopleConnect's centralized 'Suppression Center' -- one request here suppresses records across the whole PeopleConnect family (Intelius, TruthFinder, Instant Checkmate, US Search, PeopleLookup, PeopleSmart all route here). Flow is email verify -> DOB -> name/aliases -> select matching record(s) -> mark 'Suppressed'. No CAPTCHA or ID upload found in current guides, so kept at assisted rather than guided; re-verify on next pass since PeopleConnect has added CAPTCHA steps in the past. Chrome-driven check (2026-08-13): CONFIRMED. Page loads at this exact URL, Step 1 is 'Enter your email address' with a Terms/Privacy checkbox, no CAPTCHA visible at this step. The page's own on-screen copy explicitly states: 'Our Suppression Tool provides a free way to manage the display of your Background Report when searched by name on all people search sites in the PeopleConnect family including TruthFinder.com, InstantCheckmate.com, Intelius.com and USSearch.com.' Also independently confirmed intelius-com's documented opt_out_url (intelius.com/opt-out) redirects directly to this exact page -- see intelius-com.md.",
    "instructions_md": "1. Go to suppression.peopleconnect.us and enter an email address you can access, then agree to the terms and continue.\n2. Check your inbox for a verification email from PeopleConnect and click \"Verify Email.\"\n3. Enter your date of birth when prompted -- this is used to match your identity to records and cannot be edited later.\n4. Enter your legal name and any alternate names (maiden name, nickname, former married name) to widen the match.\n5. Review the records the portal surfaces and select the one(s) that are actually you.\n6. In the \"Desired Behavior\" dropdown choose \"Suppressed\" and save. This single request suppresses your data across the whole PeopleConnect network (Intelius, TruthFinder, Instant Checkmate, US Search, PeopleLookup, PeopleSmart), so you should not need to repeat it separately on those sites.",
    "link_status": "live"
   },
@@ -9595,7 +9567,7 @@
    "source": "dbw+tcp-research",
    "notes": "WebFetch on littlebrookmedia.com/privacy-policy confirmed the company is a direct-marketing/online lead-generation firm (operating as Big Brook Media, LLC per the policy's legal name and mailing address) that collects consumer contact info via its own 'digital media properties' and sells leads to clients on a pay-per-lead basis -- a genuine data broker per this project's definition. The privacy policy lists an online form, phone (845-639-5053), email (info@littlebrookmedia.com, matching the legacy CSV), and mail (20 South Main Street, New City, NY 10956) as opt-out channels, and requires only a 'verifiable CA User request' with identity-verifying info, no CAPTCHA or ID mentioned -> simple email opt-out, tier auto. Not independently re-rendered by a human; last_verified left null.",
    "instructions_md": "1. Email info@littlebrookmedia.com and state that you are submitting a CCPA opt-out / deletion request for your personal information.\n2. Include your full name and the email address(es) or other contact details you believe Little Brook Media (operating as Big Brook Media, LLC) has collected about you, so they can verify your identity.\n3. Alternatively, call 845-639-5053 or mail a written request to Big Brook Media, 20 South Main Street, New City, NY 10956.\n4. The company states it acts on verifiable opt-out requests within 15 days of receipt.\n5. Watch for a confirmation reply; if none arrives, follow up by phone using the number above.",
-   "link_status": "live"
+   "link_status": "broken"
   },
   {
    "id": "bisi-com",
@@ -10611,7 +10583,7 @@
    "source": "data-brokers-watch",
    "notes": "Fetched live 2026-07-03: page is a simple 'National Do Not Mail List' registration form, no CAPTCHA. DirectMail.com is a mail-list aggregator/reseller (B2B-ish direct-marketing data), not a people-search site, so priority is standard (spam-reduction, not personal-safety) despite people_search:false already matching category direct_marketers.",
    "instructions_md": "1. Go to https://www.directmail.com/directory/mail_preference/.\n2. Fill in your title, first name, last name, address, city, state, and ZIP code.\n3. Enter your email address (used to confirm the request) and, optionally, a phone number.\n4. Check the box for \"I do not want to receive any special offers in the mail.\"\n5. Click Submit to add yourself to DirectMail.com's internal National Do Not Mail List.\n6. Note this only stops DirectMail.com's own use of your data \u2014 it does not forward your request to the other mailers/list compilers it resells data to, so pair it with DMAchoice registration for broader effect.",
-   "link_status": "live"
+   "link_status": "broken"
   },
   {
    "id": "dogpile-com",
@@ -12626,7 +12598,7 @@
    "source": "dbw+tcp-research",
    "notes": "Confirmed via curl fetch of nexxagroup.com/corporate-overview/consumer-opt-out/ (HTTP 200, rendered directly). Nexxa Group is a data intelligence / marketing-compliance company (energy solutions, consumer/business marketing lists, identity verification, fraud prevention, 'National Business File', 'New Movers' data). The page confirms a dedicated 'Consumer Opt Out Request' online form: requires a valid email address (a confirmation email is sent to validate the request; the site explicitly states opt-out requests sent via plain email will NOT be processed, only the form or phone). No CAPTCHA markup found in the fetched HTML. Alternative channel: phone (800) 566-1895 for consumers without a valid email address. people_search left false (B2B/consumer marketing data, not general identity/address lookup); priority:standard as a mid-size marketing-data vendor. opt_out_email left null per the site's own instruction that email-only requests aren't honored -- method is the form (or phone), not direct email. last_verified left null despite the direct fetch since the form's exact field list wasn't fully machine-readable (likely JS-rendered).",
    "instructions_md": "1. Go to https://www.nexxagroup.com/corporate-overview/consumer-opt-out/ and locate the \"Consumer Opt Out Request\" form.\n2. Fill in your full name and a valid email address, then submit the request. Note: Nexxa explicitly states that opt-out requests sent via plain email are NOT processed -- you must use this form (or call).\n3. Check your email for a confirmation message and complete any confirmation step it requires; your opt-out is not final until you confirm.\n4. If you don't have a valid email address, call (800) 566-1895 to submit your opt-out request by phone instead.\n5. Note this opt-out does not remove data already provided to marketers before your request; expect the standard CCPA-style processing window.",
-   "link_status": "live"
+   "link_status": "broken"
   },
   {
    "id": "njparcels-com",
@@ -13860,7 +13832,7 @@
    "source": "dbw+tcp-research",
    "notes": "WebFetch confirmed sourceitmarketing.com (redirects at the bare domain to sourceit.co, a SaaS portfolio site for sales/marketing tools) has a distinct 'Do Not Sell My Personal Information' page at sourceitmarketing.com/privacy/ with a working self-serve mechanism: a 'Check/Manage/Delete your Data Record' form that takes an email address, checks it against their database, and emails a link to view/remove the record; a secondary manual-request form is also offered with fields for contact email, the email address(es) to investigate/remove, a subject dropdown including 'Opt out of sale or sharing of personal information', and a California-residency checkbox. No CAPTCHA or ID requirement was described. No dedicated opt-out phone or email address was found on the page itself, so opt_out_email is left null and method is form. Did not render the live page directly (relied on fetch-tool summary), so last_verified left null.",
    "instructions_md": "1. Go to the \"Do Not Sell My Personal Information\" page at https://sourceitmarketing.com/privacy/.\n2. Use the \"Check/Manage/Delete your Data Record\" tool: enter your email address to check whether SOURCEit has a record on you.\n3. If a record is found, you'll receive an email with a link to view and remove your data -- follow that link to complete the deletion.\n4. If you'd rather not use the instant-check tool, use the manual request form instead: enter your contact email, the email address(es) you want investigated or removed, select \"Opt out of sale or sharing of personal information\" from the subject dropdown, check the California-residency box if applicable, and add any details in the comments field.\n5. Submit the manual request and allow time for SOURCEit to process it, since the page notes this path is a manual review rather than an instant removal.",
-   "link_status": "live"
+   "link_status": "broken"
   },
   {
    "id": "sovrn-com",

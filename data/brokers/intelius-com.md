@@ -10,16 +10,16 @@ method: portal
 opt_out_url: "https://www.intelius.com/opt-out"
 opt_out_email: null
 phone: "(206) 301-5800"
-captcha: true
+captcha: false
 id_required: false
 phone_required: false
 charges_fee: false
 required_fields: [full_name, dob, email]
 readd_days: 3
 legal_basis: [ccpa]
-last_verified: null
-source: "data-brokers-watch + tcp-verified"
-notes: "Intelius is a hub in the PeopleConnect/CID network: this same opt-out portal (or its suppression-center sibling) is the actual removal mechanism for other files in this batch, including instantpeoplefinder-com and intelregistry-com, both of which point their opt_out_url at Intelius. WebFetch was blocked on both www.intelius.com and intelius.com (host unreachable from this environment) and could not be freshly confirmed. Assessed consistently across multiple third-party guides (cybernews, Optery, GhostMyData, Incogni, security.org): from the homepage, click 'Do Not Sell or Share My Personal Info' -> 'view public data tools' -> 'manage my suppression rules' to reach the opt-out form; then email + CAPTCHA, email verification link (~15 min expiry), legal name + DOB + CAPTCHA, select your matching record, and a final email confirmation link. No ID upload, no fee, no phone-only requirement, but a genuinely multi-step CAPTCHA-gated identity flow -> tier guided. Deletion reported to take ~72 hours once submitted."
+last_verified: "2026-08-13"
+source: "data-brokers-watch + tcp-verified + chrome-verified"
+notes: "Chrome-driven verification (2026-08-13) confirmed https://www.intelius.com/opt-out redirects directly to https://suppression.peopleconnect.us/login -- the SAME shared PeopleConnect suppression portal used by peopleconnect-us and instantcheckmate-com, not a separate Intelius-specific flow. The reachable step is 'Step 1: Enter your email address' with no CAPTCHA visible; full_name/dob are requested at a later step in the flow per the PeopleConnect suppression entries, not confirmed independently here. Set captcha:false and tier should be treated as equivalent to peopleconnect-us going forward -- the earlier guided/CAPTCHA assessment appears to describe an older or alternate entry point that no longer matches what the documented opt_out_url actually loads. Deletion timing (~72 hours) not re-confirmed live."
 ---
 
 1. Go to Intelius's opt-out page (linked above), or from Intelius.com click "Do Not Sell or Share My Personal Info" in the footer, then "view public data tools" and "manage my suppression rules" to reach the same form.

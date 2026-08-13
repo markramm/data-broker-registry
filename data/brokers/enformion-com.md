@@ -6,7 +6,7 @@ category: people_search
 people_search: true
 tier: guided
 priority: crucial
-method: form
+method: portal
 opt_out_url: "https://www.enformion.com/opt-out/"
 opt_out_email: null
 phone: "877-820-8125"
@@ -17,9 +17,9 @@ charges_fee: false
 required_fields: [full_name, email]
 readd_days: null
 legal_basis: [ccpa]
-last_verified: null
-source: "dbw+tcp-research"
-notes: "WebFetch on enformion.com/en/privacy/ and enformion.com/opt-out/ (the latter also directly curled but Cloudflare-blocked the curl attempt, so relying on the earlier successful WebFetch render) confirms: Enformion is a people-search/public-records data broker selling 'Data Products' for fraud protection, identity verification, investigations, and debt collection, built from public records and third-party sources. The opt-out flow starts by submitting name and email through a form; Enformion emails a link to the actual opt-out form (email-first, two-step). The form requires a reCAPTCHA checkbox ('Complete the reCAPTCHA checkbox to verify you're not a robot') -- CAPTCHA-gated pushes this to guided tier per instructions. No government ID is required, and no fee is charged. After submission, a confirmation email is also sent, and the privacy policy states 'please allow 3 days for your record to be fully removed.' A phone alternative is listed: 877-820-8125. Authorized agents can submit on a subject's behalf by providing their own name/email alongside the subject's. Important caveat stated by Enformion itself: opting out only affects Enformion's own re-display of public-records data -- the underlying public records aren't erased, and the company explicitly warns your info may reappear in future re-ingestion, consistent with people-search re-add patterns generally. required_fields reflects the initial name+email step; the emailed follow-up form's exact fields weren't independently confirmed, so treat as provisional. priority crucial per instructions given this is a live people-search/address-reseller site with real personal-safety stakes."
+last_verified: "2026-08-13"
+source: "dbw+tcp-research+chrome-verified"
+notes: "WebFetch on enformion.com/en/privacy/ and enformion.com/opt-out/ (the latter also directly curled but Cloudflare-blocked the curl attempt, so relying on the earlier successful WebFetch render) confirms: Enformion is a people-search/public-records data broker selling 'Data Products' for fraud protection, identity verification, investigations, and debt collection, built from public records and third-party sources. The opt-out flow starts by submitting name and email through a form; Enformion emails a link to the actual opt-out form (email-first, two-step). The form requires a reCAPTCHA checkbox ('Complete the reCAPTCHA checkbox to verify you're not a robot') -- CAPTCHA-gated pushes this to guided tier per instructions. No government ID is required, and no fee is charged. After submission, a confirmation email is also sent, and the privacy policy states 'please allow 3 days for your record to be fully removed.' A phone alternative is listed: 877-820-8125. Authorized agents can submit on a subject's behalf by providing their own name/email alongside the subject's. Important caveat stated by Enformion itself: opting out only affects Enformion's own re-display of public-records data -- the underlying public records aren't erased, and the company explicitly warns your info may reappear in future re-ingestion, consistent with people-search re-add patterns generally. Chrome-driven check (2026-08-13): PARTIAL/corrected -- the URL is correct and loads as a real page titled 'Enformion Privacy Portal.' It's a multi-purpose privacy portal, not a single opt-out form: a dropdown labeled 'Select From Available Forms' offers Right to Opt-out, Right to Delete, Right to Know, and Right to Correct as separate request types -- updated method from form to portal to reflect this. The page's own text also states it handles privacy requests 'for Enformion and our affiliated websites, including Tracers.com and Endato.com' -- worth knowing since a single Enformion opt-out request may cover those sibling sites too, though this wasn't independently tested. Did not select/submit the 'Right to Opt-out' option to avoid entering real personal data at this stage."
 ---
 
 1. Go to https://www.enformion.com/opt-out/.

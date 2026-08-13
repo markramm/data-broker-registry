@@ -18,9 +18,9 @@ verification: email_confirm
 required_fields: [email, full_name]
 readd_days: null
 legal_basis: [ccpa, gdpr]
-last_verified: null
-source: "dbw+tcp-research"
-notes: "WebFetch/WebSearch confirmed ContactOut indexes and resells personal email addresses and phone numbers scraped from websites and social media (LinkedIn etc.) for sales/recruiting use -- a genuine people-search/contact-data reseller, so people_search true and priority crucial (personal contact info including phone numbers). Their dedicated opt-out page at contactout.com/optout is a two-step process: submit identifying info, then click an emailed verification link, after which they commit to deleting the profile within 24 hours. No CAPTCHA or ID upload was observed in the page description, so classified assisted rather than guided. Note ContactOut states removed profiles can reappear if the source page still exists, so periodic re-checking is warranted."
+last_verified: "2026-08-13"
+source: "dbw+tcp-research+chrome-verified"
+notes: "WebFetch/WebSearch confirmed ContactOut indexes and resells personal email addresses and phone numbers scraped from websites and social media (LinkedIn etc.) for sales/recruiting use -- a genuine people-search/contact-data reseller, so people_search true and priority crucial (personal contact info including phone numbers). Their dedicated opt-out page at contactout.com/optout is a two-step process: submit identifying info, then click an emailed verification link, after which they commit to deleting the profile within 24 hours. No CAPTCHA or ID upload was observed in the page description, so classified assisted rather than guided. Note ContactOut states removed profiles can reappear if the source page still exists, so periodic re-checking is warranted. Chrome-driven check (2026-08-13): CONFIRMED exactly as documented. Page titled 'Verify your email', single email field, 'Send verification link' button, explicit 24-hour deletion commitment stated on-page, no CAPTCHA visible."
 ---
 
 1. Go to https://www.contactout.com/optout.
