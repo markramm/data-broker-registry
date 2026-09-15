@@ -1,0 +1,10 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Bug in the website, not the data
+    url: https://github.com/markramm/make-yourself-expensive/issues/new/choose
+    about: >-
+      If the problem is the site itself — a page that won't load, a button that does nothing,
+      wording that confused you — file it against the app repo instead.
+  - name: How to test the site
+    url: https://become-expensive.transparencycascade.org/testing
+    about: What's worth testing and what a useful report looks like.

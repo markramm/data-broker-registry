@@ -1,0 +1,60 @@
+name: Broker correction
+description: A broker entry is wrong — bad URL, wrong fields, dead site, or changed process
+title: "Broker: "
+labels: ["broker-data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This dataset is a commons. Corrections are the main way it improves, and they need
+        no code — each broker is one markdown file under `data/brokers/`.
+
+        **Do not include your real name, address, phone, or any personal data.** Issues are
+        public, and nothing here needs your information — only what the broker's page does.
+  - type: input
+    id: broker
+    attributes:
+      label: Broker domain
+      placeholder: spokeo.com
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What's wrong?
+      options:
+        - The opt-out URL is dead or redirects somewhere else
+        - The required fields don't match what the page asks for
+        - There's a CAPTCHA (or account requirement) we don't mention
+        - The whole site appears to be gone
+        - The process changed
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: What did you actually see?
+      description: >-
+        What the page looked like, what it asked for, what happened when you tried. First-hand
+        observation beats a guide — including ours.
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: The correct opt-out URL, if you found one
+  - type: input
+    id: date
+    attributes:
+      label: When did you check?
+      placeholder: 2026-09-15
+    validations:
+      required: true
+  - type: checkboxes
+    id: pii
+    attributes:
+      label: Before you submit
+      options:
+        - label: I have not included any personal data.
+          required: true
