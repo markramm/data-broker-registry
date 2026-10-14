@@ -1,0 +1,160 @@
+Corporate Privacy Policy
+Fyllo Corporate and Website Privacy Policy
+Last Updated: June 23, 2025
+This Corporate and Website Privacy Policy (“Policy”) describes how Proteus Enterprises, LLC (“Fyllo”, “we”, “our” or “us”) collects, shares, and uses personal data we collect from and about you in a business-to-business capacity, such as when you visit our corporate website at https://www.hellofyllo.com/,receive marketing communications from us, or utilize any dashboards or internal tools we make available to our business users (collectively, our “Corporate Services”), and your rights and choices regarding your personal data
+Fyllo is a marketing agency that provides digital marketing, media planning and buying, and data solutions services to our clients (the “Client Services”).
+This Policy only applies to our Corporate Services. In processing personal data as part of our Corporate Services, Fyllo is a data controller. For our Client Services, Fyllo acts as a service provider or data processor on behalf of our clients who are the data controllers. This means we process personal data according to our client’s instructions and contractual commitments.
+A note on Fyllo’s history: Fyllo was founded in 2019 and was previously a registered data broker. Current management acquired the Fyllo brand and the Client Services business line in early 2025. Fyllo did not acquire and does not currently operate a data broker business.
+Table of Contents
+Collection of Personal Data
+Use of Personal Data
+Disclosure of Personal Data
+Aggregated and De-Identified Information
+Your Opt-Out Choices
+Supplemental State Specific Disclosures
+State Privacy Rights and Requests
+Geographic Scope
+Not Designed for Minors
+External Links
+Data Security
+How Long We Retain Personal Data
+Revisions to this Privacy Policy
+How to Contact Us
+Section 1
+Collection of Personal Data
+The information listed below constitutes “personal data” as defined under applicable privacy laws, including state privacy laws in California, Colorado, Connecticut, Delaware, Iowa, Minnesota, Montana, Nebraska, New Hampshire, New Jersey, Oregon, Texas, Tennessee, Utah, and Virginia (collectively, the "State Privacy Laws"). This information may be provided by you voluntarily or may be collected automatically as described below.
+A. Information You Voluntarily Provide
+Contact information such as name, address, telephone number or email address and contact preferences.
+Your professional information, such as job title, department, or job role.
+Contents of your communications, including email messages and responses when corresponding with us via email or through our website, blogs, event registrations or to sign up for marketing communications, or request a demo.
+Information to create an account to use the Corporate Services, including user name and password.
+We or our third-party payment processors may collect your personal data when we collect a payment card number or other payment information.
+For job applicants, we will collect your resume and information related to your employment and education history, we may collect other personal data typically collected as part of the application process, including background check information.
+B. Information Collected Automatically
+We use a variety of third party technologies, such as cookies, pixels, and tags, to collect certain information about your activity when using our website and other internal tools as part of our Corporate Services. The specific types of personal data automatically collected include:
+Device and Browser Information. Your device’s IP address and/or other unique identifiers, browser type, device type, internet service provider, and operating system.
+Location Information. Your device’s approximate location (derived from your device’s IP address or other general signals that do not provide your precise location).
+Usage Information. Information about your use of the Corporate Services, including the date and time of your visit, the services that refer you to our websites, the areas or pages of the Corporate Services that you visit, the amount of time you spend viewing or using the Corporate Services. We also create and store logs about our business users. The logged information includes IP addresses, endpoints you use, and if there are any errors, we store information to diagnose and correct any problems with the Products.
+Marketing Information. If you receive an email or other marketing communication from us, information may be collected about your interactions with the message (e.g., whether you opened, forwarded, or clicked through to our website).
+Analytics Information. We use analytics and tracking tools to better understand who is using the Corporate Services, how people are using them, and how to improve them.
+C. Access to Information Collected by Third Parties
+We may receive access to your personal data collected by other sources, including online advertising networks and analytics providers, social media platforms, and companies such as data aggregators who may provide us with access to marketing lists to supplement the data collected directly from you as a visitor to our website or a user of our Corporate Services.
+D. Sensitive Personal Data
+We do not use tracking technologies to collect sensitive personal data and we do not use sensitive personal data with our Marketing Activities. As a job applicant, employee, or business user of our Corporate Services, you may voluntarily provide us with your sensitive personal data and we may use it for the purpose for which it was collected. Depending on what law applies, sensitive personal data may include your social security number, driver’s license, state identification card, or passport number, account log-in, financial account, debit card, or credit card number in combination with any required security or access code, password, or credentials allowing access to an account, precise geolocation, racial or ethnic origin, religious or philosophical beliefs, union membership, genetic data, biometric information, mental or physical health information, sex life or sexual orientation. We do not process this information for purposes other than those purposes for which it was originally collected or as otherwise required or permitted by applicable law. We will obtain your explicit consent before processing sensitive personal data for any new purposes, where required by law.
+Section 2
+Use Of Personal Data
+We use your personal data for the business and commercial purposes listed below.
+A. Business Purposes: To operate our Corporate Services
+To create and maintain your account with us.
+To fulfill your orders and process your payment.
+To communicate with you and respond to your inquiries.
+To develop and improve our Corporate Services.
+To monitor, protect, and maintain the security and integrity of our Corporate Services, such as protecting against and preventing fraud, unauthorized transactions, claims and other liabilities.
+To establish, exercise, or defend legal claims and protect our rights, privacy, safety, property and/orthose of others.
+To comply with applicable laws and regulations and respond to lawful requests for personal data.
+To carry out the sale or transfer of some or all of our business, such as a merger, acquisition, or bankruptcy proceeding.
+To process job applications.
+We process sensitive personal data only for the purposes disclosed at the time of collection unless otherwise required by law. We will not use your sensitive personal data except as described in this Policy or as permitted by applicable law.
+To fulfill any other purposes disclosed to you at the time of collection.
+B. Information We Automatically Collect
+We use personal data collected as part of our Corporate Services to promote our company and Products, including for purposes of targeted advertising (“Marketing Activities”).
+Section 3
+Disclosure Of Personal Data
+We may disclose each category of personal data that we collect to the following categories of recipients:
+A. Business Recipients
+Processors/Service Providers. We disclose your personal data to service providers that provide business, professional, or technical support services to us, help us operate the Corporate Services, or administer activities on our behalf. We require our service providers to restrict their use of personal data to only use your personal data in connection with providing services to Fyllo.
+Third Parties as Part of a Corporate Transaction. In the event of are organization, merger, sale, joint venture, assignment, transfer, or other disposition of all or any portion of our business, assets, or stock (including in connection with a bankruptcy or similar proceeding), we may disclose or transfer your personal data to certain third parties, such as the acquiring entity and its advisers.
+Legal Obligations, Security, and Safety. We will disclose your personal data as we believe necessary or appropriate to: (a) comply with applicable law; (b) enforce our terms and conditions; (c) protect our operations; (d) protect our rights, privacy, safety, or property, and/or those of you or others; and (e) allow us to pursue available remedies or limit damages that we may sustain.
+Competent Governmental, Regulatory, and Public Authorities. We may disclose personal data to governmental or law enforcement authorities to comply with valid legal or regulatory obligations or requests.
+Other Disclosed Purposes. We will disclose your personal data to other third parties at your direction or with your consent.
+B. Commercial Recipients
+Analytics Vendors. We disclose personal data to analytics vendors and help us measure the effectiveness of the Corporate Services, including our Marketing Activities.
+Marketing and Advertising Vendors. We disclose personal data to vendors for Marketing Activities, including social media platforms, third-party advertising networks, and other parties that assist us in tailoring, serving, and optimizing our ads.
+Section 4
+Aggregated and
+De-Identified Information
+We may aggregate and/or de-identify your personal data so that such information can no longer be linked to you or your device. We may use and disclose aggregated or de-identified information that cannot reasonably be used to identify you in our discretion. We will not attempt to re-identify such information, except as permitted by law.
+Section 5
+Your Opt-Out Choices
+A. Unsubscribe from our Marketing Emails
+From time to time, we may send you marketing emails. If you no longer wish to receive such messages, you may opt-out at any time by following the opt-out instructions included in any email you receive from us or by contacting us at privacy@hellofyllo.com. If you opt-out, we may still send you emails about our ongoing business relations
+B. Your Choices Regarding Cookies and Tracking Technologies
+We use cookies and similar tracking technologies to improve your experience with our Corporate Services. You can limit these technologies by electing to opt-out, but this may affect site functionality. The choices below apply only to the specific browser, device, or application from which you opt-out. If you delete or reset your cookies, change browsers, or use a different device, any opt-out cookie or tool may no longer work and you will have to opt-out again.
+Manage Cookies via our Cookie Consent Tool.
+Fyllo uses a consent management tool, which you can utilize to customize your cookie preferences. When you visit our website for the first time, a cookie consent banner will popup and ask you to customize your cookie preferences. Please note that essential cookies cannot be disabled and if you decide to opt-out of performance cookies, certain functionality of our websites or your account may be impacted. Any choices concerning cookies are browser and/or device specific. If you clear your cookies from your browser on any of your devices, your choices will need to be reset.
+Manage cookies via your browser, device, or application setting.
+You may also opt-out of the automatic collection of personal data through your settings in your browser or mobile device. Each browser and device manufacturer is different, so check your settings in each browser or device to learn how to set your privacy preferences.
+Enable the Global Privacy Control.
+‍We support the Global Privacy Control which is a preference you can set in your web browser or in certain applications to inform the pages you visit that you do not want to be tracked. To set up GPC, visit the Global Privacy Control page. If you use different browsers or applications, you will have to enable the signal on each browser or application.
+Opt-Out of Use of Advertising Cookies using Third Party Tools.
+To learn more about how to opt-out of interest based targeted advertising in general, you can visit opt-out pages operated by the Digital Advertising Alliance. We do not control or operate these tools or the choices that others provide through these tools. Even if you choose to opt-out using these tools, you may still receive some interest-based advertising.
+Section 6
+Supplemental State Specific Disclosures
+Depending on where you reside and to the extent a State Privacy Law applies, the supplemental disclosures in this Section may apply to you. Where we collect, use, and disclose your personal data for “Commercial Purposes” for our Marketing Activities, such activities may constitute a sale, share, or use of personal data for targeted advertising as those terms are defined under applicable State Privacy Laws
+Categories of Personal Data Collected
+Section 1
+Sources of Personal Data
+Section 1
+Use of Personal Data for Business Purposes
+Section 2A
+Categories of Recipients for Business Purposes
+Section 3A
+Use of Personal Data for Commercial Purposes
+Section 2B
+Categories of Recipients for Commercial Purposes
+Section 3B
+Section 7
+State Privacy Rights and Requests
+A. Summary of State Privacy Rights
+Depending on where you reside, you may have certain rights regarding your personal data as summarized below, subject to certain restrictions and variations under applicable State Privacy Laws. This section describes how to exercise those rights and our process for handling your requests. We will honor these rights to the extent required by applicable State Privacy Laws in your jurisdiction of residence. To the extent permitted by applicable law, we may charge a reasonable fee to comply with your request.
+Right to Opt-out of Certain Types of Personal Data Uses and Disclosures. Depending on your state of residence, you may have specific opt-out rights, including rights to opt-out of the sale or sharing of your personal data, or the use and disclosure of your personal data for targeted advertising.
+Right to Delete. You may have the right to request that we delete personal data that we have collected from you, subject to certain exceptions.
+Right to Know or Request Access to Your Personal Data. You may have the right to request that we disclose the categories of personal data we collected about you, the categories of sources from which we collected the personal data, the categories of personal data that we sold or disclosed, our business or commercial purpose for collecting and selling your personal data, the categories of third parties with whom we shared your personal data, and the specific pieces of personal data we collected about you. Residents of certain states may also have the right to request a list of the specific third parties with whom we share your personal data.
+Right to Data Portability. You may have the right to access your personal data in a portable format to the extent technically feasible.
+Right to Correct. You may have the right to correct inaccurate personal data that we may maintain about you, subject to appropriate verification.
+Right to Appeal. You may have the right to appeal our decision to not take action on a request. If we deny your appeal and depending on your state of residence, you may have the right to further appeal our decision to your State Attorney General or other state regulator in your state.
+B. Process for exercising your rights
+Please see Section 5 of this Policy to exercise your opt-out rights.
+To exercise any other applicable privacy right under this Policy, please contact us at privacy@hellofyllo.com with your request. Please put the statement “Privacy Rights Request” in the subject field of your email and provide us with your state of residence. We may take steps to verify your identity before responding to your request.
+Depending on your state of residence, you may have the right to authorize an agent to make privacy rights requests on your behalf. We may take steps to verify the agent’s authorization and identity before processing any request, including requesting information directly from you confirming that the agent is authorized to make such a request.
+Please note that, where permitted under applicable law, we may decline a request if we are unable to verify your state of residence or your identity (or an agent’s authority to make the request) and confirm the personal data we maintain relates to you.
+Submitting a privacy rights request does not require you to create an account with us. We will not discriminate against you if you decide to exercise your privacy rights.
+Section 8
+Geographic Scope
+Our Corporate Services, including this website, are intended for use only within the United States. By using the Corporate Services, you acknowledge that your personal data may be transferred to, stored, and processed in the United States which may not provide levels of data protection equivalent to those of your home jurisdiction.
+Section 9
+Not Designed For Minors
+Our Corporate Services are not intended for users under 18. Parents or legal guardians who believe we have collected their child's information should contact us at privacy@hellofyllo.com for removal.
+Section 10
+External Links
+Our website may include links to other websites, including social media platforms. This Policy does not apply to the data practices of any other websites. We encourage you to read the privacy notices available on other websites you visit.
+Section 11
+Data Security
+We maintain reason able safeguards to protect the security, confidentiality, and integrity of your personal data. However, no electronic storage or Internet transmission method is completely secure, and we cannot guarantee absolute security
+Section 12
+How Long We Retain Personal Data
+We will retain your personal data for as long as reasonably necessary to provide you with the Corporate Services, unless you opt-out as described in this Policy. We may, however, retain information following your opt-out or withdrawal of consent where legally permitted or required (e.g., for a legal compliance, auditing, or accounting reason).
+Section 13
+Revisions To This Privacy Policy
+Fyllo may change or update this Policy at any time. Changes will be posted on this website. If you have an account with us for our Corporate Services and we change this Policy in a material way, we will provide appropriate notice to you.
+Section 14
+How To Contact Us
+If you have questions related to this privacy policy, or regarding our Corporate Services, please contact us at privacy@hellofyllo.com or send us mail.
+Postal addresses:
+625 W. Adams, 18th Flr
+Chicago IL, 60661
+Accessibility Statement
+Please email us at privacy@hellofyllo.com if you have difficulty using or accessing any part of this site and we will make reasonable efforts to meet your needs.
+LinkedInTwitterInstagram
+Services
+Audience Targeting
+Contextual Targeting
+Contextual Audience Extension
+Media Strategy & Planning
+Resources
+Case Studies
+Company
+About
+Contact
+Legal
+Privacy

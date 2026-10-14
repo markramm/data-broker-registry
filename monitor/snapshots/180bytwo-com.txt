@@ -1,0 +1,230 @@
+Privacy | 180byTwo
+Sign In
+Get a Demo
+Your Data, Privacy, and Security is Important to Us
+Our privacy tools are here to help you understand more about online advertising—from the basics to policies to partner requirements. We hope you find this information useful. If you have any questions that aren’t answered here, please reach out to us at privacy@180bytwo.com.
+180byTwo, a fully owned subsidiary of MeritB2B, LLC. For further information on MeritB2B’s Privacy Policy, please click here.
+180byTwo’s Products and Services Privacy Policy
+This Privacy Policy describes how 180byTwo a MeritB2B Company gathers and uses data to market its products and services and to fulfill our customer’s business needs, when it provides data and services. It is applicable for postal, email, telephone and online channels including visitors to the 180byTwo website. The Policy does not cover or apply to the practices of any third parties, nor does it cover our use of Human Resource, (HR) Data.
+180byTwo does not collect, hold or use sensitive information such as Social Security numbers, credit card numbers, banking information, biometric or health data.
+We work with carefully vetted only third-party companies that have demonstrably high standards, been approved by
+180byTwo and have high regard for, and processes to respect and comply with applicable privacy law, consistent with 180byTwo’s own standards. We are committed to protecting your privacy rights and take this issue seriously. We have internal policies to uphold the security of the data in our possession whilst meeting the legitimate needs of our customers.
+This privacy notice explains how we collect, share and protect business information. 180byTwo are Pro-Privacy and always respect your choices and rights as an individual. We will always work to comply with any applicable privacy legislation and share with you any information we hold about you as an individual. More information can be found in our Privacy Policy –https://180bytwo.com/privacy/. This policy also covers the 180byTwo website: www.180byTwo.com
+Accessibility Statement
+180byTwo is committed to making our website accessible for all customers, including those with disabilities. Consistent with this goal, we have taken a number of steps to enhance our site and increase its usability by those who access the web using assistive technology. We will continue to enhance our digital properties to deliver accessible experiences.
+If you are having trouble accessing www.180byTwo.com/privacy, or if you feel that we are not abiding by this privacy policy, please contact us at privacy@180byTwo.com
+Introduction
+180 By Two, LLC (“Company”, “Our” or “We”) respects your privacy and are committed to protecting it through our compliance with this policy.
+This policy describes the types of information we may collect from you or that you may provide when you visit the website www.180bytwo.com (our “Website”) and our practices for collecting, using, maintaining, protecting, and disclosing that information.
+This policy applies to information we collect:
+On this Website.
+In email and other electronic messages between you and this Website.
+Us offline or through any other means, including on any other website operated by Company or any third party; or
+Any third party, including through any application or content (including advertising) that may link to or be accessible from or on the Website.
+Please read this policy carefully to understand our policies and practices regarding your information and how we will treat it. If you do not agree with our policies and practices, your choice is not to use our Website. By accessing or using this Website, you agree to this privacy policy. Your continued use of this Website after we make changes is deemed to be acceptance of those changes, so please check the policy periodically for updates.
+About 180byTwo’s Products and Services
+We do not provide products or services directly to consumers. Instead, we provide products and services that help businesses – marketers, advertising agencies and publishers – engage in interest-based advertising. Interest-based advertising is the practice of delivering relevant content and advertising to people based on their interests, activities, and behaviors.
+Online Advertising Products and Services
+Some of our services, including the 180byTwo Audience Suite, connect our clients with the right online audiences for their products and services. To provide these services, we utilize data, including online data from third-party data providers (such as website owners, app owners, data aggregators, and SmartTV manufacturers) (“Third-Party Data”) to create data segments associated with certain interests, behaviors, and attributes (for example, an interest in travel or an interest in sports), which can be used to serve relevant advertisements to consumers on their computers, phones, and other mobile devices.
+Software Products and Services
+We utilize software to provide our services and products, including the 180byTwo Audience Management Platform to assist our clients in collecting and organizing information about their customers from their own sources – including client websites, mobile applications, advertising campaigns, CRM systems, and data partners – for digital advertising purposes. We serve as a service provider to our clients by providing the tools and services that facilitate our clients’ collection and export of this client data (“First Party Data”) so that we may processing this data in accordance with our clients’ direction.
+Marketing Technology Services
+We also provide products and services that help clients use data to deliver personalized content and advertising to users both online, via computers, phones, and other mobile devices, and offline, via more traditional marketing methods. For example, we help clients to bring data that was collected offline into the online space, where it can be used for digital advertising purposes; and we help clients to identify relationships across computers, phones, and other mobile devices so that a user can benefit from targeted advertising across multiple devices.
+Data Collection and Use
+180byTwo collects information directly. 180byTwo also collects and receives information on behalf of its clients and receives information from third parties for use in its Products and Services. 180byTwo collects information via many methods, including cookies, pixel tags, SDKs (software development kits), secure file transfers, and server to server connections.
+Personally Identifiable Information
+When we refer to Personally Identifiable Information (“PI”) in this policy, we mean data which identifies you personally using an identifier such as name, address, email, or telephone number. We do not collect PII through Client websites via our Technology.
+Non-personally Identifiable Information
+180byTwo collects only Non-Personally Identifiable Information (“Non-PII”) from the web pages where our Clients deploy our Products. When we refer to Non-PII in this policy, we mean information that does not use a commonly recognized identifier such as name, address, email, or telephone number to identify a particular person. Non-PII includes, but is not limited to, the Internet Protocol (IP) address that your device used to connect to the internet, browser type (for example Internet Explorer or Mozilla), operating system (for example Windows or Macintosh), the URL of Client website pages or sections that you visit, the data you copied or shared, etc. Keep in mind that in certain contexts and jurisdictions, some information that we in this policy regard as Non-PII, such as IP addresses, may be regarded as “personal data” under data protection legislation in the European Union and elsewhere. We do not, however, record IP addresses for visitors to Client websites from EU countries.
+Information We Collect About You and How We Collect It
+We may collect several types of information from and about users of our Website, including information:
+By which you may be personally identified, such as name, postal address, e-mail address, telephone number, or any other identifier by which you may be contacted online or offline (“personal information”);
+That is about you but individually does not identify you; and/or
+About your internet connection, the equipment you use to access our Website, and usage details.
+We collect this information:
+Directly from you when you provide it to us.
+Automatically as you navigate through the site. Information collected automatically may include usage details, IP addresses, and information collected through cookies, web beacons, and other tracking technologies.
+From third parties, for example, our business partners.
+We do not create or share audience segments that are classified by the Network Advertising Initiative (“NAI”) as Sensitive Information (as defined in the NAI Code of Conduct ).
+Information You Provide to Us
+The information we collect on or through our Website may include:
+Information that you provide by filling in forms on our Website. This includes information provided at the time of requesting further services. We may also ask you for information when you report a problem with our Website.
+Records and copies of your correspondence (including email addresses), if you contact us.
+Information We Collect Through Third Parties
+We collect information from various third parties, including our partners and clients. This information may include, but is not necessarily limited to: age; gender; income range; company size; company location; job title; websites and content viewed; IP address; geolocation data; inferred behavioral data; mobile applications and devices used; date and time of visits to a website; search terms used on a website; frequency of visits to a website; and engagement with an advertisement or content provider.
+Information We Collect Through Automatic Data Collection Technologies
+As you navigate through and interact with our Website, we may use automatic data collection technologies to collect certain information about your equipment, browsing actions, and patterns, including:
+Details of your visits to our Website, including traffic data, location data, logs, and other communication data and the resources that you access and use on the Website.
+Information about your computer and internet connection, including your IP address, operating system, and browser type.
+The information we collect automatically may include personal information, or we may maintain it or associate it with personal information we collect in other ways or receive from third parties. It helps us to improve our Website and to deliver a better and more personalized service, including by enabling us to:
+Estimate our audience size and usage patterns.
+Store information about your preferences, allowing us to customize our Website according to your individual interests.
+Speed up your searches.
+Recognize you when you return to our Website.
+The technologies we use for this automatic data collection may include:
+Cookies and Mobile Advertising Identifiers. A cookie is a small file placed on the hard drive of your computer. You may refuse to accept browser cookies by activating the appropriate setting on your browser. However, if you select this setting you may be unable to access certain parts of our Website. Unless you have adjusted your browser setting so that it will refuse cookies, our system will issue cookies when you direct your browser to our Website. A mobile advertising identifier, such as Apple IDFA and Google AAID, is a string of hexadecimal digits assigned to a mobile device and serves the same purpose as a cookie for mobile devices.
+Flash Cookies. Certain features of our Website may use local stored objects (or Flash cookies) to collect and store information about your preferences and navigation to, from, and on our Website. Flash cookies are not managed by the same browser settings as are used for browser cookies. For information about managing your privacy and security settings for Flash cookies, see Choices About How We Use and Disclose Your Information.
+Web Beacons. Pages of our Website and our emails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit the Company, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of certain website content and verifying system and server integrity).
+Third-Party Use of Cookies and Other Tracking Technologies
+Some content or applications, including advertisements, on the Website are served by third parties, including advertisers, ad networks and servers, content providers, and application providers. These third parties may use cookies alone or in conjunction with web beacons or other tracking technologies to collect information about you when you use our website. The information they collect may be associated with your personal information or they may collect information, including personal information, about your online activities over time and across different websites and other online services. They may use this information to provide you with interest-based (behavioral) advertising or other targeted content.
+We do not control these third parties’ tracking technologies or how they may be used. If you have any questions about an advertisement or other targeted content, you should contact the responsible provider directly. For information about how you can opt out of receiving targeted advertising from many providers, see Choices About How We Use and Disclose Your Information.
+Social Network and Platform Integration, and Third-Party Links
+The Website may contain integration with social networks and other platforms. For example, the Websites may contain buttons that direct users to our social networking pages (such as Facebook or Twitter) or enabling you to “like” or “share” the Websites’ content to other online services. If you choose to “like” or “share” content or to otherwise post information via the Website to a third-party website or other online service, that information may be publicly displayed, and the third-party website may have access to information about you and your use of our Websites.
+In addition, the Website may have links to third party websites. If you click on social networking buttons or third-party links, you will be taken to those third parties’ websites, and your use of those third parties’ websites and platforms are subject to their privacy policies and practices. We are not responsible for the privacy or business practices of any third party.
+Online Behavioral Information
+180byTwo collects information on your online browsing activity to determine what types of activities and products you may be interested in and how you interact with certain content and advertisements. This information includes:
+Inferred behavioral data
+Websites and content viewed
+Mobile applications used
+Date and time of visits to a website
+Search terms used on a website
+Frequency of visits to a website
+Engagement with an advertisement
+Technical Identifiers
+These can be used to identify your device and typically include:
+Cookies
+Mobile advertising identifiers (Apple IDFA and Google AAID)
+IP address
+Non-personal data inferred from an IP address, such as non-precise geo-location data
+Client and Partner IDs
+Clients and partners may provide 180byTwo with proprietary IDs, which are IDs that identify a customer or consumer to the client or partner. These client and partner IDs may correspond to personal information of the client or partner but 180byTwo does not see the personal information connected with these IDs.
+Personally Identifiable Information That Has Been De-Identified
+180byTwo may use personal information that has been de-identified, typically by using a mathematical process (commonly known as a hash function) to convert information into a code. We use that de-identified data to provide our services (including to connect your activity and interests). We may provide a hashing service to our clients. In such instances, we will delete or destroy the original, personal information after the hashing process has been completed, retaining only the de-identified data. We do not use the non-hashed personal information for any purpose other than to create the hashed version of the data on behalf of our client.
+How We Use Your Information
+We may use information that we collect about you or that you provide to us, including any personal information:
+To present our Website and its contents to you.
+To provide you with information, products, or services that you request from us.
+To fulfill any other purpose for which you provide it.
+To carry out our obligations and enforce our rights arising from any contracts entered into between you and us, including for billing and collection.
+To notify you about changes to our Website or any products or services we offer or provide though it.
+To allow you to participate in interactive features on our Website.
+In any other way we may describe when you provide the information.
+For any other purpose with your consent.
+We may also use your information to contact you about our own and third-parties’ goods and services that may be of interest to you. If you do not want us to use your information in this way, please check the relevant box located on the form on which we collect your data. For more information, see Choices About How We Use and Disclose Your Information.
+We may use the information we have collected from you to enable us to display advertisements to our advertisers’ target audiences. Even though we do not disclose your personal information for these purposes without your consent, if you click on or otherwise interact with an advertisement, the advertiser may assume that you meet its target criteria.
+We may also use personal information that has been deidentified, typically by using a mathematical process (commonly known as a hash function) to convert information into a code. We use that deidentified data to provide our services (including to connect your activity and interests with other information). We may provide a hashing service to our clients and allow them to use our, or their own, deidentified data.
+Generally, we analyze the information that we collect and receive, and organizes it into user groups and audiences, based on factors such as age, gender, geography, interests and online actions. We, and our clients and partners, then use these user groups and audiences, along with information about the possible relationships among different browsers and devices, to design and deliver customized advertising campaigns or other relevant content to users on their computers, phones, and other mobile devices. Clients may also combine the data that we provide with their own data, including to analyze and organize the underlying data to create custom user groups and audiences. For example, we may: identify relationships between different browsers and devices; analyze the effectiveness of online advertising campaigns; create aggregated information about user interests; attribute user interests to browsers and devices; test the accuracy of certain products, including cross-device matching; determine the overlap between our datasets and those of our clients; create pre-packaged audience segments; deliver targeted advertising campaigns to users across devices; serve targeted content to users across devices; improve the effectiveness of online advertising campaigns; and create data-driven marketing products, including models for internal and client use.
+Disclosure of Your Information
+We may disclose aggregated information about our users, and information that does not identify any individual, without restriction.
+We may disclose personal information that we collect, or you provide as described in this privacy policy:
+To our subsidiaries and affiliates.
+To contractors, service providers, and other third parties we use to support our business.
+To clients and third-party companies that are responsible for the actual display and targeting of online advertising, including demand-side platforms, advertising networks, advertising exchanges, and social media networks.
+To a buyer or other successor in the event of a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of 180 By Two, LLC’s assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which personal information held by 180 By Two, LLC about our Website users is among the assets transferred.
+To third parties to market their products or services to you if you have consented to these disclosures. For more information, see Choices About How We Use and Disclose Your Information.
+To fulfill the purpose for which you provide it.
+For any other purpose disclosed by us when you provide the information.
+With your consent.
+We may also disclose your personal information:
+To comply with any court order, law, or legal process, including to respond to any government or regulatory request.
+To enforce or apply our terms of use and other agreements, including for billing and collection purposes.
+If we believe disclosure is necessary or appropriate to protect the rights, property, or safety of 180 By Two, LLC, our customers, or others. This includes exchanging information with other companies and organizations for the purposes of fraud protection and credit risk reduction.
+Choices About How We Use and Disclose Your Information
+We strive to provide you with choices regarding the personal information you provide to us.
+When we collect information from websites that we do not own or operate, such as using pixel tags, cookies, and other technologies, we provide you with the ability to opt-out of the collection and use of your information for interest-based advertising. This means that we, and our clients who utilize data collected by our technologies will not have the right to use your data for online interest-based advertising purposes. However, we and our clients may still collect and use data for other purposes, including analytics and research. Additionally, you will still receive online advertisements, but these advertisements may be less relevant to your interests. We have created mechanisms to provide you with the following control over your information:
+Tracking Technologies and Advertising. You can set your browser to refuse all or some browser cookies, or to alert you when cookies are being sent. To learn how you can manage your Flash cookie settings, visit the Flash player settings page on Adobe’s website. If you disable or refuse cookies, please note that some parts of the Website may then be inaccessible or not function properly. To opt-out of our collection and use of data for online interest-based advertising on your browser (including a mobile browser if third-party cookies are enabled in your browser) from companies participating in the Digital Advertising Alliance Consumer Choice Page, please visit aboutads.info/choices and to opt-out from companies who are members of the Network Advertising Initiative, please visit www.networkadvertising.org/choices. If you are located in the European Union or European Economic Area, you can also opt-out via the IAB Europe’s industry opt-out at www.youronlinechoices.eu.To opt-out of the collection and use of data for interest-based advertising on your mobile device, you can also modify the settings on your mobile device. Please note that after choosing to opt-out via any of the methods above, if you use a different device or a different browser, or if you delete browser cookies, you may need to repeat the opt-out steps for that particular device or browser. In addition, if you block cookies on your browser or if third-party cookies are blocked by default, some of the opt-out tools above may not function.
+Disclosure of Your Information for Third-Party Advertising. If you do not want us to share your personal information with unaffiliated or non-agent third parties for promotional purposes, you can opt out by checking the relevant box located on the form on which we collect your data. You can also always opt out by checking or unchecking the relevant boxes or by sending us an email stating your request to privacy@180bytwo.com.
+Promotional Offers from the Company. If you do not wish to have your contact information used by the Company to promote our own or third parties’ products or services, you can opt out by checking the relevant box located on the form on which we collect your data (the registration form) or at any other time by sending us an email stating your request to privacy@180bytwo.com . If we have sent you a promotional email, you may send us a return email asking to be omitted from future email distributions.
+Targeted Advertising. If you do not want us to use information that we collect or that you provide to us to deliver advertisements according to our advertisers’ target-audience preferences, you can opt out by checking the relevant box located on the form on which we collect your data or by or at any other time by sending us an email stating your request to privacy@180bytwo.com. For this opt-out to function, you must have your browser set to accept all browser cookies.
+We do not control third parties’ collection or use of your information.
+If we receive data from a client or partner, then we do not have the ability to offer an opt-out for the collection and use of this information by such clients and partners. You will need to visit the individual privacy statements of the websites and apps that you visit to review their privacy policies and data collection practices. Third parties may provide you with ways to choose not to have your information collected or used in this way. We adhere to the best practices and guidelines of NAI and the Digital Advertising Alliance (“DAA”) Self-Regulatory Program for Online Behavioral Advertising, and have implemented opt-out procedures in accordance with those organizations’ programs. Some of our advertising service providers may also be members and offer an opt-out of behavioral advertising. You may want to visit http://www.networkadvertising.org/managing/opt_out.asp, which provides information regarding targeted advertising and the opt-out offered by NAI members. You may also want to visit http://www.aboutads.info/choices/, which provides an opt-out by participating companies in the DAA Self-Regulatory Program. If you would like to opt-out of behavioral advertising controlled by 180byTwo you may visit the NAI and DAA links provided above. Please note that 180byTwo and other companies may still collect information when you are online and opting out through these mechanisms does not opt you out of being served advertising. You will continue to be served generic ads while online.
+California residents may have additional personal information rights and choices. Please see Your California Privacy Rights for more information.
+Nevada residents who wish to exercise their sale opt-out rights under Nevada Revised Statutes Chapter 603A may submit a request to this designated address: privacy@180bytwo.com. However, please be advised that we do not believe that we sell information or otherwise take actions that are governed by this law.
+Children Under the Age of 16
+Our Website is not intended for children under 16 years of age. No one under age 16 may provide any information to or on the Website. We do not knowingly collect personal information from children under 16. If you are under 16, do not use or provide any information on this Website or on or through any of its features. If we learn we have collected or received personal information from a child under 16 without verification of parental consent, we will delete that information. If you believe we might have any information from or about a child under 16, please contact us at:
+600 Cleveland Street, Suite 200
+Clearwater, FL 33755
+privacy@180bytwo.com
+California residents under 16 years of age may have additional rights regarding the collection and sale of their personal information. Please see Your California Privacy Rights for more information.
+Consumer Choice and the Ability to Opt-Out
+180byTwo collects First and Third-Party Data online via the use of 180byTwo pixel tags, cookies, and other technologies. These allow 180byTwo to collect information from websites that 180byTwo does not own or operate. 180byTwo provides you with the ability to opt-out of the collection and use of your information for interest-based advertising via all of 180byTwo’s Services. This means that 180byTwo, and any clients that utilize data collected by 180byTwo using a 180byTwo pixel tag or similar technologies, will not have the right to use your data for online interest-based advertising purposes. 180byTwo and its clients may still collect and use data for other purposes, including analytics and research. Additionally, you will still receive online advertisements, but these advertisements may be less relevant to your interests.
+Browser Opt Out
+To opt-out of the collection and use of data by 180byTwo for online interest-based advertising on your browser (including a mobile browser if third-party cookies are enabled in your browser), you can opt-out of the collection of data across unaffiliated sites over time for Interest-Based Advertising and other purposes from companies participating in the Digital Advertising Alliance Consumer Choice Page at www.aboutads.info/choices and from members of the Network Advertising Initiative via www.networkadvertising.org/choices .
+Mobile Applications Opt-Out
+To opt-out of the collection and use of data for interest-based advertising on your mobile device, you can modify the settings on your mobile device. For example:
+For Apple Devices: Go to Settings, Select Privacy, Select Advertising, and enable the “Limit Ad Tracking” setting.
+For Android Devices: Open the Google Settings App, Select Ads, and enable the “Opt out of interest-based advertising” setting.
+Note:
+The specific opt-out instructions for each device may differ slightly depending on which version of the operating software you are running.
+Note:
+Even after you opt-out of the use of your information by 180byTwo for Interest-Based Advertising, 180byTwo may continue to collect and use such information for other purposes, including analytics and research. Should you elect to opt-out, you will still receive ads, but these ads may be less relevant to your interests.
+Also, after choosing to opt-out via any of the methods above, if you use a different device or a different browser, or if you delete browser cookies, you may need to repeat the opt-out steps for that particular device or browser. In addition, if you block cookies on your browser or if third-party cookies are blocked by default, some of the opt-out tools above may not function.
+European Opt-Out
+For those in Europe, you can opt-out via the IAB Europe’s industry opt-out at www.youronlinechoices.eu.
+How We Respond to “Do Not Track” Signals
+Please note that your browser settings may allow you to automatically transmit a “Do Not Track” signal to websites and online services that you visit. There is no consensus among industry participants as to what “Do Not Track” means in this context. If we receive a “Do Not Track” signal from any browser other than Internet Explorer, we will implement an opt-out. To find out more about “Do Not Track,” please visit http://www.allaboutdnt.com.
+Data Transfers to Third Parties
+Third-Party Agents or Service Providers. We may transfer Personal Data to our third-party agents or service providers who perform functions on our behalf. On July 16, 2020, the European Court of Justice invalidated Privacy Shield as a Transfer Mechanism for data between EU and US companies. 180byTwo intends to utilize alternative transfer mechanisms going forward for EU data transfers. Even though Privacy Shield was invalidated, 180byTwo will continue to honor its commitments with respect to EU personal data transferred in accordance with Privacy Shield. Under certain circumstances, we may remain liable for the acts of our third-party agents or service providers who perform services on our behalf for their handling of Personal Data that we transfer to them.
+Third-Party Data Controllers. In some cases, we may transfer Personal Data to unaffiliated third-party data controllers. These third parties do not act as agents or service providers and are not performing functions on our behalf. We will only provide your Personal Data to third-party data controllers where you have not opted-out of such disclosures, or in the case of sensitive Personal Data, where you have opted-in. We enter into written contracts with any unaffiliated third-party data controllers requiring them to provide the same level of protection for Personal Data. We also limit their use of your Personal Data so that it is consistent with any consent you have provided and with the notices you have received.
+Disclosures for National Security or Law Enforcement. Under certain circumstances, we may be required to disclose your Personal Data in response to valid requests by public authorities, including to meet national security or law enforcement requirements.
+International Data Transfers
+The information that we collect from you and about you may be transferred to and stored in a country other than your country of residence, such as the USA, which may not offer the same level of protection of personal information as your country of residence. However, we will take contractual and/or other measures to ensure your personal data is reasonably protected. Further to the European Court of Justice invalidating Privacy Shield on July 16, 2020, as a Transfer Mechanism for data between EU and US companies. 180byTwo intends to utilize alternative transfer mechanisms going forward for EU data transfers. Even though Privacy Shield was invalidated, 180byTwo will continue to honor its commitments with respect to EU personal data transferred in accordance with Privacy Shield.
+Privacy Shield
+On July 16, 2020, the European Court of Justice invalidated Privacy Shield as a Transfer Mechanism for data between EU and US companies. 180byTwo intends to utilize alternative transfer mechanisms going forward for EU data transfers. Even though Privacy Shield was invalidated, 180byTwo will continue to honor its commitments with respect to EU personal data transferred in accordance with Privacy Shield.
+We recognize that the [the European Economic Area (“EEA”),] the United Kingdom (“UK”), and Switzerland have established strict protections regarding the handling of Personal Data, including requirements to provide adequate protection for Personal Data transferred outside of the EEA, the UK, and Switzerland. To provide adequate protection for certain Personal Data about consumers, corporate customers, clients, suppliers, and business partners,] received in the US from the EEA, the UK, and Switzerland, the Company has elected to self-certify to the EU-US Privacy Shield Framework and the Swiss-US Privacy Shield Framework administered by the US Department of Commerce (“Privacy Shield”). The Company adheres to the Privacy Shield Principles of Notice, Choice, Accountability for Onward Transfer, Security, Data Integrity and Purpose Limitation, Access, and Recourse, Enforcement, and Liability.
+For purposes of enforcing compliance with the Privacy Shield, the Company is subject to the investigatory and enforcement authority of the US Federal Trade Commission. For more information about the Privacy Shield, see the US Department of Commerce’s Privacy Shield website located at: https://www.privacyshield.gov. To review the Company’s representation on the Privacy Shield list, see the US Department of Commerce’s Privacy Shield self-certification list located at: https://www.privacyshield.gov/participant?id=a2zt0000000CbmzAAC&status=Active
+Enforcement Complaints
+180byTwo has implemented processes to ensure compliance with this Policy and periodically verifies that the policy is accurate, comprehensive for the information intended to be covered, prominently displayed, completely implemented and accessible, and in conformity with the NAI Code of Conduct. We encourage interested persons to raise any concerns by emailing privacy@180bytwo.com and we will investigate and attempt to resolve any complaints and disputes regarding use and disclosure of information.
+To address any issues regarding our compliance with the NAI Code of Conduct, 180byTwo, along with the NAI and other NAI members have created a compliance program that incorporates attestation reviews, a consumer complaint process, sanctions, and annual reporting to help ensure that member companies keep their promises to you and abide by the NAI Code of Conduct. Please refer to the NAI site for more information.
+Data Sharing
+In addition to sharing certain data as directed by clients, we may share information that is non-personal or de-identified with other clients and third-party companies such as advertisers, agencies, ad networks or exchanges, to provide services to our clients and to enable our clients and those third parties to analyze user behaviors or to customize the ads that you see online. In addition, we may provide access to the information we collect to service providers, but to the extent, we have any personal information we only share personal information with service providers who will only utilize the information to provide their services to us.
+If our company is sold, assigned, transferred, merged, files for bankruptcy protection, sells all or a portion of its assets or undergoes some other change to its corporate form, information may be transferred as part of that transaction or change, including in connection with a due diligence process. We may also release information in order to comply with requests from law enforcement, government agencies, and similar entities, or to otherwise protect 180bytwo, our clients and users.
+Data Retention
+180byTwo retains the non-personal user data we collect for all of our products and services for purposes of interest-based advertising for up to thirteen (13) months from the date of its collection
+Security
+The Company maintains reasonable and appropriate security measures to protect Personal Data from loss, misuse, unauthorized access, disclosure, alteration, or destruction in accordance with the Privacy Shield.
+Access Rights
+You may have the right to access the Personal Data that we hold about you and to request that we correct, amend, or delete it if it is inaccurate. These access rights may not apply in some cases, including where providing access is unreasonably burdensome or expensive under the circumstances or where it would violate the rights of someone other than the individual requesting access. If you would like to request access to, correction, amendment, or deletion of your Personal Data, you can submit a written request to the contact information provided below. We may request specific information from you to confirm your identity. In some circumstances we may charge a reasonable fee for access to your information.
+Changes to Our Privacy Policy
+It is our policy to post any changes we make to our privacy policy on this page with a notice that the privacy policy has been updated on the Website home page. If we make material changes to how we treat our users’ personal information, we will notify you through a notice on the Website home page. The date the privacy policy was last revised is identified at the top of the page. You are responsible for ensuring we have an up-to-date active and deliverable email address for you, and for periodically visiting our Website and this privacy policy to check for any changes.
+About Ad Tech
+Cookie:
+A cookie is a small file of information that is stored on your hard drive when you visit a website using a particular browser. Cookies are used to store and receive information about a user’s activities on a particular website.
+Pixel Tags
+A pixel tag is an invisible image or block of code that allows a website owner or third party to “drop” cookies and collect certain information about a user’s activities on a particular website.
+IP Address:
+An IP address is a series of numbers that can be used to identify a particular device on a computer network. An IP address provides a general location of a device, but not a specific street address.
+Advertising Identifiers:
+Advertising identifiers are unique identification numbers assigned to your mobile device by the hardware manufacturer. IDFA is the advertising identifier for Apple devices and AAID is the advertising identifier for Android devices. Advertising identifiers are used to identify devices and collect certain information about a user’s activities on a mobile device.
+Hashed Email Address:
+A hashed email address is an email address that has been transformed into a string of numbers and letters such that it cannot be traced back to the email address. There are several hashing formats. But, for example, john@180bytwo.com, when hashed might look like this: b5b2fc6f4cef.
+Contact Information
+To ask questions or comment about this privacy policy and our privacy practices, contact us at:
+600 Cleveland Street, Suite 200
+Clearwater, FL 33755
+privacy@180bytwo.com
+Search for:
+SIGN IN
+CONTACT US
+Our Platform
+Login
+Demo Video
+Our Products
+Unifi Platform
+AccountLink
+eCHO
+Xplorer
+Technographics
+LOCi
+Cosmos
+Custom
+Resources
+Resource Center
+Blog
+Social
+Follow
+Follow
+Follow
+Follow
+About Us
+Our Partners
+About 180byTwo
+Our Locations
+Get In Touch
+Legal / Privacy
+Privacy Policy
+Privacy Policy for California Residents
+Do Not Sell My Personal Information
+Platform Usage Terms
+Platform Use Policy
+Cookie Settings

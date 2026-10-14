@@ -45,6 +45,12 @@ liveness cache by reading URLs straight from `data/brokers/*.md`) then `scripts/
 (validates every broker file against `broker.schema.json`, merges in liveness, computes a content
 hash, and writes `data/brokers.json` + `data/manifest.json`).
 
+A daily GitHub Action (`.github/workflows/page-monitor.yml`) runs `scripts/monitor_pages.py`,
+which fetches every opt-out page, keeps a text snapshot of each under `monitor/snapshots/`, and
+files one `page-monitor` issue per broker whose page changed (text, form fields, CAPTCHA,
+redirects) or disagrees with its entry. Those issues are the re-verification queue: a changed page
+means "look again", never "the entry is wrong". It never edits `data/`.
+
 To validate a single file while authoring (e.g. as a pre-commit check):
 
 ```

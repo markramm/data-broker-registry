@@ -1,0 +1,604 @@
+Privacy Policy
+Privacy Policy
+Last Updated: September 28, 2026
+dentsu is a global media, creative and customer experience management group made up of several brands. We help our clients to improve how they advertise and market, whether by print, post, email or in the digital world. We believe that the responsible use of data supports business growth and builds strong relationships between brand and consumer. As a business, we are committed to respecting and protecting the privacy of all individuals we interact with. We are committed to always being transparent in our handling and processing of Personal Data in accordance with applicable privacy and data protection laws.
+Who is responsible for processing your Personal Data?
+dentsu does business through its subsidiaries and affiliates worldwide. The privacy laws in some countries require a Controller (the legal entity that defines the purposes for which Personal Data is processed and how that information is handled) to be designated.
+Where this is relevant for the privacy laws in your country, the dentsu group company who acts as the Controller of your Personal Data, and who is responsible for processing your Personal Data will be the dentsu group company operating in your country or region unless dentsu International or another dentsu company identifies itself as the Controller for a specific interaction with you. The relevant dentsu group company is referred to as “our”, “us” and “we” in this notice.
+If you have any questions or are unsure about who your Controller is, please review the additional information provided for your market below or contact us at dpo@dentsu.com and we will ensure your details reach the correct entity.
+What this privacy notice covers
+This privacy notice explains in detail the types of Personal Data we may collect about you when you interact with us through our websites, digital experiences, business relationship management, events, B2B marketing activities, where you visit our offices, or where you interact with us as a client, supplier, landlord, business contact, journalist, member of the trade press, investor, or as personnel of any such organisation, or as a member of the public. By using our website or services and providing your Personal Data to us, you agree to our collection, use and disclosure of your Personal Data for the purposes set out in this privacy notice based on the applicable lawful basis set out in this privacy notice.
+If you are a dentsu employee, contingent worker or job applicant, please find our People Privacy Notice here;
+If you are using one of our products, please consult our product-specific privacy notices. These are likely to be different market to market;
+If you are looking for information on cookies, please consult our Cookie Notice here;
+If you are an influencer or a content creator, please see our Influencer Privacy Notice here.
+"Personal Data" means any information about the personal or material circumstances of an identified or identifiable individual. Your Personal Data therefore includes all data related to you that enables identification, such as your name, your address, your telephone number or your e-mail address.
+What's not included
+This Privacy Notice does not cover:
+the advertising activities we carry out for our clients;
+information about our employees, contractors or potential employees;
+information about the cookies we use and the data they capture;
+information collected through products we provide as part of our marketing, advertising or media activities (i.e. information we process as a data processor when undertaking any of our marketing, advertising or media activities on behalf of our clients).
+These are all covered in separate privacy notices, or cookie notices which can be found through the relevant site of the market they operate in.
+1. Personal Data we may collect
+We may process Personal Data you provide directly to us, Personal Data we collect through automated means, or Personal Data we obtain through other sources. You are not required to provide any Personal Data, however, if you choose not to do so, we may not be able to provide you with our products or services or respond to your requests. Generally speaking, we will collect Personal Data relating to you and/or your use of our services in the following ways:
+(A) Personal Data you provide to us:
+Contact data
+We collect contact details when you sign-up to receive email alerts, attend one of our events, visit our offices, work with us, download our content, subscribe to our newsletters or where you ask us to respond to a query you have. The Personal Data we collect may include your name, email address, phone number, job title, and workplace location.
+Marketing and communications data
+We collect Personal Data relating to your preferences regarding receiving marketing information from us and your communication preferences (where permitted under applicable privacy laws).
+Location Data
+We may ask you where you are located as part of our marketing activities, or when you sign up to events or ask to attend meetings. This will not be tracked through your device and will only include information you have shared with us.
+(B) Personal Data we collect through automated means:
+Personal Data relating to your use of our website(s)
+We collect Personal Data about how you use our website(s). This includes Personal Data relating to the pages you visit on our website(s), the services or information you search for and the links and content you choose to access.
+Profiling data
+We may use the Personal Data you provide through your use of our website(s) to provide you with relevant content and to inform our marketing strategy. This type of activity is sometimes known as “profiling” – using automated means to process your Personal Data to analyse or predict your personal preferences, interests or behaviours. You can object to profiling (where entitled under applicable privacy laws).
+Technical Personal Data
+We collect Personal Data about the device(s) you use to access our website(s) as well as other related information. You may find more information on the cookies we use and the purposes for which we use them on our separate Cookie Notice (available here: https://www.dentsu.com/policies/cookies-notice).
+(C) Data we collect from other sources:
+Data we collect from third parties
+We may collect Personal Data about you from third parties. Such third parties may include analytics providers, affiliate partners, third-party platforms such as LinkedIn, your employer (for example, if you work at one of our clients, suppliers or business partners), and regulators or other public authorities. We may also collect Personal Data where you register and/or attend an event which we host or are a named affiliate partner of. We do not buy Personal Data lists.
+Note that we do not actively seek to collect information about children or minors, or anyone’s sensitive Personal Data. Please see more details below.
+Children
+We do not actively seek to collect the Personal Data of children or minors (as defined under the applicable law in your jurisdiction). If you have any concerns about your child’s privacy in relation to our services, or if you believe that your child may have entered Personal Data onto our website(s), please contact us at dpo@dentsu.com. We will delete such Personal Data from our records within a reasonable time.
+Sensitive Personal Data
+We do not intentionally collect or request sensitive Personal Data as part of the processing activities carried out under this privacy notice.
+2. How we use this Personal Data
+Except where required by law, we use and process the Personal Data we collect about you for the following purposes:
+to generate leads;
+to send you newsletters and information relating to our brands and services;
+to manage our relationship with you;
+to arrange and manage visits to our offices;
+to ensure our website(s) is kept relevant and useful;
+to ensure our website(s) remain secure;
+to respond to your enquiries and feedback;
+to respond to, and manage, data subject rights requests;
+to analyse and/or improve our services;
+to verify your identity and Personal Data;
+to maintain and update our records;
+to protect and defend our legal rights / respond to complaints; and
+to facilitate acquisitions and potential acquisitions of or by our business, including any related transitional and business integration activities.
+Under various data protection laws we are required to advise you on the legal basis for processing your Personal Data. In the table below we set out further information about the purposes for which we use your Personal Data and the legal basis we rely on for its use (where required under applicable privacy laws). Note that we may process your Personal Data for different lawful bases depending on the specific purpose for which we are using your data.
+In Asia Pacific markets we usually rely on consent as our lawful basis in accordance with and as required by local laws. Where this is the case, we will have explicitly asked you to consent, and you will have the ability to withdraw your consent at any time. Alternatively, we may rely on other lawful basis such as legitimate interest, as listed below, or any other lawful basis permitted under applicable privacy laws in relation to the specific processing activity.
+Processing Activity
+To arrange and run events: The process by which invitations are sent to, acceptances are received from and attendance at dentsu events, are managed.
+To generate leads: We may use Personal Data collected from visitors to and users of our website(s), attendees of events, or client contacts to locate potential leads.
+To send you our newsletters and information relating to our brands and services: The distribution of dentsu's own commercial content to potential customers, leads and prospects, and anyone else who has subscribed to receiving such collateral.
+To manage our relationship with you: The processing of basic contact details of clients and suppliers for the purpose of relationship, account and/or project management.
+To arrange and manage visits to our offices: the process of ensuring we keep an appropriate record of all visitors to the office, as well as possible accidents or incidents that may have occurred.
+To ensure our website(s) are kept relevant and useful: We conduct statistical analysis on your usage of our website(s) e.g. to enable us to improve our website(s), offer new features and material.
+To ensure our website(s) remain secure: This process protects against malicious web activity and blocks access to our website(s) that violate enterprise policy. Cloud and endpoint web filtering service.
+To respond to any enquiries or feedback that you send us: To update you with any changes to our terms and conditions/other policies
+To analyse and improve our services: this processing enables us to utilise our interactions with you to ensure we continue to provide the best service possible.
+To maintain and update our records: we are required to keep up to date records to ensure we can operate efficiently and effectively as a business.
+To protect and defend our legal rights / respond to complaints / conduct investigations: This process involves establishing, exercising or defending legal claims, participating in legal, regulatory or arbitration proceedings, responding to and managing complaints made to dentsu (including by regulators or individuals), and conducting audits and investigations where there is reasonable suspicion of misuse, policy breach, whistleblowing, unlawful activity, fraud, or other risks or incidents.
+To facilitate acquisitions and potential acquisitions: This processing supports acquisitions of or by our business, including any related transitional and business integration activities.
+To comply with our legal obligations: We may process your Personal Data to comply with applicable laws and regulations. This may include responding to data subject rights requests, record-keeping, responding to regulatory enquiries, and fulfilling reporting or disclosure requirements.
+To manage and run our business operations: We may process your Personal Data to support the effective and efficient operation of our business. This may include activities such as data quality management, system migrations, infrastructure maintenance, and other administrative or operational processes.
+Types of data used
+Contact data, data we collect from other parties, location data.
+Contact data, data we collect from other parties, Personal Data relating to your use of our website(s).
+Contact data, data we collect from third parties, location data, marketing and communications data.
+Contact data, location data, marketing and communications data, technical Personal Data
+Contact data, location data.
+Personal data relating to your use of our website(s), Personal Data processed through automated means, technical Personal Data.
+Personal data relating to your use of our website(s), technical Personal Data.
+All Personal Data we collect may be relevant.
+Personal Data relating to your use of our website(s), email, name, phone, company name, job title.
+Contact data, location data, marketing and communications data.
+All Personal Data we collect may be relevant.
+All Personal Data we collect may be relevant.
+All Personal Data we collect may be relevant.
+All Personal Data we collect may be relevant.
+Lawful basis (where applicable)
+Legitimate Interests
+Legitimate interests or consent (where you have expressly provided it)
+Consent
+Contractual Necessity
+Legitimate Interests
+Legitimate interests (to study how clients use our service and engage with our content. To develop our service, to grow our business and to inform our marketing strategy) where permitted under applicable privacy laws.
+Legitimate interests
+Legitimate Interests or Contractual Necessity
+Legitimate interests or consent where cookies are used
+Legitimate interests or Legal obligation
+Legal obligation or Legitimate interests
+Legitimate interests
+Legal obligation
+Legitimate interests
+3. How long will we keep your Personal Data
+We will keep your Personal Data for as long as is necessary for the relevant service, in accordance with our legal obligations. After this time, your Personal Data will either be securely deleted or anonymised so that it can be used for analytical purposes. You may request further information about our retention periods via the contact details given in this privacy notice or request that we delete your data in accordance with your rights as set out below.
+4. How we secure your Personal Data
+We maintain appropriate organisational and technological safeguards to help protect against unauthorised use, access to or accidental loss, alteration or destruction of personal data whether in physical or electronic form. We also seek to ensure our service providers and/or any approved external third parties who store or process personal data on our behalf do the same. The safeguards we use, depending on the circumstances, may include firewalls, penetration testing, vulnerability scans, encryption and restricted access to our IT systems.
+5. Information Sharing and Disclosure
+Whenever we share Personal Data, access is controlled on a need-to-know basis, and is only provided where it is necessary to provide you with requested services or to allow us to perform any necessary or legitimate functions.
+We will only transfer your Personal Data outside the market in which you are located where we are satisfied that adequate levels of protection are in place to protect the integrity and security of any Personal Data being processed and in compliance with applicable privacy and data protection laws. This may be through a contract we have in place with the importing company, or because the importing company is based in a jurisdiction with stricter data protection laws than the jurisdiction from where it is exported.
+We take internal data protection very seriously. Our employees and the service companies commissioned by us have been contractually bound to treat personal data with appropriate confidentiality and to act in compliance with data protection regulations.
+Information shared with our third-party service providers
+We use a number of third parties to perform business functions on our behalf, such as sending our newsletters and hosting our online services and customer relationship management. We will only disclose the information necessary to enable these third parties to perform their services. Our service providers are contracted to comply with our instructions.
+We might share information with third parties who help us with our marketing efforts, including social media platforms, advertising networks, and ad tech companies. For example, we may share email addresses or other contact information with social media platforms so they can serve our advertising to you on their platform. Personal data received by our partners may also be subject to their privacy policies and the tools they provide for you to manage how your Personal Data is used for advertising purposes.
+Group company transfers
+dentsu International is a globally operating media group consisting of multiple companies. Therefore, we may from time to time disclose your Personal Data within our group of companies. Where we transfer Personal Data between our group companies, we have covered these transfers by entering into an Intra-Group Data Transfer Agreement. This provides us with a mechanism to transfer Personal Data around the globe where necessary.
+We may also disclose Personal Data with any successor to all or part of our business. For example, if part of our business is sold, we may give our customer list as part of that transaction.
+Information shared with other parties
+Where required or permitted by law, Personal Data may be provided to others, such as regulators and law enforcement agencies, for example in response to a court order or a subpoena, or in response to a law enforcement agency request, or where we believe it is necessary to investigate, prevent or act regarding illegal activities, and as otherwise required by law.
+We may also collect Personal Data from the parties described in this section.
+You may request further information on the measures used for such transfers via the contact details given in this Privacy Notice.
+6. Your rights
+Depending on the applicable privacy law of the market you are in, you may have several rights in relation to your Personal Data, including:
+Objecting to our processing of your Personal Data. Where we rely on legitimate interest (or those of a third-party) and if you feel it impacts on your fundamental rights and freedoms, you can object to our processing. You also have a right to object where your Personal Data is used for direct marketing or profiling. You can object at any time, and we shall stop processing the data you have objected to, unless we can show legitimate grounds to continue.
+Accessing your Personal Data. We may be required to provide you with information we hold about you upon your request, including a description and copy of the Personal Data and why we are processing it, unless a lawful exception applies. We will require you to prove your identity before providing your Personal Data.
+Requesting the provision of your Personal Data to a third party. You may ask us to provide you or a third party you have chosen, your Personal Data in a structured, commonly used, machine-readable format. This right only applies to Personal Data you have provided to us; and if you have consented to our use or where we used the Personal Data to perform a contract with you.
+Requesting erasure (deletion) of your Personal Data. You may ask us to delete your data where you think we no longer require it. Note, we may be required to retain certain Personal Data by law and/or for our own legitimate business purpose. But when we do so, we will inform you.
+Requesting correction or updating of your Personal Data. This enables you to have any incomplete or inaccurate Personal Data we hold about you corrected.
+Requesting the restriction of our processing of your Personal Data. In some situations and only in some jurisdictions you can request a restriction to our processing. If you request this, we can continue to store your Personal Data but are restricted from processing it while the restriction is in place.
+Withdrawing your consent. Where you have consented to our processing of your Personal Data, you can withdraw your consent at any time. Withdrawal of consent will not affect the lawfulness of processing carried out before withdrawal or our right to continue collecting, using or disclosing your Personal Data where permitted by applicable laws without consent. If you receive marketing communications from us, you can withdraw your consent to marketing by hitting the unsubscribe button contained within the email.
+Making a Complaint. We will do our best to resolve any complaint. However, if you feel we have not resolved your complaint, or if you wish to reach out to them directly, you can complain to your local data protection authority. For example, in the UK, the local data protection authority is the UK Information Commissioner's Office. If you have any questions about who your local authority is, please contact us and we can provide the relevant information.
+Opting out of marketing. You may choose not to receive marketing communications from us. You can ask us to stop such messages at any time by clicking on the “unsubscribe” link at the bottom of the message. Please note that even if you choose not to receive marketing communications from us, you still may receive non-marketing communications, such as responses to your inquiries or notices regarding your account or our relationship with you.
+If you exercise the rights above, the request should include your contact information and describe your request with sufficient detail that allows us to properly understand, evaluate, and respond to it. In addition, you should provide adequate information that we can reasonably verify that you are the person about whom we collected the Personal Data (including information that enables us to verify the identifying information we possibly maintain about you).
+We will respond to requests within the required timeframes. If we need extra time to respond, we will let you know why, and how long we require, in writing. To protect your Personal Data, we will only honour requests if we have been able to verify your identity or authority to make the request and confirm the Personal Data relates to you. The method used to verify your identity will depend on the type, sensitivity and value of the information, including the risk of harm to you posed by any access or deletion. Verification will usually be performed by matching the identifying information provided by you to the Personal Data that we already have.
+Note that if you are in a market where these rights do not exist, we reserve the right to deny your request.
+7. Use of Artificial Intelligence and Emerging Technologies
+dentsu may use artificial intelligence (“AI”), including but not limited to generative AI, agentic AI, and machine learning, and other emerging technologies to support our business operations, including the processing activities described throughout this Notice such as lead generation, marketing, relationship management, website analytics, and IT security. Where we engage third-party suppliers to provide AI-powered services that process your Personal Data, we ensure that appropriate contractual safeguards are in place and that such providers comply with applicable data protection requirements.
+dentsu does not use AI or automated decision-making systems to make decisions about individuals that produce legal effects concerning them or similarly significantly affect them without meaningful human review. Where AI tools are used to support decision-making processes that may have a significant impact on you, a qualified human decision-maker will always review the AI-generated output and make the final determination. We have implemented internal safeguards to ensure that all Personal Data processed using AI is handled securely and in accordance with applicable local laws.
+8. Third Party Websites, Links, Plugins, and Integrations
+This privacy notice may be updated from time to time to reflect changes in law, best practice, changes in what we do, or changes in the way we treat Personal Data. The date of the most recent revision will appear at the top of this page. If you do not agree to the changes, please stop using our services and refrain from sharing your Personal Data with us. You should check this notice frequently for updates.
+9. Updates
+This privacy notice may be updated from time to time to reflect changes in law, best practice, changes in what we do, or changes in the way we treat Personal Data. The date of the most recent revision will appear at the top of this page. If you do not agree to the changes, please stop using our services and refrain from sharing your Personal Data with us. You should check this notice frequently for updates.
+10. Contact us
+If you have any questions about this privacy notice, our approach to privacy or you would like to exercise any of the rights mentioned in this privacy notice you can contact our Data Protection Officer in any of the following ways:
+If you have any questions about this privacy notice, our approach to privacy or you would like to exercise any of the rights mentioned in this privacy notice you can contact our Data Protection Officer in any of the following ways:
+Address: Data Protection Officer, dentsu International, Regent’s Place, 10 Triton Street, Regent’s Place, London, NW1 3BF
+Email: DPO@dentsu.com
+Or using the information of your local DPO included in the section below.
+Additional Information for certain markets
+We provide additional information about our controllers and data protection officers (as applicable), the privacy, collection, and use of Personal Data of data subjects of dentsu located in certain markets.
+Australia
+(a) Transfers
+The dentsu entities and other parties with which we share Personal Data may be located in European Economic Area, United Kingdom, United States of America, India, Singapore, New Zealand, and other countries. While they will often be required to comply with obligations to protect that Personal Data, we will are not responsible for ensuring they comply with the specific requirements of your country’s privacy and data protection laws.
+(b) Data Subject Rights
+Requesting correction or updating of your Personal Data. This enables you to have any incomplete or inaccurate Personal Data we hold about you corrected. In Australia, you have related rights, including asking us to tell third parties about the correction if we had disclosed the uncorrected Personal Data to them, or, if we decline to make a correction, to ask us to note your disagreement together with the data.
+Belgium
+Belgium (dentsu)
+Local Controller: Dentsu Belgium BV. Boulevard du Souverain 24, 1170 Watermael-Boitsfort, Belgium
+KBO 0766.997.311
+Contact us: E-mail: dpo@dentsu.com
+Local data protection authority: Gegevensberschermingsautoriteit
+https://www.gegevensbeschermingsautoriteit.be/burger/startpagina
+Brazil
+(a) This privacy notice also covers
+“Sensitive Personal Data” means any personal data concerning racial or ethnic origin, religious belief, political opinion, trade union or religious membership, philosophical or political organization membership, data concerning health or sex life, genetic or biometric data, when related to a natural person.
+“Anonymized data” means any personal data related to an individual who cannot be identified, considering the use of reasonable and available technical means at the time of the processing to anonymize the data.
+(b) How we use this personal data
+We can also use your personal data to provide you with services and fulfill regulatory obligations*.
+* This process involves sharing your personal data when required, according to the extent permitted by the applicable data protection laws, to accomplish with requests submitted by the National Data Protection Authority or any relevant authorities and/or bodies, to comply with regulatory and/or legal obligations. For this purpose, the legal obligations lawful basis applies, and all personal data we collect may be relevant.
+(c) How long we will keep your personal data
+Beyond the conditions specified in the general policy above, your data may be retained until the verification that the purpose has been achieved and to the extent permitted by applicable data protection laws.
+(d) Information Sharing and Disclosure
+As a company compromised with your privacy and data protection, we do our best always aim to contract services providers that have adequate levels of privacy and data protection practices.
+International and group company transfers
+Legal Basis
+We may transfer your data outside Brazil based on the following legal justifications, as permitted by the General Data Protection Law (LGPD):
+To fulfill contracts with you or to execute contracts that are in your interest.
+To comply with legal or regulatory obligations.
+When there is specific and informed consent.
+(e) Your Brazil Rights
+You have the following rights in relation to your personal data, including:
+You may object to our processing of your personal data where we rely on legitimate interest (or those of a third-party) if you feel it impacts on your fundamental rights and freedoms. You also have a right to object where your personal data is used for direct marketing or profiling. You can object at any time and we shall stop processing the data you have objected to, unless we can show legitimate grounds to continue.
+Access your personal data. We may be required to provide you with information we hold about you upon your request, including a description and copy of the personal data and why we are processing it, unless an lawful exception applies. We will require you to prove your identity before providing your personal data.
+Information about your personal data. In some jurisdictions, we may also be required to provide you with information regarding the private or public entities that we may have shared your personal data, according with the conditions provided by this privacy notice.
+Request the provision of your personal data to a third party. You may ask us provide you or a third party you have chosen, your personal data in a structured, commonly used, machine-readable format This right only applies to personal data you have provided to us; and if you have consented to our use or where we used the personal data to perform a contract with you.
+Request erasure (deletion) of your personal data. You may ask us to delete your data where you think we no longer require it. Note, we may be required to retain certain personal data by law and/or for our own legitimate business purpose. But when we do so, we will inform you
+Request correction or updating of your personal data. This enables you to have any incomplete or inaccurate personal data we hold about you corrected. In some countries, you may have related rights, including asking us to tell third parties about the correction if we had disclosed the uncorrected personal data to them, or, if we decline to make a correction, to ask us to note your disagreement together with the data.
+Request the restriction of our processing of your personal data in some situations and only in some jurisdictions. If you request this, we can continue to store your personal data but are restricted from processing it while the restriction is in place.
+Withdraw your consent. Where you have consented to our processing of your personal data, you can withdraw your consent at any time. Withdrawal of consent will not affect the lawfulness of what we have done with your personal data before you withdrew consent or affect our right to continue with our collection, use or disclosure of your personal data where such collection, use or disclosure of personal data is permitted under applicable laws without consent.
+Make a Complaint. We will do our best to resolve any complaint. However, if you feel we have not resolved your complaint, you can complain to your local data protection authority. For example, in the UK, the local data protection authority is the UK Information Commissioner's Office. If you have any questions about who your local authority is, please contact us and we can provide the relevant information.
+Review of decisions taken by automatic means. In some jurisdictions, you may request a review of data processing decisions taken solely by automatic means, if those decisions are able to affect your interests.
+If you exercise the rights above and there is any question about who you are, we may require you to provide information from which we can satisfy ourselves as to your identity.
+If you would like to access more specific information related to the processing of your personal data if the Brazilian law applies, we recommend that you access our Brazilian Privacy Policy.
+If you would like to exercise any of the rights mentioned in this privacy notice you can contact our Data Protection Officer in any of the following ways:
+Address: Data Protection Officer, Dentsu Brasil, 949 Brigadeiro Faria Lima Avenue. Pinheiros. 11º floor. São Paulo, SP. 05426-100.
+Email: brasil.dpo@dentsu.com
+Canada
+(a) Basis for Processing
+In Canada we usually rely on Consent as our lawful basis to process Personal Data. Where this is the case, you will have the ability to withdraw your consent at anytime, subject to legal requirements.
+(b) Cross-border transfers
+The dentsu entities and other parties with which we share Personal Data, such as service providers, may be located outside of your province or Canada. Your Personal Data may be accessed, stored or processed outside of your province or Canada for the purposes described in this Privacy Notice, and it may be subject to the laws of the other countries or provinces where your data is accessed, stored or processed. We or our service providers may be required to disclose Personal Data to courts, government authorities, regulators or law enforcement in these countries or provinces in accordance with such laws.
+(c) Your privacy rights
+Canada residents have the following rights in relation to their Personal Data:
+Accessing your Personal Data. We may be required to provide you with information we hold about you upon your request, including a description and copy of the Personal Data and why we are processing it, unless a lawful exception applies. We will require you to prove your identity before providing your Personal Data.
+Requesting correction or updating of your Personal Data. This enables you to have any incomplete or inaccurate Personal Data we hold about you corrected.
+Withdrawing your consent. Where you have consented to our processing of your Personal Data, you can withdraw your consent at any time. Withdrawal of consent will not affect the lawfulness of what we have done with your Personal Data before you withdrew consent or affect our right to continue with our collection, use or disclosure of your Personal Data where such collection, use or disclosure of Personal Data is permitted under applicable laws without consent.
+Challenging compliance. If you think that your Personal Data has not been handled in compliance with the personal information protection laws applicable in your province, you have the right to let us know by contacting us. We will do our best to resolve any concern related to your Personal Data.
+Opting out of marketing. You may choose not to receive marketing communications from us. You can ask us to stop such messages at any time by clicking on the “unsubscribe” link at the bottom of the message. Please note that even if you choose not to receive marketing communications from us, you still may receive non-marketing communications, such as responses to your inquiries or notices regarding your account or our relationship with you.
+Quebec residents have the following additional rights:
+Requesting erasure (deletion) of your Personal Data. You may ask us to delete your data if it is out of date, or if you think we no longer require it for the purposes for which it was collected. Note that we may be required to retain certain Personal Data by law and/or for our own legitimate business purposes. But when we do so, we will inform you.
+Requesting the provision of your Personal Data to a third party. You may ask us to provide you or a third party you have chosen with your Personal Data in a structured, commonly used, machine-readable format. This right only applies to Personal Data you have provided to us directly.
+Rights related to automated processing decisions. You have the right to be informed if your Personal Data will be used to make a decision based exclusively on automated processing. If such a decision is made about you, you also have the right to request certain additional information about the decision and the right to request a review of the decision.
+All of the above rights can be exercised by contacting us using the contact information under section 9 above / using the following contact information:
+Address: Americas Privacy Office
+dentsu
+150 E 42nd St, New York, NY 10017, United States
+Telephone: (+1) (877) 570-5939 (U.S. toll-free)
+Or by email at: Americas.DPO@dentsu.com
+Denmark
+Denmark (dentsu)
+Local Controller: Dentsu Danmark A/S
+Overgaden Neden Vandet 7, 1414 Copenhagen
+CVR: 58 22 78 11
+Contact us: E-mail: dpo@dentsu.com
+Local data protection authority: Datatilsynet
+You will find Datatilsynet’s contact information at www.datatilsynet.dk
+Denmark (Merkle)
+Local Controller: Merkle Denmark A/S
+Meldahlsgade 5,5., 1613 Copenhagen CVR: 25 53 32 67
+Contact us: E-mail: dpo@dentsu.com
+Local data protection authority: Datatilsynet
+You will find Datatilsynet’s contact information at www.datatilsynet.dk
+Germany
+Der Verantwortliche im Sinne der DSGVO ist:
+Merkle Germany GmbH Speicherstraße 53 60327 Frankfurt am Main
+Vetretungsberechtigter Geschäftsführer: Walter Hassler
+Amtsgericht Frankfurt am Main HRB 57721 UST-IdNr. DE 813 252 362
+Für Fragen zur Verarbeitung Ihrer personenbezogenen Daten durch uns oder zum Thema Datenschutz allgemein wenden Sie sich bitte an datenschutz_germany@dentsu.com.
+Impressum
+Merkle Germany GmbH
+Speicherstrasse 53
+D-60327 Frankfurt am Main
+Tel: +49 (0)69 505026-100
+Fax: +49 (0)69 505026-500
+Greece
+Ι) EDEE/HACA, Hellenic Association of Communications Agencies. EDEE/HACA is the national trade body representing all communications disciplines in Greece: Advertising, Media, PR, Integrated Marketing Communications, Branding & Design. EDEE/HACA is a member of: European Association of Communications Agencies (EACA), International Communications Consultancy Organisation (ICCO), Federation of European Direct & Interactive Marketing (FEDMA), Integrated Marketing Communications Council Europe (IMCCE), (Website: http://www.edee.gr/).
+ΙΙ) SEE (Advertising Self-Regulation Council). SEE is the independent national self-regulatory organization of the Greek advertising industry, officially established by law in 2003. Its main goal is the right implementation of the ethical rules of the Greek Code of Advertising and Communications Practices by the industry, to ensure that consumers are protected, and marketing communication maintains its credibility. SEE is a member of the: European Advertising Standards Alliance (EASA), International Council for Ad Self-Regulation (ICAS), Institute of Communication. SEE is fully and legally recognized by the Greek regulators as having the exclusive responsibility for upholding the provisions of the Greek Code of Advertising and Communications Practices and has won EASA’s Bronze Best Practice Award in 2019. SEE’s services include: 1. Receiving and acting on complaints regarding marketing communications, 2. Providing copy advice for unpublished advertising material, 3. Issuing sector/issue based Best Practice Recommendations, 4. Informing companies and consumers about the Advertising Code, 5. Providing training of SEE’s Committee members, 6. Offering educational seminars to companies wishing to learn more about the Code and good advertising practices, (Websitehttp://www.see.gr/). The purpose of the organization is both the suppressive and voluntary control of the content of all forms of commercial communication in order to ascertain consultatively, preventively or repressively compliance with the provisions of the ‘GREEK ADVERTISING – COMMUNICATION CODE’, always within the framework of the applicable Greek legislation. The organization is also responsible for the establishment and proper functioning of the crisis management committees. The Primary Committee (5 members) consists of representatives of EDEE and SDE (Hellenic Advertisers Association). The Secondary Committee (12 members) is complemented by representatives of the Μedia.
+III) Hellenic Data Protection Authority (DPA). The Hellenic Data Protection Authority is a constitutionally established independent public authority, which has as its mission the supervision of the application of the General Data Protection Regulation (GDPR), national laws 4624/2019 and 3471/2006, as well as other regulations concerning the protection of the individual from the processing of personal data. The Hellenic DPA is competent to handle complaints and investigate, if deemed necessary in cooperation with supervisory authorities of other EU member states, cases of alleged violations of data protection law. Data Subjects, especially if Greece is their habitual residence or place of work, or the place of the alleged infringement, shall fill in all required fields in the appropriate form depending on the case/subject-matter of the complaint and attach any documents directly linked to the complaint. Data subjects have the right to assign non-profit bodies or organizations or unions or associations that legally operate, have statutory goals of general interest and operate in the field of protection of rights and freedoms of data subjects with regard to data protection, to submit a complaint, to the Hellenic DPA, on their behalf. (Website: https://www.dpa.gr/en/individuals/complaint-to-the-hellenic-dpa/).
+Hungary
+Dentsu is represented by dentsu Hungary Kft. in Hungary, contact details:
+Address: 1027 Budapest, Kacsa u. 15-23.
+Phone number: +36 1 411 2200
+Email: privacy.hungary@dentsu.com
+Israel
+If you are an Israeli resident, by approving this privacy policy or by using the services on the website you provide consent to the processing of your personal data hereunder.
+We note that you are not legally required to provide such consent, but without it, we will not be able to provide the services offered.
+Italy
+Local Controller: Italy
+Italian DPO: Avv. Lapo Curini Galletti
+email: lapo.curinigalletti@dentsu.com
+México
+If you are a resident of México, in addition to the above, the provisions of this section will apply to you. The entity responsible for the handling of your data will be Merkle.
+In accordance with the Federal Law on Personal Data in Possession of Private Parties (“Data Law”), and the rights disclosed in section 6 “Your rights” you will have the right to access the data we hold and the details of their processing, as well as to rectify them if they are inaccurate or incomplete; cancel them under the terms of the Data Law or oppose the processing of these for specific purposes (ARCO Rights).
+To exercise the ARCO Rights, you or your legal representative must make a free writing describing the reason and right you wish to exercise and send it scanned and signed to the Contacts set for in section 9, for attention and follow-up. it is important that you consider the following points when sending or delivering your request:
+a) The request must indicate your full name, address and e-mail address in order to be able to communicate the response to your request.
+b) Indicate the personal data with respect to which you are seeking to exercise any of the rights.
+c) Attach any document or information that facilitates the location of your personal data.
+d) Attach a copy of the official document that proves your identity.
+e) If the request is processed through a legal representative, include the power of attorney stating the authority granted by you for this procedure, or a power of attorney with the signature of acceptance of the attorney-in-fact, in the presence of two witnesses, including the name, signature, address and a photocopy of the official identification of each of the signatories. In the case of rectification of data, attach the documentation that accredits such modification.
+Under the assumptions established in article 34 of the Data Law, we may deny access to personal data, or to rectify or cancel it, or to grant opposition to its processing. Likewise, under the assumptions established in article 26 of the Data Law, we will not be obliged to cancel your personal data. We will respond to your request within a period not exceeding 20 days by the same means by which the request was made, by means of simple copies or electronically, as the case may be.
+In case the request is answered in an affirmative or appropriate manner, the requested changes will be made within a maximum period of 15 business days. In the event that access to your personal data is requested, we will inform you through the email in which we communicate our response to your request, the means by which access to your information will be provided if appropriate. We may extend the deadlines referred to in this paragraph, only once, for a period equal to the original, which will be informed to you.
+To revoke your consent to the processing of your personal data, you must submit a request by sending an email to the contact info at section 9. The procedure described in the preceding paragraphs must be followed.
+Not in all cases we will be able to respond to the request or conclude the processing of personal data immediately, since it is possible that due to some legal obligation we may need to continue processing the personal data. For more information about the exercise of ARCO rights or revocation of consent, please contact us.
+To limit the use or disclosure of your personal data, you must request it through a duly signed request, submitted electronically to us, requesting the limitation of the use or disclosure. However, if you limit the use or disclosure, we may not be able to provide you with the features and benefits to which you would otherwise have access.
+Only you, or a person or business entity that you authorize to act on your behalf (an “Authorized Agent”), may make the requests set forth above. You may also make a request on behalf of your minor child.
+Netherlands
+Netherlands (dentsu)
+Local Controller: Dentsu Netherlands BV
+Moermanskkade 85, 1013BC Amsterdam, the Netherlands
+KvK 33202665
+Contact us: E-mail: dpo@dentsu.com
+Local data protection authority:
+Autoriteit Persoonsgegevens (AP) https://www.autoriteitpersoonsgegevens.nl/
+Local data protection authority:
+Autoriteit Persoonsgegevens (AP) https://www.autoriteitpersoonsgegevens.nl/
+New Zealand
+(a) Transfers
+Some of our dentsu entities may be subject to privacy laws that do not provide the same level of protection as your local privacy laws. By providing Personal Data to us, you consent to the disclosure of your Personal Data to dentsu entities in such other jurisdictions.
+Norway
+Norway (dentsu)
+Local Controller: Dentsu Norge AS
+Kristian Augusts gate 23, 0164 Oslo, Norway
+Reg. No. 927 445 875
+Contact us: E-mail: dpo@dentsu.com
+Local data protection authority: Datatilsynet
+You will find Datatilsynet’s contact information at www.datatilsynet.no
+Philippines
+(a) Your Rights
+As a supplement to the rights mentioned above, you have the following rights under the Data Privacy Act of 2012 and its implementing rules and regulations:
+(1) Right to Access. You may have the right to reasonable access to, upon demand, the following:
+Contents of your personal data that were processed;
+Sources from which personal data were obtained;
+Names and addresses of recipients of the personal data;
+Manner by which such data were processed;
+Reasons for the disclosure of the personal data to recipients, if any;
+Information on automated processes where the data will, or is likely to, be made as the sole basis for any decision that significantly affects or will affect the data subject;
+Date when personal data concerning you were last accessed and modified; and
+The designation, name or identity, and address of the personal information controller.
+(2) Right to Damages. You may have the right to be indemnified for any damages sustained due to such inaccurate, incomplete, outdated, false, unlawfully obtained or unauthorized use of personal data, taking into account any violation of your rights and freedoms as data subject.
+(3) Right to Lodge a Complaint. You may also have the right to lodge a complaint before the National Privacy Commission for any violation of your data privacy rights.
+Spain
+Le informamos también de que nos encontramos adheridos al Código de Conducta de Protección de Datos en la Actividad Publicitaria de AUTOCONTROL, acreditado por la Agencia Española de Protección de Datos y, por tanto, que estamos vinculados a su sistema extrajudicial de tramitación de reclamaciones cuando las mismas estén relacionadas con protección de datos y publicidad. Si no has quedado conforme con la respuesta que hemos dado a tu solicitud, además de presentar una denuncia ante la Agencia Española de Protección de Datos, puedes formular una reclamación ante el Jurado de la Publicidad de AUTOCONTROL en el plazo no superior a un mes natural desde la finalización del proceso, contactando a través del siguiente correo electrónico: reclamaciones.pd@autocontrol.es.
+Sweden
+Sweden (dentsu)
+Local Controller: Dentsu Sweden AB
+BOX 4125, 102 63 Stockholm
+Reg. No. 556259-6733
+Contact us: E-mail: dpo@dentsu.com
+Local data protection authority: Integritetsskyddsmyndigheten
+You will find Integritetsskyddsmyndigheten’s contact information at www.imy.se/
+Sweden (Merkle)
+Local Controller: Merkle Sweden AB
+BOX 4125, 102 63 Stockholm
+Reg. No. 556807-5641
+Contact us: E-mail: dpo@dentsu.com
+Local data protection authority: Integritetsskyddsmyndigheten
+You will find Integritetsskyddsmyndigheten’s contact information at www.imy.se/
+Thailand
+(a) Your Thailand Rights
+This section describes the data privacy rights of Thailand residents. Below you will find the additional information required as per applicable data protection legislation.
+Section 10 - Contact us
+You may contact our representative in any of the following ways
+Address: 968 U-Chu Liang Building, 27th- 28th Floor, Rama 4 Road, Kwaeng Silom, Khet Bangrak, Bangkok 10500, Thailand
+Telephone: 02 238 6654
+Email: THDPO@dentsu.com
+Turkey
+The Rights of the Data Subject
+Under Article 11 of the Turkish Personal Data Protection Law numbered 6698 ("PDPL"), you, as a data subject, have the right to:
+- Learn whether your personal data has been processed,
+- Request information if your personal data has been processed,
+- Learn the purposes of such processing of your personal data and whether processed data is being used in accordance with these purposes,
+- Learn the third persons to whom your personal data has been transferred within or outside the country,
+- Request correction in case the processing of your personal data is incomplete or inaccurate,
+- Pursuant to the Article 7 of the PDPL, request the erasure or destruction of your personal data and request notifying to them to whom the personal data is transferred,
+- Object to the occurrence of a result against you by analyzing the data processed solely through automated systems
+- Request compensation if you suffered damages due to unlawful processing of your personal data.
+You, as the data subject, may send an e-mail to dpo@dentsu.com (using your e-mail address previously provided to Dentsu or your registered e-mail address) to exercise the above rights. If the execution of the requests requires additional costs, such costs will be charged to you by Dentsu in accordance with the price list established by the Personal Data Protection Authority. The explanations of the data subject in the application form regarding your request for exercising the above-mentioned rights should be clear and comprehensible.
+In case the application is made by the data subject directly, the application should contain their name, surname, Turkish ID number (passport number for foreigners), address (so that our response can be conveyed) and documents evidencing the identity.
+In case the application is made by a third party who acts on behalf of the data subject, such person should be specifically authorized on this matter and should submit a document as a proof of representing their authority. In this case, the application should contain the names, surnames, Turkish ID numbers (passport numbers for foreign persons), addresses (so that our response can be conveyed) of both the applicant and the data subject and documents evidencing their identities.
+Moreover, data subjects may send a request to exercise their right to complaint before the Personal Data Protection Authority with the contact information below:
+Address : Nasuh Akar Mah. Ziyabey Cad. 1407. Sok. No: 4 06520 Balgat - Çankaya / Ankara
+Phone Number : +90312-216-5000
+Website : http://www.kvkk.gov.tr/
+United States
+This U.S. Privacy Notice is effective as of November 10th, 2025.
+This U.S. Privacy Notice includes certain disclosures required under applicable U.S. privacy laws. Please note that the rules implementing some of these laws are subject to change. We are committed to continual compliance with these laws and will update our processes and this notice as the rules are updated and the law requires.
+Data collected by us within the scope of this Privacy Notice is not incorporated into our data products. You can find privacy information for our products here.
+U.S. privacy laws provide residents of their respective states with additional rights with respect to their Personal Data. Those rights are explained below in the “Your Privacy Rights” section.
+In this U.S. Privacy Notice, the term “Personal Data” has the meaning ascribed to it under applicable U.S. privacy laws, and includes the term “Personal Information” as defined by the California Consumer Privacy Act of 2018, as amended. For clarity, “sell’ and “share” are as defined under California law; ‘targeted advertising,’ ‘profiling,’ and ‘sensitive data’ are as defined in applicable U.S. privacy laws. Where definitions differ materially by state, we apply the most protective definition to the extent required.
+Personal Data does not include de-identified or aggregate data or publicly available data.
+1. Information We May Collect
+In addition to the information that we disclose in the “Personal Data that we may collect” section of our Global Privacy Notice, we also collect the following additional information in the U.S. as explained herein. The type of information we collect will depend on the circumstances and the service you are using. Generally speaking, we will collect information relating to you and/or your use of our services in the following ways:
+Contact data
+We collect information when you enter into an agreement, contact us, or sign up for our marketing communications and newsletters. We also collect any Personal Data you provide if you post a comment, make a request, or complete a survey.
+Commercial and Preference Information
+We may collect information about our contact history with you and your other transactions and preferences. We may collect information about your job and title, details of your attendance at our events, and your interest in our services.
+Location Information
+We may infer a location based on your IP address. We may automatically collect your precise GPS location when you access the mobile version of our websites. We may also collect information about your general location, using your zip code or postcode and IP address.
+Online Advertising
+Our partners may also place cookies, pixel tags and similar technologies on many online services, including ours. They use these technologies to collect information about your activities on these services in order to allow us to deliver you more relevant advertising. For example, they may use the information they collect from their cookies on our services to identify which of our products and services you might be interested in and to recognize your device so they can show you relevant advertisements about our products while you are using our services and other online services. Additionally, we sometimes provide information we collect (such as email addresses) to service providers, who may “match” this information to cookies, mobile ad identifiers, and other proprietary IDs, in order to provide you with more relevant ads when you visit other online services.
+You can learn about how to opt out of receiving personalized online advertisements from our advertising partners by following the instructions in the “Your Choices” and “Your Privacy Rights” sections below, and through our Cookies Notice.
+Inferences
+Using the other pieces of Personal Data collected about you, we may draw inferences about you, reflecting what we believe to be your preferences, characteristics, predispositions, and attitudes as well as attributes connected to your IP address.
+Combining Information
+We may combine information collected offline with information we collect online. Or we may combine information we get from another party with information we already have. We may also aggregate your information with other consumers’ information to understand preferences and trends over time. We also may combine information collected across devices, such as computers and mobile devices.
+2. How We Use This Information
+Except where prohibited by law or court order we use your Personal Data to generate leads and for the following business purposes in the U.S.:
+to manage our relationship with you;
+to arrange and manage visits to our offices;
+to ensure our website(s) is kept relevant and useful;
+to ensure our website(s) remain secure;
+to respond to your enquiries and feedback;
+to respond to, and manage, data subject rights requests;
+to analyze and/or improve our services;
+to verify your identity and Personal Data;
+to maintain and update our records;
+to protect and defend our legal rights / respond to complaints;
+to facilitate acquisitions and potential acquisitions of or by our business, including any related transitional and business integration activities;
+to enable the download of our content;
+to send you newsletters and information relating to our brands and services;
+to recognize you across multiple touchpoints by creating a single record for you;
+other purposes for which we seek your consent; and
+to protect us, our websites, customers, employees, and business partners from fraud or other malicious activity.
+As noted above, in this U.S. Privacy Notice, the term “Personal Data” has the meaning ascribed to it under applicable U.S. laws, and includes the term “Personal Information” as defined by the California Consumer Privacy Act of 2018, as amended.
+In the table below we set out further information about the purposes for which we use your Personal Data and the categories of third parties that we disclose, “sell,” or share the Personal Data. The term “share” has the meanings ascribed to it under applicable U.S. privacy laws, including for “cross-context behavioral advertising” or “targeted advertising.” The term “sell” has the meanings ascribed to it under applicable U.S. laws, meaning the sale of your Personal Data to an outside party for monetary or other valuable consideration, subject to certain exceptions. In the second column, we also specify how such Personal Data is categorized under applicable U.S. privacy laws. For more information about the categories of Personal Data under applicable U.S. privacy laws, see the “Your Privacy Rights” section.
+Purpose/Activity
+To generate leads: We may use Personal Data collected from visitors to and users of our website(s), attendees of events, or client contacts to locate potential leads.
+To arrange and run events: The process by which invitations are sent to, acceptances are received from and attendance at dentsu events, are managed.
+To send you information about our services: To send you information which you have requested e.g. newsletters or publications in accordance with your specified preferences
+To improve and develop our website: We conduct statistical analysis on your usage of the website e.g. to enable us to improve our website, offer new features and material etc.
+To respond to any inquiries or feedback that you send us: To update you with any changes to our terms and conditions/other policies
+To manage our relationship with you: To provide you with services and for the purpose of relationship, account, and/or project management.
+To protect this website, our company, our employees, and our users from malicious attacks, hacking, fraud, or other illegal or unauthorized activity
+To analyze and improve our services: To deliver relevant content to you, and measure or understand the effectiveness of the content we serve to you.
+To maintain and update our records: we are required to keep up to date records to ensure we can operate efficiently and effectively as a business.
+To protect and defend our legal rights/respond to complaints: This process allows us to disclose information with other third parties, such as regulator and law enforcement agencies
+To facilitate acquisitions and potential acquisitions of or by our business, including any related transitional and business integration activities.
+Types of Personal Data that may be processed
+(a) Name
+(b) Email address
+(c) Phone number
+(c) Social media account handles
+(d) Mailing address
+(e) General location (Identifiers: Personal Data; professional or employment related information)
+(f) Commercial and Preference Information (responses to surveys, details of your attendance at our events, interest in our services, information about our contact history with you and your other transactions and preferences)
+(g) Technical and usage (identifiers: Personal Data, such as IP address, device identifiers, internet or other similar network activity)
+(h) Location information (identifiers: precise geolocation, general location using zip code or postal code and IP address)
+(i) Inferences (using other pieces of Personal Data collected about you and attributes connected to your IP address)
+a) Name
+(b) Email address
+(c) Phone number
+(c) Social media account handles
+(d) Mailing address
+(e) General location (Identifiers: Personal Data; professional or employment related information)
+(f) Commercial and Preference Information (responses to surveys, details of your attendance at our events, interest in our services, information about our contact history with you and your other transactions and preferences)
+(a) Name
+(b) Email address
+(c) Phone number
+(c) Social media account handles
+(d) Mailing address
+(e) General location (Identifiers: Personal Data; professional or employment related information)
+(f) Commercial and Preference Information (responses to surveys, details of your attendance at our events, interest in our services, information about our contact history with you and your other transactions and preferences)
+(g) Technical and usage (identifiers: Personal Data, such as IP address, device identifiers, internet or other similar network activity)
+(h) Location information (identifiers: precise geolocation, general location using zip code or postal code and IP address)
+(i) Inferences (using other pieces of Personal Data collected about you and attributes connected to your IP address)
+(a) Technical and usage (identifiers: Personal Data, such as IP address, device identifiers, internet or other similar network activity)
+(a) Name
+(b) Email address
+(c) Phone number
+(c) Social media account handles
+(d) Mailing address
+(e) General location (Identifiers: Personal Data; professional or employment related information)
+(f) Commercial and Preference Information (responses to surveys, details of your attendance at our events, interest in our services, information about our contact history with you and your other transactions and preferences)
+(a) Name
+(b) Email address
+(c) Phone number
+(c) Social media account handles
+(d) Mailing address
+(e) General location (Identifiers: Personal Data; professional or employment related information)
+(f) Commercial and Preference Information (responses to surveys, details of your attendance at our events, interest in our services, information about our contact history with you and your other transactions and preferences)
+(g) Technical and usage (identifiers: Personal Data, such as IP address, device identifiers, internet or other similar network activity)
+(h) Location information (identifiers: precise geolocation, general location using zip code or postal code and IP address)
+(i) Inferences (using other pieces of Personal Data collected about you and attributes connected to your IP address)
+(a) Name
+(b) Email address
+(c) Phone number
+(d) Social media account handles
+(e) Mailing address
+(f) General location (Identifiers: Personal Data; professional or employment related information)
+(g) Commercial and Preference Information (responses to surveys, details of your attendance at our events, interest in our services, information about our contact history with you and your other transactions and preferences)
+(h) Technical and usage (identifiers: Personal Data, such as IP address, device identifiers, internet or other similar network activity)
+(i) Location information (identifiers: precise geolocation, general location using zip code or postal code and IP address)
+(j) Inferences (using other pieces of Personal Data collected about you and attributes connected to your IP address)
+(a) Name
+(b) Email address
+(c) Phone number
+(d) Social media account handles
+(e) Mailing address
+(f) General location (Identifiers: Personal Data; professional or employment related information)
+(g) Commercial and Preference Information (responses to surveys, details of your attendance at our events, interest in our services, information about our contact history with you and your other transactions and preferences)
+(h) Technical and usage (identifiers: Personal Data, such as IP address, device identifiers, internet or other similar network activity)
+(i) Location information (identifiers: precise geolocation, general location using zip code or postal code and IP address)
+(j) Inferences (using other pieces of Personal Data collected about you and attributes connected to your IP address)
+(a) Name
+(b) Email address
+(c) Phone number
+(c) Social media account handles
+(d) Mailing address
+(e) General location (Identifiers: Personal Data; professional or employment related information)
+(f) Commercial and Preference Information (responses to surveys, details of your attendance at our events, interest in our services, information about our contact history with you and your other transactions and preferences)
+(g) technical and usage (identifiers: Personal Data, such as IP address, device identifiers, internet or other similar network activity)
+(h) Location information (identifiers: precise geolocation, general location using zip code or postal code and IP address)
+(i) Inferences (using other pieces of Personal Data collected about you and attributes connected to your IP address)
+(a) Name
+(b) Email address
+(c) Phone number
+(c) Social media account handles
+(d) Mailing address
+(e) General location (Identifiers: Personal Data; professional or employment related information)
+(f) Commercial and Preference Information (responses to surveys, details of your attendance at our events, interest in our services, information about our contact history with you and your other transactions and preferences)
+(g) technical and usage (identifiers: Personal Data, such as IP address, device identifiers, internet or other similar network activity)
+(h) Location information (identifiers: precise geolocation, general location using zip code or postal code and IP address)
+(i) Inferences (using other pieces of Personal Data collected about you and attributes connected to your IP address)
+(a) Name
+(b) Email address
+(c) Phone number
+(c) Social media account handles
+(d) Mailing address
+(e) General location (Identifiers: Personal Data; professional or employment related information)
+(f) Commercial and Preference Information (responses to surveys, details of your attendance at our events, interest in our services, information about our contact history with you and your other transactions and preferences)
+(g) technical and usage (identifiers: Personal Data, such as IP address, device identifiers, internet or other similar network activity)
+(h) Location information (identifiers: precise geolocation, general location using zip code or postal code and IP address)
+(i) Inferences (using other pieces of Personal Data collected about you and attributes connected to your IP address)
+Categories of third parties to which we may disclose this Personal Data for a business purpose
+Third-party service providers; Entities due to corporate mergers or restructuring; Other parties as required by law or to prevent or investigate illegal activities
+Third-party service providers; Entities due to corporate mergers or restructuring; Other parties as required by law or to prevent or investigate illegal activities
+Third-party service providers; Entities due to corporate mergers or restructuring; Other parties as required by law or to prevent or investigate illegal activities
+Third-party service providers; Entities due to corporate mergers or restructuring; Other parties as required by law or to prevent or investigate illegal activities
+Third-party service providers; Entities due to corporate mergers or restructuring; Other parties as required by law or to prevent or investigate illegal activities
+Third-party service providers; Entities due to corporate mergers or restructuring; Other parties as required by law or to prevent or investigate illegal activities
+Third-party service providers; Entities due to corporate mergers or restructuring; Other parties as required by law or to prevent or investigate illegal activities
+Third-party service providers; Entities due to corporate mergers or restructuring; Other parties as required by law or to prevent or investigate illegal activities
+Third-party service providers; Entities due to corporate mergers or restructuring; Other parties as required by law or to prevent or investigate illegal activities
+Third-party service providers; Entities due to corporate mergers or restructuring; Other parties as required by law or to prevent or investigate illegal activities
+Entities due to corporate mergers or restructuring
+Categories of third parties to which this Personal Data may be ”shared” or “sold” for advertising/analytical purposes
+Business partners and marketing companies.
+We do not sell/share
+We do not sell/share
+We do not sell/share
+We do not sell/share
+We do not sell/share
+We do not sell/share
+Business partners and marketing companies.
+We do not sell/share
+We do not sell/share
+We do not sell/share
+We may use Personal Data to create deidentified or aggregated data which does not identify you or any other individual. We may use and disclose this anonymous or aggregated data as we choose.
+3. Information Sharing and Disclosing
+Information shared with our business partners and marketing companies
+We might share information with third parties who help us with our marketing efforts, including social media platforms, advertising networks, and ad tech companies. For example, we may disclose email addresses or other contact information with social media platforms so they can serve our advertising to you on their platform. Personal Data received by our partners may also be subject to their privacy policies.
+Information disclosed with other parties as required by law or to prevent or investigate illegal activities
+Where required or permitted by law, Personal Data may be provided to others, such as regulator and law enforcement agencies, for example in response to a court order or a subpoena, or in response to a law enforcement agency’s request, or where we believe it is necessary to investigate, prevent or take action regarding illegal activities or to protect us, our websites, customers, employees, and business partners from fraud or other malicious activity, and as otherwise required by law. We might disclose your Personal Data in order to enforce our agreements and to protect our rights and/or the rights of others. We might disclose your Personal Data when we are investigating potential fraud. This might include fraud we think has happened during a promotion. Where we have a legal requirement to do so, if you are the winner of a sweepstakes or contest, we may also disclose your certain contact information with anyone entitled to request a winner’s list.
+We may use and disclose Personal Data as otherwise disclosed to you from time to time when collecting your Personal Data or as otherwise permitted by law.
+4. Your Choices
+You have certain choices about how we use your information.
+You can control cookies and tracking tools. To learn more about your choices related to cookies, please see our Cookie Notice.
+You may choose not to receive marketing communications from us. You can ask us to stop such messages at any time by clicking on the “unsubscribe” link at the bottom of the message. Please note that even if you choose not to receive marketing communications from us, you still may receive non-marketing communications, such as responses to your inquiries or notices regarding your account or our relationship with you.
+Your Privacy Rights
+Residents of certain US States (including California, Colorado, Connecticut, Delaware, Indiana, Iowa, Kentucky, Maryland, Minnesota, Montana, Nebraska, New Hampshire, New Jersey, Oregon, Rhode Island, Tennessee, Texas, Utah, and Virginia) have rights relating to the collection, use, disclosure, and other processing of their personal information, subject to applicable legal exceptions and requirements. Depending on where you live and what you are asking us to do, we may or may not be obligated to comply with your request, and/or the time required to complete a request may vary. Based on how we collect and utilize your Personal Data, you may have the following rights:
+Right to Access – You have the right to request that we provide you with a copy of the specific pieces of Personal Data we collected about you.
+Right to Delete – You have the right to request that we delete your Personal Data that we maintain about you, subject to certain exceptions.
+If you were known by another name or lived at another address, we may not be able to locate all information which relates to you if you do not include it in the form below. Please provide as much information as possible so that we can try to identify all records which relate to you. We may keep certain Personal Data in accordance with our legal obligations and rights, such as keeping sufficient information about you to recognize that you have made a Personal Data request and to keep a record of that request.
+However, if we lawfully receive your Personal Data after fulfilling your deletion request, that new information may be included in future data products unless/until you submit a new deletion request. However, if one of our clients separately has your Personal Data and they provide it to us, along with specific instructions on how we are to use it on their behalf, you may still receive their advertising. (We do not add our clients’ data to our own data products unless allowed to by our clients)
+Right to Opt-Out of Targeted Advertising – You have the right to request that we not include your data for any targeted advertising we conduct.
+Your choices do NOT affect marketing that is not based on your Personal Data. For example, you may still receive advertising based on the content and predicted audience of the website you are browsing. This is known as “contextual advertising” and will not stop in response to your requests.
+Right to Correct – You have the right to request that we correct inaccurate Personal Data that we maintain about you, subject to certain exceptions.
+Right to Limit Use of Sensitive Personal Data – You have the right to request that we do not process or disclose your sensitive Personal Data.
+Right to Opt-Out of Profiling – You have the right to request that we not process your information for profiling.
+Right to Non-Discrimination – You have the right to not receive discriminatory treatment for the exercise of your privacy rights.
+Do Not Sell/Share My Info – You can request that Merkle does not sell or share your Personal Data that we have in our products by clicking Your Privacy Choices. For purposes of our Product Privacy Notice, “sell” means the sale of your Personal Data in our products to an outside party for monetary or other valuable consideration, subject to certain exceptions set forth in applicable U.S. privacy laws. For purposes of our Product Privacy Notice, “share” means the targeting of advertising to you based on that your Personal Data obtained from your activity across websites in our products, subject to certain exceptions set forth in applicable U.S. privacy laws. Any opt-out of cookie-based tracking for advertising purposes is specific to the device, website, and browser you are using, and is deleted whenever you clear your browser’s cache.
+If you request an opt-out of the sale or share of your Personal Data, we will stop including your information in the data products we give to our clients.
+For non-product related requests or any business to business (B2B) data subject requests, please call us at (+1) (877) 570-5939 (toll-free in the US) or e-mail us at Americas.DPO@dentsu.com. For any employment related requests, you can make these requests online by reviewing the respective Employee, Job Candidates and Job Leavers Privacy Notice for your region.
+We may deny certain requests, or fulfill a request only in part, based on our legal rights and obligations. For example, we may retain Personal Data as permitted by law, such as for tax or other record keeping purposes, to maintain an active account, and to process transactions and facilitate customer requests. Note that for purposes of these requests under this Privacy Notice, Personal Data does not include information we have collected as a service provider to our clients. Finally, please note that we are required by California Civil Code section 1798.105(d) to keep a record of your request. Only you, or a person or business entity that you authorize to act on your behalf (an “Authorized Agent”), may make the requests set forth above. You may also make a request on behalf of your minor child. For California residents, Authorized Agents may be an entity that is registered with the California Secretary of State or a person.
+The request should include your contact information and describe your request with sufficient detail that allows us to properly understand, evaluate, and respond to it. In addition, you should provide sufficient information (including information that reasonably enables us verify the identifying information we currently maintain about you) that allows us to reasonably verify that you are the person about whom we collected the Personal Data or an authorized representative.
+We will respond to consumer requests in a reasonably timely manner. If we require extra time to respond, we will inform you of the reason and extension period in writing. In order to protect the security of your Personal Data, we will not honor a request if we cannot verify your identity or authority to make the request and confirm the Personal Data relates to you. The method used to verify your identity will depend on the type, sensitivity and value of the information, including the risk of harm to you posed by any authorized access or deletion. Generally speaking, verification will be performed by matching the identifying information provided by you to the Personal Data that we already have.
+Any disclosures we provide for California residents will only cover the 12-month period preceding our receipt of your request (and will not be made more than twice in a 12-month period). If we cannot comply with a request, or cannot fully comply with a request, the response we provide will also explain the reasons we cannot comply.
+If we deny your request in whole or in part, you may have the right to appeal the decision. In such circumstances, we will provide you with information regarding the appeals process, such as action taken or not taken and an explanation of our decision. If you are not happy with our response, you may have the right to file a complaint against us with the relevant state Attorney General.
+Merkle Specific Privacy Choices
+You may have the following additional choices related to how Merkle uses your information.
+Opting Out of Merkle Interest Based Advertising
+We enable users to opt-out from certain uses of information in a digital environment. If you want to opt-out from our Merkle solutions from the browser you are currently using, click here and our systems will attempt to place an opt-out cookie on your computer.
+We and other third party companies collect and receive information from across a variety of websites and mobile applications you visit or use over time in order to infer your interests and deliver relevant advertising to the browsers and devices you may use, including across associated devices. This type of advertising is known as interest-based advertising. You may visit http://www.aboutads.info/choices/ to learn more about this activity and opt out of our and many of our partners collection and use of data for that purpose.
+You may also visit http://www.aboutads.info/choices/ to have the option of opting out of many of our partners. Please note that if you clear cookies from your browser, you may need to renew your opt-out choice. The mobile operating systems (e.g., Android and iOS) have their own opt-out mechanisms that apply IBA in mobile app environments. To exercise this opt-out, please visit the privacy settings of your Android or iOS device and select “limit ad tracking” (Apple iOS) or “opt-out of interest based ads” (Android).
+Please note that if you clear cookies from your browser or reset your device identifier, you may need to renew your opt-out choice. You will also continue to receive advertising after an opt-out, but those advertisements may be less relevant to your interests. If you use multiple browsers or devices you will need to exercise your choices on those browsers or devices as well.
+Opting Out of Direct Mail and Telemarketing
+Responsible marketing companies respect your choice to not receive direct mail advertising. We use Direct Marketing Association (DMA) resources to suppress the names and addresses of individuals who have notified the DMA that they do not want to receive advertising by mail.
+If you would like to opt out of direct mail advertising, send your complete name and address to: DMA Mail Preference Service P.O. Box 643 Carmel, NY 10512
+Responsible marketing companies respect your choice to not receive telemarketing calls. We use DMA resources to suppress the phone numbers of individuals who have notified the DMA that they do not want to receive telemarketing calls.
+If you would like to opt out of telemarketing calls, send your complete name, address and telephone number to: DMA Telephone Preference Service P.O. Box 1559 Carmel.
+Email Marketing Preferences
+If you wish to update your email marketing preferences or unsubscribe, from Merkle communications, you can also do so by visiting this page.
+Data Subject Rights Requests Merkle Metrics - California Consumer Privacy Act
+Click here to view our most recent reporting metrics for Merkle.
+If you reside in California, you may have the right to ask us one time each year if Merkle has disclosed Personal Data with third parties for their direct marketing purposes. To make a request, please send us an email, or write to us at the address listed below. Indicate in your letter that you are a California resident making a “Shine the Light” inquiry.
+5. Children
+This website is not intended for children. We do not actively seek to collect Personal Data about children. If you have any concerns about your child’s privacy in relation to our services, or if you believe that your child may have entered Personal Data onto our website, please contact us at Americas.DPO@dentsu.com. We will delete such Personal Data from our records or seek verifiable parental or legal guardian consent to retain such information within a reasonable time.
+6. Data Broker
+Merkle is a registered data broker under California, Oregon, Texas, and Vermont. To conduct business in Texas, a data broker must register with the Texas Secretary of State (Texas SOS). Information about data broker registrants is available on the Texas SOS website.
+Merkle Incorporated is registered with the Oregon Secretary of State.
+7. Contact Us
+If you have any questions about this Privacy Notice or our approach to privacy, you can contact our Data Protection Officer in any of the following ways:
+Address:
+Americas Privacy Office
+Dentsu International
+150 E 42nd Street
+New York, NY 10017
+Telephone:
+(+1) (877) 570-5939 (U.S. toll-free)
+Or by email at: Americas.DPO@dentsu.com
+IMPORTANT
+Are you a consumer?
+This notice doesn’t cover the data we use to provide marketing services to our clients, but we’ve got plenty of information about what we do for our clients and what your rights are if that’s what you’re after.
+PRODUCT PRIVACY NOTICE
+DO NOT SELL OR SHARE MY DATA
+Have questions or concerns?
+You can reach our Global Data Privacy Officer via email.
+EMAIL US
+Privacy Policy

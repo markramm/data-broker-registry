@@ -1,0 +1,141 @@
+SentiLink | Privacy Policy
+1. SentiLink Privacy Policy
+2. COLLECTION OF PERSONAL INFORMATION
+3. USE OF PERSONAL INFORMATION
+4. DISCLOSURE OF PERSONAL INFORMATION
+5. COOKIES AND OTHER TRACKING TECHNOLOGIES
+6. YOUR CHOICES
+7. EXTERNAL WEBSITES
+8. DATA RETENTION
+9. CHILDREN
+10. SECURITY
+11. UPDATES TO THIS NOTICE
+12. CONTACTING US
+13. CALIFORNIA-SPECIFIC DISCLOSURES
+Last updated: June 01, 2026
+1. SentiLink Privacy Policy
+2. COLLECTION OF PERSONAL INFORMATION
+3. USE OF PERSONAL INFORMATION
+4. DISCLOSURE OF PERSONAL INFORMATION
+5. COOKIES AND OTHER TRACKING TECHNOLOGIES
+6. YOUR CHOICES
+7. EXTERNAL WEBSITES
+8. DATA RETENTION
+9. CHILDREN
+10. SECURITY
+11. UPDATES TO THIS NOTICE
+12. CONTACTING US
+13. CALIFORNIA-SPECIFIC DISCLOSURES
+SentiLink Privacy Policy
+Welcome to the Website of SentiLink Corp., a Delaware corporation (“SentiLink,” “we,” or “us”). This privacy notice (“notice”) describes our collection, use, and disclosure of personal information from users of our Website at www.sentilink.com (“Website” or “Site“),as well as all related applications, widgets, software, tools, and other services provided by us (collectively, together with the Website, our “Service”). This notice may be supplemented by additional privacy statements, terms, or notices provided to you. By using our Service, including accessing our Website, you acknowledge that you have read and understand this notice.
+We are committed to transparency about how we collect, use, and protect your personal information. We may use automated systems, including artificial intelligence and machine learning technologies, to process personal information in connection with our Service. Where we do so, we apply appropriate safeguards designed to ensure the accuracy, integrity, and security of the information processed.
+As used in this notice, “Personal Information” is information that identifies, relates to, describes, is reasonably capable of being associated with, or could reasonably be linked, directly or indirectly, to you. Personal information does not include information that has been aggregated or deidentified.
+If you are a California resident, click here to view additional disclosures pursuant to the California Consumer Privacy Act.
+COLLECTION OF PERSONAL INFORMATION
+We may collect personal information from the following sources:
+Automatically when you interact with our Service. For example, via cookies and tracking technologies on our Site or in our email communications.
+Directly from you. For example when you input information into a form on our Site, email us, or otherwise interact with us.
+From other sources. For example, our vendors and partners.
+Personal Information Automatically Collected
+We and our vendors automatically collect certain types of usage information when you visit our Site, read our emails, or otherwise engage with us. We typically collect this information through a variety of tracking technologies, including cookies, web beacons, embedded scripts, location-identifying technologies, and similar technology (collectively, “tracking technologies”).
+We, and our vendors, use tracking technologies to automatically collect usage and device information, such as:
+Information about your device and its software, such as your IP address, browser type, Internet service provider, device type/model/manufacturer, operating system, date and time stamp, a unique ID that allows us to uniquely identify your browser or your account (for example, a persistent device identifier), and other such information.
+Information about the way you access and use our Site (for example, the website from which you came and the website to which you are going when you leave our services), the pages you visit, the links you click, whether you open emails or click the links contained in emails, whether you access the services from multiple devices, and other actions you take on the Site.
+We may collect analytics data or use analytics tools such as Google Analytics to help us measure traffic and usage trends for the Site and to understand more about the demographics of our users.
+Personal Information that You Provide
+We may collect personal information that you provide to us in a variety of ways through our Service. For instance, when you request information about our Service or otherwise communicate with us, we collect the personal information you provide to us. We may collect personal information such as name, telephone number, mailing address, e-mail address, city, state, country, other demographic information, and your interests and preferences related to our business and services.
+Personal Information from Other Sources
+We may receive personal information about you from other parties, including but not limited to publicly-available sources and data suppliers and businesses with which you interact or from which you otherwise seek to obtain services. We may combine this information with other personal information we maintain about you. If we do so, this notice governs any combined information that we maintain in personally identifiable format.
+USE OF PERSONAL INFORMATION
+We use personal information for the following business purposes:
+To provide services and information that you request;
+To enhance, improve, operate, and maintain the Site, Service, our programs, and other systems;
+To prevent fraudulent use of our Site and Service;
+To tailor your user experience;
+To maintain a record of our dealings with you;
+To conduct research and analytics to understand our customers;
+To develop new products;
+To advertise and market our Service;
+To ensure internal quality control;
+To communicate with you, including about your account and to provide information about our Service;
+To comply with regulatory and legal requirements;
+To prevent, investigate or provide notice of fraud or unlawful or criminal activity;
+To enforce and carry out contracts and agreements between us and you;
+To protect the safety of any person;
+To address fraud, security or technical issues;
+To protect our rights or property; and
+For other administrative and internal business purposes.
+DISCLOSURE OF PERSONAL INFORMATION
+We may disclose personal information to our vendors and service providers: (i) in connection with the provisioning of IT and related services or as otherwise required to assist us in our work; (ii) to provide information and Services you have requested; (iii) in connection with customer service activities; (iv) for fraud prevention purposes; (v) for analytics services; and/or (vi) in connection with providing the Services. We limit the personal information we provide to our service providers to what is reasonably necessary for them to perform their functions.
+We may also disclose personal information about you if we reasonably believe that the information is needed to: (i) comply with any valid legal process, governmental request, or applicable law, rule, or regulation; (ii) investigate, remedy, or enforce potential violations of any agreement you or a another party may have with us; (iii) protect the rights, property, and safety of us, our customers, or others; or (iv) detect and resolve any fraud or security concerns. We may also disclose personal information if otherwise permitted by applicable law.
+In addition, personal information about our users may be disclosed as part of any merger, acquisition, debt financing, sale of company assets, or similar transaction, as well as in the event of an insolvency, bankruptcy, or receivership in which personal information could be transferred to third parties as one of our business assets.
+COOKIES AND OTHER TRACKING TECHNOLOGIES
+A cookie is a small data file that is stored by your browser on your device. We use cookies to deliver a better experience, for example, remembering your preferences.
+Other examples of why we use cookies include:
+To learn about how you interact with our Site
+To detect and prevent fraud
+To conduct analytics activities
+To improve our Services
+If you use your browser’s method of blocking or removing cookies, some, but not all, types of cookies may be deleted and/or blocked. If you delete or block cookies, some functionality on our Site may not work properly.
+In addition to cookies, we may use other types of tracking technologies in connection with our Services.
+Analytics: We may use web analytics services (such as Google Analytics) on our Site to collect and analyze usage information through cookies and similar tools; engage in auditing, research, or reporting; assist with fraud prevention; and provide certain features to you. Information about Google Analytics’ current opt-outs for web is available here.
+If you receive emails from us, we may use certain analytics tools, such as tracking pixels, to capture data such as when you open our message or click on any links or banners our email contains. This data allows us to gauge the effectiveness of our communications and marketing campaigns.
+YOUR CHOICES
+Email Communications
+If you receive commercial emails from us and would like to opt out of such communications, you may do so by clicking the unsubscribe option contained within the email.
+Interest-Based Advertising
+To learn more about interest-based advertising and how you may be able to opt-out of some of this advertising, you may wish to visit the Digital Advertising Alliance’s (DAA) resources and/or the Network Advertising Initiative’s online resources at www.aboutads.info/choices or http://www.networkadvertising.org/choices/. Please note that when you opt-out of receiving interest-based advertisements, this does not mean you will no longer see advertisements from us or on our Services. It means that the online ads that you do see from DAA program participants should not be based on your interests. We are not responsible for the effectiveness of, or compliance with, any third party opt-out options or programs or the accuracy of their statements regarding their programs.
+EXTERNAL WEBSITES
+For your convenience, the Site may contain links to other websites, products, or services that we do not own or operate. If you choose to visit or use any external products or services, please be aware that this notice will not apply to your activities or any information you disclose while using those products or services or otherwise interacting with other parties. To learn about the personal information practices of those parties, please visit their respective privacy notices.
+DATA RETENTION
+We will usually store the personal information we collect about you for as long as necessary to fulfil the purposes for which it was collected, and in accordance with our legitimate business interests and applicable law. However, if necessary, we may retain personal information for longer periods of time, until set retention periods and deadlines expire, for instance where we are required to do so in accordance with legal, tax, and accounting requirements set by a legislature, regulator, or other government authority.
+To determine the appropriate duration of the retention of personal information, we consider the amount, nature, and sensitivity of the personal information, the potential risk of harm from unauthorized use or disclosure of personal information and if we can attain our objectives by other means, as well as our legal, regulatory, tax, accounting, and other applicable obligations.
+Once retention of the personal information is no longer necessary for the purposes outlined above, we will either delete or deidentify the personal information or, if this is not possible (for example, because personal information has been stored in backup archives), then we will securely store the personal information and isolate it from further processing until deletion or deidentification is possible.
+CHILDREN
+Children’s safety is important to us, and we encourage parents and guardians to take an active interest in the online activities of their children. Our Services are not directed to, and we do not knowingly collect or solicit personal information from children under the age of 16. If we learn that any personal information we collect has been provided by a child under the age of 16, we will promptly delete that personal information.
+SECURITY
+We care about the security of your information and employ physical, administrative, and technological safeguards designed to preserve the integrity and security of all information collected through our Service. These safeguards include encryption, access controls, regular security assessments, and employee training. However, no security system is impenetrable, and we cannot guarantee the security of our systems 100%.
+UPDATES TO THIS NOTICE
+We may occasionally update this notice. When we do, we will also revise the “last updated” date at the beginning of the notice. Your continued use of this Service after such changes will be subject to the then-current notice. We encourage you to periodically review this notice to stay informed about how we collect, use, and disclose personal information.
+CONTACTING US
+If you have any questions, comments, concerns, or complaints about this privacy notice or your personal information, please contact us at privacy@sentilink.com.
+CALIFORNIA-SPECIFIC DISCLOSURES
+These Additional California Privacy Disclosures supplement the information contained in our privacy notice and apply solely to residents of the State of California (“consumers” or “you”).
+Collection and Use of Personal Information
+In the last 12 months, we may have collected the following categories of personal information: identifiers, commercial information, Internet/network information, general geolocation data, professional/employment information, and inferences generated from your use of our Site and Services. For more information about our collection of personal information, the sources of personal information, and how we use this information, please see the Collection of Personal Information section of the notice.
+Purposes for Collecting Personal Information
+We collect personal information from and about you for a variety of purposes. To learn more about the types of personal information we collect, the sources from which we collect or receive personal information, and the purposes for which we use this information, please see the Use of Personal Information section of the notice.
+Sales and Sharing of Personal Information
+We do not sell or share your personal information.
+Sensitive Personal Information
+We do not collect or otherwise process sensitive personal information for purposes beyond those authorized under California law, including the CCPA and its implementing regulations.
+Disclosures of Personal Information
+In the last 12 months, we may have disclosed all of the categories of personal information we collect to service providers for a business purpose, as described in the Disclosure of Personal Information section of the notice. The categories of recipients to whom we disclose your personal information for a business purpose include:
+Service providers and advisors that perform services for us or on our behalf, which may include providing marketing and advertising services, providing mailing or email services, tax and accounting services, fraud prevention, web hosting, or similar services; and
+Analytics providers to better understand the demographics of our users and visitors, and to personalize, enhance and improve our Service.
+We may also disclose personal information to other parties at your direction or upon your request, or to comply with legal process or contractual obligations, as described in our notice.
+Your California Privacy Rights
+As a California resident, you may be able to exercise the following rights in relation to the personal information about you that we have collected (subject to certain exceptions):
+The Right to Know. The right to confirm whether we are processing personal information about you, including:
+The categories of personal information collected;
+The categories of sources of the personal information;
+The purposes for which the personal information was collected;
+The categories of personal information we disclosed for a business purpose, and the categories of recipients to whom the personal information was disclosed;
+The specific pieces of personal information that we have collected about you.
+The Right to Delete. You have the right to request the deletion of personal information that we have collected from you.
+The Right to Correct. You have the right to request that any inaccuracies in your personal information be corrected, taking into account the nature of the personal information and the purposes of the processing of your personal information.
+The Right to Limit Use of Sensitive Personal Information. You have the right to limit our use and disclosure of sensitive personal information to those uses that are necessary to perform the services or provide the goods you have requested, or as otherwise authorized by applicable law.
+The Right to Opt-Out of Automated Decision-Making. To the extent we engage in automated decision-making technology as defined under applicable California law, you may have the right to opt out of such processing and to request information about the logic involved in such decision-making and a description of the likely outcome of the process with respect to you.
+The Right to Non-Discrimination. You have the right not to be discriminated against for exercising any of your privacy rights under California law.
+How to Exercise Your California Consumer Rights
+To submit a request to exercise one of the privacy rights identified above, please submit a request by:
+Emailing privacy@sentilink.com with the subject line “California Rights Request,” or
+Calling 877-6-SNTLNK (877-6-76-8565)
+We may need to verify your identity before processing your request, which may require us to request additional personal information from you, including but not limited to email and mailing address. We will only use personal information provided in connection with your request to review and comply with the request.
+In certain circumstances, we may decline a request to exercise the rights described above, particularly where we are unable to verify your identity. If we are unable to comply with all or a portion of your request, we will explain the reasons for declining to comply with the request.
+Authorized Agents
+In certain circumstances, you are permitted to use an authorized agent to submit requests on your behalf through the designated methods set forth above where we can verify the authorized agent’s authority to act on your behalf by:
+For requests to know, delete, or correct personal information: receiving a valid power of attorney from you or your authorized agent or receiving sufficient evidence from the authorized agent to show that you have provided the agent a signed permission to submit the request. We may also verify your identity directly and confirm that you provided the authorized agent permission to submit the request on your behalf.
+Learn how we can help.
+Schedule a demo with a fraud expert and evaluate our solutions.
+GET A DEMO

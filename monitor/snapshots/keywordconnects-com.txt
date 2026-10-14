@@ -1,0 +1,138 @@
+Privacy Policy - Keyword Connects
+Skip to main content
+Skip to footer
+Last Updated: July 30, 2026
+Ignite Visibility and its affiliates (EverConnect, 33 Mile Radius LLC, Keyword Connects LLC, Remodeling.com LLC, Best Pick Reports LLC, Five Star Rated LLC, Socius Marketing LLC, Qiigo Inc., Brighter Vision Web Solutions, Inc.) (“Ignite Visibility,” “Company,” “we,” “us,” or “our”) want you to be familiar with how we collect, use, and disclose Personal Information. This Privacy Policy describes our practices in connection with Personal Information that we collect through:
+Websites operated by us from which you are accessing this Privacy Policy (“Websites”);
+Social media properties from which you are accessing this Privacy Policy (“Our Social Media”);
+Email messages and other communications that we send to you (“Communications”); and
+Any other offline business interactions you may have with us (“Offline Interactions”).
+Collectively, we refer to the Websites, Our Social Media, Communications, and Offline Interactions as the “Services.”
+Please note that this Privacy Policy does not govern any Personal Information that we process on behalf of our enterprise customers as a service provider or processor. This information will be governed by our agreements with those customers.
+CATEGORIES AND SOURCES OF PERSONAL INFORMATION COLLECTED
+“Personal Information” is information that identifies an individual or relates to an identifiable individual. Depending on the nature of your interactions with the Services (e.g., whether you are a home professional, a consumer looking to match with a home professional, or a business that is otherwise looking to partner or engage with us), we may collect the following categories of Personal Information:
+“De-identified Information” is information that cannot reasonably be linked to an individual or household. “Pseudonymous Information” is Personal Information whose direct identifiers have been masked or replaced but that can still be linked or matched to an individual using additional information. Hashed email addresses and telephone numbers are examples of Pseudonymous Information because an advertising platform may still match them to a particular user.
+Personal Information we receive from you:
+Account Information
+Such as the username and password you use to access the Services.
+Identifiers
+Such as first and last name, prefix, email address, telephone number, postal address, driver’s license, identity card, government-issued ID, and professional or trade-related information.
+User Content
+Such as reviews about our Services and other content that you may create or share with us during our relationship, including posts on Our Social Media and comment sections.
+Preferences
+Such as language, interests, and other feedback/preferences that you might express during your use of our Services.
+Marketing Data
+Such as your choices regarding our newsletters, surveys, and other marketing/advertising displayed or provided to you, and preferred methods of such promotional communication.
+Visitor and Event Information
+Such as dietary restrictions, travel, and accommodation details, issued identification pass to access the premises, and other details specific to a particular event or conference that you share with us.
+Project Information
+Such as home improvement project type, budget, timelines, and property details.
+User Interactions
+Such as information about how users engage with the Services and each other.
+User Photos and Videos
+Such as photos and videos submitted by you while using our Services.
+Commercial Information
+Such as details of your communications with us, details of your claims, complaints, queries in general, transaction information, and purchase history, including purchases considered, credit or debit card, which includes details like the cardholder’s name, primary account number, and expiration date.
+Employment Information
+Professional or employment-related details such as work history.
+Personal Information collected automatically through your use of our Services:
+Online Activity Data
+Pages or screens you viewed, how long you spent on a page or screen, navigation paths between pages or screens, information about your activity on a page or screen, access times, and duration of access, and whether you have opened our marketing emails or clicked links within them. This includes data obtained through cookies and similar technologies, as described in the COOKIES AND SIMILAR TECHNOLOGIES section.
+Device Information
+Your mobile device’s operating system type and version, manufacturer and model, screen resolution, RAM and disk size, CPU usage, device type (e.g., phone, tablet), IP address, language settings, mobile device carrier, radio/network information (e.g., WiFi, LTE, 3G), advertising ID, and general location information. This includes data obtained through cookies and similar technologies, as described in the COOKIES AND SIMILAR TECHNOLOGIES section.
+Audio/Visual Data
+Audio, electronic, visual, thermal, olfactory, and similar information, such as call and video recordings, photos and videos taken at one of our events/conferences, CCTV, and site security information.
+Geolocation Data
+Such as device location and approximate location derived from IP address.
+Other sources from which we collect Personal Information:
+Social Media
+Such as profile pictures, social media account ID, and other public social media profile information, including lists of friends/followers on social media.
+Third-Party Logins
+When you link, connect, or login to our Services with a third-party service (e.g., Google or Facebook), you direct the service to send us information as controlled by that service or as authorized by you via your privacy settings on that service.
+Other Third Parties
+We may collect information from sources such as publicly available databases, marketing partners, third-party providers, network partners, and data brokers.
+We need to collect Personal Information to provide the requested Services to you. If you do not provide the information requested, we may not be able to provide the Services. If you disclose any Personal Information relating to other people to us or to our service providers in connection with the Services, you represent that you have the authority to do so and to permit us to use the information in accordance with this Privacy Policy.
+PERSONAL INFORMATION PROCESSING PURPOSES
+We use Personal Information for our business purposes, including:
+Processing Purpose and Examples of Related Activities
+Administering the Services: Providing the Services’ functionality to you, such as arranging access to your registered account; verifying your information; responding to your inquiries and fulfilling your requests, such as when you contact us via one of our online contact forms or otherwise (e.g., when you send us questions or comments, or when you request other information about our Services); matching homeowners and other consumers with our network partners; sending you administrative information, such as information regarding the Services and changes to our terms, conditions, and policies; and/or to allow you to send Services-related content to another person through the Services if you choose to do so.
+Operations and general business: Administering online Services (including troubleshooting and diagnostic testing, conducting performance analyses of our systems and Services, testing new system features to evaluate their impact, system and log maintenance, technical support, system debugging, and hosting data); and facilitating mergers, acquisitions, and other reorganizations and restructurings of our business (including prospective transactions).
+Conferences, visits, and other events: Facilitating and participating in conferences and events, welcoming guests and visitors to our premises.
+Marketing: Sending you newsletters, event invitations, and mailings that we think may be of interest to you; fulfilling your event registration requests; and providing services, including providing events. We may also send you marketing communications by SMS, email, and telephone, subject to any consent requirements under applicable law.
+Targeted advertising: Engaging advertising partners, including third-party advertising companies and social media companies, to display ads to you on other websites and online services. These companies may use cookies and similar technologies to collect information about your interaction over time across the Services, our communications, and other online services, and use that information to serve online ads that they think will interest you. We may also share information about our users with these companies to facilitate interest-based advertising to our or similar users (known as a ‘lookalike audience’) on other online platforms. We may use Personal Information collected directly through the Services in de-identified or pseudonymous form, including hashed email addresses or telephone numbers, to create, match, model, and activate custom, lookalike, similar, or predictive audiences for advertising campaigns managed by us or our affiliates.
+Personalizing our Services: Personalizing our interactions with you and providing you with information and/or offers tailored to your interests, such as delivering content via our Services that we believe will be relevant and interesting to you.
+Improving and developing Services that we may provide to you: Conducting data analysis, for example, monitoring and analyzing Services use and using data analytics to improve the efficiency of our Services; developing new Services; considering ways to enhance, improve, repair, maintain, or modify our Services; identifying usage trends, for example, understanding which parts of our Services are most interesting to users; determining the effectiveness of our promotional campaigns, so we can adapt our campaigns to the needs and interests of our users; and operating and expanding our business activities.
+Relationship building and engagement: Facilitating and responding to any social sharing and posts on our Services and other customer relationship building activities.
+Aggregation and/or de-identification: Aggregating and/or de-identifying Personal Information so that it will no longer be considered Personal Information. We delete direct identifiers rather than merely hash or replace them, and generalize or suppress other information where necessary. We take reasonable measures to ensure that de-identified information cannot be associated with an individual or household, maintain and use it only in de-identified form, and do not attempt to reidentify it except to test whether our de-identification process is effective. We contractually require recipients to comply with the same restrictions.
+Call recording and call data: Where permitted by law, we may record calls after providing any required notice and obtaining any required consent at the beginning of the call. We may use call recordings and other call data in de-identified or pseudonymous form for analytics, service improvement, and advertising audience insights. These call-data uses apply only to call data collected after this revised Privacy Policy is posted and the required call notice and consent process is implemented.
+Security and fraud prevention: Conducting audits, verifying that our internal processes function as intended and are compliant with legal, regulatory, or contractual requirements; monitoring for and preventing fraud; and for security purposes, including maintaining system security and on-site security of our premises.
+Data sales and licensing: We may sell or license information in de-identified, aggregate, or pseudonymous form as described in the SALE, SHARING, AND LICENSING OF INFORMATION section.
+Legal and compliance: Fulfilling our legal and compliance-related obligations, including complying with applicable laws; complying with legal processes; responding to requests from public and government authorities; meeting national security or law enforcement requirements, compliance with requirements set by industry-specific supervisory bodies. Enforcing our terms and conditions and standards; protecting our operations; protecting the rights, privacy, or property of Company; responding to auditors; and allowing us to pursue available legal remedies and make insurance claims, defend claims, and limit the damages that we may sustain.
+Emergency and incident response: Ensuring the safety of on-site personnel and visitors; responding to, handling, and documenting on-site accidents and medical and other emergencies; actively monitoring properties to ensure adequate incident prevention, response, and documentation (including CCTV); requesting assistance from emergency services; and sending notifications and alerts in the event of incidents or emergencies (such as via SMS, email, call, audio-visual device prompts, etc.).
+DISCLOSURE OF PERSONAL INFORMATION
+We disclose Personal Information to third parties and for the purposes described below, depending on each specific jurisdiction and applicable law:
+Recipients
+Examples and/or Purposes
+Company Affiliates
+Our corporate parent, subsidiaries, and other affiliates.
+Third-party service providers and contractors
+Including service providers and contractors that provide website hosting, IT and related infrastructure, email delivery, analytics, and other services for the following purposes: Administering the Services Improving the Services Operations and general business Security and fraud prevention Marketing Personalizing our Services Aggregating and/or anonymizing Personal Information Relationship building and engagement Conferences, visits, and other events Legal and compliance
+Advertising networks
+Improving the Services Marketing and targeted advertising Personalizing our Services Relationship building and engagement
+Business partners
+Event co-sponsors Third parties in connection with licensing, joint development, or similar arrangements
+Data buyers and licensees
+For sales or licenses of de-identified, aggregate, or pseudonymous information, subject to the safeguards and consumer choices described in the SALE, SHARING, AND LICENSING OF INFORMATION section.
+Network partners
+Home professionals with whom we partner to provide homeowners and other consumers with home improvement, remodeling, disaster mitigation, restoration, and related services. These network partners pay to participate in the Services, which enable us to connect them with homeowners seeking assistance. For example, when a homeowner calls a phone number listed on the Services or submits an inquiry through the Services, we may route the call to, or disclose the homeowner’s Personal Information with our network partners. Depending on availability, geography, project type, and other factors, multiple network partners may receive your inquiry and Personal Information, and more than one network partner may contact you. Our network partners may use this information to contact consumers regarding a home project or inquiry, or for their own customer engagement and marketing purposes. Their use of your Personal Information is governed by their own privacy policies, which may differ from this Privacy Policy.
+Homeowners
+If you are a network partner, we may share your Personal Information with consumers who use the Services to search for home professionals.
+Law enforcement, public, regulatory, and government authorities, courts, tribunals, or third parties where necessary to comply with applicable law and regulations
+Emergency and incident response Security and fraud prevention Legal and compliance Responding to a request or providing information to public and government authorities Responding to law enforcement requests and orders or providing information to law enforcement For dispute resolution purposes To enforce our terms and conditions To protect our rights, privacy, safety, property, and/or that of our affiliates, you or others
+Professional advisors, such as accountants, actuaries, auditors, experts, consultants, lawyers, banks, and financial institutions
+Security and fraud prevention Legal and compliance Improving the Services
+Third parties, such as an acquiring entity and its advisors, in connection with a sale or business transaction
+We may disclose or transfer your Personal Information in the event of any reorganization, merger, sale, joint venture, assignment, transfer, or other disposition of all or any portion of our business, assets, or stock (including in connection with any bankruptcy or similar proceedings). You will be notified of any such business transaction and of possible changes to the processing of your Personal Information in accordance with applicable law and the UPDATES TO THIS PRIVACY POLICY section.
+We may also share your Personal Information with other third parties at your direction or with your consent. Furthermore, by using the Services, you may elect to disclose Personal Information on the Services, including our directories, message boards, chat, profile pages, blogs, and other services to which you are able to post information and content (including, without limitation, Our Social Media), or through which you are able to send messages through the Services. Please note that any information you post or disclose in this context will become public and may be available to other users and the general public.
+SALE, SHARING, AND LICENSING OF INFORMATION
+The sale and licensing activities described in this section apply only to Personal Information collected directly through the Services after the Last Updated date above. Unless and until separately evaluated and disclosed, they do not include Personal Information obtained from affiliates, contractors, agency clients, data brokers, or other third parties; information treated as Sensitive Personal Information under applicable law; Personal Information known to relate to minors; or precise geolocation information.
+We may sell or license De-identified Information or aggregate information. Before doing so, we take reasonable measures to ensure that the information cannot be associated with an individual or household, retain no key or crosswalk that would allow the information to be linked back to an individual, and contractually prohibit recipients from attempting to reidentify it.
+We may also sell, license, or share Personal Information in pseudonymous form. This may include hashed identifiers, commercial and project information, online activity and device information, approximate location information, call data, and inferences. Recipients may include advertising and social media platforms, data buyers and licensees, and business partners. They may use the information for audience modeling and matching, targeted advertising, analytics, and related data, advertising, and service offerings.
+Because Pseudonymous Information remains Personal Information, you may have the right under applicable law to opt out of its sale, sharing, or use for targeted advertising and to request access, correction, or deletion. You may submit an opt-out request through the “Do Not Sell or Share My Personal Information” link on the Services or by contacting us at legalcounsel@ignitevisibility.com. We also honor legally recognized opt-out preference signals where required. We will not discriminate against you for exercising an applicable privacy right. We do not knowingly sell or share Personal Information of individuals under 16 years of age without affirmative authorization as required by law.
+COOKIES AND SIMILAR TECHNOLOGIES
+We and our service providers may collect information automatically, including through cookies, pixel tags, and similar tracking technologies.
+Technology
+Purpose
+Cookies
+Cookies are pieces of information stored directly on the device that you are using that allow us to collect information such as browser type, time spent on the Services, pages visited, language preferences, and other traffic data. We, our advertising partners, and our service providers may use the information for security purposes, to facilitate navigation, display information more effectively, engage in targeted advertising, conduct analytics, and personalize your experience. We do not currently respond to browser do-not-track signals. You can read more information about cookies at http://www.allaboutcookies.org/manage-cookies/index.html.
+Local Storage Technologies
+These technologies provide cookie-equivalent functionality but can store larger amounts of data, including on your device outside of your browser in connection with specific applications.
+Pixel Tags
+Also known as web beacons and clear GIFs, pixel tags may be used to, among other things, track the actions of users of the Services (including email recipients), conduct targeted advertising, measure the success of our marketing campaigns, and compile statistics about usage of the Services and response rates.
+Google Analytics
+We use Google Analytics to collect and analyze information about use of the Services and report on activities and trends. This service may also collect information regarding the use of other websites, apps and online resources. You can learn about Google’s practices by going to www.google.com/policies/privacy/partners/, and opt out of them by downloading the Google Analytics opt-out browser add-on, available at https://tools.google.com/dlpage/gaoptout
+SECURITY
+We seek to use reasonable organizational, technical, and administrative measures to protect Personal Information within our organization. Unfortunately, no data transmission or storage system can be guaranteed to be 100% secure. If you have reason to believe that your interaction with us is no longer secure, please immediately notify us in accordance with the CONTACTING US section below.
+MARKETING CHOICES
+You have choices regarding marketing-related communications. Where required by applicable law, we will ask for your prior opt-in consent. If you no longer want to receive marketing-related communications from us on a going-forward basis, you may opt out by following the unsubscribe instructions in any such message or by contacting us by email at privacy@keywordconnects.com.
+Please note that if you opt out of receiving marketing from us, we may still send you important administrative messages, from which you cannot opt out.
+RETENTION PERIOD
+We retain Personal Information for as long as needed or permitted in light of the purpose(s) for which it was obtained as outlined in this Privacy Policy unless a longer retention period is required or permitted by applicable law.
+THIRD-PARTY SERVICES
+This Privacy Policy does not address, and we are not responsible for, the privacy, information, or other practices of any third parties. This includes any of our network partners and other third parties operating any website or service to which the Services link. The inclusion of a link on the Services does not imply endorsement of the linked site or service by us or by our affiliates.
+THIRD-PARTY PAYMENT SERVICE
+The Services may provide functionality allowing you to make payments to us using third-party payment services with which you have created your own account. When you use such a service to make a payment to us, your Personal Information will be collected by that third party and not by us and will be subject to the third party’s privacy policy, rather than this Privacy Policy. We have no control over, and are not responsible for, this third party’s collection, use, and disclosure of your Personal Information.
+USE OF SERVICES BY MINORS
+The Services are not directed to individuals under the age of thirteen (13), and we do not knowingly collect Personal Information from individuals under 13.
+JOB APPLICANTS
+When you visit the careers portion of our Websites, we collect the information that you provide to us in connection with your job application. This includes but is not limited to business and personal contact information, professional credentials and skills, educational and work history and other information of the type that may be included in a resume. This may also include diversity information that you voluntarily provide. We use this to facilitate our recruitment activities and process employment applications, such as by evaluating a job candidate for an employment activity, to monitor recruitment statistics and to respond to surveys. We may also use this information (i) to comply with relevant laws or to respond to subpoenas or warrants served on us, (ii) to protect and defend our or others’ rights or property, (iii) in connection with a legal investigation and (iv) to investigate or assist in preventing any violation or potential violation of the law, this Privacy Policy or our terms of use.
+UPDATES TO THIS PRIVACY POLICY
+The “Last Updated” legend at the top of this Privacy Policy indicates when this Privacy Policy was last revised. Any changes will become effective when we post the revised Privacy Policy on the Services.
+CONTACTING US
+If you have any questions about this Privacy Policy, please contact us at: legalcounsel@ignitevisibility.com or 7700 Irvine Center Dr, Suite 430, Irvine, CA 92618.
+Footer
+Contact Us
+781-899-3675
+EverConnect
+7700 Irvine Center Drive, Suite 430
+Irvine, CA 92618

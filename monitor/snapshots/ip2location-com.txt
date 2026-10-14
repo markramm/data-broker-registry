@@ -1,0 +1,70 @@
+Do Not Sell Request Form | IP2Location
+Manage Your Data With Us (Including Making A "Do Not Sell My Info" Request)
+IP2Location values your privacy.
+The California Consumer Privacy Act ("CCPA") provides California residents with the right to opt out of the sale of their personal information (or “Personal Data”) by a business to third parties, subject to certain exceptions as permitted by law. To exercise your rights where IP2Location operates as a business, please fill out and submit the form below complete with required fields (*).
+The CCPA also provides California Residents additional rights over their Personal Data, as described in our Privacy Policy. Additional jurisdictions, including the European Union, through the General Data Protection Act, and the UK also provide data subjects with the ability to exercise certain rights over their information. All of these rights are described in our Privacy Policy. If you wish to exercise these rights and are a resident of a relevant jurisdiction, please fill out the below form:
+Name *
+Requester Email Address *
+What is the IP address associated with your Personal Data? *
+If entering multiple IP addresses please separate them by a comma.
+If you do not know your IP Address, you can go to this demo page to see what IP address we see for your device.
+Please note that we may need additional information to verify your request, as discussed in our Privacy Policy. We will notify you via email if this is so.
+Finally, please note that we may automatically collect your existing IP address for verification.
+Please specify the type of request you have: *
+I want you to change the personal data you have about me
+I want you to delete the personal data you have about me
+I want you to stop using my personal data
+I want to know what personal data you have about me
+I want you to not sell my personal data (California residents)
+Please specify the scope of your request: *
+This request relates to all of my data
+I am okay with you retaining only the name of the country associated with my IP Address
+* Please note: If your request relates to all of your data, you may experience issues using some of our customers’ services. For example, if a streaming service cannot identify your location, they may not offer you content, or offer you more restricted content. We recommend that we retain the country your IP address is associated with (for example, Belgium) to minimize this interruption. To be clear, if you select this option as part of a deletion or "do not sell my information" request, we will only retain two points of information in our database: your IP address and the country name associated with the IP address.
+Are you making this request on behalf of someone else?
+Yes
+No
+If you are making this request on behalf of someone else, please upload documentary proof that you are authorized to act on behalf the individual about whom the request is about.
+As these rights are only prescribed in certain jurisdictions, we reserve the right to request additional information to confirm you reside in or are otherwise subject to the laws of one of the relevant jurisdictions.
+Submit Request
+Our Site
+Client Portal
+Online Demo
+Solutions
+Developers
+Blog
+Media Kit
+Newsletter
+Careers
+Feature Request
+Do Not Sell My Info
+Contact
+AI Information
+What is Happening
+Database
+IP2Location™ Database
+IP2Proxy™ Database
+LITE Database
+Web Service
+IP2Locaton.io Web Service
+IP2Location™ Batch Service
+IP2Proxy™ Batch Service
+Free Service
+Free IP Data
+Free Tools
+Applications
+Firewall IP List
+Search Engine IP List
+Visitor Redirection
+Traceroute
+Email Tracer
+Downloader Script
+Extensions / Plugins
+Widgets
+IP Address Report
+World Country List
+What is My IP
+Newsletter
+Subscribe to our newsletter and stay up to date with the latest news and deals!
+Subscribe
+Trustpilot
+Terms of Service | Privacy Policy | Cookie Notice

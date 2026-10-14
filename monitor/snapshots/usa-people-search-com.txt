@@ -1,0 +1,27 @@
+USA People Search - Opt out process - Initial form
+USA People Search
+> Opt Out
+USA People Search Opt-Out Form
+To opt your record out from our data offerings, please follow these steps:
+Enter your email address and name and complete the captcha below. We will send a link to your email address that will take you to the opt-out form.
+Click the link sent to your email. It may take some time to arrive. If you wait more than 24 hours to click this link you will need to request a new one.
+Enter your information on the form. This should match the info on the record you want opted out.
+You will be taken to a confirmation page verifying that we have received your request and it is being processed. You will also receive a confirmation email. Please allow 3 days for your request to be fully processed.
+Note: Omitting information or providing inaccurate information on the opt-out form will only hinder the opt-out process. Please fill out the entire form accurately so that we can ensure we remove all your information from our site.
+We will not use information gathered during this process for anything other than to process your request.
+Enter your name and email address - we'll email you a link to the record removal form to complete the process
+In order to complete your opt-out request, please enter your email address below. We will send an email to confirm the removal of the record you selected. We only will use your email address to send you an email to verify your request to opt out.
+I am:
+The subject of the request
+An authorized agent of the subject of the request
+Subject First Name*
+Subject Middle Name
+Subject Last Name*
+Subject Email*
+Agent First Name*
+Agent Last Name*
+Agent Email*
+Note: Authorized agent's email address will be used to send a link to the opt-out form. Once that form has been submitted, confirmation of processing will be sent to both the authorized agent's and the subject's email addresses.
+I authorize USA People Search to send communications relating to my privacy request to the email address(es) provided. I certify that I am the subject of the request, or an agent authorized to act on behalf of the subject of the request. I understand that information provided relating to this request will not be used for any purpose other than the processing of this request.
+The Information you provide here will only be used to process your request. We will not sell or use the information or use it for any other purpose. Please see our Privacy Policy for more details.
+Begin Removal Process

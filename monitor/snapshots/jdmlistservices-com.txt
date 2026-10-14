@@ -1,0 +1,205 @@
+Privacy Policy
+Privacy Policy
+JDM List Services Privacy Policy
+Effective Date: August 14, 2025
+Last updated: August 14, 2025
+1. Introduction
+JDM List Services, LLC (“JDM,” “we,” “us,” or “our”) values your privacy. This Privacy Policy explains how we collect, use, and share personal information in connection with our services, and describes your rights under applicable U.S. state privacy laws.
+2. California Data Broker – Required Privacy Policy Disclosures
+This section is provided to meet the obligations under all applicable California privacy laws, including but not limited to the California Consumer Privacy Act, as amended by the California Privacy Rights Act (CCPA/CPRA), the California Data Broker Registration law, and the California Delete Act (SB-362). It supplements the rest of this Privacy Policy and applies specifically to California consumers.
+Data Broker Registration
+JDM List Services is registered as a Data Broker with the California Privacy Protection Agency (CPPA). Our annual registration can be verified at https://www.cppa.ca.gov/data_brokers/.
+Information We Collect
+The following table lists CPRA-defined categories and indicates whether JDM collected them in the last 12 months.
+We do not maintain a database of individual consumers. We may receive limited personal information as part of vendor-provided files that are passed directly to clients for use in their marketing campaigns. The categories of personal information we may process are described below, in accordance with the California Privacy Rights Act (CPRA).
+Category (CPRA)
+Collected (last 12 months)
+A. Identifiers
+Name; postal address; email address; unique personal identifier (B2B contact only).
+Yes
+B. Customer Records (Cal. Civ. Code §1798.80(e))
+Name; address; telephone number.
+Yes
+C. Protected Classifications
+Race; religion; sexual orientation; disability; etc.
+No
+D. Commercial Information
+Records of services purchased or considered (B2B).
+Yes
+E. Biometric Information
+Fingerprints; faceprints; voiceprints; iris scans.
+No
+F. Internet/Network Activity
+Browsing or search history; website/app interactions.
+No
+G. Geolocation Data
+Precise location or movements.
+No
+H. Sensory Data
+Audio; visual; or similar information.
+No
+I. Professional/Employment Information
+Business contact’s employer or title (B2B).
+Yes
+J. Non‑public Education Information
+Education records under FERPA.
+No
+K. Inferences
+Profiles drawn from personal information.
+No
+In the preceding 12 months:
+• We disclosed the following categories for a business purpose: A (Identifiers), B (Customer Records), D (Commercial Information), I (Professional/Employment Information).
+• We did not sell personal information and did not share personal information for cross‑context behavioral advertising. If applicable law treats vendor‑directed transmission of a file as a sale/share, you may opt out using the methods below.
+Sensitive Data Collection
+In the preceding 12 months, we have collected the following categories of personal information that may be considered sensitive under California law:
+• Precise geolocation data: No
+• Personal information of consumers under the age of 16: No
+• Personal information concerning reproductive health: No
+Consumer Rights Metrics
+The following metrics reflect the number of consumer requests we received, complied with in whole or in part, and denied during the previous calendar year (example data; to be updated annually by January 31):
+Requests to Know:
+Number Received: 5
+Number Complied With (Full or Partial): 5
+Number Denied: 0
+Requests to Delete:
+Number Received: 127
+Number Complied With (Full or Partial): 127
+Number Denied: 0
+Requests to Opt Out of Sale/Sharing:
+Number Received: 12
+Number Complied With (Full or Partial): 12
+Number Denied: 0
+Requests to Correct:
+Number Received: 0
+Number Complied With (Full or Partial): 0
+Number Denied: 0
+California Delete Act Compliance
+Starting August 1, 2026, California consumers may submit a single, universal deletion request through the CPPA’s deletion mechanism. Upon receiving such a request from the CPPA, we will delete the consumer’s personal information from our systems and notify any service providers or contractors to do the same within 45 days, unless an exception applies under California law.
+Audits
+Beginning January 1, 2028, we will undergo an independent audit of our compliance with California’s data broker laws every three years, and beginning January 1, 2029, we will submit confirmation of audit completion to the CPPA.
+3. How We Use Information
+We use the limited personal information we receive solely to facilitate transactions between our clients and independent data vendors, and to perform administrative functions such as billing and tracking campaign results.
+4. How We Share Information
+We do not sell personal information for our own marketing purposes. We may share personal information with:
+• Clients, to fulfill their orders for marketing data.
+• Vendors, to obtain the requested marketing data.
+• Service providers, to support administrative operations.
+We require that all parties receiving personal information comply with applicable privacy laws.
+5. Data Retention
+We retain personal information only as long as necessary to fulfill the purposes for which it was provided or as required by law.
+6. Data Security
+We apply administrative, technical, and physical safeguards to protect the limited personal information we process.
+7. Your Privacy Rights – Overview
+Depending on your state of residence, you may have the right to:
+• Access, correct, or delete your personal information.
+• Obtain a portable copy of your personal information.
+• Opt out of targeted advertising, the sale of personal information, or profiling.
+• Appeal a decision regarding your privacy request.
+8. How to Exercise Your Rights
+You can submit a request by emailing privacy@jdmlistservices.com or calling 1-888-526-0909. We will verify your identity before processing your request and respond within the timeframes required by law.
+9. State-Specific Privacy Notices
+The following notices supplement the information in this Privacy Policy and apply to residents of the listed states: California, Colorado, Connecticut, Virginia, Utah, Iowa, Texas, Oregon, Delaware, Montana, Nebraska, New Hampshire, New Jersey, Minnesota, Tennessee, and Florida. Each state’s laws may provide specific rights and obligations regarding personal information, which we honor in accordance with applicable thresholds. Inclusion of a state notice does not constitute an admission or agreement that such state’s law applies to our operations; we provide these notices for transparency and to reflect our commitment to privacy best practices.
+California Residents (CCPA/CPRA)
+•Rights: know/access; delete; correct; data portability; opt‑out of sale and sharing for cross‑context behavioral advertising; limit use/disclosure of sensitive personal information; non‑discrimination.
+•How to exercise: email privacy@jdmlistservices.com or call 1‑888‑526‑0909. Authorized agents may submit requests; we verify identity and authority.
+•Universal Opt‑Out Signals: we honor Global Privacy Control (GPC) signals for sale/sharing opt‑outs where applicable.
+•You are not required to create an account to exercise any of your rights under this notice.
+Colorado Residents (CPA)
+•Rights: access; correction; deletion; portability; opt‑out of targeted advertising, sale of personal data, and certain profiling.
+•Appeals: if denied, you may appeal. We respond within 45 days and may extend by up to 60 days where reasonably necessary.
+•Universal Opt‑Out Mechanisms (UOOM): we recognize user‑enabled signals (e.g., GPC) for targeted advertising and sale.
+•How to exercise: email privacy@jdmlistservices.com or call 1‑888‑526‑0909.
+•You are not required to create an account to exercise any of your rights under this notice.
+Connecticut Residents (CTDPA)
+•Rights: access; correction; deletion; portability; opt‑out of sale, targeted advertising, and certain profiling.
+•Appeals: if denied, you may appeal. We respond within 60 days and provide information on contacting the Connecticut Attorney General if we deny the appeal.
+•UOOM: we recognize universal opt‑out mechanisms where required.
+•How to exercise: email privacy@jdmlistservices.com or call 1‑888‑526‑0909.
+•You are not required to create an account to exercise any of your rights under this notice.
+Virginia Residents (VCDPA)
+•Rights: access; correction; deletion; portability; opt‑out of targeted advertising, sale, and certain profiling.
+•Appeals: if denied, you may appeal. We respond within 60 days and include how to contact the Virginia Attorney General if we deny the appeal.
+•How to exercise: email privacy@jdmlistservices.com or call 1‑888‑526‑0909.
+•You are not required to create an account to exercise any of your rights under this notice.
+Utah Residents (UCPA)
+•Rights: access; deletion; portability; opt‑out of sale and targeted advertising.
+•Note: UCPA does not provide a statutory right to correct or an appeal right.
+•How to exercise: email privacy@jdmlistservices.com or call 1‑888‑526‑0909.
+•You are not required to create an account to exercise any of your rights under this notice.
+Iowa Residents (ICDPA)
+•Rights: confirm processing and access; deletion of data you provided; portability; opt‑out of sale and targeted advertising.
+•Note: Iowa law does not provide a statutory right to correct or an appeal right.
+•How to exercise: email privacy@jdmlistservices.com or call 1‑888‑526‑0909.
+•You are not required to create an account to exercise any of your rights under this notice.
+Texas Residents (TDPSA)
+•Rights: access; correction; deletion; portability; opt‑out of targeted advertising, sale, and certain profiling.
+•Appeals: if denied, you may appeal. We respond within 60 days and include how to contact the Texas Attorney General if we deny the appeal.
+•UOOM: we recognize universal opt‑out mechanisms where required.
+•How to exercise: email privacy@jdmlistservices.com or call 1‑888‑526‑0909.
+•You are not required to create an account to exercise any of your rights under this notice.
+Oregon Residents (OCPA)
+•Rights: access; correction; deletion; portability; opt‑out of targeted advertising, sale, and certain profiling.
+•Appeals: if denied, you may appeal. We respond within 45 days.
+•UOOM: we recognize universal opt‑out mechanisms where required.
+•Controller identification: JDM List Services, LLC.
+•How to exercise: email privacy@jdmlistservices.com or call 1‑888‑526‑0909.
+•You are not required to create an account to exercise any of your rights under this notice.
+Delaware Residents (DPDPA)
+•Rights: access; correction; deletion; portability; opt‑out of targeted advertising, sale, and certain profiling.
+•Appeals: if denied, you may appeal. We respond within 60 days.
+•UOOM: we recognize universal opt‑out mechanisms where required.
+•How to exercise: email privacy@jdmlistservices.com or call 1‑888‑526‑0909.
+•You are not required to create an account to exercise any of your rights under this notice.
+Montana Residents (MCDPA)
+•Rights: access; correction; deletion; portability; opt‑out of targeted advertising, sale, and certain profiling.
+•Appeals: if denied, you may appeal. We respond within 60 days.
+•UOOM: we recognize universal opt‑out mechanisms where required.
+•How to exercise: email privacy@jdmlistservices.com or call 1‑888‑526‑0909.
+•You are not required to create an account to exercise any of your rights under this notice.
+Nebraska Residents (NDPA)
+•Rights: access/confirm processing; deletion; portability; opt‑out of targeted advertising, sale, and certain profiling.
+•Appeals: if denied, you may appeal. We respond within 60 days.
+•UOOM: we recognize universal opt‑out mechanisms where required.
+•How to exercise: email privacy@jdmlistservices.com or call 1‑888‑526‑0909.
+•You are not required to create an account to exercise any of your rights under this notice.
+New Hampshire Residents (SB 255)
+•Rights: access; correction; deletion; portability; opt‑out of targeted advertising, sale, and certain profiling.
+•Appeals: if denied, you may appeal. We respond within 60 days.
+•UOOM: we recognize universal opt‑out mechanisms where required.
+•How to exercise: email privacy@jdmlistservices.com or call 1‑888‑526‑0909.
+•You are not required to create an account to exercise any of your rights under this notice.
+New Jersey Residents (NJDPA)
+*JDM is not subject to the New Jersey Data Privacy Act. However, because we are committed to transparency and good privacy practices, we voluntarily provide the following information. This should not be interpreted as JDM accepting or agreeing that the NJDPA applies to our operations.
+•Rights: access; correction; deletion; portability; opt-out of targeted advertising, sale, and certain profiling; restrict processing of sensitive data without consent.
+•Categories of personal information collected: the categories of personal information we collect and process are the same as those listed in the Section 2 and the California Residents paragraph of Section 9 of this policy.
+•Categories shared with third parties: we disclose the same categories listed above for limited business purposes, as described in the California section. These disclosures apply for both California and New Jersey residents.
+•Purposes of processing: personal information is processed for the business purposes described in the “How We Use Personal Information” section of this policy.
+•Sensitive data: we do not collect sensitive data as defined under the NJDPA.
+•Appeals: if we deny your request, you may appeal. by emailing privacy@jdmlistservices.com or call 1-888-526-0909. We respond to appeals within 45 days.
+•Universal Opt-Out Mechanisms (UOOM): as of July 15, 2025, we recognize universal opt-out mechanisms (e.g., Global Privacy Control).
+•How to exercise: email privacy@jdmlistservices.com or call 1‑888‑526‑0909.
+•Account creation: You are not required to create an account to exercise any of your rights under this notice.
+Minnesota Residents (MCDPA)
+•Rights: access; correction; deletion; portability; opt‑out of targeted advertising, sale, and certain profiling.
+•Appeals: if denied, you may appeal. We respond within 45 days and may extend by 60 days where reasonably necessary.
+•UOOM: we recognize universal opt‑out mechanisms where required.
+•How to exercise: email privacy@jdmlistservices.com or call 1‑888‑526‑0909.
+•You are not required to create an account to exercise any of your rights under this notice.
+Tennessee Residents (TIPA)
+•Rights: access; correction; deletion; portability; opt‑out of targeted advertising, sale, and certain profiling.
+•Appeals: if denied, you may appeal. We respond within 60 days.
+•How to exercise: email privacy@jdmlistservices.com or call 1‑888‑526‑0909.
+•You are not required to create an account to exercise any of your rights under this notice.
+Florida Residents (Florida Digital Bill of Rights)
+•Applicability: Florida’s law applies to certain larger enterprises meeting statutory thresholds. If and when applicable, Florida residents may exercise rights to access, delete, correct, and opt out of sale, targeted advertising, and certain profiling.
+•How to exercise: email privacy@jdmlistservices.com or call 1‑888‑526‑0909.
+•You are not required to create an account to exercise any of your rights under this notice.
+If you reside in a U.S. State not listed above that has enacted a consumer privacy law granting you specific rights, you may still contact us to exercise any applicable rights under your state’s law. Please email your request to . We will respond in accordance with any applicable legal obligations.
+12. Changes to This Policy
+We reserve the right to amend this privacy notice at our discretion and at any time. When we make changes to this privacy notice, we will post the updated notice on the Website and update the notice's effective date. Your continued use of our Website following the posting of changes constitutes your acceptance of such changes.
+13. Contact Us
+If you have any questions about this Privacy Policy or our privacy practices, please contact us at:
+Email: privacy@jdmlistservices.com
+Phone: 1-888-526-0909
+Mail: JDM List Services, LLC, 1400 5th Avenue #2G New York, NY 10026
+Privacy Policy

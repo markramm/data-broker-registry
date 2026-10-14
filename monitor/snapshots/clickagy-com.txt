@@ -1,0 +1,25 @@
+Privacy Center | Clickagy
+Privacy Center
+Privacy laws in many jurisdictions allow you choices with respect to your data.
+Please review the following important information before making your request:
+Requests to access your personal information must be made before requests to delete or to opt out of tracking. Processing requests for deletion or to opt out results in deletion of the pseudonymous tracking cookie on the browser or device used to make the request, so subsequent requests for access will not link to information about your browser or device.
+Because requests are tied to the individual browser or device used to make the request, a separate request must be made from each browser or device you wish to make a request about. Alternatively, you may use an opt-out preference signal, such as the Global Privacy Control, to make an opt-out request.
+Requests may be made on behalf of another individual who has given the necessary authorization, but for technical reasons, these requests must be made using that individual’s browser or device.
+Request access to the data about you
+Click the link below to learn about the data Clickagy has collected about you.
+Once we’ve verified your identity, we will send you a report.
+Request data
+Delete your data
+Click the link below to delete the linkage between your browser and device and any behavioral data we have collected.
+Delete data
+Do not sell or share data about you
+Want to prevent any data we have about you from being sold? Click the link below.
+Do not sell or share
+Correct your data
+You may have the right to request that we correct inaccurate personal information that we hold about you.
+In some cases, we may process requests to correct data as requests to delete.
+Contact us at privacy@clickagy.com if you want to request that we correct your data
+or if you have questions or concerns about us deleting your data in lieu of correcting it.
+Texas Data Broker Notice
+Clickagy is a data broker under Texas law. To conduct business in Texas, a data broker must register with the Texas Secretary of State (Texas SOS). Information about data broker registrants is available on the Texas SOS website.
+Clickagy misses you ❤

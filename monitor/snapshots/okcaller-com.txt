@@ -1,0 +1,44 @@
+//error_reporting(E_ALL);
+// Display errors on the page
+//ini_set('display_errors', 1);
+?>
+Help & Support| OkCaller.com
+Home
+Help & Support
+Get Realtime Caller Name ID for any number that called or texted you.
+Login with Google to instantly view real-time Caller Name ID, free of charge.
+OkCaller lets you obtain Caller Name ID for any missed call, text, or voicemail you received. OkCaller is the only licensed provided of Web Caller Name ID on the Web. We are committed to free Web Caller ID, and have given away over 300 million free Caller Name IDs since we patented the technology in 2013. In light of newly emerging circumstances, we now require a Google login to obtain free Caller ID. We never sell your information. If you do not have Google, or prefer not to login, we recommend the Caller-ID Global Lookup app.
+Reverse Search Any Number that Called or Texted You.
+Get instant Caller Name Identification.
+General Questions
+1.Do I need to create an account to use your reference directory?
+Since we started in 2013, our reference database - with hundreds of millions of listings - has been fully searchable to the public. Eventually, we had to decide whether to require CAPTCHA or account registration, to provide maximum functionality and security. After reviewing all available techniques, we decided "Login with Google" offered the most frictionless way to access OKCaller, improve functionality, and uphold the highest safety and privacy standards. If you prefer not to use Google to login to OkCaller, please download our app, "Caller ID Global Lookup". Thank you for your interest in our service.
+2. What countries are listed in your site?
+Currently, our data covers the United States and Canada. Our App offers Web Caller Name ID for nearly every country on the planet!
+3. Are businesses listed, or only home numbers?
+OkCaller provides Caller Name ID for individuals and businesses.
+4. Is there an app?
+Caller-ID Global Lookup is available on both iOS and Android, and offers similar free Web Caller Name ID. It also offers premium address and email search functionality.
+5. Why can't I find a number I'm searching for?
+We have coverage for a large majority of numbers in the United States. It is not, however, possible to list every number. Please check again in the future, as we are constantly adding new information to our site.
+6. How exactly does Web Caller Name ID Work?
+You can see the whitepaper here, which is a USPTO Patent Specification.
+Opt-Out
+1. How do I remove my phone number from your website?
+Detailed Opt-Out Procedure
+To ensure the protection of your privacy, OkCaller provides a straightforward opt-out procedure, aligning with our adherence to SS7/PSTN standards and our patent authorization:
+Via Carrier: Contact your telecommunications service provider to request CNAM blocking, which prevents your Caller Name ID from being displayed across Caller ID systems, including web-based platforms.
+Via SMS System: Utilize OkCaller's SMS-based opt-out service by sending a designated code (details available on our website) from the number you wish to remove. A confirmation will be sent upon successful completion of the opt-out process.
+If difficulties arise during the opt-out process, please follow these steps:
+Send a certified letter to OkCaller outlining the issues encountered during your opt-out attempt. Address this to: OkCaller.com Opt-Out, 10312 Orchid Reserve Dr, West Palm Beach FL 33414.
+Email us at info@okcaller.com with the subject line "OPTOUT FAILURE AFTER COMPLIANCE WITH TOS," including your phone number and any relevant details or proof of your attempt to opt-out using the prescribed methods.
+This procedure is integral to our commitment to upholding the highest standards of privacy and user autonomy in the digital communication landscape.
+Payment & Fees
+1. How much does OkCaller cost to use?
+OkCaller is a free service. We work hard to maintain free Web Caller Name ID, and the service is sponsored by Google AdSense.
+2. How does your information compare to paid "Reverse Search" services?
+OkCaller provides Web Caller Name ID for nearly every telephone number in the United States and Canada. Our information is derived directly from telco sources and we do not charge for access to it. It some cases a paid search may have information not on our site, such as email, address, and age, but in other cases, a paid search may yield less information than our site. We recommended first searching OkCaller before you pay for premium services. Those services often derive from credit bureau and other proprietary data, and the monthly fees cover large marketing and data sourcing costs.
+Contact Us
+1. I have a question not answered in the FAQ. How do I contact someone at OkCaller?
+Our email address is support@OkCaller.com
+We review all emails daily. Opt-outs are handled by our automated verification system.

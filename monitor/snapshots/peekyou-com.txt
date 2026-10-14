@@ -1,0 +1,15 @@
+Domain Update — PeekYou.com
+The domain name peekyou.com is now controlled by Atlas Data Privacy Corporation (“Atlas”).
+On April 30, 2025, Atlas and three individual plaintiffs filed a lawsuit in New Jersey Superior Court: Atlas Data Privacy Corporation, et al. v. PeekYou LLC, et al. In the Complaint, Atlas asserted claims assigned to it by approximately 21,700 law enforcement officers, prosecutors, and other “covered persons” under New Jersey’s Daniel’s Law, which protects home addresses and unpublished home telephone numbers from disclosure.
+Atlas and PeekYou LLC have entered into a settlement agreement, and this lawsuit has now been resolved.
+Additional information regarding this and other Daniel’s Law cases can be obtained from the Superior Court of New Jersey.
+For more information on Daniel’s Law and related enforcement efforts, see:
+Silence Is Not Compliance: Evidence From Two Judicial-Privacy Regimes — Matthew Adkisson & John Muffler, preprint (Updated October 1, 2026)
+Data Broker Radaris Loses Domains in Privacy Fight — KrebsOnSecurity (September 16, 2026)
+Study Finds Judges’ Home Addresses Remain Online Despite Federal Privacy Law — The Florida Bar News (September 10, 2026)
+US Judges’ Addresses Exposed Despite Privacy Law, Report Says — Bloomberg Law (September 3, 2026)
+Daniel’s Law Was Born From a Judge’s Family Tragedy. Now the Privacy Law Faces Its Biggest Test. — NJ.com (August 26, 2026)
+N.J. Cops and Judges Just Won a Big Legal Battle Over Their Personal Data. Here’s What Changed. — NJ.com (August 13, 2026)
+The Future of Online Privacy Hinges on Thousands of New Jersey Cops — WIRED (November 25, 2024)
+Companies Line Up to Undercut Key Data Privacy Law — Politico (April 5, 2024)
+New Jersey Law Enforcement Officers Sue 118 Data Brokers for Not Removing Personal Info — The Record (February 13, 2024)

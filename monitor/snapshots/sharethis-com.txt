@@ -1,0 +1,25 @@
+Data Subject Privacy Request - ShareThis
+Data Subject Privacy Request
+Please use the form below to submit a request to delete your personal data under applicable privacy laws. This form may also be used to opt-out of our use of your hashed email address (HEM) to enable profiling, ad targeting or sale/share of your HEM. When we receive a request to delete an email address, we will interpret that as a request to opt-out of our use of the HEM as well. Similarly, if you request that we correct your information, we’ll treat that as a request to delete.
+Please indicate which of the following data privacy requests you are making:
+Opt-out of our use of your hashed email address (HEM) for ad targeting, profiling and/or sale/share.
+Delete your personal data under applicable privacy laws, which will also result in the opt-out of our use of your hashed email address for ad targeting, profiling and/or sale/share.
+Correct your personal data under applicable privacy laws. We treat any request to correct as a request to delete.
+Email Address
+CAPTCHA Verification
+Please complete the CAPTCHA to verify you're not a robot.
+Submit request
+All set!
+A notification will be sent to the email you provided once your report is ready. Thanks!
+Other Data Subject Privacy Rights
+Cookie Opt-Out – If you want to opt-out from our use of cookies, as described in our privacy policy, please click here.
+Access Request – If you want to review the data we have about you (i.e., a data access request), please send an email to access@sharethis.com.
+Privacy Policy – Our privacy policy is available here.
+EN
+ES
+DE
+FR
+IT
+TW
+PT
+JA

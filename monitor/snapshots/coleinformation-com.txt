@@ -1,0 +1,17 @@
+This Domain Has Been Transferred by Court Order — ColeInformation.com
+Pursuant to a final judgment of the New Jersey Superior Court, the domain name coleinformation.com has been transferred to Atlas Data Privacy Corporation (“Atlas”) and is no longer under the control of its former operators.
+On October 16, 2024, Atlas and five individual plaintiffs filed a lawsuit in New Jersey Superior Court: Atlas Data Privacy Corporation, et al. v. Cole Information Services, Inc., et al. In the Complaint, Atlas asserted claims assigned to it by approximately 19,295 law enforcement officers, prosecutors, and other “covered persons” under New Jersey’s Daniel’s Law, which protects home addresses and unpublished home telephone numbers from disclosure.
+On September 19, 2025, the New Jersey Superior Court entered a final judgment by default against Cole Information Services, Inc.
+The Court found that Plaintiffs “established that Defendant violated N.J.S.A. § 56:8-166.1, et seq., (‘Daniel’s Law’), as set forth in the Complaint,” and entered final judgment “requiring any Domain Host or Registrar to transfer ownership of Defendant’s associated website, coleinformation.com, to Plaintiffs.”
+The Court further enjoined Cole Information Services, Inc. “from the disclosure or re-disclosure on the Internet or otherwise making available the home address and/or unpublished home telephone number of the Individual Plaintiffs and Covered Persons” and ordered that it “shall immediately remove any such information wherever disclosed, including but not limited to coleinformation.com.”
+Additional information regarding the case and recent activity can be obtained from the Superior Court of New Jersey.
+For more information on Daniel’s Law and related enforcement efforts, see:
+Silence Is Not Compliance: Evidence From Two Judicial-Privacy Regimes — Matthew Adkisson & John Muffler, preprint (Updated October 1, 2026)
+Data Broker Radaris Loses Domains in Privacy Fight — KrebsOnSecurity (September 16, 2026)
+Study Finds Judges’ Home Addresses Remain Online Despite Federal Privacy Law — The Florida Bar News (September 10, 2026)
+US Judges’ Addresses Exposed Despite Privacy Law, Report Says — Bloomberg Law (September 3, 2026)
+Daniel’s Law Was Born From a Judge’s Family Tragedy. Now the Privacy Law Faces Its Biggest Test. — NJ.com (August 26, 2026)
+N.J. Cops and Judges Just Won a Big Legal Battle Over Their Personal Data. Here’s What Changed. — NJ.com (August 13, 2026)
+The Future of Online Privacy Hinges on Thousands of New Jersey Cops — WIRED (November 25, 2024)
+Companies Line Up to Undercut Key Data Privacy Law — Politico (April 5, 2024)
+New Jersey Law Enforcement Officers Sue 118 Data Brokers for Not Removing Personal Info — The Record (February 13, 2024)

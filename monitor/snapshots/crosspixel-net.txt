@@ -1,0 +1,9 @@
+Cross Pixel Privacy Management | Opt Out
+Behavioral Targeting Opt Out (Do Not Sell My Information)
+You can view the status of Behavioral Targeting against your browser below.
+Please wait, loading...
+Opt Out
+Important: Cross Pixel uses cookies to enable it's data collection technologies.
+In order to maintain a user's opt out preference, Cross Pixel must set a cookie on the user's
+browser. Disabling or deleting cookies - specifically Cross Pixel's opt out cookie - will cause the user's opt out
+status to be lost. The user will then have to opt out again.

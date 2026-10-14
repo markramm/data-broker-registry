@@ -1,0 +1,76 @@
+Personal-Information - PeoplefindersDaaS
+Skip to content
+Personal Information
+In order to process your request, we need to collect some personal information. The personal information processed via this page will be used only for the purpose of processing your request.
+Please enable JavaScript in your browser to complete this form.
+Name *
+First
+Last
+Email *
+Phone #
+Address Address 1
+Address Line 1
+Address Line 2
+City
+State
+AL
+AK
+AZ
+AR
+CA
+CO
+CT
+DE
+DC
+FL
+GA
+HI
+ID
+IL
+IN
+IA
+KS
+KY
+LA
+ME
+MD
+MA
+MI
+MN
+MS
+MO
+MT
+NE
+NV
+NH
+NJ
+NM
+NY
+NC
+ND
+OH
+OK
+OR
+PA
+RI
+SC
+SD
+TN
+TX
+UT
+VA
+VI
+WA
+WV
+WI
+WY
+Zip
+Checkboxes
+Do not sell/share my personal information
+Do not use my personal data for targeted/cross-contextual advertising
+Do not use my personal data for profiling/automated decision making
+Do not use my sensitive personal data for targeting
+Please delete my personal information*
+Submit
+Please note that when we receive a request to “delete” a consumer’s personal information, we create an archival “suppression file” that is intended to prevent your information from being added back in to our database after it is permanently and completely deleted from our active business files.
+If you do not want us to suppress your information in this way, or, if you want your information to remain or be included in our database in the future, please email us at: privacy@peoplefindersdaas.com.

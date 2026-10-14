@@ -1,0 +1,42 @@
+Privacy Form | BrooksIM
+top of page
+Do Not Sell My Personal Information
+Opt-Out or Request Information
+Your Privacy Matters to Us
+At Brooks Integrated Marketing (BrooksIM), we are committed to respecting your privacy and complying with all applicable data protection laws.
+As a registered data broker in California and other states, we do not engage directly with individual consumers, nor do we compile data independently. We recognize the importance of giving individuals control over their personal information and the right to delete, opt-out or access their data.
+In recent years, we've seen a significant rise in opt-out and deletion requests—from 145 requests in 2023 to 68,593 in 2024. In response, we’ve optimized our privacy request process to ensure most requests are fulfilled within minutes.
+How to Submit a Privacy Request
+We offer four convenient options for submitting a request to opt out or delete your personal data:
+1. Online Form (Preferred Method)
+Complete our [Data Subject Access Request Form] below — the fastest and most secure way to submit your information directly.
+2. Email Request
+Send your request to privacy@brooksim.com. For quicker processing, please include your information using the format provided in our sample (below).
+3. Phone Request
+Call our dedicated privacy line at 800-531-2601 x998.
+4. Bulk Requests (For Third Parties)
+If you’re submitting multiple requests on behalf of others, we recommend using our API. To request an API key for JSON POST access, email datascientist@brooksim.com.
+Once you fill out the form below you will receive an email to confirm your submission at the email provided. If you are a third-party, please contact web@brooksim.com to get api access for bulk requests that does not require this confirmation.
+If the form is not displaying above you can visit the following link to access the form: https://dsr.trustsuperset.com/?orgId=2dc76d0a-78d2-4492-9fc1-39da892fc0d5
+When you submit the form above you will receive a link to confirm your opt-out and please click the link within 1 hour of receiving. If you prefer to not use the form above email us at privacy@brooksim.com and please use a similar format to the sample below:
+Email Subject: Right to Erasure (Delete) My Data
+Email Body: (Replace the text in “ “ with your personal data)
+----------------------------
+Hello,
+I am requesting that Brooks Integrated Marketing delete any personal data you may have on file for me. This request is because of the law: “law”
+Below is the information associated with my request:
+full_name: “first_name last_name”
+email: “email”
+address1: “address_1”
+address2: “address_2”
+city: “city”
+state: “region”
+zip: “zip”
+country: “country”
+phone: “phone”
+request_type: “Right to Erasure”
+Thank you,
+{{first_name}} {{last_name}}
+----------------------------
+We’re here to help you take control of your data, and we aim to make the process as simple, fast, and transparent as possible.
+bottom of page

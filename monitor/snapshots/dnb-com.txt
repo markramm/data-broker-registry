@@ -1,0 +1,79 @@
+Our Data Transparency Commitment – Dun & Bradstreet
+Privacy, Data Transparency, and AI Trust Centre
+A Transparency Tapestry for Responsible Data Processing
+Download the Statement
+Data Transparency
+Data Transparency
+Personal Data
+AI Systems
+Data Compliance
+Data Transfer
+Resilience
+Contact Us
+Our Values
+At Dun & Bradstreet (D&B), compliance and ethics begins with human-centered values and principles. The values and principles are set forth in our Code of Conduct and Ethics and guide us in designing, implementing, improving, disposing, and retiring data processing and management systems in a way that respects human rights, privacy and data protection, non-discrimination, diversity, equity, inclusion, and other applicable legal and regulatory obligations.
+3 Core Values
+The Bedrock of Our Culture
+Data Inspired
+We are passionate about the power of data. It is at the heart of everything we do, including how we leverage data insights to drive informed compliance and ethics decisions.
+Relentlessly Curious
+We embrace the change in the world around us. We know it brings new problems to solve, new things to learn, and new ways to grow. We use curiosity to help guide us in applying our ethical principles.
+Inherently Generous
+We succeed by helping others succeed. We openly share our time and talent, and we confidently welcome the help of others, including how we can continuously improve.
+5 Ethical Principles
+Our Compass for Making Good Decisions
+Accountable
+Our Board of Directors and leadership consistently demonstrate the importance of doing business the right way and complying with our Code of Conduct and applicable laws and regulations.
+Respectful
+We respect each other and the interests of the individuals and organizations we engage with and others about whom we process data.
+Responsible
+We steward our assets and drive growth responsibly so that we can sustain D&B’s success into its third century and beyond.
+Transparent
+We are transparent about our conduct, our dealings, and our practices; and we help support the global economy through transparent data practices, processing, and insights.
+Courageous
+We encourage new ideas, innovation, and speaking up with questions or concerns, and we have zero tolerance for retaliation against those who raise compliance and ethics concerns.
+Our Commitment to Data Ethics, Compliance, and Privacy
+At Dun & Bradstreet, we focus on helping to bring businesses and other organizations together by providing insights about economic opportunities and risks, including data about businesses, business decision-makers and other people who represent organizations of all sizes across industries and sectors around the world. We aggregate data, combine, and generate data, including scores, ratings, and other analytics. Our Dun & Bradstreet Data Cloud contains data and insights on over 600M+ organizations around the globe.
+As a responsible data steward for almost 200 years, we strive to balance our commercial obligations and responsibilities with respect for the interests of the organizations and people about whom we process data. As part of this commitment, we aim to be transparent around the ways we process data about people, businesses, and other organizations as well as how we use Artificial Intelligence (AI) systems. Our goal is to improve visibility, engagement, and enrich the overall quality of our data to support meaningful data-driven insights, more opportunities and better business and professional decision-making and outcomes while respecting the interests and rights of individuals and their communities.
+This Privacy, Data and AI Transparency Statement reﬂects the privacy, data processing, and data protection standards of the Responsible Dun & Bradstreet Entities in the U.S. Information about our data processing in other markets is available here.
+Download D&B Privacy, Data, and AI Transparency Statement
+Consistent Global Standards
+We strive to build and maintain trust through an accountability-based compliance and ethics program that applies to our data processing globally. The following core policies provide the foundation for our program and serve as the basis for our certifications described below:
+Data Compliance and Ethics
+Privacy and Personal Data Protection
+Data Subject Rights
+Records Management and Data Retention
+AI Ethics
+Global Cross Border Privacy Management System
+Incident and Breach Response
+Our program has been designed and audited for compliance with ISO 27701, Privacy Information Management Systems (PIMS). In markets in which we are certified as compliant with ISO 27001, Information Security Management Systems (ISMS), we also hold an ISO 27701 certification (PIMS). These certifications are designated on the global ISO certifications page, where applicable.
+Since 2016, we have upheld multilateral standards to provide assurance for how we manage our cross-border privacy and data protection obligations and to support our certifications under the following frameworks recognized by regulators:
+EU-U.S. Privacy Shield (2016)
+Swiss-U.S. Privacy Shield (2017)
+EU-U.S. Data Privacy Framework (2023)
+Swiss-U.S. Data Privacy Framework (2023)
+UK Extension to EU-U.S. Data Privacy Framework (2023)
+APEC Cross-Border Privacy Rules System (2023)
+TRUSTe Responsible AI Certification (2024)
+Global Cross Border Privacy Rules (CBPR) (2025)
+Our Data Processing
+We process many types of data to support business decisioning, including data about people, businesses, organizations, places, economic activity, sustainability, legal, and other significant business events, and third-party risks. Some of the data we process is considered personal data. Some of the systems we use to process data are AI Systems.
+Dun & Bradstreet, Inc. is registered as a data broker in the U.S. States of California, Oregon, and Vermont. Further, Dun & Bradstreet, Inc., the entity maintaining this website, is a data broker under Texas law. To conduct business in Texas, a data broker must register with the Texas Secretary of State (Texas SOS). Information about data broker registrations is available on the Texas SOS website.
+Eyeota Pte. Ltd is registered as a data broker in the U.S. State of California.
+NetWise Data, LLC is registered as a data broker in the U.S. States of California and Vermont.
+Responsible Data Processing at Dun & Bradstreet
+The Dun & Bradstreet Entities responsible for data processing in accordance with the standards described in this Trust Centre are listed here.
+We provide Responsible Data Processing sheets (RDPS) for our products and solutions:
+RDPS – ChatD&B for Data Blocks
+RDPS – D&B Payment Direct
+RDPS - Nordic Company Data in D&B Data Blocks: Third Party Risk & Compliance Use
+RDPS – Receivables Intelligence by Co-Action
+Individual Rights
+We are committed to respecting the data and digital rights of individuals in both their personal and professional capacities as set forth in our Global Data Subject Rights Policy Statement. You may exercise your rights in connection with our data processing here.
+How to Contact Us
+If you have a question or concern about this Statement, you may contact D&B Global Compliance & Ethics or raise a question or concern using our Helpline. If you are based in other countries, you also may contact us. You also have the right to lodge a complaint or concern with your local data protection supervisory authority. Contact details for data protection authorities are here.
+There are multiple Contact Forms popups in the page. Only one Contact Form popup could be present on single page. Please reconfigure Contact Forms and refresh the page.
+(855)-540-1971
+Please Enable Chat Cookies
+Enabling and using chat functionality requires accepting Chat Cookies. You can do so by clicking 'Enable Chat Cookies' below or by managing your cookie preferences.
+Enable Chat CookiesManage Cookie Preferences

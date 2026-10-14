@@ -1,0 +1,696 @@
+Privacy Policy
+Anteriad Data Services and Website Privacy Policy
+TABLE OF CONTENTS
+loading...
+Date of Posting: July 2026
+Anteriad, LLC (“We,” “Our,” “Anteriad”) provides a variety of data marketing, consumer and analytics products (the “Services”) designed to help for-profit and not-profit organizations, and companies that work with them, to market their goods and services in a relevant and efficient way. Our solutions, many of which are described on this website, are used through direct mail, email, online, connected-TV and other marketing channels.
+Anteriad operates under several different brands, including but not limited to OmniChannelBase, OmniEngine, BtoB Trends, HR Trends, TechTrends, BtoBTech Insights, Enterprise Insights. For purposes of this Privacy Policy (“Privacy Policy”), all such brands are collectively called “Services.”
+We take seriously the privacy interests and consumer choices of the individuals whose information we handle and maintain in our database. This Privacy Policy describes how we collect, use and manage information, and what rights consumers have to control how their information is used in marketing.
+To review the “Addendum” we have created specifically to address disclosures required under the California Consumer Privacy Act, please see our “CALIFORNIA PRIVACY NOTICE.”
+We also operate corporate websites, designed for our own customers and prospective customers, and others who want to learn about our services. We address the information we collect and use for those business purposes (such as information we use to communicate with our corporate customers and potential customers) in Section 6 of this Privacy Policy.
+1. Information That We Collect and Use in Our Services
+In order to provide our Services, we receive data, including personal information, from a variety of sources, including from websites and apps that collect the information, public sources, and other data compilers. We refer to the information that we collect and process throughout this Privacy Policy as “Information” or “the Information.”
+The Information often includes various contact information, such as name, address, email address and telephone number. It also includes demographic information about individuals. It may also include information (on the individual, household, or wider (e.g., zip code) level), such as:
+Professional information, including occupation and job title or job history,
+Demographic information, such as gender, age or age range, level of education or likely income range.
+Geolocation information, such as location coordinates tied to a device or WiFi identifier.
+Online identifiers (such as cookie or mobile ad IDs), and IP addresses
+Intent Data and Behavioral Signals, as part of our data analytics and marketing services, we may process behavioral signals commonly referred to as “intent data.” Intent data consists of aggregated or individual signals indicating potential interest in products, services, or topics. These signals may be derived from activities such as website visits, content consumption, downloads, search queries, event participation, or interactions with digital content across websites, applications, or marketing platforms.
+Particular interests or inferred preferences, such as interests in home improvement, music, online shopping, health and beauty, sports, travel, or other consumer or business-related topics. These interests may be derived from observed activities, publicly available information, or “intent data,” which refers to behavioral signals indicating potential interest in specific products, services, or topics based on online content consumption, research activity, or engagement with digital properties.
+We use such information to help our customers identify audiences who may be interested in specific products or services, improve marketing relevance, perform analytics, and measure campaign performance.
+This type of information may be inferred – for instance, if a household is in a particularly wealthy area, we might infer a particular income range.
+Anteriad also receives information through this website (and any other website we operate), and through corporate interactions and events. We describe this information in Section 6.
+2. How We Use the Information
+Anteriad uses the Information for a range of purposes, including the following:
+As Part of Our Services:
+Data Marketing Services. Our Services include providing marketing information to our customers, generally regarding which customers or prospective customers are most likely to be interested (or disinterested) in certain offers. When we provide these Services, consumers may be identified (and their information shared) in various ways, such as by household, email address, or device identifier. Similarly, we help our customers identify and understand their customers better, by providing insights about them.
+Online Targeting. We sometimes create defined audience segments (“Audience Segments”) based on common demographics and/or shared (actual or inferred) interests or preferences (e.g., households with tech professionals, or with an interest in winter travel). When we do this, we may work with a data partner that “matches” our Information through de-identification techniques (such as through coded data “hashing”) with online cookies and other identifiers, in order to target and measure ad campaigns online across various display, mobile and other media channels. You may learn more about how to opt out of this and other online ad targeting in Section 4.
+Email Targeting. We use the infrastructure and technology of either our Customers or our own service providers to help our Customers send and target (and measure and analyze) their email campaigns.
+Mobile Phone Data. We may provide business contact data, which can include direct dial and mobile or wireless telephone numbers, to our customers for their internal business-to-business sales, marketing, and recruiting purposes.
+We do not represent or warrant that individuals included in our data have provided consent to receive marketing communications from our customers.
+Customers are contractually required to comply with all applicable laws, including the Telephone Consumer Protection Act and applicable state privacy laws such as the California Consumer Privacy Act.
+In particular, customers may not use mobile or wireless telephone numbers for:
+SMS or MMS messaging
+Automated dialing or similar technologies
+Prerecorded or artificial voice calls
+Other forms of regulated telemarketing, unless they have first obtained the individual’s prior express consent, as required by law
+Use the Data for consumer marketing purposes
+Use the Data in connection with any unlawful telemarketing or texting campaign
+Represent or imply that Provider obtained consent on Customer’s behalf
+Use any mobile or wireless number for outreach in violation of applicable laws.
+Where we do not obtain consent on behalf of our customers, we require that customers independently determine and document their legal basis for contacting individuals.
+We may restrict or suspend access to our data where we believe it is being used in violation of applicable laws or our terms.
+Additional Services. Other Services we may sometimes provide to our customers (or that they may provide to their own customers), which may overlap with or supplement the above, may involve (a) help with targeting and optimizing direct mail, email campaigns, display, social and mobile marketing; (b) measuring how effective marketing campaigns have been, by determining which messages are most likely to be seen or opened by which types of consumers, or which types of ads are most likely to lead to purchases; (c) analyzing and optimizing our customers’ (or their service providers’) proprietary databases; (d) providing “validation” or data “hygiene” services, which is how companies update and/or correct their databases by verifying or removing or correcting old, incorrect or outdated information or (e) providing fraud prevention and identity verification purposes.
+To Operate Our Services. We also use the Information for our own internal purposes – such as to improve, test, update and verify our own database; develop new products; operate, analyze, improve and secure our Services and our databases and servers.
+Email Communications and Engagement Analytics. When we send marketing communications or other business-related emails, or where we provide marketing services on behalf of our clients, we may use technologies such as tracking pixels, tagged links and similar technologies to understand whether emails have been delivered, opened, whether links have been clicked, and how recipients interact with those communications.
+We use this information to:
+measure the effectiveness of communications and marketing campaigns;
+improve the relevance and quality of marketing and business communications;
+understand recipient engagement;
+maintain accurate marketing preferences and contact records;
+analyse and improve our products and services;
+support campaign reporting and analytics for our clients; and
+help protect the security and integrity of our communications, including identifying delivery issues, fraudulent activity or misuse.
+The information collected through these technologies may include:
+whether an email was delivered and opened;
+the date and time of the interaction;
+links clicked within the email;
+IP address (where available);
+browser type and version;
+device type and operating system;
+approximate geographic location derived from the IP address (where available); and
+other technical information associated with the interaction.
+The lawful basis for using these technologies depends on the nature of the communication, the applicable law and our role in the processing.
+Where we send our own marketing communications, we rely on the lawful basis applicable to the relevant jurisdiction. Where consent is required by law, we will obtain your consent before using these technologies. Where consent is not required, we may rely on another lawful basis permitted by applicable data protection law, such as our legitimate interests.
+Where we provide marketing services on behalf of our clients, the client determines the lawful basis for the processing as the controller. We process engagement information in accordance with our contractual obligations and the client's documented instructions, and we require our clients to comply with applicable data protection and marketing laws.
+You may opt out of receiving Anteriad marketing communications at any time by using the unsubscribe link contained within our emails or by contacting us using the details provided in this Privacy Policy.
+Where technically feasible and where required by applicable law, you may also object to or opt out of the use of email engagement technologies independently of your decision to receive marketing communications.
+For further information about your privacy rights, please see the ‘Your Rights’ section of this Privacy Policy.
+Some of our analytics services may involve profiling or automated processing used to evaluate characteristics or predict interests relating to individuals, households, or businesses. These analytics are used primarily for marketing segmentation, audience measurement, and advertising optimization purposes and are not intended to produce legal or similarly significant effects on individuals.
+3. How We Share Information with Third Parties, including Service Providers
+Anteriad may share the Information with customers, marketing services and platforms, as well as service providers that help us to provide the Services we’ve described above (or other services we may add in the future). This includes sharing in the following ways:
+With Our Customers: Our customers include (but are not limited to) brands and agencies and various marketing data platforms that help them to market and advertise to their own customers (and prospective customers); our customers also include other data compilers, who work with their own customers. We license the Information in various ways to our customers (and sometimes to partners and resellers, who license the Information to their customer), when we provide our Services. We may sometimes share the Information with those Customers’ service providers too (for instance, a provider that prints or sends mailings or email for a Customer) or license to the Customer for their own fraud prevention and identity verification purposes. In such circumstances, our Customers may include, but are not limited to, global entities engaged in payment transaction processing, other related payment services, and multinational Fintech and AdTech companies.
+With Email Platforms: We share our Customers’ data (but sometimes our own) with email platforms, for the purpose of targeting, measuring, sending and analyzing email campaigns.
+With Our Partners: We may also share the Information, including personally identifiable information (such as contact information) and Audience Segments, with business and data partners to help to tailor marketing and advertising campaigns and other communications. Likewise, we may share the information with those partners for analytical purposes, including to help those parties measure campaign performance, inform future campaigns, or to handle, analyze, or segregate this Information – generally on our or our customers’ behalf, but sometimes to help those parties’ own customers.
+With Our Service Providers: We share the Information with a variety of service providers in order to operate, protect and advertise our Services and maintain our website(s). For instance, we may share the Information with hosting providers, tech and customer support providers, marketing and advertising solution vendors, other data providers (such as to enhance or verify our Information), security providers, billing and payment vendors (as to our business to business information), and other companies that help us operate, improve or develop the Services.
+Corporate transfers: If Anteriad, its stock or its significant assets are acquired by or merged into another entity, our information will be transferred to that entity, and may be shared during due diligence in anticipation of any such transaction.
+As required by law or to protect any person or entity: Anteriad may disclose Information if we believe that such disclosure is necessary to (a) comply in good faith with relevant laws or to respond to subpoenas or warrants served on us; or (b) to protect or otherwise defend the rights, property or safety of Anteriad, our customers, or any other person or entity.
+Disclosure of Adsquare as a Data Recipient: In accordance with Clause 5.2.1 of our Data Processing Agreement (DPA), the Company explicitly identifies Adsquare as a recipient of Company Data. Adsquare may process data on behalf of Anteriad for analytics and audience segmentation purposes. You may review Adsquare’s privacy practices at https://www.adsquare.com/privacy-policy.
+Disclosure of Amazon Ads as a Data Recipient: Anteriad may share or make available certain Information, including Audience Segments, hashed email addresses, pseudonymous identifiers, cookies, mobile advertising identifiers and other online or advertising identifiers, with Amazon Ads and its affiliates and service providers for purposes including audience activation, advertising, campaign delivery, measurement, attribution and related advertising services. Amazon may process such Information in accordance with its own privacy practices and applicable terms.
+4. Your Marketing and Privacy Choices
+This page outlines how you may exercise your right to opt out of Anteriad’s collection, use, and sale of your personal information and your right to have Anteriad delete your personal information and request that recipients of your personal information delete that information.
+Your Opt-Out Rights. You have the right to opt out of our collection, use, and sale of your personal information (your “opt-out” rights). We describe below how you may exercise your opt-out rights.
+Your Deletion Rights. You separately have the right to request that we delete personal information collected from you and also send requests to any recipients of your personal information that they delete such data from their commercial databases (your “deletion rights”). If you choose to exercise your right to deletion, there are certain circumstances under which we may nevertheless retain personal information as permitted by law, such as to prevent, detect, or investigate data security incidents, or to protect against malicious, deceptive, fraudulent, or illegal activity directed at the company. A request to delete is distinct from a request to exercise your opt-out rights. We describe below how you may exercise your deletion rights.
+Your Access Requests. You have the right to request what personal information we hold on you and also send requests to any recipients of your personal information that they provide such data from their commercial databases (your “Access rights”).
+Your Rights Under Various US State Privacy Laws. Residents of California and a number of other U.S. states have certain rights regarding information that businesses collect about them. These rights include the right to direct a business to stop selling your personal information or data, which is part of your “opt-out” right explained above.
+Submitting Opt-Out, Deletion Requests & Access Requests
+There are multiple ways that you can opt out of having the Information used to market to you:
+You may contact us to have your personal information removed from our database via our website privacy portal or call us toll-free by contacting us at 1-877-338-4185, email us at privacy@anteriad.com or mail to at:
+Attn: Privacy Manager
+Anteriad, LLC
+441 Lexington Avenue
+Suite 1404
+New York, NY 10017
+We will then in most cases remove your personal information from our active marketing databases within 30 business days, from the time we receive the opt-out request. We may in certain cases (but not in most cases) require that you verify any of the information that you submit, such as through a verified email response or another verified response.
+If you would like to opt out of direct mail advertising in general, we recommend that you visit the DMA Choice website, at dmachoice.thedma.org. The DMA Choice service is run by the Direct Marketing Association and allows you to follow a few easy steps to ensure that your marketing preferences are honored.
+If you wish to opt out of online targeted ads (sometimes referred to as “interest-based” or “personalized” advertising), you can also visit the opt-out portals operated by the industry groups the National Advertising Initiative (NAI) or the Digital Advertising Alliance (DAA), and you can learn more about how those opt-outs work on those linked web pages. Please note that these online opt-outs are cookie-based (unlike Anteriad’s direct opt-out. Thus, if you browse the web from multiple browsers or devices, you will need to opt out from each browser and/or device, and for the same reason, if you change browsers or clear your browser cookie cache, you will need to perform this opt-out function again. Opting out in this way will not prevent you from seeing all types of online ads; it generally will prevent targeted ads customized to what advertisers think may be most likely to be relevant and of interest to you.
+If you wish to opt out of Hashed Email you can visit the opt-out portal https://optout.networkadvertising.org/optout/email.
+If you would like to opt out of MAIDS, we will need your Device ID — either an Advertising ID or an Installation ID– to be able to process your opt-out request. The Advertising ID is a random string of 32 letters and numbers installed in your mobile device by the manufacturer. The Installation ID is a random string of 32 letters and numbers installed in some Apps that reside on your mobile device. Anteriad does not use an Installation ID for advertising purposes.
+There are two different ways to obtain your Device ID used by Anteriad, whether it is an Advertising ID or Installation ID:
+Open your App and check your App’s Privacy Settings screen to access the Device ID.
+If there is no App Privacy Settings screen, then use your App’s Request Support function to send a support or help request to the App publisher, who will provide you with the Device ID used by Anteriad, if any.
+If you choose to provide an email address at which we may contact you to report on your request, Anteriad will use the contact information you provide with your opt-out request solely to process and respond to that request.
+Device Settings Restrictions
+You may wish to change your device settings to manage how your device collects and shares your Advertising ID with Anteriad and others for advertising purposes:
+For iOS mobile devices, you must follow the instructions above to obtain your advertising ID and submit your opt-out request to Anteriad. Turning off Apple’s “Allow apps to request to track” will not have the effect of ceasing data collection from your device if you subsequently consent to share your data.
+For Android mobile devices, go to “Settings” on your device; select “Privacy,” select “Ads,” select “Manage advertising ID,” and select “Reset or delete your device advertising ID.”.
+Modifying these device settings may have different results depending on the type of device you are using. For iOS mobile devices, disabling a specific app from tracking (“Privacy & Security” > “Tracking”) will zero out your Advertising ID, preventing Anteriad and others from identifying your device using the device’s advertising ID. On older Android mobile devices, turning on “Opt Out of Interest-Based Ads” causes your advertising ID to be sent to Anteriad and others with an opt-out “flag,” which allows Anteriad to recognize and store your opt-out choice. If Anteriad receives such a “flag,” we will honor it by not using or selling your advertising ID or any information we have associated with it. Other device types may handle opt-outs differently.
+However, please note that if you have a mobile device that runs Android 12 or newer that responds to the above device settings by “zeroing out” rather than sending to us your advertising ID, as iOS devices do, we will not be able to collect your advertising ID. In that case, we will not use or sell your device information going forward for advertising purposes, but we also will not be able to locate, or connect to your device, the advertising ID that has been “zeroed out” and thus, nor will we be able to remove previously collected information about your device (if we have any) from our database.
+5. Cookies and Similar Technologies
+Cookies and How We Use Them
+We use cookies and other online data collection technologies, such as single pixel tags, eTags, and scripts, to help you navigate our website and other online services, to remember your selections, to deliver certain features and content supported by third parties and external tools, to measure the effectiveness of our advertising and other marketing activities, and to remarket to you after you visit our website. We use two types of browser cookies, session cookies and browser cookies. Some of these cookies and data collection technologies may be placed directly by Anteriad, and we may permit other cookies and data collection technologies to be placed by third parties. We group browser cookies into three categories: Required, Functional, and Advertising. You can manage your preferences with our Cookie Consent Manager by clicking on “Cookie Preferences” on the footer of our websites at any time.
+What are Cookies, Web Beacons, Pixel Tags and GIFS
+Cookies: A cookie is a small text file (which typically includes a piece of computer code) that is stored on your computer's hard drive. Cookies are sent by our website (or the website of a company we have a relationship with) to your computer, mobile phone or other device when you visit our website. When you visit a website, that website's computer asks your computer for permission to store this text file in a section of your hard drive that is specifically designated for cookies. Each website can send its own cookie to your browser if your browser's preferences allow it.
+Single-pixel tags: A single-pixel tag, also known as a web beacon or a clear GIF, is a graphic that functions like a cookie. Single-pixel tags are placed on a web page or in an email message to monitor user activity, such as whether the web page or email message is accessed or clicked. Single-pixel tags are not visible on a web page because of their small size. We sometimes use single-pixel tags to provide an independent accounting of how many people visit our website or to gather statistics about browser usage on our website. Some of our web pages and e-mail newsletters use single-pixel tags in conjunction with cookies. Single-pixel tag may also be loaded from a different Web server than the rest of the page. Some of our emails may also contain pixels or code to gather information regarding e-mail behavior and for analytics. We may share this information with third parties in accordance with our Transparency of Data Policy. We or our service providers, and other online marketing platforms that we or they work with, may use cookies to, among other things, “remember” you, determine visitor patterns and trends, collect information about your activities on our clients’ sites, or interact with the advertising you see. Cookies are used in this way to provide relevant content to you and replace non-relevant communications with ads that better match your interests. Sometimes, we work with companies that link our Audience Segments to cookies (as also described in Section 2), in order to help companies better target (or suppress) advertisements to consumers. This is one type of the various categories of advertising that are often referred to as “personalized” or “interest-based” advertising” or “Interest-Based Advertising.” You can opt out of this type of advertising through the industry opt-out methods described in Section 3, which are cookie-based.
+Disabling Cookies:
+Most web browsers are set up to accept cookies. You may be able to set your browser to warn you before accepting certain cookies or to refuse certain cookies. However, if you disable the use of cookies in your web browser, some features of our website and other services may be difficult to use or become inoperable.
+6. Data Collected Through Our Corporate Website
+Information Collected
+Anteriad collects information from users of our website(s) (including any page on which this Privacy Policy is posted), including:
+The domain name and IP address of a user’s web browser, along with a time stamp and other information about a user’s browser or device.
+Information about what content and pages users access, utilize or visit on our website, or how they interact with our content – for instance, if they spent a certain amount of time reviewing a particular blog post or description of particular services.
+Information, including personally identifiable and contact information that you provide, which could include (for instance) survey information, sign-up information (e.g., if you sign up for events or newsletters), requests for information, mailing addresses and email addresses.
+How Anteriad Uses the Information We Collect Through Our Website
+We use the Information we collect through our website(s) to do the following:
+Create and manage your unique user account.
+Provide Services to you.
+Respond to and communicate with you (including regarding news and updates about our services).
+Send you offers and ads for our products and services, when you browse the website(s) or other companies’ websites on the Internet (such as to “retarget” you with information about our services).
+Send you offers and ads for products and services of partner brands, or other offers we believe may be of interest to you, such as invitations to events and webinars.
+Perform data analysis (including market research).
+We may combine the Information with other information we obtain from third parties, publicly available sources, and any other product or service we provide to further improve the relevance and effectiveness of products, and advertisements offered, including (but not limited to), those provided on or through our services.
+We may use IP addresses to help diagnose problems with our servers and to administer our website(s). We also may use IP addresses to help identify visitors to our website(s) for the duration of a session and to gather demographic information about our visitors. We may use clickstream data to determine how much time visitors spend on each web page of our website(s), how visitors navigate through the website(s), and how we may tailor our website(s) to better meet the needs of our visitors. We also use this Information for compliance with our legal obligations, policies and procedures, including the enforcement of our Terms and Conditions.
+If we collect Information from “offline” sources – such as if you provide us your business card at a trade show – we will maintain that information and use it for marketing and business purposes, as well.
+How Anteriad Shares the Information We Collect Through Our Websites
+We may sometimes share or otherwise disclose the Information we collect about you, as described in this Privacy Policy or otherwise disclosed to you when you provide us with the information, including as follows:
+We may share the Information with service providers who help us deliver the services you request or we provide. For instance, we share the Information with tech and customer support providers, marketing and advertising providers, other data providers (such as to enhance or verify our Information), security and data hygiene vendors, payment vendors (as to our business-to-business information), and other companies that may help us deliver or develop Services.
+We may share the Information to communicate with you and market to you, including through email, direct mail or display media.
+We will disclose your PII (or other Information) if we believe in good faith that we are required to do so by law, regulation or other government authority or to protect the rights, safety or property of ourselves or any person or entity. We may also cooperate with law enforcement agencies in any official investigation, and we may disclose any Information to the requesting agency in doing so.
+If we or all or substantially all of our assets, are purchased by another company (such as in a merger, consolidation, restructuring, the sale of stock and/or assets, or other corporate change or financing transaction), the Information in our possession will likely be transferred to the successor entity. We also may share the Information during the course of any due diligence process leading up to any such transaction.
+Our website(s) use cookies and similar technologies, both for its internal and operational purposes and to market to you (such as to retarget ads to you when you visit other sites across the Internet).
+7. Artificial Intelligence and Automated Processing
+We may use artificial intelligence ("AI"), machine learning technologies, and automated processing tools to support our business operations, products, services, analytics, and customer offerings.
+The use of AI and automated processing is carried out on the basis of our legitimate interests in operating, improving, and securing our products and services, the performance of our contracts with customers, our compliance with legal obligations, and, where required, your consent. Processing is limited to what is necessary for the purposes described in this Privacy Policy, in line with the data minimisation and purpose limitation principles.
+These technologies may be used to:
+Analyze and organize business, company, and professional information.
+Generate audience insights, analytics, modeling, segmentation, and marketing intelligence.
+Facilitate customer searches, queries, reporting, and data management activities.
+Improve the quality, accuracy, relevance, and functionality of our products and services.
+Assist with customer support, fraud prevention, security monitoring, and operational efficiency.
+Where AI-enabled tools are used to access or analyze information, such tools operate under appropriate technical, contractual, and organizational safeguards designed to protect personal information and comply with applicable law.
+Automated Queries and AI-Assisted Access
+Certain products and services may allow authorized users to search, retrieve, analyze, or interact with information using natural language queries, automated search functionality, application programming interfaces (APIs), Model Context Protocol (MCP) integrations, or other AI-assisted interfaces.
+These capabilities are designed to facilitate access to information and insights but do not alter the underlying purposes for which information is processed. Access to information through AI-enabled interfaces remains subject to applicable contractual, privacy, confidentiality, and security restrictions.
+We do not permit our customers to use information obtained from our products or services to train, fine-tune, or develop artificial intelligence models except where expressly authorized by us in writing.
+Automated Decision-Making, Profiling, and Human Oversight
+Some of our AI-enabled services involve profiling, including audience segmentation, lead scoring, and marketing intelligence. We do not make decisions based solely on automated processing, including profiling, that produce legal effects concerning individuals or similarly significantly affect them. Where AI-generated outputs are used to inform business decisions, those outputs are subject to meaningful human review and oversight.
+Third-Party Artificial Intelligence Service Providers
+We may engage third-party service providers, cloud providers, software vendors, and artificial intelligence technology providers to assist us in delivering, supporting, securing, and improving our products and services.
+These providers may process information on our behalf subject to contractual obligations regarding confidentiality, security, data protection, and permitted use restrictions. We take reasonable steps to ensure that such providers process information only for authorized business purposes and in accordance with applicable law.
+Depending on the service, these providers may assist with functions such as:
+Data analysis and enrichment.
+Search and information retrieval.
+Customer support and service operations.
+Security and fraud detection.
+Product functionality and performance optimization.
+AI-assisted reporting and analytics.
+Some of our AI and technology service providers are located outside the United States, including but not limited to the United Kingdom and the European Economic Area. Where personal data is transferred to such providers, we rely on appropriate safeguards, together with supplementary technical and organisational measures where necessary.
+Model Training Restrictions
+Unless otherwise disclosed at the point of collection or required by law, personal information processed by us through third-party AI service providers is not provided for the purpose of training publicly available foundation models or generative AI systems.
+We maintain contractual and technical measures intended to restrict the unauthorized use of information for model training, model improvement, or the creation of competing data products.
+Special Category Data
+Our products and services are directed at business and professional contacts and are not designed to process special category personal data. We do not knowingly use AI or automated tools to infer or generate special category data about individuals.
+8. Links
+This website may provide links to other websites that Anteriad thinks users will find interesting or useful. Anteriad is not responsible for the privacy practices of these other sites or companies.
+9. Security and Data Integrity
+Anteriad takes steps to help ensure that the data we possess is housed and transmitted securely. This may include various types of physical and electronic security, including firewall protections, encryption, hashing or truncation of data, and access controls to personal information. While neither we nor any platform can guarantee 100 percent safety from hacks or illegal intrusion, we employ efforts that are designed to ensure that this does not occur.
+We apply principles of data minimization, purpose limitation, and proportionality, meaning that we collect and process personal information only to the extent reasonably necessary to fulfill the purposes described in this Privacy Policy and consistent with applicable law.
+10. Changes to this Privacy Policy
+From time to time, we may update this Privacy Policy. Any changes to it will become effective when it is posted to our website, unless we indicate a later effective date. Please check back to learn of any changes to this Privacy Policy
+11. Storage of Information in the United States
+If you are accessing our website from outside of the United States, your connection likely will be through and to servers located in the United States and all Information you provide will likely be processed and securely maintained in our web servers and internal systems located within the United States. (We generally store the Information used in our Services in the United States.) Thus, you should be aware that in accessing this website or otherwise communicating with us, the information we collect or receive from you may be subject to laws with lesser or different privacy standards than those in your own country (such as if you are in a country located in the European Union).
+12. CAN SPAM, CalOPPA, CASL Acts and Your Choices and Access Rights
+The CAN-SPAM Act of 2003
+Anteriad upholds and adheres to The CAN-SPAM Act of 2003 which establishes regulations for commercial email, including what information must be included in an email message, the types of messages that are prohibited, and how to unsubscribe from commercial emails.
+The CAN-SPAM Act was passed in response to concerns about the increasing amount of spamming and other deceptive marketing practices. The law establishes requirements for commercial messages, gives recipients the right to have Email Marketers stop emailing them.
+CAN-SPAM contains seven requirements that Anteriad adheres to in order to avoid unsolicited email spamming.
+Be honest and transparent in your header (including from, to, and routing information)
+Do not be deceptive in your subject lines
+Disclose the email as an advertisement
+Provide your physical postal address in the body
+Give instructions for opting out
+Honor opt-out requests within ten business days
+Ensure processors or third parties comply with CAN-SPAM
+CalOPPA
+Anteriad upholds and adheres to CalOPPA and requires that any person or company whose website collects personally identifiable information from Californian consumers must feature a conspicuous Privacy Policy stating exactly what information is collected and with whom it is shared. This includes tracking of online visits for marketing purposes.
+The law applies to email marketing because it requires:
+A Privacy Policy, and
+Transparency about what kinds of personal data your app or website collects
+To comply with the law’s requirements, it’s necessary to include a statement within our Privacy Policy that we collect email addresses and whether we share them with third parties or not.
+Anteriad ensures that we provide subscribers with a means of opting out of email marketing campaigns.
+CASL
+Anteriad upholds and adheres to CASL, or Canada’s anti-spam legislation, protects consumers and businesses from misusing digital technology, including spam and other electronic threats. It also aims to help companies stay competitive in a global, digital marketplace.
+CASL covers “Commercial Electronic Messages” (CEM), which is a bit broader than simply applying to emails. For example, it also covers instant messages, text messages, and social media messages that are related to commercial activities.
+CASL, like the GDPR, touches on consent. Anteriad adheres to the requirements for implied consent, such as (making a purchase, donation, gift, providing volunteer time or resources, providing an email address, or publishing an email address).
+If Anteriad do not meet the conditions of implied consent, Anteriad obtains express consent from subscribers. This requires either a written agreement or an oral agreement from the subscriber stating that they consent to receive digital communications from our or our client’s business.
+13. The GDPR and Your Choices and Access Rights with Respect to Personal Data
+If you are a resident of one of many European countries, including the United Kingdom, an important European privacy law (or an equivalent counterpart) the General Data Privacy Regulation (the “GDPR”) provides you with certain rights, and places certain obligations on companies, regarding how your “personal data” (as the GDPR uses that term) is used. We describe those rights and obligations below, and how and in what circumstances we honor them. (Please only rely on this Section 12 if you are in fact a resident of such a country – it will not apply otherwise.)
+Legal Basis. The GDPR requires us to tell you about the legal ground we’re relying on to process any “personal data” (as the GDPR uses that term) about you. The legal grounds for us processing your personal data for the purposes set out in Section 2 above will typically be because:
+You provided your (legally sufficient) consent;
+It is necessary for our contractual relationship, e.g., in order to provide you services or features you’ve requested and we’ve promised;
+The processing is necessary for us to comply with our legal or regulatory obligations – for instance, to communicate with you about or to help honor your legal rights; and/or
+The processing is necessary for the purposes of legitimate interests pursued by Anteriad or by a third party, provided that such interests are not overridden by the interests or fundamental rights and freedoms of the data subject.
+Where we rely on legitimate interests as our legal basis for processing, we perform and document a Legitimate Interest Assessment (“LIA”) to ensure that the processing is necessary for our stated purposes and that the rights and freedoms of individuals are appropriately balanced and safeguarded. For instance, we may process and share business data (such as a person’s business email or address and job title) in order to assist our customers to send relevant business-related communications. (As an example, if you are a technology attorney, we might help a privacy foundation or legal association send you an invitation to a privacy law conference by providing or validating for them your most recent contact information).
+Individuals located in the European Economic Area, United Kingdom or Switzerland have the right to object at any time to processing of their personal data for direct marketing purposes, including profiling related to such marketing, as provided under Article 21 of the GDPR.
+GDPR Compliant Tele Verified Data. Anteriad operators follow three specific steps regarding the collection of the data with a prospect via Telephone.
+We always disclose to Prospects the purpose of the call and the topic to fulfil the transparency obligation that is requested in Article 12 of the GDPR.
+The prospects will be asked if they consent to the fact that all the information collected during the call will be used for the purpose that was explained at the beginning of the call and that all the data will be handed to the client including the consent to communicate with him/her. This respects Article 6 of the GDPR.
+The prospects will be informed for which use and to which company their data will be transferred and so providing traceability of their personal data.
+These three steps guarantee that all data collected by the operators is 100% GDPR compliant. Our quality control teams will oversee that for every data set all 3 steps have been respected before the data is transferred to our client.
+A log will be kept that will have the date and time of each call, the phone number that was used to reach the person, the name of the operator and the different consents that were provided. This audit information will be used to fulfil Data Subject Access Requests.
+Your rights. Your rights to access, correct, delete or withdraw consent. right to request access to a copy of your personal data, or request that we correct or “rectify,” restrict or delete Your personal data, you may exercise these rights by contacting us at privacy@anteriad.com or through our website privacy portal. If you request that we delete your personal data, or withdraw your consent, we will customarily retain a copy of your data sufficient to suppress it from our active databases in the future: but if that is not what you wish, you may indicate that to us (in which case your information may be added to our database later, because we will not have “suppressed” it).
+Moreover, when we delete your personal data, we may retain it (such as legally permissible) for certain important (but narrow) internal purposes such as legal, compliance, accounting or auditing purposes. Likewise, when you request access to your information, we are required — for privacy and other important compliance reasons — to verify your identity in a legally sufficient manner: if we cannot do so, we will not be able to satisfy your access request.
+Personalized Online Advertising Opt-Outs. You may object to profiling by online advertising platforms with whom we sometimes partner to help generate (and measure or analyze) “personalized” online advertising. These platforms are generally separate third party “controllers” of your data. You can set your browser to refuse all or some browser cookies, or to alert you when cookies are being sent. To learn how you can manage your Flash cookie settings, visit the Flash player settings page on Adobe’s website. If you disable or refuse cookies, please note that some parts of the Website may then be inaccessible or not function properly. To opt-out of our collection and use of data for online interest-based advertising on your browser (including a mobile browser if third-party cookies are enabled in your browser) from companies participating in the Digital Advertising Alliance Consumer Choice Page, please visit www.aboutads.info/choices. To opt out of advertising solutions that tailor ads shown within mobile apps based on your likely interests, please either set the preference on your mobile device to limit ad tracking or download the Digital Advertising Alliance’s AppChoices app and configure it to opt out of any Digital Advertising Alliance participating company. For more information on this and to opt out, please visit www.policies.google.com/privacy, https://myadcenter.google.com/ or www.optout.networkadvertising.org/.
+If you are located in the European Union or European Economic Area, you can also opt-out via the IAB Europe’s industry opt-out at www.youronlinechoices.eu.To opt-out of the collection and use of data for interest-based advertising on your mobile device, you can also modify the settings on your mobile device. Please note that after choosing to opt-out via any of the methods above, if you use a different device or a different browser, or if you delete browser cookies, you may need to repeat the opt-out steps for that particular device or browser. In addition, if you block cookies on your browser or if third-party cookies are blocked by default, some of the opt-out tools above may not function.
+You may unsubscribe from marketing and other communications that we may send (on behalf of ourselves or others) by clicking the “opt-out” or “unsubscribe” link in the footer of those emails.
+Questions or Concerns. If you have a complaint or concern or question about how we handle your personal data, please contact us as at the above contact addresses, and we will seek to address any concerns you may have. If you are not happy with how we have attempted to resolve your complaint, you may contact the relevant data protection authority.
+When We are a Processor. EU data protection law makes a distinction between organizations that process personal data for their own purposes (known as “data controllers”) and organizations that process personal data on behalf of other organizations (known as “data processors”). Anteriad sometimes acts as a data controller (for instance, when we make decisions about the data that comprises our own datasets) and sometimes acts as a processor (for instance, when we ingest information that belongs to a customer, such as a “CRM” file that we help analyze). We generally are only able to help data subjects exercise their rights as to data we are a data controller of. If you have a question or request as to data, we’re a processor of, you should generally address that to the relevant data controller.
+14. Candidate Notice for Anteriad EMEA
+1. Who This Notice Applies To
+This Candidate Privacy Notice applies to all individuals who apply for a position at Anteriad EMEA (BNZSA Spain S.L), whether through a job board (such as Infojobs or LinkedIn), through our website, through a recruitment agency, or by direct approach. It supplements our general Privacy Policy and sets out how we collect, use, and protect your personal data during our recruitment and selection processes.
+2. Who Is the Data Controller
+The data controller responsible for your personal data in the context of recruitment is:
+BNZSA Spain, S.L. (trading as Anteriad EMEA) Calle José Echegaray, 20 28232 Las Rozas de Madrid, Spain Company registration number: B87009023 Email: privacy@anteriad.com Website: www.anteriad.com
+We have appointed a Data Protection Officer (DPO) in accordance with Article 37 of the GDPR and Article 34 of the LOPDGDD. You may contact our DPO for any queries relating to the processing of your personal data or the exercise of your rights at: privacy@anteriad.com
+3. What Personal Data We Collect and Where It Comes From
+During the recruitment process, we may collect and process the following categories of personal data:
+Data you provide directly to us:
+Identification data: name, surname, email address, telephone number, postal address
+Professional data: employment history, educational background, qualifications, skills, languages, and any other information contained in your CV or cover letter
+Responses to questions asked during the selection process, whether provided in written or voice format
+Data generated during the selection process:
+Transcriptions of voice responses provided during automated conversational interviews (see Section 6 below)
+Structured evaluation reports generated on the basis of your responses during the automated interview stage (see Section 6 below)
+Notes and assessments made by members of our recruitment team
+Data received from third parties:
+References provided by previous employers or professional contacts, where applicable
+Information provided by recruitment agencies acting on our behalf
+We do not collect or process special categories of personal data (such as health data, racial or ethnic origin, religious beliefs, or sexual orientation) as part of our standard recruitment process. If at any point such data becomes relevant, for example, in connection with a disability adjustment request, we will inform you separately and obtain the appropriate legal basis before processing it.
+4. Legal Basis for Processing
+We process your personal data on the following legal bases:
+Processing activity
+Legal basis
+Evaluating your application and managing the selection process
+Article 6(1)(b) GDPR pre-contractual measures taken at your request
+Communicating with you about your application
+Article 6(1)(b) GDPR pre-contractual measures
+Complying with legal obligations (e.g. equal opportunities monitoring where required by law)
+Article 6(1)(c) GDPR compliance with a legal obligation
+Retaining your profile for future opportunities (only where you give your express consent)
+Article 6(1)(a) GDPR your consent
+5. How We Use Your Personal Data
+We use your personal data exclusively for the following purposes:
+Assessing your suitability for the role for which you have applied
+Communicating with you throughout the selection process
+Verifying the information you have provided, including professional references where applicable
+Complying with our legal obligations as an employer
+Where you have consented, retaining your profile for consideration for future vacancies
+We will not use your personal data for any purpose incompatible with the above, nor will we use it for marketing purposes.
+6. Use of Automated Conversational Tools in Our Recruitment Process
+At the initial stage of our recruitment process, we use an automated conversational tool called ChattyHiring, developed and operated by CHATTYAI S.L. This tool allows candidates to provide structured responses to a set of questions defined by our recruitment team, via WhatsApp or an equivalent messaging channel.
+Before you begin the automated conversation, we will send you a separate message explaining what to expect, what data will be collected, and how it will be used. You will have the opportunity to ask questions or seek clarification before proceeding.
+ChattyHiring asks you a series of questions predefined by our recruitment team. These questions are designed to gather relevant information about your experience, availability, salary expectations, and suitability for the specific role. The tool may ask you to respond in text or, in some cases, via a voice message.
+Voice messages
+If you are asked to send a voice message, that recording will be used exclusively for the purpose of transcription to text. It will not be used to identify you biometrically or to analyse your voice for any purpose other than converting your spoken response into written form. No biometric identifiers or voice templates are created from your recording.
+On the basis of your responses, ChattyHiring generates a structured evaluation report (the "Candidate Report"). This report includes a summary of your responses, an assessment of your answers against the criteria predefined by our recruitment team, and observations to assist our recruiters in reviewing your application.
+Human review
+No decision about your candidacy is made exclusively by automated means. The Candidate Report is a tool to support our recruitment team, not to replace human judgement. A member of our recruitment team will review the Candidate Report together with your CV before making any decision about whether you progress to the next stage of the selection process.
+ChattyHiring acts as a data processor on our behalf pursuant to Article 28 of the GDPR. It processes your personal data solely on our instructions.
+You have the right to access the Candidate Report generated in relation to your application at any time by exercising your right of access as described in Section 11 below. The report will be provided to you in full upon request.
+7. Who Has Access to Your Personal Data
+Your personal data is accessible only to members of the Anteriad recruitment team who are directly involved in the selection process for the role to which you have applied. Access is restricted on a need-to-know basis.
+We do not sell your personal data to third parties. We may share it with the following categories of recipients where necessary:
+ChattyHiring (CHATTYAI S.L.), as a data processor acting on our instructions (see Section 6)
+Recruitment agencies, where you applied through an agency acting on our behalf, and only to the extent necessary to manage the process
+Competent authorities, where required by law or by court order
+8. International Transfers of Personal Data
+Your personal data is processed within the European Economic Area. We do not transfer your personal data to countries outside the EEA.
+9. How Long We Keep Your Data
+If your application is unsuccessful, we will retain your personal data for a maximum period of one (1) year from the date of your application. This retention period is necessary to enable us to defend ourselves against any claims that may arise in connection with the selection process and to comply with our obligations under applicable employment law.
+If you would like us to delete your data before the end of this period, you may exercise your right to erasure as described in Section 11 below.
+If your application is successful and you join Anteriad, your personal data will be transferred to your employee file and will be processed in accordance with our Employee Privacy Notice.
+Where you have given your consent to be considered for future vacancies, we will retain your profile for a period of one year from the date of your consent, after which we will ask whether you wish to renew that consent.
+10. Your Rights
+Under the GDPR, you have the following rights in relation to your personal data:
+Right of access (Article 15 GDPR): You have the right to obtain confirmation of whether we are processing your personal data and, if so, to receive a copy of that data, including any Candidate Report generated in relation to your application.
+Right to rectification (Article 16 GDPR): You have the right to request the correction of inaccurate or incomplete personal data.
+Right to erasure (Article 17 GDPR): You have the right to request the deletion of your personal data where it is no longer necessary for the purposes for which it was collected, or where you have withdrawn your consent (where consent was the legal basis).
+Right to restriction of processing (Article 18 GDPR): You have the right to request that we restrict the processing of your data in certain circumstances.
+Right to data portability (Article 20 GDPR): You have the right to receive your personal data in a structured, commonly used and machine-readable format where the processing is based on your consent or on a contract.
+Right to object (Article 21 GDPR): You have the right to object to processing based on our legitimate interests.
+Right not to be subject to exclusively automated decisions (Article 22 GDPR): As explained in Section 6, we do not make decisions based exclusively on automated processing. However, if you have concerns about any automated element of our process, you have the right to request human review, to express your point of view, and to contest any decision.
+Right to withdraw consent: Where we rely on your consent as the legal basis for processing, you have the right to withdraw that consent at any time without affecting the lawfulness of processing carried out before withdrawal.
+How to exercise your rights:
+Please send your request by email to: privacy@anteriad.com
+We will respond within one month of receiving your request. In complex cases, we may extend this period by a further two months, in which case we will notify you of the extension and the reasons for it within the first month.
+11. Right to Lodge a Complaint
+If you consider that the processing of your personal data does not comply with applicable data protection law, you have the right to lodge a complaint with the competent supervisory authority. In Spain, the competent authority is:
+Agencia Española de Protección de Datos (AEPD) C/ Jorge Juan, 6 28001 Madrid www.aepd.es Tel: +34 912 663 517
+You may also lodge a complaint with the supervisory authority of the EU member state in which you habitually reside or work, or in which the alleged infringement took place.
+12. Changes to This Notice
+We may update this Candidate Privacy Notice from time to time to reflect changes in our practices or in applicable law. We will publish the updated version on this page with a revised "last updated" date. Where changes are material, we will take reasonable steps to inform candidates who are actively participating in a selection process at the time of the change.
+15. Processing of Personal Information of Individuals in Japan
+Where Anteriad processes personal information relating to individuals located in Japan, such processing will be conducted in accordance with the Act on the Protection of Personal Information (“APPI”) and applicable regulations issued by the Personal Information Protection Commission (PPC).
+Under APPI, individuals in Japan may have rights to request disclosure, correction, deletion, or suspension of use of their personal information in certain circumstances. Requests related to such rights may be submitted using the contact information provided in the Contact Us section of this Privacy Policy.
+Where personal information originating in Japan is transferred to a third party outside Japan, Anteriad will take appropriate measures consistent with APPI requirements, including ensuring appropriate safeguards and contractual protections where applicable.
+16. Data Privacy Framework/Transfer of Your Information
+Anteriad, LLC (Anteriad) complies with the EU-U.S. Data Privacy Framework program (EU-U.S. DPF), the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. Data Privacy Framework program (Swiss-U.S. DPF) as set forth by the U.S. Department of Commerce. Anteriad has certified to the U.S. Department of Commerce that it adheres to the EU-U.S. Data Privacy Framework Principles (EU-U.S. DPF Principles) with regard to the processing of personal data received from the European Union in reliance on the EU-U.S. DPF and from the United Kingdom (and Gibraltar) in reliance on the UK Extension to the EU-U.S. DPF. Anteriad has certified to the U.S. Department of Commerce that it adheres to the Swiss-U.S. Data Privacy Framework program Principles (Swiss-U.S. DPF Principles) with regard to the processing of personal data received from Switzerland in reliance on the Swiss-U.S. DPF. If there is any conflict between the terms in this privacy policy and the EU-U.S. DPF Principles and/or the Swiss-U.S. DPF Principles, the Principles shall govern. To learn more about the Data Privacy Framework (DPF) program, and to view our certification, please visit https://www.dataprivacyframework.gov/.
+Scope
+Anteriad collects, stores, transfers, and processes Personal Data in accordance with applicable data protection law, including where it is necessary to provide our Premium Services, to perform the Terms of Use, or to perform obligations under contract. We may transfer your information to affiliates, partners and other third parties as described herein. We will protect your Personal Data in accordance with this Privacy Policy wherever it is processed.
+The type of Personal Data transferred to Anteriad from the EU, the UK and Switzerland pursuant to Data Privacy Framework consists of Personal Data from clients in the EU, the UK and Switzerland that Anteriad processes on behalf of its clients, such as end-user name, address, email and transaction information. Since the requirements for compliance with Data Privacy Framework vary depending on whether we are acting as a Processor on behalf of our clients or as a Controller, our policies and manner of compliance are described separately below.
+The practices we employ under the EU-U.S. Data Privacy Framework (EU-U.S. DPF), as outlined also apply to data transferred from Switzerland and United Kingdom to the United States in compliance with the Swiss-US Data Privacy Framework and in compliance with the EU-U.S. DPF, and to the rights of EU and UK individuals from the United Kingdom (and Gibraltar) in reliance on the UK Extension to the EU-U.S. DPF.
+Purposes of Data Processing
+Anteriad acts as a data processor with respect to Personal Data we receive from our clients and process such information only under the instruction of our clients and are controlled by our clients in the EU, the UK and/or Switzerland. In this capacity, we do not own or control any of the information we process on behalf of our clients. All such information is owned and controlled by our clients. In this capacity, we receive information transferred from the EU, the UK and Switzerland to the United States merely as a Processor on behalf of our clients.
+Before starting any processing on behalf of our clients, we enter into a processing contract with the Controller that ensures the Controller is in compliance with the EU, UK General Data Protection Regulations (“GDPR”) or Member State Data Protection law that may apply. The processing contract will also specify that the processing will be carried out with appropriate data security measures. We have measures in place designed to protect Personal Data from loss, misuse, unauthorized access, disclosure, alteration and destruction.
+Any data processed by us will not be further disclosed to third parties except where permitted or required by the processing contract, Data Privacy Framework, GDPR, or the applicable Member State Data Protection law. Any information our client (acting as the Controller) identifies as sensitive, will be treated accordingly.
+When Anteriad provides business and consumer information products, we act as a Controller of the Personal Data contained in the information products. As a Controller, we share Personal Data with third parties that fall into various categories: clients, vendors and partners. Our clients include but not limited to financial, retail, insurance, and automotive companies. Our vendors include data suppliers and service providers. We also share Personal Data with partners such as other data resellers for marketing purposes and to our Customers (which may include, but are not limited to, global entities engaged in payment transaction processing, other related payment services, and multinational Fintech and AdTech companies) for their own fraud prevention and identity verification purposes/services. When we act as a Controller of Personal Data, the policies outlined apply to all Personal Data that has been transferred from the EU, the UK or Switzerland to the United States.
+Anteriad and its affiliates located in the EU, the UK or Switzerland, develop and maintain Personal Data on data subjects, households, and businesses located throughout EU Member States, the UK or Switzerland. This information is obtained from public records, publicly available information, information acquired through information providers, and information collected directly from data subjects.
+This information is provided to qualified businesses for marketing, customer data integration, and connectivity purposes. This information may also be used to provide information services, enhance the understanding a company has about its customers, aid in accurate integration of a company’s customer information, and be used as lists for direct marketing purposes and fraud prevention and identity verification purposes.
+Notice
+We may be required to disclose Personal Data in response to lawful requests by public authorities, including requests to meet national security or law enforcement requirements. Prior to the transfer of Personal Data from the EU, the UK or Switzerland to the United States, we require contractual confirmation from the Controller from whom we acquired the information that the Personal Data has been provided to us in accordance with GDPR, Data Privacy Framework, or the applicable EU Member State Data Protection law, thereby ensuring the data subjects have been provided with proper notice regarding how their Personal Data will be used. In addition, when Personal Data is collected directly from data subjects, we provide the data subject with notice regarding the manner and circumstances in which the Personal Data will be used and transferred to third parties.
+Choice
+If personal data covered by this Privacy Policy is to be used for a new purpose that is materially different from that for which the personal data was originally collected or subsequently authorized, or is to be disclosed to a non-agent third party in a manner not specified in this Policy, Anteriad will provide you with an opportunity to choose whether to have your personal data so used or disclosed. Requests to opt out of such uses or disclosures of Personal Data should be sent to us as specified in the "How to Contact Us" section below.
+Certain personal data, such as information about medical or health conditions, racial or ethnic origin, political opinions, religious or philosphical beliefts, is considered "Sensitive Information." Anteriad will not use Sensitive Personal for a purpose other than the purpose for which it was originally collected or subsequently authorized by the individual unless Anteriad has received your affirmative and explicit consent (opt-in).
+We provide choices and means for individuals to limit the use of their Personal Data. In addition to providing individuals with choices regarding our use of their information, we will remove an individual’s name and related information from our direct marketing information products if they request it. Consumers may request an opt-out form by writing Anteriad at the address below, sending an e-mail to us at privacy@Anteriad.com or our website privacy portal.
+To request an opt-out form by mail, write to:
+Privacy Officer
+EU-US Data Privacy Framework Opt-Out
+Anteriad LLC
+441 Lexington Avenue
+Suite 1404
+New York, NY 10017
+Onward Transfer
+Since we share Personal Data with third parties as referenced above, we comply with the notice and choice principles as described above for all data disclosed or transferred to a third party. We take reasonable and appropriate steps designed to ensure that the third party effectively processes the Personal Data transferred in a manner consistent with our obligations under the Principles.
+When we use data processors to perform processing tasks on our behalf and at our direction and instruction, we require our data processors either:
+Subscribe to the Data Privacy Framework (in the case of US-based processors), comply with the General Data Protection Regulations (in the case of EU, UK or Switzerland -based processors), or another adequacy finding (in the case of processors in countries outside the US, EU, UK, or Switzerland); or
+Enter into a written agreement with us requiring the data processor(s) to process the data only for limited and specified purposes and to provide the same level of protection as Anteriad.
+In cases of onward transfer to third parties, we may be liable for the acts of the third party that are in violation of the Data Privacy Framework Principles.
+Security
+We have an information security policy in place designed to protect Personal Data from loss, misuse, unauthorized access, disclosure, alteration, and destruction. Our Chief Information Security Officer is primarily responsible for conducting investigations into any alleged computer or network breaches, incidents or problems and ensuring that proper disciplinary action is taken against those who violate our Information Security Policy.
+Data Integrity
+We take reasonable steps designed to ensure the information transferred from the EU, the UK or Switzerland to the United States is reliable, accurate, and complete. The steps we take to assure data integrity are based on the purposes for which the Personal Data is used.
+Access
+An individual may request access to the Personal Data processed pursuant to the Data Privacy Framework we maintain in our information products. Individuals have the right to learn whether data about him or her is found in our information products and to correct, amend or delete that information when it is inaccurate. This right applies only to Personal Data about the individual making the request and is subject to other limitations as defined by law. Individuals can request access by writing or sending an email request to privacy@Anteriad.com.
+Privacy Officer
+Anteriad LLC
+441 Lexington Avenue
+Suite 1404
+New York, NY 10017
+Anteriad’s Privacy Officer will explain the process for making an access request. In order to confirm the identity of the individual and the necessary information to retrieve the individual’s information, Anteriad’s Privacy Officer will provide a form for the individual to fill out, sign, and return to Anteriad.
+We agree to process all reasonable requests for access within a reasonable time period but reserve the right to deny access or limit access in cases where the burden or cost of providing access would be disproportionate to the risks to the individual’s privacy or when the request is manifestly unfounded or excessive.
+Recourse, Enforcement and Liability
+We have Annual Data and IT Security Awareness Certification requirements for each of our employees. This training includes our Data Privacy Framework compliance program implementation. Our employee policies contain clear statements that training and annual refresher courses in our privacy practices, including our participation in the Data Privacy Framework, are required and failure to complete such training and annual refresher courses may result in discipline up to and including termination. Part of this program includes a certification log which provides an objective review of employee compliance with our Data Privacy Framework certification training.
+In compliance with the EU-US Data Privacy Framework (EU-US DPF), the UK Extension to the EU-US DPF Principles, Swiss-US DPF and SW-US DPF Principles, Anteriad commits to resolve complaints about your privacy and our collection or use of your personal information transferred to the United States pursuant to the DPF principles. European Union, Swiss and United Kingdom individuals with DPF inquiries or complaints should first contact Anteriad at: Privacy@anteriad.com
+We are subject to the investigatory and enforcement powers of the U.S. Federal Trade Commission.
+Anteriad will uphold enacted U.S. laws, rules, and regulations protecting certain sensitive and other data related to “U.S. persons.” This includes the Protecting Americans’ Data from Foreign Adversaries Act of 2024 (“PADFA”) and 28 C.F.R. Part 202 (“the DOJ Final Rule”). Anteriad nor it's affiliates, subsidiaries, representatives, or subcontractors will permit any “US Data” to be transferred to or accessed by a: (i) “foreign adversary country” or an entity or person that is “controlled by a foreign adversary”, as defined under PADFA, or (ii) “country of concern” or “covered person,” as defined under the DOJ Final Rule.
+In compliance with EU-U.S. Data Privacy Framework (EU-U.S. DPF), the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. Data Privacy Framework (Swiss-U.S. DPF) and to the rights of EU, UK, and Swiss individuals, Anteriad commits to resolve complaints about your privacy and our collection or use of your personal information transferred to the United States pursuant to the DPF principles. European Union, Swiss and United Kingdom individuals with DPF inquiries or complaints should first contact Anteriad at: Privacy@anteriad.com
+Anteriad has further committed to refer unresolved privacy complaints under the DPF Principles to an independent dispute resolution mechanism, Data Privacy Framework Services, operated by BBB National Programs. If you do not receive timely acknowledgment of your complaint, or if your complaint is not satisfactorily addressed, please visit https://bbbprograms.org/programs/all-programs/dpf-consumers/ProcessForConsumers for more information and to file a complaint. This service is provided free of charge to you.
+If your DPF complaint cannot be resolved through the above channels, under certain conditions, you may invoke binding arbitration for some residual claims not resolved by other redress mechanisms. See https://www.dataprivacyframework.gov/s/article/G-Arbitration-Procedures-dpf?tabset-35584=2.
+17. Data Retention
+Anteriad retains the non-personal user data we collect for all of our products and services for purposes of interest-based advertising for up to thirteen (13) months from the date of its collection.
+We retain personal information only for as long as necessary to fulfill the purposes described in this Privacy Policy, to maintain the accuracy of our data products, and to comply with applicable legal, contractual, and regulatory obligations.
+, i.e. as long as it is associated with a business that is included in our database. We verify our data periodically and if we learn that you are no longer involved with a business that is in our database, we will remove your data from our records.
+Customer Data We will retain this information for as long as needed to provide services to any one of our customers or as otherwise authorized, directed, or permissioned by our Customers. In addition, Anteriad will retain this personal information as necessary to comply with our legal obligations, resolve disputes, and enforce our agreements. In the event we are processing data for our Customer, we will take Client instruction.
+Other Data We will retain this information for the duration of our business relationship and afterwards for as long as is necessary and relevant for our legitimate business purposes, in accordance with permitted applicable laws and regulation. Where we no longer need your personal information, we will dispose of it in a secure manner (without further notice to you).
+18. Children’s Privacy
+Children Under the Age of 16
+Our Website is not intended for children under 16 years of age. No one under age 16 may provide any information to or on the Website. We do not knowingly collect personal information from children under 16. If you are under 16, do not use or provide any information on this Website or on or through any of its features. If we learn we have collected or received personal information from a child under 16 without verification of parental consent, we will delete that information. If you believe we might have any information from or about a child under 16, please contact us at privacy@anteriad.com.
+California residents under 16 years of age may have additional rights regarding the collection and sale of their personal information. Please see your-california-rights for more information.
+19. Additional Information for Residents of California, Colorado, Connecticut, Utah, Virginia, Texas, Oregon, Montana, Iowa, Tennessee, Indiana, Delaware, New Jersey, Florida, and other U.S. states that have enacted comprehensive consumer privacy laws may have certain rights regarding personal information collected about them.
+Depending on your state of residence, these rights may include the right to:
+• Access personal information collected about you
+• Correct inaccuracies in personal information
+• Delete personal information
+• Opt out of the sale or sharing of personal information
+• Opt out of targeted advertising
+• Opt out of profiling in furtherance of decisions producing legal or similarly significant effects
+• Appeal a denial of a consumer request
+California residents have certain privacy rights under the California Consumer Privacy Act of 2018 as amended by the California Privacy Rights Act of 2020 (“CCPA”), and Virginia residents have similar privacy rights under the Virginia Consumer Data Protection Act of 2019 (“VCDPA”), with respect to personal information or personal data about them. Residents of Colorado, Connecticut or Utah will have similar rights on various effective dates during 2023 under either the Colorado Privacy Act (“CPA” effective July 1, 2023), the Connecticut Act Concerning Personal Data Privacy and Online Monitoring (“CTDPA” effective July 1, 2023), or the Utah Consumer Privacy Act (“UCPA” effective December 31, 2023).
+Under the CCPA “Personal Information” means information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer or household. Similarly, under the VCDPA, “Personal Data” means any information that is linked or reasonably linkable to an identified or identifiable natural person. When we use the term “personal information” in the following sections, we mean either your Personal Information under the CCPA if you are a California resident or your Personal Data under the VCDPA if you are a Virginia resident, or the similar definitions of Personal Data or Personal Information that apply if you are a resident of Colorado, Connecticut or Virginia.
+If you are a resident of California, the California Consumer Protection Act (CCPA)/California Privacy Rights Act (CPRA) provides certain rights of disclosure, access and deletion of your information as described below in the “Addendum for California Residents” at the end of this Privacy Policy.
+Additional Information for Residents of Virginia (VCDPA): Right to Appeal. Under the Virginia Consumer Data Protection Act (§ 59.1-577), if Anteriad refuses to take action on a consumer request to access, correct, delete, or opt out of the processing of personal data, you have the right to appeal that decision.
+Appeals may be submitted directly to Anteriad at privacy@anteriad.com. Our Privacy Officer will review your appeal and respond in a timely manner.
+20. Contact Us
+Anteriad has a designated privacy contact. If you have questions related to this Privacy Policy, or regarding our products or services, please contact us:
+Attn: Privacy Officer
+Anteriad, LLC
+441 Lexington Avenue
+Suite 1404
+New York, NY 10017
+privacy@anteriad.com
+Our EU registered Data Protection Officer is:
+Max Olivier
+DPO
+Anteriad EMEA
+Calle Jose Echegaray 20
+28232 Las rozas de Madrid
+Madrid, Spain
+molivier@anteriad.com
+Our registered Indian Data Protection Officer is:
+Bhagawan Dass
+DPO
+NAL Wind Tunnel Main Road
+Murugeshpalaya
+Bangalore 560017
+bnadella@anteriad.com
+We appreciate your comments and questions regarding Anteriad’s privacy practices.
+———————————————————————
+CALIFORNIA PRIVACY NOTICE
+This California Privacy Notice supplements the information contained in Anteriad's Privacy Policy and applies solely to individuals who reside in the State of California. It explains how Anteriad collects, uses, discloses, sells, and shares Personal Information, and describes the rights available to California residents under the California Consumer Privacy Act, as amended by the California Privacy Rights Act ("CCPA/CPRA"), and other applicable California privacy laws.
+In the below tables and sections, we describe (as required by the CCPA/CPRA):
+Our Collection of Personal Information – the types of Personal Information (which the CCPA/CPRA defines broadly) that we collect, the types of sources we collect it from,
+Our Disclosure and Sale or Sharing of Personal Information – the types of recipients to whom we disclose or sell Personal Information.
+Our Business Purposes – our business purposes for (a) collecting and (b) sharing Personal Information, which are generally the same.
+Your California Privacy Rights and Choices – what rights you have under the CCPA/CPRA, for instance, to request that we “opt out” your information from our marketing database (also called “do not sell” rights), or to request categories and personal information that we may have collected about you.
+The following sets forth the categories of information we collect and purposes for which we may use California Consumers’ personal information:
+1. OUR COLLECTION OF PERSONAL INFORMATION
+Depending on how you interact with us, we may collect about you the categories of information summarized in the table below. The following table also describes how we collect and use such categories of information.
+Category
+Categories of Sources
+Identifiers, e.g., name; alias; postal address; mobile ad identifiers; IP address; telephone number; email address; social network handles
+Data compilers and consumer data resellers, informational and retail websites (“Commercial Source Categories”)
+Public records and other publicly available sources
+Government entities
+Social networks
+Characteristics of protected classifications under California or US law (inferenced or actual, including self-reported)
+E.g., race; color; religion; sex/gender; pregnancy, marital status; military or veteran status; national origin; ancestry; age (over 40) (may be inferenced, actual or self-reported)
+Commercial Source Categories
+Public records and other publicly available sources
+Government entities
+Social networks
+Commercial or transactions information
+E.g., products or services purchased, obtained, or considered, or other purchasing or consuming histories or tendencies.
+Commercial Source Categories
+Public records and other publicly available sources
+Internet or other electronic network activity information
+E.g., browsing history; online interests.
+Commercial Source Categories
+Geolocation data
+Commercial Source Categories
+Professional or employment-related information
+E.g., current or past job history or job title.
+Commercial Source Categories
+Public records and other publicly available sources
+Inference Data
+E.g., consumer information or preferences.
+Commercial Source Categories
+2. OUR DISCLOSURE AND SALE OR SHARING OF PERSONAL INFORMATION
+We will share the information collected from and about you as discussed above for various business purposes, with service providers and with third parties including our customers. The chart below shows how and with whom we share or disclose personal information, and whether (based on the CCPA/CPRA’s definition of “sell”) we believe we have “sold or shared” a particular category of information in the prior 12 months.
+Category
+Categories of Third Parties We Share With
+Whether We “Sold or Shared” This Category of Personal Information in the Last 12 Months
+Identifiers, e.g., name; alias; postal address; mobile ad identifiers; IP address; telephone number; email address; social network handles
+Data compilers and consumer data resellers, consumer goods retailers, informational and retail websites, content publishers, non-profit organizations, business-to-business services and organizations, consumer surveys and survey companies, affiliate networks (“Commercial Recipient Categories”)
+Advertising networks and media platforms, political campaigns, internet service providers, data analytics providers
+Social networks
+Yes
+Characteristics of protected classifications under California or US law (inferenced or actual)
+E.g., race; color; religion; sex/gender; pregnancy, marital status; military or veteran status; national origin; ancestry; age (over 40) (may be inferenced, actual or self-reported)
+Commercial Recipient Categories
+Advertising networks and media platforms, political campaigns, internet service providers, data analytics providers
+Social networks
+Yes
+Commercial or transactions information
+E.g., products or services purchased, obtained, or considered, or other purchasing or consuming histories or tendencies.
+Commercial Recipient Categories
+Advertising networks and media platforms, political campaigns, internet service providers, data analytics providers
+Social networks
+Yes
+Internet or other electronic network activity information
+E.g., browsing history; online interests.
+Commercial Recipient Categories
+Advertising networks and media platforms, political campaigns, internet service providers, data analytics providers, and social networks
+Yes
+Professional or employment-related information
+E.g., current or past job history or job title.
+Commercial Recipient Categories
+Advertising networks and media platforms, political campaigns, internet service providers, data analytics providers
+Social networks
+Yes
+Inference Data
+E.g., consumer information or preferences.
+Commercial Recipient Categories
+Advertising networks and media platforms, political campaigns, internet service providers, data analytics providers
+Social networks
+Yes
+Location data
+Geolocation information, e.g., tied to a device identifier.
+Yes
+We also may share any of the personal information we collect as follows:
+Sharing for Legal Purposes: In addition, we may share personal information with third parties in order to: (a) comply with legal process or a regulatory investigation (e.g. a subpoena or court order); (b) enforce our Terms of Service, this Privacy Policy, or other contracts with you, including investigation of potential violations thereof; (c) respond to claims that any content violates the rights of third parties; and/or (d) protect the rights, property or personal safety of us, our platform, our customers, our agents and affiliates, its users and/or the public. We likewise may provide information to other companies (which may include, but are not limited to, global entities engaged in payment transaction processing, other related payment services, and multinational Fintech and AdTech companies) and organizations (including law enforcement) for their own fraud protection and identification verification and spam/malware prevention, and similar purposes.
+Sharing In Event of a Corporate Transaction: We may also share personal information in the event of a major corporate transaction, including for example a merger, investment, acquisition, reorganization, consolidation, bankruptcy, liquidation, or sale of some or all of our assets, or for purposes of due diligence connected with any such transaction.
+Sharing With Service Providers: We share any personal information we collect with our service providers, which may include (for instance) providers involved in tech or customer support, operations, web or data hosting, billing, accounting, security, marketing, data management, validation, enhancement or hygiene, or otherwise assisting us to provide, develop, maintain and improve our services.
+Sharing of Aggregate Information: We may aggregate and/or de-identify any information collected so that such information can no longer be linked to you or your device (“Aggregate/De-Identified Information”). We may use Aggregate/De-Identified Information for any purpose, including without limitation for research and marketing purposes, and may also share such data with any third parties, including advertisers, promotional partners, and sponsors, in our discretion.
+3. OUR BUSINESS PURPOSES FOR COLLECTING AND SHARING PERSONAL INFORMATION
+Generally speaking, we collect and share the Personal Information that we collect for the following purposes, as we also have described in our Privacy Policy and/or our website.
+Our Purposes for collecting, using and sharing Personal Information
+Data marketing services, for example:
+Generally, creating data marketing tools and products for our marketer clients, as more fully described in our Privacy Policy (and on our websites). This includes our provision of datasets, data “appends” (connecting data across datasets), data “scoring” (providing inferences about potential consumer behavior), data hygiene services (helping customers to evaluate, validate and correct personal information they hold), and security and anti-fraud services (helping customers to identify potentially fraudulent activity).
+Helping our Clients identify and understand their consumers better, by providing insights about them and managing loyalty programs, as well as providing financial and other scoring products.
+Assisting our Clients through our Services to provide their current and prospective customers with better service, improved offerings, and special promotions, for instance, advising on which current or prospective customers are most likely to be interested (or disinterested) in certain offers.
+Online targeting, for example:
+Creating or helping to create defined audience segments based on common demographics and/or shared (actual or inferred) interests or preferences (e.g., households with prospective students). When we do this, we work with a data partner that “matches” our or other Information through de-identification techniques (such as through coded data “hashing”) with online cookies and other identifiers, in order to target and measure ad campaigns online across various display, mobile and other media channels.
+Assisting Clients in creating “identity” graphs, to help locate users across various channels, such as based on common personal, device-based, or network-based identifiers (e.g., IP address, email address).
+Certain U.S. state privacy laws define “targeted advertising” as displaying advertisements to a consumer based on personal data obtained from that consumer’s activities across non-affiliated websites or online applications.
+Anteriad may engage in activities that fall within this definition when providing marketing analytics, audience segmentation, and advertising services for customers. Individuals may exercise their rights to opt out of targeted advertising through the methods described in the Your Marketing and Privacy Choices section.
+Additional marketing services, for example (which may overlap with “data marketing services” above):
+Assisting in targeting and optimizing of direct mail and email campaigns, display, mobile and social media marketing.
+Measuring the effectiveness of online or offline ad campaigns by determining which messages are most likely to be seen or opened by which types of consumers, or which types of ads are most likely to lead to purchases.
+Analyzing and optimizing our Clients’ (or their service providers’) proprietary databases, or helping Clients to identify and mitigate potential fraud.
+Providing “verification” or data “hygiene” services, which is how companies update and/or “clean” their databases by either verifying or
+Operating our Services, for example:
+Improving, testing, updating and verifying our own database.
+Developing new products.
+Operating, analyzing, improving, and securing our Services.
+Other internal purposes, for example:
+For internal research, internal operations, auditing, detecting security incidents, debugging, short-term and transient use, quality control, and legal compliance.
+We sometimes use the information collected from our own website, from social networks, from other “business to business” interaction (such as at trade shows) or from data compilers for the above, as well as for our own marketing purposes.
+4. YOUR CALIFORNIA RIGHTS AND CHOICES
+California residents have the right to:
+Know what Personal Information we collect;
+Access Personal Information;
+Correct inaccurate Personal Information;
+Delete Personal Information;
+Obtain a portable copy of Personal Information;
+Opt out of the Sale or Sharing of Personal Information;
+Opt out of the Sharing of Personal Information used for Cross-Context Behavioural Advertising;
+Limit the use and disclosure of Sensitive Personal Information where applicable; and
+Not be discriminated against for exercising privacy rights.
+Sometimes, we act only as a “service provider” to our clients (for instance, if they provide information to us for analytics, processing or other data management services), in which case any consumer requests for opt-out, deletion or access to data must be made through that client: we will forward any such requests to a named client, as feasible, but we recommend making any requests directly to the company you wish to direct the request to.
+A. Right to “opt-out” of the sale or sharing of your personal information
+California residents have the right to direct Anteriad not to sell or share their Personal Information. California law broadly defines what constitutes a "sale" of Personal Information and separately regulates the "sharing" of Personal Information for cross-context behavioural advertising.
+Depending what information we have about you, and whether we have included any of it in our marketing products and services, we may have sold or shared (as defined by California law) certain categories of information about you in the last 12 months, as described in the above table in Section II of this Addendum, titled OUR DISCLOSURE AND SALE OR SHARING OF PERSONAL INFORMATION.
+B. Right to request access to your personal information
+California residents have the right to request that we disclose what categories of your personal information that we collect, use, sell or share. As explained in Section (D) below, you may also request the specific pieces of personal information that we have collected from you. (We may withhold some personal information where the risks are too great to permit disclosure of the information.)
+C. Right to request deletion of your personal information
+As explained further in Section (D) below, you may also request that we delete any personal information that we collected from, such as if you have been a customer of ours. (Note that this is different from your right to “opt out” of us selling your personal information, which is described below; also note that we do not generally collect personal information directly from consumers.) However, we may retain personal information for certain important purposes, such as (a) to protect our business, systems, and users from fraudulent activity, (b) to address technical issues that impair existing functionality (such as de-bugging purposes), (c) as necessary for us, or others, to exercise their free speech or other rights, (d) to comply with law enforcement requests pursuant to lawful process, (e) for scientific or historical research, (f) for our own internal purposes reasonably related to your relationship with us, or to comply with legal obligations. Additionally, we need certain types of information so that we can provide our Services to you. If you ask us to delete it, you may no longer be able to access or use our Services.
+D. How to exercise your access, and (if applicable) deletion rights
+Access: California residents may exercise their California privacy rights by sending an email to privacy@Anteriad.com, submitting their removal request through our website privacy portal, or by contacting us at 1-877-338-4185.
+Because it is required by California law (and also, for security purposes), we will verify your identity – in part by requesting certain information from you or by requesting you demonstrate possession of a particular identification method (such as an email account) — when you request to exercise your California privacy rights. For instance, if you request categories or specific pieces of personal information we have received about you, you may need to confirm your possession of such an identifier (such as an email address) or to provide a piece of identification that confirms you are the person you claim to be.
+Once we have verified your identity, we will respond to your request as appropriate:
+Where you have requested the categories of personal information that we have collected about you, we will provide a list of those categories.
+Where you have requested specific pieces of personal information, we will provide the information you have requested, to the extent required under the CCPA/CPRA and provided we do not believe there is an overriding privacy or security concern to doing so.
+Deletion: Where you have requested that we delete personal information that we have collected from you, we will seek to confirm whether your request is for an “opt out” or a “deletion”: because “opt out” or “do not sell” rights enable us to maintain your information for “suppression” purposes – i.e., to prevent us from selling information about you in the future (which is what many consumers requesting “deletion” actually desire to occur), we try to explain this in order to ensure we are meeting consumers’ preferences. (In addition, “deletion” rights only apply to information that we have collected “from” consumers – which does not apply to much of the information in our databases.)
+E. California Delete Request and Opt-Out Platform (DROP)
+Pursuant to the California Delete Act (California Civil Code Sections 1798.99.80–1798.99.89), eligible California residents may submit deletion requests through the California Privacy Protection Agency's Delete Request and Opt-Out Platform ("DROP").
+Where Anteriad receives a verified deletion request through DROP, we will process the request in accordance with applicable California law and applicable regulatory requirements, subject to any statutory exceptions permitting the retention of personal information.
+Individuals may also continue to submit requests directly through Anteriad using the methods described in this Addendum.
+Submission of a request through DROP does not prevent a California resident from submitting a request directly to Anteriad using the methods described in this Addendum.
+F. California Data Broker Registration
+Anteriad is registered as a Data Broker with the California Privacy Protection Agency ("CPPA") as required under California law.
+Information regarding registered California Data Brokers is available through the California Data Broker Registry maintained by the California Privacy Protection Agency.
+G. Global Privacy Control
+Where required by applicable California law, Anteriad recognizes browser-based Global Privacy Control ("GPC") signals as valid requests to opt out of the sale or sharing of Personal Information.
+H. Right to non-discrimination
+We do not deny to you, charge different prices for, or provide a different level of quality of goods or services to you, if you choose to exercise these rights.
+I. Information about persons under the age of 16
+We do not knowingly collect personal information from minors under 16 years of age in California unless we have received legal consent to do so. If we learn that personal information from such California residents has been collected, we will take reasonable steps to remove their information from our database (or to obtain legally required consent).
+J. Authorized agents
+You may also designate an agent to make requests to exercise your rights under CCPA/CPRA as described above. We will take steps both to verify the identity of the person seeking to exercise their rights as listed above, and to verify that your agent has been authorized to make a request on your behalf through providing us with a signed written authorization or a copy of a legally sufficient power of attorney. We likewise may require that you verify your own identity, depending on the type of request you make.
+K. Notice to Employees
+As you have self-reported that you are a resident of California, we are serving notice that the Company collects and retains certain information about you.
+California’s Consumer Privacy Act (“CCPA”) and California Privacy Rights Act (“CPRA”) provides California employees with certain rights:
+Knowledge of information collected;
+Deletion of information collected;
+Opt-out of information collected;
+Correction of information collected;
+Go to court;
+Limit use of information collected;
+Not to be discriminated or retaliated against for exercising rights under the law.
+Where We Get Your Information From. The Company collects information about you from the following sources: 1) you; 2) prior employers, references, recruiters, job-related social media platforms; 3) third-party sources of demographic information; 4) third-party companies, such as background check companies; and 5) claim administrators and investigators. Depending on the Company’s interactions with you, we may or may not collect all of the information identified about you.
+The Personal and Sensitive Personal Information That We Are Collecting. We are collecting the following information:
+Identifiers, such as name, government-issued identifier (e.g., Social Security number), and unique identifiers (e.g., employee ID);
+Personal information, such as legal name, signature, SSN, physical characteristics or description, address, telephone number, passport number, driver’s license or state identification card number, passport number, federal identification authorizing work in the United States, access and/or passcodes, insurance policy number, education, employment, employment history, bank account number, other financial information, medical information, or health insurance information;
+Characteristics of protected classifications under California or federal law, such as age, marital status, gender, sex, race, color, disability, citizenship, primary language, immigration status, military/veteran status, disability, request for leave, and medical conditions;
+Commercial information, such as transaction information and purchase history (e.g., in connection with travel or other reimbursements);
+Internet or network activity information, such as browsing history and interactions with our online systems and websites and any personal information that you provide while accessing the Company’s computer systems, such as personal credit card information and passwords;
+Geolocation data, such as device location from usage of the Company’s devices;
+Biometric information related to access to the Company’s secured access points;
+Audio, electronic, visual, and similar information;
+Professional or employment-related information, such as work history and prior employer;
+Non-public education information; and
+Inferences drawn from any of the Personal and Sensitive Personal Information listed above to create a profile or summary about, for example, an individual’s preferences and characteristics.
+How Your Personal and Sensitive Personal Information is Used. We may use Personal and Sensitive Personal Information:
+To operate, manage, and maintain our business;
+For hiring, retention, and employment purposes;
+To otherwise accomplish our business purposes and objectives, including, for example:
+Emergency services;
+Conducting research, analytics, and data analysis;
+Maintaining our facilities and infrastructure;
+Quality and safety assurance measures;
+Conducting risk and security controls and monitoring;
+Protecting confidential and trade secret information;
+Detecting and preventing fraud;
+Performing identity verification;
+Performing accounting, audit, and other internal functions, such as internal investigations;
+Complying with the law, legal process, and internal policies;
+Maintaining records;
+Claims processing;
+Responding to legal requests for information and subpoenas; and
+Exercising and defending legal claims.
+Any other purposes authorized by the California Privacy Protection Agency, California or Federal law.
+We may or may not have used Personal and Sensitive Personal Information about you for each of the above purposes.
+Sharing of Personal Information. We only share your information with the following current third-party entities:
+US payroll provider (ADP)
+Health & welfare benefit registration platform (Employee Navigator)
+Health & welfare benefits insurance broker (IMA)
+Employee benefit carriers (UnitedHealthcare, Optum, Unum, Advanced Benefit Strategies)
+401(k) plan recordkeeper (Principal)
+401(k) plan third party administrator (Prime Pensions, Inc.)
+401(k) plan advisor (Pallas Capital Advisors)
+Applicant Tracking System (Greenhouse)
+Corporate Learning Management System (Cornerstone)
+Legacy Performance Review System (Darwinbox)
+Employee Travel & Expense Platform (Emburse Certify)
+Corporate Intranet (Jostle)
+Background Screening Services (Good Hire/Checkr, HireRight)
+Email Licensing Platform (Microsoft)
+Telephone Extension Service (OneBox)
+Lenders for Employment Verifications (Employee Selected and Authorized)
+The Company may also use other third-party companies to operate, manage and maintain our business.
+Selling of Personal Information. The Company DOES NOT sell your personal information.
+Data Retention. The Company retains the information it receives about you for a period of seven (7) years, unless a shorter or longer period is required by California or Federal law.
+For Inquiries and/or to Submit Requests for Information, Deletion or Correction.
+Please contact Heather Buxton, Chief People Officer, 914-368-1112, hbuxton@anteriad.com, 441 Lexington Avenue, Suite 1404, New York, NY 10017 for inquiries about the Company’s policy, or to submit your requests for information, deletion or correction.
+For more information, about Data that the Company collects, stores and transfers, please refer to the Company’s Privacy Policy.
+Anteriad respects your privacy and strives to uphold all applicable privacy laws in our business relationship with you.
+L. Notice to Job Applicants
+When applying to a position at Anteriad, we may collect personal information about a job applicant from the following types of sources of personal information:
+Information submitted directly by a job applicant;
+Information from public sources (such as, public social media profiles); and/or
+Information from other third parties (such as professional references, pre-employment background check services, and/or previous employers).
+Anteriad may use the personal information collected for one or more of the following business purposes:
+To create and maintain job application records;
+To communicate with job applicants regarding employment opportunities, employment applications, and status updates on job applications or interview process;
+To conduct equal opportunity and diversity monitoring where permitted or required by law;
+To comply with applicable legal and regulatory requests and obligations (including investigations);
+To establish or defend legal claims and allegations; and/or
+For security or the prevention, detection, or investigation of fraud, suspected or actual illegal activity, or other misconduct.
+Anteriad will not collect additional categories of personal information or use the personal information we collected for materially different, unrelated, or incompatible purposes without updating this Notice.
+Disclosure:
+Anteriad may disclose job applicant personal information to our service providers for a specified, legitimate business purpose. The information listed in our Collection & Use section may have been disclosed within the last 12 months.
+The legitimate business purposes for why we may disclose information include to:
+Extend offers and provide new employee benefits, perks, and payment;
+Comply with our internal policies and legal or regulatory obligations;
+Create, maintain, and update new or existing job application records;
+Improve and assist us with managing business operations; and
+Provide additional security measures to protect Anteriad systems and information from unauthorized access or control.
+Any service provider or contractor (as defined by the CPRA) to whom Anteriad discloses personal information about a job applicant will be contractually obligated to comply with our security and confidentiality obligations, as well as any processing instructions. Anteriad only discloses personal information to the following categories of service providers and contractors:
+HR, benefits, and accounting/payroll systems;
+IT and software providers; and
+Marketing and recruitment tools.
+Anteriad may also disclose personal information about a job applicant to the following categories of third parties:
+Third parties to which a job applicant has consented;
+Third parties as required by applicable law or relevant legal process.
+Anteriad does not disclose personal information about job candidates to third parties for cross-context behavioral advertising.
+Selling and Sharing of Personal Information:
+Please note that Anteriad does not sell or share (as defined by the CPRA) personal information obtained from prospective candidates.
+Sensitive Personal Information:
+Anteriad does not use or disclose job applicants’ Sensitive Personal Information (SPI) for purposes other than those permitted under California Privacy Law, including to comply with legal and regulatory obligations, to manage and operate the business, and to help us carry out job applicant requests. Where permitted, Anteriad and its service providers may collect and process the following SPI:
+Log-in credentials for technologies, systems, and services;
+Government-issued identification documentation, such as a passport or driver’s license when applying for a Anteriad position;
+Information needed to conduct a background check;
+Health or financial information related to payroll, accounting, and health benefits; and
+Diversity or demographic information.
+California Job Applicants Privacy Rights
+Beginning January 1, 2023, Anteriad job applicants who are California residents will be granted the following rights over their personal information, subject to certain exceptions:
+The Right to Access & Know: Job applicants have the right to know the types of personal information that Anteriad has collected about the job applicant in the preceding 12-month period, as well as the right to request access to specific pieces of personal information obtained from the job applicant.
+The Right to Correct: Job applicants have a right to request that Anteriad correct any objectively false and inaccurate personal information about the job applicant and maintained by Anteriad.
+The Right to Delete: Job applicants have the right to request that Anteriad delete certain information about an applicant that was provided by the applicant. Anteriad may need to retain personal information about prospective candidates in certain cases, such as to comply with legal and regulatory obligations and to manage and operate the business. Anteriad shall also notify any contractors and service providers to delete the job applicant personal information from their records.
+The Right to Non-Retaliation: Job applicants have a right to exercise any of the privacy rights mentioned in this Policy and as granted by applicable California Privacy Law, without fear of retaliation by Anteriad.
+How Anteriad California Job Applicants Can Exercise Their Rights
+Anteriad California job applicants can exercise their rights by using one of the following methods:
+Emailing us at privacy@anteriad.com; or
+Submitting a request through our Privacy Center - https://anteriad.com/privacy-center.
+To ensure a smooth verification process, Anteriad job applicants, or an agent legally authorized to submit a request on behalf of a job applicant, should be prepared to provide proof of their California residency.
+Notice Updates
+Anteriad reserves the right to modify, revise, or otherwise amend this Notice at any time. We periodically review and update this Notice to comply with applicable laws and to ensure it incorporates any changes to our policies or business.
+The date at the top of the page indicates when this Notice was last revised. We encourage you to please review this page regularly for the latest information on our privacy practices.
+Contact Us
+If you have any questions or concerns about this Notice, please contact us at: privacy@anteriad.com.
+Statistical Information
+2025 Summary Metrics
+Requests received: 46
+Requests rejected: 0
+Average time to complete: 2 Days
+This number reflects the number of days until it is processed. We typically respond and start honoring the request within two (2) days.

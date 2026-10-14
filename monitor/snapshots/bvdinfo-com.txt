@@ -1,0 +1,79 @@
+Do Not Sell Request - 2026
+Skip survey header
+Do Not Sell Request - 2026
+California residents can choose to exercise applicable consumer rights under the California Consumer Privacy Act using the form below.
+Access right
+To see a copy of the personal information Moody’s holds about you (if any).
+Right to delete
+To request the deletion of the personal information Moody’s holds about you (if any).
+Right to correct
+To request the correction of the personal information Moody’s holds about you (if any).
+Right to know
+To request to know what types of personal information Moody’s has shared about you (if any), and with whom.
+Right to opt out of sale or sharing
+To request to opt out of the sale of the personal information Moody’s holds about you (if any).
+Right to limit the use and disclosure of sensitive personal information
+To request to limit the use and disclosure of sensitive personal information Moody’s holds about you (if any).
+We will use the information you provide below to locate the personal information Moody’s has collected about you (if any). This information will only be used to verify your identity, if applicable, and for consumer disclosure purposes. If we are unable to confirm your identity or locate you using the information provided, we may not be able to comply with your request. You may submit your requests through the use of an Authorized Agent registered with the California Secretary of State to act on your behalf. If you choose to use an Authorized Agent, we require that you provide the Authorized Agent with written permission to allow them to submit your request and that you verify your identity directly with us.
+In the last twelve (12) months, Moody’s sold products and services that include limited personal information:
+In relation to Moody’s commercial real estate (CRE) solutions (Catylist/REIS), residents of California who are commercial property owners, brokers, tenants, buyers and sellers.
+In relation to Moody’s trade credit solution Moody’s Analytics Pulse, residents of California who are executives, officers, managers, or others who are affiliated with payment, purchasing and procurement for organizations.
+1. Requesting Party: *This question is required.
+Individual making a request for myself
+Authorized Agent making a request on behalf of an individual
+FIRST NAME *This question is required.
+FIRST NAME OF CONSUMER *This question is required.
+LAST NAME *This question is required.
+LAST NAME OF CONSUMER *This question is required.
+EMAIL ADDRESS *This question is required.
+This question requires a valid email address.
+EMAIL ADDRESS OF CONSUMER *This question is required.
+This question requires a valid email address.
+CALIFORNIA ADDRESS LINE 1 *This question is required.
+CALIFORNIA ADDRESS LINE 1 OF CONSUMER *This question is required.
+CALIFORNIA ADDRESS LINE 2
+CALIFORNIA ADDRESS LINE 2 OF CONSUMER
+CALIFORNIA CITY *This question is required.
+CALIFORNIA CITY OF CONSUMER *This question is required.
+CALIFORNIA ZIP CODE *This question is required.
+CALIFORNIA ZIP CODE OF CONSUMER *This question is required.
+2. THIS REQUEST APPLIES TO (To request both, please fill in another form) *This question is required.
+Moody’s Analytics Pulse
+Moody's CRE Solutions (Catylist/Reis)
+3. REQUEST TYPE *This question is required.
+Access
+Deletion
+Correction
+Right to Know
+Opt out
+Limit use sensitive personal information
+Confirmation of California Residence
+*This question is required.
+I am a California Resident
+Confirmation of California Residence of consumer *This question is required.
+The consumer is a California resident
+AUTHORIZED AGENT NAME OF BUSINESS OR ORGANIZATION *This question is required.
+CONTACT PERSON NAME AT AUTHORIZED AGENT *This question is required.
+CONTACT EMAIL ADDRESS OF AUTHORIZED AGENT *This question is required.
+This question requires a valid email address.
+ADDRESS LINE 1 OF AUTHORIZED AGENT *This question is required.
+ADDRESS LINE 2 AUTHORIZED AGENT
+CITY OF AUTHORIZED AGENT *This question is required.
+ZIP CODE OF AUTHORIZED AGENT *This question is required.
+Business entities acting as authorized agents must be registered with the California Secretary of State to conduct business in California *This question is required.
+Confirmation that the authorized agent is registered with the Secretary of State
+Please provide a copy of the written authorization signed by the consumer *This question is required.
+File:
+{{filename}}
+delete
+Browse...
+4. Please select number 44 from this list to prove you're not a robot *This question is required.
+-- Please Select --
+11
+22
+33
+44
+55
+5. Honeypot
+reCAPTCHA Action
+0%

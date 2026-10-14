@@ -1,0 +1,328 @@
+ListMatch | Privacy Policy
+PRICING
+SEE A DEMO
+LEAD GENERATION GUIDE
+CONTACT US
+LOGIN
+WHY LISTMATCH
+Email Marketing Services, Inc Privacy Policy
+This Privacy Policy is effective as of January 1, 2024.
+The purpose of this Privacy Policy is to inform you of our policies and procedures for the collection, use and disclosure of information through https://listmatch.co (the “Site”), and any other websites, features, applications, widgets or online services that are owned or controlled by Email Marketing Services, Inc. or its affiliates or service providers (collectively, “Email Marketing Services”) and that post a link to this Privacy Policy (together with the Site, the “Service”), as well as any information Email Marketing Services collects offline in connection with the Service. It also describes the choices available to you regarding the use of, your access to, and how to update and correct your personal information. Note that we combine the information we collect from you from the Site, through the Service generally, and offline. If you do not agree to any part of this Privacy Policy, then we cannot provide the Service to you, and you should not proceed with accessing the Site.
+By accessing or using the Service, you consent to the information collection, disclosure and use practices described in this Privacy Policy. Please note that certain features or services referenced in this Privacy Policy may not be offered on the Service at all times.
+Information Collection
+Email Marketing Services collects the following types of information:
+Information You Provide to Us
+Email Marketing Services, Inc Privacy Policy
+This Privacy Policy is effective as of January 1, 2024.
+The purpose of this Privacy Policy is to inform you of our policies and procedures for the collection, use and disclosure of information through https://listmatch.co (the “Site”), and any other websites, features, applications, widgets or online services that are owned or controlled by Email Marketing Services, Inc. or its affiliates or service providers (collectively, “Email Marketing Services”) and that post a link to this Privacy Policy (together with the Site, the “Service”), as well as any information Email Marketing Services collects offline in connection with the Service. It also describes the choices available to you regarding the use of, your access to, and how to update and correct your personal information. Note that we combine the information we collect from you from the Site, through the Service generally, and offline. If you do not agree to any part of this Privacy Policy, then we cannot provide the Service to you, and you should not proceed with accessing the Site.
+By accessing or using the Service, you consent to the information collection, disclosure and use practices described in this Privacy Policy. Please note that certain features or services referenced in this Privacy Policy may not be offered on the Service at all times.
+Information Collection
+Email Marketing Services collects the following types of information:
+Information You Provide to Us
+Personal Information: In the course of using the Service, we may require or otherwise collect information that identifies you as a specific individual and can be used to contact or identify you (“Personal Information”). Examples of Personal Information include your name, email address, company address, billing address, phone number, IP address, password and other information you provide us.
+Payment Information: If you use the Service to make or receive payments, we will also collect certain payment information, such as credit card or other financial account information and billing address.
+Identity Verification: We may collect Personal Information, such as your date of birth and taxpayer identification number, to validate your identity or as may be required by law, such as to complete tax filings. We may request documents to verify this information, such as a copy of your government-issued identification or company certificate of good standing or photo or a billing statement.
+General Audience Service: The Service is general audience and intended for users age 18 and older. All of our Services, including our Website, are intended for adult audiences, and are not meant to address anyone under the age of 18 (“Children”). As such, Children under 18 may not use our Website. If you are under 18, do not attempt to register for or use any of our Services, including our Website, and do not provide us any Personal Information about yourself. We do not knowingly collect Personal Information from anyone under the age of 18. If you are a parent or guardian and you are aware that your child has violated this Privacy Policy and provided us with Personal Information, please contact us. If we become aware that we have collected Personal Information from children without verification of parental consent, we will take steps to remove that information from our servers.
+Non-Identifying Information/Usernames: We also may collect other information, such as zip codes, demographic data, information regarding your use of the Service, and general project-related data (“Non-Identifying Information”). We may aggregate information collected from Email Marketing Services registered and non-registered users (together, “Email Marketing Services Users”). In some cases, we may render Personal Information (generally, email address) into a form of Non-Identifying Information referred to in this Privacy Policy as “Hashed Information.” This is typically accomplished using a mathematical process (commonly known as a hash function) to convert information into a code. The code does not identify you directly, but it may be used to connect your activity and interests.
+Combination of Personal and Non-Identifying Information: Certain Non-Identifying Information would be considered a part of your Personal Information if it were combined with other identifiers in a way that enables you to be identified (for example, combining information with your name), but the same pieces of information are considered Non-Identifying Information when they are taken alone or combined only with other non-identifying information (for example, your viewing preferences). We may combine your Personal Information with Non-Identifying Information, but Email Marketing Services will treat the combined information as Personal Information.
+Collection of Third Party Personal Information: We collect the following personal information from you about your contacts: First, last name and email address when you provide it to us.
+Information Received from the Third Parties
+We also may receive information about you from third parties. For example, we may supplement the information we collect with outside records or third parties may provide information in connection with a co-marketing agreement or at your request (such as if you choose to sign in with a third-party service). If we combine the information we receive from others with information we collect through the Service, we will treat the combined information as described in this Privacy Policy.
+Information Collected from Users Automatically
+We and our third party service providers, including analytics and third party content providers, may automatically collect certain information from you whenever you access or interact with the Service. This information may include, among other information, the browser and operating system you are using, the URL or advertisement that referred you to the Service, the search terms you entered into a search engine that led you to the Service, areas within the Service that you visited, and other information commonly shared when browsers communicate with websites. We may combine this automatically collected log information with other information we collect about you. We do this to improve services we offer you and to improve marketing, analytics, and site functionality.
+The information we collect also includes the Internet Protocol (“IP”) address or other unique device identifier (“Device Identifier”) for any device (computer, mobile phone, tablet, etc.) used to access the Service. A Device Identifier is a number that is automatically assigned or connected to the device you use to access the Service, and our servers identify your device by its Device Identifier. Some mobile service providers may also provide us or our third party service providers with information regarding the physical location of the device used to access the Service.
+Technologies We Use
+Cookies: Like many websites, we and our marketing partners, affiliates, analytics, and service providers use “cookies” to collect information. A cookie is a small data file that we transfer to your computer’s hard disk for record-keeping purposes. We use both persistent cookies that remain on your computer or similar device (such as to save your registration ID and login password for future logins to the Service and to track your compliance with the Email Marketing Services Terms of Service) and session ID cookies, which expire at the end of your browser session (for example, to enable certain features of the Service, to better understand how Email Marketing Services Users interact with the Service and to monitor aggregate usage by Email Marketing Services Users and web traffic routing on the Service). You may be able to instruct your browser, by changing its options, to stop accepting cookies or to prompt you before accepting a cookie from the websites you visit. If you do not accept cookies, however, you may not be able to use all functionality of the Service.
+Web Beacons: We and our marketing partners, affiliates, analytics, and service providers may also employ software technology known as “web beacons” and/or “tracking tags” to help us keep track of what content on our Service is effective and to serve relevant advertising to you. Web beacons are small graphics with a unique identifier that may be invisible to you and which are used to track the online activity of Internet users. Web beacons are embedded in the web pages you review or email messages you receive. Web beacons or similar technologies may be used for a number of purposes, including, without limitation, to count visitors to our Service, to monitor how Email Marketing Services Users navigate the Service, to count how many emails that were sent were actually opened, or to count how many particular articles or links were actually viewed.
+Embedded Scripts: We and our marketing partners, affiliates, analytics, and service providers may also employ software technology known as an Embedded Script. An Embedded Script is programming code that is designed to collect information about your interactions with the Service, such as the links you click on. The code is temporarily downloaded onto your computer or other device and is deactivated or deleted when you disconnect from the Service.
+Other Technologies: In addition, we and our marketing partners, affiliates, analytics, and service providers may use a variety of other technologies (such as tags) that collect similar information for security and fraud detection purposes and we may use third parties to perform these services on our behalf.
+Specific 3rd Party Service Providers: Email Marketing Services uses the following third-party Service Providers to provide the services described below. From time to time , we may change or use additional service providers.
+3rd Party
+Services & Uses
+Google Analytics
+Google Analytics is a web analytics service offered by Google that tracks and reports website traffic.
+Authorize.net
+Authorize.net is the online payment processor we use to accept payments.
+OptinMonster
+OptinMonster is an online lead generation software and conversion optimization tool.
+Facebook Tracking Pixels
+Facebook pixel is an analytics tool that allows us to measure the effectiveness of our advertising by understanding the actions people take on the Site.
+Linkedin Tracking Pixels
+Linkedin pixel is an analytics tool that allows us to measure the effectiveness of our advertising by understanding the actions people take on the Site.
+Microsoft Clarity
+Microsoft Clarity is an analytics tool that allows us to measure the effectiveness of our advertising by understanding the actions people take on the Site.
+tawk.to
+Tawk.to allows us to monitor and chat with visitors on the Site and mobile apps.
+Feedback
+We collect feedback from Email Marketing Services Users about their experience with our Service. Please note that any feedback you provide via the Service is publicly viewable via the Service. On very rare occasions, we may remove feedback pursuant to the relevant provisions of our Terms of Service, including the Terms of Use.
+Social Networking Services
+You may register to join the Service directly via the Service or by logging into your account with a third party social networking service (“SNS”) via our Service (e.g., Facebook, LinkedIn, Google and other third party services that let you sign in using your existing credentials with those services). If you choose to register via an SNS or to later link your account with the Service to your account with an SNS, we will use the Personal Information you have provided to the SNS (such as your name, email address, gender and other information you make publicly available via the SNS) to create your account. Note that the information we collect from and through a SNS may depend on the privacy settings you have set with the SNS and the permissions you grant to us in connection with linking your account with the Service to your account with an SNS. Other than what we may share with the SNS as described below, the Personal Information a SNS has about you is obtained by the SNS independent of our Service, and Email Marketing Services is not responsible for it.
+The Email Marketing Services Service also may permit additional interactions between it and a third party website, service, or other content provider, such as enabling you to “like” or share content to a third party SNS. If you choose to “like” or share content, or to otherwise share information from or via our Service with a third party site or service, that information may be publicly displayed, and the third party may have access to information about you and your use of our Service (and we may have access to information about you from that third party). These features may collect your IP address, which page you are visiting on our site, and may set a cookie to enable the feature to function properly. Your interactions with third parties through an SNS or similar features are governed by the respective privacy policies of those third parties.
+You represent that you are entitled to use your SNS account for the purposes described herein without breach by you of any of the terms and conditions that govern the SNS, and without obligating Email Marketing Services to pay any fees or making Email Marketing Services subject to any usage limitations imposed by such SNS. You can disable the link between your Email Marketing Services account and your SNS account at any time though the “Settings” section of our Service. Please note that your relationship with any SNS is governed solely by your agreement(s) with such SNS. If your SNS account terminates, then functions enabled through the link between your Email Marketing Services account and your SNS account will terminate as well.
+How We Respond to Do Not Track Signals
+Please note that your browser setting may allow you to automatically transmit a “Do Not Track” signal to websites and online services you visit. There is no consensus among industry participants as to what “Do Not Track” means in this context. Like many websites and online services, Email Marketing Services does not alter its practices when it receives a “Do Not Track” signal from a visitor’s browser. To find out more about “Do Not Track,” please visit http://www.allaboutdnt.com
+Use Retention of Own Information
+How We Use Information We Collect
+to enable you to access and use the Site and Service and to provide and improve the Service, complete your transactions, and address your inquiries, process your registration, verify the information you provide is valid, to contact you with administrative communications and for compliance and internal business purposes;
+to operate, protect, improve and optimize the Site and Service, Email Marketing Services’s business, and our users’ experience, such as to perform analytics, conduct research, personalize or otherwise customize your experience, and for advertising and marketing;
+to help create and maintain a trusted and safer environment on the Site and Service, such as fraud detection and prevention, conducting investigations and risk assessments and conducting checks against databases such as public government databases;
+to send you service, support and administrative messages, reminders, technical notices, updates, security alerts, and information requested by you and to tailor content we display to you and offers we may present to you, both on the Service and elsewhere online;
+to send you Email Marketing Services newsletters, marketing or promotional materials (on behalf of Email Marketing Services or third parties) and other information that may be of interest to you, including information about Email Marketing Services or general promotions for partner campaigns and services. If you decide at any time that you no longer wish to receive such communications from us, please follow the instructions in the Your Choices and Opting Out section, below;
+to administer referral programs, rewards, surveys, sweepstakes, contests, or other promotional activities or events sponsored or managed by Email Marketing Services or our business partners;
+to comply with our legal obligations, resolve any disputes between Email Marketing Services Users or that we may have with any Email Marketing Services User, and enforce our agreements with third parties.
+to administer and develop our business relationship with you and, if applicable, the corporation or other legal entity you represent;
+to enforce and comply with the law, including to conduct an investigation, to protect the property and rights of Email Marketing Services or a third party, to protect the safety of the public or any person, or to prevent or stop activity we may consider to be, or to pose a risk of being, illegal, fraudulent, unethical or legally actionable activity; and
+for the purposes disclosed at the time you provide your information, with your consent, and as further described in this Privacy Policy.
+Unless you request that we delete certain information (see Your Choices and Opting Out section, below), we retain the information we collect for at least 5 years and may retain the information as long as needed for our business and legal purposes.
+Information Sharing and Disclosure
+We may share aggregated Non-Identifying Information and we may otherwise disclose Non-Identifying Information (including, without limitation, Hashed Information) to third parties. WE DO NOT SHARE YOUR PERSONAL INFORMATION WITH THIRD PARTIES FOR THOSE THIRD PARTIES’ MARKETING PURPOSES UNLESS WE FIRST PROVIDE YOU WITH THE OPPORTUNITY TO OPT-IN TO OR OPT-OUT OF SUCH SHARING. We may also share the information we have collected about you, including Personal Information, as disclosed at the time you provide your information, with your consent, as otherwise described in this Privacy Policy, or in the following circumstances:
+Service Providers: We may employ third party companies and individuals to facilitate our Service, to provide the Service on our behalf, to perform Service-related services (e.g., without limitation, maintenance services, database management, web analytics and online advertising, payment processing, fraud detection and improvement of Email Marketing Services’s features) or to assist us in analyzing how our Service is used. These third parties may have access to your Personal Information in order to perform these tasks on our behalf.
+What Happens If You Agree to Receive Information From Third Parties or Request That We Share Your Information: You may be presented with an opportunity to receive information and/or marketing offers from one or more third parties. If you agree at that time to have your Personal Information shared, your Personal Information will be disclosed to that third party (or parties) and will be subject to the privacy policy and practices of that third party. We are not responsible for theprivacy policies and practices of third parties, and, if you later decide that you no longer want to receive communications from a third party, you will need to contact that third party directly. You also may request, sometimes through your use of an SNS or similar interactive feature or third party application, that we share information about you with a third party and we will typically do so under those circumstances.
+Legal and Investigative Purposes: Email Marketing Services will share information with government agencies as required by law. We cooperate with government and law enforcement officials and private parties to enforce and comply with the law. We will disclose information about you to government or law enforcement officials or private parties as we, in our sole discretion, believe necessary or appropriate to respond to claims and legal process (including but not limited to subpoenas), at the request of governmental authorities or other third parties conducting an investigation, to protect the property and rights of Email Marketing Services or a third party, to protect the safety of the public or any person, or to prevent or stop activity we may consider to be, or to pose a risk of being, illegal, fraudulent, unethical or legally actionable activity. We may also use Device Identifiers to identify Email Marketing Services Users and may do so in cooperation with third parties at our discretion.
+Internal and Business Transfers: Email Marketing Services may share information, including Personal Information, with its subsidiaries and affiliates, primarily for business and operational purposes. We may sell, transfer or otherwise share some or all of our assets, including your Personal Information, in connection with a merger, acquisition, reorganization or sale of assets (including, in each case, as part of the due diligence process with any potential acquiring entity) or in the event of bankruptcy. You will be notified via email and/or a prominent notice on our website of any change in ownership or uses of your Personal Information, as well as any choices you may have regarding your Personal Information.
+Sweepstakes, Contests and Promotions: We may offer sweepstakes, contests, and other promotions (any, a “Promotion”) that may require registration. By participating in a Promotion, you are agreeing to the official rules that govern that Promotion, which may contain specific requirements of you, including, except where prohibited by law, allowing the sponsor(s) of the Promotion to use your name, voice, likeness or other indicia of persona in advertising or marketing associated with the Promotion. If you choose to enter a Promotion, your Personal Information may be disclosed to third parties or the public in connection with the administration of such Promotion, including, without limitation, in connection with winner selection, prize fulfillment, and as required by law or permitted by the Promotion’s official rules, such as on a winner’s list.
+Analytics Providers, Ad Servers and Similar Third Parties
+Email Marketing Services works with (or may in the future work with) network advertisers, ad agencies, analytics service providers and other vendors to provide us with information regarding traffic on the Service, including pages viewed and the actions taken when visiting the Service; to serve our advertisements on other web sites, within mobile apps and elsewhere online; and to provide us with information regarding the use of the Service and the effectiveness of our advertisements. Our service providers may collect certain information ab
+services, they may set and access their own tracking technologies on your device (including cookies and web beacons), and may use that information to show you targeted advertisements. Some of these parties may collect Personal Information when you visit the Service or other online websites and services. We may also share certain Non-Identifying Information with these parties, including Hashed Information, in connection with the services they provide to us.
+While we may use a variety of service providers to perform advertising services, some of these companies are members of the Network Advertising Initiative (“NAI”) or the Digital Advertising Alliance (“DAA”) Self-Regulatory Program for Online Behavioral Advertising. You may want to visit https://thenai.org/opt-out/, which provides information regarding targeted advertising and the “opt-out” procedures of NAI members. You may also want to visit http://www.aboutads.info/choices/, which provides information regarding targeted advertising and offers an “opt-out” by participating companies in the DAA Self-Regulatory Program. You may also opt-out by contacting us at https://www.listmatch.co/#Uot36IBRETmNqKL9ZgvmdV9Rh9CmqbgX. Please note that opting out through these mechanisms does not opt you out of being served advertising, and you will continue to receive generic ads while online.
+Your Choices and Opting Out
+Registered Email Marketing Services Users may update their choices regarding the types of communications you receive from us through your online account. You also may opt-out of receiving marketing emails from us by following the opt-out instructions provided in those emails. Please note that we reserve the right to send you certain communications relating to your account or use of the Service (for example, administrative and service announcements) via email and other means and these transactional account messages may be unaffected if you opt-out from receiving marketing communications. You may opt-out of receiving text messages by replying “STOP” to any text message received. Registered Email Marketing Services Users who access the Service by using an Email Marketing Services mobile application may, with permission, receive push notifications. Similarly, registered Email Marketing Services Users who access the Service by using certain desktop browsers may, with permission, receive push notifications. Notification preferences can be modified in the settings menu for the mobile application or the applicable browser
+Changing Your Information or Closing Your Account
+Upon request Email Marketing Services will provide you with information about whether we hold any of your Personal Information. You are responsible for maintaining the accuracy of the information you submit to us, such as your contact information. You may access, correct, or request deletion of your personal information by making updates to that information or by contacting Email Marketing Services through your online account. If you request to access all Personal Information you’ve submitted, we will respond to your request to access within 30 days. If you completely delete all such information, then your account may become deactivated. If your account is deactivated or you ask to close your account, you will no longer be able to use the Service. If you would like us to delete your account in our system, you can do so by contacting us at https://www.listmatch.co/#Uot36IBRETmNqKL9ZgvmdV9Rh9CmqbgX”. We will use commercially reasonable efforts to honor your request; however, certain information will actively persist on the Service even if you close your account, including messages you posted to the Service. In addition, your Personal Information may remain in our archives and information you update or delete, or information within a closed account, may persist internally or for our administrative purposes. It is not always possible to completely remove or delete information from our databases. In addition, we typically will not remove information you posted publicly through or on the Service. Bear in mind that neither you nor Email Marketing Services can delete all copies of information that has been previously shared with others on the Service.
+Security
+Email Marketing Services takes commercially reasonable steps to help protect and secure the information it collects and stores about Email Marketing Services Users. All access to the Site is encrypted using industry-standard transport layer security technology (TLS). When you enter sensitive information (such as tax identification number) we encrypt the transmission of that information using secure socket layer technology (SSL). We also use HTTP strict transport security to add an additional layer of protection for our Email Marketing Services Users. But remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. Thus, while we strive to protect your personal data, Email Marketing Services cannot ensure and does not warrant the security of any information you transmit to us.
+International Transfer or Personal Information
+Email Marketing Services is a United States company and the Site and Service is intended only for United States residents. If you are located outside the United States and choose to provide information to us, Email Marketing Services transfers Personal Information to the United States for processing. The U.S. may not have the same data protection laws as the country in which you initially provided the information. When we transfer your information to the U.S., we will protect it as described in this Privacy Policy. By visiting the Service, or providing Email Marketing Services with any information, you represent to us that you are a resident of the United States, that only United States laws apply to your use of the Site and Service and that you fully understand and unambiguously consent to the processing and storage of your information in the United States.
+Links to Other Sites
+Our Service contains links to other websites. If you choose to click on a third party link, you will be directed to that third party’s website. The fact that we link to a website is not an endorsement, authorization or representation of our affiliation with that third party, nor is it an endorsement of their privacy or information security policies or practices. We do not exercise control over third party websites. These other websites may place their own cookies or other files on your computer, collect data or solicit Personal Information from you. We encourage you to read the privacy policies or statements of the other websites you visit.
+Your Profile
+The profile you create on our site will not be publicly accessible unless otherwise indicated. Your profile and Personal Information may be shared with certain trusted third parties to perform functions and provide services to us, including, without limitation, hosting and maintenance, billing, customer relationship, database storage and management, and direct marketing campaigns, but only to the extent necessary to perform these functions and provide such services, and only pursuant to binding contractual obligations requiring such third parties to maintain the privacy and security of your data. You may change the privacy settings of your profile through your account portal.
+Phishing
+Phishing websites imitate legitimate websites in order to obtain personal or financial information. Identity theft and the practice currently known as “phishing” are of great concern to Email Marketing Services. For more information about phishing, visit the website of the Federal Trade Commission at http://www.consumer.ftc.gov/articles/0003-phishing. In addition, if you believe you have received an email or had a similar interaction with a third party pretending to be Email Marketing Services, please report it at Contact US Form.
+Cookie Policy
+Email Marketing Services uses “cookies” in conjunction with the Site and Service to obtain information. A cookie is a small data file that is transferred to your device (e.g., your phone or your computer) for record-keeping purposes. For example, a cookie could allow the Service to recognize your browser, while another could store your preferences and other information. Your browser may allow you to set how it handles cookies, such as declining all cookies or prompting you to decide whether to accept each cookie. But please note that some parts of the Service may not work as intended or may not work at all without cookies.
+Types of Cookies
+There are two types of cookies used on the Site, namely “persistent cookies” and “session cookies”. Session cookies will normally expire when you close your browser, while persistent cookies will remain on your device after you close your browser and can be used again the next time you access the Site.
+Email Marketing Services Cookies
+Email Marketing Services may place our cookies on your device via the Site. Accordingly, our Privacy Policy will apply to our treatment of the information we obtain via our cookies. The Site may also use other technologies with similar functionality to cookies, such as web beacons and tracking URLs to obtain Log Data about users. We may also use web beacons and tracking URLs in our messages to you to determine whether you have opened a certain message or accessed a certain link.
+Third Party Cookies
+We may also allow our business partners to place cookies on your device. For example, we might interface with Facebook, in which event Facebook might also set cookies on your device. As further explained below, third parties may also place cookies on your device for advertising purposes.
+How We Use Email Marketing Services Cookies
+Email Marketing Services uses cookies for a number of purposes, such as the following:
+to enable, facilitate and streamline the functioning of the Site across different web pages and browser sessions;
+to simplify your access to and use of the Site and make it more seamless;
+to monitor and analyze the performance, operation and effectiveness of the Site, so that we can improve and optimize it; and
+to show you content (which may include advertisements) that is more relevant to you.
+Third Party Cookies Uses and Settings
+Third Party cookies are intended to obtain information to help them provide services to Email Marketing Services. For example, third party companies and individuals we engage to provide services to us may track your behavior on our Site to market and advertise Email Marketing Services services to you on the Site and third party websites.
+Third parties that use cookies and other tracking technologies to deliver targeted advertisements on our Site and/or third party websites may offer you a way to prevent such targeted advertisements by opting-out at the websites of industry groups such as the Network Advertising Initiative (http://www.networkadvertising.org/choices/) and/or the Digital Advertising Alliance (http://www.aboutads.info/choices/). You may also be able to control advertising cookies provided by publishers, for example Google’s Ad Preference Manager (https://www.google.com/settings/ads/onweb/).
+Please note that even if you choose to opt-out of receiving targeted advertising, you may still receive advertising on the Site – it just will not be tailored to your interests. In addition, Facebook places a cookie via the Site that allows Facebook to obtain aggregated, non-Personal Information to optimize their services. For example, if a user clicks on an advertisement for the Email Marketing Services mobile app on Facebook and subsequently installs the app, this cookie will inform Facebook that a user (who is not personally identified) has installed the app after clicking on the advertisement. This cookie may also inform Facebook that a user is using the app, without identifying the specific actions taken by the user in the app.
+Disabling Cookies
+Most browsers automatically accept cookies, but you can modify your browser setting to decline cookies by visiting the Help portion of your browser’s toolbar. If you choose to decline cookies, please note that you may not be able to sign in, customize, or use some of the interactive features of the Site.
+Changes to this Cookie Policy
+We can change this Cookie Policy at any time. If we make material changes to the Cookie Policy, we will let you know either by posting the changed Cookie Policy on the Site or by sending you an email. It’s important that you review the changed Cookie Policy. If you do not wish to agree to the changed Cookie Policy, then we cannot continue to provide the Site to you, and your only option is to stop accessing the Site and deactivate your Email Marketing Services account.
+Changes to this Privacy Policy
+Email Marketing Services may update this Privacy Policy at any time and any changes will be effective upon posting. In the event that there are material changes to the way we treat your Personal Information, we will display a notice on the Site prior to the change becoming effective. We may also notify you by email, in our discretion. However, we will use your Personal Information in a manner consistent with the Privacy Policy in effect at the time you submitted the information, unless you consent to the new or revised policy.
+Contacting Us
+If you have any questions about this Privacy Policy, please contact us through our Website: https://www.listmatch.co/#Uot36IBRETmNqKL9ZgvmdV9Rh9CmqbgX/ or by mail addressed to:
+Email Marketing Services, Inc.
+1910 South Highland Ave Suite 280
+Lombard, IL 601487
+California Residents
+Your California Privacy Rights
+The California Consumer Privacy Act of 2018 (“CCPA”) provides certain rights to residents of California. This section of the Privacy Policy applies if you are a natural person who is a resident of California (“California Consumer”) and use our Services. This Addendum supplements the information in the Privacy Policy. However, this Addendum is intended solely for, and is applicable only as to, California Consumers.
+IF YOU ARE NOT A CALIFORNIA CONSUMER (OR A RESIDENT OF CALIFORNIA), THIS DOES NOT APPLY TO YOU AND YOU SHOULD NOT RELY ON IT.
+IF YOU ARE A CALIFORNIA CONSUMER (OR A RESIDENT OF CALIFORNIA), YOUR CALIFORNIA PRIVACY RIGHTS SUPPLEMENT THE PRIVACY POLICIES OF Email Marketing Services. YOUR CALIFORNIA PRIVACY RIGHTS SHALL GOVERN YOUR RELATIONSHIP WITH Email Marketing Services TO THE EXTENT THEY EXPAND OR ARE IN CONFLICT WITH OUR STANDARD PRIVACY POLICIES STATED ABOVE. OUR STANDARD PRIVACY POLICIES SHALL OTHERWISE GOVERN SUCH RELATIONSHIP.
+Your Rights as an Individual California Resident
+Right to Access / Disclosure: to have access to your Personal Information upon simple request – that is, you may receive a copy of such data upon receipt of a verifiable request, along with other information related to the collection or processing (see the “How to Contact Us for CCPA Requests “ section below for more information).
+Disclosure of Direct Marketers: to have access upon simple request, and free of charge, the categories and names of addresses of third parties that have received Personal Information for direct marketing purposes (see the “Direct Marketers Disclosure” section below for more information).
+Collecting, Selling, Sharing, or Disclosing Personal Information: upon receipt of a verifiable request, to obtain a list of:
+Right to Access / Disclosure: to have access to your Personal Information upon simple request – that is, you may receive a copy of such data upon receipt of a verifiable request, along with other information related to the collection or processing (see the “How to Contact Us for CCPA Requests “ section below for more information).
+Disclosure of Direct Marketers: to have access upon simple request, and free of charge, the categories and names of addresses of third parties that have received Personal Information for direct marketing purposes (see the “Direct Marketers Disclosure” section below for more information).
+Collecting, Selling, Sharing, or Disclosing Personal Information: upon receipt of a verifiable request, to obtain a list of:
+The specific pieces of your Personal Information Email Marketing Services holds;
+The categories of Personal Information collected about you, sold to third parties, or disclosed to third parties for business purposes;
+The categories of Personal Information sold within the last 12 months;
+The categories of sources from which Personal Information is collected;
+The business or commercial purpose for collecting or selling Personal Information; and
+The categories of third parties with whom Personal Information is shared, sold, or disclosed for a business purpose.
+Right to Opt-Out of the Sale of Personal Information: California residents have the right under CCPA to opt-out of the sale of their Personal Information under certain circumstances. When we act as a “business” under the CCPA, in the event we at any time sell your Personal Information, you may “opt out” of our “sale” of your personal information (as those terms are defined by the CCPA) by following the directions set forth in the “How to Contact Us for CCPA Requests” section below or:
+At the NAI (Network Advertising Initiative) page that addresses how consumers may opt out of cross-app advertising through their device settings.
+By using Email Marketing Services’s “Do Not Sell My Info” link on the Home Page of this Site.
+By submitting a manual request to opt-out to dataprivacy@listmatch.com with the subject line “CCPA Opt-out”.
+Right to Deletion / “Right to be Forgotten”: to obtain the deletion of your Personal Information in the situations set forth by applicable data protection law and upon receipt of a verifiable request. This is different from your right to “opt out” of us selling your personal information. We need certain types of information so that we
+To protect our business, systems, and users from fraudulent activity,
+To address technical issues that impair existing functionality (such as de-bugging purposes),
+To comply with law enforcement requests pursuant to lawful process,
+For scientific or historical research for our own internal purposes reasonably related to your relationship with us, or to comply with legal obligations.
+Right to Data Portability: to have your Personal Information directly transferred by us to a third-party processor of your choice (where technically feasible; may be limited to situations when processing is based on your consent).
+Right to Non-Discrimination: As defined under relevant law, you have a right to non-discrimination in the Services or quality of Services you receive from us for exercising your rights.
+Please contact us at the information in “How to Contact Us for CCPA Requests” below in relation to exercising these rights. Note that we may ask you to verify your identity before responding to such requests.
+Direct Marketers Disclosure
+Please contact us at the information in “How to Contact Us for CCPA Requests” below in relation to exercising these rights. Note that we may ask you to verify your identity before responding to such requests.
+the categories of information we disclosed to third parties for their direct marketing purposes during the immediately preceding calendar year;
+the names and addresses of the third parties that received the information; and
+if the nature of the third party’s business cannot be determined from their name, examples of the products or services marketed.
+To make such a request, please provide sufficient information for us to determine if this applies to you, and attest to the fact that you are a California resident. Please also provide a current California address for our response. You may make this request in writing to us at the below address. Any such request must include “California Privacy Rights Request” in the first line of the description, and include your name, street address, city, state and ZIP code. Please note that we are only required to respond to one request per customer each year, and we are not required to respond to requests made by means other than through the address provided for this purpose below. Note that responsive information may be provided in a standardized format that is not specific to you.
+Categories of Personal Information We Collect, Use and Share
+Email Marketing Services has or could in the future collect the following categories of your Personal Information, and we use and share such Information a described below.
+Identifiers (such as online identifiers, IP address, mobile ad identifiers, other online or advertising platform identifiers)
+We currently collect/use this category of Personal Information
+The sources we collect this category from:
+Data analytics providers and data compilers
+Online histories
+Tracking pixels, cookies, web beacons and related technology
+Third party mobile applications and websites
+Email Marketing Services owned and operated mobile applications and websites
+This category could have been and could in the future be shared with the following categories of third parties for
+business purpose(s):
+Affiliates
+Social media websites
+Service providers
+Data compilers
+Data analytics providers
+Financial institutions and payment processors
+Government entities and information services
+App publishers
+Identifiers (for our own marketing and customer contact purposes, such as: name, username, passwords, date of birth, images, addresses, e-mail address, phone number, payment methods, Hashed Information)
+We currently collect/use this category of Personal Information
+The sources we collect this category from:
+Information you provide
+Email Marketing Services owned and operated mobile applications and website
+This category could have been and could in the future be shared with the following categories of third parties for
+business purpose(s):
+Affiliates
+Social media websites
+Service providers
+Data compilers
+Data analytics providers
+Financial institutions and payment processors
+Government entities and information services
+App publishers
+Other Information You Provide
+We currently collect/use this category of Personal Information
+The sources we collect this category from:
+Your profile
+Community Forums you participate in
+Your testimonials
+Your feedback
+Social networking services you use to access our Service
+This category could have been and could in the future be shared with the following categories of third parties for
+business purpose(s)
+Affiliates
+Social media websites
+Service providers
+Data compilers
+Data analytics providers
+Government entities and information services
+Internet or Other Electronic Network Activity Information (such as browsing history, search history, information on a consumer’s interaction with a website or application)
+We currently collect/use this category of Personal Information
+The sources we collect this category from:
+Third party mobile applications and websites
+Email Marketing Services owned and operated mobile applications and websites
+Data compilers
+Tracking pixels, cookies, web beacons and related technology
+This category could have been and could in the future be shared with the following categories of third parties for
+business purpose(s)
+Affiliates
+Social media websites
+Service providers
+Data compilers
+Data analytics providers
+Government entities and information services
+Geolocation Data (used to identify an electronic device’s physical location)
+We currently collect/use this category of Personal Information
+The sources we collect this category from:
+Third party mobile applications and websites
+Email Marketing Services owned and operated mobile applications and websites
+Data compilers
+Tracking pixels, cookies, web beacons and related technology
+US Postal Service
+This category could have been and could in the future be shared with the following categories of third parties for
+business purpose(s)
+Data analytics providers
+Government entities and information services
+Inferenced Data (such as inferences based on a device’s location or traffic history)
+We currently collect/use this category of Personal Information
+The sources we collect this category from:
+Third party mobile applications and websites
+Email Marketing Services owned and operated mobile applications and websites
+Data compilers
+Tracking pixels, cookies, web beacons and related technology
+US Postal Service
+This category could have been and could in the future be shared with the following categories of third parties for business purpose(s)
+Affiliates
+Social media websites
+Service providers
+Data compilers
+Data analytics providers
+Government entities and information services
+Specific 3rd Party Service Providers: Email Marketing Services uses the following third-party Service Providers to provide the services described below. From time to time, we may change or use additional service providers.
+3rd Party
+Use
+Google Analytics
+Google Analytics is a web analytics service offered by Google that tracks and reports website traffic.
+Authorize.net
+Authorize.net is the online payment processor we use to accept payments.
+OptinMonster
+OptinMonster is an online lead generation software and conversion optimization tool.
+Facebook Tracking Pixels
+Facebook pixel is an analytics tool that allows us to measure the effectiveness of our advertising by understanding the actions people take on the Site.
+Linkedin Tracking Pixels
+Linkedin pixel is an analytics tool that allows us to measure the effectiveness of our advertising by understanding the actions people take on the Site.
+Microsoft Clarity
+Microsoft Clarity is an analytics tool that allows us to measure the effectiveness of our advertising by understanding the actions people take on the Site.
+tawk.to
+Tawk.to allows us to monitor and chat with visitors on the Site and mobile apps.
+Sharing for Legal Purposes: We may share personal information with third parties in order to: (a) comply with an official legal process or a regulatory investigation (e.g. a subpoena or court order); (b) enforce our Terms of Service, this Privacy Policy, or other contracts with you, including investigation of potential violations thereof; (c) respond to claims that any content violates the rights of third parties; and/or (d) protect the rights, property or personal safety of us, our platform, our customers, our agents and affiliates, its users and/or the public. In addition, we may provide information to other companies and organizations (including law enforcement) for fraud protection, spam/malware prevention, and similar purposes.
+Sharing In Event of a Corporate Transaction: We may also share personal information in the event of a major corporate transaction, including for example a merger, investment, acquisition, reorganization, consolidation, bankruptcy, liquidation, or sale of some or all of our assets, or for purposes of due diligence connected with any such transaction.
+Sharing With Service Providers: We share any personal information we collect with our service providers, which may include (for instance) providers involved in tech or customer support, operations, web or data hosting, billing, accounting, security, marketing, data management, validation, enhancement or hygiene, or otherwise assisting us to provide, develop, maintain and improve our Services.
+Sharing of Aggregate Information: We may aggregate and/or de-identify any information collected so that such information can no longer be linked to you or your device (“Aggregate/De-Identified Information”). We may use Aggregate/De-Identified Information for any purpose, including without limitation for research and marketing purposes, and may also share such data with any third parties, including advertisers, promotional partners, and sponsors, in our discretion.
+Your Rights as an Individual California Resident
+Operating Our Services:
+Verifying the information you provide is valid
+Storing and honoring your preferences and settings
+Improving, testing, updating, and verifying our own data and data services
+Operating, analyzing, improving, and securing our services
+To protect the property and rights of Email Marketing Services or a third party
+To protect the safety of the public or any person
+To prevent or stop activity we may consider to be, or to pose a risk of being, illegal, fraudulent, unethical or legally actionable activity
+To perform analytics, conduct research, personalize or otherwise customize your experience
+To send you service, support and administrative messages, reminders, technical notices, updates, security alerts, and information requested by you
+To tailor content we display to you and offers we may present to you
+To administer referral programs, rewards, surveys, sweepstakes, contests, or other promotional activities or events
+To comply with our legal obligations, resolve any disputes between Email Marketing Services Users or that we may have with any Email Marketing Services User, and enforce our agreements with third parties
+Sharing data when required to provide the service or carry out the transactions you request
+Advertising:
+To advertise and market to you, which includes sending promotional communications, targeting advertising, and presenting you with relevant offers
+To measure and analyze our advertising and marketing
+To personalize our products and make recommendations
+Marketing and Other Research:
+To improve our products and services and develop new products and services
+Analyzing how our services perform
+Other Internal Purposes:
+For internal research, internal operations, auditing, detecting security incidents, debugging, short-term and transient use, quality control, and legal compliance.
+Your Preferences
+You can change your information and preferences at any time by editing your data online at https://www.listmatch.co/privacy,by emailing us at dataprivacy@listmatch.com, or by mailing a letter to the address shown below:
+Email Marketing Services, Inc.
+1910 South Highland Ave Suite 280
+Lombard, IL 60148.
+Submitting A Verifiable Request
+As mentioned above, California residents have certain rights to access, delete, or otherwise control the use, collection, and/or disclosure of their information. Email Marketing Services will respond to an individual’s “verifiable request” to exercise his or her rights under such laws – that is, where Email Marketing Services has received a request purporting to be from a particular individual, and Email Marketing Services has been able to verify the individual’s identity. The need to verify an individual’s identity is critical to protecting your information and ensuring that your information is not shared with anyone pretending to be you or someone who is not authorized to act as your agent on your behalf.
+You may submit a verifiable request via either method listed in the “How to Contact Us for CCPA Requests” section below, or as otherwise provided on our Website. Email Marketing Services will ask you to provide information about yourself so that we can verify your identity as part of this process. This information may include your name, your address, your account information, and any other information deemed necessary by Email Marketing Services to reasonably verify your identity so we can ensure that your information is not shared with anyone impersonating you.
+We may ask for additional information if we have difficulty confirming your identity. We will not share your information or honor other requests in those situations in which we are unable to confirm a request for your information is a “verifiable request.”
+Under California law a consumer can appoint an “authorized agent” to make certain verifiable requests upon their behalf, such as the right to know what information we collect about the consumer or to request deletion of the consumer’s information. Because the security and privacy of your information is paramount, we will ask that you identify and provide permission in writing for such person to act as your authorized agent and exercise your applicable rights under California law in such situations. This may require us to contact you directly and alert you that an individual has claimed to be your agent and is attempting to access or delete your information. We will also independently verify your identity to ensure that an unauthorized person is not attempting to impersonate you and exercise your rights without authorization. We will not share your information or honor any other requests in those situations where you cannot or do not grant permission in writing for an identified authorized agent to act on your behalf or where we cannot independently verify your identity.
+How to Contact Us for CCPA Requests
+If you have questions about this Privacy Policy, the practices of this Site, your dealings with this Site or our Services, including but not limited to an information, deletion request or opt-out request, please contact Email Marketing Services:
+By Self Service Portal: https://www.listmatch.co/privacy
+By Email: dataprivacy@listmatch.com
+Your request should include your name, your address, your account information, the nature of your request and any other information we need to reasonably verify your identity.
+Children’s Privacy
+All of our Services, including our Website, are intended for adult audiences, and are not meant to address anyone under the age of 18 (“Children”). .
+We do not knowingly collect Personal Information from anyone under the age of 18. If you are a parent or guardian and you are aware that your child has violated this Privacy Policy and provided us with Personal Information, please contact us. If we become aware that we have collected Personal Information from children without verification of parental consent, we will take steps to remove that information from our servers.
+“Do Not Track” Signals Under California Online Protection Act
+We do not support Do Not Track (“DNT”). Do Not Track is a preference you can set in your web browser to inform websites that you do not want to be tracked. You can enable or disable Do Not Track by visiting the Preferences or Settings page of your web browser. We may track consumers’ online activities over time and across third-party websites or online services. As we mentioned elsewhere, you can modify your browser’s settings to change its acceptance of tracking technologies.
+Third parties may collect data that relates to you. We cannot control third parties’ responses to do-not-track signals or other such mechanisms. Third parties’ use of data relating to you and responsiveness to do-not-track signals is governed by their respective privacy policies.
+Difficulty Accessing Our Privacy Policy?
+Individuals with disabilities who are unable to usefully access our Privacy Policy online may contact us at the above-listed contact information to inquire how they can obtain a copy of our Privacy Policy in another, more easily readable format.
+Do Not Sell My Personal Information

@@ -1,0 +1,218 @@
+Privacy Policy – Allant Group Skip to content
+Privacy policy
+This policy is effective from June 17th, 2026.
+Allant Group, LLC ("Allant") is a data, data strategy, analytic insights, campaign management, and marketing technology company. We work directly with businesses to help them market, measure, and improve marketing campaigns across direct mail, email, websites, and social media channels.
+This privacy policy ("Policy") provides notice of how we acquire, store, and use personal information on behalf of our clients and your rights and choices regarding your personal information. This Policy governs Allant's data handling practices only; our clients may have different policies beyond our control.
+Compliance with Federal and State Privacy Laws
+Allant complies with all applicable federal and state privacy laws, including but not limited to:
+California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA)
+Texas Data Privacy and Security Act (TDPSA)
+Vermont Data Broker Law
+Oregon Consumer Privacy Act (OCPA)
+Nevada Privacy Law (SB220 & SB260)
+Colorado Privacy Act (CPA)
+Virginia Consumer Data Protection Act (VCDPA)
+Connecticut Data Privacy Act (CTDPA)
+Utah Consumer Privacy Act (UCPA)
+Gramm-Leach-Bliley Act (GLBA)
+Health Insurance Portability and Accountability Act (HIPAA) where applicable
+Children’s Online Privacy Protection Act (COPPA)
+Federal Trade Commission Act (FTC Act) Section 5
+California’s Data Broker Registration Law
+California’s Shine the Light Law
+New York SHIELD Act
+Maine Internet Privacy Act
+California Privacy Protection Agency (CPPA) Regulations (effective 2025)
+We will continue to monitor evolving regulations and update our policies as necessary.
+Your Privacy Rights
+Residents of applicable states and under federal law have the following rights:
+Right to Opt-Out of the Sale or Sharing of Personal Information
+Right to Request Disclosure of Collected Personal Information
+Right to Request Deletion of Personal Information
+Right to Correct Inaccuracies in Your Personal Information
+Right to Restrict Processing of Sensitive Personal Information
+Right to Access and Portability of Personal Information
+Right to Know Data Collection and Usage Practices
+Right to Withdraw Consent for Certain Processing Activities
+Right to Opt-Out of Automated Decision-Making and Profiling
+Right to Data Minimization and Purpose Limitation
+Allant extends these rights to residents of all U.S. states where applicable.
+How to Exercise Your Rights
+To exercise your privacy rights, you may:
+Submit a request via our privacy portal: Privacy Request Portal
+Email us at privacy@allantgroup.com
+Call us at (800) 367-7311
+Authorized Agents: You may designate an authorized agent to submit requests on your behalf by providing written authorization.
+Verification Requirements: We may require proof of identity and residence to process certain requests. If we cannot verify your identity, we may be unable to fulfill your request. The specific verification requirements for each request type are as follows:
+Right to Opt-Out of the Sale or Sharing of Personal Information
+Required Information:
+Full Name
+Address (City, State, Zip Code)
+Phone Number
+Email Address
+Submission Methods:
+Online: Privacy Request Portal
+Email: privacy@allantgroup.com
+Phone: (800) 367-7311
+Right to Request Disclosure of Collected Personal Information (Categories and Specific Information)
+Required Information:
+Full Name
+Address (City, State, Zip Code)
+Phone Number
+Email Address
+Date of Birth (for specific information requests only)
+Additional Verification for Specific Information Requests:
+Government-issued ID Upload: A clear image of a government-issued ID showing name and address.
+Selfie Validation: A current portrait (facial) photograph matching the government ID.
+Mail Option: If unable to upload, send a copy of both the ID and a selfie to:
+Allant Group, LLC, Attention: Privacy Team, 2655 Warrenville Rd Suite 200, Downers Grove, IL 60515
+Right to Request Deletion of Personal Information
+Required Information:
+Full Name
+Address (City, State, Zip Code)
+Phone Number
+Email Address
+Additional Verification:
+Government-issued ID Upload: A clear image of a government-issued ID showing name and address.
+Right to Correct Inaccuracies in Your Personal Information
+Required Information:
+Full Name
+Address (City, State, Zip Code)
+Phone Number
+Email Address
+Supporting Documentation:
+If applicable, additional documentation demonstrating the correct information (e.g., utility bill, lease agreement, or other official documentation).
+Right to Restrict Processing of Sensitive Personal Information
+Required Information:
+Full Name
+Address (City, State, Zip Code)
+Phone Number
+Email Address
+Additional Verification:
+Statement of Request: A brief statement confirming the request to restrict processing and the reason for the request.
+Authorized Agent Requests
+If you are using an authorized agent to submit a request on your behalf, the agent must provide:
+Written authorization signed by the consumer.
+Proof of the consumer’s identity (as outlined above for the respective request type).
+If we cannot verify your identity or determine which personal information relates to you, we may not be able to comply with your request. If we are unable to fulfill your request, we will notify you within 10 days of receiving it, along with the reason.
+2025 Consumer Request Metrics (Cal. Civ. Code §1798.99.85)
+As a registered California data broker (Cal. Civ. Code §1798.99.85), Allant is required to disclose the following consumer request metrics for the calendar year January 1, 2025 – December 31, 2025. These metrics reflect requests received, processed, and responded to via Allant’s OneTrust privacy request platform.
+Table 1 — Requests Received and Compliance Status (2025)
+Request Type
+Received
+Complied With
+Closed / Withdrawn
+Denied
+Delete My Information
+412,466
+411,622
+844
+Do Not Sell or Share My Information
+494
+481
+13
+Know / Right to Access (Categories)
+Know / Right to Access (Specific Information)
+Limit Use of Sensitive Personal Information
+TOTAL
+412,960
+412,103
+857
+Table 2 — Response Time Metrics (2025)
+Request Type
+Median Days to Respond
+Mean Days to Respond
+Delete My Information
+0.04 days (~1 hour)
+0.09 days (~2.2 hours)
+Do Not Sell or Share My Information
+0.35 days (~8.4 hours)
+2.41 days
+Deletion Exemptions (Cal. Civ. Code §§1798.145, 1798.146)
+Of the 412,466 deletion requests received in 2025, 844 were closed without full deletion ("Closed" status in our OneTrust system). These closures may reflect requests that were withdrawn by the requestor, could not be verified, fell outside our jurisdiction (e.g., non-U.S. addresses), or were otherwise exempt under Cal. Civ. Code §§1798.145 or 1798.146. The specific exemption basis for each closed request is maintained in Allant's internal privacy request records and available upon regulatory inquiry.
+Sources and Types of Personal Information Collected
+We acquire certain personal information from third-party sources to help our clients identify customers and prospects. These sources include data brokers, client-provided data, public records, and service providers. The types of personal information collected include:
+Identifiers: Name, postal address, phone number, email address
+Household Information: Number of household members, adult household members’ dates of birth or age, gender, marital status, presence of children, number of children, children’s gender, and their year of birth or age range
+Property and Automotive Data: Home value, length of residence, mortgage information, property status (on market or recently sold), information about owned vehicles, including type and make
+Consumer Preferences: Shopping habits, frequency and method of purchases (mail order, phone, online), preferred spending amount
+Media and Technology Usage: Internet access at home or work, mobile phone provider, TV provider, social media usage, gaming habits, music downloads, and online streaming behavior
+Interests and Lifestyle Information: Preferred hobbies, sports, news readership, TV and movie preferences, cooking habits, affinity for theater or pubs, charitable interests and donation behavior
+Financial and Credit-Related Data: Presence of store/loyalty cards, ownership of bank or credit cards (excluding account numbers or credit history)
+Online Behavioral Data: IP address, device identifiers, visited websites, and interaction with web pages and apps
+Allant does not knowingly collect or process data related to individuals under the age of 18. If we identify misclassified data, we take steps to correct or delete it.
+How We Use Personal Information
+Personal information is used for:
+Identifying and targeting relevant audiences for our clients' marketing campaigns
+Predictive modeling to determine consumer purchasing behavior and brand preferences
+Data analytics and insights to optimize marketing strategies
+Allant's clients determine the purposes and means for processing personal information shared with them.
+Selling and Sharing of Personal Information
+Allant may share personal information with:
+Clients for analytics, profiling, and marketing
+Service providers that assist in business operations
+Law enforcement agencies when required by law
+Entities in business transactions (e.g., mergers or acquisitions)
+We require recipients of shared data to comply with strict usage limitations and privacy safeguards.
+Opt-Out Mechanisms and Do Not Sell My Personal Information
+You may opt out of the sale or sharing of your personal information using the following methods:
+Online: Privacy Request Portal
+Email: privacy@allantgroup.com
+Phone: (800) 367-7311
+Industry Opt-Out Resources:
+ANA/DMA Opt-Out
+National Do-Not-Call Registry
+We have enhanced our opt-out mechanisms to ensure compliance with state-specific data broker laws and evolving regulatory requirements.
+Additional Publicly Available Opt-Out Information:
+We subscribe to the ANA/DMA’s Telephone Preference Service (TPS). This service is also the Official Do Not Call list for the States of Pennsylvania and Wyoming. To register your opt-out preference, please visit www.dmachoice.org/DMAdnclist/index.php
+We subscribe to the Federal Trade Commission’s Do-Not-Call Registry. The Do Not Call (DNC) Registry allows you to permanently restrict telemarketing calls by registering your phone number at www.donotcall.gov or by calling 1-888-382-1222. Placing your number on this national registry will stop most telemarketing calls, but not all of them.
+The ANA/DMA (www.dmachoice.org) also provides individuals with a form to use to have their names removed from other direct marketers’ mail, e-mail, and telephone call lists. Allant Group, LLC honors opt-out requests made through the ANA/DMA’s services.
+Data Security and Protection
+Allant employs robust administrative, technical, and physical safeguards to protect personal information against unauthorized access, loss, misuse, or alteration. Our security framework aligns with industry standards such as ISO 27001, NIST Cybersecurity Framework (CSF), and SOC 2 Type 2 compliance. Key security measures include:
+Encryption: All sensitive data, including personal information, is encrypted both in transit and at rest using industry-standard encryption protocols (e.g., AES-256, TLS 1.2+).
+Access Control: Role-based access controls (RBAC) and multi-factor authentication (MFA) are enforced to ensure that only authorized personnel have access to sensitive data.
+Network Security: Firewalls, intrusion detection and prevention systems (IDS/IPS), and endpoint protection solutions are in place to monitor and mitigate potential threats.
+Logging and Monitoring: We utilize real-time logging, monitoring, and a Security Information and Event Management (SIEM) system to detect and respond to suspicious activities.
+Data Minimization and Masking: Wherever possible, we employ techniques such as data anonymization, pseudonymization, and tokenization to limit the exposure of personally identifiable information (PII).
+Third-Party Security: Vendors and service providers handling personal information are required to adhere to strict security and privacy standards through contractual agreements and regular audits.
+Incident Response and Breach Notification: A documented Incident Response Plan (IRP) is in place to swiftly identify, contain, and remediate security incidents. In the event of a data breach, affected individuals and regulatory bodies will be notified in accordance with applicable laws.
+Regular Audits and Assessments: Periodic internal and external audits, vulnerability scans, and penetration testing are conducted to ensure compliance with security best practices.
+Employee Security Awareness Training: All employees undergo mandatory data privacy and cybersecurity training to recognize and prevent phishing, social engineering, and other security threats.
+Allant continuously evaluates and enhances its security posture to address evolving threats and regulatory requirements.
+Data Retention
+Personal information is retained only as long as necessary for business, legal, and compliance purposes. If you request deletion, we will remove your data from our active systems unless retention is legally required.
+Responsible Vulnerability Disclosure Policy
+At the Allant Group, the security of our systems and the protection of client and consumer data are top priorities. We are committed to maintaining a secure environment and appreciate the contributions of the security community in helping us achieve that goal.
+If you believe that have discovered a security vulnerability in any Allant Group product, service, or system, we encourage you toreport it to us responsibly by emailing security@allantgroup.com. Please include a detailed description of the vulnerability, including the steps needed to reproduce it.
+To protect our clients and systems, we ask that you:
+Do not publicly disclose the vulnerability before we have had an opportunity to investigate and address it.
+Do not access, modify, or delete data that does not belong to you.
+Do not disrupt or degrade our services or infrastructure in any way.
+We will review all submissions and take appropriate action. If your report is valid and results in a code configuration change, we will acknowledge your contribution (with permission).
+Thank you for helping us keep Allant Group and our clients secure.
+Allant’s Cookie Policy
+When you visit our website, we store cookies on your browser to collect information. The information collected might relate to you, your preferences or your device, and is mostly used to make the site work as you expect it to and to provide a more personalized web experience. However, you can choose not to allow certain types of cookies, which may impact your experience of the site and the services we are able to offer. Click on the different category headings to find out more and change our default settings according to your preference. You cannot opt-out of our First Party Strictly Necessary Cookies as they are deployed in order to ensure the proper functioning of our website (such as prompting the cookie banner and remembering your settings).
+Strictly Necessary Cookies:
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Performance Cookies:
+These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance.
+Targeting Cookies:
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Functional Cookies:
+These cookies enable the website to provide enhanced functionality and personalization. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Changes to This Privacy Policy
+This Policy is reviewed annually and updated as necessary to reflect regulatory changes and business practices. Updates will be posted on our website with the effective date.
+Contact Information
+If you have questions about this Policy or our privacy practices, please contact us:
+Email
+privacy@allantgroup.com
+Toll Free Number
+(800) 367-7311
+Mail
+Allant Group, LLC
+Attention: Privacy Team
+2655 Warrenville Rd Suite 200
+Downers Grove, IL 60515
+Ready to see what Allant can do for you?
+LET'S GET STARTED
+Cookie Settings

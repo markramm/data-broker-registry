@@ -1,0 +1,153 @@
+Alliant Privacy Policy for Data Products - Alliant
+Skip to content
+Alliant Privacy Policy for Data ProductsAlliant2026-08-03T13:10:45+00:00
+Alliant Privacy Policy for Data Products
+Last Updated: July 29, 2026
+This Privacy Policy (the “Privacy Policy”) informs consumers (“you”) about the collection, use, sharing, and selling (collectively referred to as “processing” or “process”) of your Personal Information (defined below) in connection with the products and services (the “Data Products”) that Alliant Cooperative Data Solutions, LLC and its subsidiaries and affiliates, including Analytics IQ (collectively “Alliant”) provide to companies that license our Data Products (our “Customers”).
+As used in this Privacy Policy, “Personal Information” means information that relates to an identified or identifiable individual and includes “personal data” or similar terms as used in applicable state privacy laws. For example, this could include among other things your name, address, email address, past purchase behavior or information regarding your interests.
+This Privacy Policy does not apply to the Personal Information collected from visitors to Alliant’s Websites. Alliant does not combine or otherwise process the Personal Information we collect through our Websites with the Personal Information we process for our Data Products. For more information on our practices with respect to this Personal Information, please visit our Website Privacy Policy.
+The Privacy Policy may change over time. Please review it frequently to stay up-to-date with our practices.
+I. NOTICE AT COLLECTION OF PERSONAL INFORMATION
+a. Categories of Personal Information Collected
+Alliant collects the following categories of Personal Information for use in our Data Products. We generally disclose these categories of Personal Information to our service providers. We also “sell” or “share” Personal Information and use Personal Information for “targeted advertising” as these terms are defined in applicable U.S. law.
+Category of Personal Information Collected:
+Sold or Shared:
+Identifiers and contact information, including your name and physical address, email addresses, account username, telephone numbers, online identifiers, and mobile device identifiers.
+Yes
+Protected classifications under CA or federal law, including race, color, ancestry, national origin, citizenship, religion, marital status, health and/or medical condition, sex/gender, sexual orientation, disability, age, and veteran or military status.
+Yes
+Commercial information, including property records; products or services purchased, obtained, or considered; purchasing and consuming tendencies; product types; and total orders paid, returned, cancelled or written off.
+Yes
+Professional and employment related information, including the name, size and location of the company you work for and your role within the company.
+Yes
+Internet/electronic network activity, such as online interests; and information on a consumer’s interaction with a website, application, or advertisement.
+Yes
+Geolocation information (imprecise) derived from your device or IP address, census block group, etc.
+Yes
+Education information, including school degrees you have obtained.
+Yes
+Sensitive Personal Information, including your biometric information, and Personal Information revealing your racial or ethnic origin, citizenship or immigration status, political, religious, or philosophical beliefs, trade union membership, physical or mental health information, and information about your sex life or sexual orientation.
+Where permitted under applicable law, we may use this information for the purpose of inferring characteristics about you.
+Yes, where permitted under applicable law.
+Inferences drawn from the above-listed categories of Personal Information to create a consumer profile reflecting consumer preferences or characteristics.
+Yes
+We do not knowingly sell or share the Personal Information of individuals under the age of eighteen (18).
+To make an opt-out request with Alliant, please use this form. To make an opt-out request with AnalyticsIQ, please use this form. We recognize opt-out preferences that are communicated through the Global Privacy Control (“GPC”), but GPC-based opt-outs are limited to sales, shares, and targeted advertising through our Websites.
+b. Purposes for Processing Personal Information
+We process the categories of Personal Information described in section 1(a) for the following business and commercial purposes:
+To provide our Data Products, including:
+To create Audience Segments (i.e., a specific group of consumers that are likely to share a common behavior, preference or lifestyle used for direct or digital marketing by our Customers) or Profiles (i.e., a set of attributes about a specific consumer or device, or a set of multiple consumers or devices sharing common attributes used for marketing by our Customers).
+Example: You are likely in-market for a new mini-van so you are in the Audience Segment for “In-Market for a Mini-Van.”
+Example: Profiles may include age bracket 25-45; children in the home; enjoys family cruises; in-market for new mini-van.
+For advertising (including targeted advertising) on behalf of our Customers.
+Example: A marketing professional working for an auto company wants to market the company’s new mini-van to a specific group of individuals (also known as an audience) that may be interested in the vehicle. The marketing professional uses our Data Products to create an audience likely to be in-market for a new mini-van who are also parents to young children. If you are in the audience, you may subsequently see advertisements for the mini-van, such as direct mail pieces or an online ad.
+To enable our Customers to personalize their products and services, including site optimization, email personalization and dynamic marketing and advertising optimization.
+Example: If you are in a predictive audience segment for those who are likely to be in-market for a new mini-van, when you visit an auto company’s website, the auto company may display messaging on their website or in a display ad that highlights their new mini-van model.
+To create modelled audiences for Customers’ products and services.
+Example: A marketing professional working for an automotive company wants to find new potential customers who are likely to be interested in purchasing a new mini-van. The Data Products can help the auto company by identifying key characteristics between the Profiles of those who have recently purchased a new mini-van and other Profiles where a similar interest can be inferred based on these characteristics.
+For campaign measurement, analytics, and development of insights on behalf of our Alliant Customers.
+Example: A marketing professional working for an automotive company wants to better understand if the company’s marketing campaign for a new mini-van model led to an increase in their vehicle sales among new parents. The marketing professional appends Alliant audience segment of “new parents” to their conversion data to understand how many new parents were among those who purchased the mini-van model.
+To enable Alliant Customers and partners to connect your Audience Segments across the various browsers and/or devices you may use for the purposes described in this section.
+Example: You use several devices (your desktop, smartphone, and tablet) to browse the web. Using your web activity and user-supplied login information, Alliant onboarding and linkage partners have indicated that you are likely the same user across those same devices. An automotive company is now able to display mini-van offers to you (via a de-identified cookie ID or mobile ad ID, for example) on these different devices by targeting Alliant Audience Segments.
+To assist our Customers with other marketing services, such as direct mail/email, display, mobile and social media marketing, measurement services, analyzing and optimizing data bases of Customers, verification and data hygiene services, etc.
+To fulfill our legal obligations and operational needs, including:
+To operate our Data Products, including improving, testing and updating our data base, developing new products, research etc.
+To comply with applicable laws and regulations and respond to lawful requests and communications from law enforcement and other government officials.
+To protect our rights, privacy, safety, property and/or those of you or of others.
+For any other purpose described to you at the point of Personal Information collection.
+c. Retention
+We will retain your Personal Information for as long as necessary to fulfill the purposes described in this Privacy Policy, unless a longer retention period is required or allowed under law. To determine the appropriate retention period for Personal Information, we consider the amount, nature, and sensitivity of the Personal Information; our contractual rights to use the Personal Information; the potential risk of harm from unauthorized use or disclosure of the Personal Information; the purposes for which we use the Personal Information; whether we can achieve those purposes through other means; and the applicable legal requirements or obligations
+II. SOURCES OF PERSONAL INFORMATION
+We obtain the Personal Information used in our Data Products from a variety of sources.
+From Our Customers: In conjunction with providing the Data Products, we maintain a cooperative data base containing the Personal Information that our Customers collect and obtain about you.
+Third Party Sources: We collect and obtain Personal Information from several third-party sources, including
+Data brokers and consumer data resellers
+Consumer goods retailers
+Publishers
+Non-profit organizations
+Business-to-business companies
+Affiliate networks and government entities
+Advertising networks
+Internet service providers
+Data analytics providers
+Operating systems and platforms
+Social networks
+Website operators
+Publicly Available Information: We obtain information for use in our Data Products from public sources, such as government records, and combine it with other information about you so that it is considered Personal Information under applicable law.
+III. HOW WE DISCLOSE PERSONAL INFORMATION
+a. Selling and Sharing
+We sell or share, including for targeted advertising, Personal Information described in Section I with the following categories of third parties:
+Consumer products and services companies, retailers, financial services companies, healthcare companies, insurance companies, not-for-profit companies, web and mobile app publishers, marketers, ad agencies, data resellers and companies, data on-boarders, connected TV providers, demand side platforms, data management platforms, supply-side platforms, social media networks, and nonprofit organizations.
+When we sell or share Personal Information with third parties, we take appropriate contractual, technical and organizational measures that are designed to limit the recipients’ use to specific purposes that are consistent with this Privacy Policy and in accordance with applicable law.
+b. Other Disclosures
+We may disclose your Personal Information for other purposes, including with the following categories of entities:
+Service Providers. We may disclose your Personal Information to service providers that provide business, professional or technical support functions on our behalf. These service providers include companies that host Alliant’s Data Products or provide cloud computing services.
+Business Transfers. If another entity acquires us or all or substantially all of our assets, or assets related to Alliant’s business, your Personal Information will be transferred as an asset in the transaction. Also, if any bankruptcy or reorganization proceeding is brought by or against us, your Personal Information may be considered an asset of ours and sold or transferred to third parties. Finally, your Personal Information may also be disclosed for due diligence purposes in connection with the types of matters described in this paragraph.
+Legal Disclosures; Safety. Alliant may transfer and disclose your Personal Information to third parties to comply with a legal obligation; when we believe in good faith that the law requires it; at the request of governmental authorities conducting an investigation; to verify or enforce our policies; to detect and protect against fraud, or any technical or security vulnerabilities; to respond to an emergency; or otherwise to protect the rights, property, safety, or security of third parties, users of the Alliant Data Products, Alliant, or the public.
+Aggregate or Anonymous Non-Personal Information. In some instances, we may aggregate or de-identify information we maintain so that it is no longer considered Personal Information under this Privacy Policy. We will not attempt to re-identify previously de-identified information. We share de-identified information with third parties for their marketing, analytics, and other uses. Where we do so, we require these partners to maintain this information in a de-identified state in accordance with applicable law.
+IV. YOUR PRIVACY CHOICES
+We provide you with a number of choices with respect to the maintenance and use of your Personal Information as used in our Data Products.
+a. U.S. State Privacy Rights
+If you reside in the United States, you may request to exercise certain rights over your Personal Information provided by state privacy laws. The exact scope of these rights may vary by state and depending on certain exceptions:
+Right to Know. You have the right to request to know what Personal Information we have collected about you, including the categories of sources from which the Personal Information is collected, the business or commercial purpose for collecting, selling, or sharing Personal Information, the categories of third parties to whom we disclose Personal Information, and the specific pieces of Personal Information we have collected about you. Please note that we may not be required to respond to your requests for access to specific pieces of Personal Information more than twice in any 12-month period. You also have the right to access this information in a portable format.
+Right to Request Categories of Third Parties. You have the right to request a list of the categories of third parties with which we disclose your Personal Information.
+Right to Request Specific List of Third Parties. You have the right to request or access a list of the specific third parties with which we disclose your Personal Information.
+The specific third parties with which we disclose and/or sell Personal Information is a trade secret and therefore, is not subject to these requests. You can learn more about the categories of third parties we disclose Personal Information to in Section III of this Privacy Policy.
+Right to Delete. You have the right to request that we delete Personal Information that we have collected from or about you, subject to certain exceptions. Please note that if you opt out or request deletion, you may still temporarily see advertising from Customers based on their targeting of our Audience Segments from campaigns that are already underway.
+Right to Correction/Accuracy. You have the right to request correction of inaccurate Personal Information that we maintain about you, subject to appropriate verification. We may comply with a right to correct by deleting your Personal Information.
+Right to Opt Out of Sale, Sharing, and Targeted Advertising. You have the right to request to opt out of the “sale” or “sharing” of your Personal Information, or the use and disclosure of your Personal Information for “targeted advertising” (as these terms are defined in applicable law).
+Right to Limit Use or Disclosure of Sensitive Personal Information. You have the right to request that we limit the use or disclosure of your sensitive Personal Information, subject to certain exceptions.
+Other than requests to opt-out or limit the use of sensitive Personal Information, we may ask to verify your identity in order to process your request. This step is necessary for certain types of requests to protect everyone’s information. We may refuse to fulfill such requests if we cannot verify the identity of the individual making the request.
+You are not required to create an account to exercise your privacy rights described herein and we will not discriminate against you for exercising these rights.
+Authorized agents. In certain states, consumers may designate an authorized agent to exercise their privacy rights. You may designate an authorized agent to submit requests on your behalf using the methods described in this section. However, we may as the agent to provide us with proof of the agent’s authorization to act for you. Alternatively, we may contact you directly to request information to verify against information provided by the authorized agent..
+Right to appeal. Depending on your U.S. state of residence, you may have the right to appeal a decision that we make about your rights request. To submit an appeal, please email us at compliance@alliantdata.com with the subject line “Rights Request Appeal.” If you reside in the U.S. and are unsatisfied with the way we handled your request, you may have a right to complain to your state’s Attorney General.
+To make a request to Alliant, please use the following forms, or call (833) 926-0701
+Please use this form to request Opt Out of Sale/Sharing of Personal Information
+Please use this form to request Deletion of Personal Information
+Please use this form to request Records of Personal Information
+Please use this form to request Correction of Personal Information
+To make a request to AnalyticsIQ, please use this form or call (833) 533-1388.
+b. Interest-Based Advertising
+Self-regulatory industry organizations such as the Digital Advertising Alliance (DAA) offer browser-based opt-out tools for their member companies. Please visit the DAA’s AdChoices site for more information: https://youradchoices.com/control. You can also visit the Network Advertising Initiative (NAI) as a resource for learning about available privacy choice mechanisms.
+c. Opt-Out Choice for Prescreened Credit Offers
+To remove your name from files that Alliant provides to our credit database customers for use in sending prescreened credit or insurance offers, please review the Alliant Consumer Credit FCRA Privacy Policy.
+To obtain a free copy of your Alliant Credit Report, please review the instructions in the Alliant Consumer Credit FCRA Privacy Policy.
+For more information on opting out of prescreened offers of credit or insurance, please visit http://www.ftc.gov/bcp/edu/pubs/consumer/credit/cre17.shtm.
+V. CHILDREN’S DATA
+We do not knowingly collect, sell or share Personal Information of individuals under 18 years of age. Further, we prohibit our Alliant partners from providing Alliant with Personal Information from sites directed to children under the age of 18 or from individuals whose age these companies know to be under the age of 18.
+VI. HOW DO WE PROTECT PERSONAL INFORMATION
+Alliant has implemented technical, physical and organizational measures that are designed to protect Personal Information against accidental or unlawful destruction or accidental loss, damage, alteration, unauthorized disclosure or access, as well as all other forms of unlawful processing. However, no electronic data transmission or storage of information can be guaranteed to be completely secure, and we cannot ensure or warrant the security of any information you transmit to us or that we store about you.
+VII. STATISTICS ABOUT CONSUMER PRIVACY REQUESTS
+Pursuant to requirements under the California Consumer Privacy Act, we provide information about consumer requests that Alliant Cooperative Data Solutions, LLC, and AnalyticsIQ received in the previous calendar year.
+For statistics about requests received by AnalyticsIQ, please visit this page: https://analytics-iq.com/opt-out-statistics/.
+For statistics about requests received by Alliant Cooperative Data Solutions, LLC, please visit this page: https://alliantinsight.com/opt-out-statistics/.
+VIII. CHANGES TO THIS PRIVACY POLICY
+We will post any changes we make to our Privacy Policy on this page. If we materially alter our practices, we will provide you appropriate notice when we update the Privacy Policy, such as by temporarily noting “UPDATED” next to the link in the footer of our Website. Where required by applicable law, we will obtain your opt-in consent if we use Personal Information that we previously collected about you for a purpose that is materially different from the purposes we described in the version of our Privacy Policy applicable to you at the time we collected that Personal Information. The “Last Updated” legend at the top of the page indicates the last time this Privacy Policy was reviewed or updated.
+IX. CONTACT US
+If you have questions related to this Privacy Policy, or regarding the use of your Personal Information as part of our Data Products, please contact us at:
+Corporate Counsel
+Alliant Cooperative Data Solutions, LLC
+6 Concourse Parkway, Suite 1750
+Atlanta, GA 30028
+Email: Compliance@AlliantData.com
+Alliant provides brands and their partners with innovative data solutions that improve marketing performance for profitable growth.
+Certifications & Awards
+Solutions
+Market
+Resources
+Company
+FOLLOW US
+Search for:
+Do Not Sell Or Share My Personal Information
+Limit The Use of My Sensitive Personal Information
+Privacy Policy | Privacy Policy for Data Products
+FCRA Choices | Terms of Use | Report a Concern
+The entity maintaining this website is a data broker under Texas law. To conduct business in Texas, a data broker must register with the Texas Secretary of State (Texas SOS). Information about data broker registrants is available on the Texas SOS website.
+Alliant provides brands and their partners with innovative data solutions that improve marketing performance for profitable growth.
+Solutions
+Resources
+Company
+Market
+Certifications & Awards
+FOLLOW US ON SOCIAL
+Page load link

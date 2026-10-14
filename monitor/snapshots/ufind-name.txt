@@ -1,0 +1,7 @@
+UFind.Name Opt-Out Request
+Specify the URL of the page information from which you want to remove.
+Paste the URL here *
+The URL should look like: https://ufind.name/FirstName+LastName
+uFind.name — People Search Engine
+top profiles | opt-out | faq | privacy
+0.000 s

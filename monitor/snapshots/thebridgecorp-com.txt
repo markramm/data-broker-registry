@@ -1,0 +1,407 @@
+Opt-Out | BRIDGE
+Go Back
+Opt Out
+Take control of your privacy.​
+To opt out of BRIDGE’s services, you will need to provide us with your email address.
+State of Residency*
+Please Select
+California Resident
+Non-California Resident
+Please complete this required field.
+Email*
+Please complete this required field.
+Enter Advertising ID
+Please complete this required field.
+Please select the type of request or requests you wish to submit.
+Request Information
+Delete My Record
+Opt Out
+Please complete this required field.
+By checking off this box, I hereby declare that the information submitted in this request is true and correct to the best of my knowledge. I also declare under penalty of perjury that I am the consumer whose personal information is the subject of this request.
+Please complete this required field.
+Write Your Full Name Below*
+Please complete this required field.
+Submit
+You may also opt out of the personalized ad service.
+Please note, this will opt you out of receiving targeted advertisements based on your interest. You may still receive the same number of ads, but ads may be less relevant. Please follow the instructions below:
+To reset your Advertising ID on your iOS Device
+Settings // Privacy// Advertising // Reset Advertising Identifier
+To reset your Advertising ID or on your Android Device
+Settings // Google Settings// Ads // Reset Advertising ID
+You may opt-out of interest-based advertising by some (not all) of our third-party advertising partners by visiting: http://youradchoices.com/appchoices
+Global Privacy Control Signal Honored
+Manage Consent
+Besides the cookies needed to make this site work, we'd also like to use non-essential cookies to understand how you use the site and to improve your experience (for example, to remember your preferences or analyze browsing behavior).
+Do you want to accept these non-functional cookies?
+Functional
+Functional
+Always active
+The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network.
+Preferences
+Preferences
+The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.
+Statistics
+Statistics
+The technical storage or access that is used exclusively for statistical purposes.
+The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you.
+Marketing
+Marketing
+The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes.
+Manage options
+Manage services
+Manage {vendor_count} vendors
+Read more about these purposes
+Yes
+No
+View preferences
+Save preferences
+View preferences
+{title}
+{title}
+{title}
+Manage consent
+Access Audiences
+Fill out the form below to start using our top-ranked custom audiences.
+Get Started
+First name*
+Please complete this required field.
+Last name*
+Please complete this required field.
+Work Email*
+Please complete this required field.
+Phone number*
+Please complete this required field.
+Company name*
+Please complete this required field.
+Company Type*
+Please Select
+Agency
+Advertiser
+Publisher
+Data Partner
+Technology Partner
+Other
+Please complete this required field.
+Industry*
+Please Select
+Automotive
+B2B
+CPG
+Education
+Entertainment
+Government
+Finance
+Healthcare
+Media
+Museum
+Retail
+Telecom
+Travel
+Other
+Technology
+Telecommunications
+Adult Bev
+Direct to Consumer
+Non Profit
+Lotto
+Agencies
+Adult Beverages
+D2C
+Please complete this required field.
+Primary Role*
+Please Select
+Director Operations or Digital Strategy
+Product Manager
+VP or Head of Sales
+VP or Director of Media
+CEO/CMO
+Account Executive/Manager
+Digital Coordinator
+Marketing Director
+Media Innovations
+Data/Technology Lead
+Head of Performance Marketing
+Social Media Lead
+General Manager or Regional Manager
+Other
+Please complete this required field.
+Contact me to schedule a demo
+Contact me to schedule a demo
+Please complete this required field.
+Submit
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 {
+font-family: inherit; /* TRIM CANDIDATE if page sets this on body/form ancestors */
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 .bcf-grid {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 0 24px;
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 .field-group {
+margin-bottom: 20px;
+min-width: 0;
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 .field-group.bcf-full {
+grid-column: 1 / -1;
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 label {
+display: block;
+margin-bottom: 6px;
+color: rgb(51, 71, 91); /* extracted from this form’s own live styling */
+font-weight: 500; /* TRIM CANDIDATE */
+font-size: 14px; /* TRIM CANDIDATE */
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 label .bcf-req {
+color: red;
+margin-left: 2px;
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 input,
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 select,
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 textarea {
+width: 100%;
+padding: 9px 11px;
+border: 1px solid rgb(203, 214, 226);
+border-radius: 3px;
+background: rgb(245, 248, 250);
+font-family: inherit; /* TRIM CANDIDATE */
+font-size: 14px; /* TRIM CANDIDATE */
+color: rgb(51, 71, 91);
+box-sizing: border-box;
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 textarea {
+resize: vertical;
+min-height: 90px;
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 input:focus,
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 select:focus,
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 textarea:focus {
+outline: none;
+border-color: rgba(82, 168, 236, 0.8);
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 .bcf-input-error {
+border-color: rgb(242, 84, 91);
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 .bcf-checkbox-list,
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 .bcf-radio-list {
+list-style: none;
+margin: 0;
+padding: 0;
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 .bcf-checkbox-list li,
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 .bcf-radio-list li {
+display: block;
+margin-bottom: 4px;
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 .bcf-checkbox-list label,
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 .bcf-radio-list label {
+display: inline-flex;
+align-items: center;
+font-weight: normal; /* TRIM CANDIDATE */
+margin-bottom: 0;
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 .bcf-checkbox-list input,
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 .bcf-radio-list input {
+width: auto;
+margin-right: 8px;
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 button {
+background: rgb(35, 131, 246);
+color: rgb(255, 255, 255);
+border: none;
+border-radius: 4px;
+padding: 12px 32px;
+font-size: 15px; /* TRIM CANDIDATE */
+font-weight: 600; /* TRIM CANDIDATE */
+cursor: pointer;
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 button:hover { background: rgb(35, 131, 246); }
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 button:disabled { opacity: 0.6; cursor: not-allowed; }
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 .bcf-field-error,
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 .bcf-error {
+color: rgb(242, 84, 91);
+font-size: 13px; /* TRIM CANDIDATE */
+margin-top: 4px;
+display: none;
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 .bcf-message { margin-top: 16px; font-weight: 600; color: rgb(51, 71, 91); }
+@media (max-width: 480px) {
+#bcf-dd5f5825-05e7-415b-9d62-3a82388d1074 .bcf-grid { grid-template-columns: 1fr; }
+(function () {
+var el = document.getElementById(‘bcf-dd5f5825-05e7-415b-9d62-3a82388d1074’);
+if (!el) return;
+var REST_ROOT = window.location.origin + ‘/wp-json/’;
+var PORTAL_ID = ‘2016445’;
+var FORM_ID = ‘dd5f5825-05e7-415b-9d62-3a82388d1074’;
+var SUBMIT_URL = REST_ROOT + ‘hs/v1/form-submit?portalId=’ + encodeURIComponent(PORTAL_ID) + ‘&formId=’ + encodeURIComponent(FORM_ID);
+var REQUIRED_FIELDS = [“firstname”, “lastname”, “email”, “phone”, “company”, “company_type”, “bridge_industry”, “primary_role”];
+var EMAIL_FIELDS = [“email”];
+var GROUP_FIELDS = [“contact_me_to_schedule_a_demo”];
+function isValidEmail(v) {
+return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
+var form = el.querySelector(‘form’);
+var errorEl = el.querySelector(‘.bcf-error’);
+var messageEl = el.querySelector(‘.bcf-message’);
+var submitBtn = el.querySelector(‘button[type=”submit”]’);
+function fieldErrorEl(name) {
+return el.querySelector(‘[id$=”_error”][id*=”‘ + name + ‘”]’);
+function fieldInputEls(name) {
+return Array.prototype.slice.call(form.querySelectorAll(‘[name=”‘ + name + ‘”]’));
+function setFieldError(name, msg) {
+var errEl = fieldErrorEl(name);
+if (errEl) { errEl.textContent = msg; errEl.style.display = ‘block’; }
+fieldInputEls(name).forEach(function (i) { i.classList.add(‘bcf-input-error’); });
+function clearFieldError(name) {
+var errEl = fieldErrorEl(name);
+if (errEl) errEl.style.display = ‘none’;
+fieldInputEls(name).forEach(function (i) { i.classList.remove(‘bcf-input-error’); });
+function showFormError(msg) { errorEl.textContent = msg; errorEl.style.display = ‘block’; }
+function clearFormError() { errorEl.style.display = ‘none’; errorEl.textContent = ”; }
+Array.prototype.slice.call(form.querySelectorAll(‘input, select, textarea’)).forEach(function (input) {
+input.addEventListener(‘input’, function () { clearFieldError(input.name); });
+input.addEventListener(‘change’, function () { clearFieldError(input.name); });
+});
+function collectValue(name) {
+var inputs = fieldInputEls(name);
+if (inputs.length === 0) return ”;
+if (GROUP_FIELDS.indexOf(name) !== -1) {
+return inputs.filter(function (i) { return i.checked; }).map(function (i) { return i.value; });
+return (inputs[0].value || ”).trim();
+form.addEventListener(‘submit’, function (e) {
+e.preventDefault();
+clearFormError();
+messageEl.textContent = ”;
+var payload = {};
+var hasError = false;
+Array.prototype.slice.call(form.querySelectorAll(‘[name]’)).forEach(function (i) {
+if (i.type === ‘hidden’) payload[i.name] = i.value;
+});
+var allNames = Array.prototype.slice.call(form.querySelectorAll(‘[name]’))
+.map(function (i) { return i.name; })
+.filter(function (n, idx, arr) { return arr.indexOf(n) === idx; });
+allNames.forEach(function (name) {
+var el2 = fieldInputEls(name)[0];
+if (el2 && el2.type === ‘hidden’) return;
+clearFieldError(name);
+var value = collectValue(name);
+var isEmpty = Array.isArray(value) ? value.length === 0 : value === ”;
+if (REQUIRED_FIELDS.indexOf(name) !== -1 && isEmpty) {
+setFieldError(name, ‘Please complete this required field.’);
+hasError = true;
+return;
+if (EMAIL_FIELDS.indexOf(name) !== -1 && !isEmpty && !isValidEmail(value)) {
+setFieldError(name, ‘Please enter a valid email address.’);
+hasError = true;
+return;
+if (!isEmpty) payload[name] = value;
+});
+if (hasError) return;
+submitBtn.disabled = true;
+submitBtn.textContent = ‘Submitting…’;
+fetch(SUBMIT_URL, {
+method: ‘POST’,
+headers: { ‘Content-Type’: ‘application/json’ },
+body: JSON.stringify(payload),
+})
+.then(function (res) {
+return res.text().then(function (text) {
+var body;
+try { body = JSON.parse(text); } catch (e) { body = text; }
+return { ok: res.ok, status: res.status, body: body };
+});
+})
+.then(function (result) {
+submitBtn.disabled = false;
+submitBtn.textContent = ‘Submit’;
+if (!result.ok) {
+var mappedAny = false;
+if (result.body && typeof result.body === ‘object’ && Array.isArray(result.body.fields)) {
+result.body.fields.forEach(function (name) {
+setFieldError(name, EMAIL_FIELDS.indexOf(name) !== -1 ? ‘Please enter a valid email address.’ : ‘Please complete this required field.’);
+mappedAny = true;
+});
+var msg = ‘Something went wrong. Please try again.’;
+if (result.body && typeof result.body === ‘object’ && result.body.error) msg = result.body.error;
+if (!mappedAny) showFormError(msg);
+console.error(‘Form submit error:’, result.body);
+return;
+form.style.display = ‘none’;
+messageEl.textContent = “Thanks! We’ve received your request and will be in touch shortly.”;
+})
+.catch(function (err) {
+submitBtn.disabled = false;
+submitBtn.textContent = ‘Submit’;
+showFormError(‘Network error. Please try again.’);
+console.error(err);
+});
+});
+})();
+Everything
+Up To 75% Off
+June 21-24 * Online Only
+Shop Now
+Download Now
+First name*
+Please complete this required field.
+Last name*
+Please complete this required field.
+Work Email*
+Please complete this required field.
+Phone number*
+Please complete this required field.
+Company name*
+Please complete this required field.
+Company Type*
+Please Select
+Agency
+Advertiser
+Publisher
+Data Partner
+Technology Partner
+Other
+Please complete this required field.
+Primary Role*
+Please Select
+Director Operations or Digital Strategy
+Product Manager
+VP or Head of Sales
+VP or Director of Media
+CEO/CMO
+Account Executive/Manager
+Digital Coordinator
+Marketing Director
+Media Innovations
+Data/Technology Lead
+Head of Performance Marketing
+Social Media Lead
+General Manager or Regional Manager
+Other
+Please complete this required field.
+Contact me to schedule a demo
+Contact me to schedule a demo
+Please complete this required field.
+Submit
+Access Premium Audiences
+First name*
+Please complete this required field.
+Last name*
+Please complete this required field.
+Work Email*
+Please complete this required field.
+Phone number*
+Please complete this required field.
+Company name*
+Please complete this required field.
+Company Type*
+Please Select
+Agency
+Advertiser
+Publisher
+Data Partner
+Technology Partner
+Other
+Please complete this required field.
+Primary Role*
+Please Select
+Director Operations or Digital Strategy
+Product Manager
+VP or Head of Sales
+VP or Director of Media
+CEO/CMO
+Account Executive/Manager
+Digital Coordinator
+Marketing Director
+Media Innovations
+Data/Technology Lead
+Head of Performance Marketing
+Social Media Lead
+General Manager or Regional Manager
+Other
+Please complete this required field.
+Contact me to schedule a demo
+Contact me to schedule a demo
+Please complete this required field.
+Submit

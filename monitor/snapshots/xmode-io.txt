@@ -1,0 +1,35 @@
+Your Privacy Choices - Outlogic
+Your Privacy Choices and Consumer Rights
+California Residents: You have the right to Limit the Use of Your Sensitive Personal Information by Outlogic, in addition to other rights provided to residents of various US States as described below.
+Residents of Various US States: Our Privacy Policy includes information about the personal information we collect and how we use and share it. Residents of a number of U.S. states have certain rights regarding information that businesses collect about them. These rights include the right to direct a business to stop selling your personal information or data, which is part of your “opt-out” right explained below. For information about other rights you may have under these state laws (such as rights regarding requests for access to your personal information), please see Section 11 of our Privacy Policy.
+Your Opt-Out Rights. You have the right to opt out of our collection, use, and sale of your personal information, including data that may reveal your mobile device’s precise geographic location (your “opt-out” rights). We describe below how you may exercise your opt-out rights.
+Your Deletion Rights. You separately have the right to request that we delete personal information collected from you, including data that may reveal your mobile device’s precise geographic location, and also send requests to any recipients of your personal information that they delete such data from their commercial databases (your “deletion rights”). If you choose to exercise your right to deletion, there are certain circumstances under which we many nevertheless retain personal information as permitted by law, such as to prevent, detect, or investigate data security incidents, or to protect against malicious, deceptive, fraudulent, or illegal activity directed at the company. A request to delete is distinct from a request to exercise your opt-out rights. We describe below how you may exercise your deletion rights.
+Submitting Requests to Opt-Out, for Deletion, or to Limit the Use of Sensitive Personal Data.
+If you wish to exercise your opt-out rights or to limit the use of your sensitive personal information, you may submit a request by using the form below, or call us toll-free +1 (866) 346-9602, or email us at privacy@outlogic.io. We will need your Device ID — either an Advertising ID or an Installation ID– to be able to process your opt-out request. The Advertising ID is a random string of 32 letters and numbers installed in your mobile device by the manufacturer. The Installation ID is a random string of 32 letters and numbers installed in some Apps that reside on your mobile device. Outlogic does not use an Installation ID for advertising purposes.
+There are two different ways to obtain your Device ID used by Outlogic, whether it is an Advertising ID or Installation ID:
+Open your App and check your App’s Privacy Settings screen to access the Device ID.
+If there is no App Privacy Settings screen, then use your App’s Request Support function to send a support or help request to the App publisher, who will provide you with the Device ID used by Outlogic, if any.
+If you choose to provide an email address at which we may contact you to report on your request, Outlogic will use the contact information you provide with your opt-out request solely to process and respond to that request.
+Device ID(Required)
+Email(Required)
+Name
+This field is for validation purposes and should be left unchanged.
+Submit
+If you wish to exercise your deletion rights, you may contact us by email at privacy@outlogic.io or call us toll-free at +1 (866) 346-9602. We will need your Device ID — either an Advertising ID or an Installation ID– to be able to process your deletion request. Instructions on locating the Device ID are provided above. Outlogic will use the contact information you provide with your opt-out request solely to process and to respond to that request.
+Learn More About Our Privacy Practices
+You can find more information about our privacy practices in our Privacy Policy. This includes the types of personal information Outlogic collects and who we share it with.
+Device Settings Restrictions
+You may wish to change your device settings to manage how your device collects and shares your Advertising ID with Outlogic and others for advertising purposes:
+For iOS mobile devices, you must follow the instructions above to obtain your advertising ID and submit your opt-out request to Outlogic. Turning off Apple’s “Allow apps to request to track” will not have the effect of ceasing data collection from your device if you subsequently consented to share your data.
+For Android mobile devices, go to “Settings” on your device; select “Privacy”; select “Ads”; select “Manage advertising ID”; select “Reset or delete your device advertising ID.”.
+Modifying these device settings may have different results depending on the type of device you are using. For iOS mobile devices, disabling a specific app from tracking (“Privacy & Security” > “Tracking”) will zero out your Advertising ID, preventing Outlogic and others from identifying your device using the device’s advertising ID. On older Android mobile devices, turning on “Opt Out of Interest-Based Ads” causes your advertising ID to be sent to Outlogic and others with an opt-out “flag,” which allows Outlogic to recognize and store your opt-out choice. If Outlogic receives such a “flag,” we will honor it by not using or selling your advertising ID or any information we have associated with it. Other device types may handle opt-outs differently.
+However, please note that if you have a mobile device that runs Android 12 or newer that responds to the above device settings by “zeroing out” rather than actually sending to us your advertising ID, as iOS devices do, we will not be able to collect your advertising ID. In that case, we will not use or sell your device information going forward for advertising purposes, but we also will not be able to locate, or connect to your device, the advertising ID that has been “zeroed out” and thus, nor will we be able to remove previously collected information about your device (if we have any) from our database
+Access Requests
+Submit a request for access of your personal information by emailing privacy@outlogic.io or by calling us toll-free at +1 (866) 346-9602. For more information about your rights to access or delete your personal information, please refer to our Privacy Policy.
+Still Have Questions?
+Email(Required)
+Question(Required)
+Comments
+This field is for validation purposes and should be left unchanged.
+Submit
+Texas law defines sensitive personal data to include precise geolocation data. In this regard, we may receive and sell the precise latitude and longitude coordinates of your mobile device.

@@ -1,0 +1,63 @@
+MaxMind IP Address Opt-Out | MaxMind
+More info
+MaxMind IP Address Opt-Out
+What is the IP Address Opt-Out?
+As outlined in MaxMind's Privacy Policy, certain laws and regulations
+may give you the right to opt out of the sale of your personal
+information by a business to third parties, subject to certain
+exceptions as permitted by law. MaxMind may also provide you with the
+ability to exercise similar options even where it is not legally
+obligated to do so. To submit an opt-out request, please fill out and
+submit the form below on this page. For more information about our
+privacy practices,
+click here.
+MaxMind's IP address intelligence never identifies a household or
+street address
+MaxMind's IP address intelligence products associate IP addresses with
+a postal code or larger geographic region, but never identify a
+household or street address. When MaxMind provides a latitude and
+longitude location, it is a point in or close to the applicable postal
+code or larger geographic region but in a public location such as a
+lake or public park. The accuracy radius of this data is 5km or more.
+Learn more about MaxMind's Safe Coordinates program.
+Submitting an Opt-Out Request may lead to service interruptions
+As MaxMind's IP address intelligence services are used by thousands
+of businesses worldwide, please be aware that opting out of sale
+from MaxMind's services may mean that online businesses might be
+unable to determine where you are located, and in some cases they
+may block logins or other features that may impede your use of their
+service. For example, you might be blocked from logging into a
+password manager or from streaming certain content online. If you
+choose to opt out of the sale, you may submit a request to opt in.
+Please contact MaxMind directly at
+privacy@maxmind.com
+to submit an opt-in request.
+Required *
+Select the type of request that you would like to make: *
+Limited Opt-Out Request:
+Please do not sell data associated with my IP address in
+MaxMind services except for country-level geolocation data.
+Note: Some online services (streaming providers, banks, etc.)
+need to geolocate their website visitors to a country in order
+to provide access or services.
+If you select this option, your IP address in MaxMind's
+services will still be geolocated to a country.
+Global Opt-Out Request:
+Please do not sell data associated with my IP address in
+MaxMind services. Note: Selecting this option may impact your
+experiences visiting websites that rely on MaxMind's data.
+Many online services depend on knowing the location of their
+website visitors to provide access to streaming and banking
+services, or display the correct language or currency.
+When you click the Submit button, the webform will automatically
+collect the IP address currently associated with your device and
+include it in your opt-out request. If you use multiple IP
+addresses, you will need to access this webform from each IP
+address for which you wish to make an opt-out request.
+I understand that opting-out may result in degradation or loss
+of access to some online services, including but not limited to
+streaming providers and banks. *
+Please note that when you opt out of a sale, your IP address may be
+placed on a Do Not Sell list available to our customers through their
+accounts. Account holders are prohibited from using information on the
+list for any purpose other than to effectuate your request.

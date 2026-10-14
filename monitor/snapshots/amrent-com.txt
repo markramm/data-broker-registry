@@ -1,0 +1,91 @@
+Privacy | AmRent
+Home
+Services
+Consumer Assistance
+About
+Contact Us
+PRIVACY NOTICE
+Effective Date: July 20, 2026
+See California Residents Privacy Notice
+Notice: We have updated our privacy disclosures on this website. Our former Website Privacy Policy and Privacy Notice have been combined into this new Privacy Notice. This new Privacy Notice includes changes that, among other things, describe the information that may be collected when you interact with the verification step on the “Contact Us” page on this website and the information we may collect and the tools we may use when you call our Consumer Assistance Team. Be sure to review this Privacy Notice to understand our privacy practices and your privacy rights.
+Scope of this Notice
+This Privacy Notice describes how AmRent (“we,” “us,” and “our”) collects, uses, maintains, shares, and protects your personal information:
+• When you use our website or submit information to us through a submission form on this website;
+• In providing services to our customers, including when we resell consumer reports to our customers; and
+• When you contact our Privacy Office or Consumer Assistance Team by telephone or mail or submit an AmRent Report Request Form, AmRent Dispute Form, or Trafficking Block Request Form to us through an offline channel.
+This Privacy Notice describes our website and offline data privacy practices. Personal information, as used in this Privacy Notice, means any information that relates to or can be used to identify an individual person, including name, address, date of birth, telephone number, and Social Security number.
+Website Data Collection Practices
+• Information Collected on Pages with Online Forms
+You control the personal information you send to us when completing and submitting an online request form to us. We may require you to provide certain personal information to submit your request. We use the information you send to us in these forms to respond to your requests.
+We use certain security controls to protect our website from fraud, abuse, malicious bots, and other automated attacks. If you interact with the reCAPTCHA tool on any page on our website that includes an online request form, we and the vendor that provides this tool may collect and analyze certain technical and network information, including, but not limited to, your IP address, referral URL, device, browser, and operating system attributes, interaction signals, date, language settings, screen resolution, and JavaScript objects and installed browser plugins, to help us distinguish legitimate activities from automated or malicious activities.
+We retain this automatically collected information for operational purposes, such as investigating security incidents, running analytics to understand usage, and for compliance with security standards. We do not use this information to identify any individual consumer or household.
+We may also use a vendor to assist us in providing online request forms. This vendor may receive your online request form. We do not use session replay or similar technologies that can replicate your actions in completing an online form before you submit that form to us, so the personal information you enter in an online form is not accessible to us or our vendor until you submit the form. If you do not wish to provide your personal information to our vendor through an online form, you may submit your request to us through other disclosed channels.
+The vendors we use for these security controls and forms process this information on our behalf to provide these services.
+• Choice, Online Tracking, and Global Privacy Control
+We do not track your online activities over time or across third party websites. To learn more about the choices you have regarding online tracking, please visit these websites:
+http://www.aboutads.info/choices/
+http://www.youradchoices.com
+Some browsers transmit "do not track" signals to the websites and other online services with which a user communicates. Some browsers may also offer a Global Privacy Control (GPC) signal that conveys a person's request to websites they visit to not sell or share their personal information with third parties for cross-context behavioral advertising. We do not use, sell, or share information about your online activities for such advertising purposes, so we do not act in response to Global Privacy Control signals.
+Third-Party Links and Websites
+You may be able to access third-party sites by clicking links on our website. We are not responsible for the privacy policies or practices of any third-party websites, and if you visit those websites, we encourage you to review their respective privacy policies.
+Other Data Collection and Processing Practices
+How We Obtain Personal Information
+In the course of our business, our customers provide personal information to us to obtain our services, as allowed by applicable credit reporting and data privacy laws.
+We resell consumer reports. When acting as a reseller, we do not maintain our own database of personal information from which new reports are created. Instead, we obtain credit, criminal record and housing court information from third-party sources and deliver this information to our customers.
+You may also provide us with your personal information when you contact our Consumer Assistance Team by telephone or mail or through other channels. We also process personal information when contacted by consumers to authenticate and assist consumers regarding their consumer reports. If you contact us by telephone, we may record and transcribe our conversations with you to help us ensure a quality consumer assistance experience. We may engage service providers to process this information on our behalf.
+These providers are contractually required to use your personal information only to provide these services to us.
+How We Use Personal Information
+In addition to obtaining and providing consumer reports to our customers, we use personal information to support other business functions, such as maintaining data integrity and accuracy and for fraud prevention, information security, legal support, and statistical analysis.
+Disclosure of Personal Information to Third Parties
+Information that we receive from customers or data vendors may be sent to our affiliates, subcontractors, or technology and data vendors that assist us in providing services.
+We sell consumer report information to its customers who have a permissible purpose under applicable credit reporting and data privacy laws to access this information.
+Disclosure of Personal Information for Legal and Safety Reasons
+We may be required to disclose personal information to the court law enforcement agencies, government agencies, regulators, or similar entities. We may disclose information as required by law, litigation, or as a matter of national security to comply with valid legal processes including subpoenas, court orders or search warrants, and as otherwise authorized by law. We may also need to disclose personal information in the event of an emergency that threatens an individual's life, health, or security.
+Accuracy of Consumer Reports
+We follow reasonable procedures to ensure the accuracy of information in consumer reports, as required under Section 607(b) of the Fair Credit Reporting Act.
+Consumer Access and Correction Rights
+Consumers can contact us to request a copy of the consumer report we previously provided to our customer. To protect the privacy of consumers, we require that consumers provide proper identification prior to disclosing consumer report information. Under Section 611 of the Fair Credit Reporting, a consumer has the right to dispute inaccurate or incomplete information in a consumer report.
+When a consumer disputes information in a consumer report, we will convey the dispute to the applicable consumer reporting agencies for further investigation. When the consumer reporting agency notifies us of the results of their investigation, we will convey the information to the consumer.
+Information Sharing and Disclosure
+We do not intend to share your personal information with third parties, except as described above. However, we may disclose your information in the following scenarios:
+• When required by law, subpoena, or other legal process or enforceable governmental request or when necessary to protect our rights.
+• When necessary to investigate, take action, or prevent suspected or actual illegal activities, fraud, or potential threats to safety or personal physical safety.
+• If our company or our assets are acquired or purchased by another company, that company will assume responsibility for the information collected through the website.
+We do not sell personal information to third parties for marketing purposes, and for that reason, cannot process requests to opt-out of the sale of personal information.
+Security Measures to Protect Personal Information
+The security of personal information is important to us. We have adopted security measures to protect the confidentiality of the personal information we collect and maintain about consumers. We prohibit the unlawful disclosure of personal information and have implemented controls to ensure that access to personal information is limited to those employees, affiliates, and third parties who need to know such information to provide the services that our customers or consumers have requested or to support our business functions. We maintain an information security program that contains administrative, technical, and physical safeguards designed to protect the security and confidentiality of personal information from unauthorized disclosure in accordance with applicable credit reporting and data privacy laws and industry standards. Our security program is designed to: (1) ensure the security and confidentiality of personal information, (2) protect against anticipated threats or hazards to the security or integrity of the information, and (3) protect against unauthorized access, alteration, and unlawful disclosure of the information.
+Retention of Data and Disposal of Personal Information
+We retain personal information for as long as necessary for business purposes, to provide services to our customers, or as requested by our customers. At the end of the applicable retention lifecycle, personal information is destroyed or otherwise rendered inaccessible. We take reasonable measures to protect against unauthorized access to or use of consumer information in the disposal of such information.
+Children's Privacy
+Our website is not directed at children under the age of 13. We do not knowingly collect personal information on this website from children under the age of 13. If you are a parent or guardian and believe your child has provided us with personal information without your consent, please contact us as noted below.
+International Privacy
+This Privacy Notice describes how we collect, use, and share personal information about individuals in the United States and its territories. Our website and this Privacy Notice are not directed at residents of countries other than the United States and its territories. As such, we are unable to process requests from consumers to exercise their data access, deletion, or other rights under the European Union’s General Data Protection Regulation (GDPR) or other international privacy laws.
+California Investigative Consumer Reporting Agencies Act (California Residents)
+• Personal Information Disclosure: United States or Overseas
+We do not transfer personal information about you to third parties outside the United States or its territories.
+• Privacy Practices
+Our policies and procedures for preparing and processing of investigative consumer reports are designed to comply with the requirements of the California Investigative Consumer Reporting Agencies Act (Cal. Civ. Code § 1786 et seq.) and the federal Fair Credit Reporting Act (15 U.S.C. § 1681 et seq.). We, for example, maintain policies and procedures designed to limit the purposes for, and circumstances under which, we furnish investigative consumer reports. We provide individuals with the ability to request, upon proper identification, access to information we hold about them in our investigative consumer reporting files. We conduct reinvestigations of the accuracy and completeness of information at the individual's request. We also have implemented administrative, physical and technical safeguards designed to protect the information that we maintain in our investigative consumer reporting files.
+In the event of a compromise of your information, our representatives can assist with additional information regarding our privacy practices or policies:
+AmRent
+Attn: Consumer Assistance Department
+P.O .Box 530091
+Atlanta, GA 30353
+Toll-free Telephone Number: (888) 898-6196
+consumers@amrent.com
+Changes to this Notice
+We may modify this Privacy Notice at any time. If we do, we will post the revised version here. You should periodically check back here for the most up-to-date version of this Privacy Notice. The effective date noted above is the date that we published this Privacy Notice on our website.
+Point of Contact
+If you have any questions or comments about this Privacy Notice or our privacy practices, please contact us at:
+AmRent
+Attn: Privacy Office
+P.O. Box 530065
+Atlanta, GA 30353-0065
+Toll-free Telephone Number: (833) 644-2794
+To protect the confidentiality and security of your personal information and to ensure we receive your inquiry, please do not submit your inquiry to us by email.
+Note Regarding State Consumer Privacy Laws
+Certain state laws, such as the California Consumer Privacy Act, may provide residents of those states with access, deletion, correction, and other rights regarding their personal information processed by certain businesses. These state laws also recognize that other federal laws, such as the Fair Credit Reporting Act and Gramm-Leach-Bliley Act, provide similar consumer protections and exempt consumer reporting agencies, such as AmRent, that are subject to these federal laws.
+If you have submitted an application to rent a property to a landlord or property management company (your data controller) that has used our services to assist them in reviewing your application, you should submit any request to access, delete, or correct your personal information collected by your data controller to them. If you submit your request to us, we may deny the request. Please refer to our Consumer Assistance page at https://www.amrent.com/consumer_assistance.html for more information about your rights under the Fair Credit Reporting Act and other assistance options.
+Resources
+Industry Links
+Consumer Credit Resources
+Privacy Notice

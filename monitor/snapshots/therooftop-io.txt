@@ -1,0 +1,75 @@
+Data Privacy Request | Rooftop Media
+Consumer State Rights Request
+Step 1: Your Information
+I am a:
+Consumer
+Agent
+First Name
+Last Name
+Email Address
+State
+Select a state
+Alabama
+Alaska
+Arizona
+Arkansas
+California
+Colorado
+Connecticut
+Delaware
+District of Columbia
+Florida
+Georgia
+Hawaii
+Idaho
+Illinois
+Indiana
+Iowa
+Kansas
+Kentucky
+Louisiana
+Maine
+Maryland
+Massachusetts
+Michigan
+Minnesota
+Mississippi
+Missouri
+Montana
+Nebraska
+Nevada
+New Hampshire
+New Jersey
+New Mexico
+New York
+North Carolina
+North Dakota
+Ohio
+Oklahoma
+Oregon
+Pennsylvania
+Puerto Rico
+Rhode Island
+South Carolina
+South Dakota
+Tennessee
+Texas
+Utah
+Vermont
+Virginia
+Washington
+West Virginia
+Wisconsin
+Wyoming
+Please select the action desired:
+Select an action
+Right to delete my personal information
+Right to opt-out of sharing or sale of my personal information
+Right to know my personal information
+Right to access my personal information
+Right to correct my personal information
+Right to limit use and disclosure of my sensitive personal information
+Right to opt-out of targeted advertising
+Submit Request
+Privacy Policy
+Terms of Use

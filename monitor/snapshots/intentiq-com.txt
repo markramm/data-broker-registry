@@ -1,0 +1,43 @@
+Your Privacy Choices - Intent IQ
+Your Privacy Choices
+Intent IQ – Data Subject Rights
+AVAILABLE RIGHTS: If you reside in a jurisdiction with an applicable privacy law that applies to Intent IQ and your personal information, then you have specific rights regarding the personal information that Intent IQ maintains about you. These rights apply in certain U.S. States (California, Virginia, Colorado, Connecticut, Utah, Texas, Oregon, Montana, New Hampshire, Delaware, Iowa, Nebraska, New Jersey, Tennessee, Minnesota, Maryland, Indiana,Kentucky and Rhode Island), the United Kingdom, the European Union and certain other jurisdictions. The rights herein are only available to you if you are a resident of such jurisdictions and the laws of such jurisdiction apply to Intent IQ. These rights may include the right to access your information, the right to delete/erase your information, the right to correct/rectify your information, the right to opt-out of selling/sharing of your information, the right to opt-out of targeted advertising with your information, the right to object to our processing of your information, the right to revoke any consents, the right to limit the use of your sensitive personal information and other rights available under applicable laws and/or as set forth in our Technology Privacy Policy.
+Please keep in mind that Intent IQ’s products and services do not include the collection and use of identifiable information such as your name, physical address or unhashed email address. Rather, Intent IQ’s data is used to identify a device and may consist of mobile device IDs (such as advertising IDs a/k/a “MAIDS”), cookies, IP addresses, user agents and hashed email addresses. We generally do not create targeting segments or make advertising targeting decisions based on your data. Rather, our primary business is to enable others, such as our clients, to make their own targeting decisions based upon the sites and services that you have accessed online. To learn more about our data processing activities, please see our Technology Privacy Policy.
+EXERCISING RIGHTS *:Intent IQ uses, sells and shares the information we possess so that more relevant ads and other services can be delivered to you by third parties. While this information may be directly tied to your individual device (such as a computer or mobile device), this information may be “probabilistically” tied to your device. This means that we believe the information is tied to your device, but it may in fact be tied to other devices. Therefore, when you opt-out using the method below, it is possible that we will be opting out other devices in addition to yours that are on the same computer network with you.
+Opt-out of selling, sharing or targeted advertising with your information & delete your personal information: If you click the buttons below, you will be able to opt-out of the selling, sharing or targeted advertising with the personal information that we possess, and we will also delete such information, which we believe is tied to your device.
+Opt-Out via Browser/Cookie
+Opt-Out via Mobile Device
+Opt-Out via Email
+Access your personal information: If you click the buttons below, you will be able to see the personal information that we possess which we believe is tied to your device.
+Information about your browser
+Information about your mobile device
+Delete (limit use) of location data: As described in our Technology Privacy Policy, we may collect a limited amount of precise geolocation data, which is considered sensitive data under many laws. If you would like to limit the use of such data and have us delete such data, then please reach out via email to privacy@intentiq.com.
+Correction and Other Rights: You may have additional rights, such as the right to correct your information. Our information is generally not the type of information that you can (or would want) to correct. For more information about correction, please send us an email at privacy@intentiq.com.
+Authorized Agents: If you are an authorized agent of a data subject with the right under applicable law to submit a request on behalf of such data subject, then please send us evidence of such authorization via email at privacy@intentiq.com .
+Questions: If you have any questions, please send us an email at privacy@intentiq.com.
+* Please note that you will need to repeat these processes on every browser on every device you wish to delete or opt out, and if you change your browser (e.g., from Firefox to Chrome) or device, you will need to repeat these steps again.
+** While IIQ provides the technical means for our clients to receive notification of deleted data, it is up to the client to integrate with Intent IQ. Having said that, our clients generally prefer to just use fresh data. Our data is refreshed very frequently by our clients (usually on a daily basis), so once you make a request above to delete your information, it will naturally result in these third parties no longer having your information when they next refresh their data with Intent IQ.
+We and our third party providers use cookies to collect data to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking "Accept", you consent to our use of cookies. You can adjust your settings here. Our website privacy policy can be found here.
+Accept
+Reject non-essential cookies
+Settings
+Change cookie settings
+Close GDPR Cookie Settings
+Privacy Overview
+Necessary
+Non-Essential Cookies
+Powered by GDPR Cookie Compliance
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Necessary
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Non-Essential Cookies
+These cookies allow us to collect anonymous analytics and deliver personalized ads through third-party tools. Disabling them may limit some tracking features and insights.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Settings

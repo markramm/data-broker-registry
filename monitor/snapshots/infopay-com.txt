@@ -1,0 +1,374 @@
+Privacy Policy - Infopay.com
+InfoPay Privacy Policy
+Last updated: January 23, 2026
+This policy (“Privacy Policy”) has been compiled to assist you (“you,” “your,”
+or “User”) to understand how InfoPay, Inc. (“we”, “our,” “us,” or "InfoPay"),
+and our affiliates, parents, and subsidiaries, collect, use, and disclose
+information that we collect through your use of the InfoPay website, available
+at
+https://www.infopay.com/
+(the “Website”). This Privacy Policy is part of and supplements the Website
+Terms of Service (the “Terms”), available here:
+https://www.infopay.com/terms.
+This Privacy Policy does not apply to information collected or obtained by any
+website that may be linked from the Website. Each such linked website may have
+its own privacy notice and terms of service, and it is your responsibility to
+review them before you use the linked website.
+By accessing, browsing, or otherwise using the Website, you acknowledge and
+consent to our collection and use of information as set forth in this Privacy
+Policy. PLEASE READ THIS PRIVACY POLICY CAREFULLY. YOUR USE OF THE WEBSITE
+CONSTITUTES YOUR CONSENT TO THIS PRIVACY POLICY. DO NOT USE THE WEBSITE IF YOU
+ARE UNWILLING OR UNABLE TO CONSENT TO THIS PRIVACY POLICY.
+Depending on where you live, you may be entitled to certain individual rights
+with respect to some or all of your personal information. Please see the
+Notice of Privacy Rights for Residents of Certain U.S. States
+section of our Privacy Policy for more information related to privacy rights
+that may be applicable to you.
+1. Information Collection
+When you use the Website, we may collect the following categories of personal
+information about you, which are described in more detail below: (A)
+Information We Request; (B) For Job Applicants; and (C) Information We May
+Automatically Collect About You.
+1.1 Information We Request. We generally
+do not request any personal information from you when you visit or use the
+Website. However, if you choose to contact us, you may provide (and we will
+collect):
+Individual identifiers such as name and email address; and
+Communications with us, such as when you provide comments or questions.
+1.2 For Job Applicants.
+We collect personal information from you when you provide it to us, such as
+when you submit a job application or communicate with us as part of the
+application process.
+We may collect and process the following personal information:
+Personal contact details such as name and email address;
+The resume/CV you submitted and all information therein; and
+Additional personal information as otherwise described to you at the point
+of collection or pursuant to your consent.
+We do not sell the personal information we collect about our job applicants,
+or share it with third parties for targeted or cross-context behavioral
+advertising. We do not use or disclose sensitive personal information, other
+than for the business purposes permitted by law and for recruitment purposes.
+The above personal information may be collected from the following sources
+listed below:
+Resume(s)/CV(s);
+Contact details for references and references feedback;
+Note, the above information is received by us in various forms including
+hard-copy and electronic form, delivered in-person or via email, fax, website,
+social media, etc.
+During the recruitment process, we only process data that is necessary to
+assess your suitability for the position you are applying to and, in the case
+of a successful candidacy, for the conclusion of the employment contract.
+1.3 Information We May Automatically Collect About You.
+We may now or in the future use tools, including third-party analytical
+software, to automatically collect certain information about the computer or
+other device you use to reach the Website, without any active submission of
+information from you. We may automatically and through analytics service
+providers gather certain non-personal information about your use of the
+Website and store it in log files. This information may include IP addresses,
+browser type, Internet Service Provider (“ISP”), referring/exit pages,
+operating system, date/time stamps, and related data.
+This information may be collected via several technologies, including cookies,
+web beacons, clear GIFs, and other means described in Section 2 below. All of
+this information belongs to us, and we use it to improve effectiveness,
+content, layout, and/or operation of our Website. You can remove certain
+cookies by following the directions in your Internet browser’s “help” file or
+through our Cookie Preferences described below. If you disable cookies, your
+ability to use areas of the Website may be limited.
+2. Usage of Cookies and Other Network Technologies
+2.1 Cookies.
+The Website uses "cookies" and other web tracking tools to enhance your online
+experience with us. We may store information about you using the cookies on
+our Website. A cookie (also called web cookie, Internet cookie, browser
+cookie, or simply cookie) is a small piece of data sent from a website and
+stored on the user’s computer by the user’s web browser while the user is
+browsing. We use cookies to improve your site experience, to assess content
+usage, to distinguish you from other users of our Website, and to support the
+marketing of our Website.
+You are free to decline to accept cookies, but by doing so, you may not be
+able to take full advantage of our Website and all of our offerings. Certain
+of the cookies are necessary in order for the Website to function. In certain
+circumstances, we may link the information we store in cookies to personal
+information you submit while using the Website.
+Further, if you want to delete any cookies that are already on your computer,
+please refer to the file management software to locate the file or directory
+that stores cookies under the following file names. Other information on
+deleting or controlling cookies is available at
+allaboutcookies.org.
+2.2 GIFs.
+We or our service providers may also use “pixel tags,” “web beacons,” “clear
+GIFs,” “embedded links,” and other commonly used information-gathering tools
+in connection with some website pages and HTML-formatted email messages. We
+use these tools for such purposes as compiling aggregate statistics about
+Website usage and response rates. A pixel tag is an electronic image (often a
+single pixel), that is ordinarily not visible to website visitors, and may be
+associated with cookies on visitors’ hard drives. Pixel tags allow us and our
+service providers to count users who have visited certain pages of the
+Website, to deliver customized services, and to help determine the
+effectiveness of the Website and services. When used in HTML-formatted email
+messages, pixel tags can inform the sender of the email whether and when the
+email has been opened.
+2.3 Clickstreams.
+As you use the Internet, you leave a trail of electronic information at each
+website you visit. This information, which is sometimes referred to as
+“clickstream data,” can be collected and stored by a website's server.
+Clickstream data can reveal the type of computer and browsing software you use
+and the address of the website from which you linked to the Website. We may
+use clickstream data as a form of non-personal information to determine how
+much time visitors spend on each page of the Website, how visitors navigate
+through the Website, and how we may tailor our web pages to better meet the
+needs of visitors. We will only use this information to improve the Website.
+2.4 Do Not Track Notice.
+Many modern web browsers give you the option to send a “Do Not Track” signal
+to the websites you visit, indicating that you do not wish to be tracked. At
+this time, the Website and services do not specifically respond to “Do Not
+Track” signals.
+We encourage you to review the privacy policies of our third-party advertisers
+and analytics service providers to learn about your choices about information
+they collect from you. In addition, the Network Advertising Initiative offers
+information about some of the Internet advertising companies we may use,
+including how to opt out of interest-based advertising they deliver. For all
+the details, including how to turn on Do Not Track, visit
+www.donottrack.us.
+2.5 Location Choices.
+You may be able to change the privacy settings of your mobile device at any
+time to turn off the sharing of this location information with our Website. If
+you choose to turn off location services, this could affect certain features
+or services of our Website. If you have specific questions about the privacy
+settings of your device, we suggest you contact the manufacturer of your
+device or your mobile service provider for help.
+3. How We Use Your Information
+3.1 Use and Purpose of Processing Your Information.
+We may use the personal information we collect for the following reasons:
+To provide you with the Website.
+To operate and improve the Website and content therein.
+To respond to your comments, inquiries, and questions.
+To deliver a more personalized experience based on your preferences,
+including to store information about your preference, speed up your
+searches, and recognize you when you return to the Website.
+To carry out our obligations and enforce our rights.
+To facilitate our employment recruitment activities and process job
+applicants.
+To fulfill any other purpose for which you provide it or for which you have
+given us consent to use it.
+3.2 Disclosure and Sharing.
+We may share or disclose your personal information as set forth in this
+Privacy Policy in the following circumstances:
+With Your Consent. We may share
+personal information with your consent.
+For Legal and Administrative Reasons.
+We may disclose your personal information without notice: (i) as may be
+required by law (e.g., in response to a court order or subpoena, or in
+response to a law enforcement agency request); (ii) to protect our
+organization or others from injury (e.g., when we believe that someone is
+causing, or is about to cause, injury to or interference with the rights or
+property of another); (iii) as necessary to comply with applicable law; and
+(iv) to enforce or apply our Terms of Service.
+Third-Party Service Providers. We may
+share your personal information with persons or organizations with whom we
+contract to carry out internal and external site operations or as necessary
+to render the Website. These third-party service providers include analytics
+vendors.
+Aggregate Sharing. We may share
+anonymous, deidentified aggregate information with third parties, including
+affiliated and non-affiliated organizations such as advertisers.
+Business Transfers. We may transfer
+your personal information to our successor-in-interest in the event of an
+acquisition, sale, merger, or bankruptcy. In the event we go through a
+business transition, such as a merger, acquisition by another company, or
+sale of all or a portion of its assets, any personal information we have on
+record will likely be among the assets transferred. The transferred personal
+information will remain subject to the provisions of this Privacy Policy as
+it is updated from time to time.
+Information Shared with our Subsidiaries and Affiliates.
+We may share your personal information with our subsidiaries and affiliates.
+If you do not want us to share your personal information with our
+subsidiaries and affiliates, please email us at
+https://www.infopay.com/contact.
+4. Links to Third-Party Sites
+Occasionally, at our discretion, we may link to third-party sites or content
+on third-party sites. We may do this for the convenience of you and other
+users of the Website, but we do not have control over the operation of these
+third-party websites. These third-party sites have separate and independent
+privacy notices. We, therefore, have no responsibility or liability for the
+content and activities of these linked sites.
+We urge you to review the privacy notices posted on these third-party websites
+at the time you first visit such sites.
+5. Information Security and Storage
+We use commercially reasonable measures to provide the Website. However, you
+acknowledge that no security safeguards or method of transmission over the
+Internet are completely secure, and although we believe the measures
+implemented by us reduce the likelihood of security problems to a level
+appropriate to the type of data involved, we cannot guarantee the security of
+your personal information transmitted to or from our Website. Any transmission
+of personal information is at your own risk. We do not guarantee that your
+personal information will not be misused by third parties. We are not
+responsible for the circumvention of any privacy settings or security
+features. You agree that we will not have any liability for misuse, access,
+acquisition, deletion, or disclosure of your personal information.
+If you believe that your personal information has been accessed or acquired by
+an unauthorized person, you must promptly
+Contact Us so that we can
+quickly take necessary measures.
+We store personal information for as long as reasonably required for its
+purpose or for any additional period required or allowed by applicable law (if
+any). The length of time for which we retain personal information depends on
+the purposes for which we collected and use it and/or as required to comply
+with applicable laws.
+6. Notice of Privacy Rights for Residents of Certain U.S. States
+Residents of certain U.S. states may have rights and choices regarding their
+personal information. These rights may apply in the following states: California,
+Colorado, Connecticut, Delaware,
+Indiana, Iowa, Kentucky, Maryland, Minnesota, Montana, Nebraska, New Hampshire,
+New Jersey, Oregon, Rhode Island, Tennessee, Texas, Utah, and Virginia.
+To the extent any data protection law applies to our
+collection of your personal information, this supplemental section of our
+Privacy Policy outlines the individual rights you may be entitled to and how
+to exercise those rights
+Depending on where you live and subject to certain exceptions, you may have
+some or all of the following rights.
+Right to Know and Access. You may have
+the right to request that we confirm whether we process your personal
+information, and to request information about our collection and use of your
+personal information, including whether we sell or share your personal
+information. You also have the right to request access to personal
+information we may process about you.
+Right to Data Portability. Where the
+processing is carried out by automated means, and subject to certain
+exceptions, you may have the right to request and obtain a copy of your
+personal information that you previously provided to us in a portable
+format. In addition, to the extent technically feasible, you may have the
+right to obtain your personal information in a readily usable format that
+allows you to transmit the personal information to another data controller
+without hindrance.
+Right to Request Correction of Inaccurate Personal Information.
+To the extent that we may maintain inaccurate personal information, you may
+have the right to request that we correct such inaccurate personal
+information, taking into account the nature of the personal information and
+the purposes of the processing of the personal information.
+Right to Request Deletion. You may
+have the right to request that we delete certain personal information or
+records provided by or obtained about you, with certain exceptions and
+limitations as allowed under law.
+Right to Know and/or Opt Out of the Sale and Sharing of Personal Information.
+You may have the right to know and/or opt out of the processing of
+personal information for the purpose of
+selling or sharing of your personal information with third parties.
+We do not sell or share your personal information.
+Right to Opt-Out of the Use of Personal Information for Targeted
+Advertising and Profiling.
+You may have the right to opt out of the processing of your personal
+information for purposes of targeted advertising or profiling in furtherance
+of decisions that produce legal or similarly significant effects concerning
+you. We do not use your Information for targeted advertising or profiling
+purposes.
+Right to Limit Use and Disclosure of Sensitive Personal
+Information.
+You may have the right to request that we limit the ways we use and disclose
+your sensitive personal information to uses which are necessary for us to
+perform the Services, or deliver the goods reasonably expected by you, or
+and as authorized by law.
+Right to Non-Discrimination. You may
+have a right to not be discriminated against in the Services or quality of
+Services you receive from us for exercising your rights. We will not
+discriminate against you for exercising any of your rights in this section
+including denying goods or Services, charging different prices or rates for
+goods or Services, or providing a different level of quality of goods and
+Services. However, we may offer a different price, rate, level, quality, or
+selection of goods or Services, including offering goods or Services for no
+fee, if you have exercised your right to opt out.
+Right to Disclosure of Direct Marketers.
+You may have a right to know the categories and names/addresses of third
+parties that have received personal information for their direct marketing
+purposes upon simple request, and free of charge.
+Right to Disclosure of Third-Parties.
+You may have a right to know the categories and names/addresses
+of third parties that we have disclosed your
+Personal Information to under this policy.
+Right to Appeal. You may have the right
+to appeal our denial of any request you make under this section. To exercise
+your right to appeal, please submit an appeal request via the information in
+the How to Contact Us section below. Within the certain
+timeframe of receipt of your appeal, as proscribed by the applicable law we
+will inform you in writing of any action taken or not taken in response to
+your appeal, including a written explanation of the reasons for the decisions.
+If we deny your appeal, you may contact the Attorney General or another
+authority which we will help you identify.
+Universal Opt-Outs.
+InfoPay receives and responds to the Global Privacy Control (GPC) browser opt-out signal.
+InfoPay will turn off sharing your data with third parties for
+personalized ads if we receive a GPC signal from you when you visit our sites.
+To learn more about whether you are guaranteed certain rights, or to submit a
+request to exercise your rights, please contact us using any of the methods in
+the How to Contact Us section.
+Annual California Privacy Rights Request Metrics (January 1, 2025 –
+December 31, 2025)
+Request Type
+Number Received
+Complied in Whole
+Complied in Part
+Denied
+Right to Know and Access
+87
+75
+12
+Right to Request Deletion
+29,004
+28,683
+321
+Right to Opt Out of the Sale and Sharing of Personal Information
+1,837
+1,707
+130
+Right to Request Correction
+19
+14
+15
+Right to Data Portability
+26
+20
+Right to Limit the Use of a Consumer's Personal Information
+7. Exercising Your Data Subject Rights
+To exercise any of the rights described above, please submit a
+request to us via the methods described below.
+The verifiable consumer request must:
+Providing sufficient information that allows us to reasonably
+verify you are the person about whom we collected
+personal information or an authorized representative; and
+Describing your request with sufficient detail
+that allows us to properly understand, evaluate, and respond to it.
+To help protect your privacy and maintain security, we may require you to provide certain information to
+verify your identity before granting you access to your personal information or complying with your request.
+Only you or your authorized agent may make a request related to your personal information.
+In addition, if you designate an authorized agent to make a request on your behalf, we may require you to
+provide the authorized agent written permission to do so and to verify your own identity directly
+with us (as described above). You may only make certain consumer requests once or twice within a
+twelve (12) month period under applicable law. You may also make a verifiable consumer
+request on behalf of your minor child.
+8. Changes to this Policy
+Because our business needs may change over time, we reserve the right to
+modify this Privacy Policy. If at any time in the future we plan to use your
+personal information in a way that differs from this Privacy Policy, we will
+revise this Privacy Policy as appropriate. In the event of a change to our
+Privacy Policy, we will notify you via email or through a notice on the
+Website homepage, at our discretion. Your continued use of the Website
+following our notice of changes to this Privacy Policy means you accept such
+changes.
+Email us:
+privacy@infopay.com
+Write us:
+InfoPay, Inc.
+28 Atlantic Ave Suite 227
+Boston, MA 02110
+9. Difficulty Accessing Our Privacy Policy
+Individuals with disabilities who are unable to usefully access our Privacy
+Policy online may contact us to inquire how they can obtain a copy of our
+policy in another, more easily readable format.
+10. How to Contact Us
+If you have any questions about this Privacy Policy or the personal
+information we have collected about you, please contact us at the following:
+Email:
+click here
+Write us:
+InfoPay.com
+28 Atlantic Ave Suite 227
+Boston, MA 02110

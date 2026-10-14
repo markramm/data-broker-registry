@@ -1,0 +1,224 @@
+Privacy Policy | Censia
+Skip to content
+Privacy Policy
+Censia is a web-based software solution that allows recruiting professionals to recruit faster, smarter, and better by using predictive algorithms and data-backed insights. We gather information about our users, customers, those that interact with our website or services, potential job candidates, and employees.
+This Privacy Policy describes how Censia (“Censia,” “we,” “us,” or “our”) collects, uses, discloses, and safeguards personal information. This Privacy Policy also tells you about your rights and choices with respect to your personal information, and how you can reach us to get answers to your questions. You can jump to particular topics by going to the headings below:
+Types Of Information We Collect
+Sources of Information
+Use And Processing Of Information
+Algorithmic Analysis
+Disclosure of Information
+Your Rights and Choices
+Opt-Out of the “Sale” or “Sharing” of Personal Information
+How We Protect Personal Information
+Cookies and Similar Tracking Technologies
+Information for California Residents
+Other Important Information
+Contact Information and Requests
+Types Of Information We Collect
+The types of personal information we collect about you depends on how you interact with us. “Personal information” refers to information that identifies, relates to, describes, or can be associated with you. The following provides examples of the type of information that we collect, and have collected in the preceding 12 months, and how we use that information.
+Context
+Types of Data
+Primary Purpose for Collection and Use of Data
+Account Registration
+We collect basic identifying information such as your name, email address, and telephone number when you create an account. We also collect information relating to the actions that you perform while logged into your account.
+We have a legitimate interest in providing account-related functionalities to our users. Accounts can be used to access our services and to save your preferences.
+Candidate Profile
+Censia creates potential job candidate profiles for our customers’ use. Candidate profiles include personal identifiers such as name and contact information, and education and employment information, demographic information, and background information.
+For some data used in candidate profiles, this Privacy Policy applies. This information includes information provided directly to Censia by the candidate and information Censia gathers from publicly available sources or purchased from data brokers.
+For other candidate profile information, Censia acts as an processor or service provider to the customer providing the information. Accordingly, the customer’s privacy policy governs our use of the information. Typically, Censia processes this information at the direction of the customer in order to aid in applicant screening.
+Customer Information
+We collect certain contact and related business information, such as the name and business contact information of our customers and their employees with whom we may interact. In some instances, we may collect certain background or screening information to the extent needed and in accordance with applicable law.
+We have a legitimate interest in contacting our customers and communicating with them concerning normal business administration such as projects, services, and billing, and performing our contract with your organization. We also use such information to administer and maintain our relationship with your organization.
+Cookies and first party tracking
+We use cookies web beacons, clear GIF, pixels, internet tags, and other similar tracking technologies (collectively “tracking technologies”) to monitor how you interact with our websites. This may include which links you click on or identifying information about your device or browser. See our Cookies and Similar Tracking Technologies section below for more information.
+We have a legitimate interest in making our websites operate efficiently, providing account related functionalities, understanding how you interact with our websites to better improve them, and detecting and preventing fraud. Additionally, we also collect consent for the placement of some of these cookies.
+Cookies and third party tracking
+We collect information about your internet activity so that we can provide advertising about products and services tailored to your interests. See our Cookies and Similar Tracking Technologies section below for more information.
+We have a legitimate interest in engaging in behavior-based advertising and capturing website analytics. You can manage your preferences via our Cookie Preference Center.
+Demographic Information
+We collect demographic information, such as your age, ethnicity, or location.
+We have a legitimate interest in understanding our users and providing tailored services. Some information is also collected as part of the employment process to comply with applicable law. Location information may also be collected to build a more complete candidate profile. In some contexts our use is also based upon your consent to provide us with geolocation information.
+Email Interconnectivity
+If you receive email from us, we use certain tools to capture data related to when you open our message, click on any links or banners it contains and makes purchases.
+We have a legitimate interest in understanding how you interact with our communications to you.
+Job Applicant Information
+For visitors who apply for employment through our career website, we may collect information about you, such as your personal identifiers and demographic information such as name, location, prior employment history, references, and/or curriculum vitae.
+We have a legitimate interest in considering applicants for employment, managing on-boarding procedures, administering and improve our recruitment processes, and to compliance with our obligations and rights, and those of the applicants, in the fields of employment and social security.
+Employment at Censia
+If you apply for a job posting or become an employee, we collect information necessary to process your application or to retain you as an employee. This may include, among other things, your Social Security Number. Providing this information is required for employment.
+We use information about current employees to perform our contract of employment or the anticipation of a contract of employment with you. In some contexts, we are also required by law to collect information about our employees. We also have a legitimate interest in using your information to have efficient staffing and workforce operations.
+Applicant Sensitive (special) Personal Information
+Where permitted and in accordance with applicable law, we may collect special categories of data such as your social security number, driver’s license number, racial or ethnic origin, health and medical information (including where required, drug screening results), sexual orientation, and/or criminal history.
+We have a legitimate interest to evaluate our progress in achieving its diversity hiring goals, to ensure equal opportunity monitoring and reporting, to meet legal obligations, including providing workforce accommodations and fordisability and workplace safety tracking administration. In many instances, the provision of the Applicant Sensitive(special) Personal Information is voluntary. We will let you know when that is the case, and if you decide not to sharethese with us, not doing sowill not impact your application.
+Feedback/Support/ Demos
+If you provide us feedback, request a demo, or contact us for the support we will collect your name and e-mail address, as well as any other content that you send to us, in order to reply.
+We have a legitimate interest in receiving and acting upon your feedback or issues. Additionally, You may also consent to these communications by requesting them.
+Supplier Relationship Management
+We collect certain contact and related business information (name, email address, professional contact information) when you or your organization provides us with certain products or services. In some instances, we may collect certain background or screening information to the extent needed and in accordance with applicable law.
+We have a legitimate interest in administering our relationship with our suppliers and performing our contract with your organization. We also use such information to administer and maintain our relationship with your organization.
+Information From Customers
+Censia may receive information from our customers. This information includes, for example, any information you provide to our customer in connection with an employment application.
+Censia acts as a processor or service provider to the customer providing the information. Accordingly, the customer’s privacy policy governs our use of the information. Typically, Censia processes this information in the direction of the customer in order to aid in applicant screening.
+Inquiries and Leads
+Censia collects name, company, and contact information from people who enquire about our services or about possible leads who may be interested in our services. Additionally, we may acquire or purchase this lead information from third parties.
+We have a legitimate interest and responding to inquiries regarding our services in order to increase business. Additionally, You may also consent to these communications by requesting them.
+Mailing Lists
+When you sign up for our mailing list we collect your email and postal address.
+We share information about our products and services with individuals that consent to receive such information. We also have a legitimate interest in sharing information about our products or services.
+Mobile Devices
+We collect information from your mobile device such as unique identifying information broadcast from your device when visiting our website or when using our services.
+We have a legitimate interest in identifying unique visitors, and in understanding how users interact with us on their mobile devices.
+Payment Information
+We collect your name, billing address, e-mail address, phone number, and credit card number, ACH information, or other billing information when you purchase services.
+We use your information to perform our contract to provide you with services.
+Publicly Available Information
+Censia collects publicly available information from sources like college databases, social media, LinkedIn, and other sources. This information typically includes education and employment history. Some of this information may be purchased from a data broker who collected it from a publicly available source and organized it according to our needs.
+We have a legitimate interest in collecting information about job applicants on our customer’s behalf in order to provide our services.
+Surveys
+When you participate in a survey we collect information that you provide through the survey. If the survey is provided by a third-party service provider, the third party’s privacy policy applies to the collection, use, and disclosure of your information.
+We have a legitimate interest in understanding your opinions and collecting information relevant to our organization. Additionally, you may consent to this processing by electing to participate in the survey.
+Website interactions
+We use technology to monitor how you interact with our website. This may include which links you click on, or information that you type into our online forms. This may also include information about your device or browser.
+We have a legitimate interest in monitoring our networks and visitors to our websites. Among other things, it helps us understand the usage of our website and services.
+Weblogs
+We collect information, including your browser type, operating system, Internet Protocol (IP) address (a number that is automatically assigned to a computer when the Internet is used), domain name, click-activity, referring website, and/or a date/time stamp for visitors.
+We have a legitimate interest in monitoring our networks and visitors to our websites. Among other things, it helps us understand the usage of our website and services.
+Sources of Information
+We collect your personal information in the following ways, pursuant to applicable law:
+Directly From You, when you use our engage with our websites, register for an account, contact us, respond to a survey, sign up to receive emails, text messages, and/or postal mailings.
+Through Our Use of Cookies and Other Automatic Data Collection Technologies, when you visit our websites, open or click on emails we send you, or interact with our advertisements. We or third parties we work with automatically collect certain information using technologies such as cookies, web beacons, clear GIF, pixels, internet tags, web server logs, and other data collection tools. For more information, please see the “Cookies and Similar Tracking Technologies” section below.
+From Our Third-Party Partners, including from third parties that we have partnered with to provide you the services that you have requested from us.
+Other Sources, including data analytics providers, data brokers, or publicly available sources.
+Use And Processing Of Information
+In addition to the purposes and uses described above, we use information in the following ways:
+To identify you when you visit our websites or use our services.
+To provide services to you.
+For billing and payment purposes.
+To conduct analytics.
+To respond to inquiries related to support, employment opportunities, or other requests.
+To send marketing and promotional materials.
+To administer, maintain, evaluate, and improve our websites, and services, and to develop new products and services.For internal administrative purposes, to manage our business operations, to perform our obligations and exercise our rights under any agreement that you or your organization has with us.
+To comply with applicable laws, legal obligations, and/or protect our legal interests and rights.
+To detect, investigate, prevent, or take action regarding possible malicious, deceptive, fraudulent, or illegal activity, including fraudulent transactions, attempts to manipulate or violate our policies, procedures, and terms and conditions, security incidents, and harm to the rights, property, or safety of Censia and our customers, employees, or others.
+Although the sections above describe our primary purpose in collecting your information, in many situations we have more than one purpose. For example, if you purchase services we may collect your information to perform our contract with you, but we also collect your information as we have a legitimate interest in maintaining your information after your transaction is complete so that we can quickly and easily respond to inquiries about the services you purchased. As a result, our collection and processing of your information are based in different contexts upon your consent, our need to perform a contract, our obligations under the law, and/or our legitimate interest in conducting our business.
+Algorithmic Analysis
+Censia has developed proprietary algorithms that it sometimes uses on information collected about individuals. The purpose of these algorithms is to identify patterns of behavior, either unique to an individual or to defined categories of people, which may enhance a customer’s use of the services. These algorithms produce a high-level analysis of job candidates that a hiring employer may use to inform their decisions about the application but do not in themselves reject candidates or make similar automated decisions. Customers make all employment decisions themselves.
+Disclosure Of Information
+Censia may disclose, and may have disclosed in the preceding 12 months, all categories of personal information described above to the following parties for the purposes identified within this policy:
+Affiliates and Acquisitions. We may disclose information to future corporate affiliates (e.g., parent company, sister companies, subsidiaries, joint ventures, or other companies under common control). If another company acquires or plans to acquire, our company, business, or our assets, we will also disclose information to that company, including at the negotiation stage.
+Our Customers. We disclose information to our customers (or their third-party recruiters) so that they can evaluate candidates for employment. Typically, you have applied for a job posting with that customer and the customer is using Censia to help evaluate your application. In those scenarios, the Customer’s privacy policy, not this Policy, may apply to all or some of the data shared with the customer.
+Other Disclosures with Your Consent. We may disclose your Personal Information with your consent to unaffiliated third parties who are not described elsewhere in this policy.
+Other Disclosures without Your Consent, Including Law Enforcement. We may disclose information in response to subpoenas, warrants, or court orders, or in connection with any legal process, or to comply with relevant laws, including to meet national security or law enforcement requirements. We may also disclose your information in order to establish or exercise our rights, to defend against a legal claim, to investigate, prevent, or take action regarding possible illegal activities, suspected fraud, safety of person or property, or a violation of our policies, or to comply with your request for the provision of services by a third-party intermediary.
+Service Providers. We disclose your information to service providers. Among other things, service providers help us to administer our website, conduct surveys, administer webinars, field events, provide technical support, process payments, and assist in the fulfillment of services and evaluation of candidates.
+De-identified Personal Information. We may disclose or use aggregated or de-identified data for any lawful purpose. De-identified information is generally not considered to be personal information under applicable laws.
+Your Rights & Choices
+You can make the following choices regarding your personal information if required of Censia by applicable law:
+Access To Your Personal Information. You have the right to request access to the personal information we hold about you, along with other information such as the purposes of the processing, the recipients or categories of recipients to whom the personal information has been or will be disclosed, the sources of the personal information, retention, and transfers of personal information. If required by law, upon request, we will grant you with reasonable access to the personal information that have about you. Where required by law, we may also transfer a machine-readable copy of your personal information to you or a third party of your choice. Note that California residents may be entitled to ask us for a notice describing what categories of personal information (if any) we disclose to third parties or affiliates for direct marketing.
+Changes To Your Personal Information. We rely on you to update and correct your personal information. Most of our websites allow you to modify or delete your account profile. Note that we may keep historical information in our backup files as permitted by law. If our website does not permit you to update or correct certain information, contact us using the contact information below.
+Deletion Of Your Personal Information. Typically we retain your personal information for the period necessary to fulfill the purposes outlined in this policy unless a longer retention period is required or permitted by law. You may request information about how long we keep a specific type of information or request that we delete your personal information by contacting us using the contact information below. If required by law we will grant a request to delete information. However, when we delete personal information it will be removed from our active database, but it may remain in archives where it is not practical or possible to delete it. In addition, in many situations we must keep your personal information to comply with our legal obligations, resolve disputes, enforce our agreements, or for another one of our business purposes. If you have an account with us, some of your information may be deleted via the account functionality or by closing the account.
+Opt-Out of “Sale” or “Sharing” of Personal Information. Our use of certain cookies or other tracking technologies is deemed a “sale” or “sharing” under California law (in this context “sharing” means cross contextual behavioral advertising) of personal information. As such, you can opt out of our use of certain tracking technologies and cookies by clicking the “Do Not Sell or Share My Personal Information” button at the bottom of the Censia websites. Our disclosure of job candidate data to potential employers may also be deemed a “sale” under California law. The following categories of personal information disclosed are considered “sale”/ “sharing” under California law: direct identifiers, device information, internet/electronic activity, professional/employment information, geolocation data, and inferences drawn from this information. The following categories of third parties to whom personal information was disclosed are considered “sale”/ “sharing” under California law: social media platforms, ad networks, and potential employers.
+Objection to Certain Processing. In certain situations, you may object to our use or disclosure of your personal information by contacting us using the contact information below.
+Data Portability. You may request your data be provided to you in a portable and usable format using the methods described in the Contact Information and Requests section below.
+Online Tracking. Some web browsers incorporate a “Do Not Track” (DNT) or similar feature that signals to websites that a visitor does not want to have his/her online activity and behavior tracked. Not all browsers offer a DNT option and there is currently no industry consensus for how to recognize or respond to a DNT signal. Censia will endeavor to recognize commercially recognized opt out signals (e.g., Global Privacy Control). Recognition of this signal will only take place with respect to the device and/or browser that communicates the signal.
+Promotional Emails. You may choose to provide us with your email address for the purpose of allowing us to send promotional materials to you. You can stop receiving promotional emails by following the unsubscribe instructions in e-mails that you receive. If you decide not to receive promotional emails, we may still send you service-related communications.
+Promotional Mail. You may contact us at the contact information below to stop receiving promotional mail from Censia.
+Revocation Of Consent. If you revoke your consent for the processing of personal information then we may no longer be able to provide you services. In some cases, we may limit or deny your request to revoke consent if the law permits or requires us to do so, or if we are unable to adequately verify your identity. You may revoke consent to processing (where such processing is based upon consent) by contacting us at the address described below.
+Restriction of processing of Sensitive Personal Information: You have the right to request the restriction of processing of your sensitive personal information. Where applicable, the respective sensitive personal information will be marked accordingly and may only be processed by us for certain purposes. At the current time, however, we do not use or disclose sensitive personal information for purposes other than those expressed in this Policy or otherwise permitted by applicable law, and these uses cannot be limited under California law.
+Automated Processing: Under certain circumstances, you have the right to object to a significant decision based solely on automated processing (i.e., without human intervention) unless that decision is required or authorized by law.
+Right of Non-Discrimination/Retaliation: We do not discriminate against individuals who exercise any of their rights described in this Privacy Policy, nor do we retaliate against individuals who exercise these rights.
+Please note that many of the above rights are subject to exceptions and limitations. Your rights and our responses will vary based on the circumstances of the request. If you choose to assert any of these rights under applicable law, we will respond within the time period prescribed by such law.
+In the State of California, a person authorized to act on your behalf may make a verifiable request related to your personal information. If you designate an authorized person to submit requests to exercise certain privacy rights on your behalf, we will require verification that you provided the authorized agent permission to make a request on your behalf. In any circumstance, your request must: (i) provide sufficient information that allows us to reasonably verify that you are the person about whom we collected personal information or an authorized representative of that person; and (ii) describe the request with sufficient detail that allows us to properly understand, evaluate, and respond to it. We will only use personal information provided in a verifiable consumer request to verify the requestor’s identity or authority to make the request.
+To exercise your rights, please call us at 1 (888) 510-2253 or email support@censia.com.
+How We Protect Personal Information
+No method of transmission over the Internet, or method of electronic storage, is fully secure. While we use reasonable efforts designed to protect your personal information from unauthorized access, use, or disclosure, we cannot guarantee the security of your personal information. In the event that we are required by law to inform you of a breach to your personal information, we may notify you electronically, in writing, or by telephone, if permitted to do so by law.
+You may be able to create an account with Censia. When you do you will be prompted to create a password. You are responsible for maintaining the confidentiality of your password, and you are responsible for any access to or use of your account by someone else that has obtained your password, whether or not such access or use has been authorized by you. You should notify us of any unauthorized use of your password or account.
+Cookies & Similar Tracking Technologies
+We use cookies and similar tracking technologies, including pixel tags or web beacons (collectively “cookies”), to collect certain information on our websites and through our services. We also permit certain third parties to use cookies and similar tracking technologies to collect information about your use of our websites. The information collected by these tracking technologies may include (a) your internet protocol (IP) address, unique device identifiers, location, browser type, and Internet service provider information; (b) information about when and how you access and use our websites such as the domains you visit, what features you used and for how long, the website that referred you to us, and date/time stamps associated with your usage; (c) information about the device you use to access the websites such as device type, device ID, and device/browser settings; and (d) location of the device used to access the websites derived from GPS or WiFi use.
+We differentiate between cookies that are essential for the technical features of our services and optional analytics and advertising cookies.
+Cookie Type
+Description
+Essential Cookies
+These are cookies that our websites need in order to function, and that enable you to move around our websites and features. Without these essential cookies, our websites will not perform as smoothly for you as we would like them to and we may
+not be able to provide certain services or features you request. Examples of where these cookies are used include to determine when you are signed in, to determine when your account has been inactive, and for other troubleshooting and security purposes.
+Analytics Cookies
+Analytics cookies allow us to understand more about how many visitors we have to our websites, how many times they visit us, and how many times a user viewed
+specific pages within our websites. Although analytics cookies allow us to gather specific information about the pages that you visit and whether you have visited our websites multiple times, we cannot use them to find out details such as your name or address. We use Google Analytics. For more information about Google Analytics,
+please refer to “How Google Uses Information From Sites or Apps that Use Our Services,” which can be found at www.google.com/policies/privacy/partners/, or any other URL Google may provide from time to time.
+Advertising
+Cookies
+Depending on your location and in certain circumstances, Censia may work with third-party online or mobile network advertisers that use cookies to help us manage advertising and measure its effectiveness. These cookies enable third-party ad
+networks to recognize a unique cookie on your computer or mobile device and may be placed by us or our network advertising firm that works with our third-party network advertiser. The information that is collected and shared by cookies may be
+linked to the device identifier of the device you are using to allow us to keep track of all the websites you have visited that are associated with the ad network. This information may be used for the purpose of targeting
+dvertisements on the Censia
+websites and third-party sites based on those interests.
+Depending on your location and applicable laws, we may give you the option of adjusting your preferences with regard to the advertising cookies we use. Where this option is available, you can configure your personal settings by clicking the “Do Not Share or Sell or Share My Personal Information” link (discussed below in the Your Rights & Choices section), or via other options that may be available on the relevant website in your specific locations.
+Other Important Information
+The following additional information relates to our privacy practices:
+Transmission Of Information To Other Countries. Your information may be processed in a foreign country where privacy laws may be less stringent than the laws in your country, including the United States. Nonetheless, where possible we take steps to treat personal information using the same privacy principles that apply pursuant to the law of the country in which we first received your information. By submitting your personal information to us you agree to the transfer, storage and processing of your information in a country other than your country of residence including, but not necessarily limited to, the United States. If you would like more information concerning our attempts to apply the privacy principles applicable in one jurisdiction to data when it goes to another jurisdiction you can contact us using the contact information below.
+Third-Party Applications/Websites. We have no control over the privacy practices of websites or applications that we do not own.
+Changes To This Privacy Policy. We may change our privacy policy and practices over time. To the extent that our policy changes in a material way, the policy that was in place at the time that you submitted personal information to us will generally govern that information unless we receive your consent to the new privacy policy. We will note the last revised date of the latest version at the beginning of this Privacy Policy.
+Children’s Privacy. Our websites are not intended for children under 16 years of age. We do not knowingly collect Personal Information from children under 16. We do not knowingly sell or share the Personal Information of minors under the age of 16.
+Contact Information And Requests
+If you have any questions, comments, or complaints concerning our privacy practices please contact us at the appropriate address below. We will attempt to respond to your requests and to provide you with additional privacy-related information.
+1 (888) 510-2253 Toll-Free support@censia.com If you are not satisfied with our response and are in the European Union, you may have a right to lodge a complaint with your local supervisory authority.
+Effective Date: 02/24/2020
+Last Revised: _04/25/2023
+Manage Consent
+To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us to process data such as browsing behavior or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions.
+Functional
+Functional
+Always active
+The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network.
+Preferences
+Preferences
+The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.
+Statistics
+Statistics
+The technical storage or access that is used exclusively for statistical purposes.
+The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you.
+Marketing
+Marketing
+The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes.
+Manage options
+Manage services
+Manage {vendor_count} vendors
+Read more about these purposes
+Accept
+Deny
+View preferences
+Save preferences
+View preferences
+{title}
+{title}
+{title}
+Manage Consent
+To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us to process data such as browsing behavior or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions.
+Functional
+Functional
+Always active
+The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network.
+Preferences
+Preferences
+The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.
+Statistics
+Statistics
+The technical storage or access that is used exclusively for statistical purposes.
+The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you.
+Marketing
+Marketing
+The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes.
+Manage options
+Manage services
+Manage {vendor_count} vendors
+Read more about these purposes
+Accept
+Deny
+View preferences
+Save preferences
+View preferences
+{title}
+{title}
+{title}
+Manage consent
+Manage consent

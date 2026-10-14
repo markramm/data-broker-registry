@@ -1,0 +1,71 @@
+Request to disassociate name from street-level assessment address.
+Request to disassociate name from street-level assessment address
+Fill out this form to request that your name be hidden from our assessment pages where street-level addresses are listed. Property address and its related information will still be displayed on our assessment pages as it was previously.
+Once you complete the form, we will validate your e-mail address by sending you a confirmation link on which you must click. Remember to check your spam folder as well. After that, your request will be processed by our team if it fulfills our requirements. Please note that search engines, such as Google, do not update immediately. It might take a significant amount of time for them to update their search results or remove your information from their cache. We cannot control this process.
+If you click the box stating you work in law enforcement, we will need additional information, such as your work position and a phone number where we can verify your claim. Once this verification is completed, your name will be removed completely.
+First name:
+Last name:
+Valid e-mail:
+State:
+Alabama
+Alaska
+Arizona
+Arkansas
+California
+Colorado
+Connecticut
+Delaware
+District of Columbia
+Florida
+Georgia
+Hawaii
+Idaho
+Illinois
+Indiana
+Iowa
+Kansas
+Kentucky
+Louisiana
+Maine
+Maryland
+Massachusetts
+Michigan
+Minnesota
+Mississippi
+Missouri
+Montana
+Nebraska
+Nevada
+New Hampshire
+New Jersey
+New Mexico
+New York
+North Carolina
+North Dakota
+Ohio
+Oklahoma
+Oregon
+Pennsylvania
+Rhode Island
+South Carolina
+South Dakota
+Tennessee
+Texas
+Utah
+Vermont
+Virginia
+Washington
+West Virginia
+Wisconsin
+Wyoming
+County:
+City (as listed on city-data.com page):
+Reason for this request
+(won't be publicly displayed):
+Address (URL). Where to find URL
+(one request per single link):
+Police and law enforcement officers, judges, prosecutors, corrections officials, or other elected or appointed officials, for whom the law provides the ability to hide their information from public view should use this checkbox and enter extra data
+Your position at work:
+Phone for verification:
+Image verification (write text from image):
+Reload

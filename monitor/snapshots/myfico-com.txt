@@ -1,0 +1,1111 @@
+Privacy Policy and Data Protection Guidelines | myFICO
+Skip Navigation
+FICO Privacy Policy
+In the course of our business operations, we collect,
+use, and disclose personal data (also referred to as
+"personal information") about individuals,
+including those who become our customers, might be
+interested in our products, visit our websites, use
+our
+mobile applications, or otherwise interact with our
+business. We also process personal data for other
+companies. When we process personal data on our own
+behalf this privacy policy applies. When we process
+personal data on behalf of another company, that
+company's privacy policy applies.
+Table of Contents
+Our Business
+How
+We Use and Collect Personal Data
+Our
+Disclosure of Personal Data
+Your Rights
+Exercising
+Your
+Rights
+How
+We
+Protect Your Personal Data
+How
+Long We Keep Your Personal Data
+Data Privacy Framework
+California
+Information Sharing Disclosure
+Contacting Us
+Changes to
+This
+Policy
+Our Business
+This section provides a general overview of our
+business.
+FICO has two lines of business—Scores and
+Software.
+Scores includes our business-to-business
+operations
+through which we license to consumer reporting
+agencies
+and other third-party businesses the right to use
+our
+analytic models, including those that generate the
+well-known FICO®
+Scores.
+For example, consumer reporting agencies apply our
+analytic models to consumer report information they
+assemble and maintain and then calculate and
+distribute
+the output FICO Scores to third parties such as
+lenders.
+FICO is not a consumer reporting agency and does not
+calculate and distribute FICO Scores to third
+parties.
+When a third-party business uses our analytic models
+to
+process personal data such as consumer reports to
+calculate FICO Scores, we are acting as a service
+provider and the third party's privacy policy
+applies. Scores also includes myFICO, our
+direct-to-consumer business, which is based in the
+U.S.
+and offers free and paid informational and
+educational
+content designed for U.S. consumers only. If you are
+myFICO customer, we may obtain your credit report or
+FICO Score from a consumer reporting agency at your
+direction and on your behalf. This policy applies to
+our
+collection, use, and disclosure of your personal
+data if
+you are a myFICO customer.
+Software consists entirely of
+business-to-business
+operations through which we license to third party
+businesses the rights to use our proprietary
+software
+solutions and in some cases provide associated
+professional services. These software solutions may
+contain analytic models. Companies use our software
+solutions for their own business purposes. Some of
+our
+solutions are operational: these solutions are used
+by
+companies for their resource planning, financial
+projections, and record-keeping, for example. Other
+solutions are used by companies to facilitate the
+processing of personal data of their consumers or
+other
+individuals. These include solutions designed to be
+used
+by companies for a wide range of commercial
+purposes,
+including new customer acquisition, credit and
+insurance
+eligibility, account management, customer management
+and
+communications, and financial fraud detection and
+prevention. We sometimes deliver our software
+solutions
+to third party businesses for installation locally
+in
+their facilities or environment and we sometimes
+host
+these software solutions for them in our cloud
+platform.
+When a third-party business uses our software
+solutions
+to process personal data relating to their consumers
+or
+other individuals, we are acting as a service
+provider,
+and the third party's privacy policy applies.
+It is our general practice to collect and use only
+depersonalized data that cannot be reasonably linked
+to
+an individual person (i.e., deidentified,
+anonymized, or
+aggregated data) when developing, validating, and
+updating our analytic models and our software
+solutions.
+We will not attempt to re-personalize (or
+reidentify)
+any such depersonalized data.
+How We Use
+and
+Collect Personal Data
+How we use
+and
+collect personal data
+Context
+Types of
+Data
+Primary
+Purpose for Collection and Use of
+Data
+myFICO account
+registration, subscription,
+and access
+If you create an online account with
+myFICO, we collect your name and
+contact
+information, including your address,
+phone number, and email address, and
+the
+account password you create. We
+collect your Social Security number
+and
+date of birth to process your
+request to
+obtain a credit report and FICO®
+Score
+from a consumer reporting agency. If
+you
+subscribe to a paid myFICO plan, we
+collect your billing address and
+credit
+card number. We may also collect
+information relating to the actions
+that
+you perform while logged into your
+account. Where necessary to confirm
+your identity, we may offer you the
+option to consent to provide a photo
+ID and a picture of yourself. If you
+choose to do so, our vendor may
+process your biometric information
+in order to compare your photo ID
+and picture.
+We have a legitimate interest in
+providing account-related
+functionalities to individuals who
+create a myFICO account. We also use
+the
+information to fulfill our agreement
+with those who have myFICO accounts
+to
+provide them with requested
+educational
+and informational content (e.g., to
+provide them with access to their
+credit
+reports and FICO®
+Scores),
+to authenticate identity, and to
+process
+payments. Our use of biometrics is
+based on consent.
+FICO Analytic Cloud,
+FICO account, or FICO
+Community account registration
+If you create an online account with
+FICO Analytic Cloud or FICO account
+for use with the FICO Community,
+we collect your name and contact
+information, including email
+address,
+and the account password you create.
+We have a legitimate interest in
+providing account-related
+functionalities to individuals who
+create a FICO account for use of the
+FICO Community or a FICO Analytic
+Cloud account. We also use the
+information to authenticate the
+identity
+of those who have an account
+and
+to provide them with information
+they
+request regarding our products and
+services.
+Business client
+information
+We collect the name and contact
+information of our clients and their
+employees with whom we interact.
+We have a legitimate interest in
+contacting our clients and
+communicating
+with them concerning normal business
+administration such as projects,
+services, and billing. We use this
+personal data to perform our
+contract to
+provide products or services.
+Cookies and first-party
+tracking
+We use cookies and other types of
+tracking technology to improve the
+performance of our website, remember
+visitor preferences and order
+selections, and to analyze website
+behaviors.
+We have a legitimate interest in
+understanding the use of our
+websites
+and to make our website operate
+efficiently and improve user
+experience.
+Cookies and third-party
+tracking
+We may place tracking technology on
+our
+website that collects analytics,
+records
+how you interact with our website,
+or
+allows us to participate in
+behavior-based advertising. This
+means
+that a third party uses technology
+(e.g., a cookie) to collect
+information
+about your use of our website so
+that
+they can report analytics to us or
+allow
+us to provide advertising about
+products
+and services tailored to your
+interests.
+At this time, FICO does not respond
+to
+the "do not track" header.
+We use this information to provide
+advertising about our products and
+services based on the interests of
+users
+of our websites. Where required by
+law,
+we base the use of third-party
+cookies
+upon consent or failure to opt
+out. Users may go to the "privacy choices"
+link or the cookie settings icon on our
+website for more information about
+changing web tracking preferences.
+Events related
+information
+If you attend a FICO hosted or
+sponsored
+event, we may collect information
+about
+you such as your name, employer,
+contact
+and registration details, sessions
+attended, and preferences.
+We have a legitimate interest in
+using
+information that we collect to
+administer our events. Where
+required by
+law, we may ask for your consent if
+we
+intend to share your personal
+information with a third party
+(e.g., an
+event sponsor) for their marketing
+purposes.
+Online forums
+We may provide online forums,
+including
+myFICO forums for those with myFICO
+accounts and FICO Community forums
+for
+those with FICO
+accounts,
+where individuals can post
+information
+or comments. Such information may be
+publicly available or viewable to
+other
+forum members, and may include name,
+contact information, and the
+substance
+of any comments depending upon the
+forum.
+We have a legitimate interest in
+offering discussion forums to the
+public
+and to businesses that use or are
+interested in using our products or
+services.
+Job applicant
+information
+If you apply for a job with us, we
+collect information necessary to
+process
+your application. Providing this
+information is required to be
+considered
+for employment.
+We use information about job
+applicants
+to make employment decisions. In
+some
+contexts, we are also required by
+law to
+collect information about
+applicants.
+(If you become an employee of FICO,
+you
+will be provided with a separate
+privacy
+notice which addresses our use and
+collection of employee data.)
+Feedback/support
+If you provide us feedback or
+contact us
+for support, we will collect your
+name
+and email address, as well as any
+other
+content that you send to us, in
+order to
+reply.
+We have a legitimate interest in
+receiving and responding to your
+feedback or issues to make
+improvements
+to, and support your use of, our
+website, products, and services. If
+you
+use our chat functionality, you will
+be
+interacting with an automated
+technology
+and your chat session may be
+recorded.
+Mobile devices
+We collect information from your
+mobile
+device such as unique identifying
+information broadcast from your
+device
+when visiting our mobile application
+or
+when visiting our website.
+We have a legitimate interest in
+identifying unique visitors and in
+understanding how users interact
+with
+our mobile application.
+Website interactions
+We use technology, including
+weblogs, to
+monitor how you interact with our
+website. This may include collecting
+information such as your browser
+type,
+operating system, Internet Protocol
+(IP)
+address, click-activity, referring
+website, and/or a date/time stamp
+for
+visitors.
+We have a legitimate interest in
+providing functionality of the
+website,
+understanding how you interact with
+our
+website to better improve it, and to
+detect and prevent fraud.
+Use of our App
+We collect your username and password,
+as well as your interactions, when
+you use our App.
+We use your information to perform
+our contract to provide you with App
+related services. We also have a
+legitimate interest in understanding
+how you use our App. Where required
+by law, or by mobile platform, we base
+the use of third party tracking technologies
+upon consent. Users may go to the
+settings menu in their mobile device
+for more information about changing
+App preferences.
+Marketing
+We may collect information from you
+or
+from third parties about individuals
+that may be interested in our
+products
+or services. This may include name,
+email address, job title, and other
+employment information (e.g., name
+of
+employer).
+Where required by law, we receive
+consent before using personal data
+for
+marketing.
+Visiting our office
+locations
+We may collect information from you
+if
+you visit our physical office
+locations.
+This may include your name, contact
+information, employment information,
+as
+well as video surveillance.
+We have a legitimate interest in
+understanding who visits our offices
+for
+security purposes.
+In addition to the purposes and uses described above,
+we
+use personal data in the following ways:
+To identify you when you visit our websites or
+mobile application.
+To provide products, services, and
+subscriptions.
+To improve our websites, services, and product
+offerings.
+To streamline the processing of transactions.
+To conduct analytics.
+To communicate with you, such as to respond to
+and/or follow-up on your requests, inquiries,
+issues, or feedback.
+To detect and protect against malicious,
+deceptive,
+fraudulent, or illegal activity, including
+violation
+of our policies and terms and conditions,
+security
+incidents, and harm to the rights, property, or
+safety of our company and our users, employees,
+or
+others.
+To debug, identify, and repair errors that
+impair
+existing intended functionality of our websites
+and
+mobile applications.
+To comply with our legal or regulatory
+obligations,
+to establish or exercise our rights, and to
+defend
+against a legal claim.
+For internal administrative purposes, as well as
+to
+manage our relationships.
+For such other purposes as you may consent (from
+time to time).
+This policy does not apply to the following:
+Our collection, use, or disclosure of
+depersonalized
+data.
+Other websites not owned or operated by FICO
+that
+are linked on a FICO website. In such
+situations,
+the privacy notice of the third-party website
+applies. FICO is not responsible for the privacy
+practices or the content of such third-party
+websites.
+Our collection, use, or disclosure of personal
+data
+on behalf of a third-party business. In such
+situations, the privacy notice of the
+third-party
+business applies.
+Our Disclosure
+of
+Personal Data
+In addition to the sharing described in the previous
+section, we may disclose your personal information
+to
+the following third parties:
+A. Service Providers (vendors, contractors,
+distributors)
+We disclose personal data to our service providers
+who
+provide technical, operational, or administrative
+support.
+B. Affiliates and
+subsidiaries
+We disclose personal data among FICO affiliates and
+subsidiaries for the purpose of implementing,
+administering, and managing your business
+relationship
+with FICO, to provide the product, service, or other
+content you requested, to contact you in connection
+with
+product or service offerings, or for other
+legitimate
+business purposes.
+C. Regulators
+and
+law enforcement
+We disclose personal data to government agencies,
+advisors, and other third parties where required and
+appropriate to comply with applicable laws or
+protect
+the rights or property of FICO and its affiliated
+companies, or its customers. For example, we may
+disclose personal data to comply with civil,
+criminal,
+or regulatory inquiries, investigations, subpoenas,
+or
+summons by federal, state, or local authorities. We
+may
+also disclose personal data in cooperation with law
+enforcement agencies concerning conduct or activity
+that
+we reasonably and in good faith believe may violate
+federal, state, or local law.
+D.
+Corporate acquisitions and divestitures
+If another company acquires or plans to acquire, or
+if we
+divest or plan to divest to another company, all or
+part
+of FICO's business or assets, we will share
+personal
+data with that company, including at the negotiation
+stage.
+E. Other third parties
+We may disclose your personal data to other third
+parties
+when necessary and appropriate and in accordance
+with
+applicable privacy laws. We remain liable under the Data Privacy Framework
+Principles if our third-party agents process your
+personal information in a manner inconsistent with
+the Principles, unless we can prove that we are not
+responsible for the event giving rise to the damage.
+Your Rights
+In some jurisdictions you may have the following
+rights
+regarding your personal data. Please see the Exercising your
+rights section of this policy for further
+information on how to submit a rights-related
+request if
+applicable to you. Note that we do not discriminate
+against individuals that exercise statutorily
+conferred
+privacy rights.
+A. Right
+to
+delete your personal data
+You may have a right to request that we delete any
+personal data about you that we have collected from
+or
+about you.
+B.
+Right to access or correct your personal data
+You may have the right to ask us to disclose the
+categories or specific pieces of personal data that
+we
+have collected about you. In certain limited
+circumstances, you may also request to receive
+access to
+your data in a portable, machine-readable format.
+You may also have the right to ask us to make
+corrections
+to your personal data. If you maintain an online
+account
+with us (e.g., an account with myFICO, FICO Analytic
+Cloud, or FICO Community) or have otherwise
+registered
+with our websites or to participate in our forums or
+receive marketing materials from us, you can usually
+update your personal data yourself by accessing your
+account profile. If you are unable to update your
+information yourself, you may submit a request as
+described below in the Exercising your
+rights section of this policy.
+C. Right to list of third parties to whom we disclose
+your personal data
+You may have the right to request that we provide a
+list of third parties to whom we disclose personal
+data. You can access this information in the
+"privacy choices" link or the cookie
+settings icon on our website.
+D. Revocation of consent and/or objection to certain
+processing
+You may revoke consent to process your personal data
+or
+object to our processing of your personal data, by
+submitting a request as described below in the Exercising your
+rights section of this policy.
+E. Update or opt out
+If you have registered with us to participate in
+industry
+discussions and/or receive marketing and industry
+materials you may update your preferences or
+unsubscribe
+at any time by clicking the unsubscribe link in the
+footer of FICO email messages, or by submitting a
+request as described below in the Exercising your
+rights section of this policy.
+You may opt-out of web-based targeted advertising
+(e.g., cookies and pixels) by going to the
+"privacy choices" link or the cookie
+settings icon on our website.
+You may opt-out of App based targeted advertising
+(e.g., SDKs with advertising partners) by going to
+the settings menu in your mobile device.
+F. Right to file a
+complaint
+You may have a right to file a privacy complaint with
+us
+and/or with a government agency. You may submit a
+complaint by contacting us as described below in the
+Exercising your
+rights section of this policy.
+Exercising Your Rights
+You can request to exercise your rights described
+above
+in the Your rights
+section,
+if applicable to you, by taking the following
+actions.
+We honor such requests where required to do so by
+law.
+If you have a current account with FICO
+(e.g., an
+account with myFICO, FICO Analytic Cloud, or
+FICO Community), you may request to exercise
+your rights by contacting us through the FICO
+Trust Center, using the options
+provided
+in the Manage your Privacy
+Preferences section. For your
+protection when you request deletion,
+access, or
+correction, we will expect you to verify
+your
+identity by accessing your
+password-protected
+account.
+If you do not have a current account with
+FICO,
+but you have interacted with FICO online or
+offline, or otherwise have a privacy
+concern,
+you may request to exercise your rights by
+contacting us through the FICO
+Trust Center, using the options
+provided
+in the Manage your Privacy
+Preferences section. We will
+provide the information you request by mail
+or
+electronically at your option, and to the
+extent
+reasonable and technically feasible we will
+provide the information in a portable and
+readily useable format. For your protection
+when
+you request deletion, access, or correction,
+we
+will expect you to verify your identity.
+If we receive from you a request relating to
+personal data that we maintain in our
+capacity
+as a service provider on behalf of another
+company, we will deny your request.
+You may designate an authorized agent to make
+request to exercise your rights on your
+behalf,
+but we will require that (i) you provide the
+authorized agent written permission to do
+so;
+and (ii) you verify your identity directly
+with
+us.
+If you are unable to submit or resolve your request
+to
+exercise your rights through the FICO
+Trust Center, you may also make your request
+by
+contacting as described below in the contact us section of
+this
+policy.
+How We
+Protect
+Your Personal Data
+FICO uses reasonable safeguards to protect your
+personal
+data, including physical safeguards, such as secure
+areas in buildings; electronic and technological
+safeguards, such as passwords and encryption; and
+procedural safeguards, such as customer
+authentication
+procedures designed to help prevent ID theft. We
+restrict access to your personal data to only those
+employees who need to know that information to
+provide
+products, services, or other content to you.
+Some of our websites permit you to create an account.
+When you do so, you will be prompted to create a
+password. You are responsible for maintaining the
+confidentiality of your password, and you are
+responsible for any access to or use of your account
+by
+someone else that has obtained your password,
+whether or
+not such access or use has been authorized by you.
+You
+should notify us of any unauthorized use of your
+password or account.
+While we use reasonable efforts to protect your
+personal
+data from unauthorized access, use, or disclosure,
+no
+method of transmission over the Internet, or method
+of
+electronic storage, is fully secure, and we cannot
+guarantee the security of your personal data. In the
+event we are required to inform you of a breach to
+your
+personal data we may notify you electronically, in
+writing, or by telephone, if permitted to do so by
+law.
+How Long We
+Keep Your Personal Data
+Your personal data will be held only as long as
+necessary
+to fulfill the purposes outlined in this policy,
+unless
+a longer time period is required or permitted by
+law.
+For example, for subscribers to our only consumer
+facing business, myFICO, we typically retain
+subscriber contact information, order and usage
+history, and billing and payment information for
+3 years after termination; identity monitoring alerts
+and credit reports obtained at the subscriber's
+request for 13 months after termination; account
+authentication information (including photo ID and
+photograph of those subscribers who chose to provide
+that information to verify their identity) for up to
+90 days after receipt; and recordings of customer
+care communications for two weeks after receipt.
+Data Privacy Framework
+FICO complies with the EU-U.S. Data Privacy Framework
+(EU-U.S. DPF), the UK Extension to the EU-U.S. DPF,
+and the Swiss-U.S. Data Privacy Framework
+(Swiss-U.S. DPF) as set forth by the U.S. Department
+of Commerce. FICO has certified to the U.S.
+Department of Commerce that it adheres to the
+EU-U.S. Data Privacy Framework Principles (EU-U.S.
+DPF Principles) with regard to the processing of
+personal data received from the European Union in
+reliance on the EU-U.S. DPF and from the United
+Kingdom (and Gibraltar) in reliance on the UK
+Extension to the EU-U.S. DPF. FICO has certified to
+the U.S. Department of Commerce that it adheres to
+the Swiss-U.S. Data Privacy Framework Principles
+(Swiss-U.S. DPF Principles) with regard to the
+processing of personal data received from
+Switzerland in reliance on the Swiss-U.S. DPF. If
+there is any conflict between the terms in this
+privacy policy and the EU-U.S. DPF Principles and/or
+the Swiss-U.S. DPF Principles, the Principles shall
+govern. To learn more about the Data Privacy
+Framework (DPF) program, and to view our
+certification, please visit https://www.dataprivacyframework.gov/.
+FICO uses Standard Contractual Clauses approved by
+regulatory authorities in the EU, UK, and
+Switzerland where required for such transfers and
+does not rely solely on the Data Privacy Framework
+Principles. Our certification with the U.S.
+Department of Commerce and the DPF Principles can be
+viewed at this website
+https://www.dataprivacyframework.gov/s/
+If you are an EU, UK, or Swiss individual and believe
+we have violated our obligations to you under the
+Data Privacy Framework, you may submit a complaint
+directly with us through the FICO Trust Center,
+using the options provided in the Manage your
+Privacy Preferences section, and we will respond
+within 45 days. You may also raise your complaint
+with your Data Protection Authority which may refer
+your complaint to the U.S. Department of Commerce to
+work with us on a resolution, at no cost to you. If
+you still have an unresolved complaint that we have
+not addressed satisfactorily, you may lodge a
+complaint with JAMS, which is an international
+dispute resolution provider, at no cost to you, at
+https://www.jamsadr.com/file-a-dpf-claim
+For
+information about JAMS and its dispute resolution
+process, you may contact JAMS at
+https://www.jamsadr.com/dpf-dispute-resolution
+. If
+your complaint remains unresolved after the JAMS
+dispute resolution process, you may, under certain
+conditions, invoke binding arbitration through the
+DPF. Additional information on how to submit a
+complaint or pursue binding arbitration is available
+on the DPF website at
+https://www.dataprivacyframework.gov/s/article/How-to-Submit-a-Complaint-Relating-to-a-Participating-Organization-s-Compliance-with-the-DPF-Principles-dpf
+With respect to the Data Privacy Framework, FICO is
+subject to the regulatory enforcement powers of the
+U.S. Federal Trade Commission.
+California Information Sharing Disclosure
+For California residents, California requires that we
+disclose specific categories of personal data that
+we
+collect, and the types of entities with whom we
+share
+it. The chart below includes the
+"sensitive"
+personal information that we collect under
+California
+law, which we only use for the purposes identified
+in California Civil Code 1798.121. The purposes for
+our collection of personal data are described in the
+first section of this policy. Because we collect
+different personal data from different people
+depending on the context and the applicable part of
+our business, information discussed below may not
+specifically apply to you. Please also note, in
+addition to the recipients identified below, we
+may disclose any of the categories of personal data
+we
+collect with government entities or other third
+parties
+as required to comply with law or prevent illegal
+activity. We do not sell personal data and have not
+sold
+personal data during the last 12 months. We do not
+share the categories below for purposes of targeted
+advertising unless you have provided your consent
+where required. For details regarding how we use
+personal data, please see the
+How
+we
+use personal data section of this policy.
+For
+information regarding how long we retain personal
+data,
+please refer to the How we
+protect your personal data section and the
+How
+long
+we keep your personal data section of this
+policy.
+Category of
+Personal data
+Category
+of
+personal data we collect
+Category
+of
+recipients
+Disclosures for a
+business
+purpose
+Identifiers –
+this may
+include name, alias, postal address,
+unique personal identifier, online
+identifier, email address, account
+name,
+or other similar identifiers.
+Affiliates or subsidiaries
+Data
+analytics providers
+Internet
+service
+providers
+Operating systems and
+platforms
+Other service
+providers
+Payment processors and
+financial
+institutions
+Professional
+services organizations, this may
+include
+auditors and law firms
+Social
+networks
+Government
+issued
+identification –
+this may include
+social
+security number (e.g., as part of
+myFICO), driver's license
+number, or
+state issued identification number,
+passport number.
+Affiliates or subsidiaries
+Other
+service providers
+Financial
+information –
+this
+may include bank account number,
+credit
+card number, debit card number, and
+other financial information. For
+example, we may collect this
+information
+if you are a myFICO customer.
+Affiliates or subsidiaries
+Other
+service providers
+Payment
+processors
+and financial institutions
+Characteristics
+of
+protected
+classifications –
+this may include
+age
+if you have a myFICO account and we
+collect your date of birth.
+Affiliates or subsidiaries
+Other
+Service Providers
+Commercial
+information –
+this may include information about
+products or services purchased,
+obtained, or considered, or other
+purchasing or consuming histories or
+tendencies.
+Affiliates or subsidiaries
+Data
+analytics providers
+Other service
+providers
+Internet or
+other
+electronic
+network activity
+information –
+this
+may
+include browsing history, search
+history, and information regarding
+an
+individual's interaction with an
+internet website, application, or
+advertisement.
+Affiliates or subsidiaries
+Data
+analytics providers
+Internet
+service
+providers
+Operating systems and
+platforms
+Other service providers
+Biometric
+information – While we do
+not collect biometric information directly,
+we may offer you the option to use a
+photo-based verification method to confirm
+your identity. If you choose to do so, our
+vendor will collect your biometric
+information.
+Other service providers
+Audio,
+electronic,
+visual,
+thermal, olfactory, or similar
+information
+Affiliates or subsidiaries
+Other
+service providers
+Professional or
+employment-related information
+(e.g., if
+you apply for a job)
+Affiliates or
+subsidiaries
+Payment
+processors and financial
+institutions
+Other service
+providers
+Inferences drawn
+from
+any of
+the information listed
+above
+Affiliates or subsidiaries
+Data
+analytics providers
+Other service
+providers
+Additional
+categories of
+personal information described
+in
+the
+California Customer Records
+statute
+(Cal. Civ. Code §
+1798.80(e)) –
+this
+may
+include signature.
+Affiliates or subsidiaries
+Other
+Service Providers
+Contacting Us
+If you have a question about our privacy policy or
+practices, or want to submit a complaint, you may
+contact FICO's Privacy Team through the FICO
+Trust Center. We have appointed EU
+Rep as our Representative under Article
+27
+of the EU General Data Protection Regulation
+("GDPR"). GDPR queries from EU Data
+Subjects
+or Data Protection Authorities should be addressed
+to EU
+Rep at privacy@eurep.ie.
+The registered office for EU Rep is: BizLegal Ltd
+trading as EU Rep, 27 Cork Road, Middleton Co. Cork,
+Ireland. The company number is: 635921.
+You may also contact the FICO Privacy Team at the
+following:
+United States
+Vickie Miller, Data Protection Officer
+5 West
+Mendenhall
+Suite 105
+Bozeman, MT 59715
+United
+States of America
+Tel. (858) 369-8101
+Email
+Address: privacyteam@fico.com
+United Kingdom
+Max Garth, Head of Legal, EMEA
+1 Finsbury Square 6th
+Floor
+London
+EC2A 1AE
+United
+Kingdom
+Email Address: privacyteam@fico.com
+European Union
+Alexander Bugl
+Bugl & Kollegen
+GmbH
+Sedanstraße 7
+93055 Regensburg,
+Germany
+E-Mail Address: privacyteam@fico.com
+Brazil Local DPO
+Marisol Minamoto, Senior Counsel
+Fair Isaac Brazil, LLC, No. 999, Suite 121 Avenida Roque Petroni Junior
+Sao Paulo- SP
+04707-000 Brazil
+E-Mail Address: privacyteam@fico.com
+Changes to This Policy
+If we change this policy, we will post the changes
+here.
+This policy was last updated and is effective as of
+July 2026.

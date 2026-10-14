@@ -1,0 +1,251 @@
+Your Privacy Choices - USA | LiveRamp
+Your Privacy Choices
+Types of Requests
+This portal supports consumer requests related to personal information that we process as a business on our own behalf in accordance with the US State Privacy Laws.
+US States that have enacted comprehensive consumer privacy laws currently include Alabama, California, Colorado, Connecticut, Delaware, Indiana, Iowa, Kentucky, Louisiana, Maryland, Minnesota, Montana, Nebraska, New Hampshire, New Jersey, Oklahoma, Oregon, Rhode Island, Tennessee, Texas, Utah, and Virginia. Residents of these states are given specific state-level privacy rights.
+See below for more information and instructions on exercising these rights.
+Opt Out Request
+Opt Out requests (called “Do Not Sell or Share My Personal Information” and “Limit the Use of My Sensitive Personal Information” in California) are available to everyone in the US, regardless of state of residence. You may opt out of the processing, disclosure, sale, and sharing of your data, and the use/disclosure of sensitive personal information. Note that LiveRamp uses certain “sensitive” personal data (i.e., social security number, driver’s license number) for identity resolution purposes. LiveRamp does not infer characteristics about consumers based on such sensitive personal data, but we still offer the ability to limit such uses through an opt out request.
+The Opt Out request may be made by the consumer, a parent/guardian, a conservator, or an authorized agent. While we do not knowingly collect or use the data of minors under the age of 18, we may have some data where we do not have sufficient information to identify age.
+First and Last Name, as well as email, is required in order to make a comprehensive and effective opt out for the user, which will result in an opt out across all identifiers associated with the user.
+If you do not feel comfortable sharing this information with us, we also offer the opportunity for a user to opt out of their Mobile Identifier or Third Party cookie only. Note that cookie opt outs will only apply to the user’s web browser, while the Mobile Identifier opt out will only apply to the user’s device.
+Make an Opt out Request here:
+Opt Out as a Consumer, Agent, or Parent/Guardian/Conservator >
+Device Specific Opt Out of LiveRamp’s Mobile Identifier >
+Browser Specific Opt Out of LiveRamp’s Third Party Cookie >
+To execute an opt out outside of the US, please visit our Privacy page here: https://liveramp.com/privacy/
+Access or Request to Know and List of Third Parties
+The right to request a copy of the personal information we have about you is limited to residents in US States with enacted comprehensive consumer privacy laws. LiveRamp provides a list of third parties to which it has disclosed any consumer’s personal data as part of an Access request. For this type of request, LiveRamp will provide you with an Access Report which will contain the data we have about you, an explanation of the information we collect, use, or sell, the categories of data we have collected about you, such as the categories of personal information and data sources, the categories of third parties with whom we have disclosed your information, and a list of 3rd parties with whom we have disclosed your information.
+While we do not knowingly collect or use the data of minors under the age of 18, we may have some data where we do not have sufficient information to identify age.
+Learn more about the process and what you may need in our FAQ.
+Make an Access Request here:
+As a consumer >
+As a parent/guardian/conservator >
+As an authorized agent >
+Category Access or Request to Know
+The right to request a copy of the categories of the personal information we collect about you is limited to residents in US States with enacted comprehensive consumer privacy laws. When you exercise this request, you will receive a report on the categories of data we have collected about you, such as the categories of personal information and data sources we have about you and the categories of third parties with whom we have disclosed your information. [Note: a Category Access Request is different from an Access Request, which returns specific pieces of personal information held.]
+While we do not knowingly collect or use the data of minors under the age of 18, we may have some data where we do not have sufficient information to identify age.
+Learn more about the process and what you may need in our FAQ, or to start a request, click below.
+Make a Category Access Request here:
+As a consumer >
+As a parent/guardian/conservator >
+As an authorized agent >
+Correction Request
+The right to correct inaccuracies in your personal data is limited to residents in US States with enacted comprehensive consumer privacy laws.
+To submit a correction request, you first need to request an Access Report as described above. If you identify anything in the Access Report as inaccurate, you have the right to request that LiveRamp correct the inaccuracies. Upon receipt of a valid Correction Request, LiveRamp will remove the information identified as inaccurate from our systems. We will respond to your Correction Request within 45 days of receipt, and may contact you if we need more time to process your request. Instructions for submitting a correction request will be provided with the Access Report.
+While we do not knowingly collect or use the data of minors under the age of 18, we may have some data where we do not have sufficient information to identify age.
+Learn more about the correction request process and what you may need in our FAQ.
+Make a Correction Request here:
+As a consumer >
+As a parent/guardian/conservator >
+As an authorized agent >
+Deletion Request
+States with enacted comprehensive consumer privacy laws.
+If you are planning to submit both a Deletion Request and an Access Request, we recommend that you submit the Access Request first, then submit a Deletion Request after reviewing your completed report from us. Otherwise, we will not have any personal information to return to you in an Access Request.
+Please note that if you choose to have us delete your information, you will still continue to receive ads online by LiveRamp customers that are advertising online. If your goal is to minimize personalized ads by LiveRamp customers who use our services and otherwise minimize their ability to transfer personal information about you, we recommend that you submit an Opt out Request instead of, or before submitting, a Deletion Request.
+While we do not knowingly collect or use the data of minors under the age of 18, we may have some data where we do not have sufficient information to identify age.
+To learn more about the distinction between the Deletion Request and the Opt out Request, please visit our FAQ.
+Make a Deletion Request here:
+As a consumer >
+As a parent/guardian/conservator >
+As an authorized agent >
+Employee Request
+California offers data subject rights to former, current, and prospective employees to act on the data that is collected for these purposes. If you’d like to request that we delete, return, or correct the data that we may store about you as an employee or applicant, please click on the link below. Please note that the status of your relationship with LiveRamp, may limit our ability to comply with your request. For example, a current employee or former employee within the past 10 years, may not delete all employee personal information related to payroll that LiveRamp has collected on you because we’re required to retain certain information for legal adherence. Since we do not sell or share employee or applicant data, we do not offer an opt-out.
+Make an Employee Request here.
+Business Representative Request
+California offers data subject rights to former, current, and prospective clients and/or vendor business representatives to act on the data that is collected for business contact purposes. If you’d like to request that we delete, return, correct, or opt out of the data that we may store about you as a business contact, please click on the link below. Please note that the status of your relationship with LiveRamp, may limit our ability to comply with your request. For example, an active platform user may not opt out of system notifications.
+Make a Business Representative Request here.
+Right to Appeal
+Residents of states with enacted comprehensive privacy laws have the right to appeal LiveRamp’s decision to not process your request. A denial to process will, generally, only occur when a submitter can not successfully complete our identification verification process. When you exercise your right to appeal, LiveRamp may request additional information from you or request that you provide alternative identification artifacts to us manually.
+Learn more about the process and what you may need to submit an appeal in our FAQ section, or to start a request, click below.
+Make an Appeal Request here.
+Other Inquiries
+If you have any questions about exercising rights or you have issues submitting your request, US residents can contact us here.
+As an alternative, all of the requests above can be made via phone as described in the FAQ section below.
+Cookie Preferences
+LiveRamp.com Website Cookies
+We collect personal information from your interaction with our website(s) for the purposes outlined in the link below. You may opt out of these cookies by rejecting cookies through the cookie banner that pops up on our websites or by enabling the Global Privacy Control signal on a compatible browser.
+You can modify your preferences here. This link also contains a list of cookies on our website.
+FAQs
+What are the rights granted by the US data privacy regulations? What do they do?
+Residents of all states have the right to opt out of most processing of personal data by LiveRamp, including the sale (called “Do Not Sell or Share My Personal Information” and “Limit the Use of My Sensitive Personal Information” in California). In addition, residents in US states with enacted comprehensive consumer privacy laws (Alabama, California, Colorado, Connecticut, Delaware, Indiana, Iowa, Kentucky, Louisiana, Maryland, Minnesota, Montana, Nebraska, New Hampshire, New Jersey, Oklahoma, Oregon, Rhode Island, Tennessee, Texas, Utah, and Virginia) have the right to request to receive a copy the personal information we have collected about you (Access Request), that we correct inaccuracies in your personal information (Correction Request), and that we delete your personal information (Deletion Request). Please note that our current application of opt out is holistic and fulfills all regulatory requirements, including the opt out of what is defined as sensitive personal data by some states.
+We will respond to your Opt Out Request within 15 days and your Access, Correction, and/or Deletion Request within 45 days of receipt, and we may contact you if we need more time to process your request.
+If you are planning to submit both a Deletion Request and an Access Request, we recommend that you submit the Access Request first, then submit a Deletion Request after reviewing your completed report from us. Otherwise, we will not have any personal information to return to you in an Access Request.
+Please note that if you choose to have us delete your information, you will still continue to receive ads online. If your goal is to minimize personalized ads by LiveRamp customers who use our services and otherwise minimize their ability to transfer personal information about you, we recommend that you submit an Opt out Request instead of, or before submitting, a Deletion Request.
+What is the difference between an Access Request and a Category Access Request?
+Residents of states with enacted comprehensive privacy laws have the right to request both the specific pieces of personal information held by LiveRamp (Access Request) and the categories of personal information held by LiveRamp (Category Access Request).
+However, to receive an Access Request, a consumer must pass three different levels of identity verification requirements, while a Category Access Request only requires a consumer to pass two different levels of identity verification.
+What do I need in order to make an Access Request?
+To make an Access Request as an individual, you will need to provide the following:
+Verifiable proof of your identity (such as a driver’s license)
+Verifiable proof of residency in a regulated state
+Note: If you’re unable to provide a government-issued photo ID, you can prove your residency information by emailing one (1) of the following documents to us at consumercare@liveramp.com
+A current, dated (not older than three months) utility bill;
+A dated tenant agreement/house purchase deed;
+Employer certificate for proof of residence;
+ID card issued by an educational institution that lists the address; OR
+Voter registration card
+A mobile phone to upload a selfie and a copy of the ID card
+An active email address. (When submitting a request, please check your spam folder for correspondence from LiveRamp.)
+If you do not have one of the above requirements, you may also exercise your rights by calling our toll-free number.
+Step 1: Call (844) 678-0045
+Step 2: Enter the applicable service code:
+Opt out Request (Do Not Sell or Share or Limit the Use of My Sensitive Personal Information): 1
+Access Request: 2
+Category Request: 3
+Deletion Request: 4
+Correction Request: 5
+Employee Request: 6
+Business Representative Request: 7
+Appeal: 8
+Step 3: You will need to provide the following information:
+First Name, Last Name
+Phone Number
+Home Address
+Email
+Once you have completed the steps above, a LiveRamp consumer care representative will contact you to complete your request.
+What do I need in order to make a Deletion Request?
+To make a Deletion Request as an individual, you will need to provide the following:
+Verifiable proof of your identity (such as a driver’s license)
+Verifiable proof of residency in a regulated state
+Note: If you’re unable to provide a government-issued photo ID, you can prove your residency information by emailing one (1) of the following documents to us at consumercare@liveramp.com
+A current, dated (not older than three months) utility bill;
+A dated tenant agreement/house purchase deed;
+Employer certificate for proof of residence;
+ID card issued by an educational institution that lists the address; OR
+Voter registration card
+An active email address. (When submitting a request, please check your spam folder for correspondence from LiveRamp.)
+If you do not have one of the above requirements, you may also exercise your rights by calling our toll-free number.
+Step 1: Call (844) 678-0045
+Step 2: Enter the applicable service code:
+Opt out Request (Do Not Sell or Share or Limit the Use of My Sensitive Personal Information): 1
+Access Request: 2
+Category Request: 3
+Deletion Request: 4
+Correction Request: 5
+Employee Request: 6
+Business Representative Request: 7
+Appeal: 8
+Step 3: You will need to provide the following information:
+First Name, Last Name
+Phone Number
+Home Address
+Email
+Once you have completed the steps above, a LiveRamp consumer care representative will contact you to complete your request.
+What do I need in order to make a Correction Request?
+To make a Correction Request as an individual, you will need to submit an Access Request first and be able to provide the following in the submission form:
+Reference Identifiers that LiveRamp has about you so that we can locate your file in order to correct it.
+The information you identified as inaccurate to be removed from our systems.
+What is required to submit an Access, Category, Correction, or a Deletion Request as an authorized agent?
+As an authorized agent, you will need to provide the following in order to submit an Access, Category, Correction or Deletion Request on behalf of a resident in a regulated state:
+Verifiable proof of your identity (such as a driver’s license)
+Signed, written authorization from the consumer that you have their permission to act as an authorized agent, OR a valid power of attorney document signed and dated by the consumer (preferably notarized, but not required). Please include the consumer’s first name, last name, and home address.
+The consumer’s email address and phone number. We will contact the consumer directly for identity verification. Check your email spam folder for correspondence from LiveRamp.
+Note that if we do not receive verifiable proof of identification or authorization from both the authorized agent and the consumer, we may deny the request.
+If you are a commercial business acting as an authorized agent, the following documentation is required:
+A Certificate of Good Standing from the Secretary of State.
+Written authorization that includes:
+The consumer’s first name, last name, email address, and telephone number, along with which rights request(s) the consumer wants the authorized agent to submit on their behalf.
+Signed, written authorization from the consumer that you have their permission to act as their authorized agent. This document should also include the name of the authorized agent (commercial business).
+The consumer’s email address and phone number. We will contact the consumer directly for identity verification.
+Can a conservator submit a request on behalf of an Alabama resident?
+Yes. A conservator—a court-appointed individual or corporation legally authorized to manage a protected consumer's estate—may submit a privacy rights request, just like a parent or guardian.
+Do you have another method other than web submission for me to submit my request?
+We have a second method for you to exercise your privacy rights. Apart from submitting an online request, you may exercise your rights by calling us at our toll-free phone number:
+Step 1: Call (844) 678-0045
+Step 2: Enter the applicable service code:
+Opt Out (Do Not Sell or Share and Limit the Use of Sensitive) Request: 1
+Access Request: 2
+Category Request: 3
+Deletion Request: 4
+Correction Request: 5
+Employee Request: 6
+Business Representative: 7
+Appeal: 8
+Step 3: You will need to provide the following information:
+First Name, Last Name
+Phone Number
+Home Address
+Email
+Once you have completed the steps above, a LiveRamp consumer care representative will contact you to complete your request.
+Can I make a Household Access, Category, Correction, Deletion, or Opt Out Request?
+We do not maintain aggregate household data that we can link back to a single household. If you would like to make a request for everyone in your household, please submit individual requests for each household member via this online portal or via our toll-free number above.
+What if I want to make a request on behalf of my minor child?
+While we do not knowingly collect or use the data of minors under the age of 18, we may have some data where we do not have sufficient information to identify age.
+As a parent of a child under the age of 18, you may make an Access, Category, Correction, Deletion, Appeal or Do Not Sell or Share My Personal Information Request on behalf of your minor child. You will be required to provide the following information to us so we can verify your identity and your relationship to the child:
+Child’s personal information (e.g. child’s full name, child’s email address).
+Proof of your custodial guardianship of the child.
+Parent’s government-issued photo ID (driver’s license is best).
+Parent’s proof of regulated state residency.
+Parent’s email address.
+Access to a mobile phone number to upload a selfie and copy of the ID card.
+Does LiveRamp store data on minors?
+We do not knowingly collect or use the data of minors under the age of 18. We may have some data about minors where we do not have sufficient information to identify their age. If we learn that we have collected the personal information of someone under 18, we will delete that information from our database. If you believe we may have the personal information of someone under 18, please contact us here.
+How do I find out what data LiveRamp knows about me?
+In order to find out what information we have collected about you, you’ll need to submit an Access Request through this portal. As part of the Access Request process, you’ll be asked to verify your identity and provide proof of residency in a protected state.
+Once you have successfully submitted your Access Request, we will provide you with an Access Report that describes the personal information about you that we have collected, sold, or disclosed in the past year. You may submit an Access Request two times in any one-year period.
+How can I get a list of third parties to whom my data has been disclosed?
+Residents in regulated states have the right to request a list of specific third parties, other than natural persons, to whom a business has disclosed their personal information or any consumer’s personal data. LiveRamp provides a list of third parties to which it has disclosed any consumer’s personal data as part of an Access request. To receive a copy of this list, you need to submit an Access Request.
+What will a Correction Request do?
+As a resident of a US state that has enacted a comprehensive privacy law you have the right to request to correct inaccuracies in your personal data.
+For this type of request, you first need to request an Access Report. If you identify anything in the Access Report as inaccurate, you have the right to request that LiveRamp correct the inaccuracies. Instructions for submitting a correction request will be provided with the Access Report. Upon receipt of a valid Correction Request, LiveRamp will remove the information identified as inaccurate from our systems.
+We only hold the information from an Access Request for a short period of time, as necessary to complete the request. So we ask that you submit Correction Requests within 30 days of receiving your Access Request so that we still have the information from the Access Request available to take the requested corrective action.
+How do I delete the data that LiveRamp knows about me?
+In order to delete the information we have about you, you’ll need to make a Deletion Request through this portal. As part of the deletion process, you’ll be asked to provide proof of residency in a protected state and verify your identity through knowledge-based questions.
+What is the difference between a Deletion Request and an Opt out Request?
+An Opt out request, (called “Do Not Sell or Share My Personal Information” and “Limit the Use of My Sensitive Personal Information” in California) is more effective than a Deletion Request to minimize personalized advertising by clients using our services, to prevent clients from transferring your personal information, and to prevent LiveRamp from selling your personal information in the future.
+How long does LiveRamp have to respond to my Request?
+We will respond to your opt out request within 15 days of receiving your request.
+We will respond to your Access, Category, Correction or Deletion Request within 45 days of receiving your request. If we need more time to process your request, we will notify you within the first 45 days and will request an extension for up to an additional 45 days. If we find that we are unable to respond to your request, we will let you know why and provide your rights to appeal our decision.
+We will respond to an Appeal request within 60 days of receiving your request.
+I opted out. Why am I still seeing advertisements?
+Opting out of LiveRamp through our opt out channels does not disable advertisements altogether. Instead, opting out means that LiveRamp services will no longer be used to facilitate targeted advertising to your browser, device, or email address. In other words, you will still see advertisements, but they will be less relevant to you.
+We recommend that you also opt out using the Digital Advertising Alliance’s (DAA) opt out page. This solution will give you broader reach in opting out of ads based on your interests.
+How do I stop receiving personalized advertising?
+If your goal is to minimize personalized ads by advertisers who use our services, we recommend that you submit an Opt out Request and we will place your identifiers on a filter to minimize our clients’ ability to serve you personalized ads or otherwise transfer your personal information using LiveRamp’s services.
+We recommend that you also opt out using the Digital Advertising Alliance’s (DAA) opt out page. This solution will give you broader reach in opting out of ads based on your interests.
+What is an Employee Request?
+An employee request is a rights request specific to the information that we hold relating to your relationship to LiveRamp as an employee or applicant for employment or similar relationship (e.g., contractor) or to administer benefits relating to an employee. To continue to provide ongoing services related to employment and to comply with legal requirements to retain employee data, it is often not possible to delete personal information held for employees. Since LiveRamp does not sell or share employee data, an opt out is not available for employee data. Employee data requests are only available to California residents.
+Business Representative Request?
+A business representative request is a rights request specific to the information that we hold relating to your relationship to LiveRamp as an employee, contractor, or similar role with another company receiving products or services from LiveRamp. To continue to maintain ongoing services with our clients and/or vendors and to comply with legal requirements to retain business-related data, it is often not possible to delete personal information held for business representatives. Business Representative data requests are only available to California residents.
+Does LiveRamp conduct Profiling as it relates to US privacy regulation?
+Profiling, as considered by state privacy regulations, is significant when conducted in furtherance of decisions that produce legal effects concerning a consumer. This can include profiling that has a legal effect on the provision or denial of housing, education enrollment or opportunity, criminal justice, financial or lending services, employment opportunities, health care services, or access to essential goods or services.
+LiveRamp does not engage in Profiling in furtherance of decisions that produce legal effects concerning consumers.
+Why are you asking me for personal information and/or a selfie to verify my identity?
+LiveRamp does not have direct relationships with individual consumers. As such, we cannot maintain consumer password-protected accounts that can be readily used to verify your identification. We use third-party identity verification services in order to protect your personal information. The data requested to verify your identity does not create an account with LiveRamp or these third parties. The data is only used and stored as necessary to process your request.
+How can I appeal a decision to refuse my request?
+If you receive a notice of refusal to take action on a request, most likely due to a failed identity verification, a resident of a regulated state may appeal our decision. You may submit your appeal via the link on this page. LiveRamp will review your request and will likely reach out to you via email to request additional information about your submission. Within 45 days of receipt of the appeal, LiveRamp will inform you in writing of any final action taken or not taken in response to the appeal, including a written explanation of the reasons for the decisions. If the appeal is denied, LiveRamp will also provide you with contact information to file a complaint with the appropriate state Attorney General.
+When verifying my identity, what if I don’t receive a text message to upload my ID & selfie?
+If you experience technical issues during submission or fail to receive a text message to upload your ID and/or selfie when verifying your identity, please contact us here.
+What is a cookie?
+Cookies are small, unique text files that a website sends to your computer (or another internet-connected device) to identify the device visiting the site. The cookie is stored on your browser. Cookies contain information that allows us to improve site functionality and security.
+These cookies include information that allows LiveRamp to provide a more customized LiveRamp.com experience. They may be used to tailor ad content on our site, on sites you may visit in the future, and to understand aggregate-level information such as traffic patterns to LiveRamp’s website or engagement metrics, such as open rates, with email marketing campaigns. If you choose to provide personally identifiable information in the course of your interaction with LiveRamp.com, or if you visit the website from a link in an email LiveRamp has sent you, your interactions with the website, including past interactions, may be connected to your email address or the information you provide. Other than these cases, cookies are not linked to personally identifiable information. In the course of placing cookies, LiveRamp may also collect data such as your browser type, your operating system, web pages visited, time of visits, content viewed, and other clickstream data.
+How do I opt out of LiveRamp outside of the US?
+Please visit our Data Privacy Portal to execute a non-US opt out: https://liveramp.com/privacy/
+How do cookie opt outs work?
+When you opt out of LiveRamp cookies, we place an opt out cookie on your web browser, on our advertising domain that indicates you have chosen to opt out. This cookie tells web sites using our solutions to not personalize the online ads you see. If you buy a new computer, upgrade or change your web browser, or delete this opt out cookie by clearing your browser files, you will need to perform this process again.
+LiveRamp is a member of the Digital Advertising Alliance (DAA) and Digital Advertising Alliance Canada (DAAC) and adheres to the DAA Principles for Online Behavioral Advertising and Multi-Site Data, as well as related guidance. LiveRamp subscribes to the DAA’s industry-wide cookie opt out mechanism that can be found here and its mobile device ID opt out available through its AppChoices app. Consumers who choose to opt out through these DAA mechanisms do not need to opt out of the equivalent mechanism with LiveRamp.
+Keep in mind that opting out of LiveRamp through our opt out channels or through the DAA does not disable advertisements altogether. Instead, opting out means that LiveRamp services will no longer be used to facilitate targeted advertising to your browser, device, or email address. In other words, you will still see advertisements and receive email marketing, but they will be less relevant to you.
+If you create a new email address, reset the mobile advertising ID on your device, or use a new browser, you will need to apply the appropriate opt out to that new email address, new device ID, and/or new browser as opt outs are not necessarily transferred between email addresses, browsers, or devices.
+You may also want to change the cookie management settings on your web browser and you can opt out of interest based ads within your device itself
+What about Joint Household and IP Address Requests?
+Joint Household and IP Address Requests: LiveRamp does not maintain aggregate household data that we can link back to a single household. If you would like to make a request for everyone in your household or every device on a particular IP address, please submit an Opt Out for every email address used by each household member.
+How do I opt out of other third-party ad networks?
+To opt out of third-party ad networks (including ones that we work with and may have transferred data to in the past), we also recommend visiting the opt out pages for the DAA’s AboutAds program.
+What happens when I opt out of LiveRamp mobile services?
+When you opt your mobile device out of LiveRamp, LiveRamp will cease using your device in products and services, including advertiser-client workflows that result in sending personalized or interest-based ads tied to your mobile device identifier. This affects the advertisements you would see in native apps on your device.
+For help on finding your Mobile Advertising ID please see the links below
+For Android Devices
+View this Support Documentation
+For iOS Devices
+View this Support Documentation
+More Information
+For information about exercising your privacy rights and choices, please review our Data Privacy Portal.
+What is LiveRamp?
+LiveRamp is the data collaboration platform of choice for the world’s most innovative companies. Our best-in-class enterprise platform offers complete flexibility to collaborate wherever data lives to support the widest range of data collaboration use cases—within organizations, between brands, and across our global network of premier partners.
+Consumer-centric Privacy
+By design, much of the internet is ad-supported, so data provides a much-needed context for delivering a better, more relevant advertising experience to consumers. That said, a culture of accountability is essential to succeed in a data-driven world. LiveRamp believes that consumers should have transparency, visibility, and choice into how their data is being used.
+LiveRamp and Data Privacy
+We believe that consumers have a fundamental right to decide how their data is used. We also believe in the power of data, and that it can be used to shape our world for the better. Data used properly and ethically benefits consumers, businesses, and the economy. We are committed to education around data privacy, transparency, and choice.
+Visit our Data Privacy Portal to learn more.
+Learn more

@@ -1,0 +1,18 @@
+This Domain Has Been Transferred by Court Order — Rehold.com
+Pursuant to a final judgment of the New Jersey Superior Court, the domain name rehold.com has been transferred to Atlas Data Privacy Corporation (“Atlas”) and is no longer under the control of its former operators.
+On February 8, 2024, Atlas and five individual plaintiffs filed a lawsuit in New Jersey Superior Court: Atlas Data Privacy Corporation, et al. v. Radaris.com, et al. On May 27, 2025, an Amended Complaint was filed. In the Amended Complaint, Atlas asserted claims assigned to it by approximately 21,760 law enforcement officers, prosecutors, and other “covered persons” under New Jersey’s Daniel’s Law, which protects home addresses and unpublished home telephone numbers from disclosure.
+On August 27, 2026, the New Jersey Superior Court entered a final judgment by default against Defendants Radaris.com, Rehold.com, and Trustoria.com.
+The Court found that Plaintiffs “established that Defendants violated N.J.S.A. § 56:8-166.1, et seq., (‘Daniel’s Law’), as set forth in the Amended Complaint,” and awarded the seizure of this domain “to effectuate the purposes of Daniel’s Law to ensure the privacy and safety rights of covered persons.”
+The Court further awarded permanent injunctive relief “necessary to protect against and prevent disclosure, re-disclosure, or otherwise making available the home addresses and unpublished home telephone numbers” of the Individual Plaintiffs and Covered Persons, and ordered that Defendants and “all persons in concert” with Defendants are “permanently restrained and enjoined from violating Daniel’s Law, including disclosing, re-disclosing, or otherwise making available the Individual Plaintiffs’ and the Covered Persons’ Protected Information, including without limitation through: Radaris.com, Rehold.com, and Trustoria.com, as well as any subdomains, affiliated domains or sites within the possession, custody or control of Defendants, and any databases, computer systems, records or materials, however stored.”
+Additional information regarding the case and recent activity can be obtained from the Superior Court of New Jersey.
+For more information on Daniel’s Law and related enforcement efforts, see:
+Silence Is Not Compliance: Evidence From Two Judicial-Privacy Regimes — Matthew Adkisson & John Muffler, preprint (Updated October 1, 2026)
+Data Broker Radaris Loses Domains in Privacy Fight — KrebsOnSecurity (September 16, 2026)
+Study Finds Judges’ Home Addresses Remain Online Despite Federal Privacy Law — The Florida Bar News (September 10, 2026)
+US Judges’ Addresses Exposed Despite Privacy Law, Report Says — Bloomberg Law (September 3, 2026)
+Daniel’s Law Was Born From a Judge’s Family Tragedy. Now the Privacy Law Faces Its Biggest Test. — NJ.com (August 26, 2026)
+N.J. Cops and Judges Just Won a Big Legal Battle Over Their Personal Data. Here’s What Changed. — NJ.com (August 13, 2026)
+The Future of Online Privacy Hinges on Thousands of New Jersey Cops — WIRED (November 25, 2024)
+Companies Line Up to Undercut Key Data Privacy Law — Politico (April 5, 2024)
+A Close Up Look at the Consumer Data Broker Radaris — KrebsOnSecurity (March 8, 2024)
+New Jersey Law Enforcement Officers Sue 118 Data Brokers for Not Removing Personal Info — The Record (February 13, 2024)

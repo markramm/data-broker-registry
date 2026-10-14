@@ -1,0 +1,19 @@
+AcquireUp & the CCPA
+Book a DemoLogin
+California Consumer Privacy Act (CCPA)
+Welcome
+On January 1st, 2020, the California Consumer Privacy Act (CCPA) goes into effect.
+CCPA is a new law that gives California consumers increased control and transparency over the personal information companies collect about them.
+In accordance to our commitment to privacy and data ethics, TouchFuse LLC is pleased to announce our compliance with CCPA. Here are the specific steps we have taken for CCPA:
+Storage of Data from California Residents
+Any data that TouchFuse LLC will collect from California residents will be stored for 12 months. Meaning, any data collected after January 1, 2020 will be accessible for the following 12 months.
+California residents who request their data will be able to export a copy of the same.
+Opting Out of Data Collection and Use
+All consumers are able to opt out of data collection today. California residents will have an additional form through which to opt out of data collection. They will not be able to update or correct any data that has already been collected without opting back in.
+California residents who have previously opted in to data collection can request their data be deleted from our database at any time. This will take place within 24-48 hours.
+Our website will include a ‘Do Not Sell My Info’ link for California users to opt out of this type of data usage.
+Updates to Our Privacy Policy
+Our privacy policy currently provides full transparency and disclosure for consumers on TouchFuse LLC’s data collection policies. It will be updated to include a section specific to California residents detailing what data is collected, why it’s being collected, how the data is used, and with whom we share the data.
+It will also include a link to a page for California residents to go to delete any data that has been collected.
+If you have questions or access/deletion requests, please contact us at DataCompliance@AcquireDirect.com or submit a request on our OptOut page and our Data Compliance team will reach out to you with your information and options.
+Opt Out Here

@@ -1,0 +1,78 @@
+Your Privacy Choices — Datonics
+Your Privacy Choices
+Depending on your residency location, you may have privacy rights by law in your jurisdiction that apply to Datonics regarding the personal information that we maintain about you. These rights may include the right to access your information, the right to delete your information, the right to correct your information, the right to opt-out of selling/sharing of your information, the right to opt-out of targeted advertising, the right to limit the use of your sensitive personal information, and other rights available under applicable laws and/or as set forth in our Technology Privacy Policy.
+Please keep in mind that Datonics’ products and services generally do not involve the collection and use of identifiable information such as your name, physical address or email address. Rather, our data consists of mobile device advertising IDs (“MAIDS”), cookies and hashed email addresses. To learn more about our data processing activities, read our full Technology Privacy Policy.
+Exercising Your Rights
+Datonics supports your ability to exercise your rights under applicable privacy laws, and, in our discretion, if you live in a location where no privacy law is in place that grants such rights.
+When you click on any request link provided below, we will automatically collect certain information from this browser on which you are viewing the form in order to process your request. Additionally, we will ask you for other information, including your email address, in order to validate and process your request.
+Please note the following additional limitations of using the Privacy Rights Request Forms:
+Web Browser Privacy Rights – If you choose to opt out, we will place a Datonics opt-out cookie on your browser and we will no longer allow the information we collect to be used for interest-based advertising purposes on the browser where you opt out. However, we are at the mercy of browser providers, such as Google Chrome, that may limit the amount of time a cookie can be active on your device and/or block our cookies altogether. If you delete cookies, use another browser or a different device, you need to renew your opt-out choice.
+Mobile Device Privacy Rights - Opting-out of processing your MAID will only be effective for so long as your mobile device uses that MAID. If your device generates a new MAID (for example, when you reset your device’s settings), your previous opt-out of the MAID will not be effective unless you actively opt-out again with your newly generated MAID.
+Email Privacy Rights - Opting-out of processing your email address will only be effective for the particular email address you entered in the opt-out form.
+To exercise additional rights such as the right to correct personal information or limit the use of sensitive personal information, please use the form below.
+Web Browser privacy Rights
+Datonics’ Browser Opt-Out Tool allows you to see the status of data collection on the current browser and exercise your rights to access, delete, or opt-out of sale or use for targeted advertising of your personal information pertaining to this browser.
+The Browser Opt-Out Tool utilizes cookies technology to store and access your opt-out preferences. This information includes Datonics’ Cookie ID assigned to your browser, your IP Address and your browser User_Agent string, and it is collected to only to facilitate the processing of your request.
+For the Browser Opt-Out Tool to function effectively on your computer with cookie-based identifiers, it's essential that your browser is configured to accept cookies. If your browser does not have cookies enabled or if you employ specific ad blockers, there is a possibility that our Browser Opt-Out Tool may not operate as intended. Additionally, if you decide to clear your browser's cookies, your opt-out preferences will also be deleted, rendering your opt-out ineffective until you actively opt-out once more.
+Web Browser Data Collection Status:
+[ Loading... ]
+Mobile Device Privacy Rights
+To opt out of us processing your Mobile Advertising ID (MAID), or exercise other rights pertaining to your mobile device, you will need to provide us your MAID, aka IDFA on iOS devices or AAID/GAID on Android device. Typical MAID format is “123e4567-e89b-12d3-a456-426614174000”. Please see instructions for doing so below. You can also learn more about how to opt-out on mobile devices by visiting this page from the Network Advertising Initiative - https://thenai.org/how-to-opt-out/:
+For iOS IDFA:
+Install an app from the App Store that meant for only displays your IDFA, such as My Device ID by AppsFlyer or IDFA for Analytics by AUTOMATONS AU.
+The app may request permission to access your IDFA for advertising purposes. If prompted, grant this permission.
+Open the app and it will display your IDFA, if available.
+For Android/Google Advertising ID (AAID/GAID):
+Access your device settings.
+Scroll down and look for the "Google" section within your device settings.
+Within the "Google" settings, tap the "Ads" or "Ads & Privacy" option.
+In the "Ads" or "Ads & Privacy" section, you should find your AAID. It may be labeled as "Your advertising ID" or simply "Advertising ID."
+Email Privacy Rights
+Datonics collects and process data pertaining only to hashed emails.
+A plain email is your usual email address, like "example@email.com," which you use for sending and receiving emails. It's easy for humans to read.
+Plain emails contain the actual characters of an email address and are commonly used for everyday communication, online registrations, and various online services. They are easily readable and not encrypted or hidden in any way.
+A hashed email, on the other hand, is a jumbled-up version of an email address, created for security. It's like turning "example@email.com" into a secret code that looks like this: 542718bb7fad8057b5344e5e5f3a11303e618ac0262cc49313a03c9884fb914d. Hashed emails are used to protect your email address in some online situations. This code cannot be turned back into your original email!
+To opt out of us processing your hashed email, or exercise other rights pertaining to your email, you will need to provide us your email in the form below.
+Ready to Get Started?
+Complete this form and a member of the Datonics team will be in touch.
+Email (required)
+Resident of (required)
+Select an option
+California
+Colorado
+Connecticut
+Delaware
+Indiana
+Iowa
+Kentucky
+Maryland
+Minnesota
+Montana
+Nebraska
+New Hampshire
+New Jersey
+Oklahoma
+Oregon
+Rhode Island
+Tennessee
+Texas
+Utah
+Virginia
+Other
+Other Location (required)
+Type of Request (required)
+Select an option
+Opt-out of Targeted Advertising / Do Not Sell or Share My Personal Information
+Delete My Information
+Access/Obtain Copy of My Information
+Correct or Update My Information
+Limit the Use of My Sensitive Personal Information
+Mobile Advertising ID (IDFA / AAID)
+Resident Certification (required)
+I certify that I am a resident of selected state / location and that
+all information I have submitted is true and accurate.
+I certify that I am an authorized agent of the data subject whose
+data is being submitted.
+Website
+Submit
+For questions, please email privacy@datonics.com

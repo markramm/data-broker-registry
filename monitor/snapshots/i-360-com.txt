@@ -1,0 +1,171 @@
+CCPA | i360
+Skip to main content
+Close Search
+CALIFORNIA CONSUMER PRIVACY NOTICE
+Effective date: December 2022
+Last updated: June 2026
+This California Consumer Privacy Notice (“Notice”) supplements i360’s (“i360”) Privacy Policy and applies solely to the personal information collected online and offline of California consumers (excluding i360 employees, applicants, contractors, and other personnel).
+This Notice uses certain terms that have the meaning given to them in the California Consumer Privacy Act of 2018 (as amended by the California Privacy Rights Act of 2020) and its implementing regulations (collectively, the “CCPA”),. Nothing in this Notice is intended to contradict or limit the applicability of the information provided in the i360 Privacy Policy.
+From time to time, we may update this notice. When the notice is updated, we will provide information about the changes we have made, as well as the date of the update.
+1. Notice of Collection and Use of Personal Information
+i360 collects information from government and other sources. In doing so, we may collect (and may have collected during the 12-month period prior to the last updated date of this California Consumer Privacy Notice) the following types of personal information:
+Identifiers: identifiers such as a real alias. postal address. unique personal identifier (such as a device identifier: cookies. Beacons. pixel tags. mobile ad identifiers and similar technology, telephone number, and other forms of persistent or probabilistic identifiers). online identifier. internet protocol address. email address. account name. and other similar identifiers
+Additional Data Subject to Civ. Code §1798.80: physical characteristics or description. Education. income level and other financial information. and medical-related information
+Protected Classifications: characteristics of protected classifications under California or federal l such as race. color. national origin. religion. age. sex. gender. marital status. medical-related information. ancestry. and military and veteran status
+Commercial Information: commercial information, including records of personal products or services purchased. obtained. or considered. and other purchasing or consuming histories or tendencies
+Online Activity: Internet and other electronic network activity information. including. but not limited to. browsing history, search history, and information regarding your interaction with websites, applications. or advertisements
+Geolocation Data: Location data based on IP address
+Sensory Information: electronic. and similar information when you call i360 and leave a voicemail. or record such information on an i360 software
+Employment Information: professional or employment-related information
+Inferences: inferences drawn from any of the information identified above to create a profile about you reflecting your preferences, characteristics, predispositions, behavior, or attitudes
+We may use (and may have used during the 12-month period prior to the last updated date of this California Consumer Privacy Notice) your personal information for the purposes described in our Privacy Policy and for the following business purposes:
+Performing services: Performing services, including maintaining or servicing accounts, providing customer service, processing or fulfilling orders and transactions, verifying customer information, processing payments, providing analytics services, providing storage, or providing similar services
+Marketing: Providing advertising and marketing services
+Auditing: Auditing related to counting ad impressions to unique visitors, verifying positioning and quality of ad impressions, and auditing compliance
+Short Term Use: Short-term, transient use such as non-personalized advertising shown as part of your current interaction with us
+Security Purposes: Helping to ensure security and integrity
+Debugging: Debugging to identify and repair errors that impair existing intended functionality
+Internal R&D: Undertaking internal research for technological development and demonstration
+Safety: Undertaking activities to verify or maintain the quality or safety of a service or device that is owned, manufactured, manufactured for, or controlled by us, and to improve, upgrade, or enhance the service or device that is owned, manufactured, manufactured for, or controlled by us
+Career Opportunities: Managing career opportunities with us
+Business Partners: Managing our relationships with current or prospective partners, corporate customers and vendors and other business partner personnel
+We also may collect additional information or use the information listed above in other ways for which we provide specific notice at the time of collection.
+To the extent we process deidentified information, we will maintain and use the information in deidentified form and will not attempt to reidentify the information unless permitted by applicable law.
+2. Retention of Personal Information
+We retain personal information as described in the “How Long is Personal Information Retained” section of our Privacy Policy.
+3. Sources of Personal Information
+During the 12-month period prior to the last updated date of this California Consumer Privacy Notice, we may have obtained personal information about you from various sources, including as described below:
+Directly from such as when you connect to us via social media. send us questions. Requests. or comments. elect to receive business alerts. newsletters. and other communications. or when you provide information about an incident or allegation
+From your devices. such as when you visit our website or use our mobile applications
+Our affiliates
+Social networking services
+Online advertising companies
+Consumer data vendors and other data suppliers with whom we have contractual agreements
+Public databases
+i360/system generated data
+4. Disclosure of Personal Information
+We may disclose, (and may have disclosed during the 12-month period prior to the Last Updated date of this California Consumer Privacy Notice) the following categories of personal information about you for the business purposes listed above to service providers and contractors: .
+Identifiers
+Additional Data Subject to 1798.80
+Protected Classifications
+Commercial Information
+Online Activity
+Geolocation Data
+Employment Information
+Inferences
+Please see the “With Whom We Share Your Information” section of our Privacy Policy for more information about how we disclose personal information.
+5. Sale or Sharing of Personal Information
+In connection with certain of our products and services, we may sell certain personal information we obtain about you for monetary consideration. You have the right to opt out of such sale of your information or sharing of your personal information, as detailed below.
+We may sell or share for cross-context behavioral advertising purposes (and may have sold or shared during the 12-month period prior to the last updated date of this California Consumer Privacy Notice) your personal information with certain categories of third parties, including as described in our Privacy Policy and below, including for the business purposes described above.
+We do not have actual knowledge that we sell or share the personal information of minors under 18 years of age.
+6. California Consumer Privacy Rights
+You may have certain choices regarding our use and disclosure of your personal information, subject to relevant exceptions under applicable law, as described below.
+Access/Right to Know: You may have the right to request, up to twice in a 12-month period, that we disclose to you the categories of personal information we have collected about you, the categories of sources from which the personal information is collected, the business or commercial purposes for collecting, selling, or sharing personal information, the categories of third parties to whom we disclose personal information, and the specific pieces of personal information we have collected about you during the period beginning January 1, 2022, or such shorter period as permitted by law, provided that we still maintain the information.
+Correction: You have the right to request that we correct the personal information we maintain about you, if that information is inaccurate.
+Deletion: You have the right to request that we delete certain personal information we have collected from you.
+Limit Use and Disclosure: You have the right to limit the use and disclosure of your sensitive personal information.
+Opt-Out of Sale or Sharing: You have the right to opt-out of the sale of your personal information or the sharing of your personal information for cross-context behavioral advertising purposes.
+Shine the Light Request: You may also have the right to request that we provide you with (a) a list of certain categories of personal information we have disclosed to third parties for their direct marketing purposes during the immediately preceding calendar year, and (b) the identity of those third parties.
+How to Submit a Request: To submit an access, correction, or deletion request. limit use or disclosure. or to opt-out of the sale of your personal information, click here to submit your request via the i360 California Consumer Privacy Act California resident request system or call our CCPA information line at 1-844-611-2737.
+To submit a CCPA request as an authorized agent on behalf of a consumer, click here to submit the consumer’s request via the i360 California Consumer Privacy Act California resident request system or call our CCPA information line at 1-844-611-2737. Proof of your status as an authorized agent will need to be submitted along with your request through the i360 California Consumer Privacy Act California resident request system. We may also require for the consumer to verify their own identity directly with us prior to actioning requests submitted by authorized agents.
+To opt out of the sale of your personal information or sharing of your personal information for purposes of cross context behavior advertising, click “Do Not Sell or Share My Personal Information” or use or use the Global Privacy Control signal (“GPC”). If you would like to opt-out of the sale or sharing of your personal information associated with a different device or browser, please submit an opt-out request or use the Global Privacy Control signal using that device or browser. Please note that if you clear your cookies on a particular browser or device, you may need to resubmit your opt-out request again from that device or browser. Requests sent using the Global Privacy Control will apply to the device and browser from which they are submitted. For more information about the Global Privacy Control, please visit https://globalprivacycontrol.org/.
+To submit a Shine the Light request. please contact us at [email protected] and include the phrase “Shine the Light request” in the subject line.
+Verifying Requests: To help protect your privacy and maintain security, we may take steps directly or through a third-party identity verification vendor to verify your identity before granting you access to your personal information or complying with your access, correction, or deletion request. If you request access to, correction of, or deletion of your personal information, we may require you to provide certain information to help us identify you. In addition, if you ask us to provide you with specific pieces of personal information, we will require you to sign a declaration under penalty of perjury that you are the consumer whose personal information is the subject of the request.
+Additional Information: If you choose to exercise any of your rights under the CCPA. you have the right to not receive discriminatory treatment by us related to products or services we offer you. To the extent permitted by applicable law, we may charge a reasonable fee to comply with your request. This Notice is available in alternative formats upon request by emailing [email protected] or contacting our CCPA information line at 1-844-611-2737.
+7. Annual CCPA Reporting
+Below is a table providing information regarding requests by consumers. as defined by the CCPA. under the CCPA Regulations section 999.317(9) for the calendar year 2025.
+Type of Request
+Total Number of Requests
+Total Number of Requests Complied With in Whole
+Total Number of Requests Complied With in Part
+Total Number of Requests Denied*
+Mean number of days to substantively respond
+Median number of days to substantively respond
+Request to Know – Specific Pieces
+17
+17
+Request to Know – Categories
+Request to Delete
+700
+700
+Request to Opt-Out
+625
+625
+Request to Limit
+Request to Correct
+*Under California law, if you cannot verify a consumer’s identity, the request should be categorized as denied-not complied in whole or in part.
+The Data is the Difference®
+Contact Us
+Login
+POLITICAL PRODUCTS
+i360 Portal
+i360 Voter & Consumer Data
+i360 Models
+i360 Call
+i360 Grassroots
+i360 Text
+Survey Research
+iKE: AI Audience Builder
+Political Analytics
+i360 Action
+Digital Segments
+i360 Events
+i360 Vote
+Commercial Products
+LEGAL
+Terms of Use
+Privacy Policy
+California Privacy Notice
+Do Not Sell or Share My Personal Information and Limit the Use of My Sensitive Personal Information
+How to Exercise Your Consumer Data Rights
+Close Menu
+Why i360
+Political Products
+First Column
+All Political Products
+i360 Platform TourNew
+Plans & Pricing
+GOTV Bundles
+Second Column
+Understand your audience
+i360 Voter & Consumer Data
+i360 Portal
+i360 Models
+Survey Research
+iKE: AI Audience Builder
+Grassroot tools
+i360 Call
+i360 Grassroots
+i360 Text
+Third Column
+Visualize your data
+Political Analytics
+Expand your reach
+Digital Segments
+i360 Site Builder
+i360 Action
+i360 Events
+i360 Contact Officials
+i360 Vote
+Commercial Products
+Industries
+Advocacy
+Paid Media
+Campaigns
+Consultancies
+Financial Services
+Official Offices
+Nonprofits
+Resources
+Case Studies
+Insights
+Training and Support
+Integrations
+Get Started
+Company
+Our Story
+Life at i360
+Careers
+Contact
+Login
+Get Started

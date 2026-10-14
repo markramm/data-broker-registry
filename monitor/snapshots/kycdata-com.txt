@@ -1,0 +1,40 @@
+Do Not Sell My Personal Information -
+Skip to content
+Do Not Sell My Personal Information
+For Consumers
+KYC Data is a compiler of deed data (public records) from courthouses around the USA. We compile that data for businesses to market various products and services primarily for direct mail, but it can also be used for telemarketing and email marketing when we are able to make a positive match between the consumer and property address. While our data can be used for social media marketing, the process of matching is left up to the individual marketer and the social media platform.
+How can I check what information KYC Data has compiled about me?
+Visit our consumer portal at https://consumer.kycdata.com
+Send an email to consumers@kycdata.com
+This is how KYC Data compiles data:
+One of our data compilers collects warranty deed and mortgage information from a courthouse
+The data compiler sends the data to KYC Data
+We perform hygiene on the data to ensure it is accurate
+We sell the following information:
+Name
+Address
+City
+ZIP
+Mortgage Amount
+Lender
+Sales Price
+Additional geographic information is derived from the address; Delivery Point, Longitude and Latitude (for identifying properties within a certain radius)
+Additionally, we partner with a large data aggregator, so we can match our data with it for a marketer to further narrow its target. For an example, the following data might be selected by our customers:
+Phone number (no cell numbers)
+Email address
+Age
+Income
+Home built year
+Square footage
+Number of bathrooms
+Number of bedrooms
+Other than the name and address, KYC Data does not maintain any personally identifiable information. All county courthouses have redacted information such as Social Security Numbers and KYC Data has never compiled that data type of data. Additionally, KYC Data does not maintain data on minors.
+CHECK MY INFO NOW
+We are currently not partnering with any consumer database companies; all of our data is based on public records. Regardless, we will make every effort to provide timely responses to your requests. Unfortunately, large corporations are now providing informative requests to us via email in bulk and that has inundated our systems. It is a timely process to research each request manually. Being such we highly recommend you visit our web site https://consumer.kycdata.com.
+Our customers range from small local businesses up to large corporations who are looking to market their products and services to consumers. This might be a local dentist, or church welcoming you to a new home, or a large insurance company.
+Due to the California Consumer Protection Act we are obliged to allow consumers who reside in the state of California with the ability to see what data we have collected and a means for preventing any further sales of that data. As of January 1, 2020, if you reside in the state of California and wish to see all the data that we have collected on your name and address, click here to access our consumer query tool. We will present you with a list of all the data we have compiled on you and a link to prevent future sale of that data.
+Because web sites are subject to misuse, we will only allow you to access this information a limited amount of times per day. In addition to your name and address you will also need to provide us with an email address and you will need to confirm receipt of an email before being able to view your data and suppress it from future sales.
+If you have problems with the web portal, please send an email to consumers@kycdata.com and we will work to resolve the issue as soon as possible. Please note that we do not compile information on every real estate transaction and in every county in the United States, so there is always a possibility that we do not have that information.
+Access free data now
+Access free data now
+Call Now Button

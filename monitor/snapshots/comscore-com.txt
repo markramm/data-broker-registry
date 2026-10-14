@@ -1,0 +1,48 @@
+Data Subject Rights - Comscore, Inc.
+Comscore is a recognized global leader in cross-platform measurement of audiences, advertising, and consumer behavior. We employ a number of solutions to measure consumers’ multi-screen activity.
+Certain privacy laws provide individuals with the right to request access to and/or deletion of the personal information an organization has about them. In some jurisdictions, individuals have additional rights, such as the right to correct, restrict processing of, or opt out of the sale of their personal information. At Comscore, the rights afforded to individuals under privacy laws are collectively known as Data Subject Rights (“DSRs”).
+To submit a DSR request in relation to personal information processed by Comscore, please fill out the appropriate form(s) linked below depending on your relationship with Comscore. If you were a job applicant, please be sure to fill out the job applicant form in addition to any other form(s) that are relevant for you. You can use the forms linked below to request:
+access to personal information;
+deletion of personal information;
+to correct any errors in personal information;
+to opt out of sales of personal information, including sharing for targeted advertising
+to limit the processing of certain “sensitive” personal information; or
+other applicable rights related to personal information, including rights described in our Consumer Health Data Privacy Notice.
+Comscore’s DSR Team will follow up with you after you submit the form(s) and, if necessary, will request additional information to verify your identity and complete your request.
+Due to the nature of the data Comscore collects as well as how data is collected, we need you to complete these forms to allow us to verify your identity before processing your request. More information is available on each form.
+To exercise other rights that may be available to you under your local laws, please send an email to DSR@comscore.com.
+Tagging Data
+One Comscore source of measurement data is web tagging under the ScorecardResearch and VoiceFive brands. Click here to make a DSR request for this data.
+Panel and Other Data
+Comscore may have processed your personal information if you participated in a panel, responded to a survey, requested or consented to marketing information, and/or for human resource purposes (i.e., as required to establish, maintain, and terminate the employment relationship). If you believe Comscore may have processed personal information for you under any of these circumstances, click here to make a DSR request.
+Job Applicant Data
+If you have previously applied for a job with Comscore and would like to make a DSR request, click here to log into our job application tool from which you can submit a request.
+Authorized AgentsA DSR request may be submitted to Comscore by an “Authorized Agent” (another person or organization acting on your behalf) with the permission of the individual whose personal information Comscore processes. To allow an Authorized Agent to make a DSR request for you, you must submit a signed permission or contact Comscore directly to confirm that you have authorized a specific agent to make a request. In addition, you must still verify your identity directly with Comscore. An Authorized Agent can submit a DSR request for you by using the methods referenced in the Privacy Policy, including the forms linked above.
+Requests Using Third-Party Services
+Comscore takes the security of our systems and data seriously. If you attempt to submit a DSR request using a third-party service that requires Comscore to click on a third-party link or attachment or respond via a third-party portal, we will not be able to respond because we cannot verify the security of the third-party service. If you have provided additional contact information with your request, we will respond to let you know that we cannot process your attempted request for this reason and you can choose to resubmit through another channel. To learn more about the steps we are taking to protect security, please see our Privacy Policy.
+2025 Data Subject Rights Request Metrics
+The table below provides Comscore’s metrics for responding to consumer's data subject rights requests in 2025.
+Request Type
+Received
+Responded – Complied in whole or in part
+Responded – Denied
+Requests for Access/Know*
+40
+40
+Requests to Delete*
+275
+275
+Requests to Opt-Out of the Sale of Personal Information*
+115
+115
+Request to Limit Sensitive Personal Information
+47
+47
+Median/Mean Days for Substantive Response to Requests in 2025
+33/35
+* The numbers reflect all access and deletion requests received by Comscore, not just those from California residents.
+Privacy Policy
+Terms of Service
+Consumer Health Data Privacy Notice
+Do not sell my personal information
+Contact Us

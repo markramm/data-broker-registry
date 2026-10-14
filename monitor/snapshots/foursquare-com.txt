@@ -1,0 +1,49 @@
+Data Rights - Foursquare
+Foursquare City Guide
+Log In
+Sign Up
+Nearby:
+Get inspired:
+Top Picks
+Trending
+Food
+Coffee
+Nightlife
+Fun
+Shopping
+Opt-out of sale/sharing or Limit use of personal information
+Please provide the information requested below in order to exercise any of the following rights:
+Opt-out of Sale of Personal Information
+Opt-out of Sharing of Personal Information
+Limit Use of Sensitive Personal Information (i.e., location data)
+In order to process your request, we will need your Mobile Advertising Identifier. If you do not provide us with this required information, we are unable to process your request. Directions on how to find your Mobile Advertising Identifier are outlined below.
+iOS Advertising Identifier (“IDFA”).If you use an iOS operating system, a third-party application is required to locate your Apple IDFA. We do not control such third-party tools and are not responsible for their content, privacy policies, or use of your personal information.
+Android Advertising Identifier.If you use an Android operating system, open the Google Settings app on your Android device and select “Ads.” Your Advertising Identifier should be listed at the bottom of the screen.
+Apple IDFA or Android ID Please enter a valid Apple IDFA or Android ID.
+Please select at least one from the following choices:
+Please do not sell or share my personal information.
+Please limit the use of my sensitive personal information.
+About
+Blog
+Businesses
+Developers
+Help
+Careers
+Cookies
+Privacy
+Your Privacy Choices
+Terms
+English
+English
+Français
+Deutsch
+Bahasa Indonesia
+Italiano
+日本語
+한국어
+Português
+Русский
+Español
+ภาษาไทย
+Türkçe
+Foursquare © 2026 Lovingly made in NYC, CHI, SEA & LA

@@ -1,0 +1,21 @@
+U.S. States Privacy Rights - GroundTruth
+Skip to content
+Request a demo
+U.S. States Privacy Rights
+Please note, however, that doing so will require you to contact us and provide us with additional information that we would not otherwise have, such as your name and proof of residency. You may designate an authorized agent to make a request on your behalf. To do so you will need to provide the agent with signed written permission to act on your behalf. Please note that we may deny your request for a variety of reasons as applicable state laws allow or require.
+At GroundTruth, consumer privacy has long been at the center of what we do. One of our core beliefs is that we can provide powerful insights while respecting privacy. We will not use the information you submit to make these requests for purposes other than verifying your request and carrying it out.
+One of the fundamental ways in which we live that out is by basing our systems on devices’ mobile advertising identifiers, rather than people’s names or email addresses. A mobile advertising identifier (“MAID”) is a string of characters linked to a mobile device for purposes of advertising and analytics. It looks something like this: a12b3cd4–5678–9e01-fa23–456-b78c9d0e.
+You can learn how to reset your MAID by clicking here. Resetting your MAID will break the linkage in our systems to any information we have about your device from before the reset, rendering it unusable in our systems. Alternatively, we offer mechanisms to opt out of use and sharing of your information for behavioral advertising, available here.
+Specific state laws provide the following rights subject to certain exceptions and limitations contained in the relevant state law:
+The right to confirm whether we process personal information about you.
+The right to correct inaccuracies in the personal information we have collected about you.
+The right to know the categories and specific pieces of personal information we collect, use, disclose, and sell about you, the categories of sources from which we collected your personal information, our purposes for collecting or selling your personal information, the categories of your personal information that we have either sold or disclosed for a business purpose, and the categories of third parties with which we have shared personal information.
+The right to request that we delete the personal information we have collected from you or maintain about you.
+The right to opt out of (i) the sharing of personal information for targeted advertising or (ii) the sale of personal information. Please note that if you opt out of certain types of sales, we may be unable to provide you with the services that rely on such sales. Additionally, we do not knowingly sell or share personal data of individuals under 18.
+Depending on your state, the right to receive a portable and readily usable copy of the personal information we have collected about you, to the extent feasible.
+Choice Regarding Sensitive Information. We may use or disclose the sensitive information that we collect from you for purposes that require an opt-out opportunity under the law. Depending on your state, you may have the right to:
+Limit our use or disclosure of certain “sensitive” personal information about you;
+Opt out of our processing of certain “sensitive” personal information; or
+Withdraw consent for such processing if you previously gave it.
+The right not to receive discriminatory treatment for the exercise of these privacy rights.
+GroundTruth provides the rights described on this page as required by certain states’ laws. Residents of such states are free to exercise them by completing a form or emailing us at privacyrights@groundtruth.com, and include your MAID and which rights you would like to exercise about information we may maintain about that MAID. For instructions on how to look up a device’s MAID, click here. By submitting your request, you certify that the MAID(s) you provided with your request are associated with your device(s).

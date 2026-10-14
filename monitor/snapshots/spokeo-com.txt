@@ -1,0 +1,44 @@
+Spokeo | People Search | Opt Out
+You Control Your Data
+We want you to have access to the knowledge and the tools you need to understand, protect, and control your personal data.
+We Do Not Share Sensitive Data
+We do not share or sell certain types of data. Social security numbers, ethnicity, and sexual orientation are a few of the data points that we believe should be private. Learn more about the different types of data we collect and how we categorize them.
+View Categories
+Data with a Purpose
+We generate a digital footprint with nearly every move we make on and offline. Our lives leave behind a trail of public records. By law, many of these records and the information they contain are made publicly accessible via the public domain.
+Spokeo uses this pre-existing public data for one purpose: to give you the power to make informed decisions in your life. Find out why millions of people trust us every day: learn about the power of data and how it can help elevate all your personal connections.
+Learn More
+Opt Out Your Listing from Spokeo
+Spokeo aggregates only publicly available information from third party sources. Although publicly available data is exempt from state privacy laws, for over a decade we’ve been an industry leader in respecting consumers’ privacy preferences and enabling them to opt out
+Opting out your listing from Spokeo will not remove the data from its original source. Your information may still appear on other websites. Furthermore, you may have multiple listings on Spokeo. Each one is identified by a unique URL and must be opted out individually.
+Since we continually receive new and updated records from public sources, your information may reappear on Spokeo in the future without notice. Please regularly check Spokeo for additional listings that may appear.
+To opt out a listing from Spokeo, please enter the URL of the profile. Depending on the nature of your request and the amount of data, your opt-out request should be processed in 24-48 hours.
+URL
+Profile URL Example: "https://www.spokeo.com/Smith-Sample/Houston/TX/p12345678"
+Payment URL Example: "https://www.spokeo.com/purchase?q=Smith%20Sample#Sample:12345678"
+Email Address
+To complete this process, we will send you a confirmation email. Please click the link in the email.
+OPT OUT
+Our customer care representatives are available to assist you here, or you can email us directly at privacy@spokeo.com.
+Our Data Best Practices
+As a leader in people search since 2006, we adhere to industry-leading practices including complying with PCI security standards, adopting ISO 27001 principles, and continuously validating our infrastructure. To learn more, read our Privacy Policy.
+Securing Your Data
+To enhance your experience, we collect certain types of user-generated data. This data is not part of the public information we make available through Spokeo search. You have the right to know the types of information that we collect.
+Learn More
+Using Data for Good
+23+ million customers trust Spokeo to learn more about people, find contact information, and make the internet and real-world interactions more trustworthy. We’ve even helped reunite families through the power of people search.
+Learn More
+Increasing Trust Online
+Spokeo aggregates 13+ billion public records from thousands of databases to create an industry-leading people intelligence platform. In addition to helping people reconnect, deepen their relationships, and safely meet in-person, we also offer resources to help you protect your digital identity and prevent fraud.
+Learn More
+Discover
+Here are some useful resources to help you learn more.
+Learn About Our Company
+read more
+Tips
+The Benefits of Maintaining Your Profile
+read more
+Safety
+The State of Our Data
+read more
+Featured

@@ -1,0 +1,86 @@
+name: Page monitor
+
+# Daily: fetch every broker's opt-out page, commit the snapshots that moved under monitor/,
+# and file (or comment on) one "Page monitor: <id>" issue per broker that needs a human to
+# re-verify it. Never touches data/ -- a changed page is a reason to look, not a correction.
+
+on:
+  schedule:
+    - cron: "17 9 * * *"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Space-separated broker ids to check (blank = all)"
+        required: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: page-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Fetch and fingerprint every opt-out page
+        env:
+          ONLY: ${{ github.event.inputs.only }}
+        run: |
+          python3 scripts/monitor_pages.py \
+            ${ONLY:+--only $ONLY} \
+            --report "$RUNNER_TEMP/report.md" \
+            --events "$RUNNER_TEMP/events.json"
+          cat "$RUNNER_TEMP/report.md" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit snapshots that moved
+        id: commit
+        run: |
+          git add monitor/
+          if git diff --cached --quiet; then
+            echo "sha=" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          n=$(jq length "$RUNNER_TEMP/events.json")
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -q -m "monitor: $(date -u +%F) page snapshots ($n need attention)"
+          git push
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: File or update one issue per broker
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SHA: ${{ steps.commit.outputs.sha }}
+          MAX_NEW: "30"
+        run: |
+          gh label create page-monitor --color BFD4F2 \
+            --description "Opt-out page changed or disagrees with the entry" 2>/dev/null || true
+          created=0
+          jq -c '.[]' "$RUNNER_TEMP/events.json" | while read -r ev; do
+            title=$(jq -r .title <<<"$ev")
+            body=$(jq -r .body <<<"$ev")
+            if [ -n "$SHA" ]; then
+              body="$body"$'\n\n'"Snapshot diff: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/commit/${SHA}"
+            fi
+            num=$(gh issue list --state open --label page-monitor --search "\"$title\" in:title" \
+                    --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -1)
+            if [ -n "$num" ]; then
+              gh issue comment "$num" --body "$body"
+            elif [ "$created" -lt "$MAX_NEW" ]; then
+              labels=$(jq -r '.labels | join(",")' <<<"$ev")
+              gh issue create --title "$title" --body "$body" --label "$labels"
+              created=$((created + 1))
+            else
+              echo "::warning::issue cap ($MAX_NEW) reached; not filed: $title"
+            fi
+          done

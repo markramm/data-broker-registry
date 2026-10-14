@@ -1,0 +1,336 @@
+Privacy Policy | The Data Group
+Privacy Policy
+Effective Date: May 27, 2026
+Thank you for choosing to be part of our community at The Data Group (“Company”, “we”, “us”, or “our”). We understand the importance of safeguarding your data and are dedicated to maintaining transparency about how we handle it. We are committed to protecting your personal information and your right to privacy.
+Contact: Compliance@thedatagroup.com | Website: https://thedatagroup.com/
+This privacy policy applies to all information collected through our website and/or any related services, sales, marketing or events (the “Services”), including cases where clients provide us with data files for processing by third-party data partners or where we obtain third-party data for client-requested list rentals. We act as a data processor on behalf of clients and do not independently collect or compile personal data.
+This Privacy Policy applies to individuals who interact with our website, services, and products and covers compliance with the following applicable privacy frameworks:
+CCPA/CPRA — California Consumer Privacy Act / California Privacy Rights Act
+FDBR — Florida Digital Bill of Rights
+CPA — Colorado Privacy Act
+VCDPA — Virginia Consumer Data Protection Act
+UCPA — Utah Consumer Privacy Act
+CTDPA — Connecticut Data Privacy Act
+TDPSA — Texas Data Privacy and Security Act
+NJDPA — New Jersey Data Privacy Act
+NDPA — Nebraska Data Privacy Act
+MCDPA — Montana Consumer Data Privacy Act
+ICDPA — Iowa Consumer Data Protection Act / Indiana Consumer Data Protection Act
+OCPA — Oregon Consumer Privacy Act
+DPDPA — Delaware Personal Data Privacy Act
+TIPA — Tennessee Information Protection Act
+VDPA — Virginia Data Protection Act
+NHDPA — New Hampshire Data Privacy Act
+2. WHAT INFORMATION DO WE COLLECT?
+Personal Information You Disclose to Us
+We collect personal information voluntarily provided by users and clients. The categories of information we collect include:
+Client Data Provided for Processing: Includes names, addresses, phone numbers, and other personal information as directed by clients. We act solely as a data processor in this context and do not independently determine the purpose or means of processing.
+Third-Party Data for List Rentals: Personal data sourced solely to fulfill client requests for list rental services. Such data is obtained through vetted third-party data partners and is not retained beyond the scope of service fulfillment.
+Information Automatically Collected
+When you visit our website, we may automatically collect certain technical information, including but not limited to: IP address, browser type and characteristics, device data and identifiers, cookie identifiers, and approximate geolocation derived from IP address.
+Client Data Source Attestation and Transparency
+As part of our commitment to responsible data stewardship, we require that clients who provide personal data to us for processing attest that such data has been collected from lawful sources with appropriate notice to, and where required consent from, the individuals whose information is included. We do not knowingly process personal data that clients have obtained in violation of applicable law, regulation, or privacy policy. If you believe that personal data about you has been submitted to us in a manner inconsistent with the original collection notice or consent, please contact us at Compliance@thedatagroup.com so that we may investigate and take appropriate corrective action.
+3. HOW WE USE AND PROCESS CLIENT DATA
+We process client data strictly according to client instructions and for no other purpose. The primary activities through which we process client data include:
+Data Enrichment and Appending: Client-provided files are processed to append or update data elements as specified by the client. All files are securely deleted following completion of the processing engagement.
+List Rental Services: We facilitate the delivery of third-party data to fulfill client-requested list rental orders. No data is retained beyond the fulfillment of the specific rental order.
+Data Processing Limitations
+No independent data collection beyond what clients direct
+All data partner relationships governed by binding compliance agreements
+Data security and confidentiality maintained throughout all processing activities
+We are committed to processing client data solely for the purpose intended by the client and in strict conformance with applicable law.
+Prohibition on Re-Identification of De-Identified Data
+We do not attempt to re-identify any individual whose personal information has been anonymized, pseudonymized, or de-identified. We do not combine de-identified data with information from other sources in a manner that would enable the identification of a natural person. We contractually require our data partners and permitted subcontractors to observe the same prohibition. In the event that re-identification occurs inadvertently within our systems or through a partner, we will take immediate steps to contain the incident, notify affected parties as required by applicable law, and mitigate any harm to affected individuals.
+Prohibition on Secondary Use of Client Data
+We do not use client data for any purpose beyond the specific services requested by the client. We do not repurpose, resell, or otherwise exploit client-provided data for independent business development, marketing to third parties, profiling, or any other commercial vertical not contemplated by the original client engagement. Any client request to expand the use of previously submitted data to a materially different purpose will require a new written engagement and, where required by applicable law, appropriate notice to or consent from affected data subjects.
+4. HOW DO WE USE YOUR INFORMATION?
+We use the information we collect or receive for the following purposes:
+Marketing communications, including updates, offers, and promotional materials
+Administrative notices regarding services, accounts, and policy changes
+Responding to testimonials, feedback, and service inquiries
+Delivering targeted advertising relevant to user interests
+Protecting our Services, rights, and the interests of our users
+Legal compliance and regulatory obligations
+Service delivery, fulfillment, and operational support
+User and client support functions
+Legal Bases for Processing
+Legitimate Interests: Where processing is necessary for our legitimate business interests and not overridden by your rights
+Performance of a Contract: Where processing is necessary to fulfill our contractual obligations
+Consent: Where you have given explicit consent to processing
+Legal Obligations: Where processing is required to comply with applicable law
+5. WILL YOUR INFORMATION BE SHARED WITH ANYONE?
+We only share information in the following circumstances, consistent with applicable law and the legal bases identified below:
+Consent: With your explicit consent or at your direction
+Legal Compliance: Where required by applicable law, court order, or governmental authority
+Service Provision: With vendors, consultants, and third-party service providers who assist in delivering our Services, subject to binding confidentiality and data protection obligations
+Rights Protection: To protect the rights, property, or safety of The Data Group, our clients, or others
+Legal Obligations: To fulfill legally mandated disclosure requirements
+Business Transfers: In connection with a merger, acquisition, sale of assets, or similar corporate transaction, where the acquiring entity agrees to be bound by the terms of this Privacy Policy
+Third-Party Advertisers: For the delivery of interest-based advertising, consistent with applicable law and user opt-out rights
+We do not share, sell, rent, or trade personal information with third parties for their own promotional purposes unless expressly described in this Policy and subject to applicable legal requirements.
+6. DATA RETENTION AND DELETION POLICY
+We retain personal information only as long as necessary to fulfill the purposes for which it was collected, subject to legal, regulatory, and contractual obligations. Our specific retention practices are as follows:
+Client-Provided Data: Deleted within thirty (30) days of service completion, unless the client and applicable law require a different retention period.
+List Rental Data: Not retained after successful delivery to the client.
+Transaction and Communication Records: Retained for the period required by applicable law or as reasonably necessary to support dispute resolution and legal proceedings.
+Anonymized Data: Securely stored until permanent deletion is operationally feasible; such data cannot be used to re-identify individuals.
+Secure deletion protocols, including physical destruction or cryptographic erasure where appropriate, are applied to all personal information at the expiration of its applicable retention period. Clients may contact us to discuss specific retention requirements applicable to their engagements.
+Backup System Retention Cap
+Notwithstanding any other provision of this policy, personal data that has reached the end of its applicable retention period will not be retained in backup or archival systems for more than thirty (30) days following that expiration date, unless retention is required by applicable law or a valid court or regulatory order. We will ensure that backup copies of expired data are purged on a rolling basis consistent with this cap.
+Written Deletion Confirmation
+Upon written request by a client or, where required by applicable law, by an individual data subject, we will provide written confirmation that specific personal data has been deleted from our active systems and, following the thrity (30)-day backup cap described above, from our backup systems. Requests for deletion confirmation may be submitted to Compliance@thedatagroup.com.
+7. DATA PARTNER SELECTION AND SECURITY
+We conduct thorough due diligence in the selection of all data partners and require execution of legally binding data processing or data partner agreements as a condition of any engagement. Our requirements for data partners include:
+Implementation of industry-standard encryption for data in transit and at rest
+Robust access controls limiting data access to authorized personnel only
+Documented incident response and breach notification plans
+Demonstrated compliance with applicable data privacy laws and standards
+We are committed to the continuous improvement of our security practices and to ongoing review and re-vetting of data partner relationships to ensure sustained compliance.
+8. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
+We may use cookies and similar tracking technologies (such as web beacons and pixel tags) to access or store information about your interactions with our website. Certain information may be collected automatically when you use our Services. For a detailed description of the types of tracking technologies we use and your choices regarding their use, please review our Cookie Policy, available on our website at https://thedatagroup.com/. You may also set your browser to refuse all or some browser cookies or to alert you when cookies are being sent.
+9. HOW LONG DO WE KEEP YOUR INFORMATION?
+We keep personal information no longer than one (1) year for the purposes outlined in this policy, unless a longer retention period is required or permitted by law, regulatory obligation, or client contract. When information is no longer needed for its original purpose, we will either:
+Delete or permanently anonymize the information so it can no longer be associated with an identified or identifiable individual; or
+Where immediate deletion is not technically feasible, securely store and isolate the information from any further use or processing until secure deletion is possible.
+10. DATA MINIMIZATION AND PURPOSE LIMITATION
+Our data minimization and purpose limitation practices are foundational to our privacy program. We adhere to the following principles:
+Limited Collection: We collect only the data elements that are strictly required to deliver the specific services requested by each client. We do not collect surplus data.
+Client-Directed Data Use: All processing activities are performed strictly in accordance with client instructions and for no other purpose.
+Restricted Access: Access to personal data is limited to authorized Company personnel and approved partner organizations with a legitimate need to access such data to perform services.
+Defined Processing Purposes: Data is not repurposed for any activity not expressly authorized by the client in writing.
+No Independent Data Compilation: We do not independently compile, build, or maintain personal data databases beyond what is required by client engagements.
+Compliance with Client Requirements: We align our data minimization practices with any additional restrictions specified by clients in their respective data processing agreements.
+Ongoing Monitoring and Review: We regularly review our data minimization practices to identify and address any deviations from applicable standards.
+11. HOW DO WE KEEP YOUR INFORMATION SAFE?
+We have implemented appropriate technical and organizational security measures designed to protect the personal information we process against unauthorized access, alteration, disclosure, or destruction. These measures include, but are not limited to, access controls, encryption, data segmentation, employee training, and vendor oversight programs. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure. Transmission of personal information to and from our Services is undertaken at the user’s own risk. You should access our Services only within a secure environment and take reasonable precautions to protect your own data and account credentials.
+12. DO WE COLLECT INFORMATION FROM MINORS?
+We do not knowingly collect personal data from, or direct marketing to, children under the age of eighteen (18). Our Services are not directed at individuals under the age of eighteen (18). If you are aware or have reason to believe that personal data about a child under the age of eighteen (18) has been collected through our Services or submitted to us without appropriate parental or guardian consent, please contact us immediately at Compliance@thedatagroup.com so that we may take appropriate remedial action.
+13. WHAT ARE YOUR PRIVACY RIGHTS?
+Depending on your jurisdiction, you may have a range of rights with respect to your personal information. These may include the right to access, correct, delete, or port your personal data, as well as the right to object to or restrict certain processing activities. In some jurisdictions, you may also have the right to lodge a complaint with the applicable data protection supervisory authority. Residents of the European Economic Area (EEA) are encouraged to contact their local data protection supervisory authority with any concerns they are unable to resolve directly with us. To opt out of interest-based advertising, please visit: http://www.aboutads.info/choices/.
+14. CONSUMER REQUEST METRICS
+In accordance with our obligations under the California Consumer Privacy Act (CCPA), as amended by the California Privacy Rights Act (CPRA), we publish the following summary of consumer privacy requests received and processed during the most recent annual reporting period:
+Request Type
+Received
+Completed
+Denied
+Avg. Response Time
+Right to Delete
+39,784
+39,784
+10 days
+Right to Access / Know
+39,784
+39,784
+10 days
+Know What Is Sold / Shared
+39,784
+39,784
+10 days
+Opt-Out of Sale / Sharing
+39,784
+39,784
+10 days
+Limit Sensitive Personal Information
+39,784
+39,784
+10 days
+This data is updated annually no later than July 1 of each calendar year. For questions regarding these metrics or to submit a consumer request, please contact: Compliance@TheDataGroup.com.
+15. INDIVIDUAL RIGHTS AND OPT-OUT FOR LIST RENTALS
+Individuals whose personal information may appear in third-party data used for list rental services have the following rights:
+Access and Correction Requests: Individuals may request to know what personal information about them may be used in list rental activities and may request corrections to inaccurate information.
+Opt-Out of List Rentals: We honor opt-out requests by working with our data partners to remove opted-out individuals from future list rental datasets.
+Right to Deletion: We facilitate deletion requests by notifying the relevant data partners of an individual’s deletion request and requiring that partners honor such requests within their own systems.
+To exercise any of the above rights, contact: Compliance@TheDataGroup.com. We only work with third-party data providers who comply with data privacy regulations and respect individual opt-out requests.
+Opt-Out Processing Timelines and Downstream Propagation
+We are committed to honoring opt-out requests in a timely and thorough manner. Specifically:
+Valid opt-out requests will be processed within the timeframe required by applicable law, and in no event later than forty-five (45) days of receipt of a verifiable request;
+We will propagate opt-out signals to any downstream data partners or subcontractors that have received the relevant data or any portion thereof, and we contractually require those partners to honor such requests;
+We honor opt-out requests submitted through any universal opt-out mechanism recognized under applicable law, including the Global Privacy Control (GPC) signal. Our website is configured to recognize and process GPC signals as valid opt-out requests for the sale or sharing of personal information;
+We will not re-add individuals who have opted out to active datasets or permit their inclusion in future list rentals without re-obtaining valid consent consistent with applicable law;
+We maintain records of all opt-out requests and the disposition of each for a minimum of three (3) years.
+To submit an opt-out request, contact Compliance@TheDataGroup.com.
+Data Broker Registration and Compliance Transparency
+To the extent that The Data Group qualifies as a “data broker” under applicable federal or state law — including California Civil Code § 1798.99.80, Vermont 9 V.S.A. § 2430, Oregon ORS § 646A.570, or any successor legislation — we are registered with the required governmental authorities and maintain all required registrations in good standing. We maintain and honor mechanisms by which individuals may exercise their opt-out and deletion rights as required by applicable data broker statutes. Our current data broker registration status and applicable registration numbers are available upon request by contacting Compliance@TheDataGroup.com. We will promptly update this policy if our registration status changes.
+16. DATA BREACH NOTIFICATION
+In the event of a data security incident involving personal information, we follow a structured incident response protocol that includes the following steps:
+Detection and Assessment: Identifying and evaluating the scope and nature of any suspected breach as rapidly as possible.
+Containment and Mitigation: Taking immediate steps to contain the breach and prevent further unauthorized access or disclosure.
+Investigation: Conducting a thorough investigation to determine the cause of the breach, the categories and volume of data involved, and the individuals potentially affected.
+Notification of Affected Individuals: Where required by applicable law, providing affected individuals with timely notice that includes: a description of the nature of the breach; the categories of personal data involved; the mitigation steps taken; protective recommendations for affected individuals; and our contact information for further inquiries.
+Notification of Authorities: Reporting the breach to relevant regulatory authorities as required by applicable law and within mandatory timeframes.
+Ongoing Monitoring and Prevention: Implementing enhanced monitoring measures and evaluating systemic improvements to prevent recurrence.
+Users also play a role in protecting their data. You should use strong, unique passwords, enable two-factor authentication where available, and promptly report any suspicious activity related to your account or personal information to us at Compliance@thedatagroup.com.
+17. CONTROLS FOR DO-NOT-TRACK FEATURES
+Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track (“DNT”) feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected.
+We recognize and honor the Global Privacy Control (GPC) signal as a valid opt-out of the sale and sharing of personal information where required by applicable law, including the CCPA/CPRA and similar state statutes. With respect to other Do-Not-Track (DNT) signals, no uniform technology standard for recognizing and implementing DNT signals has been finalized beyond GPC. We will continue to monitor developments in this area and update our practices accordingly. If you have questions about our response to specific opt-out signals, please contact us at Compliance@thedatagroup.com.
+18. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
+Yes. California residents have specific rights under the California Consumer Privacy Act (CCPA), as amended by the California Privacy Rights Act (CPRA). These include:
+Right to Know: The right to know what categories and specific pieces of personal information we have collected, the sources of that information, the business or commercial purpose for collecting it, and the categories of third parties with whom we share it.
+Right to Delete: The right to request deletion of personal information we have collected, subject to certain exceptions.
+Right to Correct: The right to request correction of inaccurate personal information.
+Right to Opt-Out of Sale or Sharing: Although we do not sell personal information in the traditional sense, we honor all opt-out requests for the sale or sharing of personal information. You may exercise this right by clicking the applicable opt-out link on our website or by emailing compliance@thedatagroup.com.
+Right to Limit Use of Sensitive Personal Information: The right to limit the use or disclosure of sensitive personal information to certain permitted purposes.
+Right to Non-Discrimination: The right not to receive discriminatory treatment for exercising any CCPA/CPRA rights.
+Shine the Light Law
+California residents may, once per calendar year and at no charge, request and obtain from us information about categories of personal information (if any) disclosed to third parties for direct marketing purposes in the preceding year. To make such a request, please contact us at Compliance@thedatagroup.com.
+Additional Rights for Minors Under 18
+We do not sell or share the personal information of individuals known to be under sixteen (16) years of age without explicit consent. Individuals between thirteen (13) and sixteen (16) years of age must opt in to any sale or sharing. Individuals under thirteen (13) require parental or guardian opt-in consent.
+19. YOUR RIGHTS UNDER ADDITIONAL PRIVACY LAWS
+Residents of various U.S. states have additional privacy rights under applicable state law beyond those described in this Policy. The specific rights available to you depend on your state of residence and the applicable privacy statute. A detailed description of state-specific rights is set forth in Section 22 of this Policy. To exercise any applicable rights, or for more information about your rights under state privacy law, please contact us at Compliance@thedatagroup.com.
+20. DO WE MAKE UPDATES TO THIS POLICY?
+We may update this Privacy Policy from time to time to reflect changes in applicable law, our business practices, or the nature of the personal information we process. When we make updates, the “Revised” date at the top of this Policy will be updated accordingly. For material changes to this Policy, we will endeavor to provide prominent notice by posting a notice on our website or by sending a direct notification to affected individuals where we have contact information for them. We encourage you to review this Policy periodically to stay informed about how we are protecting your information.
+21. HOW CAN YOU CONTACT US?
+If you have questions, concerns, or requests related to this Privacy Policy or your personal information, please contact us by any of the following means:
+Email: Compliance@TheDataGroup.com
+Mail: Chief Privacy Officer, The Data Group, 3208 E Colonial Drive, Suite 118, Orlando, FL 32803
+Phone: 800-262-5609
+Website: https://thedatagroup.com/
+22. STATE-SPECIFIC PRIVACY RIGHTS
+This section describes additional privacy rights available to residents of specific states. To submit a request under any of the following provisions, please contact Compliance@TheDataGroup.com or submit a Consumer Privacy Request Form available through our website.
+22.1 Florida Residents — Florida Digital Bill of Rights (FDBR)
+Florida residents have the following rights under the FDBR:
+Right to Access — to confirm whether we are processing your personal data and access such data
+Right to Correct — to correct inaccuracies in your personal data
+Right to Delete — to delete personal data you have provided to us or that we have obtained
+Right to Opt-Out of Sale — to opt out of the sale of your personal data
+Right to Data Minimization — we collect only the personal data reasonably necessary and proportionate to the purposes for which it is processed
+Right to Non-Discrimination — you will not be discriminated against for exercising your rights
+To exercise your rights, contact Compliance@TheDataGroup.com or submit a Consumer Privacy Request Form.
+22.2 Colorado Residents — Colorado Privacy Act (CPA)
+Colorado residents have the following rights under the CPA:
+Right to Access
+Right to Correct
+Right to Delete
+Right to Opt-Out of processing for targeted advertising, sale of personal data, and profiling for decisions with legal or similarly significant effects
+Right to Data Portability
+Right to Non-Discrimination
+To exercise your rights, contact Compliance@TheDataGroup.com or submit a Consumer Privacy Request Form.
+22.3 Virginia Residents — Virginia Consumer Data Protection Act (VCDPA)
+Virginia residents have the following rights under the VCDPA:
+Right to Access
+Right to Correct
+Right to Delete
+Right to Opt-Out of targeted advertising, sale of personal data, and profiling
+Right to Data Portability
+Right to Non-Discrimination
+To exercise your rights, contact Compliance@TheDataGroup.com or submit a Consumer Privacy Request Form.
+22.4 Utah Residents — Utah Consumer Privacy Act (UCPA)
+Utah residents have the following rights under the UCPA:
+Right to Access
+Right to Correct
+Right to Delete
+Right to Opt-Out of targeted advertising and sale of personal data
+Right to Data Portability
+Right to Non-Discrimination
+To exercise your rights, contact Compliance@TheDataGroup.com or submit a Consumer Privacy Request Form.
+22.5 Connecticut Residents — Connecticut Data Privacy Act (CTDPA)
+Connecticut residents have the following rights under the CTDPA:
+Right to Access
+Right to Correct
+Right to Delete
+Right to Opt-Out of targeted advertising, sale of personal data, and profiling
+Right to Data Portability
+Right to Non-Discrimination
+To exercise your rights, contact Compliance@TheDataGroup.com or submit a Consumer Privacy Request Form.
+22.6 Texas Residents — Texas Data Privacy and Security Act (TDPSA)
+Texas residents have the following rights under the TDPSA:
+Right to Access
+Right to Correct
+Right to Delete
+Right to Opt-Out of targeted advertising and sale of personal data
+Right to Non-Discrimination
+To exercise your rights, contact Compliance@TheDataGroup.com or submit a Consumer Privacy Request Form.
+22.7 New Jersey Residents — New Jersey Data Privacy Act (NJDPA)
+New Jersey residents have the following rights under the NJDPA:
+Right to Access
+Right to Correct
+Right to Delete
+Right to Opt-Out of sale, targeted advertising, and profiling
+Right to Data Portability
+To exercise your rights, contact Compliance@TheDataGroup.com or submit a Consumer Privacy Request Form.
+22.8 Nebraska Residents — Nebraska Data Privacy Act (NDPA)
+Nebraska residents have the following rights under the NDPA:
+Right to Access
+Right to Correct
+Right to Delete
+Right to Opt-Out of targeted advertising, sale, and profiling
+Right to Non-Discrimination
+To exercise your rights, contact Compliance@TheDataGroup.com or submit a Consumer Privacy Request Form.
+22.9 Montana Residents — Montana Consumer Data Privacy Act (MCDPA)
+Montana residents have the following rights under the MCDPA:
+Right to Access
+Right to Correct
+Right to Delete
+Right to Opt-Out of targeted advertising and sale of personal data
+To exercise your rights, contact Compliance@TheDataGroup.com or submit a Consumer Privacy Request Form.
+22.10 Iowa Residents — Iowa Consumer Data Protection Act (ICDPA)
+Iowa residents have the following rights under the ICDPA:
+Right to Access
+Right to Correct
+Right to Delete
+Right to Opt-Out of targeted advertising and sale of personal data
+To exercise your rights, contact Compliance@TheDataGroup.com or submit a Consumer Privacy Request Form.
+22.11 Oregon Residents — Oregon Consumer Privacy Act (OCPA)
+Oregon residents have the following rights under the OCPA:
+Right to Access
+Right to Correct
+Right to Delete
+Right to Opt-Out of targeted advertising, sale, and profiling
+To exercise your rights, contact Compliance@TheDataGroup.com or submit a Consumer Privacy Request Form.
+22.12 Delaware Residents — Delaware Personal Data Privacy Act (DPDPA)
+Delaware residents have the following rights under the DPDPA:
+Right to Access
+Right to Correct
+Right to Delete
+Right to Opt-Out of targeted advertising, sale, and profiling
+To exercise your rights, contact Compliance@TheDataGroup.com or submit a Consumer Privacy Request Form.
+22.13 Tennessee Residents — Tennessee Information Protection Act (TIPA)
+Tennessee residents have the following rights under the TIPA:
+Right to Access
+Right to Correct
+Right to Delete
+Right to Opt-Out of targeted advertising, sale of personal data, and profiling
+To exercise your rights, contact Compliance@TheDataGroup.com or submit a Consumer Privacy Request Form.
+22.14 Indiana Residents — Indiana Consumer Data Protection Act (ICDPA)
+Indiana residents have the following rights under the Indiana ICDPA:
+Right to Access
+Right to Correct
+Right to Delete
+Right to Opt-Out of targeted advertising, sale of personal data, and profiling
+To exercise your rights, contact Compliance@TheDataGroup.com or submit a Consumer Privacy Request Form.
+22.15 New Hampshire Residents — New Hampshire Data Privacy Act (NHDPA)
+New Hampshire residents have the following rights under the NHDPA:
+Right to Access
+Right to Correct
+Right to Delete
+Right to Opt-Out of targeted advertising, sale of personal data, and profiling
+Right to Data Portability
+Right to Non-Discrimination
+To exercise your rights, contact Compliance@TheDataGroup.com or submit a Consumer Privacy Request Form.
+Privacy Policy — The Data Group — Effective Date: May 27, 2026
+Chief Privacy Officer | The Data Group | 3208 E Colonial Drive, Suite 118, Orlando, FL 32803 | 800-262-5609 | Compliance@TheDataGroup.com
+Free Trial
+Services
+Data Append
+Demographic Append
+Email Append
+Email Validation
+Phone Append
+Psychographic Append
+Reverse Phone Append
+Programmatic
+Anonymous Digital Retargeting
+Audience Data
+Enhanced Data Onboarding
+Custom Mailing
+Mailing Lists
+API
+Auto Append API
+Demographic Append API
+Email Append API
+Email Validation API
+Phone Append API
+Reverse Phone Append API
+Pricing
+Contact Us
+Self-Service Login

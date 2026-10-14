@@ -1,0 +1,25 @@
+Removal | Locate Family | Find people from around the world
+LOCATE FAMILY
+Find people from around the world
+Toggle navigation
+Home
+Street Lists
+Announce your search
+Notifications
+Home
+Removal
+Removal Request Form
+Leave this field blank
+Name and Telephone
+Email address
+Please enter your e-mail address. You must provide a valid e-mail address or your request will be rejected. To prevent abuse, you must enter an appropriate e-mail address: if your name is JOHN DOE and you enter the e-mail JANE.DOE@DOMAIN.COM or BLABLA123@DOMAIN.COM your request will be rejected. If you enter an invalid e-mail address or the e-mail address returns an error, our automated system will reject your request and the information will remain visible. A valid e-mail address is REQUIRED. You will receive a confirmation message after submitting this form. If you did not receive a confirmation message consult the list of rejected requests here. Using an email address from a disposable service will cause your request to be rejected. You may not use a (gmail) filter such as "+" in your e-mail address.
+URL/Link
+Click here to see an example of a URL/Link. Please provide the URL/link to the page containing the information. The URL or link is the address to the page on which the information in question is displayed. You must supply a valid link. All links must start with https://www.locatefamily.com. The link is located at the top of your window (screen) in the address bar of your browser. Simply copy and paste this link into the space provided below.
+Entry Number(s)
+Each name is identified with a number at the left, the entry number. Click here to see an example of an entry number. Enter the entry number in the space provided below. If there are several entries to remove on a same page, enter the entry numbers separated by a comma (example: 11, 31, 75). If the names to remove are on different pages then fill out and submit this form for each page and specify the entry number(s).
+Update Notification
+By checking the check-box below you are giving us permission to communicate with you by e-mail regarding updates. Although we make every possible effort to ensure that the information removed does not reappear, when updates are performed information may inadvertently be redisplayed due to technical issues involving syntax (that are beyond our control). By being notified of updates, you will be able to verify the page on which your information originally appeared to ensure that no variation was inadvertently redisplayed.
+Check here to be notified when LocateFamily.com is updated.
+Comments
+If you are unable to click the SUBMIT button in your browser, please try another browser. By clicking the submit button you grant us permission to communicate with you by e-mail for the purposes specific to this form.
+To stop e-mail communications please click here.
