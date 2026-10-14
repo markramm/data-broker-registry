@@ -1,6 +1,7 @@
 name: Page monitor
 
-# Daily: fetch every broker's opt-out page, commit the snapshots that moved under monitor/,
+# Daily: fetch every broker's opt-out page and the upstream lists (monitor_upstream.py), commit
+# the snapshots that moved under monitor/,
 # and file (or comment on) one "Page monitor: <id>" issue per broker that needs a human to
 # re-verify it. Never touches data/ -- a changed page is a reason to look, not a correction.
 
@@ -41,6 +42,10 @@ jobs:
             --report "$RUNNER_TEMP/report.md" \
             --events "$RUNNER_TEMP/events.json"
           cat "$RUNNER_TEMP/report.md" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Snapshot upstream lists (CA registry, BADBOOL)
+        if: ${{ !github.event.inputs.only }}
+        run: python3 scripts/monitor_upstream.py
 
       - name: Commit snapshots that moved
         id: commit
