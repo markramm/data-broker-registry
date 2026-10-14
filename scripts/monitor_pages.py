@@ -64,7 +64,9 @@ VENDORS = {
 }
 GENERATED_NAME = re.compile(r"\d{4,}|^(?=.*\d)[\w-]{25,}$")
 CHALLENGE_RE = re.compile(r"just a moment|attention required|cf-browser-verification|cf_chl_|"
-                          r"access denied|pardon our interruption|px-captcha|are you a robot", re.I)
+                          r"access denied|pardon our interruption|px-captcha|are you a robot|are you human|"
+                          r"requested too many times|human verification|verify you are (a )?human|"
+                          r"unusual traffic|request unsuccessful|incapsula incident", re.I)
 
 
 class PageParser(html.parser.HTMLParser):
@@ -226,8 +228,10 @@ def significant_lines(old_text, new_text):
     """Lines added or removed, ignoring short label-like lines (<= 3 words): some pages
     rotate placeholder labels ("Phone", "Email") on each load, and real process changes
     come with sentences."""
-    old, new = set(old_text.splitlines()), set(new_text.splitlines())
-    return [l for l in old ^ new if len(l.split()) > 3]
+    # Digits are masked first: build ids, server names and timestamps ("GREEN6WEST2.
+    # Version: 10/13/2026") differ per request without the page changing.
+    mask = lambda t: {re.sub(r"\d+", "#", l) for l in t.splitlines()}
+    return [l for l in mask(old_text) ^ mask(new_text) if len(l.split()) > 3]
 
 
 def field_diff(old, new):

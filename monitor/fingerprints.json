@@ -1910,19 +1910,10 @@
    "vendors": []
   },
   "divorcerecords-org": {
-   "captcha": false,
-   "fields": [],
-   "final_url": "https://infotracer.com/optout/",
-   "home_redirect": false,
    "last_changed": "2026-10-14",
-   "offsite": false,
-   "state": "live",
+   "state": "bot-blocked",
    "status": 200,
-   "text_hash": "sha256:1c41a5e28bcc23ec57c96e5dec3e6f6c8927b0a9b611f9a70cb0c986ceb472f9",
-   "text_lines": 3,
-   "title": "",
-   "url": "https://infotracer.com/optout/",
-   "vendors": []
+   "url": "https://infotracer.com/optout/"
   },
   "dmachoice-org": {
    "captcha": false,
@@ -2088,19 +2079,10 @@
    "url": "https://www.peoplesmart.com/svc/optout/search/contact_optouts"
   },
   "emailtracer-com": {
-   "captcha": false,
-   "fields": [],
-   "final_url": "https://infotracer.com/optout/",
-   "home_redirect": false,
    "last_changed": "2026-10-14",
-   "offsite": false,
-   "state": "live",
+   "state": "bot-blocked",
    "status": 200,
-   "text_hash": "sha256:1c41a5e28bcc23ec57c96e5dec3e6f6c8927b0a9b611f9a70cb0c986ceb472f9",
-   "text_lines": 3,
-   "title": "",
-   "url": "https://infotracer.com/optout/",
-   "vendors": []
+   "url": "https://infotracer.com/optout/"
   },
   "enformion-com": {
    "last_changed": "2026-10-14",
@@ -2920,19 +2902,10 @@
    "vendors": []
   },
   "infotracer-com": {
-   "captcha": false,
-   "fields": [],
-   "final_url": "https://infotracer.com/optout/",
-   "home_redirect": false,
    "last_changed": "2026-10-14",
-   "offsite": false,
-   "state": "live",
+   "state": "bot-blocked",
    "status": 200,
-   "text_hash": "sha256:1c41a5e28bcc23ec57c96e5dec3e6f6c8927b0a9b611f9a70cb0c986ceb472f9",
-   "text_lines": 3,
-   "title": "",
-   "url": "https://infotracer.com/optout/",
-   "vendors": []
+   "url": "https://infotracer.com/optout/"
   },
   "infousa-com": {
    "captcha": false,
@@ -3316,24 +3289,10 @@
    "vendors": []
   },
   "leadershipconnect-io": {
-   "captcha": false,
-   "fields": [
-    "s:text"
-   ],
-   "final_url": "https://leadershipconnect.io/",
-   "flags": [
-    "opt-out URL redirects to the homepage"
-   ],
-   "home_redirect": true,
    "last_changed": "2026-10-14",
-   "offsite": false,
-   "state": "live",
+   "state": "bot-blocked",
    "status": 200,
-   "text_hash": "sha256:17fbe62d7133458dcc15ee2d40885e80c307d3101f03bedf75c45167961232cd",
-   "text_lines": 189,
-   "title": "Home | Leadership Connect",
-   "url": "https://leadershipconnect.io/dsar/",
-   "vendors": []
+   "url": "https://leadershipconnect.io/dsar/"
   },
   "leadiq-com": {
    "captcha": false,
@@ -4568,19 +4527,10 @@
    "vendors": []
   },
   "peoplefinderonline-net": {
-   "captcha": false,
-   "fields": [],
-   "final_url": "https://infotracer.com/optout/",
-   "home_redirect": false,
    "last_changed": "2026-10-14",
-   "offsite": false,
-   "state": "live",
+   "state": "bot-blocked",
    "status": 200,
-   "text_hash": "sha256:1c41a5e28bcc23ec57c96e5dec3e6f6c8927b0a9b611f9a70cb0c986ceb472f9",
-   "text_lines": 3,
-   "title": "",
-   "url": "https://infotracer.com/optout/",
-   "vendors": []
+   "url": "https://infotracer.com/optout/"
   },
   "peoplefinders-com": {
    "last_changed": "2026-10-14",
@@ -4919,19 +4869,10 @@
    "vendors": []
   },
   "recordsauthority-com": {
-   "captcha": false,
-   "fields": [],
-   "final_url": "https://infotracer.com/optout/",
-   "home_redirect": false,
    "last_changed": "2026-10-14",
-   "offsite": false,
-   "state": "live",
+   "state": "bot-blocked",
    "status": 200,
-   "text_hash": "sha256:4d85ebff3cfad6a4e2a78e0b0582d60a7cb0f3320b3dbfd8fda40ab9a8a2003a",
-   "text_lines": 2,
-   "title": "",
-   "url": "https://infotracer.com/optout/",
-   "vendors": []
+   "url": "https://infotracer.com/optout/"
   },
   "recordsfinder-com": {
    "captcha": false,
@@ -5086,19 +5027,10 @@
    ]
   },
   "reversegenie-com": {
-   "captcha": false,
-   "fields": [],
-   "final_url": "https://infotracer.com/optout/",
-   "home_redirect": false,
    "last_changed": "2026-10-14",
-   "offsite": false,
-   "state": "live",
+   "state": "bot-blocked",
    "status": 200,
-   "text_hash": "sha256:4d85ebff3cfad6a4e2a78e0b0582d60a7cb0f3320b3dbfd8fda40ab9a8a2003a",
-   "text_lines": 2,
-   "title": "",
-   "url": "https://infotracer.com/optout/",
-   "vendors": []
+   "url": "https://infotracer.com/optout/"
   },
   "reversephonelookup-com": {
    "last_changed": "2026-10-14",
@@ -5107,19 +5039,10 @@
    "url": "https://www.reversephonelookup.com/remove.php"
   },
   "reverserecords-org": {
-   "captcha": false,
-   "fields": [],
-   "final_url": "https://infotracer.com/optout/",
-   "home_redirect": false,
    "last_changed": "2026-10-14",
-   "offsite": false,
-   "state": "live",
+   "state": "bot-blocked",
    "status": 200,
-   "text_hash": "sha256:4d85ebff3cfad6a4e2a78e0b0582d60a7cb0f3320b3dbfd8fda40ab9a8a2003a",
-   "text_lines": 2,
-   "title": "",
-   "url": "https://infotracer.com/optout/",
-   "vendors": []
+   "url": "https://infotracer.com/optout/"
   },
   "rgrmarketing-com": {
    "captcha": true,
