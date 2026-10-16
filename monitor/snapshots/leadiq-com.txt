@@ -6,6 +6,9 @@ Accelerate Revenue with AI-Driven Data
 Global data to enrich, track, prospect, personalize, and automate sales
 Champion Tracking
 Stay ahead of buyer job changes and never miss a warm opportunity. Track your champions in real-time and reconnect instantly.
+Power Dialer
+BETA
+Call leads using LeadIQ’s verified contact data. Work through your whole list in one queue, with their history and context beside every call.
 LeadIQ MCP integration
 Prospect with AI. Find companies and contacts in natural language using your existing LeadIQ credits.
 Meet Lando
@@ -18,6 +21,9 @@ AI Account Prospecting
 Automatically identify ideal accounts and the right stakeholders. Spend less time guessing and more time closing deals.
 Champion Tracking
 Stay ahead of buyer job changes and never miss a warm opportunity. Track your champions in real-time and reconnect instantly.
+Power Dialer
+Call leads using LeadIQ’s verified contact data. Work through your whole list in one queue, with their history and context beside every call.
+BETA
 LeadIQ MCP integration
 Prospect with AI. Find companies and contacts in natural language using your existing LeadIQ credits.
 Meet Lando
