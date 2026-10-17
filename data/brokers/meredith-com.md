@@ -7,8 +7,8 @@ people_search: false
 tier: guided
 priority: standard
 method: form
-opt_out_url: "https://www.dotdashmeredith.com/privacy-policy"
-opt_out_email: null
+opt_out_url: "https://www.people.inc/brands-privacy"
+opt_out_email: "privacy@people.inc"
 phone: null
 captcha: false
 id_required: false
@@ -19,11 +19,13 @@ readd_days: null
 legal_basis: [ccpa, cpra]
 last_verified: null
 source: data-brokers-watch
-notes: "Meredith Corporation merged into Dotdash Meredith; the old meredith.com/privacy.html URL now 301-redirects to dotdashmeredith.com, which returned an HTTP 403 Cloudflare bot challenge on this pass -- could not be freshly confirmed, so last_verified stays null. Meredith/Dotdash Meredith is a magazine/digital-publishing company (People, Better Homes & Gardens, etc.) that shares data with advertising partners -- a marketing data broker, not a people-search site, so priority is standard (spam/ad-targeting harm, not physical-safety harm). Updated opt_out_url to the current dotdashmeredith.com privacy-policy landing page since the old meredith.com path is stale; a human should re-verify the exact CCPA/opt-out link location on that page (it's typically a 'Do Not Sell or Share My Personal Information' link in the site footer or privacy-preferences widget) next time it's reachable."
+notes: "2026-10-16 maintainer run (Fixes #40): dotdashmeredith.com/privacy-policy now redirects to https://www.people.inc/privacy-policy. That page says the site is run by 'Dotdash Meredith Inc. a/k/a People Inc.', so this is the same company renamed. That page is the corporate-site policy. The consumer-brands policy that covers People, Better Homes & Gardens, Allrecipes, etc. is https://www.people.inc/brands-privacy (HTTP 200), so opt_out_url now points there. Its 'To Exercise Your Privacy Rights' section says that to opt out of sale/sharing/targeted advertising you must both use the 'Your Privacy Choices' footer link on a brand site and submit a OneTrust opt-out form (linked from that section) or email privacy@people.inc with the subject 'Opt-Out of Sales'. Access/deletion/correction use a separate OneTrust form. It may verify identity by matching information you provide. The OneTrust forms are JavaScript-rendered and were not loaded, so their fields and any CAPTCHA are unconfirmed; captcha and required_fields are unchanged. Nothing was submitted. Magazine/digital publisher sharing data with ad partners: marketing data broker, priority standard. last_verified stays null."
 ---
 
-1. Go to the Dotdash Meredith privacy policy page (dotdashmeredith.com/privacy-policy) -- Meredith Corporation's consumer brands (People, Better Homes & Gardens, Allrecipes, etc.) are now operated under this parent company.
-2. Look for a "Do Not Sell or Share My Personal Information" or "Your Privacy Choices" link, typically in the site footer or within the privacy-preference center referenced on that page.
-3. Follow that link to the opt-out/preference form and submit your name and email address to register your do-not-sell request.
-4. If no dedicated form is visible, use the contact/privacy-inquiries email or mailing address listed in the privacy policy to submit a CCPA/CPRA opt-out request in writing.
-5. Because this is a marketing/publishing data broker (not a people-search site), the main risk is targeted advertising, not physical safety -- treat this as lower urgency than removals from people-search sites.
+1. Go to the People Inc. (formerly Dotdash Meredith) brands privacy policy at https://www.people.inc/brands-privacy. It covers Meredith's former consumer brands (People, Better Homes & Gardens, Allrecipes, etc.).
+2. Scroll to "To Exercise Your Privacy Rights". To opt out of sale, sharing or targeted advertising, the policy says to do both of the next two steps.
+3. On any People Inc. brand website, click "Your Privacy Choices" in the footer and follow the instructions. This setting is per browser and per site.
+4. Open the opt-out form linked from that section ("submit this opt-out form") and enter your name and email address. Or email privacy@people.inc with the subject line "Opt-Out of Sales".
+5. To ask for access, deletion or correction instead, use the separate request form linked at the start of that section.
+6. People Inc. may ask for more information to match you to its records before it acts on the request.
+7. This is a marketing/publishing data broker, not a people-search site. The main risk is ad targeting, not physical safety, so it is lower urgency than people-search removals.

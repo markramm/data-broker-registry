@@ -4,27 +4,28 @@ name: Compact Information Systems
 domain: compactlists.com
 category: marketing_data_broker
 people_search: false
-tier: assisted
+tier: guided
 priority: standard
 method: form
-opt_out_url: "http://privacy.compactlists.com/request/opt-out"
-opt_out_email: "privacy.compliance@compactlists.com"
+opt_out_url: "https://privacy.deepsync.com/request/opt-out"
+opt_out_email: "privacy.compliance@deepsync.com"
 phone: null
-captcha: false
+captcha: true
 id_required: false
 phone_required: false
 charges_fee: false
-verification: none
+verification: "identity_questions"
 required_fields: [full_name, email, address]
 readd_days: null
 legal_basis: [ccpa]
 last_verified: null
 source: "dbw+tcp-research"
-notes: "WebSearch confirmed Compact Information Systems is a CA-registered marketing/mailing-list data broker (over three decades in business, postal + demographic data on ~96% of US residents). Found two independent contact channels: a dedicated CCPA opt-out request form at privacy.compactlists.com/request/opt-out, and a privacy compliance email (privacy.compliance@compactlists.com) distinct from the legacy-CSV-listed general contact (pei@compactlists.com). Did not directly render the form to confirm CAPTCHA/ID requirements, so classified assisted (simple form, no evidence of CAPTCHA) rather than guided. last_verified left null since the form page itself was not fetched."
+notes: "2026-10-16 maintainer run (Fixes #34): privacy.compactlists.com/request/opt-out now redirects to https://privacy.deepsync.com/request/opt-out (HTTP 200, 'Do Not Sell My Personal Information, Deep Sync'). This dataset already routes accudata-com and aslmarketing-com to the same Deep Sync privacy center. The page itself does not name Compact Information Systems, so the link rests on the redirect from Compact's own privacy subdomain. The form asks who the request is for (yourself, a deceased person, someone you represent), first and last name, email, phone, a primary address (up to five more), and which actions you want (do not sell/share, no targeted advertising, no profiling, limit sensitive PI, delete). It has a Cloudflare Turnstile widget (div.cf-turnstile) and says identity is verified through dynamically generated questions before a request is completed. captcha: true, tier assisted -> guided, verification identity_questions. The page lists privacy.compliance@deepsync.com for anything the form cannot handle; that replaces the old compactlists.com address. Nothing was submitted. Compact Information Systems is a CA-registered marketing/mailing-list broker (postal and demographic data). last_verified stays null."
 ---
 
-1. Go to http://privacy.compactlists.com/request/opt-out and select the request type for opting out of sale/sharing of your personal information (or deletion, if offered).
-2. Fill in your full name, mailing address, and an email address so Compact Information Systems can locate your record in their marketing lists.
-3. Submit the form and watch for a confirmation email.
-4. Alternatively, or if the form is unavailable, email privacy.compliance@compactlists.com directly, stating you are exercising your CCPA right to opt out of sale/sharing of your personal information, and include your full name and address.
-5. Compact Information Systems must acknowledge and process the request within the CCPA-mandated timeframe (typically within 45 days).
+1. Go to https://privacy.deepsync.com/request/opt-out. Compact Information Systems' old privacy site now redirects to this Deep Sync privacy center.
+2. Say who the request is for (yourself, a deceased person, or someone you are authorized to represent).
+3. Enter your first and last name, email address, phone number and primary mailing address. Add past addresses (up to five) and extra emails or phone numbers so every record is found.
+4. Tick the actions you want: do not sell or share, no targeted advertising, no profiling, limit sensitive information, and/or delete.
+5. Complete the Cloudflare check and submit. Deep Sync verifies your identity with generated questions before it acts on the request, so answer them when they appear.
+6. For anything the form can't handle (more than five addresses, removal from client data, or not wanting a suppression record kept after deletion), email privacy.compliance@deepsync.com.

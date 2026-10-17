@@ -4,27 +4,29 @@ name: BDO USA, LLP (Global Corporate Intelligence / Investigative Due Diligence)
 domain: bdo.com
 category: background_check
 people_search: true
-tier: guided
+tier: assisted
 priority: high
 method: form
-opt_out_url: "https://www.bdo.com/do-not-sell-my-personal-information"
+opt_out_url: "https://form.bdo.com/"
 opt_out_email: "privacy@bdo.com"
 phone: "1-616-575-8785"
-captcha: true
+captcha: false
 id_required: false
 phone_required: false
 charges_fee: false
-verification: email_confirm
-required_fields: [full_name, email, phone, address]
+verification: null
+required_fields: [full_name, email, address]
 readd_days: null
 legal_basis: [ccpa]
 last_verified: null
 source: "dbw+tcp-research"
-notes: "WebFetch directly rendered bdo.com/do-not-sell-my-personal-information: a form for BDO's Global Corporate Intelligence (GCI) investigative due-diligence unit specifically, requiring first/last name and at least one unique identifier (phone, email, or home address), protected by Google reCAPTCHA Enterprise -- no government ID required. BDO's privacy policy confirms GCI 'sells' categories of personal information (identifiers, employment info, commercial info, online activity, profile info) as part of due-diligence research reports on individuals for clients doing M&A/investment screening -- this is the specific GCI unit, not BDO's audit/tax/advisory business generally, which states it does not sell personal information. CAPTCHA-gated -> guided tier. Because GCI compiles and sells dossiers/reports on named individuals for a fee to third-party clients, treating as people_search-adjacent (true) with high priority given real personal-safety/reputational stakes from an active B2B intelligence-report broker, though its audience is corporate clients rather than a public search tool."
+notes: "2026-10-16 maintainer run (Fixes #68): the old opt_out_url (bdo.com/do-not-sell-my-personal-information, HTTP 200) no longer holds a form; it now says BDO GCI's privacy request process has moved to form.bdo.com. Fetched https://form.bdo.com/ (HTTP 200, 'Privacy Request Form (BDO GCI Services)'). It requires first and last name, an email address for responses, country, street address, city, state and ZIP, a self/authorized-agent choice, and one request type per submission (opt-out, delete, access, correct). Phone, middle name and extra emails/phones/addresses are optional. The form markup wires up reCAPTCHA Enterprise but sets data-recaptcha-enabled=false and shows no challenge widget, so captcha: false and tier assisted (was guided); a person should confirm no challenge appears on submit. The page does not say how the request is verified, so verification is null. Nothing was submitted. Background kept from the earlier pass: the form covers only BDO's Global Corporate Intelligence (GCI) unit, which compiles and sells due-diligence research reports on named individuals; BDO's audit/tax/advisory business states it does not sell personal information. Treated as people_search-adjacent at high priority. last_verified stays null."
 ---
 
-1. Go to https://www.bdo.com/do-not-sell-my-personal-information -- this form applies specifically to BDO's Global Corporate Intelligence (investigative due diligence) unit.
-2. Enter your first and last name, plus at least one identifier: a phone number, email address, or home address (you may add alternates too).
-3. Complete the reCAPTCHA challenge and submit the form to opt out of the sale of your personal information used in BDO's due-diligence/investigative research reports.
-4. Alternatively, email privacy@bdo.com or call 1 (616) 575-8785 to make the same request.
-5. Note this opt-out does not retroactively affect due-diligence correspondence or reports already produced before your request; expect confirmation within the CCPA-mandated response window.
+1. Go to https://form.bdo.com/ (Privacy Request Form for BDO GCI Services). It only covers BDO's Global Corporate Intelligence unit.
+2. Enter your first and last name, an email address for responses, and your full home address (street, city, state, ZIP). BDO says it uses the address to tell you apart from people with the same name.
+3. Optionally add phone numbers, other email addresses or past addresses (up to 10 each) to help BDO find every record.
+4. Confirm you are the person named (or that you are an authorized agent), then choose "Request to Opt-out" and submit.
+5. The form takes one right per submission. To also ask for deletion, submit it again with "Request to Delete" selected.
+6. Alternatively, email privacy@bdo.com or call 1 (616) 575-8785 with the same request.
+7. The opt-out does not undo due-diligence reports already produced before your request.
