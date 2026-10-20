@@ -10,7 +10,7 @@ method: form
 opt_out_url: "https://ecom2.anchorcomputer.com/privacyrequest"
 opt_out_email: "privacyteam@anchorcomputer.com"
 phone: "1-800-646-2563"
-captcha: false
+captcha: true
 id_required: false
 phone_required: false
 charges_fee: false
@@ -19,7 +19,7 @@ readd_days: null
 legal_basis: [ccpa, cpra]
 last_verified: null
 source: "dbw+tcp-research"
-notes: "WebFetch of anchorcomputer.com homepage and /privacy-policy confirmed directly. Anchor Computer is a marketing-data/mailing-list compiler offering 'customer profiling and data validation to segmentation and targeting' built on '6B+ Permissioned signals,' and its privacy policy lists name, SSN, postal address, email, phone, plus demographic data (age, religion, ethnicity, marital status, gender, hobbies) among categories sold. Policy explicitly grants CPRA right to opt out of sale and right to deletion, and names the online form at ecom2.anchorcomputer.com/privacyrequest ('Individual Consumer Opt-Out Submission Form') plus email/phone alternatives. Form fields (name, address, last-4 SSN, DOB, phone, email) are as listed in the privacy policy text, not independently confirmed by rendering the form itself -- guided tier given the sensitive-field combination (SSN, DOB) even without CAPTCHA. last_verified left null since the live form itself wasn't rendered."
+notes: "WebFetch of anchorcomputer.com homepage and /privacy-policy confirmed directly. Anchor Computer is a marketing-data/mailing-list compiler offering 'customer profiling and data validation to segmentation and targeting' built on '6B+ Permissioned signals,' and its privacy policy lists name, SSN, postal address, email, phone, plus demographic data (age, religion, ethnicity, marital status, gender, hobbies) among categories sold. Policy explicitly grants CPRA right to opt out of sale and right to deletion, and names the online form at ecom2.anchorcomputer.com/privacyrequest ('Individual Consumer Opt-Out Submission Form') plus email/phone alternatives. Form fields (name, address, last-4 SSN, DOB, phone, email) are as listed in the privacy policy text, not independently confirmed by rendering the form itself -- guided tier given the sensitive-field combination (SSN, DOB) even without CAPTCHA. last_verified left null since the live form itself wasn't rendered. 2026-10-14 maintainer: fetched https://ecom2.anchorcomputer.com/privacyrequest (HTTP 200); the form carries a reCAPTCHA v2 widget (div.g-recaptcha with a site key), confirming the page monitor's flag. captcha set true; tier was already guided. last_verified unchanged."
 ---
 
 1. Go to the Anchor Computer opt-out form at https://ecom2.anchorcomputer.com/privacyrequest.

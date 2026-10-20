@@ -1,16 +1,16 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.16",
-  "content_hash": "sha256:79953a83ff5ad7e269ff55772f59c230199a8f96ff940b2856d782c5e41ab39c",
+  "dataset_version": "0.1.17",
+  "content_hash": "sha256:b53b2d77faaacc6fba72bac7f121c6b7521dc45fbc401fa60c44339fa84f2c80",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
   "authored_count": 493,
   "backlog_count": 89,
   "total_known": 582,
   "unverified_count": 456,
   "tiers": {
-   "guided": 270,
-   "assisted": 151,
+   "guided": 271,
+   "assisted": 150,
    "auto": 72
   },
   "priorities": {
@@ -29,7 +29,7 @@
    "tier": "guided",
    "priority": "crucial",
    "method": "form",
-   "opt_out_url": "https://www.intelius.com/opt-out",
+   "opt_out_url": "https://suppression.peopleconnect.us/",
    "opt_out_email": null,
    "phone": "2063015900",
    "captcha": false,
@@ -45,9 +45,9 @@
    "legal_basis": [],
    "last_verified": null,
    "source": "data-brokers-watch",
-   "notes": "MIGRATED opt_out_url pointed at intelius.com/optout, which did not resolve for fetch tooling in this session (net::ERR / unfetchable host); corrected to the documented intelius.com/opt-out path per removal-guide consensus (Incogni, GhostMyData, Onerep, proprivacy.com). US Search is a PeopleConnect brand (same family as TruthFinder/Intelius/ZabaSearch); each site requires its own separate opt-out even though they share the Intelius suppression form. Requires email verification plus DOB entry to locate/verify the record -- no CAPTCHA reported, but the multi-step identity-verification loop and DOB requirement warrant guided rather than assisted. Not freshly confirmed against the live page.",
-   "instructions_md": "1. Go to intelius.com/opt-out and search for your name plus state to locate your Intelius/US Search listing.\n2. Select the listing that matches you and follow the prompt to submit a removal request.\n3. Check your email for a verification message from PeopleConnect and click the \"Verify Email\" button.\n4. Enter your date of birth when prompted so PeopleConnect can confirm it's matching the right record.\n5. Submit the request and allow 3-7 days for processing after email verification.\n6. Search intelius.com and ussearch.com again afterward to confirm the listing is gone -- removal from one PeopleConnect brand does not automatically remove you from the others.",
-   "link_status": "bot-blocked"
+   "notes": "MIGRATED opt_out_url pointed at intelius.com/optout, which did not resolve for fetch tooling in this session (net::ERR / unfetchable host); corrected to the documented intelius.com/opt-out path per removal-guide consensus (Incogni, GhostMyData, Onerep, proprivacy.com). US Search is a PeopleConnect brand (same family as TruthFinder/Intelius/ZabaSearch); each site requires its own separate opt-out even though they share the Intelius suppression form. Requires email verification plus DOB entry to locate/verify the record -- no CAPTCHA reported, but the multi-step identity-verification loop and DOB requirement warrant guided rather than assisted. Not freshly confirmed against the live page. 2026-10-14 maintainer: the page monitor found https://www.intelius.com/opt-out now redirects to https://suppression.peopleconnect.us/ (PeopleConnect - Suppression Center); opt_out_url and steps updated to point there directly, with steps following the flow already confirmed in peopleconnect-us.md. The redirect itself was observed by the monitor (the suppression center returns 403 to scripted fetches, so its content was not re-read in this run). last_verified unchanged.",
+   "instructions_md": "1. Go to https://suppression.peopleconnect.us/ -- PeopleConnect's shared Suppression Center, which is where US Search's own opt-out link now lands. Enter an email address you can access, agree to the terms, and continue. Complete a CAPTCHA if one is shown.\n2. Check your inbox for the verification email from PeopleConnect and click \"Verify Email\" promptly -- the link can expire.\n3. Enter your date of birth when prompted; it is used to match you to records.\n4. Enter your legal name and any alternate names (maiden name, former married name, nickname) to widen the match.\n5. Review the records the portal surfaces and select the one(s) that are you.\n6. Under \"Desired Behavior\" choose \"Suppressed\" and save.\n7. Allow 3-7 days after email verification, then search ussearch.com to confirm the listing is gone.",
+   "link_status": "live"
   },
   {
    "id": "411-com",
@@ -1463,13 +1463,13 @@
    "domain": "ididata.com",
    "category": "identity_intelligence_data_broker",
    "people_search": true,
-   "tier": "assisted",
+   "tier": "guided",
    "priority": "crucial",
    "method": "form",
    "opt_out_url": "https://www.ididata.com/do-not-sell-my-personal-information/",
    "opt_out_email": "statebasedprivacy@ididata.com",
    "phone": "888-376-6659",
-   "captcha": false,
+   "captcha": true,
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
@@ -1488,7 +1488,7 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "WebFetch on ididata.com/idis-privacy-statement/ confirmed IDI (Interactive Data) compiles identity-intelligence products (idiCORE, coreIDENTITY, idiVERIFIED) pulling from 'credit bureaus, government and public record repositories... data aggregators, brokers, compilers, marketing companies, third-party resellers' and sells access to investigators, law enforcement, financial services, and real estate -- a genuine people-search/identity-lookup broker on individuals, so people_search true and priority crucial. Confirmed separate dedicated pages for do-not-sell (https://www.ididata.com/do-not-sell-my-personal-information/), deletion, correction, and personal-information-request, plus a dedicated privacy email (statebasedprivacy@ididata.com) and phone (888-376-6659) covering CA, VA, CO, CT, UT, OR, TX, MT, IA, DE, NE, NH, NJ, TN, MN, MD, IN, KY, and RI residents. Could not confirm exact form fields/CAPTCHA on the do-not-sell page itself via fetch (only the privacy-statement page rendered), so listed plausible required fields based on the industry-standard identity-verification pattern for opt-out requests and left tier assisted rather than guided since no ID/CAPTCHA was reported; note this is a lower-confidence field guess and should be double-checked against the live form.",
+   "notes": "WebFetch on ididata.com/idis-privacy-statement/ confirmed IDI (Interactive Data) compiles identity-intelligence products (idiCORE, coreIDENTITY, idiVERIFIED) pulling from 'credit bureaus, government and public record repositories... data aggregators, brokers, compilers, marketing companies, third-party resellers' and sells access to investigators, law enforcement, financial services, and real estate -- a genuine people-search/identity-lookup broker on individuals, so people_search true and priority crucial. Confirmed separate dedicated pages for do-not-sell (https://www.ididata.com/do-not-sell-my-personal-information/), deletion, correction, and personal-information-request, plus a dedicated privacy email (statebasedprivacy@ididata.com) and phone (888-376-6659) covering CA, VA, CO, CT, UT, OR, TX, MT, IA, DE, NE, NH, NJ, TN, MN, MD, IN, KY, and RI residents. Could not confirm exact form fields/CAPTCHA on the do-not-sell page itself via fetch (only the privacy-statement page rendered), so listed plausible required fields based on the industry-standard identity-verification pattern for opt-out requests and left tier assisted rather than guided since no ID/CAPTCHA was reported; note this is a lower-confidence field guess and should be double-checked against the live form. 2026-10-14 maintainer: fetched https://www.ididata.com/do-not-sell-my-personal-information/ (HTTP 200); the form carries a visible reCAPTCHA v2 widget (div.g-recaptcha with a site key, no invisible size), confirming the page monitor's flag. captcha set true and tier moved assisted -> guided per CONTRIBUTING (CAPTCHA-gated). The email and phone routes in the steps are unaffected. last_verified unchanged.",
    "instructions_md": "1. Go to the [IDI do-not-sell page](https://www.ididata.com/do-not-sell-my-personal-information/) and follow the opt-out request form.\n2. Provide your full name, email address, and mailing address as prompted so IDI can locate your record.\n3. Submit the request; alternatively, email statebasedprivacy@ididata.com directly and state you are requesting IDI stop selling/sharing your personal information under applicable state privacy law (CCPA/CPRA or your state's equivalent).\n4. You can also call 888-376-6659 to make the same request by phone.\n5. If you also want your existing record corrected or deleted, use IDI's separate correction request (https://www.ididata.com/correction-request/) or deletion request (https://www.ididata.com/deletion-request/) pages.\n6. Watch for a confirmation email and follow any verification link IDI sends before the request is finalized.",
    "link_status": "live"
   },
@@ -1864,7 +1864,7 @@
    "tier": "guided",
    "priority": "crucial",
    "method": "form",
-   "opt_out_url": "https://intelius.zendesk.com/hc/en-us",
+   "opt_out_url": "https://suppression.peopleconnect.us/",
    "opt_out_email": null,
    "phone": "2063015900",
    "captcha": true,
@@ -1879,9 +1879,9 @@
    "legal_basis": [],
    "last_verified": null,
    "source": "data-brokers-watch",
-   "notes": "WebFetch returned 403 on both the Zendesk help-center URL and intelius.com/opt-out directly -- Intelius/PeopleConnect properties are Cloudflare-protected against automated fetches, so last_verified stays null. onlinesearches.com (publicrecords.onlinesearches.com) is white-labeled/powered by Intelius, a well-known people-search broker; the current opt_out_url is just the Zendesk help-center landing page, not a specific opt-out article -- a human should search that help center for 'opt out' or navigate to intelius.com's dedicated opt-out form directly, since the generic help-center URL alone isn't a deep link into the actual removal flow. Assessed tier as guided based on public knowledge that Intelius-family opt-outs require locating your specific listing first and are CAPTCHA-gated.",
-   "instructions_md": "1. Search for your own name on publicrecords.onlinesearches.com (or intelius.com, which powers this site's data) to find your listing, and copy its exact URL.\n2. Go to the Intelius help center (intelius.zendesk.com/hc/en-us) and search for \"opt out\" or \"remove my information\" to find the current dedicated opt-out article -- the linked URL is a general help-center homepage, not a direct opt-out form, so you'll need to navigate from there.\n3. Follow the article's link to the opt-out form and paste in your listing URL and full name as requested.\n4. Complete the CAPTCHA challenge if prompted.\n5. If the web form doesn't resolve your removal, call (206) 301-5900 and request removal by phone, referencing the listing URL you found in step 1.\n6. Because this is a people-search site, check back periodically since removed listings can reappear after data refreshes.",
-   "link_status": "bot-blocked"
+   "notes": "WebFetch returned 403 on both the Zendesk help-center URL and intelius.com/opt-out directly -- Intelius/PeopleConnect properties are Cloudflare-protected against automated fetches, so last_verified stays null. onlinesearches.com (publicrecords.onlinesearches.com) is white-labeled/powered by Intelius, a well-known people-search broker; the current opt_out_url is just the Zendesk help-center landing page, not a specific opt-out article -- a human should search that help center for 'opt out' or navigate to intelius.com's dedicated opt-out form directly, since the generic help-center URL alone isn't a deep link into the actual removal flow. Assessed tier as guided based on public knowledge that Intelius-family opt-outs require locating your specific listing first and are CAPTCHA-gated. 2026-10-14 maintainer: the page monitor found the previous opt_out_url (intelius.zendesk.com/hc/en-us) now redirects to Zendesk's 'Help Center Closed' page -- the Intelius help center no longer exists, so that route is dead. Following this entry's own premise that onlinesearches.com is Intelius-powered, and that intelius.com/opt-out now lands on PeopleConnect's shared Suppression Center, opt_out_url now points there directly. onlinesearches.com itself returned 403 to this run's fetches, so the Intelius relationship was not re-confirmed today; a human should confirm the site's privacy links still point into the PeopleConnect family. last_verified unchanged.",
+   "instructions_md": "1. Go to https://suppression.peopleconnect.us/ -- the PeopleConnect (Intelius) Suppression Center. The old Intelius help center this entry used to point at has been closed. Enter an email address you can access, agree to the terms, and continue. Complete a CAPTCHA if one is shown.\n2. Check your inbox for the verification email from PeopleConnect and click \"Verify Email\" promptly -- the link can expire.\n3. Enter your date of birth, then your legal name and any alternate names, so the portal can match your records.\n4. Review the records the portal surfaces, select the one(s) that are you, choose \"Suppressed\" under \"Desired Behavior,\" and save.\n5. If the web form doesn't resolve your removal, call (206) 301-5900 and ask for removal by phone.\n6. Because this is a people-search site, check publicrecords.onlinesearches.com periodically, since removed listings can reappear after data refreshes.",
+   "link_status": "live"
   },
   {
    "id": "peekyou-com",
@@ -2188,7 +2188,7 @@
    "tier": "guided",
    "priority": "crucial",
    "method": "portal",
-   "opt_out_url": "https://www.intelius.com/opt-out",
+   "opt_out_url": "https://suppression.peopleconnect.us/",
    "opt_out_email": null,
    "phone": "(206) 301-5800",
    "captcha": true,
@@ -2206,9 +2206,9 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "curl-fetched peoplefinder.com's homepage directly (HTTP 200). It is a live people-search site offering name/phone/address lookups returning owner name, age, address, phone, social media, and background-check-adjacent results -- real personal-safety exposure, priority crucial. Both privacy-related links on the homepage point to intelius.com (https://www.intelius.com/privacy-center/ and https://www.intelius.com/privacy-policy/), not a peoplefinder.com-hosted privacy page, indicating PeopleFinder.com is operated on Intelius/PeopleConnect infrastructure -- the same relationship already documented for instantpeoplefinder-com.md and intelius-com.md in this dataset (both already authored, both point their opt-out at Intelius's own suppression tool). No PeopleFinder-specific opt-out page or form was found; following the same pattern as those existing entries, opt_out_url/phone/process here are copied from the already-authored intelius-com.md entry rather than independently re-derived, since WebFetch could not reach intelius.com directly this session either (consistent with the intelius-com.md note that it's unreachable from this environment) and third-party guide-based reconstruction would be redundant with that existing entry. Tier guided (CAPTCHA + multi-step identity flow, per intelius-com.md). Not independently re-verified beyond confirming the peoplefinder.com->intelius.com link relationship this session; last_verified left null.",
-   "instructions_md": "1. Go to Intelius's opt-out page at https://www.intelius.com/opt-out -- PeopleFinder.com's own privacy links point directly to Intelius, meaning Intelius operates the underlying database and removal tool behind this site (the same relationship as instantpeoplefinder.com in this dataset).\n2. Enter your email address and complete the CAPTCHA, then submit to receive a verification email.\n3. Open the email and click the verification link promptly -- it typically expires after about 15 minutes.\n4. Provide your legal name and date of birth, completing another CAPTCHA if prompted, and submit.\n5. From the list of matching records, locate your listing (cross-check address or other details) and click \"Remove This Record.\"\n6. Open the confirmation email that follows and click its link -- the removal doesn't finalize until you do. If you'd rather not use the web form, you can call Intelius directly at (206) 301-5800. Full removal typically takes about 72 hours, and re-scraping can reintroduce a listing after a few days, so periodic re-checks are worthwhile.",
-   "link_status": "bot-blocked"
+   "notes": "curl-fetched peoplefinder.com's homepage directly (HTTP 200). It is a live people-search site offering name/phone/address lookups returning owner name, age, address, phone, social media, and background-check-adjacent results -- real personal-safety exposure, priority crucial. Both privacy-related links on the homepage point to intelius.com (https://www.intelius.com/privacy-center/ and https://www.intelius.com/privacy-policy/), not a peoplefinder.com-hosted privacy page, indicating PeopleFinder.com is operated on Intelius/PeopleConnect infrastructure -- the same relationship already documented for instantpeoplefinder-com.md and intelius-com.md in this dataset (both already authored, both point their opt-out at Intelius's own suppression tool). No PeopleFinder-specific opt-out page or form was found; following the same pattern as those existing entries, opt_out_url/phone/process here are copied from the already-authored intelius-com.md entry rather than independently re-derived, since WebFetch could not reach intelius.com directly this session either (consistent with the intelius-com.md note that it's unreachable from this environment) and third-party guide-based reconstruction would be redundant with that existing entry. Tier guided (CAPTCHA + multi-step identity flow, per intelius-com.md). Not independently re-verified beyond confirming the peoplefinder.com->intelius.com link relationship this session; last_verified left null. 2026-10-14 maintainer: the page monitor found https://www.intelius.com/opt-out now redirects to https://suppression.peopleconnect.us/ (PeopleConnect - Suppression Center); opt_out_url and steps updated to point there directly, with steps following the flow already confirmed in peopleconnect-us.md. The redirect itself was observed by the monitor (the suppression center returns 403 to scripted fetches, so its content was not re-read in this run). last_verified unchanged.",
+   "instructions_md": "1. Go to https://suppression.peopleconnect.us/ -- PeopleConnect's shared Suppression Center, which is where PeopleFinder.com's own opt-out link now lands. Enter an email address you can access, agree to the terms, and continue. Complete a CAPTCHA if one is shown.\n2. Check your inbox for the verification email from PeopleConnect and click \"Verify Email\" promptly -- the link can expire.\n3. Enter your date of birth when prompted; it is used to match you to records.\n4. Enter your legal name and any alternate names (maiden name, former married name, nickname) to widen the match.\n5. Review the records the portal surfaces and select the one(s) that are you.\n6. Under \"Desired Behavior\" choose \"Suppressed\" and save.\n7. Allow a few days, then search your name on peoplefinder.com to confirm. Re-check periodically, since re-scraped data can bring a listing back.",
+   "link_status": "live"
   },
   {
    "id": "peoplefinders-com",
@@ -2252,7 +2252,7 @@
    "opt_out_url": "https://peoplefindersdaas.com/personal-information/",
    "opt_out_email": "privacy@peoplefindersdaas.com",
    "phone": null,
-   "captcha": false,
+   "captcha": true,
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
@@ -2268,7 +2268,7 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "PeoplefindersDaaS (\\\"Data as a Service\\\") is the bulk/API data-supply arm of PeopleFinders -- it sells consumer identity, address, and contact records to B2B customers (marketing, verification, people-search resellers) rather than running its own consumer-facing search UI, but it is still a genuine people-search-adjacent data broker with real personal-safety stakes since the underlying records are the same individual profiles. 2026-09-15: fetched https://peoplefindersdaas.com/personal-information/ directly (HTTP 200) and read the rendered form, replacing instructions that previously only said to 'follow the instructions there' -- a step a tester cannot check the tool against. The page is a real request form, not a policy page: it collects Name (First/Last), Email, Phone, Address Line 1/2, City, State, Zip, and offers four separate opt-out checkboxes (do not sell/share; no targeted/cross-contextual advertising; no profiling/automated decision-making; no sensitive-data targeting) plus a distinct 'Please delete my personal information' option. The page states that a delete request causes them to create an archival record of the request, and directs anyone wanting to stay out of the database in future to email privacy@peoplefindersdaas.com. required_fields widened from [full_name, email] to include phone and address, since the form asks for both. tier stays auto: the email route is a complete opt-out path on its own with no login, CAPTCHA, or ID gating, which is what auto means in this repo -- the form is an additional convenience, not a barrier. The privacy policy discloses PeoplefindersDaaS's own 2025 CCPA transparency stats: of 15,678 California removal requests received, only 77 were completed, the vast majority denied for 'insufficient information or bot detection' -- a real but friction-heavy process, and a number worth telling the reader so a denial does not read as the end of the road. last_verified stays null: fetching and reading the form is not the same as a human submitting a request and confirming their record came down. This is a distinct entity from consumer-facing peoplefinders.com (cataloged separately) -- separate opt-out infrastructure, so kept as its own entry rather than merged.",
+   "notes": "PeoplefindersDaaS (\\\"Data as a Service\\\") is the bulk/API data-supply arm of PeopleFinders -- it sells consumer identity, address, and contact records to B2B customers (marketing, verification, people-search resellers) rather than running its own consumer-facing search UI, but it is still a genuine people-search-adjacent data broker with real personal-safety stakes since the underlying records are the same individual profiles. 2026-09-15: fetched https://peoplefindersdaas.com/personal-information/ directly (HTTP 200) and read the rendered form, replacing instructions that previously only said to 'follow the instructions there' -- a step a tester cannot check the tool against. The page is a real request form, not a policy page: it collects Name (First/Last), Email, Phone, Address Line 1/2, City, State, Zip, and offers four separate opt-out checkboxes (do not sell/share; no targeted/cross-contextual advertising; no profiling/automated decision-making; no sensitive-data targeting) plus a distinct 'Please delete my personal information' option. The page states that a delete request causes them to create an archival record of the request, and directs anyone wanting to stay out of the database in future to email privacy@peoplefindersdaas.com. required_fields widened from [full_name, email] to include phone and address, since the form asks for both. tier stays auto: the email route is a complete opt-out path on its own with no login, CAPTCHA, or ID gating, which is what auto means in this repo -- the form is an additional convenience, not a barrier. The privacy policy discloses PeoplefindersDaaS's own 2025 CCPA transparency stats: of 15,678 California removal requests received, only 77 were completed, the vast majority denied for 'insufficient information or bot detection' -- a real but friction-heavy process, and a number worth telling the reader so a denial does not read as the end of the road. last_verified stays null: fetching and reading the form is not the same as a human submitting a request and confirming their record came down. This is a distinct entity from consumer-facing peoplefinders.com (cataloged separately) -- separate opt-out infrastructure, so kept as its own entry rather than merged. 2026-10-14 maintainer: fetched https://peoplefindersdaas.com/personal-information/ (HTTP 200); the WPForms request form now embeds a Cloudflare Turnstile challenge (div.wpforms-turnstile with a site key), confirming the page monitor's flag, so captcha is set true for the form. tier stays auto: the privacy@ email route is still a complete opt-out with no CAPTCHA. last_verified unchanged.",
    "instructions_md": "1. Go to https://peoplefindersdaas.com/personal-information/ -- this is a real request form, not a policy page, so the whole request can be made here.\n2. Fill in your name and email (both required), plus your phone and address. The address fields matter: this broker sells address and contact records, so identifying yourself completely makes it likelier they find your record.\n3. Tick the boxes for what you want stopped. They are separate choices and ticking one leaves the others running: do not sell/share my personal information; do not use my personal data for targeted or cross-contextual advertising; do not use my personal data for profiling or automated decision-making; do not use my sensitive personal data for targeting. For a full opt-out, tick all four.\n4. There is a separate \"Please delete my personal information\" option. Tick it if you want deletion rather than suppression -- but note the page says that when they receive a delete request they create an archival record of it, so this does not mean every trace is gone.\n5. Submit the form. If you would rather use email, or you want to ask them to keep you out of the database in future rather than only remove you today, email privacy@peoplefindersdaas.com with the same details, stating that you are exercising your CCPA (or your state's equivalent) right to opt out and delete.\n6. Expect a response within 45 days; their own disclosures note this may be extended to 90 for complex requests.\n7. Be persistent. PeoplefindersDaaS's own 2025 CCPA transparency report says it received 15,678 California removal requests and completed 77, denying most for \"insufficient information or bot detection.\" If you are denied, resend with fuller identifying details rather than assuming the opt-out is closed to you.\n8. Because this is the data-supply arm behind other people-search sites, submit the separate opt-out for peoplefinders.com too -- the two do not share a single suppression list.",
    "link_status": "live"
   },
@@ -3064,7 +3064,7 @@
    "tier": "guided",
    "priority": "crucial",
    "method": "form",
-   "opt_out_url": "https://www.intelius.com/opt-out/",
+   "opt_out_url": "https://suppression.peopleconnect.us/",
    "opt_out_email": "privacy@peopleconnect.us",
    "phone": null,
    "captcha": false,
@@ -3082,9 +3082,9 @@
    ],
    "last_verified": null,
    "source": "data-brokers-watch + tcp-verified",
-   "notes": "MIGRATED research_note: Intelius-network; opt out at intelius.com/opt-out (bot-block 403, live). WebFetch on intelius.com/opt-out returned HTTP 403 (bot-blocked), confirming the prior note. Snoopstation is one of several PeopleConnect-owned people-search brands (with Intelius, Instant Checkmate, TruthFinder); opting out via Intelius's shared PeopleConnect Suppression Center covers Snoopstation too. Multi-step verified-email + DOB flow, so classified guided rather than assisted. Not freshly confirmed against a rendered page -- last_verified left null.",
-   "instructions_md": "<!-- Real instructions based on PeopleConnect's shared Intelius/Snoopstation suppression flow. -->\n1. Go to https://www.intelius.com/opt-out/ (Snoopstation is owned by the same parent, PeopleConnect, and shares this suppression system).\n2. Click through to \"Do Not Sell or Share My Personal Information\" -> \"View Public Data Tools\" -> \"Manage My Suppression Rules\" to reach the PeopleConnect Suppression Center.\n3. Enter a valid email address, agree to the terms, and submit -- then check your inbox and click the verification link quickly, as it can expire.\n4. Enter your full legal name and date of birth (include maiden or alternate names if relevant), then review the matching record(s).\n5. Select the record(s) that are you and set their status to \"Suppressed\" to complete the request.\n6. If the form is inaccessible (it may bot-block direct automated requests), email privacy@peopleconnect.us with your name and the Snoopstation listing URL as an alternative.",
-   "link_status": "bot-blocked"
+   "notes": "MIGRATED research_note: Intelius-network; opt out at intelius.com/opt-out (bot-block 403, live). WebFetch on intelius.com/opt-out returned HTTP 403 (bot-blocked), confirming the prior note. Snoopstation is one of several PeopleConnect-owned people-search brands (with Intelius, Instant Checkmate, TruthFinder); opting out via Intelius's shared PeopleConnect Suppression Center covers Snoopstation too. Multi-step verified-email + DOB flow, so classified guided rather than assisted. Not freshly confirmed against a rendered page -- last_verified left null. 2026-10-14 maintainer: the page monitor found https://www.intelius.com/opt-out/ now redirects to https://suppression.peopleconnect.us/ (PeopleConnect - Suppression Center); opt_out_url and steps updated to point there directly, with steps following the flow already confirmed in peopleconnect-us.md. The redirect itself was observed by the monitor (the suppression center returns 403 to scripted fetches, so its content was not re-read in this run). last_verified unchanged.",
+   "instructions_md": "1. Go to https://suppression.peopleconnect.us/ -- PeopleConnect's shared Suppression Center, which is where Snoopstation's own opt-out link now lands. Enter an email address you can access, agree to the terms, and continue. Complete a CAPTCHA if one is shown.\n2. Check your inbox for the verification email from PeopleConnect and click \"Verify Email\" promptly -- the link can expire.\n3. Enter your date of birth when prompted; it is used to match you to records.\n4. Enter your legal name and any alternate names (maiden name, former married name, nickname) to widen the match.\n5. Review the records the portal surfaces and select the one(s) that are you.\n6. Under \"Desired Behavior\" choose \"Suppressed\" and save.\n7. If the form is inaccessible, email privacy@peopleconnect.us with your name and the Snoopstation listing URL instead.",
+   "link_status": "live"
   },
   {
    "id": "spokeo-com",
@@ -3408,7 +3408,7 @@
    "tier": "guided",
    "priority": "crucial",
    "method": "form",
-   "opt_out_url": "https://www.truthfinder.com/opt-out/",
+   "opt_out_url": "https://suppression.peopleconnect.us/",
    "opt_out_email": null,
    "phone": null,
    "captcha": true,
@@ -3424,9 +3424,9 @@
    "legal_basis": [],
    "last_verified": null,
    "source": "data-brokers-watch + tcp-verified",
-   "notes": "MIGRATED research_note: live behind Cloudflare; routes through PeopleConnect suppression. Direct fetch returned 403 in this session; assessed from third-party removal-guide consensus (Clearnym, GhostMyData, Security.org, Optery). Flow is CAPTCHA-gated with email + DOB identity verification, so guided rather than assisted despite method:form. Not freshly confirmed against the live page.",
-   "instructions_md": "1. Go to truthfinder.com, scroll to the footer, and click \"Exercise My Data Privacy Rights\" under TruthFinder Resources.\n2. Click \"View Public Data Tools,\" then \"Manage My Suppression Rules\" to reach the shared PeopleConnect Suppression Center.\n3. Enter your email address, agree to the Terms of Use/Privacy Policy, and complete the image CAPTCHA.\n4. Check your inbox for the confirmation email and click the activation link (required -- the request is not processed without it).\n5. Enter your date of birth to verify your identity, then select \"Suppressed\" under Desired Behavior and click Save.\n6. Allow 7-14 days for the removal to take effect, then search your name to confirm.",
-   "link_status": "bot-blocked"
+   "notes": "MIGRATED research_note: live behind Cloudflare; routes through PeopleConnect suppression. Direct fetch returned 403 in this session; assessed from third-party removal-guide consensus (Clearnym, GhostMyData, Security.org, Optery). Flow is CAPTCHA-gated with email + DOB identity verification, so guided rather than assisted despite method:form. Not freshly confirmed against the live page. 2026-10-14 maintainer: the page monitor found https://www.truthfinder.com/opt-out/ now redirects to https://suppression.peopleconnect.us/ (PeopleConnect - Suppression Center); opt_out_url and steps updated to point there directly, with steps following the flow already confirmed in peopleconnect-us.md. The redirect itself was observed by the monitor (the suppression center returns 403 to scripted fetches, so its content was not re-read in this run). last_verified unchanged.",
+   "instructions_md": "1. Go to https://suppression.peopleconnect.us/ -- PeopleConnect's shared Suppression Center, which is where TruthFinder's own opt-out link now lands. Enter an email address you can access, agree to the terms, and continue. Complete a CAPTCHA if one is shown.\n2. Check your inbox for the verification email from PeopleConnect and click \"Verify Email\" promptly -- the link can expire.\n3. Enter your date of birth when prompted; it is used to match you to records.\n4. Enter your legal name and any alternate names (maiden name, former married name, nickname) to widen the match.\n5. Review the records the portal surfaces and select the one(s) that are you.\n6. Under \"Desired Behavior\" choose \"Suppressed\" and save.\n7. Allow 7-14 days, then search your name on truthfinder.com to confirm the listing is gone.",
+   "link_status": "live"
   },
   {
    "id": "ufind-name",
@@ -3771,7 +3771,7 @@
    "tier": "guided",
    "priority": "crucial",
    "method": "form",
-   "opt_out_url": "https://www.intelius.com/opt-out",
+   "opt_out_url": "https://suppression.peopleconnect.us/",
    "opt_out_email": null,
    "phone": null,
    "captcha": false,
@@ -3787,9 +3787,9 @@
    "legal_basis": [],
    "last_verified": null,
    "source": "data-brokers-watch",
-   "notes": "MIGRATED opt_out_url pointed at intelius.com/optout, which did not resolve for fetch tooling in this session; corrected to the documented intelius.com/opt-out path per removal-guide consensus (GhostMyData, Security.org, Incogni, Clearnym, mydataremoval.com). ZabaSearch is a PeopleConnect brand; per multiple guides, opting out of ZabaSearch means going through the shared Intelius/PeopleConnect suppression form, then separately checking addresses.com and anywho.com since they can carry duplicate listings. Requires email verification and DOB entry; no CAPTCHA reported but the multi-step verification loop and DOB requirement warrant guided rather than assisted. Not freshly confirmed against the live page.",
-   "instructions_md": "1. Go to intelius.com/opt-out and search your name plus state to locate the record feeding your ZabaSearch listing.\n2. Select the matching listing and follow the prompts to submit a removal request.\n3. Check your email for the PeopleConnect verification message and click \"Verify Email.\"\n4. Enter your date of birth so PeopleConnect can confirm it has matched the correct record.\n5. Submit and allow 3-7 days for processing after email verification.\n6. Afterward, search zabasearch.com, addresses.com, and anywho.com separately to confirm the listing is gone from each -- these PeopleConnect-affiliated sites can carry duplicate records that need their own removal requests.",
-   "link_status": "bot-blocked"
+   "notes": "MIGRATED opt_out_url pointed at intelius.com/optout, which did not resolve for fetch tooling in this session; corrected to the documented intelius.com/opt-out path per removal-guide consensus (GhostMyData, Security.org, Incogni, Clearnym, mydataremoval.com). ZabaSearch is a PeopleConnect brand; per multiple guides, opting out of ZabaSearch means going through the shared Intelius/PeopleConnect suppression form, then separately checking addresses.com and anywho.com since they can carry duplicate listings. Requires email verification and DOB entry; no CAPTCHA reported but the multi-step verification loop and DOB requirement warrant guided rather than assisted. Not freshly confirmed against the live page. 2026-10-14 maintainer: the page monitor found https://www.intelius.com/opt-out now redirects to https://suppression.peopleconnect.us/ (PeopleConnect - Suppression Center); opt_out_url and steps updated to point there directly, with steps following the flow already confirmed in peopleconnect-us.md. The redirect itself was observed by the monitor (the suppression center returns 403 to scripted fetches, so its content was not re-read in this run). last_verified unchanged.",
+   "instructions_md": "1. Go to https://suppression.peopleconnect.us/ -- PeopleConnect's shared Suppression Center, which is where ZabaSearch's own opt-out link now lands. Enter an email address you can access, agree to the terms, and continue. Complete a CAPTCHA if one is shown.\n2. Check your inbox for the verification email from PeopleConnect and click \"Verify Email\" promptly -- the link can expire.\n3. Enter your date of birth when prompted; it is used to match you to records.\n4. Enter your legal name and any alternate names (maiden name, former married name, nickname) to widen the match.\n5. Review the records the portal surfaces and select the one(s) that are you.\n6. Under \"Desired Behavior\" choose \"Suppressed\" and save.\n7. Afterward, search zabasearch.com, addresses.com and anywho.com separately to confirm the listing is gone from each -- these affiliated sites can carry duplicate records.",
+   "link_status": "live"
   },
   {
    "id": "accudata-com",
@@ -4053,7 +4053,7 @@
    "opt_out_url": "https://ecom2.anchorcomputer.com/privacyrequest",
    "opt_out_email": "privacyteam@anchorcomputer.com",
    "phone": "1-800-646-2563",
-   "captcha": false,
+   "captcha": true,
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
@@ -4072,7 +4072,7 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "WebFetch of anchorcomputer.com homepage and /privacy-policy confirmed directly. Anchor Computer is a marketing-data/mailing-list compiler offering 'customer profiling and data validation to segmentation and targeting' built on '6B+ Permissioned signals,' and its privacy policy lists name, SSN, postal address, email, phone, plus demographic data (age, religion, ethnicity, marital status, gender, hobbies) among categories sold. Policy explicitly grants CPRA right to opt out of sale and right to deletion, and names the online form at ecom2.anchorcomputer.com/privacyrequest ('Individual Consumer Opt-Out Submission Form') plus email/phone alternatives. Form fields (name, address, last-4 SSN, DOB, phone, email) are as listed in the privacy policy text, not independently confirmed by rendering the form itself -- guided tier given the sensitive-field combination (SSN, DOB) even without CAPTCHA. last_verified left null since the live form itself wasn't rendered.",
+   "notes": "WebFetch of anchorcomputer.com homepage and /privacy-policy confirmed directly. Anchor Computer is a marketing-data/mailing-list compiler offering 'customer profiling and data validation to segmentation and targeting' built on '6B+ Permissioned signals,' and its privacy policy lists name, SSN, postal address, email, phone, plus demographic data (age, religion, ethnicity, marital status, gender, hobbies) among categories sold. Policy explicitly grants CPRA right to opt out of sale and right to deletion, and names the online form at ecom2.anchorcomputer.com/privacyrequest ('Individual Consumer Opt-Out Submission Form') plus email/phone alternatives. Form fields (name, address, last-4 SSN, DOB, phone, email) are as listed in the privacy policy text, not independently confirmed by rendering the form itself -- guided tier given the sensitive-field combination (SSN, DOB) even without CAPTCHA. last_verified left null since the live form itself wasn't rendered. 2026-10-14 maintainer: fetched https://ecom2.anchorcomputer.com/privacyrequest (HTTP 200); the form carries a reCAPTCHA v2 widget (div.g-recaptcha with a site key), confirming the page monitor's flag. captcha set true; tier was already guided. last_verified unchanged.",
    "instructions_md": "1. Go to the Anchor Computer opt-out form at https://ecom2.anchorcomputer.com/privacyrequest.\n2. Select the request type for opting out of sale/sharing of your personal information (California/CPRA rights).\n3. Enter your first and last name, mailing address, phone number, and email address.\n4. Enter your date of birth and the last 4 digits of your Social Security number, which Anchor Computer uses to match and verify your record in their marketing database.\n5. Submit the form.\n6. Alternatively, skip the form and email the same information directly to privacyteam@anchorcomputer.com, or call 1-800-646-2563 to request opt-out/deletion by phone.\n\n**Sensitive-data note:** this process asks for the last 4 digits of your SSN and your date of birth. Only proceed if you're comfortable sharing that; the phone and email channels ask for the same information, so there's no lower-friction path available.",
    "link_status": "live"
   },
@@ -4119,7 +4119,7 @@
    "opt_out_url": "https://apollointeractive.com/data-rights.php",
    "opt_out_email": "requests@apollointeractive.com",
    "phone": null,
-   "captcha": false,
+   "captcha": true,
    "id_required": true,
    "phone_required": false,
    "charges_fee": false,
@@ -4136,7 +4136,7 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "WebFetch confirmed Apollo Interactive's own privacy policy explicitly self-identifies: 'We are a data broker under certain state laws including, but not limited to, the Texas Data Broker Law' and states it sells personal information. This is a lead-generation company for insurance/mortgage verticals (Medicare, auto, life, home, mortgage, pet), a genuinely different company from apollo.io. Its Data Rights Request Form at apollointeractive.com/data-rights.php requires first/last name, address, city/state/zip, phone, email, a government-issued photo ID upload, and an attestation checkbox, with a request-type selector (opt-out of sale, delete, know, correct). No CAPTCHA or fee mentioned in the fetched text, but the gov-ID upload alone makes this guided tier and triggers the sensitive-data guardrail. last_verified left null -- not independently re-rendered live.",
+   "notes": "WebFetch confirmed Apollo Interactive's own privacy policy explicitly self-identifies: 'We are a data broker under certain state laws including, but not limited to, the Texas Data Broker Law' and states it sells personal information. This is a lead-generation company for insurance/mortgage verticals (Medicare, auto, life, home, mortgage, pet), a genuinely different company from apollo.io. Its Data Rights Request Form at apollointeractive.com/data-rights.php requires first/last name, address, city/state/zip, phone, email, a government-issued photo ID upload, and an attestation checkbox, with a request-type selector (opt-out of sale, delete, know, correct). No CAPTCHA or fee mentioned in the fetched text, but the gov-ID upload alone makes this guided tier and triggers the sensitive-data guardrail. last_verified left null -- not independently re-rendered live. 2026-10-14 maintainer: fetched https://www.apollointeractive.com/data-rights.php (HTTP 200); the form carries a reCAPTCHA v2 widget (div.g-recaptcha with a site key), confirming the page monitor's flag. captcha set true; tier was already guided. last_verified unchanged.",
    "instructions_md": "1. Go to the Apollo Interactive Data Rights Request Form at https://apollointeractive.com/data-rights.php.\n2. Choose the request type: opt-out of sale, deletion, or \"know what data is held.\"\n3. Enter your first and last name, full address (city/state/zip), phone number, and email address.\n4. Upload a government-issued photo ID to verify your identity.\n5. Check the attestation box confirming the request is genuinely yours, and submit.\n6. Alternatively, email requests@apollointeractive.com directly with the same information and your request type.\n\n**Sensitive-data note:** this broker requires a government-issued photo ID upload to process any request. Only proceed if you're comfortable sharing that; there is no lower-friction alternative documented.",
    "link_status": "live"
   },
