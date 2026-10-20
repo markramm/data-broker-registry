@@ -1,20 +1,20 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.16",
-  "content_hash": "sha256:79953a83ff5ad7e269ff55772f59c230199a8f96ff940b2856d782c5e41ab39c",
+  "dataset_version": "0.1.17",
+  "content_hash": "sha256:a2a105a01ba6ee96b8663d9144a493bced549c3a1462139a5a54ca40cab55752",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 493,
+  "authored_count": 492,
   "backlog_count": 89,
-  "total_known": 582,
-  "unverified_count": 456,
+  "total_known": 581,
+  "unverified_count": 455,
   "tiers": {
    "guided": 270,
    "assisted": 151,
-   "auto": 72
+   "auto": 71
   },
   "priorities": {
-   "crucial": 124,
+   "crucial": 123,
    "high": 155,
    "standard": 214
   }
@@ -2415,8 +2415,8 @@
    "legal_basis": [],
    "last_verified": "2026-07-03",
    "source": "data-brokers-watch + tcp-verified",
-   "notes": "MIGRATED research_note: own opt-out page live. Confirmed via direct WebFetch of opt-out.html: no online form -- process is to copy your listing as plain text (name, age, location, relatives shown) and email it to support@persopo.com (subject 'Opt Out' or 'Attention: Opt Out Dept.'), or mail it to their Las Vegas address. No CAPTCHA, ID, or fee. Because the channel is email, tier set to auto per schema. Removal takes 10-20 business days; Persopo also adds your info to a suppression list shared with its data providers to reduce future re-listing.",
-   "instructions_md": "1. Search for yourself on persopo.com and find your listing.\n2. Copy the entire listing as plain text (name, age, location, relatives) -- do not send a screenshot or just a link.\n3. Email the copied listing to support@persopo.com with a subject like \"Opt Out\" or \"Attention: Opt Out Dept.\"\n4. Alternatively, mail the same information to: Persopo.com, Attention: Opt Out Dept., 848 N. Rainbow Blvd., Suite 20, Las Vegas, NV 89107.\n5. Allow 10-20 business days for removal. Persopo says it shares a suppression list with its data providers, but new records with different identifiers can still appear later.",
+   "notes": "MIGRATED research_note: own opt-out page live. Confirmed via direct WebFetch of opt-out.html: no online form -- process is to copy your listing as plain text (name, age, location, relatives shown) and email it to support@persopo.com (subject 'Opt Out' or 'Attention: Opt Out Dept.'), or mail it to their Las Vegas address. No CAPTCHA, ID, or fee. Because the channel is email, tier set to auto per schema. Removal takes 10-20 business days; Persopo also adds your info to a suppression list shared with its data providers to reduce future re-listing. 2026-10-19 (maintainer, Refs tester report #5 by @matthew-product): a tester who emailed the opt-out was told Persopo 'no longer has any public records', holds data only on paying customers, and that results reached from persopo.com come from TruthFinder, which must be asked separately. Fetched 2026-10-19: persopo.com and opt-out.html both load (HTTP 200); opt-out.html still describes the copy-your-listing email process unchanged, and the homepage's search links out to a tracking.truthfinder.com affiliate URL, consistent with the reply. Added a TruthFinder step; email route and last_verified unchanged (not re-walked).",
+   "instructions_md": "1. Search for yourself on persopo.com and find your listing.\n2. Copy the entire listing as plain text (name, age, location, relatives) -- do not send a screenshot or just a link.\n3. Email the copied listing to support@persopo.com with a subject like \"Opt Out\" or \"Attention: Opt Out Dept.\"\n4. Alternatively, mail the same information to: Persopo.com, Attention: Opt Out Dept., 848 N. Rainbow Blvd., Suite 20, Las Vegas, NV 89107.\n5. Allow 10-20 business days for removal. Persopo says it shares a suppression list with its data providers, but new records with different identifiers can still appear later.\n6. Persopo's search sends you to TruthFinder, and Persopo has told at least one requester it keeps no public-record data itself and that TruthFinder results must be removed with TruthFinder. Also complete the TruthFinder opt-out (see the truthfinder-com entry).",
    "link_status": "live"
   },
   {
@@ -2567,37 +2567,6 @@
    "notes": "WebFetch on the old query-string help URL returned empty content; the working removal path per multiple third-party opt-out guides is privateeye.com/removal, a separate two-step form (initial name+email, then an emailed link -- expires in 24h -- to a second form asking DOB/address, gated by CAPTCHA). Updated opt_out_url to the real removal path since the legacy Help-page anchor is stale/unreliable. Not freshly fetched successfully, so last_verified left null; people-search site, so priority is crucial regardless of category field inherited from migration.",
    "instructions_md": "1. Go to `https://www.privateeye.com/removal` and enter your first name, last name, and email address, then submit.\n2. Check your inbox (and spam folder) for an email from PrivateEye with an opt-out link. Click it within 24 hours -- the link expires after that and you'll need to resubmit step 1.\n3. On the linked removal form, fill in your date of birth, street address, city, and state to match your listing.\n4. Complete the CAPTCHA challenge and click \"Opt Out.\"\n5. Removal typically completes within about 3 days. If you have lived in multiple states or used different name variants, repeat this process for each separate listing/profile.",
    "link_status": "live"
-  },
-  {
-   "id": "publicbackgroundchecks-com",
-   "name": "PublicBackgroundChecks.com",
-   "domain": "publicbackgroundchecks.com",
-   "category": "data_brokers",
-   "people_search": false,
-   "tier": "auto",
-   "priority": "crucial",
-   "method": "email",
-   "opt_out_url": "<verify: publicbackgroundchecks.com is a parked domain with no opt-out page; needs a confirmed consumer-rights URL for the backgroundchecks.com family>",
-   "opt_out_email": "support@backgroundchecks.com",
-   "phone": null,
-   "captcha": false,
-   "id_required": false,
-   "phone_required": false,
-   "charges_fee": false,
-   "required_fields": [
-    "full_name",
-    "email",
-    "phone"
-   ],
-   "readd_days": null,
-   "legal_basis": [
-    "ccpa"
-   ],
-   "last_verified": null,
-   "source": "data-brokers-watch",
-   "notes": "2026-09-15: publicbackgroundchecks.com is a PARKED DOMAIN. Every URL on it -- including the privacypolicy.aspx this entry used to point at -- returns an identical 708-byte stub whose only content is <script>window.onload=function(){window.location.href=\\\"/lander\\\"}</script>, and /lander itself renders zero text. There is no privacy policy, no opt-out form, and no site. Note that data/link-status.json records the old privacypolicy.aspx URL as 'live', because check_links.py sees HTTP 200 and cannot tell a parked stub from a real page -- worth knowing when reading link_status generally. Researched the parent instead: www.backgroundchecks.com is genuinely alive, and its privacy policy section 5 ('Your Choices Regarding Your Personal Information') says you may contact Customer Support to access, update, correct and delete your personal information, and gives support@backgroundchecks.com as the written channel (documented there specifically for email unsubscribe requests). Three caveats a reader deserves: (1) that policy states it applies only to www.backgroundchecks.com and app.backgroundchecks.com, and mentions publicbackgroundchecks.com nowhere -- 0 hits, as with govbackgroundchecks; (2) it is an FCRA employment-screening policy scoped to 'Applicants' and 'Clients', with no data-broker opt-out language at all (0 hits for 'opt out', 'data broker', 'right to request deletion'); (3) the info@backgroundchecks.com address and 866-300-8524 phone number previously carried in this entry come from third-party removal guides and appear NOWHERE in the parent's own policy, so both have been removed rather than passed on unverified. opt_out_url is therefore a <verify:> placeholder rather than a confident link: the entry is kept and pointed at the parent's documented email route, but the routing is explicitly unconfirmed for this defunct domain and the app will surface it as an unknown-link entry. last_verified stays null. If a tester establishes whether backgroundchecks.com will process a deletion request for records sourced from this dead subdomain, that answer is the single most useful correction this entry can receive.",
-   "instructions_md": "1. Know before you start: publicbackgroundchecks.com itself is gone. The domain is parked -- every page on it redirects to an empty placeholder, and there is no opt-out form or privacy policy left to read. The steps below route to its parent company instead, and that routing is **not confirmed** for this defunct site.\n2. Email support@backgroundchecks.com and ask them to access and delete the personal information they hold on you. This is the written channel the parent's own privacy policy names, under \"Your Choices Regarding Your Personal Information.\"\n3. Include your full name, email address, and phone number so they can locate a record, and state that you are exercising your CCPA (or your state's equivalent) right to deletion. Say explicitly that your request covers records sourced from publicbackgroundchecks.com, since the parent's policy does not mention that domain.\n4. Expect friction, and do not read it as your mistake. The parent's privacy policy is written for employment screening -- it addresses \"Applicants\" and \"Clients,\" names only www.backgroundchecks.com and app.backgroundchecks.com, and contains no data-broker opt-out language. The address above is documented there mainly for email unsubscribe requests. They may decline, or route you to an FCRA dispute process instead.\n5. If they direct you to a different form, address, or consumer-rights portal, that is a genuinely useful finding -- please report it, because it is the piece this entry is missing.\n6. Do not bother with the info@backgroundchecks.com address or the 866-300-8524 number that circulate in third-party removal guides for this site. Neither appears anywhere in the company's own privacy policy, and this entry no longer carries them.",
-   "link_status": "unknown"
   },
   {
    "id": "publicrecords-com",
