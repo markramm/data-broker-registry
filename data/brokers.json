@@ -1,20 +1,20 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.16",
-  "content_hash": "sha256:79953a83ff5ad7e269ff55772f59c230199a8f96ff940b2856d782c5e41ab39c",
+  "dataset_version": "0.1.17",
+  "content_hash": "sha256:7467388bbbad05168ba2c9e7689817ab59bebd3581117bf4794b59d72019d199",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 493,
+  "authored_count": 496,
   "backlog_count": 89,
-  "total_known": 582,
-  "unverified_count": 456,
+  "total_known": 585,
+  "unverified_count": 459,
   "tiers": {
-   "guided": 270,
-   "assisted": 151,
+   "guided": 271,
+   "assisted": 153,
    "auto": 72
   },
   "priorities": {
-   "crucial": 124,
+   "crucial": 127,
    "high": 155,
    "standard": 214
   }
@@ -568,6 +568,39 @@
    "notes": "WebFetch on checkpeople.com/opt-out loaded successfully and rendered a single-field suppression form (email only) with a Terms/Privacy checkbox. No CAPTCHA, no listing URL, no name/DOB field on this form itself, contrary to some older third-party guides describing a separate full-name+birthdate step. There is also a distinct 'Right to Know' pre-step at checkpeople.com/privacy-rights (requires name+email) for requesting a copy of what CheckPeople holds on you, but it is not required to complete the opt-out -- noted below as optional context, not a required field.",
    "instructions_md": "1. Go to the [CheckPeople opt-out page](https://checkpeople.com/opt-out).\n2. Enter the email address you want CheckPeople to associate with your suppression request.\n3. Check the box agreeing to the Terms of Service and Privacy Policy, then submit the form.\n4. Watch your inbox for a verification email from CheckPeople and click the confirmation link inside it -- the request is not applied until you confirm.\n5. Optional: if you also want to see what CheckPeople has on file about you before or after opting out, submit a separate \"Right to Know\" request at [checkpeople.com/privacy-rights](https://checkpeople.com/privacy-rights) (requires your name and email); this is informational and not required for the opt-out itself.\n6. Re-check periodically -- people-search sites re-ingest public records, so a listing can reappear months later.",
    "link_status": "live"
+  },
+  {
+   "id": "checksecrets-com",
+   "name": "CheckSecrets",
+   "domain": "checksecrets.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "assisted",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://www.checksecrets.com/api/helper/optOutLight/search",
+   "opt_out_email": "support@checksecrets.com",
+   "phone": "1-855-754-7951",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "full_name",
+    "dob",
+    "address",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-20 by the daily maintainer from California's data broker registry (Truth Now LLC, support@checksecrets.com; the registry also lists peoplesearchUSA.org, inmatesearcher.com and sealedrecords.net, none of which were fetched). The homepage (redirects to /name/landing, HTTP 200) sells person, phone and inmate searches, so people_search true and priority crucial. Pages were rendered in a headless browser. The footer links 'Do Not Sell Or Share My Personal Info' and 'Limit The Use of My Sensitive Personal Info' both lead to https://www.checksecrets.com/api/helper/optOutLight/search ('Privacy Requests', HTTP 200). This is the same request page used by peoplesearcher.com. It offers two requests. 'Your Privacy Choices' only stops sale and sharing, takes an email or phone number, and says it does not remove a listing. 'Remove My Information' (?type=removal) requires first and last name, birth month/day/year, city, ZIP code, state, and an email address for a confirmation link. The page says nothing is removed until that link is clicked, requests are acknowledged within 10 business days and completed within 45 calendar days, and phone requests go to (855) 754-7951. No CAPTCHA widget or CAPTCHA script was present on either form when rendered, so the entry is marked assisted. A CAPTCHA could still appear on submit, which was not tested. Nothing was submitted, and last_verified is null.",
+   "instructions_md": "1. Go to https://www.checksecrets.com/api/helper/optOutLight/search. It is also linked as \"Do Not Sell Or Share My Personal Info\" in the site footer.\n2. Choose \"Remove My Information\". The other option, \"Your Privacy Choices\", only stops sale/sharing and leaves your listing on the site.\n3. Fill in the details of the person in the listing: first and last name, full birth date, city, ZIP code and state.\n4. Enter an email address for the confirmation link, then click \"Submit removal request\".\n5. Open the confirmation email and click the link. Nothing is removed until you do.\n6. CheckSecrets says it acknowledges requests within 10 business days and completes them within 45 days. After that, search the site again to check.\n7. If the link never arrives, or you'd rather not use the form, call (855) 754-7951.",
+   "link_status": "unknown"
   },
   {
    "id": "city-data-com",
@@ -2569,6 +2602,39 @@
    "link_status": "live"
   },
   {
+   "id": "privaterecords-net",
+   "name": "PrivateRecords",
+   "domain": "privaterecords.net",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "assisted",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://www.privaterecords.net/api/helper/optOutLight/search",
+   "opt_out_email": "support@privaterecords.net",
+   "phone": "1-888-270-9304",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "full_name",
+    "dob",
+    "address",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-20 by the daily maintainer from California's data broker registry (Private Records LLC, support@privaterecords.net). The registry also lists peoplesearch123.com, backgroundcheckers.net and personsearchers.com; none of these were fetched. The homepage (redirects to /name/landing, HTTP 200) is a public-records and people search ('search over 12 billion public records'), so people_search is true and priority is crucial. Pages were rendered in a headless browser. The footer links 'Do Not Sell Or Share My Personal Info' and 'Limit The Use of My Sensitive Personal Info' both go to https://www.privaterecords.net/api/helper/optOutLight/search ('Privacy Requests', HTTP 200). This is the same request page used by peoplesearcher.com and checksecrets.com. It offers two requests. 'Your Privacy Choices' only stops sale/sharing, accepts an email or a phone number, and states that it does not remove a listing. 'Remove My Information' (?type=removal) requires first and last name, birth month/day/year, city, ZIP, state, and an email address that receives a confirmation link. The page says nothing is removed until that link is clicked. Requests are acknowledged within 10 business days and completed within 45 calendar days. Phone requests go to (888) 270-9304. No CAPTCHA widget or script was present on either form when rendered, so the tier is assisted. A CAPTCHA could still appear on submit; that was not tested. Nothing was submitted; last_verified is null.",
+   "instructions_md": "1. Go to https://www.privaterecords.net/api/helper/optOutLight/search. The site footer also links to it as \"Do Not Sell Or Share My Personal Info\".\n2. Choose \"Remove My Information\". \"Your Privacy Choices\" only stops sale and sharing, and your listing stays up.\n3. Enter the first and last name, birth date (month, day and year), city, ZIP code and state of the person in the listing.\n4. Enter an email address for the confirmation link, then click \"Submit removal request\".\n5. Open the confirmation email and click the link. Nothing is removed until you do.\n6. PrivateRecords says it acknowledges requests within 10 business days and completes them within 45 days. Search the site again after that to check.\n7. If the link never arrives, or you'd rather not use the form, call (888) 270-9304.",
+   "link_status": "unknown"
+  },
+  {
    "id": "publicbackgroundchecks-com",
    "name": "PublicBackgroundChecks.com",
    "domain": "publicbackgroundchecks.com",
@@ -3398,6 +3464,38 @@
    "notes": "Confirmed via WebFetch that truepeoplesearch.net is LIVE and is a DISTINCT operator from truepeoplesearch.com -- not a redirect or alias. Its own copyright footer reads 'Copyright 2026 TruePeopleSearch.net' (vs. truepeoplesearch.com's separate branding/phone numbers). Its /terms page names a legal-notice address of 'NanShan District, Liuxian Avenue' (a district/street in Shenzhen, China) paired with a nonsensical governing-law clause ('courts located within Netherlands County, California' -- no such county exists), strongly suggesting boilerplate/templated ToS from an unrelated or offshore operator rather than truepeoplesearch.com's known US operation. No legal entity name, business address, or incorporation state is disclosed anywhere on the site. Removal process at /remove-my-info directs users to a third-party Google Form (docs.google.com/forms/d/e/1FAIpQLSeCPggzv4iXE20iUjcr6vdVWxBOblCyGwDLcO-jZA5j2YF5fQ/viewform) rather than a hosted opt-out flow; page text does not enumerate required fields, but people-search opt-out forms of this type typically ask for the profile/listing URL and an email. No CAPTCHA, ID, phone, or fee was mentioned on the removal page itself, but given the opaque operator, unnamed legal entity, and reliance on an external Google Form (which could change or disappear without notice), classified as guided/crucial out of caution rather than assisted. Contact-page email is Cloudflare email-protection-obfuscated and could not be decoded via WebFetch or curl; left as a verify placeholder rather than guessed. last_verified left null since no field here was confirmed against a freshly, fully rendered page with certainty (WebFetch summaries only, not manual render).",
    "instructions_md": "<!-- Original instructions for TruePeopleSearch.net's Google-Form-based removal flow. -->\n1. Search your name on truepeoplesearch.net and open the listing/profile that matches you; copy that listing's page URL.\n2. Go to https://truepeoplesearch.net/remove-my-info and follow the link to the site's removal request form (currently hosted as a Google Form, not on the truepeoplesearch.net domain itself).\n3. Paste your listing URL and enter your email address in the form; submit it.\n4. If you have more than one matching listing on the site, submit a separate form for each one -- the site states it only processes one report per request.\n5. Allow up to 48 hours for the listing to be removed from truepeoplesearch.net. Note the removal only affects this site's own listing, not copies on other people-search sites or government/public record sources.\n6. If the form doesn't work or you have questions, use the \"Contact Us\" link in the site footer to reach support by email (no phone contact is listed).\n7. Caution: this site's Terms of Use reference an overseas legal-notice address and do not name an operating company, and the removal flow depends on an external Google Form rather than the site's own infrastructure -- treat this as a lower-trust operator than the (also NOT the same company) truepeoplesearch.com, and consider it lower priority to revisit/re-check periodically since the process could change without notice.",
    "link_status": "live"
+  },
+  {
+   "id": "truthed-com",
+   "name": "Truthed",
+   "domain": "truthed.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://www.truthed.com/optout",
+   "opt_out_email": null,
+   "phone": "1-888-387-5010",
+   "captcha": false,
+   "id_required": true,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "id_verify",
+   "required_fields": [
+    "full_name",
+    "email",
+    "gov_id"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-20 by the daily maintainer from California's data broker registry (Truthed, Inc; rights_url https://www.truthed.com/optout). The registry contact is a named individual's address, so it is not used as opt_out_email. Truthed describes itself as 'a modern people search and background check platform', so people_search is true and priority is crucial. Pages were rendered in a headless browser. /optout (HTTP 200) asks 'Do you want to remove your personal information from our search results?' and its 'Yes, remove my information' button leads to /optout/search, a record search with first, middle and last name, city, state and age fields. The record-selection and confirmation steps after the search were not reached, because that would mean searching a real person. The site's guide, /resources/want-to-opt-out-from-our-people-search, says: 'IMPORTANT: ID required. You'll need to provide proof of your identity before we can complete your request.' It also says you select your record, confirm, and receive an email confirmation; removal is free, needs no membership, and takes up to 5 business days. Because ID is required, the tier is guided and id_required is true. The exact ID step (upload or other) was not seen. No CAPTCHA was on the search form. However, a second load of /optout/search and a load of /privacy-center returned HTTP 403 with a Cloudflare 'Performing security verification' (Turnstile) interstitial, so a human visitor may also get a bot check. Nothing was submitted; last_verified is null.",
+   "instructions_md": "1. Go to https://www.truthed.com/optout. The site footer also links to it as \"Remove My Information\". Click \"Yes, remove my information\".\n2. On the search page, enter your first and last name. City, state and age help narrow the results. Then click \"Search Records\".\n3. Find your record in the results and confirm that you want it removed.\n4. Truthed says it needs proof of identity before it completes a removal. Follow the prompts to provide it, and share only what is required.\n5. Watch for the confirmation email, which says the opt-out is under way.\n6. Truthed says removal can take up to 5 business days. After that, clear your browser cache and search your name again. If a record is still showing, or a new one appears later, contact Truthed again.\n7. For problems, call 1 (888) 387-5010 (Monday-Friday, 7am-5pm PT).",
+   "link_status": "unknown"
   },
   {
    "id": "truthfinder-com",
