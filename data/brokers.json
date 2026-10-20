@@ -1,20 +1,20 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.16",
-  "content_hash": "sha256:79953a83ff5ad7e269ff55772f59c230199a8f96ff940b2856d782c5e41ab39c",
+  "dataset_version": "0.1.17",
+  "content_hash": "sha256:c6d62b47b44f0ed4f56a757683a16d278376b03bfb34e23481bae1f578da26cd",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 493,
+  "authored_count": 496,
   "backlog_count": 89,
-  "total_known": 582,
-  "unverified_count": 456,
+  "total_known": 585,
+  "unverified_count": 459,
   "tiers": {
-   "guided": 270,
-   "assisted": 151,
+   "guided": 276,
+   "assisted": 148,
    "auto": 72
   },
   "priorities": {
-   "crucial": 124,
+   "crucial": 127,
    "high": 155,
    "standard": 214
   }
@@ -1524,6 +1524,39 @@
    "link_status": "broken"
   },
   {
+   "id": "kidslivesafe-com",
+   "name": "Kids Live Safe",
+   "domain": "kidslivesafe.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://www.kidslivesafe.com/help-center/privacy-requests",
+   "opt_out_email": "privacyinfo@kidslivesafe.com",
+   "phone": "1-800-301-5905",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "full_name",
+    "address",
+    "email",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-16 by the daily maintainer from California's data broker registry (Scalable Commerce LLC, listing privacyinfo@kidslivesafe.com and https://www.kidslivesafe.com/help-center/privacy-requests). Fetched https://www.kidslivesafe.com/help-center/privacy-requests directly (HTTP 200, 'Personal Information Privacy Requests'). The form offers Do Not Sell My Info, Delete My Info, or Request a Copy, and asks for first and last name, city, state, ZIP, an age range and a confirmation email (customer ID only for existing customers). It has a Cloudflare Turnstile widget (div.cf-turnstile, 'Please confirm you are human'). Its FAQ says you search the database, pick your record, then click the link in a verification email, and a second email confirms the opt-out. Removal is free, needs no membership and usually takes effect within 24 hours. Daniel's Law covered persons can ask support for manual help. The page layout, fields and FAQ are identical to the publicinfoservices.com, searchpublicrecords.com and kidslivesafe.com privacy pages, so these sites appear to run on one shared platform; their CA registrations list different LLCs, so they are kept as separate entries. Scalable Commerce also registers quickpublicrecords.com under the same entry; that site was not fetched in this pass. People-search reports -> people_search true, priority crucial; CAPTCHA -> guided. Nothing was submitted; last_verified null.",
+   "instructions_md": "1. Go to https://www.kidslivesafe.com/help-center/privacy-requests.\n2. Choose \"Do Not Sell My Info\" (or \"Delete My Info\") as the request type.\n3. Enter your first and last name, city, state, ZIP code and age range, plus an email address where you can receive the confirmation. Leave Customer ID blank unless you have an account.\n4. Complete the \"confirm you are human\" check and click Continue.\n5. In the search results, select the record that is you.\n6. Open the verification email from Kids Live Safe and click the link to confirm. If it doesn't arrive within 15 minutes, check spam and the address you typed.\n7. Wait for the second email confirming the opt-out was processed, then check again after about 24 hours that your record is gone. If it is still there, call 1-800-301-5905.\n8. If you are covered by Daniel's Law (judges, prosecutors, law enforcement and their households), you can contact support for help instead of using the automated form.",
+   "link_status": "unknown"
+  },
+  {
    "id": "libertydata-net",
    "name": "Libertydata.Net",
    "domain": "libertydata.net",
@@ -2569,6 +2602,39 @@
    "link_status": "live"
   },
   {
+   "id": "publicinfoservices-com",
+   "name": "Public Information Services",
+   "domain": "publicinfoservices.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://www.publicinfoservices.com/help-center/privacy-requests",
+   "opt_out_email": "privacyinfo@publicinfoservices.com",
+   "phone": "1-800-617-3169",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "full_name",
+    "address",
+    "email",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-16 by the daily maintainer from California's data broker registry (Information Data Resources, LLC, listing privacyinfo@publicinfoservices.com and https://www.publicinfoservices.com/help-center/privacy-requests). Fetched https://www.publicinfoservices.com/help-center/privacy-requests directly (HTTP 200, 'Personal Information Privacy Requests'). The form offers Do Not Sell My Info, Delete My Info, or Request a Copy, and asks for first and last name, city, state, ZIP, an age range and a confirmation email (customer ID only for existing customers). It has a Cloudflare Turnstile widget (div.cf-turnstile, 'Please confirm you are human'). Its FAQ says you search the database, pick your record, then click the link in a verification email, and a second email confirms the opt-out. Removal is free, needs no membership and usually takes effect within 24 hours. Daniel's Law covered persons can ask support for manual help. The page layout, fields and FAQ are identical to the publicinfoservices.com, searchpublicrecords.com and kidslivesafe.com privacy pages, so these sites appear to run on one shared platform; their CA registrations list different LLCs, so they are kept as separate entries. People-search reports -> people_search true, priority crucial; CAPTCHA -> guided. Nothing was submitted; last_verified null.",
+   "instructions_md": "1. Go to https://www.publicinfoservices.com/help-center/privacy-requests.\n2. Choose \"Do Not Sell My Info\" (or \"Delete My Info\") as the request type.\n3. Enter your first and last name, city, state, ZIP code and age range, plus an email address where you can receive the confirmation. Leave Customer ID blank unless you have an account.\n4. Complete the \"confirm you are human\" check and click Continue.\n5. In the search results, select the record that is you.\n6. Open the verification email from Public Information Services and click the link to confirm. If it doesn't arrive within 15 minutes, check spam and the address you typed.\n7. Wait for the second email confirming the opt-out was processed, then check again after about 24 hours that your record is gone. If it is still there, call 1-800-617-3169.\n8. If you are covered by Daniel's Law (judges, prosecutors, law enforcement and their households), you can contact support for help instead of using the automated form.",
+   "link_status": "unknown"
+  },
+  {
    "id": "publicbackgroundchecks-com",
    "name": "PublicBackgroundChecks.com",
    "domain": "publicbackgroundchecks.com",
@@ -2930,6 +2996,39 @@
    "notes": "MIGRATED research_note: own CCPA/Do-Not-Sell form, fetched 200. Re-fetched 2026-07-03: the actual request flow lives at /contact-us.aspx (the ccpa.aspx URL redirects/points here), which requires selecting 'CCPA Request' or 'Opt-Out Request', entering name/email/phone/address matching official ID, and uploading a photo of a driver's license or government ID. Updated opt_out_url to the working contact-form path, set id_required true (photo ID upload demanded), and flagged this as guided given the ID-upload requirement despite there being no CAPTCHA. Domestic-violence/stalking-victim and law-enforcement requesters have an alternate documentation path (court order instead of ID).",
    "instructions_md": "1. Go to `https://www.searchbug.com/contact-us.aspx`.\n2. Under reason for contact, select \"CCPA Request\" if you're a California resident, or \"Opt-Out Request\" otherwise.\n3. For the subject line, enter \"Do Not Sell\" (or, if you're a protected individual such as a domestic violence/stalking victim, law enforcement officer, judge, or public figure, select the matching category instead).\n4. Fill in your name, email, and phone number, and enter an address that matches your official ID/legal documents.\n5. Upload a photo of your driver's license or other government-issued ID (protected-category requesters should upload a court order or equivalent documentation instead of an ID).\n6. Submit the form. Searchbug states CCPA requests may take up to 45 days to process; for bulk or opt-out-service-provider requests, contact support@searchbug.zohodesk.com instead.",
    "link_status": "live"
+  },
+  {
+   "id": "searchpublicrecords-com",
+   "name": "Search Public Records",
+   "domain": "searchpublicrecords.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://www.searchpublicrecords.com/help-center/privacy-requests",
+   "opt_out_email": "privacyinfo@searchpublicrecords.com",
+   "phone": "1-800-719-2498",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "full_name",
+    "address",
+    "email",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-16 by the daily maintainer from California's data broker registry (Civil Data Research, LLC, listing privacyinfo@searchpublicrecords.com and https://www.searchpublicrecords.com/help-center/privacy-requests). Fetched https://www.searchpublicrecords.com/help-center/privacy-requests directly (HTTP 200, 'Personal Information Privacy Requests'). The form offers Do Not Sell My Info, Delete My Info, or Request a Copy, and asks for first and last name, city, state, ZIP, an age range and a confirmation email (customer ID only for existing customers). It has a Cloudflare Turnstile widget (div.cf-turnstile, 'Please confirm you are human'). Its FAQ says you search the database, pick your record, then click the link in a verification email, and a second email confirms the opt-out. Removal is free, needs no membership and usually takes effect within 24 hours. Daniel's Law covered persons can ask support for manual help. The page layout, fields and FAQ are identical to the publicinfoservices.com, searchpublicrecords.com and kidslivesafe.com privacy pages, so these sites appear to run on one shared platform; their CA registrations list different LLCs, so they are kept as separate entries. People-search reports -> people_search true, priority crucial; CAPTCHA -> guided. Nothing was submitted; last_verified null.",
+   "instructions_md": "1. Go to https://www.searchpublicrecords.com/help-center/privacy-requests.\n2. Choose \"Do Not Sell My Info\" (or \"Delete My Info\") as the request type.\n3. Enter your first and last name, city, state, ZIP code and age range, plus an email address where you can receive the confirmation. Leave Customer ID blank unless you have an account.\n4. Complete the \"confirm you are human\" check and click Continue.\n5. In the search results, select the record that is you.\n6. Open the verification email from Search Public Records and click the link to confirm. If it doesn't arrive within 15 minutes, check spam and the address you typed.\n7. Wait for the second email confirming the opt-out was processed, then check again after about 24 hours that your record is gone. If it is still there, call 1-800-719-2498.\n8. If you are covered by Daniel's Law (judges, prosecutors, law enforcement and their households), you can contact support for help instead of using the automated form.",
+   "link_status": "unknown"
   },
   {
    "id": "searchpeoplefree-com",
@@ -4269,21 +4368,20 @@
    "domain": "bdo.com",
    "category": "background_check",
    "people_search": true,
-   "tier": "guided",
+   "tier": "assisted",
    "priority": "high",
    "method": "form",
-   "opt_out_url": "https://www.bdo.com/do-not-sell-my-personal-information",
+   "opt_out_url": "https://form.bdo.com/",
    "opt_out_email": "privacy@bdo.com",
    "phone": "1-616-575-8785",
-   "captcha": true,
+   "captcha": false,
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
-   "verification": "email_confirm",
+   "verification": null,
    "required_fields": [
     "full_name",
     "email",
-    "phone",
     "address"
    ],
    "readd_days": null,
@@ -4292,9 +4390,9 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "WebFetch directly rendered bdo.com/do-not-sell-my-personal-information: a form for BDO's Global Corporate Intelligence (GCI) investigative due-diligence unit specifically, requiring first/last name and at least one unique identifier (phone, email, or home address), protected by Google reCAPTCHA Enterprise -- no government ID required. BDO's privacy policy confirms GCI 'sells' categories of personal information (identifiers, employment info, commercial info, online activity, profile info) as part of due-diligence research reports on individuals for clients doing M&A/investment screening -- this is the specific GCI unit, not BDO's audit/tax/advisory business generally, which states it does not sell personal information. CAPTCHA-gated -> guided tier. Because GCI compiles and sells dossiers/reports on named individuals for a fee to third-party clients, treating as people_search-adjacent (true) with high priority given real personal-safety/reputational stakes from an active B2B intelligence-report broker, though its audience is corporate clients rather than a public search tool.",
-   "instructions_md": "1. Go to https://www.bdo.com/do-not-sell-my-personal-information -- this form applies specifically to BDO's Global Corporate Intelligence (investigative due diligence) unit.\n2. Enter your first and last name, plus at least one identifier: a phone number, email address, or home address (you may add alternates too).\n3. Complete the reCAPTCHA challenge and submit the form to opt out of the sale of your personal information used in BDO's due-diligence/investigative research reports.\n4. Alternatively, email privacy@bdo.com or call 1 (616) 575-8785 to make the same request.\n5. Note this opt-out does not retroactively affect due-diligence correspondence or reports already produced before your request; expect confirmation within the CCPA-mandated response window.",
-   "link_status": "live"
+   "notes": "2026-10-16 maintainer run (Fixes #68): the old opt_out_url (bdo.com/do-not-sell-my-personal-information, HTTP 200) no longer holds a form; it now says BDO GCI's privacy request process has moved to form.bdo.com. Fetched https://form.bdo.com/ (HTTP 200, 'Privacy Request Form (BDO GCI Services)'). It requires first and last name, an email address for responses, country, street address, city, state and ZIP, a self/authorized-agent choice, and one request type per submission (opt-out, delete, access, correct). Phone, middle name and extra emails/phones/addresses are optional. The form markup wires up reCAPTCHA Enterprise but sets data-recaptcha-enabled=false and shows no challenge widget, so captcha: false and tier assisted (was guided); a person should confirm no challenge appears on submit. The page does not say how the request is verified, so verification is null. Nothing was submitted. Background kept from the earlier pass: the form covers only BDO's Global Corporate Intelligence (GCI) unit, which compiles and sells due-diligence research reports on named individuals; BDO's audit/tax/advisory business states it does not sell personal information. Treated as people_search-adjacent at high priority. last_verified stays null.",
+   "instructions_md": "1. Go to https://form.bdo.com/ (Privacy Request Form for BDO GCI Services). It only covers BDO's Global Corporate Intelligence unit.\n2. Enter your first and last name, an email address for responses, and your full home address (street, city, state, ZIP). BDO says it uses the address to tell you apart from people with the same name.\n3. Optionally add phone numbers, other email addresses or past addresses (up to 10 each) to help BDO find every record.\n4. Confirm you are the person named (or that you are an authorized agent), then choose \"Request to Opt-out\" and submit.\n5. The form takes one right per submission. To also ask for deletion, submit it again with \"Request to Delete\" selected.\n6. Alternatively, email privacy@bdo.com or call 1 (616) 575-8785 with the same request.\n7. The opt-out does not undo due-diligence reports already produced before your request.",
+   "link_status": "unknown"
   },
   {
    "id": "belardiwong-com",
@@ -9691,13 +9789,14 @@
    "opt_out_url": "https://www.bvdinfo.com/en-gb/legal/personal-data-request-form",
    "opt_out_email": "privacy@bvdinfo.com",
    "phone": null,
-   "captcha": false,
+   "captcha": true,
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
    "required_fields": [
+    "full_name",
     "email",
-    "full_name"
+    "address"
    ],
    "readd_days": null,
    "legal_basis": [
@@ -9706,8 +9805,8 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "Bureau van Dijk (BvD), now part of Moody's, publishes commercial/company-intelligence databases (e.g. Orbis) that include limited personal data -- names, business addresses, and phone numbers of company owners, directors, and commercial-real-estate brokers/tenants -- sourced from public records and filings. It is registered as a CA data broker under multiple related entities (Bureau van Dijk Electronic Publishing Ltd. and Regulatory DataCorp, Inc.), both listing privacy@bvdinfo.com and directing consumers to a personal-data-request form. Confirmed the opt-out URL and email directly from the CA AG registration record (oag.ca.gov/data-broker/registration/550358 and related entries); the form page itself returned HTTP 403 on WebFetch (bot-blocked), so its exact fields/CAPTCHA status could not be independently verified -- classified guided out of caution. B2B/commercial-data context -> people_search false, priority standard. Not freshly verified against a rendered page -- last_verified left null.",
-   "instructions_md": "1. Go to https://www.bvdinfo.com/en-gb/legal/personal-data-request-form and complete the form with your name and email address, specifying that you are making a CCPA (if a California resident) or GDPR data subject request for deletion/opt-out of sale.\n2. If the form is unavailable or you prefer email, send the same request directly to privacy@bvdinfo.com, describing the specific personal data (e.g. your name/business role as listed in an Orbis or related BvD/Moody's database) you want corrected, deleted, or opted out of sale.\n3. Because BvD's data is drawn largely from public company filings and records (Secretary of State filings, county tax records, etc.), full deletion may not be guaranteed where the underlying source remains public -- expect a reply clarifying what can and cannot be removed.\n4. Allow the standard CCPA/GDPR response window (typically up to 30-45 days) for a substantive reply.",
+   "notes": "2026-10-16 maintainer run (Fixes #32): https://www.bvdinfo.com/en-gb/legal/personal-data-request-form now redirects to a Moody's-hosted Alchemer survey, https://survey.alchemer.com/s3/8534043/Do-Not-Sell-Request (HTTP 200, title 'Do Not Sell Request - 2026'). opt_out_url is kept on the bvdinfo.com address because the survey's title carries a year and may be replaced; the redirect is what users land on today. The form is for California residents. It requires first and last name, email, a California street address, city and ZIP, a California-residence confirmation, which Moody's product the request covers (Moody's Analytics Pulse or Moody's CRE Solutions/Catylist-Reis; one per form), and the request type (access, deletion, correction, right to know, opt out, limit sensitive PI). The survey has a visible reCAPTCHA (div.g-recaptcha, data-size=compact), so captcha: true; tier stays guided. Nothing was submitted. Background kept from the earlier pass: Bureau van Dijk, now part of Moody's, sells company-intelligence data (e.g. Orbis) that includes limited personal data on company owners, directors and commercial real-estate brokers/tenants; it is registered as a CA data broker and lists privacy@bvdinfo.com. last_verified stays null.",
+   "instructions_md": "1. Go to https://www.bvdinfo.com/en-gb/legal/personal-data-request-form. It redirects to Moody's \"Do Not Sell Request\" survey on survey.alchemer.com.\n2. Choose whether you are making the request for yourself or as an authorized agent.\n3. Enter your first and last name, email address, and California street address, city and ZIP code.\n4. Pick which Moody's product the request applies to: Moody's Analytics Pulse (trade-credit data on people in payment/procurement roles) or Moody's CRE Solutions (Catylist/Reis commercial real-estate data). The form takes one per submission, so fill it in twice to cover both.\n5. Select \"Opt out\" (or \"Deletion\") as the request type, confirm you are a California resident, complete the reCAPTCHA and submit.\n6. If the form is unavailable or you are not a California resident, email privacy@bvdinfo.com with the same request, naming the product and describing how you appear in it.\n7. Because much of this data comes from public company filings and records, full deletion may not be possible where the source stays public. Expect a reply within the CCPA window (up to 45 days).",
    "link_status": "live"
   },
   {
@@ -10065,17 +10164,17 @@
    "domain": "compactlists.com",
    "category": "marketing_data_broker",
    "people_search": false,
-   "tier": "assisted",
+   "tier": "guided",
    "priority": "standard",
    "method": "form",
-   "opt_out_url": "http://privacy.compactlists.com/request/opt-out",
-   "opt_out_email": "privacy.compliance@compactlists.com",
+   "opt_out_url": "https://privacy.deepsync.com/request/opt-out",
+   "opt_out_email": "privacy.compliance@deepsync.com",
    "phone": null,
-   "captcha": false,
+   "captcha": true,
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
-   "verification": "none",
+   "verification": "identity_questions",
    "required_fields": [
     "full_name",
     "email",
@@ -10087,9 +10186,9 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "WebSearch confirmed Compact Information Systems is a CA-registered marketing/mailing-list data broker (over three decades in business, postal + demographic data on ~96% of US residents). Found two independent contact channels: a dedicated CCPA opt-out request form at privacy.compactlists.com/request/opt-out, and a privacy compliance email (privacy.compliance@compactlists.com) distinct from the legacy-CSV-listed general contact (pei@compactlists.com). Did not directly render the form to confirm CAPTCHA/ID requirements, so classified assisted (simple form, no evidence of CAPTCHA) rather than guided. last_verified left null since the form page itself was not fetched.",
-   "instructions_md": "1. Go to http://privacy.compactlists.com/request/opt-out and select the request type for opting out of sale/sharing of your personal information (or deletion, if offered).\n2. Fill in your full name, mailing address, and an email address so Compact Information Systems can locate your record in their marketing lists.\n3. Submit the form and watch for a confirmation email.\n4. Alternatively, or if the form is unavailable, email privacy.compliance@compactlists.com directly, stating you are exercising your CCPA right to opt out of sale/sharing of your personal information, and include your full name and address.\n5. Compact Information Systems must acknowledge and process the request within the CCPA-mandated timeframe (typically within 45 days).",
-   "link_status": "live"
+   "notes": "2026-10-16 maintainer run (Fixes #34): privacy.compactlists.com/request/opt-out now redirects to https://privacy.deepsync.com/request/opt-out (HTTP 200, 'Do Not Sell My Personal Information, Deep Sync'). This dataset already routes accudata-com and aslmarketing-com to the same Deep Sync privacy center. The page itself does not name Compact Information Systems, so the link rests on the redirect from Compact's own privacy subdomain. The form asks who the request is for (yourself, a deceased person, someone you represent), first and last name, email, phone, a primary address (up to five more), and which actions you want (do not sell/share, no targeted advertising, no profiling, limit sensitive PI, delete). It has a Cloudflare Turnstile widget (div.cf-turnstile) and says identity is verified through dynamically generated questions before a request is completed. captcha: true, tier assisted -> guided, verification identity_questions. The page lists privacy.compliance@deepsync.com for anything the form cannot handle; that replaces the old compactlists.com address. Nothing was submitted. Compact Information Systems is a CA-registered marketing/mailing-list broker (postal and demographic data). last_verified stays null.",
+   "instructions_md": "1. Go to https://privacy.deepsync.com/request/opt-out. Compact Information Systems' old privacy site now redirects to this Deep Sync privacy center.\n2. Say who the request is for (yourself, a deceased person, or someone you are authorized to represent).\n3. Enter your first and last name, email address, phone number and primary mailing address. Add past addresses (up to five) and extra emails or phone numbers so every record is found.\n4. Tick the actions you want: do not sell or share, no targeted advertising, no profiling, limit sensitive information, and/or delete.\n5. Complete the Cloudflare check and submit. Deep Sync verifies your identity with generated questions before it acts on the request, so answer them when they appear.\n6. For anything the form can't handle (more than five addresses, removal from client data, or not wanting a suppression record kept after deletion), email privacy.compliance@deepsync.com.",
+   "link_status": "unknown"
   },
   {
    "id": "completemailinglists-com",
@@ -10563,28 +10662,27 @@
    "domain": "directmail.com",
    "category": "direct_marketers",
    "people_search": false,
-   "tier": "assisted",
+   "tier": "guided",
    "priority": "standard",
    "method": "form",
    "opt_out_url": "http://www.directmail.com/directory/mail_preference/",
    "opt_out_email": null,
    "phone": null,
-   "captcha": false,
+   "captcha": true,
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
    "required_fields": [
     "full_name",
     "address",
-    "email",
-    "phone"
+    "email"
    ],
    "readd_days": null,
    "legal_basis": [],
    "last_verified": "2026-07-03",
    "source": "data-brokers-watch",
-   "notes": "Fetched live 2026-07-03: page is a simple 'National Do Not Mail List' registration form, no CAPTCHA. DirectMail.com is a mail-list aggregator/reseller (B2B-ish direct-marketing data), not a people-search site, so priority is standard (spam-reduction, not personal-safety) despite people_search:false already matching category direct_marketers.",
-   "instructions_md": "1. Go to https://www.directmail.com/directory/mail_preference/.\n2. Fill in your title, first name, last name, address, city, state, and ZIP code.\n3. Enter your email address (used to confirm the request) and, optionally, a phone number.\n4. Check the box for \"I do not want to receive any special offers in the mail.\"\n5. Click Submit to add yourself to DirectMail.com's internal National Do Not Mail List.\n6. Note this only stops DirectMail.com's own use of your data \u2014 it does not forward your request to the other mailers/list compilers it resells data to, so pair it with DMAchoice registration for broader effect.",
+   "notes": "Fetched live 2026-07-03: page is a simple 'National Do Not Mail List' registration form, no CAPTCHA. DirectMail.com is a mail-list aggregator/reseller (B2B-ish direct-marketing data), not a people-search site, so priority is standard (spam-reduction, not personal-safety) despite people_search:false already matching category direct_marketers. 2026-10-16 maintainer run (Fixes #35): the opt_out_url now redirects within the same site to https://www.directmail.com/mail_preference/ (HTTP 200, same 'National Do Not Mail List' form). The form now has a visible Google reCAPTCHA (div.g-recaptcha with a sitekey, placed after the email field), so captcha: true and tier assisted -> guided. Telephone is optional on the form, so phone was removed from required_fields. Nothing was submitted. last_verified keeps the human 2026-07-03 date because the URL and fields are otherwise unchanged; a reviewer may want to re-check it.",
+   "instructions_md": "1. Go to https://www.directmail.com/directory/mail_preference/ (it now redirects to https://www.directmail.com/mail_preference/).\n2. Fill in your title, first name, last name, address, city, state, and ZIP code.\n3. Enter your email address (used to confirm the request) and, optionally, a phone number.\n4. Check the box for \"I do not want to receive any special offers in the mail.\"\n5. Complete the reCAPTCHA, then click Submit to add yourself to DirectMail.com's internal National Do Not Mail List.\n6. Note this only stops DirectMail.com's own use of your data \u2014 it does not forward your request to the other mailers/list compilers it resells data to, so pair it with DMAchoice registration for broader effect.",
    "link_status": "live"
   },
   {
@@ -12207,8 +12305,8 @@
    "tier": "guided",
    "priority": "standard",
    "method": "form",
-   "opt_out_url": "https://www.dotdashmeredith.com/privacy-policy",
-   "opt_out_email": null,
+   "opt_out_url": "https://www.people.inc/brands-privacy",
+   "opt_out_email": "privacy@people.inc",
    "phone": null,
    "captcha": false,
    "id_required": false,
@@ -12225,9 +12323,9 @@
    ],
    "last_verified": null,
    "source": "data-brokers-watch",
-   "notes": "Meredith Corporation merged into Dotdash Meredith; the old meredith.com/privacy.html URL now 301-redirects to dotdashmeredith.com, which returned an HTTP 403 Cloudflare bot challenge on this pass -- could not be freshly confirmed, so last_verified stays null. Meredith/Dotdash Meredith is a magazine/digital-publishing company (People, Better Homes & Gardens, etc.) that shares data with advertising partners -- a marketing data broker, not a people-search site, so priority is standard (spam/ad-targeting harm, not physical-safety harm). Updated opt_out_url to the current dotdashmeredith.com privacy-policy landing page since the old meredith.com path is stale; a human should re-verify the exact CCPA/opt-out link location on that page (it's typically a 'Do Not Sell or Share My Personal Information' link in the site footer or privacy-preferences widget) next time it's reachable.",
-   "instructions_md": "1. Go to the Dotdash Meredith privacy policy page (dotdashmeredith.com/privacy-policy) -- Meredith Corporation's consumer brands (People, Better Homes & Gardens, Allrecipes, etc.) are now operated under this parent company.\n2. Look for a \"Do Not Sell or Share My Personal Information\" or \"Your Privacy Choices\" link, typically in the site footer or within the privacy-preference center referenced on that page.\n3. Follow that link to the opt-out/preference form and submit your name and email address to register your do-not-sell request.\n4. If no dedicated form is visible, use the contact/privacy-inquiries email or mailing address listed in the privacy policy to submit a CCPA/CPRA opt-out request in writing.\n5. Because this is a marketing/publishing data broker (not a people-search site), the main risk is targeted advertising, not physical safety -- treat this as lower urgency than removals from people-search sites.",
-   "link_status": "bot-blocked"
+   "notes": "2026-10-16 maintainer run (Fixes #40): dotdashmeredith.com/privacy-policy now redirects to https://www.people.inc/privacy-policy. That page says the site is run by 'Dotdash Meredith Inc. a/k/a People Inc.', so this is the same company renamed. That page is the corporate-site policy. The consumer-brands policy that covers People, Better Homes & Gardens, Allrecipes, etc. is https://www.people.inc/brands-privacy (HTTP 200), so opt_out_url now points there. Its 'To Exercise Your Privacy Rights' section says that to opt out of sale/sharing/targeted advertising you must both use the 'Your Privacy Choices' footer link on a brand site and submit a OneTrust opt-out form (linked from that section) or email privacy@people.inc with the subject 'Opt-Out of Sales'. Access/deletion/correction use a separate OneTrust form. It may verify identity by matching information you provide. The OneTrust forms are JavaScript-rendered and were not loaded, so their fields and any CAPTCHA are unconfirmed; captcha and required_fields are unchanged. Nothing was submitted. Magazine/digital publisher sharing data with ad partners: marketing data broker, priority standard. last_verified stays null.",
+   "instructions_md": "1. Go to the People Inc. (formerly Dotdash Meredith) brands privacy policy at https://www.people.inc/brands-privacy. It covers Meredith's former consumer brands (People, Better Homes & Gardens, Allrecipes, etc.).\n2. Scroll to \"To Exercise Your Privacy Rights\". To opt out of sale, sharing or targeted advertising, the policy says to do both of the next two steps.\n3. On any People Inc. brand website, click \"Your Privacy Choices\" in the footer and follow the instructions. This setting is per browser and per site.\n4. Open the opt-out form linked from that section (\"submit this opt-out form\") and enter your name and email address. Or email privacy@people.inc with the subject line \"Opt-Out of Sales\".\n5. To ask for access, deletion or correction instead, use the separate request form linked at the start of that section.\n6. People Inc. may ask for more information to match you to its records before it acts on the request.\n7. This is a marketing/publishing data broker, not a people-search site. The main risk is ad targeting, not physical safety, so it is lower urgency than people-search removals.",
+   "link_status": "unknown"
   },
   {
    "id": "merkleinc-com",
@@ -13037,20 +13135,19 @@
    "domain": "postie.com",
    "category": "marketing_data_broker",
    "people_search": false,
-   "tier": "assisted",
+   "tier": "guided",
    "priority": "standard",
    "method": "form",
    "opt_out_url": "https://optout.postie.com/",
    "opt_out_email": "info@postie.com",
    "phone": "855-931-2869",
-   "captcha": false,
+   "captcha": true,
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
    "verification": "none",
    "required_fields": [
     "full_name",
-    "email",
     "address"
    ],
    "readd_days": null,
@@ -13059,8 +13156,8 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "Confirmed via WebFetch on postie.com/privacy-policy (rendered successfully). Postie licenses consumer data from third-party data providers to build targeted-marketing/'lookalike audience' profiles for its direct-mail clients -- a genuine data broker as well as a direct-mail vendor, not merely a mail fulfillment shop. The privacy policy describes a dedicated opt-out form at optout.postie.com covering sale/sharing/targeted-advertising, plus email (info@postie.com) and phone (855-931-2869) contact options, and reports the company processed ~285,000 opt-out requests in the prior year with a median 1-day response time -- suggesting a working, low-friction process. No CAPTCHA or ID requirement reported in the fetched policy text, so classified assisted rather than guided; opt_out_email listed for reference but method is form (the dedicated optout.postie.com form) not email, so tier is assisted not auto. last_verified left null since the optout.postie.com form itself was not directly rendered in this pass, only described by the privacy-policy text.",
-   "instructions_md": "1. Go to https://optout.postie.com/ and follow the prompts to opt out of the sale, sharing, or targeted-advertising use of your personal information.\n2. If the form requires it, provide your name, email address, and mailing address so Postie can match you to any profile or mailing-list record.\n3. Alternatively, email info@postie.com and state you are exercising your CCPA right to opt out of sale/sharing (and, if you want, request deletion); include your name and mailing address.\n4. Or call 855-931-2869 to make the same request by phone.\n5. Postie's stated median response time for opt-out requests is about one day; check back at optout.postie.com or via a follow-up email if you don't receive confirmation.\n6. Note Postie also licenses data from third-party providers for its clients' direct-mail campaigns -- your opt-out with Postie stops Postie's own targeting but does not necessarily reach the original third-party data providers it licensed your information from.",
+   "notes": "2026-10-16 maintainer run (Fixes #41): fetched https://optout.postie.com/ directly (HTTP 200, 'Postie Opt Out'). The form asks only for first name, last name, street address, apartment (optional), city, state and ZIP. There is no email field. It has a visible Google reCAPTCHA (div.g-recaptcha with a sitekey, and a 'Please check the recaptcha' error), so captcha: true, tier assisted -> guided, required_fields [full_name, address]. Nothing was submitted. Background from the earlier pass (postie.com/privacy-policy): Postie licenses consumer data from third-party providers to build targeted-marketing and lookalike-audience profiles for direct-mail clients, so it is a data broker as well as a mail vendor. The policy also lists info@postie.com and 855-931-2869 for requests and reports a median 1-day response time. last_verified stays null.",
+   "instructions_md": "1. Go to https://optout.postie.com/.\n2. Enter your first and last name and your mailing address (street, apartment if any, city, state and ZIP). The form does not ask for an email address.\n3. Complete the reCAPTCHA and click \"Opt Out\".\n4. Alternatively, email info@postie.com and say you are exercising your CCPA right to opt out of sale/sharing (and, if you want, deletion); include your name and mailing address.\n5. Or call 855-931-2869 to make the same request by phone.\n6. Postie also licenses data from third-party providers for its clients' mail campaigns. Opting out with Postie stops Postie's own targeting but does not necessarily reach those original providers.",
    "link_status": "live"
   },
   {
@@ -14491,17 +14588,18 @@
    "domain": "uplead.com",
    "category": "b2b_contact_data",
    "people_search": false,
-   "tier": "assisted",
+   "tier": "guided",
    "priority": "standard",
    "method": "form",
    "opt_out_url": "https://www.uplead.com/opt-out/",
    "opt_out_email": null,
    "phone": null,
-   "captcha": false,
+   "captcha": true,
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
    "required_fields": [
+    "full_name",
     "email"
    ],
    "readd_days": null,
@@ -14512,8 +14610,8 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "WebFetch on uplead.com and uplead.com/opt-out/ succeeded directly. UpLead is a B2B contact-data / sales-intelligence platform ('Real-time verified B2B emails, mobile numbers and intent data', '200M+ leads') -- a business-contact broker, not a people-search site (people_search:false, priority:standard per the B2B-only guidance). The opt-out page is a web form (not email) requiring a contact email, the email address the request concerns, a jurisdiction dropdown (CCPA, VCDPA, OCPA, TDPSA, GDPR, Other), a request-type dropdown ('Request my Information' / 'Delete my Information'), an optional phone number for SMS validation, and checkboxes agreeing to the Privacy Policy/Terms. No CAPTCHA was mentioned in the fetched content. Classified tier:assisted (plain form, no CAPTCHA/ID) rather than guided. legal_basis includes ccpa, vcdpa, and gdpr since the form's own jurisdiction dropdown names those alongside others (OCPA/TDPSA aren't in this schema's enum so were omitted). last_verified left null since this was a single WebFetch pass, not a rendered confirmation of live form submission.",
-   "instructions_md": "1. Go to https://www.uplead.com/opt-out/.\n2. Enter your contact email address in the form.\n3. Enter the email address that UpLead's data concerns (this may be the same address).\n4. From the \"Data Privacy Jurisdiction\" dropdown, select the law that applies to you (e.g. CCPA).\n5. From the \"Request Type\" dropdown, select \"Delete my Information\" to request removal rather than just a data-access report.\n6. Optionally provide a phone number if you want SMS confirmation, and check the boxes agreeing to UpLead's Privacy Policy and Terms.\n7. Submit the form and watch for a confirmation email.",
+   "notes": "WebFetch on uplead.com and uplead.com/opt-out/ succeeded directly. UpLead is a B2B contact-data / sales-intelligence platform ('Real-time verified B2B emails, mobile numbers and intent data', '200M+ leads') -- a business-contact broker, not a people-search site (people_search:false, priority:standard per the B2B-only guidance). The opt-out page is a web form (not email) requiring a contact email, the email address the request concerns, a jurisdiction dropdown (CCPA, VCDPA, OCPA, TDPSA, GDPR, Other), a request-type dropdown ('Request my Information' / 'Delete my Information'), an optional phone number for SMS validation, and checkboxes agreeing to the Privacy Policy/Terms. No CAPTCHA was mentioned in the fetched content. Classified tier:assisted (plain form, no CAPTCHA/ID) rather than guided. legal_basis includes ccpa, vcdpa, and gdpr since the form's own jurisdiction dropdown names those alongside others (OCPA/TDPSA aren't in this schema's enum so were omitted). last_verified left null since this was a single WebFetch pass, not a rendered confirmation of live form submission. 2026-10-16 maintainer run (Fixes #46): re-fetched https://www.uplead.com/opt-out/ (HTTP 200). The opt-out form (id dataremoval) now has a visible reCAPTCHA v2 checkbox (elementor-g-recaptcha, data-type=v2_checkbox, data-size=normal), so captcha: true and tier assisted -> guided. The form also marks Full Name as required (along with contact email, jurisdiction and request type), so full_name was added to required_fields. The jurisdiction options now read CCPA, VDPA, OCPA, TDPSA, GDPR, Other. Nothing was submitted; last_verified stays null.",
+   "instructions_md": "1. Go to https://www.uplead.com/opt-out/.\n2. Enter your full name and a contact email address.\n3. Enter the email address that UpLead's data concerns (this may be the same address).\n4. From the \"Data Privacy Jurisdiction\" dropdown, select the law that applies to you (e.g. CCPA).\n5. From the \"Request Type\" dropdown, select \"Delete my Information\" to request removal rather than just a data-access report.\n6. Optionally provide a phone number if you want SMS confirmation, and check the boxes agreeing to UpLead's Privacy Policy and Terms.\n7. Tick the reCAPTCHA checkbox, submit the form and watch for a confirmation email.",
    "link_status": "live"
   },
   {
