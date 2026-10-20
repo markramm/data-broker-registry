@@ -1,20 +1,20 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.16",
-  "content_hash": "sha256:79953a83ff5ad7e269ff55772f59c230199a8f96ff940b2856d782c5e41ab39c",
+  "dataset_version": "0.1.17",
+  "content_hash": "sha256:e6c8a724ea47bd7acbd883cc30404ec986d9a5cec944079d664d00bc3a17db63",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 493,
+  "authored_count": 496,
   "backlog_count": 89,
-  "total_known": 582,
-  "unverified_count": 456,
+  "total_known": 585,
+  "unverified_count": 459,
   "tiers": {
-   "guided": 270,
-   "assisted": 151,
+   "guided": 272,
+   "assisted": 152,
    "auto": 72
   },
   "priorities": {
-   "crucial": 124,
+   "crucial": 127,
    "high": 155,
    "standard": 214
   }
@@ -1795,6 +1795,37 @@
    "link_status": "bot-blocked"
   },
   {
+   "id": "numlookup-com",
+   "name": "NumLookup",
+   "domain": "numlookup.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://www.numlookup.com/opt_out",
+   "opt_out_email": "hello@numlookup.com",
+   "phone": "1-844-405-2145",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "phone",
+    "full_name"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-17 by the daily maintainer from California's data broker registry (NumLookup LLC, listing hello@numlookup.com and https://www.numlookup.com/privacy-policy). The privacy policy (fetched, HTTP 200) section 2 'Information Opt-Out' links to an opt-out tool at https://www.numlookup.com/opt_out and says all 31,826 (2023) and 94,071 (2024) opt-out requests were approved, completing in under 30 / 20 days on average. Fetched the tool directly (HTTP 200): it has two tabs, PHONE (country + phone number) and NAME (full name + US state), one listing per submission, and a visible reCAPTCHA v2 box (div#captcha, 304x78, rendered via recaptcha/api.js; the script blocks submit with 'Please verify captcha'). No email field is on the first screen; what happens after 'Remove My Info' (record selection, confirmation) was not observed because nothing was submitted. Reverse-phone and people-search product -> people_search true, priority crucial; CAPTCHA -> guided. required_fields lists both phone and full_name because the two tabs remove different listings and most people will want both. hello@numlookup.com is the policy's contact for know/correct requests. last_verified null.",
+   "instructions_md": "1. Go to https://www.numlookup.com/opt_out.\n2. To remove a phone listing: stay on the PHONE tab, pick the country, and enter the phone number.\n3. Complete the reCAPTCHA and click \"Remove My Info\", then follow any on-screen steps to confirm the listing.\n4. To remove a name listing: return to the page, choose the NAME tab, enter your full name and select your state, complete the reCAPTCHA again and click \"Remove My Info\".\n5. Repeat for each phone number and each name/state combination you want removed.\n6. NumLookup says removals usually complete within 20-30 days. Search the site again after that to check, and if a listing is still there, email hello@numlookup.com or call 1-844-405-2145.",
+   "link_status": "unknown"
+  },
+  {
    "id": "nuwber-com",
    "name": "Nuwber",
    "domain": "nuwber.com",
@@ -2273,6 +2304,39 @@
    "link_status": "live"
   },
   {
+   "id": "peoplesearcher-com",
+   "name": "PeopleSearcher",
+   "domain": "peoplesearcher.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "assisted",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://www.peoplesearcher.com/api/helper/optOutLight/search",
+   "opt_out_email": "support@peoplesearcher.com",
+   "phone": "1-833-634-0750",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "full_name",
+    "dob",
+    "address",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-17 by the daily maintainer from California's data broker registry (The People Searchers LLC, support@peoplesearcher.com; the registry's rights_url is a typo, 'peopesearcher.cm', and also lists secretinfo.org, which was not fetched). The site is a JavaScript app (a plain fetch returns an empty shell), so pages were rendered in a headless browser. The footer link 'Limit The Use of My Sensitive Personal Info' leads to https://www.peoplesearcher.com/api/helper/optOutLight/search ('Privacy Requests', HTTP 200), which offers two separate requests. 'Your Privacy Choices' only stops sale/sharing, takes an email or phone, and explicitly does not remove a listing. 'Remove My Information' (?type=removal) requires first and last name, birth month/day/year, city, ZIP, state and an email for a confirmation link; nothing is removed until the link is clicked. The page says requests are acknowledged within 10 business days and completed within 45 calendar days, removal also covers reports members already hold and future matching records, agents must attach signed permission, and GPC is honoured for sale/sharing. No CAPTCHA widget was present on either form when rendered, so assisted; one may still appear on submit, which was not tested. People-search site -> people_search true, priority crucial. Nothing was submitted; last_verified null.",
+   "instructions_md": "1. Go to https://www.peoplesearcher.com/api/helper/optOutLight/search (also reachable from the \"Limit The Use of My Sensitive Personal Info\" link in the site footer).\n2. Choose \"Remove My Information\". The other option, \"Your Privacy Choices\", only stops sale/sharing and does not take your listing off the site.\n3. Enter the first and last name, birth date (month, day, year), city, ZIP code and state of the person in the listing.\n4. Enter an email address for the confirmation link, then click \"Submit removal request\".\n5. Open the confirmation email and click the link. Nothing is removed until you do.\n6. PeopleSearcher says it acknowledges requests within 10 business days and completes them within 45 days. Search the site again after that to check.\n7. If the link never arrives or you'd rather not use the form, call (833) 634-0750.",
+   "link_status": "unknown"
+  },
+  {
    "id": "peoplesearchnow-com",
    "name": "peoplesearchnow.com",
    "domain": "peoplesearchnow.com",
@@ -2567,6 +2631,39 @@
    "notes": "WebFetch on the old query-string help URL returned empty content; the working removal path per multiple third-party opt-out guides is privateeye.com/removal, a separate two-step form (initial name+email, then an emailed link -- expires in 24h -- to a second form asking DOB/address, gated by CAPTCHA). Updated opt_out_url to the real removal path since the legacy Help-page anchor is stale/unreliable. Not freshly fetched successfully, so last_verified left null; people-search site, so priority is crucial regardless of category field inherited from migration.",
    "instructions_md": "1. Go to `https://www.privateeye.com/removal` and enter your first name, last name, and email address, then submit.\n2. Check your inbox (and spam folder) for an email from PrivateEye with an opt-out link. Click it within 24 hours -- the link expires after that and you'll need to resubmit step 1.\n3. On the linked removal form, fill in your date of birth, street address, city, and state to match your listing.\n4. Complete the CAPTCHA challenge and click \"Opt Out.\"\n5. Removal typically completes within about 3 days. If you have lived in multiple states or used different name variants, repeat this process for each separate listing/profile.",
    "link_status": "live"
+  },
+  {
+   "id": "publicdatacheck-com",
+   "name": "Public Data Check",
+   "domain": "publicdatacheck.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://www.publicdatacheck.com/help-center/privacy-requests",
+   "opt_out_email": "privacyinfo@publicdatacheck.com",
+   "phone": "1-800-950-0953",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "full_name",
+    "address",
+    "email",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-17 by the daily maintainer from California's data broker registry (National Data Analytics, LLC, dba publicdatacheck.com, listing privacyinfo@publicdatacheck.com). Fetched https://www.publicdatacheck.com/help-center/privacy-requests directly (HTTP 200, 'Personal Information Privacy Requests'). The form offers Do Not Sell My Info, Delete My Info, or Request a Copy, and requires first and last name, city, state, ZIP, an age range and a confirmation email (customer ID only for existing customers). It has a Cloudflare Turnstile widget (div.cf-turnstile, 'Please confirm you are human'). Its FAQ says you search the database, pick your record, then confirm via a verification email, and a second email confirms the opt-out; removal is free, needs no membership and usually takes effect within 24 hours, and Daniel's Law covered persons can ask support for manual help. The layout, fields and FAQ match the publicinfoservices.com, searchpublicrecords.com and kidslivesafe.com privacy pages (proposed in PR #72), so this looks like the same shared platform under a different registered LLC; kept as a separate entry. People-search reports -> people_search true, priority crucial; CAPTCHA -> guided. Nothing was submitted; last_verified null.",
+   "instructions_md": "1. Go to https://www.publicdatacheck.com/help-center/privacy-requests.\n2. Choose \"Do Not Sell My Info\" (or \"Delete My Info\") as the request type.\n3. Enter your first and last name, city, state, ZIP code and age range, plus an email address where you can receive the confirmation. Leave Customer ID blank unless you have an account.\n4. Complete the \"confirm you are human\" check and click Continue.\n5. In the search results, select the record that is you.\n6. Open the verification email from Public Data Check and confirm the request. If it doesn't arrive within 15 minutes, check spam and the address you typed.\n7. Wait for the email confirming the opt-out was processed, then check again after about 24 hours that your record is gone. If it is still there, call 1-800-950-0953.\n8. If you are covered by Daniel's Law (judges, prosecutors, law enforcement and their households), you can contact support for help instead of using the automated form.",
+   "link_status": "unknown"
   },
   {
    "id": "publicbackgroundchecks-com",
@@ -7837,10 +7934,7 @@
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
-   "required_fields": [
-    "email",
-    "other"
-   ],
+   "required_fields": [],
    "readd_days": null,
    "legal_basis": [
     "ccpa",
@@ -7849,8 +7943,8 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "Taboola is a major adtech/content-recommendation network (the 'around the web' widget boxes on news sites), not a people-search broker -- it profiles browsing behavior for ad targeting rather than reselling identity/address data. WebFetch on policies.taboola.com/privacy-policy/ confirmed section 5.2.1 points to a 'U.S. State Consumer Rights Portal' at https://ccparequest.taboola.com/ for CCPA/CPRA opt-out of sale/share and cross-context behavioral advertising; a separate accessrequest.taboola.com/access portal handles broader access/deletion requests. The request portal itself is a JS-rendered SPA that WebFetch could not render field-by-field, so exact form fields and CAPTCHA presence on that specific page are inferred from standard CCPA-portal patterns used across Taboola's stack, not directly observed -- treated as guided/captcha:true out of caution per the 'when in doubt, guided' rule. last_verified left null since the portal form itself wasn't directly confirmed.",
-   "instructions_md": "1. Go to Taboola's U.S. State Consumer Rights Portal at https://ccparequest.taboola.com/.\n2. Select the type of request (opt out of sale/share of personal information, or a broader access/deletion request).\n3. Enter the requested identifying information (typically email address; some request types may ask for additional details) and submit.\n4. Complete any CAPTCHA or identity-confirmation step the portal presents.\n5. Watch for a confirmation email and follow any verification link it contains.\n6. If you also want a full data access or deletion request (beyond opting out of sale/sharing), use the separate portal at https://accessrequest.taboola.com/access.",
+   "notes": "Taboola is a major adtech/content-recommendation network (the 'around the web' widget boxes on news sites), not a people-search broker -- it profiles browsing behavior for ad targeting rather than reselling identity/address data. policies.taboola.com/privacy-policy/ section 5.2.1 points to the U.S. State Consumer Rights Portal at https://ccparequest.taboola.com/ for CCPA/CPRA opt-out of sale/share and cross-context behavioral advertising; accessrequest.taboola.com/access handles access/deletion. Updated 2026-10-17 by the daily maintainer after page-monitor #75: the portal now renders as a static page (fetched directly, HTTP 200, 'US State Privacy Rights'). It says Taboola holds only pseudonymized identifiers (cookie IDs, IP addresses, mobile ad IDs, sometimes a hashed email), and the opt-out is a single button ('I'd like to opt out from Taboola's disclosures, sharing and sales of my personal information') behind a visible reCAPTCHA (div.g-recaptcha) that sets a 'Do Not Sell' cookie in that browser. It asks for no name or email, so required_fields is now empty; it must be repeated on every browser and device, and does not work if cookies are blocked (Safari users must turn off cross-site tracking prevention first). Nothing was submitted; last_verified null.",
+   "instructions_md": "1. Open https://ccparequest.taboola.com/ in the browser you want to opt out. The opt-out is stored as a cookie, so do not use a private window and do not block cookies for taboola.com.\n2. On Safari (iOS/macOS), first turn off \"Prevent Cross-Site Tracking\" and \"Block All Cookies\" in Privacy settings, then reload the page. Clearing your cookies later also clears the opt-out.\n3. Complete the reCAPTCHA, then click \"I'd like to opt out from Taboola's disclosures, sharing and sales of my personal information.\" No name or email is asked for.\n4. Check that \"My Status\" no longer says \"Not Opted Out\".\n5. Repeat on every browser and device you use.\n6. For an access or deletion request (rather than an opt-out of sharing), use Taboola's separate Data Subject Access Request portal at https://accessrequest.taboola.com/access.",
    "link_status": "live"
   },
   {
@@ -11935,7 +12029,9 @@
    "phone_required": false,
    "charges_fee": false,
    "required_fields": [
-    "email"
+    "full_name",
+    "email",
+    "other"
    ],
    "readd_days": null,
    "legal_basis": [
@@ -11943,8 +12039,8 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "WebFetch on leadspace.com homepage confirmed: B2B go-to-market data intelligence platform maintaining 300M+ person profiles and buying-signal data for sales/marketing activation (Salesforce, Marketo, HubSpot integrations). Footer links to a dedicated 'do-not-sell-form' page and a separate 'texas-data-broker-notice' page, confirming Leadspace registers as a data broker. Attempting to fetch the do-not-sell-form page directly returned only a heading and nav, not the actual form fields, so exact required fields/CAPTCHA status are inferred rather than observed -- nothing suggests CAPTCHA/ID gating, so kept at assisted. B2B professional-contact data rather than consumer people-search; priority standard. last_verified left null since the form itself wasn't fully rendered.",
-   "instructions_md": "1. Go to https://www.leadspace.com/do-not-sell-form.\n2. Follow the form's prompts to submit a \"Do Not Sell My Personal Information\" request, providing your email address and any other requested details.\n3. If the form is unavailable, email info@leadspace.com directly, referencing your CCPA right to opt out of sale/sharing and identifying the record you want removed.\n4. You can also call 855-532-3772 to request removal.\n5. Watch for a confirmation once the request is processed.",
+   "notes": "B2B go-to-market data intelligence platform maintaining 300M+ person profiles and buying-signal data for sales/marketing activation. Footer links to the do-not-sell-form page and a texas-data-broker-notice page, confirming Leadspace registers as a data broker. Updated 2026-10-17 by the daily maintainer after page-monitor #77: fetched https://www.leadspace.com/do-not-sell-form directly (HTTP 200, 'Do Not Sell or Share My Personal Info | Leadspace'). The Framer form marks First Name, Last Name and Email with an asterisk (first and last name carry the HTML required attribute) and also requires a 'Relationship to Leadspace' dropdown (Employee, Independent Contractor, Customer, Supplier, Job Applicant, Other); company, address, city, state and postal code are optional, and a free-text box is for rights other than opt-out. No CAPTCHA widget was found in the markup (the extra fields the monitor reports are hidden honeypot inputs and a noscript check), so it stays assisted. B2B professional-contact data rather than consumer people-search; priority standard. Nothing was submitted; last_verified null.",
+   "instructions_md": "1. Go to https://www.leadspace.com/do-not-sell-form.\n2. Enter your first name, last name and email address. Company and address are optional, but adding the company you work for helps Leadspace find your professional record.\n3. Under \"Relationship to Leadspace\", choose \"Other\" unless one of the listed relationships applies to you.\n4. Leave the free-text box empty for an opt-out of sale/sharing; use it only to name a different right (deletion, correction, access).\n5. Submit the form.\n6. If the form doesn't work, email info@leadspace.com citing your right to opt out of sale/sharing, or call 855-532-3772.",
    "link_status": "live"
   },
   {
