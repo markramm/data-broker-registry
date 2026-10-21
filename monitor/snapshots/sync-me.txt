@@ -5,5 +5,7 @@ Please fill your details in the following form.
 *Name
 *Email
 *Phone Number
-+44
++1
+This request is submitted under Daniel’s Law
+Daniel’s Law prohibits disclosing private phone numbers of judges, law enforcement, prosecutors, and their immediate family members.
 Send

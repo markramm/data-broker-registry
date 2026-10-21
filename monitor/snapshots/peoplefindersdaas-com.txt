@@ -8,9 +8,9 @@ First
 Last
 Email *
 Phone #
-Address Address 1
 Address Line 1
 Address Line 2
+2 Phone Checkboxes
 City
 State
 AL
@@ -71,6 +71,7 @@ Do not use my personal data for targeted/cross-contextual advertising
 Do not use my personal data for profiling/automated decision making
 Do not use my sensitive personal data for targeting
 Please delete my personal information*
+Leave this field empty
 Submit
 Please note that when we receive a request to “delete” a consumer’s personal information, we create an archival “suppression file” that is intended to prevent your information from being added back in to our database after it is permanently and completely deleted from our active business files.
 If you do not want us to suppress your information in this way, or, if you want your information to remain or be included in our database in the future, please email us at: privacy@peoplefindersdaas.com.
