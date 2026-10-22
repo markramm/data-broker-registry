@@ -13,8 +13,6 @@ Table of contents
 9. HERE Data Subject Request
 - Do Not Sell
 - HERE Wi-Fi Opt-Out
-- Map Creator Data Deletion
-- HERE WEGO Maps Navigation Data Deletion
 10. HERE SDK Privacy Supplement
 11. HERE Externals Privacy Policy
 12. HERE Car Drive Privacy Notice
