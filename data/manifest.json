@@ -1,19 +1,19 @@
 {
  "schema_version": "1.0",
- "dataset_version": "0.1.16",
- "content_hash": "sha256:79953a83ff5ad7e269ff55772f59c230199a8f96ff940b2856d782c5e41ab39c",
+ "dataset_version": "0.1.17",
+ "content_hash": "sha256:5017cd2ba0580decb78706afb598ad5b60fad100d7d6f4aa39adec496478f5b1",
  "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
- "authored_count": 493,
- "backlog_count": 89,
- "total_known": 582,
- "unverified_count": 456,
+ "authored_count": 494,
+ "backlog_count": 91,
+ "total_known": 585,
+ "unverified_count": 457,
  "tiers": {
   "guided": 270,
   "assisted": 151,
-  "auto": 72
+  "auto": 73
  },
  "priorities": {
-  "crucial": 124,
+  "crucial": 125,
   "high": 155,
   "standard": 214
  }

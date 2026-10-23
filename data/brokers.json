@@ -1,20 +1,20 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.16",
-  "content_hash": "sha256:79953a83ff5ad7e269ff55772f59c230199a8f96ff940b2856d782c5e41ab39c",
+  "dataset_version": "0.1.17",
+  "content_hash": "sha256:5017cd2ba0580decb78706afb598ad5b60fad100d7d6f4aa39adec496478f5b1",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 493,
-  "backlog_count": 89,
-  "total_known": 582,
-  "unverified_count": 456,
+  "authored_count": 494,
+  "backlog_count": 91,
+  "total_known": 585,
+  "unverified_count": 457,
   "tiers": {
    "guided": 270,
    "assisted": 151,
-   "auto": 72
+   "auto": 73
   },
   "priorities": {
-   "crucial": 124,
+   "crucial": 125,
    "high": 155,
    "standard": 214
   }
@@ -2597,6 +2597,37 @@
    "source": "data-brokers-watch",
    "notes": "2026-09-15: publicbackgroundchecks.com is a PARKED DOMAIN. Every URL on it -- including the privacypolicy.aspx this entry used to point at -- returns an identical 708-byte stub whose only content is <script>window.onload=function(){window.location.href=\\\"/lander\\\"}</script>, and /lander itself renders zero text. There is no privacy policy, no opt-out form, and no site. Note that data/link-status.json records the old privacypolicy.aspx URL as 'live', because check_links.py sees HTTP 200 and cannot tell a parked stub from a real page -- worth knowing when reading link_status generally. Researched the parent instead: www.backgroundchecks.com is genuinely alive, and its privacy policy section 5 ('Your Choices Regarding Your Personal Information') says you may contact Customer Support to access, update, correct and delete your personal information, and gives support@backgroundchecks.com as the written channel (documented there specifically for email unsubscribe requests). Three caveats a reader deserves: (1) that policy states it applies only to www.backgroundchecks.com and app.backgroundchecks.com, and mentions publicbackgroundchecks.com nowhere -- 0 hits, as with govbackgroundchecks; (2) it is an FCRA employment-screening policy scoped to 'Applicants' and 'Clients', with no data-broker opt-out language at all (0 hits for 'opt out', 'data broker', 'right to request deletion'); (3) the info@backgroundchecks.com address and 866-300-8524 phone number previously carried in this entry come from third-party removal guides and appear NOWHERE in the parent's own policy, so both have been removed rather than passed on unverified. opt_out_url is therefore a <verify:> placeholder rather than a confident link: the entry is kept and pointed at the parent's documented email route, but the routing is explicitly unconfirmed for this defunct domain and the app will surface it as an unknown-link entry. last_verified stays null. If a tester establishes whether backgroundchecks.com will process a deletion request for records sourced from this dead subdomain, that answer is the single most useful correction this entry can receive.",
    "instructions_md": "1. Know before you start: publicbackgroundchecks.com itself is gone. The domain is parked -- every page on it redirects to an empty placeholder, and there is no opt-out form or privacy policy left to read. The steps below route to its parent company instead, and that routing is **not confirmed** for this defunct site.\n2. Email support@backgroundchecks.com and ask them to access and delete the personal information they hold on you. This is the written channel the parent's own privacy policy names, under \"Your Choices Regarding Your Personal Information.\"\n3. Include your full name, email address, and phone number so they can locate a record, and state that you are exercising your CCPA (or your state's equivalent) right to deletion. Say explicitly that your request covers records sourced from publicbackgroundchecks.com, since the parent's policy does not mention that domain.\n4. Expect friction, and do not read it as your mistake. The parent's privacy policy is written for employment screening -- it addresses \"Applicants\" and \"Clients,\" names only www.backgroundchecks.com and app.backgroundchecks.com, and contains no data-broker opt-out language. The address above is documented there mainly for email unsubscribe requests. They may decline, or route you to an FCRA dispute process instead.\n5. If they direct you to a different form, address, or consumer-rights portal, that is a genuinely useful finding -- please report it, because it is the piece this entry is missing.\n6. Do not bother with the info@backgroundchecks.com address or the 866-300-8524 number that circulate in third-party removal guides for this site. Neither appears anywhere in the company's own privacy policy, and this entry no longer carries them.",
+   "link_status": "unknown"
+  },
+  {
+   "id": "publicrecord-com",
+   "name": "PublicRecord.com",
+   "domain": "publicrecord.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "auto",
+   "priority": "crucial",
+   "method": "email",
+   "opt_out_url": "https://publicrecord.com/privacy-policy/",
+   "opt_out_email": "support@publicrecord.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-21 by the daily maintainer from California's data broker registry (PublicRecordCom, LLC; rights_url https://publicrecord.com/privacy-rights/; registry contact compliance@publicrecord.com). A WebFetch of /privacy-rights/ showed a people-search and reverse-lookup site (name, phone, address and email lookups) operated by Public Record LLC, so people_search is true and priority is crucial. That page describes no removal process; it only points to the privacy policy and the contact page. A WebFetch of /privacy-policy/ says requests to delete, or to opt out of the 'sale' or 'sharing' of personal information, go through the contact form (https://publicrecord.com/contact/) or support@publicrecord.com. It asks for your name and email address 'or other identifier used in connection with our Website' so the request can be verified, and says requests can be refused if identity can't be verified. Its 2025 figures are 119,135 opt-out requests, 68,494 complied with in whole or part, and 43,397 denied, partly for failing to verify. The median response time for opt-outs is under 9 days. The policy does not describe suppressing an individual search listing, so it is unclear whether an opt-out removes your profile from search results; the steps ask for that explicitly. Because the route is a plain email, tier is auto. The verification method is unknown, so verification is null. A headless-browser load of the site got a Cloudflare Turnstile 'Performing security verification' page (HTTP 403), so the contact form may sit behind a bot check; the email route avoids that. Nothing was submitted; last_verified is null.",
+   "instructions_md": "1. Email support@publicrecord.com. (If you'd rather use a form, the contact form is at https://publicrecord.com/contact/. The site may first show a Cloudflare \"verify you are human\" check.)\n2. Say that you are opting out of the sale and sharing of your personal information and asking for it to be deleted. Ask for your profile to be removed from PublicRecord.com's search results as well. If you live in California, say you are making the request under the CCPA.\n3. Give your full name and your email address so the company can find and verify your record. If you can see your profile on the site, include the city and state it shows. Don't send ID or other sensitive data unless they ask for it and you're comfortable providing it.\n4. Reply to any verification message. PublicRecord.com says it denies requests it cannot verify.\n5. PublicRecord.com reports a median response time of under 9 days for opt-outs. After a couple of weeks, search your name on the site again, and follow up by email if your listing still appears.",
    "link_status": "unknown"
   },
   {
@@ -7987,7 +8018,7 @@
    "tier": "guided",
    "priority": "high",
    "method": "form",
-   "opt_out_url": "https://app.fetcher.ai/opt-out",
+   "opt_out_url": "https://juicebox.ai/privacy-center",
    "opt_out_email": "support@fetcher.ai",
    "phone": null,
    "captcha": false,
@@ -8004,9 +8035,9 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "WebFetch on fetcher.ai/privacy confirmed Fetcher (Tiplinks Inc) is an AI recruiting/candidate-sourcing platform that aggregates personal data about individuals -- name, job history, contact info, email, social profiles, education, skills -- pulled from LinkedIn/professional networks plus third-party people-data vendors (People Data Labs, FullContact, SeekOut, ContactOut, Hiretual, Hunter, SalesQL, RocketReach). This is effectively a downstream people-data aggregator on top of other brokers, so classified people_search:true. A dedicated opt-out page exists at app.fetcher.ai/opt-out with a stated 14-day processing window, and California residents can also write to support@fetcher.ai. The opt-out page itself is a JS-rendered single-page app; WebFetch could not confirm exact form fields or CAPTCHA presence, so tier set to guided and required_fields inferred conservatively (name + email, the minimum needed to identify a candidate record) rather than confirmed. last_verified left null.",
-   "instructions_md": "1. Go to https://app.fetcher.ai/opt-out and submit the opt-out request with your name and email address (the page is a web app -- allow it to fully load before submitting).\n2. If the opt-out page doesn't work or you prefer email, write to support@fetcher.ai and state that you are a California resident (if applicable) exercising your CCPA right to know about and opt out of the collection/sharing of your personal data, and ask to be removed from Fetcher's candidate database.\n3. Note that Fetcher pulls candidate data from several other data vendors (People Data Labs, FullContact, SeekOut, ContactOut, Hunter, RocketReach, and others) -- opting out of Fetcher alone won't remove your data from those upstream sources, so consider opting out of each separately if you want broader removal.\n4. Fetcher states it aims to process opt-out/access requests within 14 days.",
-   "link_status": "live"
+   "notes": "WebFetch on fetcher.ai/privacy confirmed Fetcher (Tiplinks Inc) is an AI recruiting/candidate-sourcing platform that aggregates personal data about individuals -- name, job history, contact info, email, social profiles, education, skills -- pulled from LinkedIn/professional networks plus third-party people-data vendors (People Data Labs, FullContact, SeekOut, ContactOut, Hiretual, Hunter, SalesQL, RocketReach). This is effectively a downstream people-data aggregator on top of other brokers, so classified people_search:true. A dedicated opt-out page exists at app.fetcher.ai/opt-out with a stated 14-day processing window, and California residents can also write to support@fetcher.ai. The opt-out page itself is a JS-rendered single-page app; WebFetch could not confirm exact form fields or CAPTCHA presence, so tier set to guided and required_fields inferred conservatively (name + email, the minimum needed to identify a candidate record) rather than confirmed. Update 2026-10-21 (daily maintainer, issue #94): the page monitor found app.fetcher.ai/opt-out unreachable on 3 runs in a row, and a WebFetch on 2026-10-21 got HTTP 503 from it. The fetcher.ai homepage still loads. It now says Juicebox has acquired Fetcher's assets, and its footer 'Opt Out' link (under Support) points to https://juicebox.ai/privacy-center, so opt_out_url now points there. That privacy center is Juicebox App, Inc.'s general request form: access, deletion, correction, and opt-out of sale/sharing/targeted ads, with an authorized-agent option. Juicebox says it will contact the requester to verify identity. The fetched page does not mention Fetcher, and its exact form fields could not be read. fetcher.ai/privacy still names app.fetcher.ai/opt-out and support@fetcher.ai, so support@fetcher.ai stays as the email fallback. Nothing was submitted; last_verified stays null.",
+   "instructions_md": "1. Fetcher's assets have been acquired by Juicebox, and the fetcher.ai footer's \"Opt Out\" link now goes to Juicebox's privacy center. Go to https://juicebox.ai/privacy-center.\n2. Choose the request you want: opt out of sale/sharing, or deletion. Say that your data may be in Fetcher's candidate database, and give your name and the email address(es) a recruiter might have for you.\n3. Juicebox says it will contact you to verify your identity before it acts on the request. Reply to that message, and share only what it asks for.\n4. If the privacy center doesn't work, or you want to reach Fetcher directly, email support@fetcher.ai. Say you are exercising your right (under the CCPA, if you're a California resident) to opt out and to have your profile removed from Fetcher's candidate database. Fetcher's own privacy statement promises a reply within 30 days for rights requests.\n5. Fetcher pulled candidate data from several other vendors (People Data Labs, FullContact, SeekOut, ContactOut, Hunter, RocketReach and others). Opting out here won't remove your data from those upstream sources, so opt out of each one separately if you want broader removal.",
+   "link_status": "unknown"
   },
   {
    "id": "transunion-com",
