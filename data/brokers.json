@@ -1,21 +1,21 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.16",
-  "content_hash": "sha256:79953a83ff5ad7e269ff55772f59c230199a8f96ff940b2856d782c5e41ab39c",
+  "dataset_version": "0.1.17",
+  "content_hash": "sha256:4435b990f2793502d7ddfe6e61278a8ac089231e7e848c2723f7a26aab7ce41c",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 493,
-  "backlog_count": 89,
-  "total_known": 582,
-  "unverified_count": 456,
+  "authored_count": 494,
+  "backlog_count": 90,
+  "total_known": 584,
+  "unverified_count": 457,
   "tiers": {
-   "guided": 270,
+   "guided": 271,
    "assisted": 151,
    "auto": 72
   },
   "priorities": {
    "crucial": 124,
-   "high": 155,
+   "high": 156,
    "standard": 214
   }
  },
@@ -1303,6 +1303,36 @@
    "link_status": "live"
   },
   {
+   "id": "information-com",
+   "name": "Information.com",
+   "domain": "information.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://information.com/opt-out",
+   "opt_out_email": "support@information.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-23 by the daily maintainer from California's data broker registry (INFORMATION.COM, LLC; registry rights URL https://information.com/privacy-rights/). That page loaded with HTTP 200 in a plain fetch. The site sells name, phone, address and email lookups, public records, criminal records and background checks, so people_search is true and priority is crucial. The privacy-rights page offers three choices: 'Right To Know' (emailed data report), 'Right To Delete' (deletes your user account and subscriptions, not your listing) and 'Right To Opt-Out' ('remove your data from our people search results, whether or not you are a member', taking 5-7 days). In a headless browser, the 'EXERT RIGHT TO OPT-OUT' button opens https://information.com/opt-out, a 'Suppression Center' for 'people search websites owned by Information.com'. The first step asks only for an email address and a terms/consent checkbox, then sends a verification email with a link to continue. The later steps (picking your records) sit behind that email link and were not seen. No CAPTCHA was visible on the first step, but the page's stylesheet has 'optout__captcha' classes, so a later step may show one; that's why the tier is guided. The footer gives support@information.com as the contact address. Nothing was submitted and no email was entered; last_verified is null.",
+   "instructions_md": "1. Go to https://information.com/opt-out (the \"Exert right to opt-out\" button on https://information.com/privacy-rights/ leads here too).\n2. Enter an email address you can check, tick the box agreeing to the terms, and submit.\n3. Open the verification email from Information.com and click its link to continue in the Suppression Center.\n4. Search for your listing and select every record that is you, then confirm the opt-out. Solve a CAPTCHA if one appears.\n5. Allow 5-7 days for the records to drop out of Information.com's search results; search engines can take longer to catch up.\n6. The \"Right To Delete\" option on the privacy-rights page only deletes a user account. It does not remove your listing, so use the opt-out above for that. For problems, email support@information.com.",
+   "link_status": "unknown"
+  },
+  {
    "id": "infotracer-com",
    "name": "Infotracer",
    "domain": "infotracer.com",
@@ -1608,36 +1638,6 @@
    "notes": "WebFetch confirmed locateplus.com is live and sells 'billions of current historical, cross-referenced public and private records' for people search, skip tracing, criminal/civil records, phone lookups, and asset searches to a stated 100,000+ professional users (private investigators, bail bondsmen, collections agencies, law enforcement, financial institutions) -- a genuine people-search/investigative-records aggregator with real personal-safety stakes, even though access is sold B2B ('this service is only for businesses') rather than direct-to-consumer. Its privacy policy at locateplus.com/customers/privacy-policy/ states California residents can exercise CCPA rights (opt-out, deletion, correction) via customerservice@locateplus.com or 1-888-746-3463, and separately claims the company 'does not sell or share (as defined under CCPA)' info collected through its own website -- but does not disclaim the underlying third-party-sourced records it resells to subscribers, which is the actual people-search product. Given the CSV's existing opt_out_url pointed to a dead /privacy.asp path (404 on fetch), the URL here was corrected to the live privacy-policy page. Email-only process but the B2B gate and ambiguity around what's actually removable pushed this to guided rather than auto; not independently re-rendered by a human, last_verified left null.",
    "instructions_md": "1. Email customerservice@locateplus.com and state that you are a California resident exercising your CCPA rights to opt out of the sale/sharing of your personal information and/or request deletion.\n2. Include your full name and any other identifying details (past addresses, phone numbers) that will help LocatePLUS locate your record among its aggregated public/private-records database.\n3. Alternatively, call 1-888-746-3463 to make the same request by phone.\n4. LocatePLUS states it does not sell or share information collected directly through its own website, but it aggregates and resells third-party public/private records to subscribers (investigators, collections agencies, etc.) -- ask explicitly that your record be suppressed from search results and reports, not just from marketing.\n5. Because this is a B2B investigative-records service rather than a self-service consumer opt-out form, expect a manual back-and-forth rather than an instant confirmation; follow up if you don't hear back within a few weeks.",
    "link_status": "live"
-  },
-  {
-   "id": "mashpanel-com",
-   "name": "MashPanel",
-   "domain": "mashpanel.com",
-   "category": "people_search",
-   "people_search": true,
-   "tier": "guided",
-   "priority": "crucial",
-   "method": "form",
-   "opt_out_url": "https://www.mashpanel.com/remove-listings/",
-   "opt_out_email": null,
-   "phone": null,
-   "captcha": false,
-   "id_required": false,
-   "phone_required": false,
-   "charges_fee": false,
-   "verification": "none",
-   "required_fields": [
-    "listing_url"
-   ],
-   "readd_days": null,
-   "legal_basis": [
-    "ccpa"
-   ],
-   "last_verified": null,
-   "source": "dbw+tcp-research",
-   "notes": "Live curl confirms mashpanel.com is a real people-search directory built on the 'Listingpro' WordPress theme (copyright footer dated 2016), running an 'About Us' page that states verbatim: 'Mashpanel.com is a people search portal which displays publicly available information on individuals and companies... locate your profile on the web-site and click on the removal request link.' Its 'Remove listings' page (mashpanel.com/remove-listings/) explains every listing has a per-record 'Delete' button that removes it immediately -- there is no centralized bulk opt-out form, email, or CAPTCHA; the user must find their own listing first. Site also has a public 'Add listing' feature, consistent with a small/independent aggregator rather than a major broker. No email or phone contact for opt-out was found beyond the per-listing delete mechanism, so opt_out_email is null despite this being method:form. Classified crucial priority as a live people-search site with real personal-safety stakes; guided tier because the process requires locating the specific listing rather than a simple form submission.",
-   "instructions_md": "1. Go to mashpanel.com and use the search bar to look up your own name (or the name of the person whose listing needs removing).\n2. Open the specific profile/listing page that matches -- note its exact URL.\n3. On that listing page, look for and click the \"Delete\" button described on the site's Remove Listings page (https://www.mashpanel.com/remove-listings/); per the site, this removes the record immediately.\n4. If no Delete button is visible on the listing, use the site's Contact Us page (https://www.mashpanel.com/contact-us/) to request manual removal, including the exact listing URL.\n5. Repeat for any additional profiles that match your name, since the site allows anyone to add new listings and old ones can resurface under slightly different details.",
-   "link_status": "broken"
   },
   {
    "id": "mugshots-com",
@@ -3822,6 +3822,37 @@
    "notes": "accudata.com/terms-use-privacy-policy/ redirects (301) to deepsync.com/privacy-policy/, confirmed via WebFetch: AccuData Integrated Marketing is now an operating brand of Compact Information Systems LLC dba Deep Sync, alongside AlumniFinder, ASL Marketing, HomeData, and others -- a large-scale consumer marketing-data aggregator (261M+ consumer records per Deep Sync's own site). WebFetch confirmed opt-out via webform at privacy.deepsync.com or email privacy.compliance@deepsync.com, 30-day processing. WebSearch guide summaries describe the webform requiring name, email, address, a 'who is opting out' dropdown, and a CAPTCHA. Given the scale of consumer data held (not just B2B), this is a high-priority marketing data broker despite not being a people-search site -- domain redirect makes the opt-out itself straightforward but CAPTCHA-gated so tier guided.",
    "instructions_md": "1. Go to https://privacy.deepsync.com/ (Deep Sync is the current parent brand for AccuData Integrated Marketing; accudata.com's privacy policy redirects here).\n2. Click \"Do Not Sell My Personal Information.\"\n3. Choose \"Myself\" from the \"Who is Opting out?\" dropdown, then enter your first and last name, email address, and mailing address.\n4. Check the boxes to opt out of sale/sharing and, if desired, to request deletion of your data.\n5. Complete the CAPTCHA and submit the form.\n6. Alternatively, email privacy.compliance@deepsync.com directly with the same request.\n7. Allow up to 45 business days for the request to be processed.",
    "link_status": "live"
+  },
+  {
+   "id": "achcoop-com",
+   "name": "ACH, Address Clearing House",
+   "domain": "achcoop.com",
+   "category": "postal_data",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://www.achcoop.com/do-not-sell-my-personal-info",
+   "opt_out_email": "Privacy@achcoop.com",
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "none",
+   "required_fields": [
+    "full_name",
+    "address"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-23 by the daily maintainer from California's data broker registry (ACH, Address Clearing House; registry rights URL https://www.achcoop.com/). The homepage (HTTP 200) is a small Wix site. It gives Privacy@achcoop.com for privacy questions and links a 'DNSMPI' opt-out page. The site doesn't describe the business beyond its name (the About link returned 404); the page says it 'only process[es] U.S. postal data', so it is classed as a postal/address data broker rather than a people-search site, at high priority. https://www.achcoop.com/do-not-sell-my-personal-info, loaded in a headless browser, adds a name and address to ACH's 'no sale' list. It requires first and last name, street address (Apt/Unit only if it applies), city, state and ZIP, and checkboxes for: Do Not Sell, Remove Me From Your Database, Access, Correct, Do Not Share, opt out of targeted advertising, and opt out of profiling. The page says a full address is required, one name/address per submission. A Wix CAPTCHA widget sits on the form, so captcha is true and the tier is guided. No confirmation step is described. Nothing was submitted; last_verified is null.",
+   "instructions_md": "1. Go to https://www.achcoop.com/do-not-sell-my-personal-info (the \"DNSMPI\" link in the site menu).\n2. Enter your first and last name and your full mailing address: street, Apt/Unit only if you have one, city, state and ZIP. Requests without a full address aren't processed.\n3. Under \"Select your request\", tick \"Do Not Sell My Personal Information\", \"Remove Me From Your Database\" and \"Do Not Share My Personal Information\". Add the targeted-advertising and profiling opt-outs if you want them.\n4. Complete the CAPTCHA and submit.\n5. The form takes one name and address per submission, so submit again for every other address you've lived at or other household member.\n6. No confirmation step is described. If you want one, or have questions, email Privacy@achcoop.com.",
+   "link_status": "unknown"
   },
   {
    "id": "acxiom-com",
