@@ -165,7 +165,10 @@ card number. We may also collect
 information relating to the actions
 that
 you perform while logged into your
-account. Where necessary to confirm
+account. If you enable SMS text
+messaging for your myFICO account,
+we collect your mobile phone number
+for this purpose. Where necessary to confirm
 your identity, we may offer you the
 option to consent to provide a photo
 ID and a picture of yourself. If you
@@ -191,7 +194,17 @@ Scores),
 to authenticate identity, and to
 process
 payments. Our use of biometrics is
-based on consent.
+based on consent. We may use your
+mobile phone number to deliver
+two-factor authentication
+verification codes, related
+account-security notifications, and
+alert notifications. Mobile
+information collected for our
+SMS/short code program will not be
+shared, sold, or rented to any third
+parties for their own marketing
+purposes.
 FICO Analytic Cloud,
 FICO account, or FICO
 Community account registration
@@ -640,9 +653,10 @@ footer of FICO email messages, or by submitting a
 request as described below in the Exercising your
 rights section of this policy.
 You may opt-out of web-based targeted advertising
-(e.g., cookies and pixels) by going to the
-"privacy choices" link or the cookie
-settings icon on our website.
+(e.g., cookies and pixels) or targeted advertising
+based on direct identifiers (e.g., email) by going
+to the "Your Privacy Choices" link or the
+cookie settings icon on our website.
 You may opt-out of App based targeted advertising
 (e.g., SDKs with advertising partners) by going to
 the settings menu in your mobile device.
@@ -869,12 +883,10 @@ we
 collect with government entities or other third
 parties
 as required to comply with law or prevent illegal
-activity. We do not sell personal data and have not
-sold
-personal data during the last 12 months. We do not
-share the categories below for purposes of targeted
-advertising unless you have provided your consent
-where required. For details regarding how we use
+activity. We do not, and have not in the last 12
+months, sold personal data for money. We may share
+the categories below for purposes of targeted
+advertising, unless you have opted out. For details regarding how we use
 personal data, please see the
 How
 we
@@ -1108,4 +1120,4 @@ Changes to This Policy
 If we change this policy, we will post the changes
 here.
 This policy was last updated and is effective as of
-July 2026.
+October 2026.
