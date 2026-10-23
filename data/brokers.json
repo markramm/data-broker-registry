@@ -1,21 +1,21 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.16",
-  "content_hash": "sha256:79953a83ff5ad7e269ff55772f59c230199a8f96ff940b2856d782c5e41ab39c",
+  "dataset_version": "0.1.17",
+  "content_hash": "sha256:3e717a0f45b5b14905301ddd99d5dbf5ecadfbb440361bd2ebc72fa3154fcec0",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 493,
+  "authored_count": 496,
   "backlog_count": 89,
-  "total_known": 582,
-  "unverified_count": 456,
+  "total_known": 585,
+  "unverified_count": 459,
   "tiers": {
    "guided": 270,
-   "assisted": 151,
+   "assisted": 154,
    "auto": 72
   },
   "priorities": {
-   "crucial": 124,
-   "high": 155,
+   "crucial": 126,
+   "high": 156,
    "standard": 214
   }
  },
@@ -2569,6 +2569,39 @@
    "link_status": "live"
   },
   {
+   "id": "privatereports-com",
+   "name": "PrivateReports",
+   "domain": "privatereports.com",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "assisted",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://www.privatereports.com/api/helper/optOutLight/search",
+   "opt_out_email": null,
+   "phone": "(833) 783-0920",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "full_name",
+    "dob",
+    "address",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-22 by the daily maintainer from California's data broker registry (Infomatics LLC; registry contact support@privatereports.com; the registry also lists mugshotlook.com and publicsearcher.com for the same company, which were not fetched). The site is a JavaScript app, so plain fetches return an empty shell; it was loaded in a headless browser instead. The homepage is a name search selling background reports (criminal records, address, phone, property, civil judgments), so people_search is true and priority is crucial. Its footer 'Do Not Sell My Info' and 'Limit The Use of My Sensitive Personal Info' links both go to https://www.privatereports.com/api/helper/optOutLight/search, a page offering two separate requests. 'Your Privacy Choices' takes only an email or a phone number and stops sale/sharing; the page says it does not remove a listing. 'Remove My Information' asks for the listed person's first and last name, date of birth, city, ZIP and state, plus an email for a confirmation link, and says nothing is removed until that link is clicked. It promises acknowledgement within 10 business days and completion within 45 days, and offers (833) 783-0920 as a phone alternative. No CAPTCHA was visible on either form. required_fields lists address because city, ZIP and state are required (a street address is not). Nothing was submitted; last_verified is null.",
+   "instructions_md": "1. Go to https://www.privatereports.com/api/helper/optOutLight/search (the \"Do Not Sell My Info\" link in the site footer).\n2. Choose \"Remove My Information\". The other option, \"Your Privacy Choices\", only stops the sale and sharing of your data and leaves your listing on the site.\n3. Enter the listed person's first and last name (no suffix such as Jr.), date of birth, city, ZIP code and state.\n4. Enter an email address for the confirmation link and submit the removal request.\n5. Open the email from PrivateReports and click the confirmation link. Nothing is removed until you do.\n6. Optionally, go back to the same page, choose \"Your Privacy Choices\", and enter your email or phone number to stop the sale and sharing of your information as well.\n7. Removal should be finished within 45 days. If the confirmation email never arrives, call (833) 783-0920 and they will do the request with you. The same company also runs mugshotlook.com and publicsearcher.com, so check those sites for your listing too.",
+   "link_status": "unknown"
+  },
+  {
    "id": "publicbackgroundchecks-com",
    "name": "PublicBackgroundChecks.com",
    "domain": "publicbackgroundchecks.com",
@@ -3637,6 +3670,39 @@
    "notes": "opt_out_url returned empty/blank content on repeated fetch attempts in this session (both http and https, www and bare host) -- likely a thin/JS-rendered page that fetch tooling cannot parse, or a broken/legacy ASP.NET page. Assessed instead from third-party removal-guide consensus (removeonlineinformation.com, JoinDeleteMe) plus DoD/military public-records opt-out smartcards that document the same veromi.net process: opt-out is a signed physical letter (no unsigned/substitute-service requests accepted) mailed to Veromi Optout Request, 15260 Ventura Blvd 20th Fl, Sherman Oaks, CA 91403, including full name, aliases/AKAs, current address, all former addresses for 20 years, and full DOB. No working email or web form was found. Mail-only + heavy PII ask -> guided, and this is a people-search/address-reseller site -> crucial priority. Not freshly confirmed against the live page.",
    "instructions_md": "1. Write a signed letter -- Veromi does not accept unsigned requests or third-party/substitute submissions.\n2. Include: your first name, last name, middle initial, any aliases or A.K.A.'s, your complete current address, all former addresses for the past 20 years, and your full date of birth (month, day, year).\n3. It helps to print out the specific listing(s) you want suppressed and include them with the letter.\n4. Optionally enclose your email address or a self-addressed stamped envelope so Veromi can send confirmation that the records were suppressed.\n5. Mail the letter to: Veromi Optout Request, 15260 Ventura Blvd, 20th Fl., Sherman Oaks, CA 91403.\n6. Allow at least 7 days for processing; check back periodically since these sites frequently re-add scraped listings.",
    "link_status": "live"
+  },
+  {
+   "id": "weinform-org",
+   "name": "WeInform",
+   "domain": "weinform.org",
+   "category": "people_search",
+   "people_search": true,
+   "tier": "assisted",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://www.weinform.org/api/helper/optOutLight/search",
+   "opt_out_email": null,
+   "phone": "(855) 879-0159",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "full_name",
+    "dob",
+    "address",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-22 by the daily maintainer from California's data broker registry (We Inform LLC; registry contact support@weinform.org; the registry also lists truthrecord.org for the same company). The site is a JavaScript app, so plain fetches return an empty shell; it was loaded in a headless browser instead. The homepage is a public-records name search ('over 12 billion public records') selling reports with contact details, criminal and court records, so people_search is true and priority is crucial. Its footer 'Remove My Information' link goes to https://www.weinform.org/api/helper/optOutLight/search?type=removal, and 'Do Not Sell My Info' to the same page without the query string. That page offers two separate requests: 'Your Privacy Choices' (email or phone only; stops sale/sharing, does not remove a listing) and 'Remove My Information' (first and last name, date of birth, city, ZIP and state, plus an email for a confirmation link; nothing is removed until the link is clicked). It promises acknowledgement within 10 business days and completion within 45 days, with (855) 879-0159 as a phone alternative. No CAPTCHA was visible. truthrecord.org was also loaded: same site design, with its own copy of the same request page at https://www.truthrecord.org/api/helper/optOutLight/search; whether one removal covers both sites isn't stated. required_fields lists address because city, ZIP and state are required (a street address is not). Nothing was submitted; last_verified is null.",
+   "instructions_md": "1. Go to https://www.weinform.org/api/helper/optOutLight/search (the \"Remove My Information\" link in the site footer).\n2. Choose \"Remove My Information\". The other option, \"Your Privacy Choices\", only stops the sale and sharing of your data and leaves your listing on the site.\n3. Enter the listed person's first and last name (no suffix such as Jr.), date of birth, city, ZIP code and state.\n4. Enter an email address for the confirmation link and submit the removal request.\n5. Open the email from WeInform and click the confirmation link. Nothing is removed until you do.\n6. Optionally, go back to the same page, choose \"Your Privacy Choices\", and enter your email or phone number to stop the sale and sharing of your information as well.\n7. The same company runs TruthRecord. It isn't clear that one request covers both sites, so repeat steps 2 to 5 at https://www.truthrecord.org/api/helper/optOutLight/search.\n8. Removal should be finished within 45 days. If the confirmation email never arrives, call (855) 879-0159 and they will do the request with you.",
+   "link_status": "unknown"
   },
   {
    "id": "whitepages-com",
@@ -6477,6 +6543,37 @@
    "link_status": "broken"
   },
   {
+   "id": "kindskiptracing-com",
+   "name": "Kind Skiptracing",
+   "domain": "kindskiptracing.com",
+   "category": "real_estate_data",
+   "people_search": true,
+   "tier": "assisted",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://kindskiptracing.com/opt-out",
+   "opt_out_email": null,
+   "phone": "+1 (980) 270-1673",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "address"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-22 by the daily maintainer from California's data broker registry (Kind Skiptracing, Inc; registry contact compliance@kindskiptracing.com, which the site itself doesn't show). The site is a JavaScript app, so it was loaded in a headless browser. It sells lists of property owners to real-estate investors and wholesalers, plus skip tracing (finding owners' phone numbers, emails and relatives, with deceased and age flags) at per-record prices. Like connectedinvestors-com, people_search is true (it resells contact details tied to a person and their home) but priority is high, since it sells in bulk to subscribers rather than running a public name search. The footer 'Opt-Out' link goes to https://kindskiptracing.com/opt-out, a form that stops the sale or sharing of your information within 15 business days. It needs at least one of an email address, a phone number, or a last name with street address and ZIP. First name, apartment, city and state are optional. No CAPTCHA was visible and the page doesn't describe a confirmation email, so verification is null. required_fields lists name and address because that is the only route that doesn't need a contact detail. The page does not mention deletion. Nothing was submitted; last_verified is null.",
+   "instructions_md": "1. Go to https://kindskiptracing.com/opt-out (the \"Opt-Out\" link in the site footer).\n2. Enter what you can so they can match your records. They need at least one of: your email address, your phone number, or your last name with your street address and ZIP code. Each extra detail makes a match more likely.\n3. Submit the form. Kind Skiptracing says it will stop selling or sharing your information within 15 business days.\n4. The form only covers selling and sharing. To ask for deletion too, email compliance@kindskiptracing.com (the contact on California's data broker registry) or info@kindskiptracing.com. Say you are asking for your personal information to be deleted, and under the CCPA if you live in California.",
+   "link_status": "unknown"
+  },
+  {
    "id": "l2political-com",
    "name": "L2, Inc.",
    "domain": "l2political.com",
@@ -6503,8 +6600,8 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "l2political.com now 301-redirects (confirmed via WebFetch) to https://www.l2-data.com/ -- the company rebranded from L2 Political to L2 Data. L2 is a large-scale voter-file and consumer-data broker (217M voter records, 260M consumer records per their homepage) used for political targeting, comparable in scale/impact to i360. WebFetch confirmed a working opt-out form at l2-data.com/optout1-667457/ requiring first/last name, full address, and a consent checkbox, with a simple arithmetic CAPTCHA ('14 + 3 =') -- optional phone/email fields. A privacy policy PDF (L2-Privacy-Notice) and a dedicated California 'Do Not Sell My Personal Data' page were also referenced but not directly rendered. Alternate contacts: support@l2-data.com, info@l2-data.com, phone 1-800-842-5478; privacy companies seeking bulk opt-outs are directed to privacyrequests@l2political.com specifically. Because the form requires full name and home address and covers voter-file data (not just marketing lists), and CAPTCHA-gates submission, classified guided tier. Not classified people_search (no per-lookup identity/address resale product was found -- data is sold in bulk/targeting feeds to campaigns), but given the scale of address-level voter data and its use for political targeting, priority raised to high rather than standard.",
-   "instructions_md": "1. Go to https://l2-data.com/optout1-667457/ (the L2 Political opt-out form, now hosted under L2's rebranded l2-data.com site).\n2. Enter your first and last name and your full mailing address (street, city, state, ZIP) so L2 can locate your voter/consumer record.\n3. Optionally add a phone number or email address.\n4. Solve the simple math CAPTCHA (e.g. \"14 + 3 =\") and check the consent box confirming your identity.\n5. Submit the form. L2 states it will remove your contact information \"as soon as reasonably practicable.\"\n6. California residents can also look for the \"Do Not Sell My Personal Data\" link on l2-data.com's footer for a CCPA-specific route, or email privacyrequests@l2political.com, support@l2-data.com, or info@l2-data.com, or call 1-800-842-5478.\n7. Keep a record of your submission; re-check periodically since voter files are refreshed from public records on an ongoing basis.",
+   "notes": "l2political.com now 301-redirects (confirmed via WebFetch) to https://www.l2-data.com/ -- the company rebranded from L2 Political to L2 Data. L2 is a large-scale voter-file and consumer-data broker (217M voter records, 260M consumer records per their homepage) used for political targeting, comparable in scale/impact to i360. WebFetch confirmed a working opt-out form at l2-data.com/optout1-667457/ requiring first/last name, full address, and a consent checkbox, with a simple arithmetic CAPTCHA ('14 + 3 =') -- optional phone/email fields. A privacy policy PDF (L2-Privacy-Notice) and a dedicated California 'Do Not Sell My Personal Data' page were also referenced but not directly rendered. Alternate contacts: support@l2-data.com, info@l2-data.com, phone 1-800-842-5478; privacy companies seeking bulk opt-outs are directed to privacyrequests@l2political.com specifically. Because the form requires full name and home address and covers voter-file data (not just marketing lists), and CAPTCHA-gates submission, classified guided tier. Not classified people_search (no per-lookup identity/address resale product was found -- data is sold in bulk/targeting feeds to campaigns), but given the scale of address-level voter data and its use for political targeting, priority raised to high rather than standard. 2026-10-22 (daily maintainer, page-monitor issue #101): fetched https://l2-data.com/optout1-667457/ (HTTP 200). The form is unchanged (name, address, consent box, '14 + 3 =' math question) but its intro now reads: if you are a California resident, click a link to https://l2-data.com/california-privacy-rights-for-california-residents-only/; the form is for people who are not California residents. Fetched that page too (HTTP 200): a CCPA request form (email, name, phone, address with a California check, and a choice of rights). Opt-out of sale needs no identity verification and L2 says it deletes your data on receipt; access and deletion need verification via a ConsumerMapping login or an uploaded signed declaration (or power of attorney for an agent). The steps now route California residents there. Nothing was submitted; last_verified stays null.",
+   "instructions_md": "1. If you don't live in California, go to https://l2-data.com/optout1-667457/ (the L2 Political opt-out form, now hosted under L2's rebranded l2-data.com site). California residents: skip to step 6.\n2. Enter your first and last name and your full mailing address (street, city, state, ZIP) so L2 can locate your voter/consumer record.\n3. Optionally add a phone number or email address.\n4. Solve the simple math CAPTCHA (e.g. \"14 + 3 =\") and check the consent box confirming your identity.\n5. Submit the form. L2 states it will remove your contact information \"as soon as reasonably practicable.\"\n6. If you live in California, L2 says this form is not for you. Use its California page instead: https://l2-data.com/california-privacy-rights-for-california-residents-only/. Fill in your email, name, phone and address (it checks that the address is in California), then choose the right you want. \"Right to Opt-Out of Sale of Your Data\" needs no identity check, and L2 says it deletes your data from its database when it gets one. \"Right to Delete Your Data\" needs identity verification: either an L2 ConsumerMapping login, or a signed declaration under penalty of perjury that you upload with the request. L2 says it won't delete data it uses for constitutionally protected political speech.\n7. You can also email privacyrequests@l2political.com, support@l2-data.com or info@l2-data.com, or call 1-800-842-5478.\n8. Keep a record of your submission; re-check periodically since voter files are refreshed from public records on an ongoing basis.",
    "link_status": "live"
   },
   {
