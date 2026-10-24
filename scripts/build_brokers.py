@@ -101,12 +101,17 @@ def main(check_only=False):
     authored_count = len(entries)
     backlog_count = len(backlog)
 
-    prev_version = None
-    if os.path.exists(MANIFEST_PATH):
-        prev_version = json.load(open(MANIFEST_PATH)).get("dataset_version")
-    dataset_version = bump_patch_version(prev_version)
-
     content_hash = "sha256:" + hashlib.sha256(canonical_for_hash(entries).encode("utf-8")).hexdigest()
+
+    # Only bump when the content changed, so rebuilding an already-built tree is a no-op.
+    prev_version, prev_hash = None, None
+    if os.path.exists(MANIFEST_PATH):
+        prev = json.load(open(MANIFEST_PATH))
+        prev_version, prev_hash = prev.get("dataset_version"), prev.get("content_hash")
+    if prev_version and prev_hash == content_hash:
+        dataset_version = prev_version
+    else:
+        dataset_version = bump_patch_version(prev_version)
 
     tier_counts = dict(Counter(e.get("tier") for e in entries))
     priority_counts = dict(Counter(e.get("priority") for e in entries))
