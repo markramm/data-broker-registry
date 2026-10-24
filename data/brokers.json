@@ -1,21 +1,21 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.16",
-  "content_hash": "sha256:79953a83ff5ad7e269ff55772f59c230199a8f96ff940b2856d782c5e41ab39c",
+  "dataset_version": "0.1.17",
+  "content_hash": "sha256:e3b65699d7f30768b6ff37f49c7c8f621ad214fbc6753be10e62e6fc14d83349",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 493,
-  "backlog_count": 89,
-  "total_known": 582,
-  "unverified_count": 456,
+  "authored_count": 495,
+  "backlog_count": 90,
+  "total_known": 585,
+  "unverified_count": 458,
   "tiers": {
-   "guided": 270,
-   "assisted": 151,
+   "guided": 273,
+   "assisted": 150,
    "auto": 72
   },
   "priorities": {
    "crucial": 124,
-   "high": 155,
+   "high": 157,
    "standard": 214
   }
  },
@@ -4251,7 +4251,8 @@
    "verification": "none",
    "required_fields": [
     "full_name",
-    "address"
+    "address",
+    "email"
    ],
    "readd_days": null,
    "legal_basis": [
@@ -4259,8 +4260,8 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "WebFetch of bbdirect.com's privacy-compliance page 403'd directly, but WebSearch and a fetch of JoinDeleteMe's BBDirect opt-out guide corroborate the process: BB Direct is a direct-mail list broker (New Mover list, Bankruptcy Masterfile, Registered Voters list, etc. -- rents third-party consumer lists to marketers) registered as a CA data broker. Opt-out is via a 'CCPA Compliance' link in the site footer leading to an online form requiring first/last name, address, city, state, zip, and which mail piece prompted the request -- no CAPTCHA mentioned in the guide. Simple form, no CAPTCHA/ID -> assisted tier. Marketing list broker (not a people-search product) but does resell real consumer mailing/contact data -> high priority, people_search false.",
-   "instructions_md": "1. Go to https://www.bbdirect.com/ and scroll to the footer; click \"CCPA Compliance.\"\n2. On the privacy-compliance page, fill in the opt-out form with your first name, last name, and mailing address (city, state, zip).\n3. If you received a specific piece of direct mail that led you here, note which mailing/list it was in the form if prompted.\n4. Submit the form; you should see a confirmation message once it's processed.\n5. Alternatively, call BB Direct at (866) 501-6273 or write to PO Box 151261, Cape Coral, FL 33915 to make the same request.",
+   "notes": "WebFetch of bbdirect.com's privacy-compliance page 403'd directly, but WebSearch and a fetch of JoinDeleteMe's BBDirect opt-out guide corroborate the process: BB Direct is a direct-mail list broker (New Mover list, Bankruptcy Masterfile, Registered Voters list, etc. -- rents third-party consumer lists to marketers) registered as a CA data broker. Opt-out is via a 'CCPA Compliance' link in the site footer leading to an online form requiring first/last name, address, city, state, zip, and which mail piece prompted the request -- no CAPTCHA mentioned in the guide. Simple form, no CAPTCHA/ID -> assisted tier. Marketing list broker (not a people-search product) but does resell real consumer mailing/contact data -> high priority, people_search false. Update 2026-10-24 (daily maintainer, page-monitor #118): the monitor had been getting a bot-check interstitial, and on 10-23 got the real page. Loaded in a headless browser today, https://www.bbdirect.com/resources/privacy/privacy-compliance.html shows an embedded Cognito Forms 'Opt-Out Privacy Compliance Form' with three required fields: Name (first, last), Address (line 1, line 2, city, state, ZIP) and Email. There is no longer a field for which mail piece prompted the request. The page says BB Direct adds the submission to its 'Opt-Out Privacy Suppression Database' so the record is excluded from future marketing data. The site loads Google reCAPTCHA Enterprise in invisible mode (badge hidden, no visible challenge), so captcha stays false and the tier stays assisted. Nothing was submitted; last_verified stays null.",
+   "instructions_md": "1. Go to https://www.bbdirect.com/resources/privacy/privacy-compliance.html (the \"Privacy Compliance & Opt-Out Form\" link in the site footer).\n2. Fill in all three required fields: your first and last name, your full mailing address (street, city, state, ZIP), and your email address.\n3. Submit the form. BB Direct says it adds your record to its opt-out suppression database so it's left out of the marketing data it provides to customers.\n4. The form takes one name and one address, so submit it again for any other address you've lived at.\n5. Alternatively, call BB Direct at (866) 501-6273 or write to PO Box 151261, Cape Coral, FL 33915 to make the same request.",
    "link_status": "live"
   },
   {
@@ -4758,6 +4759,38 @@
    "notes": "ClassFinders is a people-search site aggregating high-school/alumni directory profiles (over 13M profiles, per third-party writeups) -- a genuine people-search broker, not noise. classfinders.com and classfinders.com/about.php returned HTTP 403 to direct WebFetch (bot-blocked); routing reconstructed from multiple independent 2024-2025 opt-out-guide writeups (Onerep, DeleteMe, deletemyinfo.com) that consistently point to a dedicated 'Name Removal' page at classfinders.com/name_removal.php, distinct from the search/profile pages. Process is a self-serve search-then-remove form (name, graduation year, city/state) with no CAPTCHA or ID mentioned in any guide -- kept at assisted rather than guided since no gating step was reported, but this is not independently confirmed against a rendered page. required_fields includes 'other' for graduation year/city/state, which has no dedicated enum value. priority is high rather than crucial because reviewers describe the site as a lower-traffic alumni-focused niche broker rather than a major address/phone aggregator, but people_search safety stakes still apply.",
    "instructions_md": "1. Go to https://www.classfinders.com/name_removal.php.\n2. Enter your first name, last name, high school graduation year, city, and state to search for your listing.\n3. Click \"Search\" and review the results for a profile matching you.\n4. Click \"Remove this name\" (or equivalent) on the matching profile to submit the removal request.\n5. Allow up to a week for the removal to process, per the site's own guidance.\n6. Because ClassFinders aggregates from other alumni-directory sources, check back periodically and repeat the removal if your listing reappears after a data refresh.",
    "link_status": "bot-blocked"
+  },
+  {
+   "id": "clearview-ai",
+   "name": "Clearview AI",
+   "domain": "clearview.ai",
+   "category": "facial_recognition",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://www.clearview.ai/privacy-and-requests",
+   "opt_out_email": "privacy-requests@clearview.ai",
+   "phone": "1-866-637-0257",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "email",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "cpra"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-24 by the daily maintainer from California's data broker registry (Clearview AI, Inc.; registry rights URL https://www.clearview.ai/privacy-and-requests, email privacy-requests@clearview.ai). Clearview runs a facial-recognition search engine built from publicly posted photos and sells it to investigators and law enforcement. Because the public can't search it, people_search is false, but a face search that returns a person's photos and the pages they appear on carries real personal-safety stakes, so the priority is high. https://www.clearview.ai/privacy-and-requests, loaded in a headless browser (HTTP 200), lists per-state request links (California: Access, Delete, Do Not Sell/Share, Correct, Limit Use of Sensitive Info), all of which open the same OneTrust webform for California. Separate forms exist for Colorado, Connecticut, Delaware, Iowa and other states, plus an Illinois opt-out from search results. The California form, also loaded headless, asks whether you're a California resident, which right you're exercising, an email address, and requires an uploaded photo of your face (a redacted ID only for access requests); it shows a visible reCAPTCHA checkbox and gives 1 (866) 637-0257 as a phone alternative. The form says the photo is deleted after processing, except that for opt-out/deletion requests Clearview keeps an encrypted copy of the image, unlinked from other identifying information, to stop the face being collected again. A face photo upload and a CAPTCHA mean guided tier; 'other' in required_fields is the face photo. Nothing was submitted; last_verified is null.",
+   "instructions_md": "1. Go to https://www.clearview.ai/privacy-and-requests and, under your state, click the request you want. For California, \"Do Not Sell/Share\" and \"Delete\" both open the same request form; other states have their own links.\n2. Confirm that you're a resident of that state and pick the right you want to exercise: \"Delete My Information\" and \"Do Not Sell/Share My Information\". Submit a separate request for each one.\n3. Enter an email address where Clearview can confirm your request.\n4. Upload a clear photo of your face. Clearview can only find you by image, not by name or email. Only access requests need a redacted ID instead.\n5. Tick the acknowledgment, solve the CAPTCHA and submit.\n6. Watch for an email asking you to validate the request, and confirm it.\n7. Alternatively, California residents can call 1 (866) 637-0257, and anyone can email privacy-requests@clearview.ai. Clearview says it keeps an encrypted copy of your photo after an opt-out or deletion, used only to stop your face being collected again.",
+   "link_status": "unknown"
   },
   {
    "id": "oncoreleads-com",
@@ -8045,6 +8078,38 @@
    "link_status": "bot-blocked"
   },
   {
+   "id": "trestleiq-com",
+   "name": "Trestle (Trestle Solutions, Inc.)",
+   "domain": "trestleiq.com",
+   "category": "identity_verification",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://portal.trestleiq.com/do-not-sell",
+   "opt_out_email": "privacy@trestleiq.com",
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "phone",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-24 by the daily maintainer from California's data broker registry (Trestle Solutions, Inc.; registry rights URL https://trestleiq.com/privacy-policy/, email privacy@trestleiq.com). Trestle sells phone and identity data APIs to businesses: reverse phone lookup, caller identification, identity and lead verification, and phone-number validation. Its privacy policy (loaded headless, last updated 2025-12-10) says it collects name, email, physical address, phone numbers, line type, carrier and alternative phone numbers from public sources and third-party data providers. That is a phone/identity lookup product, so people_search is true; it is sold to businesses through an API rather than as a public search site, so priority is high rather than crucial. The policy says to use the 'Do Not Sell My Personal Information' footer link to opt out of sale/sharing, and to email privacy@trestleiq.com to access, delete or correct data. The trestleiq.com footer link goes to https://portal.trestleiq.com/do-not-sell, which embeds a form from dsr.trustsuperset.com. Loaded headless, that form ('Trestle's Opt out Form') requires first name, last name, phone number, email and a request type (options include Right to Opt-out of Sales and Right to Erasure); middle name, address line, state and ZIP are optional. It shows a 'Please verify you're human' check, so captcha is true and the tier is guided. No confirmation step is described. Nothing was submitted; last_verified is null.",
+   "instructions_md": "1. Go to https://portal.trestleiq.com/do-not-sell (the \"Do Not Sell My Personal Information\" link in the trestleiq.com footer). Dismiss the cookie banner if the form doesn't show.\n2. Enter your first and last name, the phone number you want suppressed, and your email address. Address, state and ZIP are optional.\n3. Under \"Request Type\", choose \"Right to Opt-out of Sales\".\n4. Complete the \"verify you're human\" check and submit.\n5. Submit a second request with \"Right to Erasure\" if you also want your data deleted, and repeat for any other phone numbers you use.\n6. Alternatively, email privacy@trestleiq.com to ask for deletion and an opt-out of sale or sharing.",
+   "link_status": "unknown"
+  },
+  {
    "id": "unity-com",
    "name": "Unity Technologies (Unity Ads)",
    "domain": "unity.com",
@@ -9266,19 +9331,22 @@
    "domain": "assurance.com",
    "category": "marketing_data_broker",
    "people_search": false,
-   "tier": "assisted",
+   "tier": "guided",
    "priority": "standard",
    "method": "form",
-   "opt_out_url": "https://assurance.com/ccpa-opt-out",
-   "opt_out_email": null,
-   "phone": "1-844-311-6099",
-   "captcha": false,
+   "opt_out_url": "https://www.prudential.com/links/privacy-center/data-requests.html",
+   "opt_out_email": "Global.Privacy@prudential.com",
+   "phone": "1-844-778-3727",
+   "captcha": true,
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
    "required_fields": [
     "full_name",
-    "email"
+    "email",
+    "phone",
+    "dob",
+    "address"
    ],
    "readd_days": null,
    "legal_basis": [
@@ -9286,9 +9354,9 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "Assurance IQ (a Prudential-owned insurance-lead marketing company) publishes a CCPA disclosure at assurance.com/ccpa-disclosure describing sale of personal information and a dedicated opt-out page at assurance.com/ccpa-opt-out (Data Request Form) plus a phone alternative at 1-844-311-6099, per its own disclosure page and corroborated by Privacy Rights Clearinghouse. Note: direct WebFetch to both assurance.com/ccpa-disclosure and assurance.com/ccpa-opt-out failed with 'certificate has expired' -- independently confirmed via curl -sv that assurance.com's TLS certificate is genuinely expired as of this research date, not a fetch-tool artifact. Could not verify exact form fields/CAPTCHA on the live page as a result; required_fields inferred conservatively from generic CCPA data-request-form norms. The CCPA disclosure notes exemptions for GLBA/HIPAA-covered financial/health data (Assurance sells life/health insurance leads), so some requests may be declined in part. last_verified left null; flagging the expired certificate as a real, currently observable problem with the broker's own site.",
-   "instructions_md": "1. Go to the Assurance CCPA opt-out page at [assurance.com/ccpa-opt-out](https://assurance.com/ccpa-opt-out) and complete the Data Request Form with your name and email (note: as of this writing, assurance.com's SSL certificate has expired, which may trigger browser security warnings -- proceed with caution or use the phone option instead).\n2. Alternatively, call 1-844-311-6099 and request that Assurance opt you out of the sale/sharing of your personal information under the CCPA.\n3. Be aware Assurance states some categories of information (tied to insurance products you've actually purchased, covered by GLBA/HIPAA) may be exempt from the opt-out and processed anyway.\n4. Watch for a confirmation of your request; if you don't receive one within a reasonable time, follow up by phone.",
-   "link_status": "broken"
+   "notes": "Assurance IQ (a Prudential-owned insurance-lead marketing company) publishes a CCPA disclosure at assurance.com/ccpa-disclosure describing sale of personal information and a dedicated opt-out page at assurance.com/ccpa-opt-out (Data Request Form) plus a phone alternative at 1-844-311-6099, per its own disclosure page and corroborated by Privacy Rights Clearinghouse. Note: direct WebFetch to both assurance.com/ccpa-disclosure and assurance.com/ccpa-opt-out failed with 'certificate has expired' -- independently confirmed via curl -sv that assurance.com's TLS certificate is genuinely expired as of this research date, not a fetch-tool artifact. Could not verify exact form fields/CAPTCHA on the live page as a result; required_fields inferred conservatively from generic CCPA data-request-form norms. The CCPA disclosure notes exemptions for GLBA/HIPAA-covered financial/health data (Assurance sells life/health insurance leads), so some requests may be declined in part. last_verified left null; flagging the expired certificate as a real, currently observable problem with the broker's own site. Update 2026-10-24 (daily maintainer, page-monitor #121): https://assurance.com/ccpa-opt-out and /ccpa-disclosure now both return HTTP 404 (curl, with and without www). The assurance.com homepage loads (HTTP 200), and its footer's only privacy link, 'Privacy center', goes to Prudential's privacy center (https://www.prudential.com/links/privacy-center). Prudential owns Assurance IQ. That center's 'Request data' page (https://www.prudential.com/links/privacy-center/data-requests.html) links a OneTrust 'Data Request Form' and gives 1-844-PRU-DSAR (1-844-778-3727) and Global.Privacy@prudential.com for requests the form doesn't cover. Loaded in a headless browser, the form requires country of residence, self or on-behalf-of, first and last name, email (twice), year of birth, ZIP code, phone number and a truthfulness certification, and shows a visible reCAPTCHA checkbox, so captcha is true and the tier is guided. The request types weren't visible until a country is chosen, and the FAQ says to use 'Other Request Type' for anything not listed, so whether 'opt out of sale/sharing' is its own option is unconfirmed. The old Assurance phone line (1-844-311-6099) was not re-checked and was replaced with the Prudential DSAR line the page gives. Nothing was submitted; last_verified stays null.",
+   "instructions_md": "1. Go to Prudential's privacy request page at https://www.prudential.com/links/privacy-center/data-requests.html (Assurance's own site links its privacy questions to Prudential's privacy center; the old assurance.com opt-out page is gone).\n2. Click \"Submit a request\" to open the Data Request Form.\n3. Choose your country of residence and \"Self\", then enter your first and last name, email (twice), year of birth, ZIP code and phone number.\n4. Choose the request you want: deletion, or opt-out of sale/sharing if it's offered. If it isn't, pick \"Other Request Type\" and write that you want Assurance IQ to stop selling or sharing your personal information under the CCPA.\n5. Tick the certification, solve the CAPTCHA and submit.\n6. Alternatively, call 1-844-PRU-DSAR (1-844-778-3727) or email Global.Privacy@prudential.com, and name Assurance IQ in your request.\n7. Some information tied to insurance you actually bought (covered by GLBA or HIPAA) may be exempt from the opt-out.",
+   "link_status": "unknown"
   },
   {
    "id": "atriks-com",
