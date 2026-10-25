@@ -1,21 +1,21 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.16",
-  "content_hash": "sha256:79953a83ff5ad7e269ff55772f59c230199a8f96ff940b2856d782c5e41ab39c",
+  "dataset_version": "0.1.17",
+  "content_hash": "sha256:df9cd19381551741815db5d7c3dbc2bffc7193fa8cf96ecd4561d78fcaeac2ed",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 493,
-  "backlog_count": 89,
-  "total_known": 582,
-  "unverified_count": 456,
+  "authored_count": 495,
+  "backlog_count": 91,
+  "total_known": 586,
+  "unverified_count": 458,
   "tiers": {
-   "guided": 270,
-   "assisted": 151,
+   "guided": 271,
+   "assisted": 152,
    "auto": 72
   },
   "priorities": {
    "crucial": 124,
-   "high": 155,
+   "high": 157,
    "standard": 214
   }
  },
@@ -3887,6 +3887,40 @@
    "link_status": "broken"
   },
   {
+   "id": "aidentified-com",
+   "name": "Aidentified, Inc.",
+   "domain": "aidentified.com",
+   "category": "wealth_screening",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://www.aidentified.com/delete-my-data",
+   "opt_out_email": "privacy@aidentified.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "email",
+    "phone",
+    "address",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-25 by the daily maintainer from California's data broker registry (Aidentified, Inc.; registry rights URL https://www.aidentified.com/privacy--policy, email privacy@aidentified.com). Aidentified sells an AI 'relationship intelligence' and wealth-prospecting platform. Its privacy policy (loaded headless) says it combines professional and consumer information, mostly public data on an opt-out basis, into profiles used for sales prospecting and relationship mapping. That is profiling of individuals sold to businesses, not a public search site, so people_search is false and priority is high. Section 8 of the policy says requests to delete, opt out or access data go through https://www.aidentified.com/delete-my-data ('Do Not Sell My Data', open to residents of all U.S. states), by email to privacy@aidentified.com, or by mail; there is also a separate California rights page at /ccpa. The delete-my-data page (loaded headless, HTTP 200) is a 'Delete My Data' form that marks every field required: first name, last name, email, phone, street address, city, state, job title, company and a message. Job title, company and message map to 'other'. reCAPTCHA Enterprise is loaded in invisible mode (no widget shown), so captcha is false and the tier is assisted. For email requests, the policy asks for first and last name, email, phone, state, job title and company so it can find you. Nothing was submitted; last_verified is null.",
+   "instructions_md": "1. Go to https://www.aidentified.com/delete-my-data (Aidentified's \"Delete My Data\" form, which the privacy policy also calls its \"Do Not Sell My Data\" link).\n2. Fill in your first and last name, email address, phone number, street address, city and state. Use the details most likely to match a professional profile, such as your work email.\n3. The form also requires a job title, a company and a message. Enter your current or most recent job and employer, and in the message say you are asking Aidentified to delete your data and stop selling or sharing it.\n4. Submit the form.\n5. If the form doesn't work, email privacy@aidentified.com with the same request. Include your name, email, phone, state, job title and company so they can find your record.",
+   "link_status": "unknown"
+  },
+  {
    "id": "alarmscalifornia-org",
    "name": "Alarms California (licensedata.org network)",
    "domain": "alarmscalifornia.org",
@@ -5285,6 +5319,37 @@
    "notes": "WebFetch confirmed Datonics is a programmatic adtech/data provider selling demographic, interest, and behavioral audience segments to DSPs (The Trade Desk, Google DV360, Amazon Xandr, etc.) -- a genuine advertising-data broker, not people-search. Their privacy-choices page (fetched) describes three separate opt-out paths: a browser-based opt-out tool keyed to cookies (for web data), a mobile-ad-ID-based process (for MAID/IDFA/AAID/GAID), and a 'complete this form' flow for hashed-email data, plus a general privacy@datonics.com contact. No single deep-linkable opt-out URL/form field set was fully renderable -- the mechanism is JS-driven and device/ID-dependent rather than a simple static form, so classified guided rather than assisted despite no explicit CAPTCHA being observed. Email given as best documented direct channel.",
    "instructions_md": "1. Go to https://www.datonics.com/privacy/privacy-choices and use the browser-based \"Opt-Out Tool\" to see what data Datonics has tied to your current browser and exercise access/delete/opt-out rights for that browser.\n2. If you use multiple browsers or devices, repeat the browser tool on each one, since opt-outs are stored per-browser via cookies (clearing cookies will reset your opt-out status).\n3. For mobile devices, locate your device's Mobile Advertising ID (IDFA on iOS, AAID/GAID on Android) in your phone's privacy settings, then use the mobile opt-out option on the same page.\n4. For data tied to a hashed email address, use the \"Complete this form\" link on the privacy-choices page to reach a Datonics team member directly.\n5. Alternatively (or as a fallback if the tools above aren't accessible), email privacy@datonics.com directly and request that Datonics opt you out of sale/sharing of your personal information under CCPA, including whatever identifying details (email address, general description of devices/browsers used) you're comfortable sharing.",
    "link_status": "live"
+  },
+  {
+   "id": "dealmachine-com",
+   "name": "DealMachine (DealMachine Operations Inc.)",
+   "domain": "dealmachine.com",
+   "category": "real_estate_data",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://privacyrequest.dealmachine.com/remove",
+   "opt_out_email": "privacy@dealmachine.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-25 by the daily maintainer from California's data broker registry (DealMachine Operations Inc.; registry rights URLs https://privacyrequest.dealmachine.com/remove, https://dealmachine.com/privacy-policy and https://help.dealmachine.com/en/articles/15298055-data-privacy-requests; email support@dealmachine.com). DealMachine sells a real-estate data platform to investors, agents and lenders. Its footer lists property search, owner skip tracing, contact enrichment and list exports, so it lets customers look up a homeowner's phone and email from an address. That is a people-search variant, so people_search is true. It is sold by subscription to businesses rather than as a free public lookup, so priority is high rather than crucial. The help article (loaded headless, dated 2026-08-04) says the Request Removal form removes your profile from its products and also counts as an opt-out of sale/sharing where that applies; covered persons under New Jersey's Daniel's Law or similar judicial-privacy laws should email privacy@dealmachine.com for expedited handling. It also says not to use the form for DealMachine customer accounts. The form at privacyrequest.dealmachine.com/remove (loaded headless, HTTP 200) asks what to remove (my email / my phone / my profile / unlink me from a property), then requires first name, last name and email; phone and additional information are optional. A consent checkbox says the phone number is used to send a one-time verification code by text or automated call. No CAPTCHA widget was present. Tier is guided rather than assisted because the form may verify you by a one-time code sent to your phone, and it is unclear whether a request without a phone number gets processed. Nothing was submitted; last_verified is null.",
+   "instructions_md": "1. Go to https://privacyrequest.dealmachine.com/remove (DealMachine's \"Request to Remove Your Information\" form). This is for people listed in DealMachine's property data, not for DealMachine customers closing an account.\n2. Under \"What would you like to remove?\", pick \"My profile\". To remove only one detail, pick \"My email\", \"My phone\" or \"Unlink me from a property\".\n3. Enter your first name, last name and email address.\n4. Phone number is optional, but it helps DealMachine find your record. If you enter one, tick the box agreeing to receive a one-time verification code by text or automated call, and enter the code when it arrives.\n5. Use \"Additional Information\" for anything that helps match your record, such as a property address you own or owned. Then submit.\n6. Watch for an email saying your request is being processed. If you are a judge or another covered person under New Jersey's Daniel's Law or a similar law, email privacy@dealmachine.com instead for expedited handling.",
+   "link_status": "unknown"
   },
   {
    "id": "decisionlinks-com",
