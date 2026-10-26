@@ -1,22 +1,22 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.16",
-  "content_hash": "sha256:79953a83ff5ad7e269ff55772f59c230199a8f96ff940b2856d782c5e41ab39c",
+  "dataset_version": "0.1.17",
+  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 493,
+  "authored_count": 496,
   "backlog_count": 89,
-  "total_known": 582,
-  "unverified_count": 456,
+  "total_known": 585,
+  "unverified_count": 459,
   "tiers": {
-   "guided": 270,
-   "assisted": 151,
+   "guided": 272,
+   "assisted": 152,
    "auto": 72
   },
   "priorities": {
    "crucial": 124,
-   "high": 155,
-   "standard": 214
+   "high": 157,
+   "standard": 215
   }
  },
  "brokers": [
@@ -7822,6 +7822,38 @@
    "link_status": "live"
   },
   {
+   "id": "swordfish-ai",
+   "name": "Swordfish AI Inc.",
+   "domain": "swordfish.ai",
+   "category": "b2b_contact_data",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://swordfish.ai/Optout",
+   "opt_out_email": "contact@swordfish.ai",
+   "phone": "+1 (855) 512-9715",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "gdpr"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-26 by the daily maintainer from California's data broker registry (Swordfish AI Inc.; registry rights URLs https://swordfish.ai/policy and https://swordfish.ai/policy-ccpa, email contact@swordfish.ai). Swordfish sells contact lookups (emails and cell phone numbers) for sales, recruiting and 'fraud/investigations', plus a reverse-lookup API. It says it processes B2B data, but it markets personal cell numbers and an investigations use, so priority is high rather than standard. Both policies (fetched, HTTP 200) point Contacts to the opt-out form at https://swordfish.ai/Optout, or email to contact@swordfish.ai; the CCPA supplement adds toll-free +1 (855) 512-9715 and says it may ask for more verification (such as an ID) only if it suspects fraud. The Optout page, rendered headless, requires first name, last name and email; phone, address, city, country, zip and LinkedIn/Facebook/X URLs are optional. The policy says the more details you give, the better they can catch duplicate records. reCAPTCHA is loaded in invisible mode (no widget shown), so captcha is false and the tier is assisted, following the same call as aidentified-com. Nothing was submitted; last_verified is null.",
+   "instructions_md": "1. Go to https://swordfish.ai/Optout (the \"Opt-Out\" / \"Do Not Sell My Info\" link in Swordfish's footer).\n2. Enter your first name, last name and email address. These are the only required fields.\n3. Optionally add your phone number, mailing address and LinkedIn, Facebook or X profile URLs. Swordfish says extra details help it find duplicate records, so add the phone number you want removed if you're comfortable doing so.\n4. Submit the form.\n5. If you have several email addresses, submit the form once for each, or email contact@swordfish.ai listing all of them. California residents can also call +1 (855) 512-9715.",
+   "link_status": "unknown"
+  },
+  {
    "id": "taboola-com",
    "name": "Taboola",
    "domain": "taboola.com",
@@ -8480,6 +8512,37 @@
    "notes": "windfalldata.com redirects (301) to windfall.com -- same product, rebranded/consolidated domain. WebFetch on the privacy policy explicitly names Windfall Data / windfalldata.com and describes a 'Your Privacy Choices' link/form plus a phone-based opt-out and a separate authorized-agent submission form (my.datasubject.com). The policy notes that opt-out rights are jurisdiction-dependent per the Privacy Choices form. Windfall is a wealth-screening/prospect-research data broker profiling real personal financial data (used by nonprofits/fundraisers), so priority is high. No CAPTCHA/ID found -- assisted tier. last_verified left null; page contents were summarized by WebFetch, not directly rendered.",
    "instructions_md": "1. Go to Windfall's [Your Privacy Choices page](https://www.windfall.com/your-privacy-choices) and submit a request to opt out of sale/sharing or to delete your wealth-profile data.\n2. Note that the form's available options may depend on your state of residence, per Windfall's policy.\n3. Alternatively, call 1-800-946-6710 and request deletion or opt-out of data sharing over the phone.\n4. If you are submitting on someone else's behalf as an authorized agent, Windfall provides a separate authorized-agent form at my.datasubject.com; otherwise use the Privacy Choices page directly.",
    "link_status": "live"
+  },
+  {
+   "id": "wiza-com",
+   "name": "Wiza, Inc.",
+   "domain": "wiza.com",
+   "category": "b2b_contact_data",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://wiza.co/optout-contact-info",
+   "opt_out_email": "optout@wiza.com",
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-26 by the daily maintainer from California's data broker registry (Wiza, Inc.; domain wiza.com, which redirects to wiza.co; registry rights URL www.wiza.co). Wiza is a prospecting tool that finds and enriches professional contact details, including email addresses and phone numbers. Its privacy notice (https://wiza.co/privacy, fetched, HTTP 200) says to exercise privacy rights at https://wiza.co/optout-contact-info or by email to optout@wiza.com, and says it honors Global Privacy Control. The opt-out page ('Opt out of Wiza'), rendered headless, requires first name, last name and one email, with an optional second email and two optional phone numbers. The page recommends giving both work and personal emails and any current or past phone numbers, which shows it holds personal contact data too, so priority is high. A visible reCAPTCHA checkbox is shown, so captcha is true and the tier is guided. Nothing was submitted; last_verified is null.",
+   "instructions_md": "1. Go to https://wiza.co/optout-contact-info (\"Opt out of Wiza\").\n2. Enter your first and last name and your main email address.\n3. Wiza recommends adding both your work and personal email addresses and any current or past phone numbers, so its match catches every record. Use the optional second email and phone fields for that.\n4. Complete the \"I'm not a robot\" CAPTCHA and click \"Submit my request.\"\n5. If the form doesn't work, or you have more than two emails or phone numbers, email optout@wiza.com asking that your contact information be removed and no longer provided to Wiza's users.",
+   "link_status": "unknown"
   },
   {
    "id": "bouncex-com",
@@ -11838,11 +11901,11 @@
    "people_search": false,
    "tier": "guided",
    "priority": "standard",
-   "method": "portal",
-   "opt_out_url": "https://leadershipconnect.io/dsar/",
+   "method": "form",
+   "opt_out_url": "https://leadershipconnect.io/opt-out/",
    "opt_out_email": "privacy@leadershipconnect.io",
    "phone": "(202) 347-7757",
-   "captcha": false,
+   "captcha": true,
    "id_required": true,
    "phone_required": false,
    "charges_fee": false,
@@ -11856,9 +11919,9 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "WebFetch on leadershipconnect.io privacy policy confirmed: B2B data intelligence broker aggregating business-contact info on government officials, congressional staff, contractors, and other decision-makers for its 'GovConnect'/'Leadership Connect' platform. Policy describes a DSAR portal at /dsar/ and explicitly reserves the right to request 'a copy of your driver's license or other government-issued ID' for identity verification before processing requests -- id_required set true on that basis, which pushes this to guided tier despite no CAPTCHA being mentioned. Mail address (325 7th St NW, Suite 800, Washington DC 20004, Attn Chief Privacy Officer) and phone (202) 347-7757 also available as alternate channels. This is business-contact data on professionals in their work capacity, not consumer people-search, so priority is standard. Not independently re-rendered live; last_verified left null.",
-   "instructions_md": "1. Go to https://leadershipconnect.io/dsar/ (the Data Subject Access Request portal linked from the privacy policy).\n2. Follow the portal's prompts to submit a \"Do Not Sell My Personal Information\" or data-deletion request, providing your full name and email address.\n3. Be prepared to provide proof of identity if requested -- Leadership Connect's policy states it may ask for a photo ID, driver's license, or a recent utility/credit-card bill before processing.\n4. If the portal is unavailable or you prefer another channel, email privacy@leadershipconnect.io directly with your name and the record you want removed, or call (202) 347-7757.\n5. You can also mail a written request to: Chief Privacy Officer, Leadership Connect, 325 7th St NW, Suite 800, Washington, DC 20004.",
-   "link_status": "live"
+   "notes": "WebFetch on leadershipconnect.io privacy policy confirmed: B2B data intelligence broker aggregating business-contact info on government officials, congressional staff, contractors, and other decision-makers for its 'GovConnect'/'Leadership Connect' platform. Policy describes a DSAR portal at /dsar/ and explicitly reserves the right to request 'a copy of your driver's license or other government-issued ID' for identity verification before processing requests -- id_required set true on that basis, which pushes this to guided tier despite no CAPTCHA being mentioned. Mail address (325 7th St NW, Suite 800, Washington DC 20004, Attn Chief Privacy Officer) and phone (202) 347-7757 also available as alternate channels. This is business-contact data on professionals in their work capacity, not consumer people-search, so priority is standard. Not independently re-rendered live; last_verified left null. Maintainer re-check 2026-10-26 (Fixes #39): the monitor saw /dsar/ redirect to the homepage, and today /dsar/ returned HTTP 429 to a direct fetch. The site footer's 'Do Not Sell My Personal Information' link now goes to https://leadershipconnect.io/opt-out/ (HTTP 200), which embeds a 'Request Optout' form from https://optout.leadershipconnect.io/ (HTTP 200): required Name and Email fields and a reCAPTCHA-gated Submit button, so captcha is now true (tier stays guided) and method is form. The privacy policy still says it may ask for ID before acting, so id_required stays true. The policy still lists the 325 7th St NW, Suite 800 mailing address while the site footer now shows 525 9th Street NW, Suite 600; step 5 gives both. Nothing was submitted; last_verified is null.",
+   "instructions_md": "1. Go to https://leadershipconnect.io/opt-out/ (the \"Do Not Sell My Personal Information\" link in Leadership Connect's footer). The request form loads in a frame on that page.\n2. Enter your full name and email address.\n3. Click \"Submit\" and complete the CAPTCHA if one appears.\n4. Be prepared to provide proof of identity if requested -- Leadership Connect's policy states it may ask for a photo ID, driver's license, or a recent utility/credit-card bill before processing.\n5. If the form is unavailable or you prefer another channel, email privacy@leadershipconnect.io with your name and the record you want removed, call (202) 347-7757, or mail a written request to the Chief Privacy Officer, Leadership Connect, Washington, DC 20004. The privacy policy gives 325 7th St NW, Suite 800, while the site footer now shows 525 9th Street NW, Suite 600.",
+   "link_status": "unknown"
   },
   {
    "id": "leadiq-com",
@@ -12029,6 +12092,38 @@
    "last_verified": null,
    "source": "data-brokers-watch",
    "instructions_md": "1. Call (201) 469-3210 and request removal of your information.\n2. No verified step-by-step procedure exists yet for this broker -- if you learn one, please contribute it.",
+   "link_status": "unknown"
+  },
+  {
+   "id": "lusha-com",
+   "name": "Lusha Systems, Inc.",
+   "domain": "lusha.com",
+   "category": "b2b_contact_data",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://www.lusha.com/privacy-center/request-removal/",
+   "opt_out_email": "privacy@lusha.com",
+   "phone": "1-866-467-8688",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "email",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "gdpr"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-26 by the daily maintainer from California's data broker registry (Lusha Systems, Inc.; registry rights URL https://www.lusha.com/legal/privacy-notice/, email legal@lusha.com). Lusha sells a B2B contact database (work emails and phone numbers, including mobile numbers) to sales teams. The privacy notice (fetched, HTTP 200) says Contacts can opt out and be added to a suppression list, and lists California channels: a verifiable request form, email to privacy@lusha.com, and toll-free 1-866-I-OPT-OUT (1-866-467-8688), service code 2001#. Its footer 'Opt Out' link goes to https://www.lusha.com/privacy-center/request-removal/, which embeds a OneTrust webform. Rendered headless, that form asks for 'Why did you reach this page?', country of residence (required), state (optional) and email (required), and shows a visible reCAPTCHA checkbox ('I'm not a robot'), so captcha is true and the tier is guided. The form text says Lusha uses the email to verify you hold it, hence email_confirm. Reason and country map to 'other'. B2B-only data, so priority is standard (same as uplead-com). Nothing was submitted; last_verified is null.",
+   "instructions_md": "1. Go to https://www.lusha.com/privacy-center/request-removal/ (the \"Opt Out\" link in Lusha's site footer). The form loads in a frame on that page.\n2. Choose why you reached the page (you want your contact details removed), pick your country of residence and, if you're in the U.S., your state.\n3. Enter the email address you want suppressed. Lusha's database is built around work emails and phone numbers, so start with your work email. Submit a separate request for each address.\n4. Complete the \"I'm not a robot\" CAPTCHA and submit.\n5. Watch for an email from Lusha asking you to confirm that you own the address, and follow it.\n6. If the form doesn't work, email privacy@lusha.com asking to be removed from the Lusha B2B database and added to its suppression list, or (California residents) call 1-866-467-8688 and enter service code 2001#.",
    "link_status": "unknown"
   },
   {
