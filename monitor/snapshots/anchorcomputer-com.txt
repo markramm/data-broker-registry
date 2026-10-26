@@ -3,7 +3,7 @@ Preparing Order ...
 Individual Consumer Opt-Out Submission Form:
 This page is intended to allow individual consumer opt-out submissions. We are committed to upholding the highest standards of data privacy and respecting the rights of individual consumers.
 You can opt-out of the sale of your personal information by Anchor Computer, Inc, as defined by
-California (CCPA).
+California (CRPA).
 Anchor Computer, Inc is registered as a data broker in the following required states: California, Vermont, Oregon and Texas.
 If you are a consumer and have questions or concerns about Anchor’s privacy efforts, please contact us at:
 Email: privacyteam@anchorcomputer.com
@@ -99,7 +99,6 @@ WI - Wisconsin
 WY - Wyoming
 YT - Yukon
 Zip Code
-SSN (last 4 digits)
 Date of Birth *
 Phone Number *
 Email *

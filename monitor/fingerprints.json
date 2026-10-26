@@ -494,7 +494,6 @@
     "RequestDelete:checkbox",
     "RequestDoNotSell:checkbox",
     "RequestReport:checkbox",
-    "SsnLastFour:text",
     "State:select",
     "Suffix:text",
     "Zip:text"
@@ -504,12 +503,12 @@
     "page loads a CAPTCHA but entry says captcha: false"
    ],
    "home_redirect": false,
-   "last_changed": "2026-10-14",
+   "last_changed": "2026-10-26",
    "offsite": false,
    "state": "live",
    "status": 200,
-   "text_hash": "sha256:08afedc0fd99cb65cce3f5c203d3e474515678449afb26cbfee8b0a0d7157642",
-   "text_lines": 112,
+   "text_hash": "sha256:ab6fcafe840afe1d675c4627579ff3fd6156fb35933770ea798005f0a9d31c39",
+   "text_lines": 111,
    "title": "Anchor Computer, Inc. -",
    "url": "https://ecom2.anchorcomputer.com/privacyrequest",
    "vendors": []
@@ -585,10 +584,7 @@
   "apollointeractive-com": {
    "captcha": true,
    "fields": [
-    "*:tel",
     "*:text",
-    "*:text",
-    "address:text",
     "attest:checkbox",
     "city:text",
     "data-request:radio",
@@ -598,6 +594,7 @@
     "data-request:radio",
     "email:email",
     "email:email",
+    "first_name:text",
     "first_name:text",
     "info_update:textarea",
     "last_name:text",
@@ -611,7 +608,9 @@
     "repauth_last_name:text",
     "repauth_photo_id:file",
     "selected_state:select",
-    "telephone:tel"
+    "state:text",
+    "telephone:tel",
+    "zipcode:tel"
    ],
    "final_url": "https://www.apollointeractive.com/data-rights.php",
    "flags": [
@@ -2296,7 +2295,7 @@
    "final_url": "https://app.fetcher.ai/opt-out",
    "home_redirect": false,
    "last_changed": "2026-10-14",
-   "misses": 8,
+   "misses": 9,
    "offsite": false,
    "state": "live",
    "status": 200,
@@ -2326,7 +2325,7 @@
    "final_url": "https://www.fhamortgagefinder.com/CCPArequest.php",
    "home_redirect": false,
    "last_changed": "2026-10-14",
-   "misses": 8,
+   "misses": 9,
    "offsite": false,
    "state": "live",
    "status": 200,
@@ -2497,7 +2496,7 @@
    "final_url": "https://www.governmentregistry.org/opt-out",
    "home_redirect": false,
    "last_changed": "2026-10-14",
-   "misses": 10,
+   "misses": 11,
    "offsite": false,
    "state": "live",
    "status": 200,
@@ -2563,16 +2562,18 @@
   },
   "gundersondirect-com": {
    "captcha": false,
-   "fields": [],
+   "fields": [
+    "s:text"
+   ],
    "final_url": "https://gundir.com/opt-out/",
    "home_redirect": false,
-   "last_changed": "2026-10-24",
+   "last_changed": "2026-10-26",
    "offsite": false,
    "state": "live",
-   "status": 202,
-   "text_hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-   "text_lines": 0,
-   "title": "",
+   "status": 200,
+   "text_hash": "sha256:ca0fdb9eda05d6629e353dafdc9c34548ef779bf74a5211c606db41b36e9524b",
+   "text_lines": 12,
+   "title": "Opt-out | Gundir",
    "url": "https://gundir.com/opt-out/",
    "vendors": []
   },
@@ -2647,11 +2648,11 @@
    ],
    "final_url": "https://www.here.com:443/en-gb/privacy/do-not-sell",
    "home_redirect": false,
-   "last_changed": "2026-10-24",
+   "last_changed": "2026-10-26",
    "offsite": false,
    "state": "live",
    "status": 200,
-   "text_hash": "sha256:5ac794bdf68e719a73145e3bce118301e5d44d28e83d0797b6fe616ce0872da4",
+   "text_hash": "sha256:d5a9b51680d31055be2bfd4082352249af38387e4ec7b726c00d2826e18323dc",
    "text_lines": 26,
    "title": "HERE Technologies | The world's #1 location platform",
    "url": "https://here.com/en-gb/privacy/do-not-sell",
@@ -3145,18 +3146,22 @@
   },
   "kayak-com": {
    "captcha": false,
-   "fields": [],
-   "final_url": "https://www.kayak.com/sitecaptcha.html?out=%2Fprivacy%2Fmanage",
+   "fields": [
+    "account-data-sharing-option:checkbox"
+   ],
+   "final_url": "https://www.kayak.com/privacy/manage",
    "home_redirect": false,
-   "last_changed": "2026-10-25",
+   "last_changed": "2026-10-26",
    "offsite": false,
    "state": "live",
    "status": 200,
-   "text_hash": "sha256:195ac84964eb3dd8d3dfa69c32bcbf763c70021026fcdc3dc450c6880d1d812f",
-   "text_lines": 2,
-   "title": "Please verify that you are a real user",
+   "text_hash": "sha256:8e37a9b71b517833693409dacc7298bac76665d0bff704b4450f1e1f97e5b650",
+   "text_lines": 20,
+   "title": "Manage your privacy settingsArtboard 2Artboard 2Artboard 2",
    "url": "https://www.kayak.com/privacy/manage",
-   "vendors": []
+   "vendors": [
+    "google_forms"
+   ]
   },
   "keywordconnects-com": {
    "captcha": false,
@@ -3205,12 +3210,12 @@
    "fields": [],
    "final_url": "https://l2-data.com/optout1-667457/",
    "home_redirect": false,
-   "last_changed": "2026-10-25",
+   "last_changed": "2026-10-26",
    "offsite": false,
    "state": "live",
    "status": 200,
-   "text_hash": "sha256:a6cd3aeec1db85fc98ac26f09904c90e6c2d8afc016e39f5e32004c5e9e1c744",
-   "text_lines": 1404,
+   "text_hash": "sha256:d4312cf2c4bc78146f9ed42a1d52fc1f63f7b34d7662557e34b9dc0f2c533eed",
+   "text_lines": 1406,
    "title": "",
    "url": "https://l2-data.com/optout1-667457/",
    "vendors": []
@@ -3281,19 +3286,16 @@
    "fields": [
     "s:text"
    ],
-   "final_url": "https://leadershipconnect.io/",
-   "flags": [
-    "opt-out URL redirects to the homepage"
-   ],
-   "home_redirect": true,
-   "last_changed": "2026-10-22",
+   "final_url": "https://leadershipconnect.io/opt-out/",
+   "home_redirect": false,
+   "last_changed": "2026-10-26",
    "offsite": false,
    "state": "live",
    "status": 200,
-   "text_hash": "sha256:c6c09511233bd4895d41fb2137d09a21567fdca201bd03b905b2c1a7a680a5c2",
-   "text_lines": 189,
-   "title": "Home | Leadership Connect",
-   "url": "https://leadershipconnect.io/dsar/",
+   "text_hash": "sha256:7906237de05396a2f5e1ff76511d1254bec1a4878d7d43dc0b7202cfe7a32f85",
+   "text_lines": 89,
+   "title": "Opt Out | Leadership Connect",
+   "url": "https://leadershipconnect.io/opt-out/",
    "vendors": [
     "ketch"
    ]
@@ -3569,6 +3571,7 @@
    "home_redirect": false,
    "last_changed": "2026-10-14",
    "offsite": false,
+   "pending": "bot-blocked",
    "state": "live",
    "status": 200,
    "text_hash": "sha256:64ef6760ff5686286715eaad177866048fb584b9102b7bf70aa75e0877b04eaf",
@@ -3594,6 +3597,31 @@
    "title": "Epsilon - Data Subject Request",
    "url": "https://legal.epsilon.com/dsr/",
    "vendors": []
+  },
+  "lusha-com": {
+   "captcha": false,
+   "fields": [
+    "*:tel",
+    "firstname:text",
+    "lastname:text",
+    "pricing_contact_us_details:textarea",
+    "sales_form_company_size:select",
+    "user_position_text:text",
+    "workemail:email"
+   ],
+   "final_url": "https://www.lusha.com/privacy-center/request-removal/",
+   "home_redirect": false,
+   "last_changed": "2026-10-26",
+   "offsite": false,
+   "state": "live",
+   "status": 200,
+   "text_hash": "sha256:ae83d30fd6994407f9a3b99b3c6759d2f5095d0a3b35ab1b5a3b56050408c814",
+   "text_lines": 32,
+   "title": "Request Removal | Lusha",
+   "url": "https://www.lusha.com/privacy-center/request-removal/",
+   "vendors": [
+    "onetrust"
+   ]
   },
   "mapquest-com": {
    "captcha": false,
@@ -3992,7 +4020,7 @@
    "final_url": "https://www.n-focus.com/do-not-sell-or-share-my-personal-information/",
    "home_redirect": false,
    "last_changed": "2026-10-14",
-   "misses": 4,
+   "misses": 5,
    "offsite": false,
    "state": "live",
    "status": 200,
@@ -4675,12 +4703,12 @@
    ],
    "final_url": "https://www.numberguru.com/",
    "home_redirect": false,
-   "last_changed": "2026-10-25",
+   "last_changed": "2026-10-26",
    "offsite": false,
    "state": "live",
    "status": 200,
-   "text_hash": "sha256:32a4b6e3921083f5c35e0467e376b1f762a3f398b83f319081e274bc9a0034e8",
-   "text_lines": 86,
+   "text_hash": "sha256:7f1295aeb9a1061eeb255f357a22754b72405b7e672275e66487d9518d01ac1f",
+   "text_lines": 88,
    "title": "Reverse Phone Lookup | NumberGuru",
    "url": "https://www.numberguru.com/",
    "vendors": []
@@ -5736,6 +5764,24 @@
    "url": "https://www.suarez.com/privacy-policy/",
    "vendors": []
   },
+  "swordfish-ai": {
+   "captcha": true,
+   "fields": [],
+   "final_url": "https://swordfish.ai/Optout",
+   "flags": [
+    "page loads a CAPTCHA but entry says captcha: false"
+   ],
+   "home_redirect": false,
+   "last_changed": "2026-10-26",
+   "offsite": false,
+   "state": "live",
+   "status": 200,
+   "text_hash": "sha256:d37e44f83d0950e39fb3acbe7cc3a288d35d2e3d2350fac58f3312c1a22f5e6a",
+   "text_lines": 1,
+   "title": "",
+   "url": "https://swordfish.ai/Optout",
+   "vendors": []
+  },
   "sync-me": {
    "captcha": false,
    "fields": [
@@ -5757,16 +5803,16 @@
    "vendors": []
   },
   "taboola-com": {
-   "captcha": false,
+   "captcha": true,
    "fields": [],
    "final_url": "https://ccparequest.taboola.com/",
    "home_redirect": false,
-   "last_changed": "2026-10-17",
+   "last_changed": "2026-10-26",
    "offsite": false,
    "state": "live",
    "status": 200,
-   "text_hash": "sha256:0385f058d1915f15b055b347df7fbc6a9cbd3f9487875af3dd27debf47478252",
-   "text_lines": 5,
+   "text_hash": "sha256:4c5dbe288163359923afdfaecc764380974169c106e40b3185b06dff81e63a1f",
+   "text_lines": 35,
    "title": "US State Privacy Rights",
    "url": "https://ccparequest.taboola.com/",
    "vendors": []
@@ -6128,16 +6174,31 @@
   },
   "usdatacorporation-com": {
    "captcha": false,
-   "fields": [],
+   "fields": [
+    "Email:text",
+    "analyticsCookies:checkbox",
+    "asl_gen[]:checkbox",
+    "asl_gen[]:checkbox",
+    "asl_gen[]:checkbox",
+    "asl_gen[]:checkbox",
+    "ays-pb-modal-checkbox_13:checkbox",
+    "customset[]:checkbox",
+    "customset[]:checkbox",
+    "functionalCookies:checkbox",
+    "marketingCookies:checkbox",
+    "performanceCookies:checkbox",
+    "phrase:search",
+    "phrase:text"
+   ],
    "final_url": "https://www.usdatacorporation.com/opt-out",
    "home_redirect": false,
-   "last_changed": "2026-10-24",
+   "last_changed": "2026-10-26",
    "offsite": false,
    "state": "live",
-   "status": 202,
-   "text_hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-   "text_lines": 0,
-   "title": "",
+   "status": 200,
+   "text_hash": "sha256:3b119ded34ddf52c0b39b9650518e1c5824691482c68c954bb6fe78ce3341120",
+   "text_lines": 32,
+   "title": "Opt-Out | US Data Corporation",
    "url": "https://www.usdatacorporation.com/opt-out",
    "vendors": []
   },
@@ -6454,6 +6515,30 @@
    "title": "Your Privacy Choices | Windfall",
    "url": "https://www.windfall.com/your-privacy-choices",
    "vendors": []
+  },
+  "wiza-com": {
+   "captcha": true,
+   "fields": [
+    "email_1:email",
+    "email_2:email",
+    "first_name:text",
+    "last_name:text",
+    "phone_1:tel",
+    "phone_2:tel"
+   ],
+   "final_url": "https://wiza.co/optout-contact-info",
+   "home_redirect": false,
+   "last_changed": "2026-10-26",
+   "offsite": false,
+   "state": "live",
+   "status": 200,
+   "text_hash": "sha256:b1a0d4a8e8f65ac85d22500a081bc5b681f5c0a78b36881878dd37e69aa80ec2",
+   "text_lines": 18,
+   "title": "Do Not Sell My Data",
+   "url": "https://wiza.co/optout-contact-info",
+   "vendors": [
+    "typeform"
+   ]
   },
   "wyty-com": {
    "captcha": true,
