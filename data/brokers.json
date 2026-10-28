@@ -1,22 +1,22 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.17",
-  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
+  "dataset_version": "0.1.18",
+  "content_hash": "sha256:e83fd248b22d8299821c43c3eee4b509dcf7f66555a5205b0273ba7a9b7648ef",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 496,
+  "authored_count": 499,
   "backlog_count": 89,
-  "total_known": 585,
-  "unverified_count": 459,
+  "total_known": 588,
+  "unverified_count": 462,
   "tiers": {
-   "guided": 272,
-   "assisted": 152,
+   "guided": 274,
+   "assisted": 153,
    "auto": 72
   },
   "priorities": {
    "crucial": 124,
-   "high": 157,
-   "standard": 215
+   "high": 159,
+   "standard": 216
   }
  },
  "brokers": [
@@ -4012,6 +4012,38 @@
    "link_status": "bot-blocked"
   },
   {
+   "id": "altairdata-com",
+   "name": "Altair Data Resources",
+   "domain": "altairdata.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "portal",
+   "opt_out_url": "https://datacloudhome.atlassian.net/servicedesk/customer/portal/12",
+   "opt_out_email": null,
+   "phone": "1-800-241-6631",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "email",
+    "full_name",
+    "address"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-28 by the daily maintainer from California's data broker registry (Altair Data Resources, Inc; registry rights URL https://www.altairdata.com/consumer-info). Altair sells consumer marketing data (household purchase data, demographics, interests, and tri-bureau credit data for prescreened/trigger marketing to lenders), so priority is high. The consumer-info page (fetched, HTTP 200) sends every request type (access, correction, deletion, opt-out of sale/sharing) to an online form at its Jira Service Management help center, https://datacloudhome.atlassian.net/servicedesk/customer/portal/12, or by letter to Altair Data Resources, 1749 Mallory Lane, Ste 201, Brentwood, TN 37027; it lists phone 615-468-6800 / 1-800-241-6631 and connect@altairci.com for questions. Rendering the portal headless and opening 'Individual: Opt-Out/Deletion Request Form' showed required fields: confirmation email, full/first/last name, street address, city, state, ZIP, checkboxes for opt-out of sale / sharing / sensitive PI / mailings to deceased persons / deletion, and an 'I Understand' self-submission affirmation. The page loads an invisible reCAPTCHA Enterprise badge, so captcha is true and the tier is guided. The page says identity is verified before an access request is honored and that requests are processed within 45 days. Credit-based prescreened offers are a separate channel (OptOutPrescreen.com), not covered by this form. Nothing was submitted; last_verified is null.",
+   "instructions_md": "1. Go to Altair's request portal at https://datacloudhome.atlassian.net/servicedesk/customer/portal/12 (linked from https://altairdata.com/consumer-info/).\n2. Choose \"Individual: Opt-Out/Deletion Request Form\".\n3. Enter the email address where you want the confirmation, your full name, first and last name, and your street address, city, state and ZIP.\n4. Under \"Opt-Out/Deletion Preferences\", tick the options you want. To be removed entirely, tick \"Deletion of My Consumer Information\" along with the opt-outs of sale and sharing.\n5. Tick \"I Understand\" to confirm you are submitting for yourself, then click \"Send\". The page may run an invisible CAPTCHA check.\n6. Watch for the confirmation email. Altair says it processes requests within 45 days.\n7. If you would rather not use the portal, mail the same request with your full name and address to Altair Data Resources, 1749 Mallory Lane, Ste 201, Brentwood, TN 37027. You can call 1-800-241-6631 with questions.",
+   "link_status": "unknown"
+  },
+  {
    "id": "ancestry-com",
    "name": "Ancestry.com",
    "domain": "ancestry.com",
@@ -6475,6 +6507,38 @@
    "notes": "WebFetch on intentiq.com and intentiq.com/opt-out/ succeeded and rendered live content. Intent IQ is an ad-tech identity-resolution/cookieless-audience company (not a people-search site) that describes itself as able to 'opt-out of the selling, sharing or targeted advertising with the personal information that we possess.' The opt-out page offers a browser-cookie opt-out button, a mobile-device opt-out, and an email option to privacy@intentiq.com (matches the legacy CSV contact). Because the primary mechanism is a portal with per-browser/per-device buttons rather than a single universal email fix (the page itself warns users must repeat the process on every browser/device), classified as method:form / tier:guided rather than tier:auto, even though an email path exists. No CAPTCHA or ID requirement observed on the opt-out page content returned. people_search:false because this is an advertising identity/data-matching company, not an individual-lookup reseller.",
    "instructions_md": "1. Go to https://www.intentiq.com/opt-out/ (the \"Your Privacy Choices\" page).\n2. Click the browser/cookie opt-out button to stop sale/sharing and targeted advertising tied to your browser's identifiers, and use the mobile opt-out option if you also want to cover a phone or tablet.\n3. Because Intent IQ's matching works per browser and per device, repeat step 2 on every browser (Chrome, Safari, Firefox, etc.) and every device you use.\n4. If you'd rather not use the button flow, or want to request deletion of information already collected, email privacy@intentiq.com directly with your opt-out/deletion request.\n5. Note that Intent IQ also does some \"probabilistic\" matching across devices on the same network, so an opt-out on one device may not fully cover others sharing your network -- re-check periodically.",
    "link_status": "broken"
+  },
+  {
+   "id": "kindsight-io",
+   "name": "Kindsight (iWave Information Systems)",
+   "domain": "kindsight.io",
+   "category": "wealth_screening",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://go.kindsight.io/privacy-opt-out",
+   "opt_out_email": "privacy@kindsight.io",
+   "phone": "1-800-655-7729",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "email",
+    "address"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-28 by the daily maintainer from California's data broker registry (iWave Information Systems, dba Kindsight; registry rights URLs https://kindsight.io/privacy-policy/#iwave and https://go.kindsight.io/privacy-opt-out). Kindsight/iWave sells donor-prospect research ('wealth screening') to nonprofits. Its privacy policy says its databases hold individuals' names, addresses, phone numbers, emails, demographics (age, occupation, education, ethnicity), property records and gift history (VeriGift), so priority is high. The registry opt-out page (rendered headless, HTTP 200) is a HubSpot form titled 'Privacy Opt-Out Request' asking for first and last name, email, mailing address, country, city and postal code (phone optional). It warns that disposable email addresses are rejected. It runs an invisible reCAPTCHA Enterprise check, so captcha is true and the tier is guided. The form's own text talks about tracking on 'this website', but the privacy policy (fetched) names this same URL as the CCPA route for deleting personal data. For data from third-party providers, the policy says Kindsight will give you the provider's name so you can opt out there directly, through a OneTrust webform (https://privacyportal.onetrust.com/webform/aaccdd68-ac9c-49cc-a5fa-7ab75cd7892c/204bc335-98a1-412e-9a92-3dfd8b86e15f). That webform also handles VeriGift record searches, which need gift year(s), gift range and the recipient organization. General contact: privacy@kindsight.io, 1-800-655-7729. The OneTrust form was not rendered. Nothing was submitted; last_verified is null.",
+   "instructions_md": "1. Go to https://go.kindsight.io/privacy-opt-out (\"Privacy Opt-Out Request\").\n2. Enter your first and last name, a real (not disposable) email address, your mailing address, country, city and postal code.\n3. Submit the form. It runs an invisible CAPTCHA check.\n4. To find out which third-party data providers supplied Kindsight's information about you, or to have your charitable-gift records (VeriGift) searched and removed, use Kindsight's privacy webform at https://privacyportal.onetrust.com/webform/aaccdd68-ac9c-49cc-a5fa-7ab75cd7892c/204bc335-98a1-412e-9a92-3dfd8b86e15f. Then opt out with each provider it names.\n5. For anything the forms don't cover, email privacy@kindsight.io or call 1-800-655-7729.",
+   "link_status": "unknown"
   },
   {
    "id": "l2political-com",
@@ -13743,6 +13807,37 @@
    "notes": "SentiLink is a known identity-verification/fraud-detection vendor serving banks and fintechs (confirmed via its own tagline 'The fraud experts' and third-party search summaries); it processes consumer identity signals as part of fraud-risk scoring for its business clients rather than reselling consumer profiles directly to the public, but it does hold consumer data and offers CCPA rights. Direct WebFetch of sentilink.com/privacy-policy repeatedly returned only an empty JS-rendered shell (Next.js SPA, confirmed via curl showing only script tags, no body text) -- content below is reconstructed from a third-party search-engine summary of the same policy, not a direct render, so treat with extra caution. That summary states SentiLink recognizes CCPA rights to know/delete/opt-out of sale, handled via a plain email to legal.notices@sentilink.com -- method:email, so tier:auto per schema convention. A Google reCAPTCHA script was seen loaded site-wide in the raw HTML, but there is no confirmation it gates the email opt-out channel itself, so captcha left false rather than inferring. opt_out_url kept as the real known page (not a placeholder) since the URL itself is confirmed correct even though its rendered content wasn't independently verified by me. last_verified left null given the unverified render.",
    "instructions_md": "1. Email legal.notices@sentilink.com and state that you are exercising your CCPA rights to know what personal information SentiLink has about you, and/or requesting deletion or opt-out of sale.\n2. Include your full name and the email address(es) SentiLink may have associated with you, since SentiLink primarily receives identity data through its bank/fintech clients rather than directly from consumers.\n3. Watch for a reply confirming receipt and any further identity-verification steps SentiLink requires before acting on the request.\n4. Because SentiLink primarily receives your data via banks/fintechs it contracts with, also consider that the underlying financial institution may be a more effective point of control for the data itself.",
    "link_status": "live"
+  },
+  {
+   "id": "sg360-com",
+   "name": "sg360\u00b0 (The Segerdahl LLC)",
+   "domain": "sg360.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://sg360.com/do-not-sell-my-info/",
+   "opt_out_email": "marketing@sg360.com",
+   "phone": "847-541-1080",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "address"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-28 by the daily maintainer from California's data broker registry (The Segerdahl LLC, dba sg360; registry rights URL https://sg360.com/do-not-sell-my-info/). sg360 is a direct-mail marketing and print/production company that also handles audience data for mail campaigns. It is mostly business-facing, so priority is standard. The registry URL loads (HTTP 200, rendered headless) as 'Opt-Out of the Sale of Personal Information', framed as a California CCPA right, with a Gravity Forms form asking for first and last name and a postal address (street, line 2, city, state, ZIP, country). It has no email field and no CAPTCHA widget, so the tier is assisted. The page also accepts requests through the website's Contact page or at sg360, 1351 South Wheeling Road, Wheeling, IL 60090 / marketing@sg360.com; the footer phone is 847-541-1080. The form covers only 'sale' under the CCPA. The page says some transfers may not count as sales, and it doesn't describe deletion. Nothing was submitted; last_verified is null.",
+   "instructions_md": "1. Go to https://sg360.com/do-not-sell-my-info/ (\"Opt-Out of the Sale of Personal Information\").\n2. Enter your first and last name.\n3. Enter the postal address where you receive mail (street, city, state, ZIP, country). This is the address sg360 would have on its mailing lists.\n4. Click \"Submit\".\n5. If you have lived at other addresses recently, consider repeating the form for each one, or email marketing@sg360.com with your name and every address you want covered.",
+   "link_status": "unknown"
   },
   {
    "id": "simiocloud-com",
