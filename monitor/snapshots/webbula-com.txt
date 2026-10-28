@@ -9,6 +9,275 @@ When You Submit Name and Address in an Opt-Out Request: Most of the information 
 When You Submit Email or Phone Number in an Opt-Out Request: If you submit an email address or telephone number with your Opt-Out Request, we will not provide that email address or phone number to a client through our data “append” services. However, because much of our information is not linked through email (as described above, it is linked through name and address combinations), opting out an email or phone number will not have an effect on other information we hold in our databases. We reserve the right to take steps to verify your information, through email verification to any email that you submit.
 Targeted Advertising: We do not directly control the sending or initiation of targeted advertising, which is generally performed with cookies and similar technologies. However, we do sometimes provide personal information that is used in association with cookies and similar technologies for cross-context advertising. In turn, to opt out of this type of targeting, you may Opt-Out your Information (see above instructions). When you do so we will cease providing your Information for purposes of cross-context advertising. You may also visit industry websites such as those operated by the National Advertising Initiative (NAI) and the Digital Advertising Alliance (DAA), which provide cookie-based opt-outs in respect to cross-context advertising. These opt-out solutions are generally cookie-based and specific to a particular browser, so if you switch browsers, or clear your cookies, you will generally need to refresh your opt-out. Finally, to the extent you have enabled a global opt-out preference signal, the providers we work with may recognize that signal to the extent required under applicable state laws.
 Although we do not obtain mobile device information, we work with business partners who may associate the personal information we provide to them with mobile ad identifiers. You may opt-out of cross-context advertising or targeting performed by these companies through the mobile device settings for Android and Apple iOS devices. To exercise this type of opt-out, please visit the privacy settings of your Android or iOS device and select “limit ad tracking” (Apple iOS) or “opt-out of interest-based ads” (Android). Also, you may visit https://youradchoices.com/appchoices to download the AppChoices Tool to control interest-based advertising on apps on your mobile device and https://thenai.org/opt-out/mobile-opt-out/ for more information and instructions on opting out on mobile devices.
+URL
+This field is for validation purposes and should be left unchanged.
+First Name(Required)
+Last Name(Required)
+Email(Required)
+Enter Email
+Confirm Email
+Address(Required)
+Street Address
+Address Line 2
+City
+State / Province / Region
+ZIP / Postal Code
+Afghanistan
+Åland Islands
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antarctica
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bonaire, Sint Eustatius and Saba
+Bosnia and Herzegovina
+Botswana
+Bouvet Island
+Brazil
+British Indian Ocean Territory
+Brunei Darussalam
+Bulgaria
+Burkina Faso
+Burundi
+Cabo Verde
+Cambodia
+Cameroon
+Canada
+Cayman Islands
+Central African Republic
+Chad
+Chile
+China
+Christmas Island
+Cocos Islands
+Colombia
+Comoros
+Congo
+Congo, Democratic Republic of the
+Cook Islands
+Costa Rica
+Côte d'Ivoire
+Croatia
+Cuba
+Curaçao
+Cyprus
+Czechia
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Eswatini
+Ethiopia
+Falkland Islands
+Faroe Islands
+Fiji
+Finland
+France
+French Guiana
+French Polynesia
+French Southern Territories
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and McDonald Islands
+Holy See
+Honduras
+Hong Kong
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland
+Isle of Man
+Israel
+Italy
+Jamaica
+Japan
+Jersey
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Korea, Democratic People's Republic of
+Korea, Republic of
+Kuwait
+Kyrgyzstan
+Lao People's Democratic Republic
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macao
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Micronesia
+Moldova
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco
+Mozambique
+Myanmar
+Namibia
+Nauru
+Nepal
+Netherlands
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Niue
+Norfolk Island
+North Macedonia
+Northern Mariana Islands
+Norway
+Oman
+Pakistan
+Palau
+Palestine, State of
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Pitcairn
+Poland
+Portugal
+Puerto Rico
+Qatar
+Réunion
+Romania
+Russian Federation
+Rwanda
+Saint Barthélemy
+Saint Helena, Ascension and Tristan da Cunha
+Saint Kitts and Nevis
+Saint Lucia
+Saint Martin
+Saint Pierre and Miquelon
+Saint Vincent and the Grenadines
+Samoa
+San Marino
+Sao Tome and Principe
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Sint Maarten
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Georgia and the South Sandwich Islands
+South Sudan
+Spain
+Sri Lanka
+Sudan
+Suriname
+Svalbard and Jan Mayen
+Sweden
+Switzerland
+Syria Arab Republic
+Taiwan
+Tajikistan
+Tanzania, the United Republic of
+Thailand
+Timor-Leste
+Togo
+Tokelau
+Tonga
+Trinidad and Tobago
+Tunisia
+Türkiye
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+US Minor Outlying Islands
+Uzbekistan
+Vanuatu
+Venezuela
+Viet Nam
+Virgin Islands, British
+Virgin Islands, U.S.
+Wallis and Futuna
+Western Sahara
+Yemen
+Zambia
+Zimbabwe
+Country
+Phone
+Consent(Required)
+Yes
+This form collects and stores your contact information so that we can communicate with you to validate your identity and address your Opt-Out Request. Check out our Privacy Policy for more information on how we protect and manage your submitted data. I consent to having Webbula, LLC, collect my information for the purposes of using it to validate my identity and to process my Opt-Out Request.
+hCaptcha
+Submit
 Not sure where to start?
 Tell us your goals. We’ll guide you to the right solution for your data, your challenges, and your growth.
 Get an assessment of your data quality.
