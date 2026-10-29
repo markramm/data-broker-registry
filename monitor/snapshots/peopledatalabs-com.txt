@@ -26,44 +26,35 @@ Resources
 Company
 PricingLoginSign UpContact Us
 Do Not Sell or Share My Personal Information
-Once you submit this form, we will no longer sell your personal information.
-State of origin*
-NY
+Use this form to opt out of the sale or sharing of your personal information, including certain disclosures for targeted advertising, where applicable.
+Required Information
+Full name *
+U.S. state or territory of residence *
+Select state or territory
 California
-Oregon
+Colorado
+Connecticut
+Delaware
+Maryland
+Minnesota
 Montana
-Other US State
-Austria
-Belgium
-Bulgaria
-Croatia
-Cyprus
-Czech Republic
-Denmark
-Estonia
-Finland
-France
-Germany
-Greece
-Hungary
-Ireland
-Italy
-Latvia
-Lithuania
-Luxembourg
-Malta
-Netherlands
-Poland
-Portugal
-Romania
-Slovakia
-Slovenia
-Spain
-Sweden
-Other
-Add information
-(Optional)
-Submit
+Nebraska
+New Hampshire
+New Jersey
+Oregon
+Texas
+Other U.S. state or territory
+I do not live in the United States
+Email address *
+Please provide your email address so we can identify your record.
+Add more identifiers to help us find your record (optional)
+I understand that this request will apply to records that can be matched using the information I provide.
+I understand that PDL will retain the information provided in this request to remember and honor my opt-out request.
+I understand that submitting this request does not confirm that PDL has personal information about me.
+Submit opt-out request
+Need to make a different privacy request?
+This form is for U.S. opt-out requests related to sale, sharing, and targeted advertising. To request access, deletion, correction, a copy of your information, or to exercise rights outside the United States, please use our Privacy Request Center.
+Go to Privacy Request Center
 Get Started
 Let's talk data
 Hey! Another newsletter.
