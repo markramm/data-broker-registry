@@ -1,4 +1,6 @@
 Opt-Out | BRIDGE
+Skip to content
+Our Approach to Data PrivacyTrust Center
 Go Back
 Opt Out
 Take control of your privacy.​
@@ -29,37 +31,6 @@ Settings // Privacy// Advertising // Reset Advertising Identifier
 To reset your Advertising ID or on your Android Device
 Settings // Google Settings// Ads // Reset Advertising ID
 You may opt-out of interest-based advertising by some (not all) of our third-party advertising partners by visiting: http://youradchoices.com/appchoices
-Global Privacy Control Signal Honored
-Manage Consent
-Besides the cookies needed to make this site work, we'd also like to use non-essential cookies to understand how you use the site and to improve your experience (for example, to remember your preferences or analyze browsing behavior).
-Do you want to accept these non-functional cookies?
-Functional
-Functional
-Always active
-The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network.
-Preferences
-Preferences
-The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.
-Statistics
-Statistics
-The technical storage or access that is used exclusively for statistical purposes.
-The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you.
-Marketing
-Marketing
-The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes.
-Manage options
-Manage services
-Manage {vendor_count} vendors
-Read more about these purposes
-Yes
-No
-View preferences
-Save preferences
-View preferences
-{title}
-{title}
-{title}
-Manage consent
 Access Audiences
 Fill out the form below to start using our top-ranked custom audiences.
 Get Started

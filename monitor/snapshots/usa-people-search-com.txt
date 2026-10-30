@@ -25,8 +25,3 @@ Note: Authorized agent's email address will be used to send a link to the opt-ou
 I authorize USA People Search to send communications relating to my privacy request to the email address(es) provided. I certify that I am the subject of the request, or an agent authorized to act on behalf of the subject of the request. I understand that information provided relating to this request will not be used for any purpose other than the processing of this request.
 The Information you provide here will only be used to process your request. We will not sell or use the information or use it for any other purpose. Please see our Privacy Policy for more details.
 Begin Removal Process
-Error 500
-Oops!
-We're sorry, but the page you're trying to reach is not here.
-Please try our home page: www.usa-people-search.com
-Error code 500
