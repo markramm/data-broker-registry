@@ -1,21 +1,21 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.17",
-  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
+  "dataset_version": "0.1.18",
+  "content_hash": "sha256:ad7cb3eb897a5f0aeea29ce7c522e48749d53ea2c925739ca6b6d5174d809c1c",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 496,
+  "authored_count": 498,
   "backlog_count": 89,
-  "total_known": 585,
-  "unverified_count": 459,
+  "total_known": 587,
+  "unverified_count": 462,
   "tiers": {
-   "guided": 272,
+   "guided": 274,
    "assisted": 152,
    "auto": 72
   },
   "priorities": {
    "crucial": 124,
-   "high": 157,
+   "high": 159,
    "standard": 215
   }
  },
@@ -3532,17 +3532,16 @@
    "phone_required": false,
    "charges_fee": false,
    "required_fields": [
-    "listing_url",
-    "email",
     "full_name",
-    "address"
+    "email",
+    "other"
    ],
    "readd_days": null,
    "legal_basis": [],
    "last_verified": null,
    "source": "data-brokers-watch",
-   "notes": "Original opt_out_url (help.aspx#p3) 403'd on fetch and looks like a stale help-page anchor; third-party removal-guide consensus (Incogni, DeleteMe, Onerep, GuaranteedRemovals) all point to usa-people-search.com/manage as the live removal tool, so updated the URL. Flow requires a reCAPTCHA ('I'm not a robot') plus name/city/state search and email confirmation -- CAPTCHA-gated, so guided rather than assisted. Not freshly fetched/confirmed in this session; a people-search/address-reseller site so treated as crucial priority regardless of the migrated people_search:false flag.",
-   "instructions_md": "1. Go to usa-people-search.com/manage and enter your email address.\n2. Read and agree to the Terms and Conditions, then complete the \"I'm not a robot\" CAPTCHA challenge.\n3. Enter your first name, last name, city, and state in the search bar and click Search.\n4. Find your listing in the results, click \"View Details\" to confirm it's you, then click \"Remove Record.\"\n5. Check your email for the confirmation link from usa-people-search.com and click it to finalize the request.\n6. Allow up to 72 hours for the listing to disappear from search results.",
+   "notes": "Updated 2026-10-30 by the daily maintainer after page-monitor #150. Fetched https://www.usa-people-search.com/manage (WebFetch, HTTP 200; the monitor snapshot shows the same text). The opt-out is now a two-stage email-link flow, not the old search -> View Details -> Remove Record flow: the first page ('USA People Search Opt-Out Form') asks whether you are the subject or an authorized agent, then first name, optional middle name, last name and email, and says to 'complete the captcha below' before 'Begin Removal Process'. USA People Search then emails a link to the opt-out form (it expires after 24 hours); that form asks for details matching the record and leads to a confirmation page and email, with up to 3 days to process. The second-stage form sits behind the emailed link and was not seen, so its exact fields are recorded as 'other'. The CAPTCHA widget itself did not appear in the fetched text, but the page instructs users to solve one, so captcha stays true and tier guided. Earlier history: the original opt_out_url (help.aspx#p3) 403'd and was replaced with /manage on third-party removal-guide consensus. Treated as crucial (people-search/address reseller) despite the migrated people_search:false flag. Nothing was submitted; last_verified null.",
+   "instructions_md": "1. Go to https://www.usa-people-search.com/manage.\n2. Choose whether you are the person in the record or an authorized agent, then enter your first and last name (middle name optional) and your email address.\n3. Solve the CAPTCHA and click \"Begin Removal Process\".\n4. Open the email USA People Search sends and click its link within 24 hours. If you wait longer, request a new link.\n5. On the opt-out form the link opens, enter your details exactly as they appear on the record you want removed. Leaving fields out or getting them wrong can stop the record being matched.\n6. You'll get a confirmation page and a confirmation email. Allow up to 3 days for the record to be removed.",
    "link_status": "live"
   },
   {
@@ -5859,6 +5858,37 @@
    "link_status": "live"
   },
   {
+   "id": "findem-ai",
+   "name": "Findem, Inc.",
+   "domain": "findem.ai",
+   "category": "b2b_contact_data",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://www.findem.ai/privacy-rights",
+   "opt_out_email": "privacy@findem.ai",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "email",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-30 by the daily maintainer from California's data broker registry (Findem, Inc.; registry email privacy@findem.ai; rights URLs https://www.findem.ai/privacy-policy-platform and https://www.findem.ai/do-not-sell-or-share-my-personal-information). Findem sells recruiting software built on a 'Talent Data Cloud', a data lake of profiles of working professionals that employers search to source candidates. The registry's do-not-sell URL now redirects (curl, HTTP 200) to https://www.findem.ai/privacy-rights, which was fetched with WebFetch: 'To have your personal information updated or removed from Findem's data lake in the Talent Data Cloud, please complete this form.' The form asks for first name (not marked required), last name, email, a request type (data deletion, data access, data information, or a combination), and a required comments box listing each request. No CAPTCHA markup was found in the raw HTML, no identity check or processing time is described, and the page's structured data gives privacy@findem.ai as its privacy contact. The platform privacy policy now redirects to a trust-portal page (trust.findem.ai) that was not fetched, so the data categories held are not itemized here. Priority high: profiles of named individuals with a working opt-out. Nothing was submitted; last_verified null.",
+   "instructions_md": "1. Go to https://www.findem.ai/privacy-rights.\n2. Enter your first and last name and the email address Findem is likely to hold for you, such as a work or professional email.\n3. For request type, choose \"Data deletion\" (or a combination if you also want a copy of your data).\n4. In the comments box, list each request you are making, for example \"Delete my profile from the Talent Data Cloud and stop selling or sharing my personal information.\" Add any other emails or profile URLs that would help them find you.\n5. Submit the form. If it doesn't work, email the same request to privacy@findem.ai.",
+   "link_status": "unknown"
+  },
+  {
    "id": "firearmscalifornia-org",
    "name": "Firearms California (licensedata.org network)",
    "domain": "firearmscalifornia.org",
@@ -7224,8 +7254,8 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "peopledatalabs.com's marketing site is a JS-rendered SPA (curl/WebFetch both return only the page title on most routes), but its public sitemap.xml (fetched directly, HTTP 200) lists an explicit https://www.peopledatalabs.com/do-not-sell-or-share page, confirming the URL is real and current rather than guessed. Raw HTML source of that page (fetched via curl) contains form input placeholders 'Full Name*' and 'Email*', confirming those two fields are required; no CAPTCHA markup was found in the raw source. People Data Labs is a well-known B2B identity-resolution / data-enrichment provider that supplies profile data (name, employment, contact info, social profiles) to other companies' platforms -- a genuine data broker, but not a consumer-facing people-search product (people_search: false). opt_out_email (privacy@peopledatalabs.com) is carried over from the legacy source data and was NOT independently re-confirmed on any page successfully rendered this session (the SPA blocked static confirmation) -- flagged here as likely-correct given it matches PDL's known standard privacy-contact convention, but treat with a bit more caution than the do-not-sell-or-share URL, which was directly confirmed via sitemap+raw-HTML. No CAPTCHA/ID found -> tier assisted rather than guided. Not independently re-verified beyond this session's fetch; last_verified left null.",
-   "instructions_md": "1. Go to https://www.peopledatalabs.com/do-not-sell-or-share.\n2. Enter your full name and email address in the form and submit -- the page states \"Once you submit this form, we will no longer sell your personal information.\"\n3. If the form is unavailable or you prefer email, send your opt-out/deletion request to privacy@peopledatalabs.com instead, including your full name and any details (e.g. LinkedIn URL, employer) that would help them locate your profile in their database.\n4. Watch for a confirmation reply; People Data Labs' scope is B2B data enrichment (selling profile data to other companies' platforms) rather than a public search tool, so there's no separate consumer-facing listing to check afterward.",
+   "notes": "Updated 2026-10-30 by the daily maintainer after page-monitor #151. The page monitor snapshot and a WebFetch of https://www.peopledatalabs.com/do-not-sell-or-share (HTTP 200) both show a redesigned 'Do Not Sell or Share My Personal Information' form, now limited to U.S. opt-outs of sale, sharing and targeted advertising. Required: full name, U.S. state or territory of residence (a list of state-law states, 'Other U.S. state or territory', or 'I do not live in the United States'), and email address. Optional: extra identifiers to help match your record. Three acknowledgement checkboxes say the request only covers records matched by the details you give, PDL keeps those details to honor the opt-out, and submitting does not confirm PDL holds data on you. The old 'Once you submit this form, we will no longer sell your personal information' line and the EU country list are gone. Access, deletion, correction and non-U.S. requests now go to PDL's 'Privacy Request Center' (a JS button; its target was not visible in the fetched HTML, though the site links https://privacy.peopledatalabs.com/ for its policies). No CAPTCHA markup was found in the raw HTML or the rendered text. opt_out_email privacy@peopledatalabs.com carried over from earlier research and not re-confirmed on this page. People Data Labs is a B2B identity-resolution / data-enrichment provider (people_search: false). Nothing was submitted; last_verified null.",
+   "instructions_md": "1. Go to https://www.peopledatalabs.com/do-not-sell-or-share.\n2. Enter your full name, pick your U.S. state or territory of residence, and enter your email address.\n3. Optionally add more identifiers (for example other emails, phone numbers or a LinkedIn URL) so PDL can match more of its records about you. The opt-out only covers records it can match to what you enter.\n4. Tick the three acknowledgement boxes and click \"Submit opt-out request\".\n5. This form only opts you out of sale, sharing and targeted advertising, and is for U.S. residents. To have your data deleted, accessed or corrected, or if you live outside the U.S., use the \"Go to Privacy Request Center\" button on the same page, or email privacy@peopledatalabs.com.",
    "link_status": "live"
   },
   {
@@ -7758,6 +7788,38 @@
    "notes": "WebFetch on slashdotmedia.com/privacy/ succeeded directly. Slashdot Media (operator of Slashdot.org and SourceForge.net, among other tech-community properties) is a B2B demand-generation / lead-generation company that explicitly states it sells business-contact data -- 'In almost all cases, only a name, email address, work title and location, and a phone number will be sold' -- to business customers. This is personal data about identifiable working professionals (not aggregated business metrics), so it is in scope as a broker, though the fields sold (work contact info) are lower personal-safety stakes than a home-address people-search site, hence priority:high not crucial and people_search:false. Opt-out is via a OneTrust-hosted DSAR/do-not-sell portal; a phone number and a PO-box mailing address (Slashdot Media, LLC, PO Box 12190, San Diego, CA 92112, Attn: Privacy Compliance) are also offered as alternate channels. Portal not independently rendered/confirmed in this session beyond the linked URL from the privacy policy text -- last_verified left null.",
    "instructions_md": "1. Go to the [Slashdot Media opt-out / do-not-sell portal](https://privacyportal-cdn.onetrust.com/dsarwebform/611e70e2-1994-43ff-b07b-646df870db4b/c1c0acac-ab24-4dac-b3e6-43421a684626.html) (a OneTrust-hosted form linked from Slashdot Media's privacy policy).\n2. Select the request type for opting out of sale/sharing of your personal data (or a full deletion/access request if you prefer).\n3. Enter your name and email address so Slashdot Media can locate the business-contact record(s) associated with you.\n4. Submit the form and watch for a confirmation email; some OneTrust portals require you to verify the request via a confirmation link before it is processed.\n5. If the online portal doesn't work for you, you can instead call 1-800-552-9000 (or +1-858-454-5900 ext. 10804) or write to Slashdot Media, LLC, PO Box 12190, San Diego, CA 92112, Attn: Privacy Compliance, and ask them to stop selling/sharing your personal data.\n6. Note that cookie-based tracking opt-outs and non-cookie (offline/contact-database) opt-outs may be handled separately by Slashdot Media, so you may need to submit both if you want to be excluded from all of their data uses.",
    "link_status": "live"
+  },
+  {
+   "id": "snov-io",
+   "name": "Snovio Inc (Snov.io)",
+   "domain": "snov.io",
+   "category": "b2b_contact_data",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://snov.io/do-not-sell-my-personal-information",
+   "opt_out_email": "help@snov.io",
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "full_name",
+    "email",
+    "address"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-30 by the daily maintainer from California's data broker registry (Snovio Inc; rights URLs https://snov.io/do-not-sell-my-personal-information and https://snov.io/privacy-policy). Snov.io is an email-finder and sales-outreach platform: customers look up and verify professionals' email addresses and contact details. Its registry contact is a named employee's address, so it is not used here. The do-not-sell page was fetched with WebFetch and curl (HTTP 200). It has a 'Do Not Sell My Personal Information' form where every field is required: first name, last name, email, address, city, state, postal code, country, and the requested action ('Do not sell my personal information'). After you submit, it asks for a code from a confirmation email and a click on Verify. The page HTML includes a Cloudflare Turnstile widget with data-appearance=\\\"always\\\" (shown to the user) plus reCAPTCHA, so captcha is true and the tier is guided. Authorized agents and general questions go to help@snov.io. The site footer also links a 'Claim' / clear-email tool at https://app.snov.io/clear-email, which was not loaded. No processing time is stated. Nothing was submitted; last_verified null.",
+   "instructions_md": "1. Go to https://snov.io/do-not-sell-my-personal-information.\n2. Enter your first and last name, the email address you want covered, and your full postal address (street, city, state, postal code, country).\n3. Choose \"Do not sell my personal information\" as the requested action, complete the CAPTCHA check, and submit.\n4. Snov.io emails you a confirmation code. Enter it in the field that appears on the page and click Verify.\n5. To have an email address removed from Snov.io's lookup results, also try its clear-email tool at https://app.snov.io/clear-email (linked as \"Claim\" in the site footer).\n6. If you're acting for someone else, or the form fails, email help@snov.io.",
+   "link_status": "unknown"
   },
   {
    "id": "socialcatfish-com",
@@ -14769,29 +14831,28 @@
    "domain": "webbula.com",
    "category": "marketing_data_broker",
    "people_search": false,
-   "tier": "assisted",
+   "tier": "guided",
    "priority": "standard",
    "method": "form",
-   "opt_out_url": "https://webbula.com/opt-out-request-d/",
+   "opt_out_url": "https://webbula.com/opt-out-request/",
    "opt_out_email": null,
-   "phone": "888-9832285",
-   "captcha": false,
+   "phone": "800-533-5853",
+   "captcha": true,
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
    "required_fields": [
-    "email",
     "full_name",
-    "address",
-    "phone"
+    "email",
+    "address"
    ],
    "readd_days": null,
    "legal_basis": [],
-   "last_verified": "2026-07-03",
+   "last_verified": null,
    "source": "data-brokers-watch",
-   "notes": "MIGRATED opt_out_url (privacy-center/) is a landing page with a link to the actual form at webbula.com/opt-out-request-d/, which was fetched directly and confirmed live in this session; updated the URL to point at the real form. Simple web form (name, email, address, optional phone), no CAPTCHA or ID upload -- assisted tier. Marketing/data-append data broker (B2B-ish, spam/targeting harm rather than physical-safety risk) -- standard priority.",
-   "instructions_md": "1. Go to webbula.com/opt-out-request-d/ (or call 800-533-5853 if you prefer phone).\n2. Enter your first name, last name, and email address.\n3. Enter your street address (plus unit/apartment if applicable), city, state/province, ZIP/postal code, and country.\n4. Optionally add a phone number, then check the consent box and submit.\n5. Webbula will attempt to match your submission to records in its database by name and address; allow up to 5 days for processing.\n6. Note this only opts out data-append/data-service matching for the identifiers you submit -- for broader ad-targeting opt-outs, also use the NAI or DAA industry opt-out tools or your device's ad-tracking settings.",
-   "link_status": "live"
+   "notes": "Updated 2026-10-30 by the daily maintainer after page-monitor #149. https://webbula.com/opt-out-request-d/ now 301-redirects to https://webbula.com/opt-out-request/ (curl, HTTP 200), the same 'Opt-Out Request - Webbula' form, so the URL was updated. The monitor's rendered snapshot of the form shows an hCaptcha widget before Submit, and the page HTML loads the hCaptcha for WordPress plugin (the widget is injected by script, so its size/visibility could not be confirmed from static HTML). captcha set to true and tier to guided per the when-in-doubt rule; a human should check whether a challenge actually appears. Required fields per the form: first name, last name, email (entered twice), street address, and a consent checkbox; phone is optional (no '(Required)' marker), so it was removed from required_fields. The page gives 800-533-5853 as its phone channel, replacing the old 888-983-2285. Webbula opts out name+address combinations from its hygiene and data-append services and may verify by email; up to 5 days to process. last_verified reset from 2026-07-03 to null because the URL, CAPTCHA and tier changed since that human check. Webbula is a marketing data-append broker, so priority is standard. Nothing was submitted.",
+   "instructions_md": "1. Go to https://webbula.com/opt-out-request/ (or call 800-533-5853).\n2. Enter your first and last name, your email address (twice), and your street address, city, state, ZIP code and country.\n3. Optionally add a phone number, then tick the consent box.\n4. Complete the hCaptcha check if one appears, then submit.\n5. Webbula matches your request by name and address together, so submit again for every address or name variation you want covered. It may email you to verify. Allow up to 5 days.\n6. This only stops Webbula's data-append and data-service matching for what you submit. For ad-targeting opt-outs, also use the NAI or DAA industry opt-out tools or your device's ad-tracking settings.",
+   "link_status": "unknown"
   },
   {
    "id": "whoodle-com",
