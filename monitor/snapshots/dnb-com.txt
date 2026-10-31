@@ -72,6 +72,9 @@ RDPS - Nordic Company Data in D&B Data Blocks: Third Party Risk & Compliance Use
 RDPS – Receivables Intelligence by Co-Action
 Individual Rights
 We are committed to respecting the data and digital rights of individuals in both their personal and professional capacities as set forth in our Global Data Subject Rights Policy Statement. You may exercise your rights in connection with our data processing here.
+Consumer Protection
+Eight principles for every consumer-facing decision
+We build trust with the businesses and individuals who use our products, and with the people represented in the data we license and sell. Our Consumer Protection Policy protects consumers broadly — individuals in their personal, household, or professional capacities, and, where applicable law requires, sole proprietorships, entrepreneurs, and small businesses. Every consumer-facing decision — a product’s design, a marketing claim, a cancellation flow — is measured against the eight Principles and Operating Standards of our Consumer Protection Policy Statement.
 How to Contact Us
 If you have a question or concern about this Statement, you may contact D&B Global Compliance & Ethics or raise a question or concern using our Helpline. If you are based in other countries, you also may contact us. You also have the right to lodge a complaint or concern with your local data protection supervisory authority. Contact details for data protection authorities are here.
 There are multiple Contact Forms popups in the page. Only one Contact Form popup could be present on single page. Please reconfigure Contact Forms and refresh the page.
