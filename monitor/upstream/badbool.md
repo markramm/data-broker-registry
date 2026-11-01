@@ -8,7 +8,7 @@
 | 📞      | must pick up a (gasp!) phone                         |
 | 💰      | site charges money for access or removal (whaaaat?)  |
 
-This list, also known as BADBOOL, was started in September 2017 and was most recently updated on September 27, 2026 to remove Radaris and Rehold (down due to a court order), OpenDataUSA (whose registration expired), and Advanced Background Check (which no longer works in all states). We also added EveryJoe, and added a link to an app to freeze credit on behalf of minors and adults under guardianship or power of attorney. And we updated United4Heritage’s name and links–it’s now United Nations Public Administration Network.
+This list, also known as BADBOOL, was started in September 2017 and was most recently updated on October 31, 2026 to remove Nuwber (which appears to no longer exist). 
 
 BADBOOL is and will always be free, but you are welcome to [buy me a coffee](https://ko-fi.com/kofisupporter11745)! 💕☕️ If you’d like to learn more about me and my other work, feel free to check out my website, [Yael Writes](https://yaelwrites.com/).
 
@@ -49,9 +49,6 @@ First, [search for your name](https://www.menstoppingviolence.org/people/). Then
 
 ### 💐 📞 MyLife
 [Find your information](https://www.mylife.com), and then [opt out](https://www.mylife.com/privacyrequest). Another option is to email your removal request to <privacy@mylife.com> with your name and a link to your profile. MyLife will try to get you to create an account with a copy of your driver’s license to submit a profile removal request, and we’ve received reports that emailing the <info@mylife.com> or <removalrequests@mylife.com> email addresses will require a phone call to (888) 704-1900. Previously, calling that number and pressing 2 allowed you to be removed from MyLife (and Wink.com) after providing your name, age, date of birth, email address, current mailing address, and a previous mailing address, but this no longer appears to be the case. (It also appears that you can sign up for a free membership to remove your reputation profile, though not your personal information such as your home address.)
-
-### 💐 Nuwber
-[Find your information](https://nuwber.com/). Try to opt out on the [removal form](https://nuwber.com/removal/link). Try "filter by state" to isolate the "person" URL you need. Don’t bother trying to get a full report; it’ll just waste your time with multiple steps and deceptive design trying to get you to pay for a subscription. If the URL you generate doesn't work in the form or you run across other problems, take a screenshot of your results and send them to <support@nuwber.com>, asking them to opt you out. 
 
 ### 💐 SmartBackgroundChecks
 Find [your information](https://www.smartbackgroundchecks.com/). Then, [opt out](https://www.smartbackgroundchecks.com/optout). This will likely also remove your information from PeopleFinders. 
