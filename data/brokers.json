@@ -1,21 +1,21 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.17",
-  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
+  "dataset_version": "0.1.18",
+  "content_hash": "sha256:c65fd5b1e69fc1d8b4e56223bdbd5dc77e0659b6a6296c99d162f5cdbcbc06df",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 496,
+  "authored_count": 497,
   "backlog_count": 89,
-  "total_known": 585,
-  "unverified_count": 459,
+  "total_known": 586,
+  "unverified_count": 460,
   "tiers": {
-   "guided": 272,
-   "assisted": 152,
+   "guided": 275,
+   "assisted": 150,
    "auto": 72
   },
   "priorities": {
    "crucial": 124,
-   "high": 157,
+   "high": 158,
    "standard": 215
   }
  },
@@ -6477,6 +6477,39 @@
    "link_status": "broken"
   },
   {
+   "id": "keymarketingadvantage-com",
+   "name": "Key Marketing Advantage",
+   "domain": "keymarketingadvantage.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://keymarketingadvantage.com/do_not_sell_or_share_my_personal_information",
+   "opt_out_email": "privacy@keymarketingadvantage.com",
+   "phone": "203-491-2200",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "email",
+    "address",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Key Marketing Advantage (KMA, Newtown CT) is a registered California data broker (CA registry row keymarketingadvantage.com). Added 2026-11-03 by the daily maintainer. Its privacy policy (keymarketingadvantage.com/privacy_policy, fetched) says it builds direct-marketing list verticals from public and private databases, and that its consumer database includes household name and address, contact information, demographics, purchase data, interests and propensity segments, so priority is high. The CA registry's rights URL (/do_not_use_my_personal_information) returned HTTP 404. The policy links the working form at /do_not_sell_or_share_my_personal_information, which was rendered headless (HTTP 200). Its required fields are first name, last name, email, street address, state, city, ZIP and a message. Phone is optional. At least one request checkbox must be ticked: Delete My Data, Request Full Report (CA residents), Do Not Sell or Share My Data, Do Not Use My Data, or Correct My Personal Information. The page has a reCAPTCHA (g-recaptcha) widget, so captcha true and tier guided. The page says 'A completed form with all fields populated is required' and 'We will respond within 45 days'. The policy says KMA does not collect email addresses, so it matches requests on full name and full postal address. It also lists privacy@keymarketingadvantage.com (one instance in the policy is misspelled 'keymarketingadvantag.com'), phone 203-491-2200, and postal mail to Compliance Officer, 7 Edmond Road, Suite 100, Newtown, CT 06470. Nothing was submitted; last_verified null.",
+   "instructions_md": "1. Go to KMA's [Do Not Sell or Share form](https://keymarketingadvantage.com/do_not_sell_or_share_my_personal_information).\n2. Fill in every required field: first and last name, email, street address, city, state and ZIP. KMA matches people by name and postal address, so use the address where you receive marketing mail. If you have moved recently, send a second request for your previous address.\n3. Tick both \"Delete My Data\" and \"Do Not Sell or Share My Data\". \"Do Not Use My Data\" is also available.\n4. The message box is required. A short line such as \"Please delete my record and stop selling or sharing my information\" is enough.\n5. Complete the CAPTCHA and submit. KMA says it responds within 45 days.\n6. If the form doesn't work, email privacy@keymarketingadvantage.com or call 203-491-2200 with your full name and full mailing address. You can also mail a request to Key Marketing Advantage, Compliance Officer, 7 Edmond Road, Suite 100, Newtown, CT 06470.",
+   "link_status": "unknown"
+  },
+  {
    "id": "l2political-com",
    "name": "L2, Inc.",
    "domain": "l2political.com",
@@ -7796,19 +7829,18 @@
    "domain": "stirista.com",
    "category": "marketing_data_broker",
    "people_search": false,
-   "tier": "assisted",
+   "tier": "guided",
    "priority": "high",
    "method": "portal",
    "opt_out_url": "https://unsubscribe.stirista.com/",
    "opt_out_email": "privacy@stirista.com",
    "phone": null,
-   "captcha": false,
+   "captcha": true,
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
    "required_fields": [
-    "email",
-    "address"
+    "email"
    ],
    "readd_days": null,
    "legal_basis": [
@@ -7817,8 +7849,8 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "Stirista, LLC is a consumer marketing-data broker; andrewswharton.com (already in this dataset) is a sibling brand under the same company and its privacy policy redirects entirely to Stirista's. WebFetch of stirista.com/privacy-policy/ confirmed the opt-out mechanism: a self-serve portal at https://unsubscribe.stirista.com/, requesting current address, email address, and any prior home/email addresses so records can be matched and suppressed; alternatively email privacy@stirista.com (a California-specific address, privacyinfo@stirista.com, is also mentioned). The policy states identity verification is performed 'in part by requesting certain information' before processing. No CAPTCHA mentioned. Legal basis spans CCPA and other US state privacy laws plus GDPR/UK/Swiss frameworks (recorded here as ccpa+gdpr as representative). Priority set to high (not crucial) because Stirista is a marketing/audience-data broker (not a people-search/address-lookup service) but has a real, working self-serve opt-out mechanism. last_verified left null since the page was summarized via fetch tool rather than independently re-rendered.",
-   "instructions_md": "1. Go to Stirista's unsubscribe/privacy portal at https://unsubscribe.stirista.com/.\n2. Provide your current mailing address and email address, plus any prior home or email addresses you've used, so Stirista can match and suppress all associated records.\n3. Submit the request through the portal.\n4. Alternatively, email privacy@stirista.com (or privacyinfo@stirista.com if you are a California resident) directly, stating you want to opt out of the sale/sharing of your personal information under the CCPA (or GDPR, if applicable).\n5. Stirista may contact you to verify your identity before completing the request; allow roughly 10 business days for processing per their stated policy.\n6. Because Stirista also operates under sibling brand names (e.g. Andrews Wharton Inc.), a single opt-out here should cover data controlled by those affiliated brands as well.",
+   "notes": "Stirista, LLC is a consumer marketing-data broker; andrewswharton.com (already in this dataset) is a sibling brand under the same company and its privacy policy redirects entirely to Stirista's. WebFetch of stirista.com/privacy-policy/ confirmed the opt-out mechanism: a self-serve portal at https://unsubscribe.stirista.com/, requesting current address, email address, and any prior home/email addresses so records can be matched and suppressed; alternatively email privacy@stirista.com (a California-specific address, privacyinfo@stirista.com, is also mentioned). The policy states identity verification is performed 'in part by requesting certain information' before processing. No CAPTCHA mentioned. Legal basis spans CCPA and other US state privacy laws plus GDPR/UK/Swiss frameworks (recorded here as ccpa+gdpr as representative). Priority set to high (not crucial) because Stirista is a marketing/audience-data broker (not a people-search/address-lookup service) but has a real, working self-serve opt-out mechanism. last_verified left null since the page was summarized via fetch tool rather than independently re-rendered. Updated 2026-11-03 by the daily maintainer (found while checking Alesco Data, now a Stirista company; Refs #171): unsubscribe.stirista.com rendered headless (HTTP 200) shows a visible reCAPTCHA v2 checkbox (google.com/recaptcha/api2/anchor iframe, 256x60), so captcha false -> true and tier assisted -> guided. The portal has four separate sections: email-only removal; postal removal (first name, last name, address, city, region, country, postal code required); mobile opt-out (MAID and phone); and a sale/sharing inquiry (email plus description). Email alone is enough for the first section, so required_fields is now [email]. The portal lists the Privacy Officer at Stirista, Inc., 777 E. Sonterra Blvd., Suite 225, San Antonio, TX 78258, privacy@stirista.com, and says a deletion and an opt-out have the same practical effect (deletion from active databases plus suppression). Nothing was submitted.",
+   "instructions_md": "1. Go to Stirista's unsubscribe/privacy portal at https://unsubscribe.stirista.com/.\n2. In the first section, enter your email address, complete the CAPTCHA and submit.\n3. Also fill in the \"No email? No problem!\" section with your name and mailing address and submit it. Repeat the relevant section for every email address and home address you have used, because each request covers only the address you enter.\n4. Alternatively, email privacy@stirista.com (or privacyinfo@stirista.com if you are a California resident) directly, stating you want to opt out of the sale/sharing of your personal information under the CCPA (or GDPR, if applicable).\n5. Stirista may contact you to verify your identity before completing the request; allow roughly 10 business days for processing per their stated policy.\n6. Because Stirista also operates under sibling brand names (e.g. Andrews Wharton Inc.), a single opt-out here should cover data controlled by those affiliated brands as well.",
    "link_status": "live"
   },
   {
@@ -7954,21 +7986,18 @@
    "domain": "alescodata.com",
    "category": "marketing_data_broker",
    "people_search": false,
-   "tier": "assisted",
+   "tier": "guided",
    "priority": "high",
-   "method": "form",
-   "opt_out_url": "https://alescodata.com/opt-out-request/",
-   "opt_out_email": "privacy@alescodata.com",
-   "phone": "(877) 652-5002",
-   "captcha": false,
+   "method": "portal",
+   "opt_out_url": "https://unsubscribe.stirista.com/",
+   "opt_out_email": "privacy@stirista.com",
+   "phone": null,
+   "captcha": true,
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
    "required_fields": [
-    "full_name",
-    "address",
-    "email",
-    "phone"
+    "email"
    ],
    "readd_days": null,
    "legal_basis": [
@@ -7976,8 +8005,8 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "WebFetch on alescodata.com/opt-out-request/ confirmed a self-serve form asking for name, address, email, and phone, with a confirmation checkbox and no CAPTCHA visible; page states Alesco may contact the requester to confirm identity before processing. Email opt-out via privacy@alescodata.com also confirmed (legacy CSV email michael@alescodata.com was not confirmed as current and is not used). Alesco Data builds mailing-list and audience databases from public records/assessor files -- a marketing data aggregator, not people-search, hence priority high not crucial. Did not verify against a freshly rendered page beyond this fetch, so last_verified left null.",
-   "instructions_md": "1. Go to the [Alesco Data opt-out request form](https://alescodata.com/opt-out-request/), reachable via the \"Do Not Sell My Personal Information\" link in the site footer.\n2. Enter your first and last name, mailing address (street, city, state, zip), email, and phone number, then check the confirmation box and submit.\n3. Alternatively, email privacy@alescodata.com with your name and contact details and ask to opt out of sale/sharing of your personal information under the CCPA.\n4. You can also call (877) 652-5002 to speak with a CCPA compliance specialist, or mail a written request to 4575 Via Royale, Suite 110, Fort Myers, FL 33919.\n5. Alesco may contact you to verify your identity before completing the request; expect processing within roughly 7-30 days.",
+   "notes": "WebFetch on alescodata.com/opt-out-request/ confirmed a self-serve form asking for name, address, email, and phone, with a confirmation checkbox and no CAPTCHA visible; page states Alesco may contact the requester to confirm identity before processing. Email opt-out via privacy@alescodata.com also confirmed (legacy CSV email michael@alescodata.com was not confirmed as current and is not used). Alesco Data builds mailing-list and audience databases from public records/assessor files -- a marketing data aggregator, not people-search, hence priority high not crucial. Did not verify against a freshly rendered page beyond this fetch, so last_verified left null. Updated 2026-11-03 by the daily maintainer after page-monitor #171: alescodata.com/opt-out-request/ now redirects to /privacy-center/, which no longer shows a form and says Alesco Data is now a Stirista company, that privacy preferences and data subject access requests are now handled through stirista.com, that Stirista will honor requests made to Alesco before 7/1/2026, and then redirects to stirista.com. The footer reads 'Alesco Data, A Stirista Solution'. Routing therefore moved to Stirista's portal at unsubscribe.stirista.com (rendered headless, HTTP 200). It has an email-only removal section, a postal section (first name, last name, address, city, region, country, postal code), a mobile-ID section and a sale/sharing inquiry section, all behind a visible reCAPTCHA v2 checkbox (captcha true, tier guided). The old Alesco phone line (877) 652-5002 was not re-confirmed, so phone is now null; privacy@stirista.com is listed on the portal. Nothing was submitted.",
+   "instructions_md": "1. Alesco Data is now part of Stirista, and its old opt-out form is gone. Its privacy page says requests now go through Stirista, so use [Stirista's opt-out portal](https://unsubscribe.stirista.com/).\n2. In the first section (\"Do you wish to remove your data profile from our consumer records?\"), enter your email address, complete the CAPTCHA and submit.\n3. Alesco's records are mostly postal, so also fill in the \"No email? No problem!\" section with your first and last name, mailing address, city, region/country and postal code, and submit that too. Submit once for each address you have lived at.\n4. Stirista says a deletion and an opt-out have the same effect: it deletes the matching records from its active databases and adds you to its suppression list.\n5. Or email privacy@stirista.com and ask Stirista, as the owner of Alesco Data, to delete your data and stop selling or sharing it. Requests already sent to Alesco before 7/1/2026 will still be honored, according to the notice on Alesco's site.",
    "link_status": "live"
   },
   {
@@ -13477,7 +13506,7 @@
   },
   {
    "id": "rgrmarketing-com",
-   "name": "RGR Marketing (ReallyGreatRate, Inc.)",
+   "name": "RGR Marketing LLC",
    "domain": "rgrmarketing.com",
    "category": "lead_generation",
    "people_search": false,
@@ -13501,7 +13530,7 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "ReallyGreatRate, Inc. d/b/a RGR Marketing generates and sells consumer leads (mortgage, solar, home-improvement) to third-party businesses -- classic data-broker behavior even though its privacy policy is framed around 'business associates' and website visitors. WebFetch on rgrmarketing.com/privacy-policy/ (HTTP 200) confirmed CCPA language: California residents 'have the right to request information regarding the manner in which we share certain categories of your personal information with third parties,' handled via generic contact, not a self-service deletion/opt-out form. There is a separate commercial-email opt-out to info@rgrmarketing.com. An earlier automated summary surfaced a OneTrust DSAR form URL (privacyportal-eu-cdn.onetrust.com/dsarwebform/942fbf...) which returned HTTP 200 on direct curl, but its exact linkage from the site nav could not be independently confirmed by direct render, so it is not used as the primary opt_out_url. No CAPTCHA/ID gating found. tier set to guided because no confirmed self-service form exists; requester must email and reference CCPA rights. last_verified left null.",
+   "notes": "ReallyGreatRate, Inc. d/b/a RGR Marketing generates and sells consumer leads (mortgage, solar, home-improvement) to third-party businesses -- classic data-broker behavior even though its privacy policy is framed around 'business associates' and website visitors. WebFetch on rgrmarketing.com/privacy-policy/ (HTTP 200) confirmed CCPA language: California residents 'have the right to request information regarding the manner in which we share certain categories of your personal information with third parties,' handled via generic contact, not a self-service deletion/opt-out form. There is a separate commercial-email opt-out to info@rgrmarketing.com. An earlier automated summary surfaced a OneTrust DSAR form URL (privacyportal-eu-cdn.onetrust.com/dsarwebform/942fbf...) which returned HTTP 200 on direct curl, but its exact linkage from the site nav could not be independently confirmed by direct render, so it is not used as the primary opt_out_url. No CAPTCHA/ID gating found. tier set to guided because no confirmed self-service form exists; requester must email and reference CCPA rights. last_verified left null. Updated 2026-11-03 by the daily maintainer after page-monitor #42: the privacy policy now names the company 'RGR Marketing LLC, d/b/a RGR Marketing' instead of 'ReallyGreatRate, Inc.', and its email-consent line now authorizes 'RGR Marketing LLC'. Only the legal name changed, so the entry name was updated. The contact route and the rest of the page were unchanged in the snapshot diff.",
    "instructions_md": "1. Go to the RGR Marketing privacy policy page at https://www.rgrmarketing.com/privacy-policy/.\n2. Note that RGR Marketing does not publish a dedicated self-service opt-out/deletion form; California residents' rights are handled by direct contact instead.\n3. Email info@rgrmarketing.com and state that you are a California resident (or resident of another state with applicable privacy rights) exercising your right to know what categories of personal information RGR Marketing has shared about you with third parties, and request deletion/opt-out of further sale or sharing of your lead data.\n4. Include your full name and the email address most likely associated with any lead inquiry (mortgage, solar, or home-improvement) submitted under your name, so RGR Marketing can locate your record.\n5. If you only want to stop unrelated commercial emails, you can separately request removal from marketing email by replying to any commercial email you've received from RGR Marketing or emailing info@rgrmarketing.com.\n6. RGR Marketing states it will verify your identity before acting on the request; expect a reply requesting confirmation details.\n7. Because this is a lead-generation reseller with many downstream business \"clients\" who may have already purchased your lead data, consider this opt-out as stopping RGR's own future sharing -- it will not retroactively recall data already sold to a client before your request.",
    "link_status": "live"
   },
