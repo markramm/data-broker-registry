@@ -1,7 +1,27 @@
-Remove My Info | Spy Dialer
-Remove My Info
-Spy Dialer complies with all state and federal data privacy laws. We allow consumers in all states to opt-out their information. If you are a business and need to remove a listing, please use our Business Listing Removal page.
-START
+Do Not Sell/Right to Opt-out | Spy Dialer
+Do Not Sell/Right to Opt-out
+Depending on your state of residence and applicable law, you may have the right to request to opt out of the sale and sharing of your personal information.
+Please carefully follow the directions below to submit a request to opt-out of the sale of your information.
+Enter your email address and name and complete the verification below. We will send a link to your email address that will take you to the opt-out form.
+Click the link sent to your email. It may take some time to arrive. If you wait more than 24 hours to click this link you will need to request a new one.
+Enter your information on the form. This should match the information on the record you want removed.
+You will be taken to a confirmation page verifying that we have received your request and it is being processed. You will also receive a confirmation email. Your request will be processed within the legally required timeframe. If your request is approved, please allow at least 3 days for your record to be removed from our site.
+Note: Omitting information or providing inaccurate information on the opt-out form will only hinder the opt-out process. Please fill out the entire form accurately so that we can ensure we remove all your information from our site.
+Enter your name and email address – we’ll email you a link to the opt-out form to complete the process.
+I am *
+The subject of the request
+An authorized agent of the subject of the request
+Note: Authorized agent’s email address will be used to send a link to the opt-out form. Once that form has been submitted, confirmation of processing will be sent to both the authorized agent’s and the subject’s email addresses.
+Agent First Name *
+Agent Last Name *
+Agent Email *
+First Name *
+Middle Name
+Last Name *
+Email Address *
+*I authorize Spy Dialer to send communications relating to my privacy request to the email address(es) provided. I certify that I am the subject of the request, or an agent authorized to act on behalf of the subject of the request. I understand that information provided relating to this request will not be used for any purpose other than the processing of this request.
+To prevent site abuse, please confirm you are not a robot:
+CONTINUE
 Give us love:
 Tweet
 FAQ
