@@ -1,21 +1,21 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.17",
-  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
+  "dataset_version": "0.1.18",
+  "content_hash": "sha256:8f905600a0408d06ed87cb1c91e90905f9da48ef454cd8794bfe984b5c1ff809",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 496,
-  "backlog_count": 89,
-  "total_known": 585,
-  "unverified_count": 459,
+  "authored_count": 498,
+  "backlog_count": 90,
+  "total_known": 588,
+  "unverified_count": 461,
   "tiers": {
-   "guided": 272,
-   "assisted": 152,
-   "auto": 72
+   "guided": 274,
+   "assisted": 151,
+   "auto": 73
   },
   "priorities": {
    "crucial": 124,
-   "high": 157,
+   "high": 159,
    "standard": 215
   }
  },
@@ -5986,19 +5986,20 @@
    "domain": "fushiamedia.com",
    "category": "marketing_data_broker",
    "people_search": false,
-   "tier": "assisted",
+   "tier": "guided",
    "priority": "high",
    "method": "form",
-   "opt_out_url": "https://fushiamedia.com/request-delete",
+   "opt_out_url": "https://fushiamedia.com/request/delete",
    "opt_out_email": "support@fushiamedia.com",
    "phone": null,
-   "captcha": false,
+   "captcha": true,
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
    "required_fields": [
     "full_name",
     "email",
+    "phone",
     "address"
    ],
    "verification": "none",
@@ -6008,9 +6009,9 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "Fushia Media is a marketing/data-enhancement company selling '600+ demographic and behavioral attributes' for targeted marketing. Its own privacy policy (fetched at fushiamedia.com/privacy) confirms genuine CCPA broker status: explicit 'Request Data Deletion & Opt-Out' language ('Request that FM delete any personal information about you that FM has collected and opt out of the sale of your personal information'), and it lists Cal. Civ. Code 1798.80(e) categories including address, collected from 'Data Compiling Companies,' 'Public or Government Entities,' and 'Telecommunications Companies.' Found two dedicated forms linked from the privacy policy: /request-data (view your data) and /request-delete (deletion + opt-out of sale). No CAPTCHA markup detected in fetched HTML; no ID/phone requirement stated. opt_out_email is the general support@fushiamedia.com from the legacy CSV -- not independently re-confirmed as a privacy-specific address, kept as a fallback alongside the form. required_fields includes address per Cal. Civ. Code 1798.80(e) category the policy says it collects (address-linked info, including data on 'individuals who are moving').",
-   "instructions_md": "1. Go to https://fushiamedia.com/request-delete, Fushia Media's dedicated deletion and opt-out-of-sale request form.\n2. Fill in your full name, email address, and mailing address (Fushia Media specifically collects address-linked data, including data on people who are moving, so include your current and/or prior address to help them match your record).\n3. Submit the form to request both deletion of your personal information and opt-out of any sale of it.\n4. If you'd also like to see what personal information Fushia Media holds on you before deleting it, use the separate data-access form at https://fushiamedia.com/request-data.\n5. If the forms are unavailable, email support@fushiamedia.com directly, stating you are requesting deletion of your personal information under CCPA and opting out of any sale of your data.\n6. Watch for a confirmation and follow up if you don't hear back within the timeframe required by California law (typically 45 days).",
-   "link_status": "live"
+   "notes": "Fushia Media is a marketing/data-enhancement company selling '600+ demographic and behavioral attributes' for targeted marketing. Its own privacy policy (fetched at fushiamedia.com/privacy) confirms genuine CCPA broker status: explicit 'Request Data Deletion & Opt-Out' language ('Request that FM delete any personal information about you that FM has collected and opt out of the sale of your personal information'), and it lists Cal. Civ. Code 1798.80(e) categories including address, collected from 'Data Compiling Companies,' 'Public or Government Entities,' and 'Telecommunications Companies.' Found two dedicated forms linked from the privacy policy: /request-data (view your data) and /request-delete (deletion + opt-out of sale). No CAPTCHA markup detected in fetched HTML; no ID/phone requirement stated. opt_out_email is the general support@fushiamedia.com from the legacy CSV -- not independently re-confirmed as a privacy-specific address, kept as a fallback alongside the form. required_fields includes address per Cal. Civ. Code 1798.80(e) category the policy says it collects (address-linked info, including data on 'individuals who are moving'). Maintainer update 2026-11-02 (page monitor #167): /request-delete and /request-data now return HTTP 404. The privacy policy's 'deletion request form' link now points to https://fushiamedia.com/request/delete (fetched: 200, title 'Fuchsia Media - Smarter Data Solutions', heading 'Deletion & Opt-Out'). That form requires first and last name, email, phone number, street address, city, state and ZIP, and has a '03. Security Verification' step: the page's JS bundles react-google-recaptcha and the form schema rejects submission with 'Please complete the CAPTCHA verification'. So captcha is now true, phone is a required field, and tier moves assisted -> guided. No separate data-access form was found (/request/data is 404), so that step was removed. Nothing was submitted.",
+   "instructions_md": "1. Go to https://fushiamedia.com/request/delete, Fuchsia Media's \"Deletion & Opt-Out\" form (linked from its privacy policy). The request covers both deletion and opt-out of sale/sharing.\n2. Enter your first and last name, email address and phone number. All four are required.\n3. Enter your street address, city, state and ZIP code (all required). Fuchsia Media says it needs these to find and suppress your record; it collects address-linked data, including on people who are moving, so use the address most likely to be in its database.\n4. Complete the CAPTCHA in the \"Security Verification\" section and submit the request.\n5. If the form doesn't work, email support@fushiamedia.com saying you are requesting deletion of your personal information and opting out of its sale or sharing under the CCPA.\n6. Keep a note of the date. If you hear nothing within 45 days (the CCPA response window), follow up by email.",
+   "link_status": "unknown"
   },
   {
    "id": "hellofyllo-com",
@@ -7318,6 +7319,38 @@
    "link_status": "unknown"
   },
   {
+   "id": "realeflow-com",
+   "name": "Realeflow",
+   "domain": "realeflow.com",
+   "category": "real_estate_data",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://data-removal.realeflow.com/submit",
+   "opt_out_email": "privacy@realeflow.com",
+   "phone": "1-855-545-2095",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "address",
+    "phone"
+   ],
+   "verification": "none",
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "CA registry row realeflow.com (Realeflow LLC, contact privacy@realeflow.com; registry rights URLs are just www.realeflow.com and www.leadflow.com). Fetched the home page on 2026-11-02: Realeflow sells a real-estate investing platform built on a '150M+' proprietary property-record dataset with AI deal finding and automated outreach to owners. Its footer 'Do Not Sell My Information' link goes to https://data-removal.realeflow.com/submit (fetched, HTTP 200, title 'Privacy Rights Request - Realeflow'). The form offers 'Do Not Sell / Share My Personal Information' (processed 'without requiring identity verification') or 'Delete My Data' (within 45 days), and says Realeflow extends these rights to everyone regardless of state. Required: first name, last name, street address, city, state, 5-digit ZIP and a 10-digit phone number; email is 'optional for opt-out requests'. The form renders a Google reCAPTCHA widget (grecaptcha.render, 'Please complete the CAPTCHA'), so captcha true and tier guided. privacy@realeflow.com (Cloudflare-obfuscated, decoded from the HTML) and 1 (855) 545-2095 are listed for questions. The registry's second domain, leadflow.com, was not checked. Priority high: owner contact data for real-estate outreach, but not a public people-search site. Nothing was submitted; last_verified left null.",
+   "instructions_md": "1. Go to https://data-removal.realeflow.com/submit, Realeflow's Privacy Rights Request form (linked as \"Do Not Sell My Information\" in the site footer).\n2. Under \"What would you like to do?\", choose \"Do Not Sell / Share My Personal Information\". For deletion, submit a second request choosing \"Delete My Data\".\n3. Enter your first and last name, street address, city, state, ZIP code and a 10-digit phone number. All are required. Use the property address Realeflow is most likely to have for you.\n4. Email is optional for an opt-out, but adding it gets you a confirmation.\n5. Complete the CAPTCHA and submit. Opt-outs don't need identity verification; deletions are handled within 45 days.\n6. For problems, email privacy@realeflow.com or call 1 (855) 545-2095.",
+   "link_status": "unknown"
+  },
+  {
    "id": "rehold-com",
    "name": "Rehold",
    "domain": "rehold.com",
@@ -7758,6 +7791,37 @@
    "notes": "WebFetch on slashdotmedia.com/privacy/ succeeded directly. Slashdot Media (operator of Slashdot.org and SourceForge.net, among other tech-community properties) is a B2B demand-generation / lead-generation company that explicitly states it sells business-contact data -- 'In almost all cases, only a name, email address, work title and location, and a phone number will be sold' -- to business customers. This is personal data about identifiable working professionals (not aggregated business metrics), so it is in scope as a broker, though the fields sold (work contact info) are lower personal-safety stakes than a home-address people-search site, hence priority:high not crucial and people_search:false. Opt-out is via a OneTrust-hosted DSAR/do-not-sell portal; a phone number and a PO-box mailing address (Slashdot Media, LLC, PO Box 12190, San Diego, CA 92112, Attn: Privacy Compliance) are also offered as alternate channels. Portal not independently rendered/confirmed in this session beyond the linked URL from the privacy policy text -- last_verified left null.",
    "instructions_md": "1. Go to the [Slashdot Media opt-out / do-not-sell portal](https://privacyportal-cdn.onetrust.com/dsarwebform/611e70e2-1994-43ff-b07b-646df870db4b/c1c0acac-ab24-4dac-b3e6-43421a684626.html) (a OneTrust-hosted form linked from Slashdot Media's privacy policy).\n2. Select the request type for opting out of sale/sharing of your personal data (or a full deletion/access request if you prefer).\n3. Enter your name and email address so Slashdot Media can locate the business-contact record(s) associated with you.\n4. Submit the form and watch for a confirmation email; some OneTrust portals require you to verify the request via a confirmation link before it is processed.\n5. If the online portal doesn't work for you, you can instead call 1-800-552-9000 (or +1-858-454-5900 ext. 10804) or write to Slashdot Media, LLC, PO Box 12190, San Diego, CA 92112, Attn: Privacy Compliance, and ask them to stop selling/sharing your personal data.\n6. Note that cookie-based tracking opt-outs and non-cookie (offline/contact-database) opt-outs may be handled separately by Slashdot Media, so you may need to submit both if you want to be excluded from all of their data uses.",
    "link_status": "live"
+  },
+  {
+   "id": "smartmove-us",
+   "name": "SmartMove (CTAM LeadShare Corp.)",
+   "domain": "smartmove.us",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "auto",
+   "priority": "high",
+   "method": "email",
+   "opt_out_url": "https://www.smartmove.us/company/california-privacy",
+   "opt_out_email": "compliance@ctam.com",
+   "phone": "1-877-298-8998",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "verification": "identity_check",
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "CA registry row smartmove.us (CTAM LeadShare Corp., contact compliance@ctam.com); registry rights URLs are /company/privacy and /company/california-privacy. Fetched https://www.smartmove.us/company/california-privacy on 2026-11-02 (HTTP 200). SmartMove is a mover-services site (find Internet/TV providers at a new address) run by CTAM; its home page collects name, phone and street address, and the California notice says it shares information with unaffiliated third parties and data cooperatives, which may be a 'sale' under the CCPA. It reports 71,362 privacy requests in 2025, 40,886 of them opt-outs, handled in about 2 business days. The notice gives email as the route: compliance@ctam.com with subject 'CCPA Opt-Out Notice' to opt out of sale (also covers Shine the Light), or subject 'Exercise of CCPA Rights' for know/access/delete. The address is Cloudflare-obfuscated on the page and was decoded from the HTML's mailto links. It says it verifies requests by matching name and email. The footer's 'Do Not Sell My Info.' page (https://www.smartmove.us/company/do-not-sell) returned a Cloudflare challenge to our fetcher, so it was not loaded and is not used here. Postal address on the page: 2000 Duke Street, Ste 300, Alexandria, VA 22314. Priority high rather than crucial: it holds movers' addresses but is not a people-search site. Nothing was sent; last_verified left null.",
+   "instructions_md": "1. Email compliance@ctam.com with the subject \"CCPA Opt-Out Notice\" to opt out of SmartMove/CTAM selling or sharing your personal information. This also covers California's Shine the Light direct-marketing opt-out.\n2. In the body, give your full name and the email address SmartMove may have for you. If you used SmartMove at a past move, add that street address and phone number so they can find your record.\n3. To delete your data or see what they hold, send a separate email to the same address with the subject \"Exercise of CCPA Rights\" and say which request you are making.\n4. Reply to any follow-up asking you to confirm your name and email; CTAM says it verifies requests that way.\n5. If you prefer the phone, call 1-877-298-8998. Keep a copy of your emails; they must respond within 45 days.",
+   "link_status": "unknown"
   },
   {
    "id": "socialcatfish-com",
