@@ -19,8 +19,7 @@ Preferences
 The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.
 Statistics
 Statistics
-The technical storage or access that is used exclusively for statistical purposes.
-The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you.
+The technical storage or access that is used exclusively for statistical purposes. The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you.
 Marketing
 Marketing
 The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes.
@@ -28,11 +27,7 @@ Manage options
 Manage services
 Manage {vendor_count} vendors
 Read more about these purposes
-Accept
-Deny
-View preferences
-Save preferences
-View preferences
+Accept Deny View preferences Save preferences View preferences
 {title}
 {title}
 {title}

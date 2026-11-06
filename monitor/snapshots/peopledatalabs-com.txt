@@ -1,30 +1,48 @@
 Do Not Sell or Share | People Data Labs
 Datasets
 Person Data
+Profiles enriched with resume and contact info.
 Company Data
+70MM+ companies with insights & signals.
 Job Posting Data
 Beta
-Use cases
+Hiring intent across industries. Updated daily.
+Daily hiring intent across industries.
+Job Posting Insights
+Use Cases
 HR Tech
+Source talent with deep professional context.
 Sales & Marketing
+Surface high-fit accounts and decision makers.
 Investment Research
+Benchmark companies with workforce signals.
 Resources
-Docs
+Documentation
+API reference and quickstart guides.
 Blog
+Guides, deep-dives, and product updates.
 Data Lab
+Free datasets, customer stories, and recipes.
 Product Roadmap
+Help shape the future of PDL.
+Release Notes
+Latest dataset releases and changelog.
 Company
-About PDL
+About Us
+We’re on a mission to build the world’s most complete workforce dataset.
 Our Engineers
+Meet the team building PDL.
 Pricing
-Login
-Sign UpContact Us
+Person Pricing
+Company Pricing
+LoginSign UpContact Us
 Menu
 Datasets
-Use cases
+Use Cases
 Resources
 Company
-PricingLoginSign UpContact Us
+Pricing
+LoginSign UpContact Us
 Do Not Sell or Share My Personal Information
 Use this form to opt out of the sale or sharing of your personal information, including certain disclosures for targeted advertising, where applicable.
 Required Information

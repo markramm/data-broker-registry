@@ -291,7 +291,7 @@ law,
 we base the use of third-party
 cookies
 upon consent or failure to opt
-out. Users may go to the "privacy choices"
+out. Users may go to the "Your Privacy Choices"
 link or the cookie settings icon on our
 website for more information about
 changing web tracking preferences.
@@ -426,7 +426,7 @@ We collect your username and password,
 as well as your interactions, when
 you use our App.
 We use your information to perform
-our contract to provide you with App
+our contract to provide App
 related services. We also have a
 legitimate interest in understanding
 how you use our App. Where required
@@ -633,7 +633,7 @@ your personal data
 You may have the right to request that we provide a
 list of third parties to whom we disclose personal
 data. You can access this information in the
-"privacy choices" link or the cookie
+"Your Privacy Choices" link or the cookie
 settings icon on our website.
 D. Revocation of consent and/or objection to certain
 processing
@@ -796,7 +796,7 @@ authentication information (including photo ID and
 photograph of those subscribers who chose to provide
 that information to verify their identity) for up to
 90 days after receipt; and recordings of customer
-care communications for two weeks after receipt.
+care communications for two-weeks after receipt.
 Data Privacy Framework
 FICO complies with the EU-U.S. Data Privacy Framework
 (EU-U.S. DPF), the UK Extension to the EU-U.S. DPF,
@@ -1109,15 +1109,15 @@ GmbH
 Sedanstraße 7
 93055 Regensburg,
 Germany
-E-Mail Address: privacyteam@fico.com
+Email Address: privacyteam@fico.com
 Brazil Local DPO
 Marisol Minamoto, Senior Counsel
 Fair Isaac Brazil, LLC, No. 999, Suite 121 Avenida Roque Petroni Junior
 Sao Paulo- SP
 04707-000 Brazil
-E-Mail Address: privacyteam@fico.com
+Email Address: privacyteam@fico.com
 Changes to This Policy
 If we change this policy, we will post the changes
 here.
 This policy was last updated and is effective as of
-October 2026.
+November 2026.
