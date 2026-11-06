@@ -1,6 +1,6 @@
 ---
 id: rgrmarketing-com
-name: "RGR Marketing (ReallyGreatRate, Inc.)"
+name: "RGR Marketing LLC"
 domain: rgrmarketing.com
 category: lead_generation
 people_search: false
@@ -19,7 +19,7 @@ readd_days: null
 legal_basis: [ccpa]
 last_verified: null
 source: "dbw+tcp-research"
-notes: "ReallyGreatRate, Inc. d/b/a RGR Marketing generates and sells consumer leads (mortgage, solar, home-improvement) to third-party businesses -- classic data-broker behavior even though its privacy policy is framed around 'business associates' and website visitors. WebFetch on rgrmarketing.com/privacy-policy/ (HTTP 200) confirmed CCPA language: California residents 'have the right to request information regarding the manner in which we share certain categories of your personal information with third parties,' handled via generic contact, not a self-service deletion/opt-out form. There is a separate commercial-email opt-out to info@rgrmarketing.com. An earlier automated summary surfaced a OneTrust DSAR form URL (privacyportal-eu-cdn.onetrust.com/dsarwebform/942fbf...) which returned HTTP 200 on direct curl, but its exact linkage from the site nav could not be independently confirmed by direct render, so it is not used as the primary opt_out_url. No CAPTCHA/ID gating found. tier set to guided because no confirmed self-service form exists; requester must email and reference CCPA rights. last_verified left null."
+notes: "ReallyGreatRate, Inc. d/b/a RGR Marketing generates and sells consumer leads (mortgage, solar, home-improvement) to third-party businesses -- classic data-broker behavior even though its privacy policy is framed around 'business associates' and website visitors. WebFetch on rgrmarketing.com/privacy-policy/ (HTTP 200) confirmed CCPA language: California residents 'have the right to request information regarding the manner in which we share certain categories of your personal information with third parties,' handled via generic contact, not a self-service deletion/opt-out form. There is a separate commercial-email opt-out to info@rgrmarketing.com. An earlier automated summary surfaced a OneTrust DSAR form URL (privacyportal-eu-cdn.onetrust.com/dsarwebform/942fbf...) which returned HTTP 200 on direct curl, but its exact linkage from the site nav could not be independently confirmed by direct render, so it is not used as the primary opt_out_url. No CAPTCHA/ID gating found. tier set to guided because no confirmed self-service form exists; requester must email and reference CCPA rights. last_verified left null. Updated 2026-11-03 by the daily maintainer after page-monitor #42: the privacy policy now names the company 'RGR Marketing LLC, d/b/a RGR Marketing' instead of 'ReallyGreatRate, Inc.', and its email-consent line now authorizes 'RGR Marketing LLC'. Only the legal name changed, so the entry name was updated. The contact route and the rest of the page were unchanged in the snapshot diff."
 ---
 
 1. Go to the RGR Marketing privacy policy page at https://www.rgrmarketing.com/privacy-policy/.
