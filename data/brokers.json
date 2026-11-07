@@ -1,21 +1,21 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.17",
-  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
+  "dataset_version": "0.1.18",
+  "content_hash": "sha256:740b2637d107ee2253cc2235cf7eea14f7bc647b6422d3b7d6ac84ab32a70fa4",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 496,
+  "authored_count": 499,
   "backlog_count": 89,
-  "total_known": 585,
-  "unverified_count": 459,
+  "total_known": 588,
+  "unverified_count": 462,
   "tiers": {
-   "guided": 272,
+   "guided": 275,
    "assisted": 152,
    "auto": 72
   },
   "priorities": {
    "crucial": 124,
-   "high": 157,
+   "high": 160,
    "standard": 215
   }
  },
@@ -6043,6 +6043,42 @@
    "link_status": "live"
   },
   {
+   "id": "gm-com",
+   "name": "General Motors",
+   "domain": "gm.com",
+   "category": "connected_vehicle_data",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://www.gm.com/consumer-privacy",
+   "opt_out_email": null,
+   "phone": "1-866-697-7482",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "full_name",
+    "email",
+    "address",
+    "phone"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "cpra",
+    "vcdpa",
+    "cdpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Registered California data broker (CA registry row: General Motors LLC, gm.com, privacy@gm.com, rights URL https://www.gm.com/consumer-privacy). GM collects driving-behavior, geolocation and vehicle data from connected cars (OnStar, the brand mobile apps), so the stakes for drivers are real. On 2026-11-07, fetched https://www.gm.com/privacy-statement with curl (HTTP 200). Its 'Your privacy rights' section says requests go through the U.S. Consumer Privacy Request Form or the phone line 1-866-MYPRIVACY (1-866-697-7482), and that GM does not accept privacy requests by email. Rights listed: access/portable copy, correct, delete, and, depending on state, opt out of targeted advertising ('Do Not Share'), opt out of sale, and a list of third parties. The statement also says GM honors Global Privacy Control, that marketing preferences are at gmcontactpreferences.com, and that you can unenroll from OnStar on 1-888-466-7827 or with the blue button. https://consumerprivacy.gm.com redirects to https://www.gm.com/consumer-privacy. That page loaded by curl but is only a shell that embeds the form from https://privacy.gm.com (an Angular app). privacy.gm.com returned 403 to a headless browser, so the rendered form was never seen. The form's JavaScript bundle (fetched by curl) shows fields for name, address, phone, email, optional date of birth, OnStar account number, GM Rewards number and VIN. It marks first name, last name, email, address and phone as required, and adds a step where a 6-digit verification code is sent to your email (or phone). No CAPTCHA code was found in the bundle, but because the rendered form wasn't observed, tier is guided out of caution. Nothing was submitted; last_verified left null.",
+   "instructions_md": "1. Go to GM's U.S. Consumer Privacy Request Form at https://www.gm.com/consumer-privacy (or call 1-866-697-7482). GM does not take privacy requests by email.\n2. Choose the requests you want: delete my personal information, opt out of selling, and opt out of sharing for targeted advertising (\"Do Not Share\").\n3. Enter your name, address, phone number and email. Optionally add your VIN, OnStar account number or GM Rewards number; these help GM find the vehicle data it holds about you.\n4. Request the verification code, then enter the 6-digit code GM sends to your email (or phone) to confirm the request.\n5. Answer any follow-up identity check. GM says it can take up to 45 days to respond.\n6. Optional: to stop new data being collected from a connected vehicle, unenroll from OnStar on 1-888-466-7827 (or with the blue OnStar button), and check the privacy settings in the car's infotainment system. Turning on Global Privacy Control in your browser opts you out of sale on GM's websites.",
+   "link_status": "unknown"
+  },
+  {
    "id": "giantpartners-com",
    "name": "Giant Partners, Inc",
    "domain": "giantpartners.com",
@@ -7669,6 +7705,39 @@
    "link_status": "live"
   },
   {
+   "id": "samba-tv",
+   "name": "Samba TV",
+   "domain": "samba.tv",
+   "category": "advertising_adtech",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://samba.com/privacy-center/notice-of-right-to-opt-out",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "full_name",
+    "email",
+    "phone"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "cpra"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Registered California data broker (CA registry row: Samba TV, Inc., samba.tv, rights URLs samba.tv/users/privacy-policy and samba.tv/users/your-privacy-handbook). Samba TV collects what people watch from smart TVs that ship with its 'Interactive TV' software (automatic content recognition) and uses it for ad targeting and measurement. On 2026-11-07, loaded https://www.samba.tv/users/your-privacy-handbook in a headless browser. It redirects to samba.tv/privacy-center/your-privacy-handbook, and its 'Your Privacy Choices' link goes to the Notice of Right to Opt-Out. That page now lives at https://samba.com/privacy-center/notice-of-right-to-opt-out (samba.tv redirects to samba.com). It offers three routes: the TV's settings menu (turn off 'Samba Interactive TV', or turn off Ad Personalization / turn on Limit Ad Tracking, and reset the device ID); the DAA/NAI industry opt-outs; and a web form. The web form is a OneTrust form at privacyportal-cdn.onetrust.com/dsarwebform/87c5ee85-893d-4972-ba26-2e82b743d041/d84d9664-facb-4de3-85fd-a2e339b73dbf.html, which rendered in full. Its required fields: on behalf of (myself/household); the right to exercise (Do Not Sell, Object to Processing, Access, Delete, Complaint/Appeal, Other); whether you have a Samba-enabled TV; first name, last name, email and phone number. Country is optional. The form includes a BotDetect image CAPTCHA (captchaCode field). The notice says identity verification follows submission. The opt_out_url is the notice page rather than the OneTrust form because that form's URL is tied to a OneTrust instance and may rotate. Nothing was submitted; last_verified left null.",
+   "instructions_md": "1. If you have a TV with Samba TV software, open the TV's Settings menu and find \"Samba Interactive TV\". Switch it off to stop viewing-data collection. If you'd rather keep it on, turn off \"Ad Personalization\" (on some TVs: turn on \"Limit Ad Tracking\") and reset the device ID. Menu names vary by TV brand.\n2. If you installed a Samba TV mobile app, delete it.\n3. To also have Samba stop selling or processing data it already holds, go to https://samba.com/privacy-center/notice-of-right-to-opt-out and open the \"web form\" link under \"Opt-out Using the Web Form\".\n4. Choose \"Myself\", then \"Do Not Sell My Information\". Submit the form again with \"Delete My Information\" if you also want deletion. Answer whether you have a Samba-enabled TV.\n5. Enter your first name, last name, email and phone number. Solve the image CAPTCHA and submit.\n6. Watch for Samba's email asking you to verify your identity, and follow it. You can appeal a refusal through the same email ticket.",
+   "link_status": "unknown"
+  },
+  {
    "id": "seamless-ai",
    "name": "Seamless.AI",
    "domain": "seamless.ai",
@@ -8385,6 +8454,38 @@
    "notes": "WebFetch on VideoAmp's privacy policy surfaced a 'Your Privacy Choices' page (confirmed live via direct fetch -- it loads a Ketch consent-management widget, JS-rendered so not readable by curl/WebFetch text extraction) plus a separate bidr.io ad-platform opt-out cookie endpoint and a privacy@ contact email. VideoAmp is a TV/cross-platform measurement and advertising company (adtech), not a people-search site. Marked assisted rather than guided since the visible mechanism is a standard consent-preferences widget, not a CAPTCHA/ID-gated process, though the JS-rendered form could not be fully inspected. last_verified left null since the widget's actual fields were not directly observed.",
    "instructions_md": "1. Go to VideoAmp's [Your Privacy Choices page](https://videoamp.com/your-privacy-choices/) and use the consent-preferences widget to opt out of data sale/sharing and targeted advertising.\n2. For cookie-based ad-targeting opt-out specifically, VideoAmp's policy also references an opt-out endpoint at optout.prod.bidr.io -- note this is device- and browser-specific, so repeat it on each browser/device you use.\n3. If the widget doesn't resolve your request, email privacy@videoamp.com directly with your name and email address and ask to opt out of sale/sharing and to delete your data.\n4. Sending a Global Privacy Control (GPC) signal from a supporting browser/extension may also register as an automatic opt-out under VideoAmp's policy.",
    "link_status": "live"
+  },
+  {
+   "id": "vizio-com",
+   "name": "VIZIO",
+   "domain": "vizio.com",
+   "category": "advertising_adtech",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://privacyportal-cdn.onetrust.com/dsarwebform/41aebd10-58ee-4c98-9dd5-aa66c9be664a/0099df9c-c0aa-4bf7-bd5f-7f4ff46768f6.html",
+   "opt_out_email": null,
+   "phone": "1-855-472-8817",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "email",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "cpra"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Registered California data broker (CA registry row: VIZIO Services, LLC, vizio.com, privacy@vizio.com). The registry gives two rights URLs: a VIZIO OneTrust form and Walmart's privacy-choices form (VIZIO is owned by Walmart). VIZIO smart TVs collect viewing data through automatic content recognition ('Viewing Data'). On 2026-11-07, loaded the VIZIO form at the opt_out_url in a headless browser and it rendered fully. The form's own text says that people who use a VIZIO OS product with no account, or with a VIZIO Account, submit requests through this form or by calling 1-855-472-8817. People who use a Walmart account on their VIZIO OS product must instead go to Walmart's 'Your Privacy Choices' form, which covers both VIZIO and Walmart data. Required fields: country, state, and data-subject email. The form says an identity-confirmation email is sent and the request isn't processed without confirming it. A Google reCAPTCHA widget loads on the form. Did not load the Walmart form, and did not check the TV's own settings menu for the Viewing Data toggle. vizio.com/en/privacy and /en/privacy-policy returned 404, so the opt_out_url is the OneTrust form from the CA registry; it may rotate. Nothing was submitted; last_verified left null.",
+   "instructions_md": "1. If you sign in to your VIZIO TV or apps with a Walmart account, make your request through Walmart's \"Your Privacy Choices\" form instead; it covers both VIZIO and Walmart data. Otherwise, continue below.\n2. Open VIZIO's privacy request form at https://privacyportal-cdn.onetrust.com/dsarwebform/41aebd10-58ee-4c98-9dd5-aa66c9be664a/0099df9c-c0aa-4bf7-bd5f-7f4ff46768f6.html (or call 1-855-472-8817).\n3. Select your country and state. Choose the requests your state offers, such as opting out of sale/sharing and deleting your data.\n4. Enter the email address VIZIO would have on file for you, solve the reCAPTCHA and submit.\n5. Open the identity-confirmation email VIZIO sends and confirm. VIZIO won't process the request otherwise.\n6. On the TV itself, look in the privacy or admin settings for a \"Viewing Data\" (automatic content recognition) setting and turn it off, so new viewing data isn't collected. Menu names vary by model.",
+   "link_status": "unknown"
   },
   {
    "id": "wealthengine-com",
