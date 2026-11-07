@@ -6,6 +6,7 @@ The information provided on this form will be used only for the purpose of remov
 Who is submitting this opt-out request? *
 Who is opting out?
 Myself
+Agent acting on behalf of
 An individual for which I have legal guardianship or power of attorney
 A deceased member of my family
 Name On The Account: *
@@ -15,6 +16,7 @@ Last Name *
 Email: *
 Email
 Confirm Email
+opt-out Phone Email:
 Phone *
 Address: *
 Address Line 1 *
@@ -76,7 +78,6 @@ WY
 Zip Code *
 Opt-out of promotional communications about SimioCloud’s products
 Opt-out of SimioCloud products
-Name
 SUBMIT
 NOTE: By submitting, I accept the terms and conditions of this opt-out.
 Page load link

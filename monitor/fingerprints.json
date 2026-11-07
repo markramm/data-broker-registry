@@ -405,12 +405,12 @@
    ],
    "final_url": "https://allpeople.com/privacy",
    "home_redirect": false,
-   "last_changed": "2026-10-14",
+   "last_changed": "2026-11-07",
    "offsite": false,
-   "state": "bot-blocked",
-   "status": 403,
-   "text_hash": "sha256:ccfa85e46da06586c4500e5d1c47b4e90618ab83ddd035eafa04c90e5736332d",
-   "text_lines": 19,
+   "state": "live",
+   "status": 200,
+   "text_hash": "sha256:32889a1cf3c102098302cc6182c3c2a9966dd373568c61a8fdc92867f6786d02",
+   "text_lines": 18,
    "title": "AllPeople Privacy Policy",
    "url": "https://allpeople.com/privacy",
    "vendors": []
@@ -584,9 +584,9 @@
   "apollointeractive-com": {
    "captcha": true,
    "fields": [
+    "*:tel",
     "*:text",
     "*:text",
-    "address:text",
     "attest:checkbox",
     "data-request:radio",
     "data-request:radio",
@@ -609,8 +609,8 @@
     "repauth_last_name:text",
     "repauth_photo_id:file",
     "selected_state:select",
-    "telephone:tel",
-    "zipcode:tel"
+    "state:text",
+    "telephone:tel"
    ],
    "final_url": "https://www.apollointeractive.com/data-rights.php",
    "flags": [
@@ -1593,11 +1593,11 @@
    ],
    "final_url": "https://www.criteo.com/privacy/disable-criteo-services-on-internet-browsers/",
    "home_redirect": false,
-   "last_changed": "2026-11-04",
+   "last_changed": "2026-11-07",
    "offsite": false,
    "state": "live",
    "status": 200,
-   "text_hash": "sha256:db51751539274d9e7b406e1c35bcf058b35a84d15f73bb22824ffe7cc9f7fa5f",
+   "text_hash": "sha256:0355f82264110f00e430da43e42a76d54a5cffc52daf4394e74dc3d408138ab7",
    "text_lines": 369,
    "title": "Disable Criteo services on Internet browsers | Criteo",
    "url": "https://www.criteo.com/privacy/disable-criteo-services-on-internet-browsers/",
@@ -2304,7 +2304,7 @@
    "final_url": "https://app.fetcher.ai/opt-out",
    "home_redirect": false,
    "last_changed": "2026-10-14",
-   "misses": 20,
+   "misses": 21,
    "offsite": false,
    "state": "live",
    "status": 200,
@@ -2334,7 +2334,7 @@
    "final_url": "https://www.fhamortgagefinder.com/CCPArequest.php",
    "home_redirect": false,
    "last_changed": "2026-10-14",
-   "misses": 20,
+   "misses": 21,
    "offsite": false,
    "state": "live",
    "status": 200,
@@ -2520,7 +2520,7 @@
    "final_url": "https://www.governmentregistry.org/opt-out",
    "home_redirect": false,
    "last_changed": "2026-10-14",
-   "misses": 22,
+   "misses": 23,
    "offsite": false,
    "state": "live",
    "status": 200,
@@ -2640,11 +2640,11 @@
    ],
    "final_url": "https://www.hartehanks.com/newsroom/",
    "home_redirect": false,
-   "last_changed": "2026-10-21",
+   "last_changed": "2026-11-07",
    "offsite": false,
    "state": "live",
    "status": 200,
-   "text_hash": "sha256:ba0d70d62ce7047e6bb329c93484707481054a9a714bca42fe0af9a705d4f382",
+   "text_hash": "sha256:a742211f21076c5a06411d64ddb1e4e2fa8a01a71df21f515ec794e51989d64a",
    "text_lines": 144,
    "title": "Newsroom",
    "url": "https://www.hartehanks.com/privacy/preferences",
@@ -3618,9 +3618,8 @@
    "home_redirect": false,
    "last_changed": "2026-10-14",
    "offsite": false,
-   "pending": "bot-blocked",
-   "state": "live",
-   "status": 200,
+   "state": "bot-blocked",
+   "status": 403,
    "text_hash": "sha256:64ef6760ff5686286715eaad177866048fb584b9102b7bf70aa75e0877b04eaf",
    "text_lines": 1,
    "title": "LocatePLUS -Skip Tracing & Investigative Databases",
@@ -4067,7 +4066,7 @@
    "final_url": "https://www.n-focus.com/do-not-sell-or-share-my-personal-information/",
    "home_redirect": false,
    "last_changed": "2026-10-14",
-   "misses": 16,
+   "misses": 17,
    "offsite": false,
    "state": "live",
    "status": 200,
@@ -4099,9 +4098,8 @@
   },
   "neighbor-report": {
    "last_changed": "2026-10-14",
-   "pending": "bot-blocked",
-   "state": "unreachable",
-   "status": 0,
+   "state": "bot-blocked",
+   "status": 403,
    "url": "https://neighbor.report/remove"
   },
   "nextroll-com": {
@@ -4764,10 +4762,37 @@
    "vendors": []
   },
   "phonebooks-com": {
+   "captcha": false,
+   "fields": [
+    "ctl00$ContentPlaceHolder1$DrpDwnLstNmeStt:select",
+    "ctl00$ContentPlaceHolder1$DrpDwnLstddrssStt:select",
+    "ctl00$ContentPlaceHolder1$FirstNameTextBox:text",
+    "ctl00$ContentPlaceHolder1$LastNameTextBox:text",
+    "ctl00$ContentPlaceHolder1$NameCityTextBox:text",
+    "ctl00$ContentPlaceHolder1$TxtBxAddrssCty:text",
+    "ctl00$ContentPlaceHolder1$TxtBxFrstNm:text",
+    "ctl00$ContentPlaceHolder1$TxtBxLstNm:text",
+    "ctl00$ContentPlaceHolder1$TxtBxMddlNm:text",
+    "ctl00$ContentPlaceHolder1$TxtBxNmCty:text",
+    "ctl00$ContentPlaceHolder1$TxtBxddrss1:text",
+    "ctl00$ContentPlaceHolder1$TxtBxddrss:text",
+    "ctl00$ContentPlaceHolder1$atXsACbz:tel",
+    "ctl00$ContentPlaceHolder1$searchinput:tel"
+   ],
+   "final_url": "https://www.spydialer.com/",
+   "flags": [
+    "opt-out URL now lands on another site: spydialer.com"
+   ],
+   "home_redirect": false,
    "last_changed": "2026-10-14",
-   "state": "bot-blocked",
-   "status": 403,
-   "url": "https://www.phonebooks.com/contact.html"
+   "offsite": true,
+   "state": "live",
+   "status": 200,
+   "text_hash": "sha256:3791fa5984271b5e4c05181cb34722956d41114194d696b52e213ee2ae622813",
+   "text_lines": 268,
+   "title": "Free Phone Number Lookup | SpyDialer",
+   "url": "https://www.phonebooks.com/contact.html",
+   "vendors": []
   },
   "phonedetective-com": {
    "captcha": false,
@@ -4776,12 +4801,12 @@
    ],
    "final_url": "https://www.numberguru.com/",
    "home_redirect": false,
-   "last_changed": "2026-11-06",
+   "last_changed": "2026-11-07",
    "offsite": false,
    "state": "live",
    "status": 200,
-   "text_hash": "sha256:1723d8a595c4cd444242b2973bc1388333939c0a6c821eac2a8d2f75708e2edd",
-   "text_lines": 88,
+   "text_hash": "sha256:65db25d4acf14e3d6ff2d20e42c1dc090f232e2473b8ba490860c3b2b03f08c1",
+   "text_lines": 81,
    "title": "Reverse Phone Lookup | NumberGuru",
    "url": "https://www.numberguru.com/",
    "vendors": []
@@ -5389,20 +5414,23 @@
   },
   "searchquarry-com": {
    "captcha": false,
-   "fields": [],
-   "final_url": "https://members.searchquarry.com/opt-out",
+   "fields": [
+    "q:text"
+   ],
+   "final_url": "https://www.searchquarry.com:443/privacy-choices/",
+   "flags": [
+    "opt-out URL now lands on another site: searchquarry.com"
+   ],
    "home_redirect": false,
-   "last_changed": "2026-10-14",
-   "offsite": false,
+   "last_changed": "2026-11-07",
+   "offsite": true,
    "state": "live",
    "status": 200,
-   "text_hash": "sha256:2d6f089e8a93aed615a4ccf951eeaaa95c8d716d729bb91310e2da8050ef7e69",
-   "text_lines": 42,
-   "title": "Opt Out Policy - Searchquarry.com",
+   "text_hash": "sha256:57acf5256261aa020809bce1ec3196903bfb5cc6af6586baee9b4ea3d14642d4",
+   "text_lines": 40,
+   "title": "Your Privacy Choices - SearchQuarry.comTwitter-color",
    "url": "https://members.searchquarry.com/opt-out",
-   "vendors": [
-    "trustarc"
-   ]
+   "vendors": []
   },
   "semcasting-com": {
    "captcha": false,
@@ -5487,12 +5515,12 @@
     "page loads a CAPTCHA but entry says captcha: false"
    ],
    "home_redirect": false,
-   "last_changed": "2026-10-21",
+   "last_changed": "2026-11-07",
    "offsite": false,
    "state": "live",
    "status": 200,
-   "text_hash": "sha256:ff3c689d4203bf6d7520060cf99d9f5c3011c3f4c4c5e8a3622d62ceed31f92b",
-   "text_lines": 86,
+   "text_hash": "sha256:6a7222a10a807af95106acea3c77c776c67ff64bfad078c71ee133d2ba4e4d2e",
+   "text_lines": 87,
    "title": "US Consumer Opt-Out Form | SimioCloud",
    "url": "https://simiocloud.com/optout/",
    "vendors": []
@@ -6006,12 +6034,12 @@
     "page loads a CAPTCHA but entry says captcha: false"
    ],
    "home_redirect": false,
-   "last_changed": "2026-10-30",
+   "last_changed": "2026-11-07",
    "offsite": false,
    "state": "live",
    "status": 200,
-   "text_hash": "sha256:0baa36d4c3a8ebb0400c5dffd58eae7feabfe2533c46c7216eab5aaaf13e6807",
-   "text_lines": 336,
+   "text_hash": "sha256:1aa2ee917d09c2fb5343ab6a15d961753ded1118eeae91f00516a3fc76eff100",
+   "text_lines": 415,
    "title": "Privacy Policy | The Data Group",
    "url": "https://thedatagroup.com/privacy/",
    "vendors": []
@@ -6490,6 +6518,7 @@
    "final_url": "https://videoamp.com/your-privacy-choices/",
    "home_redirect": false,
    "last_changed": "2026-10-14",
+   "misses": 1,
    "offsite": false,
    "state": "live",
    "status": 200,
@@ -6519,7 +6548,7 @@
   "webbula-com": {
    "captcha": true,
    "fields": [
-    "hcap_hp_DlTUo0EyeDzw:text",
+    "hcap_hp_N4iOpdcOJxRZ:text",
     "input_1:text",
     "input_22:text",
     "input_3:text",
@@ -6539,7 +6568,7 @@
     "page loads a CAPTCHA but entry says captcha: false"
    ],
    "home_redirect": false,
-   "last_changed": "2026-11-06",
+   "last_changed": "2026-11-07",
    "offsite": false,
    "state": "live",
    "status": 200,
