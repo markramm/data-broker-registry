@@ -1,21 +1,21 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.17",
-  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
+  "dataset_version": "0.1.18",
+  "content_hash": "sha256:c5baf40cd3124b4a639791a50c4801e7766207b0b940d1a7cbf980f770ee7e70",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 496,
+  "authored_count": 499,
   "backlog_count": 89,
-  "total_known": 585,
-  "unverified_count": 459,
+  "total_known": 588,
+  "unverified_count": 462,
   "tiers": {
-   "guided": 272,
-   "assisted": 152,
+   "guided": 273,
+   "assisted": 154,
    "auto": 72
   },
   "priorities": {
    "crucial": 124,
-   "high": 157,
+   "high": 160,
    "standard": 215
   }
  },
@@ -5950,6 +5950,36 @@
    "link_status": "live"
   },
   {
+   "id": "fogdatascience-com",
+   "name": "Fog Data Science LLC",
+   "domain": "fogdatascience.com",
+   "category": "location_data_broker",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://www.fogdatascience.com/opt-out",
+   "opt_out_email": "privacy@fogdatascience.com",
+   "phone": "+1 (888) 834-3202",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-31 by the daily maintainer from California's data broker registry (Fog Data Science LLC; rights URL https://www.fogdatascience.com/opt-out). Fog sells commercially available device location data; its 'Your Privacy Choices' page (curl and WebFetch, HTTP 200; rendered in headless Chromium) says its Data Services are 'organized by Mobile Advertising ID (MAID), not by consumer name, home address', and that names, addresses, phone numbers or dates of birth will not let it find a MAID-indexed record. The page has two Squarespace forms: 'Opt-Out My Device', whose only field is the device identifier, and a 'California Privacy Request' form requiring first and last name, email, a California-residency yes/no, a message, the MAID and the right requested (know / access / delete / opt-out / limit). Both forms load reCAPTCHA Enterprise in invisible mode (size=invisible), so captcha: false; a challenge could still appear on submit, which was not tested. The page says the MAID is used to 'prevent associated data from being included in applicable future data updates' and does not say data already held is deleted, so the steps add the delete request. Contacts on the page: privacy@fogdatascience.com and +1 (888) 834-3202. It also points California residents to the CPPA's DROP platform. Priority high: precise location data tied to a device. Nothing was submitted; last_verified null.",
+   "instructions_md": "1. Find your phone's mobile advertising ID (MAID). On Android it is under Settings > Google > Ads; iPhone settings don't display it, so use the \"suggested links\" on Fog's form for how to find it. Fog's records are indexed only by this ID, so your name or address won't find them.\n2. Go to https://www.fogdatascience.com/opt-out and open \"Opt-Out My Device\".\n3. Paste your advertising ID into the Identifier field and submit. Repeat for each phone or tablet you use.\n4. To also have data already held deleted, California residents can use \"Submit a California Privacy Request\" on the same page: enter your name, email, confirm residency, paste the advertising ID, choose \"Right to Delete\" (and \"Right to Opt-out\"), and add a short message.\n5. If the forms don't work, email privacy@fogdatascience.com or call +1 (888) 834-3202 with your advertising ID and the request.",
+   "link_status": "unknown"
+  },
+  {
    "id": "foursquare-com",
    "name": "Foursquare",
    "domain": "foursquare.com",
@@ -7073,6 +7103,37 @@
    "link_status": "live"
   },
   {
+   "id": "outlogic-io",
+   "name": "Outlogic, LLC",
+   "domain": "outlogic.io",
+   "category": "location_data_broker",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://outlogic.io/opt-out-form/",
+   "opt_out_email": "privacy@outlogic.io",
+   "phone": "+1 (866) 346-9602",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "email",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-31 by the daily maintainer from California's data broker registry (Outlogic, LLC; rights URLs https://outlogic.io/opt-out-form/ and https://outlogic.io/privacy-policy/). The opt-out page (curl and WebFetch, HTTP 200; rendered in headless Chromium) covers Outlogic's collection, use and sale of personal information, 'including data that may reveal your device's precise geographic location'; its Texas notice says 'We may sell your sensitive personal data', including precise latitude/longitude of a mobile device. The opt-out form (Gravity Forms) requires a Device ID (advertising ID or installation ID) and an email; a third text input is a hidden honeypot. No CAPTCHA widget or script was found. Deletion is not on the form: the page says to request it by email or phone, also with a Device ID. It also notes that turning off iOS 'Allow apps to request to track' does not stop collection by itself, and that on Android 12+ a deleted (zeroed) advertising ID can't be matched to data already collected, so submit the opt-out before resetting or deleting it. The page doesn't name a parent company and no processing time is stated. Priority high: precise device location data. Nothing was submitted; last_verified null.",
+   "instructions_md": "1. Find your phone's advertising ID before changing any ad settings. On Android it is under Settings > Google > Ads. Don't delete or reset it first: Outlogic says it can't match a zeroed-out ID to data it already has. An app's privacy settings screen may also show an \"installation ID\", which the form accepts too.\n2. Go to https://outlogic.io/opt-out-form/.\n3. Enter the Device ID and your email address, and submit. Repeat for each device.\n4. To have the data deleted as well, email privacy@outlogic.io or call +1 (866) 346-9602 and ask for deletion, giving the same Device ID.\n5. On iPhone, turning off \"Allow Apps to Request to Track\" helps going forward, but Outlogic says you still need to submit the opt-out.",
+   "link_status": "live"
+  },
+  {
    "id": "outwardmedia-com",
    "name": "Outward Media, Inc.",
    "domain": "outwardmedia.com",
@@ -7989,16 +8050,17 @@
    "tier": "guided",
    "priority": "high",
    "method": "form",
-   "opt_out_url": "https://thedatagroup.com/privacy/",
-   "opt_out_email": "compliance@thedatagroup.com",
+   "opt_out_url": "https://thedatagroup.com/privacy/consumer-optout-request-form/",
+   "opt_out_email": null,
    "phone": null,
-   "captcha": false,
+   "captcha": true,
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
    "required_fields": [
     "full_name",
-    "email"
+    "email",
+    "other"
    ],
    "readd_days": null,
    "legal_basis": [
@@ -8006,9 +8068,40 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "The Data Group is a data append/enrichment and mailing-list broker; its own site footer discloses 'The entity maintaining this website is a data broker under Texas law,' registered with the Texas Secretary of State. It sells email/phone/demographic/psychographic data-append services and operates opt-out mechanisms for California plus a listed multi-state group (CO, CT, DE, IN, IA, MT, NJ, FL, OR, NE, TN, TX, UT, VA, VT, NH, MN). WebFetch on https://thedatagroup.com/privacy/ confirmed an opt-out email at compliance@thedatagroup.com and a footer 'I am a California resident do not sell my personal data' link, but did not render the underlying Consumer Privacy Request Form itself, so exact form fields/CAPTCHA weren't independently confirmed -- kept as guided/method:form (routing through the privacy page as the entry point) rather than tier:auto, since the page also references a web-based Consumer Privacy Request Form as the primary path and the email's completeness as a standalone channel wasn't confirmed. Not people_search -- this is a B2B/marketing append vendor, not an individual-lookup product. last_verified left null.",
-   "instructions_md": "1. Go to The Data Group's privacy page at https://thedatagroup.com/privacy/.\n2. Use the \"I am a California resident do not sell my personal data\" link in the footer, or the Consumer Privacy Request Form referenced on that page, to submit an opt-out request.\n3. Alternatively, email compliance@thedatagroup.com directly with your full name and the email address(es) you want opted out, stating you are requesting deletion/opt-out of sale under CCPA (or your applicable state law).\n4. The company states it will honor opt-out requests within 45 days; watch for a confirmation reply.\n5. The Data Group also lists opt-out coverage for residents of CO, CT, DE, IN, IA, MT, NJ, FL, OR, NE, TN, TX, UT, VA, VT, and NH -- mention your state if you live in one of these and the standard process doesn't seem to apply.",
-   "link_status": "live"
+   "notes": "The Data Group is a data append/enrichment and mailing-list broker; its own site footer discloses 'The entity maintaining this website is a data broker under Texas law,' registered with the Texas Secretary of State. It sells email/phone/demographic/psychographic data-append services and operates opt-out mechanisms for California plus a listed multi-state group (CO, CT, DE, IN, IA, MT, NJ, FL, OR, NE, TN, TX, UT, VA, VT, NH, MN). Not people_search -- this is a B2B/marketing append vendor, not an individual-lookup product. Updated 2026-10-31 by the daily maintainer after page-monitor issue #156: the privacy page links to the Consumer Privacy Request Form at https://thedatagroup.com/privacy/consumer-optout-request-form/ (curl, HTTP 200). That page says privacy requests 'cannot be processed by email' and that requests sent to compliance@thedatagroup.com get an automated reply pointing to the form, so the email route was removed and opt_out_email set to null (compliance@thedatagroup.com remains a general-questions contact). The Ninja Forms config embedded in the page defines the form: First Name, Last Name, US State, Zip5, Email and a legal-certification checkbox are required; Address, City and Phone are optional; it includes a reCAPTCHA field with size 'visible' (v2 checkbox), so captcha: true. The form scripts are lazy-loaded and did not render in a headless browser, so the widget itself was not seen on screen. The CAPTCHA the monitor flagged on /privacy/ itself belongs to an email-only footer form (Cloudflare Turnstile), not the opt-out. Nothing was submitted; last_verified left null.",
+   "instructions_md": "1. Go to The Data Group's Consumer Privacy Request Form at https://thedatagroup.com/privacy/consumer-optout-request-form/. Email requests are not accepted: The Data Group replies to them with a pointer to this form.\n2. Enter your first and last name, US state, 5-digit ZIP code and email address. Address, city and phone are optional, but adding the address and phone they may hold helps them match your record.\n3. Check the box certifying that you are the person whose information you are submitting.\n4. Complete the reCAPTCHA (\"I'm not a robot\") and submit. If the form won't submit, the page suggests turning off any VPN and trying again.\n5. The Data Group says it will remove your information within the time required by law. The privacy policy covers California and the multi-state group it lists (CO, CT, DE, IN, IA, MT, NJ, FL, OR, NE, TN, TX, UT, VA, VT, NH, MN).",
+   "link_status": "unknown"
+  },
+  {
+   "id": "theorg-com",
+   "name": "The Org (Orgio, Inc.)",
+   "domain": "theorg.com",
+   "category": "b2b_contact_data",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://theorg.com/opt-out",
+   "opt_out_email": "privacy@theorg.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "email",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-31 by the daily maintainer from California's data broker registry (Orgio, Inc.; rights URL https://theorg.com/do-not-sell). The Org publishes crowdsourced public org charts naming people and their job positions. https://theorg.com/do-not-sell (curl and WebFetch, HTTP 200) says individuals can 'choose not to appear on The Org by going through the opt out flow', that 'We need to verify your work email because that is the unique key to identify positions', that the opt-out 'may not work if you use a personal email address or an anonymous email provider', that only the work email is kept 'to prevent your information from being added again', and that because the site is crowdsourced information may be added again. Privacy contact: privacy@theorg.com; company takedowns go to support@theorg.com. In headless Chromium, https://theorg.com/opt-out shows 'Opt out of The Org' and a Continue link, which leads to /opt-out/position-select ('Select the position that you want to remove') with a 'Search position' box. The flow was not followed past that screen (no search was run), so the work-email verification step and any CAPTCHA were not seen; captcha: false reflects only that no widget appeared on the first two screens. Guided because the flow is a multi-step search plus work-email verification that a tool can't prefill. Nothing was submitted; last_verified null.",
+   "instructions_md": "1. Go to https://theorg.com/opt-out and click \"Continue\".\n2. In \"Search position\", find the position (your name and job at a company) that you want removed, and select it.\n3. When asked, give your work email address at that company and confirm it from the email The Org sends. The Org says a personal or anonymous email address may not work, because the work email is how it identifies positions.\n4. Repeat for each position listed under your name, such as past jobs.\n5. If you no longer have that work email, or the flow fails, email privacy@theorg.com asking them to remove your profile and stop selling or sharing your information, with the link to the profile page.\n6. Check back later: The Org says listings are crowdsourced and may be added again. It keeps your work email to try to prevent that.",
+   "link_status": "unknown"
   },
   {
    "id": "fetcher-ai",
