@@ -1,16 +1,16 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.17",
-  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
+  "dataset_version": "0.1.18",
+  "content_hash": "sha256:51deb0e968684878d8d12e0dd7acf808964357d355345e5c85d02609676939e1",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
   "authored_count": 496,
   "backlog_count": 89,
   "total_known": 585,
   "unverified_count": 459,
   "tiers": {
-   "guided": 272,
-   "assisted": 152,
+   "guided": 273,
+   "assisted": 151,
    "auto": 72
   },
   "priorities": {
@@ -2480,31 +2480,34 @@
   },
   {
    "id": "phonebooks-com",
-   "name": "Phonebooks.Com (Affiliated With Intelius)",
+   "name": "Phonebooks.Com (Now Redirects To Spy Dialer)",
    "domain": "phonebooks.com",
    "category": "people_search",
    "people_search": true,
-   "tier": "assisted",
+   "tier": "guided",
    "priority": "crucial",
    "method": "form",
-   "opt_out_url": "https://www.phonebooks.com/contact.html",
+   "opt_out_url": "https://www.spydialer.com/optout",
    "opt_out_email": null,
-   "phone": "904-270-9408",
-   "captcha": false,
+   "phone": null,
+   "captcha": true,
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
+   "verification": "email_confirm",
    "required_fields": [
     "full_name",
     "email"
    ],
    "readd_days": null,
-   "legal_basis": [],
+   "legal_basis": [
+    "ccpa"
+   ],
    "last_verified": null,
    "source": "data-brokers-watch",
-   "notes": "Direct fetch of contact.html returned 403; confirmed via WebSearch (Privacy Rights Clearinghouse listing + onerep guide). Phonebooks.com is a reverse-phone/people-lookup site affiliated with Intelius/PeopleConnect -- corrected category/people_search from the migrated data_brokers/false. Own opt-out form on contact.html asks for name + email, sends a verification email with a link to a follow-up form, no CAPTCHA reported. As an alternative, users can also opt out via the PeopleConnect Suppression Center (suppression.peopleconnect.us) since Intelius-family sites share that suppression list. No CAPTCHA/ID -> assisted. last_verified left null (contact.html not directly fetchable).",
-   "instructions_md": "1. Go to phonebooks.com/contact.html.\n2. Select \"The subject of the request\" from the dropdown, then enter your first and last name and an email address you can access.\n3. Check the agreement box and click \"Submit.\"\n4. Check your inbox for a verification email from Phonebooks and click the confirmation link inside it.\n5. Complete the follow-up form with the requested details (only fields marked required are necessary) and submit.\n6. If this form is unavailable, you can alternatively opt out through the PeopleConnect Suppression Center at suppression.peopleconnect.us, since Phonebooks.com is affiliated with the Intelius/PeopleConnect data network.",
-   "link_status": "bot-blocked"
+   "notes": "2026-11-08 maintainer update (page-monitor #196): phonebooks.com no longer has its own opt-out. Fetched https://www.phonebooks.com/contact.html and https://www.phonebooks.com/ today: both answer HTTP 301 to https://www.spydialer.com/, so the whole site now redirects to Spy Dialer, and the old contact.html form is gone. Fetched https://www.spydialer.com/optout (HTTP 200, 'Do Not Sell/Right to Opt-out'): it is the same two-stage process the old phonebooks.com form used ('I am: The subject of the request', name + email, consent box, emailed link to a follow-up form), now with an anti-bot check (Cloudflare Turnstile markup present). This entry therefore points at Spy Dialer's opt-out and matches the spydialer-com entry. The stage-2 form behind the emailed link was not seen. Nothing was submitted. Earlier research (PRC listing, onerep guide) tied phonebooks.com to the Intelius/PeopleConnect network, so the PeopleConnect suppression center is kept as an extra step; whether that link still holds after the redirect is unconfirmed. CAPTCHA + email-link multi-step -> guided. last_verified left null.",
+   "instructions_md": "1. Note that phonebooks.com now redirects to spydialer.com, so phonebooks.com listings are removed through Spy Dialer's opt-out.\n2. Go to https://www.spydialer.com/optout.\n3. Under \"I am\", choose \"The subject of the request\" (or \"An authorized agent\" if you are filing for someone else).\n4. Enter your first name, optional middle name, last name, and email address, tick the consent box, complete the anti-bot check, and click \"Continue.\"\n5. Open the email Spy Dialer sends and click its link within 24 hours.\n6. On the form the link opens, enter the details exactly as they appear on the listing you want removed and submit.\n7. Keep the confirmation email. Allow at least 3 days after approval, then search your number on Spy Dialer to confirm the listing is gone.\n8. Because phonebooks.com was historically part of the Intelius/PeopleConnect network, also consider opting out at the PeopleConnect Suppression Center (suppression.peopleconnect.us).",
+   "link_status": "unknown"
   },
   {
    "id": "pipl-com",
@@ -2971,16 +2974,16 @@
    "tier": "guided",
    "priority": "crucial",
    "method": "form",
-   "opt_out_url": "https://members.searchquarry.com/opt-out",
-   "opt_out_email": null,
-   "phone": null,
-   "captcha": false,
+   "opt_out_url": "https://www.searchquarry.com/privacy-choices/",
+   "opt_out_email": "privacy@searchquarry.com",
+   "phone": "1-800-859-7375",
+   "captcha": true,
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
    "required_fields": [
     "full_name",
-    "address"
+    "email"
    ],
    "readd_days": null,
    "legal_basis": [
@@ -2988,9 +2991,9 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "WebFetch on searchquarry.com and members.searchquarry.com/opt-out succeeded directly (not bot-blocked). SearchQuarry is a public-records/background-check people-search site (criminal, court, civil, driving, vehicle records) with a paid 'JOIN' membership funnel. Footer carries both 'Exercise My Privacy Rights' and 'Do Not Sell / Share My Personal Information' links, both routing to the same members.searchquarry.com/opt-out page. The standard opt-out form asks for first name, last name, state, and optional city -- no CAPTCHA or ID was observed in the fetched content, but there is also a separate OneTrust-hosted 'Data Subject Rights' portal for broader requests, and a separate email path (privacy@searchquarry.com) specifically for legally-covered persons (judges, law enforcement, family under the Daniel Anderl Judicial Security and Privacy Act). Classified guided rather than assisted because the standard form only locates matching records by name/state rather than a submitted listing URL, so multiple matching profiles/manual confirmation is likely required; last_verified left null since this is single-session research, not a repeat-confirmed process.",
-   "instructions_md": "1. Go to [searchquarry.com](https://www.searchquarry.com) and search your own name to see what listings exist about you (you do not need to pay to see that a listing exists).\n2. Scroll to the site footer and click \"Do Not Sell / Share My Personal Information\" (or go directly to the [opt-out form](https://members.searchquarry.com/opt-out)).\n3. Enter your first name, last name, and state (city is optional but helps narrow the match) and submit the form.\n4. Review the matching record(s) SearchQuarry surfaces and confirm the ones that are you for removal.\n5. If you are a judge, law enforcement officer, or an immediate family member of one, you may instead qualify for expedited removal under the Daniel Anderl Judicial Security and Privacy Act: email privacy@searchquarry.com with your full name, residence, email address, and a note confirming your covered-person status, using the subject line \"Attention Covered Person Removal Request.\"\n6. For broader data-subject-rights requests (access, deletion, correction) beyond the simple opt-out, use the linked OneTrust privacy-rights portal referenced on the same page.\n7. Recheck periodically, since public-records aggregators like SearchQuarry re-pull source data and listings can reappear.",
-   "link_status": "live"
+   "notes": "2026-11-08 maintainer update (page-monitor #198): the old name/state opt-out form is gone. Fetched https://members.searchquarry.com/opt-out today: HTTP 301 to https://www.searchquarry.com/privacy-choices/ ('Your Privacy Choices', last updated October 19, 2026). That page says SearchQuarry no longer sells new memberships; reports for new customers come from its partners TruthFinder and BeenVerified, SearchQuarry can't change or remove information in their reports, and to opt out of their search results you use their own tools (it links https://www.truthfinder.com/opt-out/ and https://www.beenverified.com/svc/optout/search/). Requests about SearchQuarry's own records (search terms, referral records, the members area) go to privacy@searchquarry.com, (800) 859-7375, or mail to Search Quarry, LLC, 732 S 6th St, Ste R, Las Vegas, NV 89101; it responds within 45 days and may ask for identity confirmation. The covered-person (Daniel Anderl Act) email path is unchanged. The page also has an advertising-tags toggle and honors GPC. The TrustArc portal the old entry mentioned is no longer linked. captcha: true and guided reflect the TruthFinder and BeenVerified opt-outs (see those entries), which is where removal from search results actually happens; neither partner form was re-fetched today. Nothing was submitted. last_verified left null.",
+   "instructions_md": "1. Know that SearchQuarry no longer runs its own name-search opt-out form: its search results now come from TruthFinder and BeenVerified, and removing yourself from those results has to be done on their sites. SearchQuarry's [Your Privacy Choices](https://www.searchquarry.com/privacy-choices/) page links both.\n2. Opt out at TruthFinder: go to https://www.truthfinder.com/opt-out/ and follow the steps in the TruthFinder entry (CAPTCHA and email verification).\n3. Opt out at BeenVerified: go to https://www.beenverified.com/svc/optout/search/, search your name and state, select your listing, and confirm through the email BeenVerified sends.\n4. To delete anything SearchQuarry itself holds (search terms, referral records, or a members-area account), email privacy@searchquarry.com saying which right you are using (for example, deletion or opt-out of sale/sharing). You can also call (800) 859-7375 or write to Search Quarry, LLC, 732 S 6th St, Ste R, Las Vegas, NV 89101. Expect a reply within 45 days; they may ask you to confirm your identity.\n5. If you are a judge, prosecutor, law enforcement officer, or a household family member of one, email privacy@searchquarry.com with your full name, residence, email address, and covered-person status, using the subject line \"Attention Covered Person Removal Request.\" Contact TruthFinder and BeenVerified as well, since this request only covers SearchQuarry's own records.\n6. Optionally, turn off \"Allow advertising tags\" on the same page (or use a browser that sends Global Privacy Control) to stop ad tracking in that browser.",
+   "link_status": "unknown"
   },
   {
    "id": "skipsmasher-com",
