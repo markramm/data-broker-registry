@@ -26,6 +26,19 @@ Privacy Statement
 We take your privacy seriously!
 Spectrum Mailing Lists does not compile, store, publish or sell Personal Information relating to consumers. The only Consumer information compiled by Spectrum Mailing Lists is publicly available information that is from federal, state, or local government records. However, we value your desire to be left alone. Simply complete the opt-out form, and we will delete your name & address from our data if it currently exists, as well as put your information into our perpetual suppression file in case you appear in the future. Please note that we cannot honor requests without a complete mailing address and full name. If you receive marketing mail in different name variations, you can submit multiple requests.
 Visit this form to submit your request: https://forms.gle/mz7hgk95xKaCUCzC9
+CA Request Category
+Total Requests
+Requests Complied With in Whole or in Part
+Average Days to Process
+Median Days to Process
+Requests to know what information was sold/shared and to whom
+and/or what information exists
+687
+687
+Requests to delete, opt out of sale, sharing
+180,727
+180,727
+* All requests to know were also added to the delete list.
 Please wait while the policy is loaded. If it does not load, please click here.
 ACCURACY GUARANTEED
 Most of our Lists are
@@ -63,5 +76,4 @@ Terms & Conditions
 Testimonials
 What We Promise
 Why Choose Us
-We accept all popular payment methods.
 Site by: Randy Speckman Design

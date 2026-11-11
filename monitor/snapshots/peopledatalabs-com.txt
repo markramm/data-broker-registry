@@ -27,6 +27,8 @@ Product Roadmap
 Help shape the future of PDL.
 Release Notes
 Latest dataset releases and changelog.
+Academic Research
+Workforce data for researchers and students.
 Company
 About Us
 We’re on a mission to build the world’s most complete workforce dataset.
@@ -85,7 +87,7 @@ Contact SalesContact SupportAbout PDLOur EngineersSecurityPrivacy
 Careers
 llms.txt
 Data Lab
-BlogDataficationRecipesCustomer StoriesFree DatasetsDeep-dive WebinarsLibraries & SDKsIntegrationsRelease NotesRoadmap
+BlogDataficationRecipesCustomer StoriesFree DatasetsDeep-dive WebinarsAcademic ResearchLibraries & SDKsIntegrationsRelease NotesRoadmap
 API Status
 Privacy PolicyCookie Preferences
 Your Privacy Choices
