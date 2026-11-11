@@ -1,21 +1,21 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.17",
-  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
+  "dataset_version": "0.1.18",
+  "content_hash": "sha256:93cabecd605d72a20ded39227b11c167d5f0ed6c56464a95918d623e98c63951",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 496,
+  "authored_count": 498,
   "backlog_count": 89,
-  "total_known": 585,
-  "unverified_count": 459,
+  "total_known": 587,
+  "unverified_count": 461,
   "tiers": {
    "guided": 272,
-   "assisted": 152,
-   "auto": 72
+   "assisted": 153,
+   "auto": 73
   },
   "priorities": {
    "crucial": 124,
-   "high": 157,
+   "high": 159,
    "standard": 215
   }
  },
@@ -7730,6 +7730,37 @@
    "link_status": "live"
   },
   {
+   "id": "sheerid-com",
+   "name": "SheerID",
+   "domain": "sheerid.com",
+   "category": "identity_verification",
+   "people_search": false,
+   "tier": "auto",
+   "priority": "high",
+   "method": "email",
+   "opt_out_url": "https://www.sheerid.com/global-privacy-policy/",
+   "opt_out_email": "privacy@sheerid.com",
+   "phone": "1-833-317-3372",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-11-11 by the daily maintainer from the California data broker registry row for SheerID, Inc. (rights URL https://www.sheerid.com/global-privacy-policy/). curl got a 403, so I rendered the page headless (HTTP 200, title 'Global Privacy Policy - SheerID'). SheerID verifies student, military, teacher and other eligibility for brand discounts. The policy names two services where SheerID is the controller: Remember Me and Audience Services. It says parts of Audience Services may count as 'sales', 'sharing' or targeted advertising. It lists identifiers, commercial information, internet activity, protected-class characteristics and professional/employment information as categories it sells or shares. Requests to know, delete, correct or opt out of sale/sharing go to privacy@sheerid.com, 1-833-317-3372, or the 'Your Privacy Choices' link. SheerID verifies a request by asking about your recent interactions: account details, name, physical or email address, phone. It processes requests from every state. Data SheerID handles for a client brand's verification is the client's to answer for, not SheerID's. The plain email route -> auto. It's a consumer-facing seller of verified-audience data -> high. The 'Your Privacy Choices' link on the page goes back to the policy itself, so I didn't see a separate form. Nothing was sent. last_verified left null.",
+   "instructions_md": "1. Email privacy@sheerid.com from the address you used when SheerID verified you (for a student, military or teacher discount), with the subject \"Privacy request: delete my data and do not sell or share.\"\n2. In the body, give your full name and the email address(es) and phone number you may have used. Ask SheerID to delete your personal information, including any Remember Me account, and to stop selling or sharing it, including through its Audience Services.\n3. SheerID may reply asking about your recent verifications to confirm who you are. Answer from the same email address.\n4. Alternatively, call 1-833-317-3372, the line SheerID's policy gives for privacy requests only.\n5. Keep a copy of your request and the date. If you hear nothing within 45 days, follow up by replying to your original message.",
+   "link_status": "unknown"
+  },
+  {
    "id": "slashdotmedia-com",
    "name": "Slashdot Media",
    "domain": "slashdotmedia.com",
@@ -7851,6 +7882,36 @@
    "source": "ca-registry+tcp-research",
    "notes": "Authored 2026-10-26 by the daily maintainer from California's data broker registry (Swordfish AI Inc.; registry rights URLs https://swordfish.ai/policy and https://swordfish.ai/policy-ccpa, email contact@swordfish.ai). Swordfish sells contact lookups (emails and cell phone numbers) for sales, recruiting and 'fraud/investigations', plus a reverse-lookup API. It says it processes B2B data, but it markets personal cell numbers and an investigations use, so priority is high rather than standard. Both policies (fetched, HTTP 200) point Contacts to the opt-out form at https://swordfish.ai/Optout, or email to contact@swordfish.ai; the CCPA supplement adds toll-free +1 (855) 512-9715 and says it may ask for more verification (such as an ID) only if it suspects fraud. The Optout page, rendered headless, requires first name, last name and email; phone, address, city, country, zip and LinkedIn/Facebook/X URLs are optional. The policy says the more details you give, the better they can catch duplicate records. reCAPTCHA is loaded in invisible mode (no widget shown), so captcha is false and the tier is assisted, following the same call as aidentified-com. Nothing was submitted; last_verified is null.",
    "instructions_md": "1. Go to https://swordfish.ai/Optout (the \"Opt-Out\" / \"Do Not Sell My Info\" link in Swordfish's footer).\n2. Enter your first name, last name and email address. These are the only required fields.\n3. Optionally add your phone number, mailing address and LinkedIn, Facebook or X profile URLs. Swordfish says extra details help it find duplicate records, so add the phone number you want removed if you're comfortable doing so.\n4. Submit the form.\n5. If you have several email addresses, submit the form once for each, or email contact@swordfish.ai listing all of them. California residents can also call +1 (855) 512-9715.",
+   "link_status": "unknown"
+  },
+  {
+   "id": "t-mobile-com",
+   "name": "T-Mobile USA (T-Mobile Advertising Solutions)",
+   "domain": "t-mobile.com",
+   "category": "advertising_adtech",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://www.t-mobile.com/advertising-solutions/opt-out",
+   "opt_out_email": null,
+   "phone": "1-800-937-8997",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "none",
+   "required_fields": [
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-11-11 by the daily maintainer from the California data broker registry row for T-Mobile USA, Inc. (rights URL https://www.t-mobile.com/advertising-solutions). Rendered these pages headless, all HTTP 200: (1) https://www.t-mobile.com/advertising-solutions/opt-out ('Mobile Advertising ID Opt Out'). It says T-Mobile Advertising Solutions builds interest- and behavior-based audience segments and sells them keyed to resettable advertising IDs, not names or emails. The opt-out form asks for device type (Android/iOS) and the advertising ID. No CAPTCHA was seen. The page warns that IDs already in active segments are removed with a lag. (2) https://www.t-mobile.com/privacy-center/do-not-sell: logged-out visitors set Do Not Sell or Share with a per-browser cookie toggle, customers log in to each brand (T-Mobile, Metro, Assurance Wireless), and a separate link points back to the advertising-ID opt-out to stop third-party data use on the Magenta Advertising Platform. (3) https://www.t-mobile.com/privacy-center/education/about-personal-data-requests: deletion and access requests go through a request flow that verifies identity. Non-customers may need a government ID and a face photo. Responses come within 45 days. The 1-800 number is the customer-care line from the privacy notice. The ad-ID form has no CAPTCHA or ID gate -> assisted. It's a consumer-facing seller of audience data with a working opt-out -> high. Note that resetting your advertising ID creates a new one that isn't opted out. Nothing was submitted. last_verified left null.",
+   "instructions_md": "1. Find your phone's advertising ID. On Android: Settings -> Google -> Ads (or Settings -> Privacy -> Ads) shows it at the bottom. On iOS the ID isn't shown in Settings, so iPhone users can instead turn off \"Allow Apps to Request to Track\" under Settings -> Privacy & Security -> Tracking.\n2. Go to https://www.t-mobile.com/advertising-solutions/opt-out, choose Android or iOS, paste the advertising ID and select \"Opt out.\" Do this for each phone you use.\n3. On each browser you use, open https://www.t-mobile.com/privacy-center/do-not-sell and switch the \"Do Not Sell or Share\" toggle off. Logged out, this is saved in a cookie, so it's lost if you clear cookies. Turning on Global Privacy Control in your browser has the same effect.\n4. If you're a T-Mobile, Metro or Assurance Wireless customer, log in to each brand's account and set \"Do Not Sell or Share\" in the Privacy Dashboard (https://www.t-mobile.com/privacy-center/dashboard). If you opted in to Personalized Ads and Offers, turn that off too.\n5. To have your data deleted, start a personal data request from https://www.t-mobile.com/privacy-center/education/about-personal-data-requests and pick the category that fits you. T-Mobile verifies your identity, which can include a government ID, and answers within 45 days.\n6. If you reset your advertising ID later, the new ID isn't opted out, so repeat step 2.",
    "link_status": "unknown"
   },
   {
