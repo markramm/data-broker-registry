@@ -1,21 +1,21 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.17",
-  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
+  "dataset_version": "0.1.18",
+  "content_hash": "sha256:cad14a21ca2fa0960e81fffcee6603d6b884a0afff74d604bd19e00bf2443909",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 496,
+  "authored_count": 499,
   "backlog_count": 89,
-  "total_known": 585,
-  "unverified_count": 459,
+  "total_known": 588,
+  "unverified_count": 462,
   "tiers": {
-   "guided": 272,
+   "guided": 274,
    "assisted": 152,
-   "auto": 72
+   "auto": 73
   },
   "priorities": {
    "crucial": 124,
-   "high": 157,
+   "high": 160,
    "standard": 215
   }
  },
@@ -5072,6 +5072,38 @@
    "link_status": "unknown"
   },
   {
+   "id": "cuebiq-com",
+   "name": "Cuebiq Group, LLC",
+   "domain": "cuebiq.com",
+   "category": "location_data_broker",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://cuebiq.com/privacy-request/",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "email",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "cpra"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-11-05 by the daily maintainer from California's data broker registry (Cuebiq Group, LLC, listing legal@cuebiq.com and https://cuebiq.com/privacy-request/). Cuebiq sells device location data (footfall measurement, location-based audiences) keyed to mobile advertising IDs, so it is a location-data broker: people_search false, priority high. I fetched the privacy request page (HTTP 200) and rendered it in a headless browser without submitting anything. It is a Gravity Forms form with: a request-type radio (opt-out/do not sell or share, access, or delete), email (required), Type of ID (IDFA or GAID, required), the Mobile Advertising ID itself, and an authorized-agent yes/no with a file upload for the agent designation form. The page says Cuebiq must validate both the requester and their ownership of the MAID. Its only CAPTCHA is an invisible reCAPTCHA v3 badge (ginput_recaptchav3) with no visible challenge, so captcha is false. Tier is guided rather than assisted because the user has to find their device's advertising ID first, and on iOS the page itself says that takes a third-party app. The privacy policy (updated 10/22/26, fetched) names the same form as the opt-out path and gives privacy@cuebiq.com for questions and correction requests only, so opt_out_email is null. verification: email_confirm is inferred from the page saying the email is used to process the request; I didn't observe the confirmation step. The second form on the page (work email, title, company) is a sales-demo form, not part of the opt-out. last_verified null.",
+   "instructions_md": "Cuebiq collects location data from phones and ties it to the phone's mobile advertising ID. That ID, not your name, is what you opt out.\n\n1. Find your phone's advertising ID. On Android, go to Settings > Privacy > Ads (or Settings > Google > Ads); the ID is listed at the bottom. iPhones don't show the IDFA in Settings; Cuebiq suggests a third-party app from the App Store that can display it.\n2. Go to https://cuebiq.com/privacy-request/.\n3. Under \"I wish to\", choose \"opt-out/do not sell or share my personal information\". You can also choose access or delete.\n4. Enter your email address, choose your ID type (IDFA for iPhone, GAID for Android), and paste your advertising ID.\n5. Answer \"No\" to the authorized-agent question if you are submitting for yourself, then submit. Ignore the separate \"Unlock Location Intelligence\" sales form lower on the page.\n6. Watch your inbox for any follow-up from Cuebiq asking you to confirm the request.\n7. Repeat for each phone you use. If you reset your advertising ID later, the new ID won't be covered, so submit again. You can also turn off ad tracking on the device itself (Android: \"Delete advertising ID\"; iPhone: Settings > Privacy & Security > Tracking).",
+   "link_status": "unknown"
+  },
+  {
    "id": "datapartners-com",
    "name": "Data Partners Inc.",
    "domain": "datapartners.com",
@@ -6946,6 +6978,37 @@
    "link_status": "live"
   },
   {
+   "id": "opensend-com",
+   "name": "Opensend Inc.",
+   "domain": "opensend.com",
+   "category": "identity_resolution",
+   "people_search": false,
+   "tier": "auto",
+   "priority": "high",
+   "method": "email",
+   "opt_out_url": "https://www.opensend.com/privacy-policy",
+   "opt_out_email": "privacy@opensend.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "email",
+    "full_name"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-11-05 by the daily maintainer from California's data broker registry (Opensend Inc, listing privacy@opensend.com and opensend.com/privacy-policy). I fetched https://www.opensend.com/privacy-policy (HTTP 200). Opensend's clients install its scripts and pixels on their websites, and the policy says Opensend uses the visit data to identify visitors and their contact information (such as email address), working with marketing partners and data brokers. So it is an identity-resolution / visitor-identification broker, not people-search: priority high. The policy has no web form, portal or opt-out link. Its 'Your State Privacy Rights' section lists California among the states whose residents can opt out of sales and targeted advertising and request access or deletion, and says to send all such requests to privacy@opensend.com. That is a plain email route, so method email and tier auto. required_fields [email, full_name] is our judgment: the policy doesn't say what identifies you, and the email address you want suppressed is the main key Opensend matches on. The policy describes no verification step. last_verified null.",
+   "instructions_md": "Opensend identifies visitors to its clients' online stores and matches them to email addresses for marketing. Its only opt-out channel is email.\n\n1. Send an email to privacy@opensend.com with the subject \"Opt-out of sale/sharing and deletion request\".\n2. In the body, say that you are opting out of the sale and sharing of your personal information and of its use for targeted advertising, and that you also want your personal information deleted. Include your full name and every email address you want suppressed. If you live in California or another state with a privacy law, say so.\n3. Opensend says it keeps a minimal suppression record after an opt-out so it can honor your request. That is expected.\n4. Keep a copy of your email. If you don't hear back within 45 days, send a follow-up to the same address and mention your original request date.",
+   "link_status": "unknown"
+  },
+  {
    "id": "optimalfusion-com",
    "name": "Optimal Fusion",
    "domain": "optimalfusion.com",
@@ -8416,6 +8479,37 @@
    "notes": "wealthengine.com redirects (301) to altrata.com -- WealthEngine is now one of several wealth-intelligence/prospect-research products bundled under Altrata (alongside BoardEx, RelSci, Wealth-X, Boardroom Insiders). Altrata's privacy notice provides only a general company-wide 'Do Not Sell' toll-free number and a DPO email/mail address; no WealthEngine-specific self-serve opt-out form or online mechanism was found in the fetched pages (privacy-policy and product-privacy-notice were both checked). Because the only clearly working channel is a phone call, phone_required is true and tier is guided despite no CAPTCHA/ID. This is a wealth-screening/prospect-research broker profiling real personal financial data (used by nonprofits/fundraisers), so priority is high. opt_out_url points at the general Altrata privacy-policy page since no WealthEngine-specific page was found; treat as needing further verification. last_verified left null -- content was summarized by WebFetch, not directly rendered.",
    "instructions_md": "1. Call Altrata's toll-free privacy line at 1-877-314-5147 (listed as the 'Do Not Sell' contact for California residents; Altrata treats other-state requests the same way) and ask to opt out of / delete your WealthEngine wealth-screening profile.\n2. If you prefer email or mail, contact Altrata's Data Protection Officer via the address listed on the [Altrata privacy policy](https://altrata.com/privacy-policy/) (4 Bouverie Street, London, EC4Y 8AX, United Kingdom), specifying that your request concerns WealthEngine.\n3. Provide your full name and any known aliases so Altrata can locate your record across its bundled products (WealthEngine, Wealth-X, RelSci, BoardEx, Boardroom Insiders).\n4. Because no dedicated WealthEngine self-serve opt-out form could be confirmed, expect this to take a manual back-and-forth -- follow up if you don't receive confirmation within a few weeks.",
    "link_status": "live"
+  },
+  {
+   "id": "wealthfeed-com",
+   "name": "WealthFeed, Inc.",
+   "domain": "wealthfeed.com",
+   "category": "wealth_screening",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://portal.wealthfeed.com/opt-out",
+   "opt_out_email": "privacy@wealthfeed.com",
+   "phone": "(941) 867-1761",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "email",
+    "address"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-11-05 by the daily maintainer from California's data broker registry (WealthFeed, Inc., listing privacy@wealthfeed.com and www.wealthfeed.com). WealthFeed sells consumer leads to financial advisors. Its privacy policy (fetched; last updated January 31, 2024) says it buys consumer identifiers (name, email, phone) and purchase data from other data brokers and sells them to clients as leads under the CCPA. The site markets net-worth and 'money-in-motion' signals. That is consumer data tied to a name and home address, so priority high; it isn't a people-search site. I fetched https://www.wealthfeed.com/do-not-sell-my-data/ (HTTP 200). It says records are keyed by name and address, asks for full name, current mailing address and email, and says a phone number matching their records may be requested to verify you. Its 'Submit an opt-out request' button goes to https://portal.wealthfeed.com/opt-out, a JavaScript app. I rendered that page in a headless browser without submitting. It asks for first and last name (optional), email, phone (optional), address line 1, address line 2, city, state and ZIP, and shows a visible Cloudflare Turnstile 'Verify you're human' check, so captcha is true and tier is guided. The same page offers email instead: privacy@wealthfeed.com with 'Opt-Out Request' in the subject and the same details. That address is also the access/correction/deletion channel, so opt_out_email is set. The phone number is the site footer's general contact number. last_verified null.",
+   "instructions_md": "WealthFeed sells consumer contact and wealth leads to financial advisors. It matches opt-out requests by name and home address.\n\n1. Go to https://portal.wealthfeed.com/opt-out. The \"Submit an opt-out request\" button on https://www.wealthfeed.com/do-not-sell-my-data/ links to the same page.\n2. Enter your first and last name, email address, and current mailing address (street, city, state, ZIP). Name and phone are marked optional, but WealthFeed says its records are keyed by name and address, so include your name.\n3. Complete the \"Verify you're human\" check and submit.\n4. If WealthFeed asks you to confirm your identity, it may ask for a phone number that matches its records.\n5. If you'd rather not use the form, or you also want access, correction or deletion, email privacy@wealthfeed.com with \"Opt-Out Request\" in the subject and include your full name, current mailing address and email.\n6. If you've moved recently, submit once for each address you've lived at, since records are matched by address.",
+   "link_status": "unknown"
   },
   {
    "id": "thomsonreuters-com",
