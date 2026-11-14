@@ -1,20 +1,20 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.17",
-  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
+  "dataset_version": "0.1.18",
+  "content_hash": "sha256:d0b2fbeba4dfb170f7c8334e8c6eb24175190ce938c658e3fe9e589219bf232d",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 496,
+  "authored_count": 499,
   "backlog_count": 89,
-  "total_known": 585,
-  "unverified_count": 459,
+  "total_known": 588,
+  "unverified_count": 462,
   "tiers": {
-   "guided": 272,
+   "guided": 274,
    "assisted": 152,
-   "auto": 72
+   "auto": 73
   },
   "priorities": {
-   "crucial": 124,
+   "crucial": 127,
    "high": 157,
    "standard": 215
   }
@@ -843,6 +843,39 @@
    "link_status": "bot-blocked"
   },
   {
+   "id": "data247-com",
+   "name": "Data247 / EZCNAM (LogicTree)",
+   "domain": "data247.com",
+   "category": "caller_id_data_broker",
+   "people_search": true,
+   "tier": "auto",
+   "priority": "crucial",
+   "method": "email",
+   "opt_out_url": "https://www.data247.com/privacy",
+   "opt_out_email": "support@data247.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "full_name",
+    "address",
+    "phone",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "New from the California data broker registry: LogicTree, Inc., d/b/a Data247 and EZCNAM, registered under logictree.com with rights_url www.data247.com/privacy. The entry is keyed on data247.com because that is where the privacy policy lives. Maintainer run 2026-11-01 fetched that policy. It says LogicTree is a data broker that collects and sells personal information about consumers it has no direct relationship with. The data includes names, addresses, emails, phone numbers and age; carrier and do-not-call status; credit-header-derived identifiers; mortgage, property, deed and vehicle (VIN) records; demographic and household estimates including ethnicity and children; IP location; and derived scores. Data247/EZCNAM are reverse-phone, CNAM caller-ID and data-append services, so people_search is true and priority is crucial (the same treatment as caller-ID brokers like sync-me). The only consumer channel is email or mail; there is no web form or phone line for privacy requests. The email address is Cloudflare-obfuscated on the page; decoded from the page HTML it is support@data247.com, with subject 'Privacy Request' ('Privacy Appeal' for appeals). Mail: LogicTree, Inc., Attn: Privacy Requests, 15 Main Street, Suite 12A, Franklin, MA 02038. Required: full name, current and recent postal addresses, phone number and email. They verify identity before acting (method not described). An unverified deletion request is treated as an opt-out of sale where required. Responses within 45 days, extendable once by 45. A request to either Data247 or EZCNAM covers both. The policy says GLBA/DPPA/FCRA-covered and public-record data may be excluded. It also says LogicTree checks California's DROP deletion platform at least every 45 days. Nothing was sent. last_verified left null.",
+   "instructions_md": "1. Email support@data247.com with the subject line \"Privacy Request.\"\n2. Say that you are requesting deletion of your personal information and an opt-out of its sale, sharing, targeted advertising and profiling, and that the request covers both Data247 and EZCNAM.\n3. Include your full name, your current and recent postal addresses, your phone number(s), and your email address so they can find your records.\n4. Answer any identity-verification follow-up they send. If they can't verify you, they say they will still treat a deletion request as an opt-out of sale where the law requires it.\n5. Expect a reply within 45 days (up to 90 with an extension). If they decline any part, reply to the same address with the subject \"Privacy Appeal\" and your original request details.\n6. California residents can also file one deletion request with every registered broker through the CPPA's DROP platform (https://cppa.ca.gov/data_brokers/); LogicTree says it processes DROP requests at least every 45 days.\n7. By mail instead: LogicTree, Inc., Attn: Privacy Requests, 15 Main Street, Suite 12A, Franklin, MA 02038.",
+   "link_status": "unknown"
+  },
+  {
    "id": "deathrecords-org",
    "name": "Death Records",
    "domain": "deathrecords.org",
@@ -1608,6 +1641,38 @@
    "notes": "WebFetch confirmed locateplus.com is live and sells 'billions of current historical, cross-referenced public and private records' for people search, skip tracing, criminal/civil records, phone lookups, and asset searches to a stated 100,000+ professional users (private investigators, bail bondsmen, collections agencies, law enforcement, financial institutions) -- a genuine people-search/investigative-records aggregator with real personal-safety stakes, even though access is sold B2B ('this service is only for businesses') rather than direct-to-consumer. Its privacy policy at locateplus.com/customers/privacy-policy/ states California residents can exercise CCPA rights (opt-out, deletion, correction) via customerservice@locateplus.com or 1-888-746-3463, and separately claims the company 'does not sell or share (as defined under CCPA)' info collected through its own website -- but does not disclaim the underlying third-party-sourced records it resells to subscribers, which is the actual people-search product. Given the CSV's existing opt_out_url pointed to a dead /privacy.asp path (404 on fetch), the URL here was corrected to the live privacy-policy page. Email-only process but the B2B gate and ambiguity around what's actually removable pushed this to guided rather than auto; not independently re-rendered by a human, last_verified left null.",
    "instructions_md": "1. Email customerservice@locateplus.com and state that you are a California resident exercising your CCPA rights to opt out of the sale/sharing of your personal information and/or request deletion.\n2. Include your full name and any other identifying details (past addresses, phone numbers) that will help LocatePLUS locate your record among its aggregated public/private-records database.\n3. Alternatively, call 1-888-746-3463 to make the same request by phone.\n4. LocatePLUS states it does not sell or share information collected directly through its own website, but it aggregates and resells third-party public/private records to subscribers (investigators, collections agencies, etc.) -- ask explicitly that your record be suppressed from search results and reports, not just from marketing.\n5. Because this is a B2B investigative-records service rather than a self-service consumer opt-out form, expect a manual back-and-forth rather than an instant confirmation; follow up if you don't hear back within a few weeks.",
    "link_status": "live"
+  },
+  {
+   "id": "locatesmarter-com",
+   "name": "LocateSmarter",
+   "domain": "locatesmarter.com",
+   "category": "investigative_skip_trace_data",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://forms.locatesmarter.com/OptOutForm",
+   "opt_out_email": null,
+   "phone": "877-815-2268",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "none",
+   "required_fields": [
+    "full_name",
+    "email",
+    "address"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "New from the California data broker registry (LocateSmarter, LLC; the registry's rights_url lists locatesmarter.com plus 'request-to-know-or-delete' and 'request-to-opt-out' pages, both of which now 404). Maintainer run 2026-11-01 fetched the homepage, which describes skip-tracing, SSN trace, phone/address append and investigative search products sold to collections, auto recovery, bail bonds, private investigators and background screeners. That makes it a professional people-locator like TLO, so people_search is true and priority is crucial. The homepage footer's 'Do Not Sell My Personal Information' link goes to locatesmarter.com/optout-form/, which says California residents can use the online form at forms.locatesmarter.com/OptOutForm or call toll-free 877-815-2268. The form was fetched: requester first/last name, email, address 1/2, city, state, ZIP, a self-vs-authorized-agent choice (agents need signed written permission), and a 'Request to Stop Selling' checkbox. No field is marked required. The form says opt-out of sale does not require full identity verification. The HTML loads an invisible reCAPTCHA v3 (grecaptcha.execute on submit). It shows no puzzle to a person, but captcha is set true and tier guided because a tool can't submit it for the user. A separate CCPA know/delete form is linked at locatesmarter.com/ccpa-form/ (not fetched). The form is worded for California residents. Whether non-Californians are honored is not stated. Nothing was submitted. last_verified left null.",
+   "instructions_md": "1. Go to LocateSmarter's opt-out form at https://forms.locatesmarter.com/OptOutForm (linked from \"Do Not Sell My Personal Information\" in the locatesmarter.com footer).\n2. Choose \"I am submitting this request for myself.\"\n3. Fill in your first and last name, email address, and your street address, city, state and ZIP code. Use the address LocateSmarter is most likely to have on file. Repeat with a second request for an older address if you've moved recently.\n4. Check \"Request to Stop Selling\" and submit. The form says it doesn't need full identity verification for an opt-out of sale.\n5. To ask for deletion as well, use the separate CCPA request-to-know-or-delete form at https://locatesmarter.com/ccpa-form/.\n6. If the form won't submit, call LocateSmarter toll-free at 877-815-2268 (answered 8am\u20135pm Central) and make the same opt-out request by phone.",
+   "link_status": "unknown"
   },
   {
    "id": "mashpanel-com",
@@ -3336,6 +3401,37 @@
    "notes": "IMPORTANT: this is NOT a TLO/TLOxp-specific opt-out -- no such mechanism could be found. TLO (tlo.com) and TLOxp (tloxp.tlo.com, the investigator-facing login/search platform) are products of TransUnion LLC (via its TransUnion Risk and Alternative Data Solutions / investigations business, marketed today partly under 'TruLookup powered by TLOxp' at transunion.com/business-needs/investigations-tloxp). Both tlo.com and tloxp.tlo.com returned HTTP 403 (bot-blocked) on every direct fetch attempt, including in a prior research pass -- no TLO-specific privacy or opt-out page could be rendered or located via search. What IS confirmed: TransUnion LLC is registered as a data broker with the California Attorney General (registration #198255, registered 2021-01-07); I independently fetched that CA DOJ registry page twice (via two URL variants) and both times it listed TransUnion's self-declared CCPA contact methods identically: website https://www.transunion.com/consumer-privacy, phone 1-866-310-8783, and email privacy@transunion.com, address 555 W Adams St, Chicago, IL 60661. That CA AG registry page does NOT mention TLO or TLOxp by name or describe scope over specific product lines -- this is TransUnion's company-wide CCPA/CPRA consumer-rights channel, the same one the existing transunion-com.md entry documents (that entry cites a slightly different, unconfirmed URL, transunion.com/consumerprivacy without a hyphen -- I could not resolve which spelling is currently live since both are bot-blocked to direct fetch; the hyphenated /consumer-privacy form is the one independently corroborated by the CA AG registry text, so it is used here). Whether a request submitted through this general channel actually reaches/suppresses TLOxp's investigative database specifically is NOT confirmed -- TransUnion's risk/investigations data lines (which include batches like credit-header and skip-trace data) are commonly carved out or handled differently from marketing data broker opt-outs, and consumer-facing CCPA portals for large CRAs frequently exclude data used for background-check/investigative/FCRA-adjacent purposes. Treat this entry as 'best available TransUnion-wide channel, unconfirmed as to TLO-specific effect' rather than a guaranteed TLO removal path. id_required/ssn/dob/gov_id fields mirror the existing transunion-com.md entry's documented verification burden for TransUnion's CCPA portal generally, since no TLO-specific field requirements could be found. last_verified left null because I could not render either transunion.com/consumer-privacy or tlo.com/tloxp.tlo.com directly -- confirmation rests on the CA AG's registry text, not a rendered TransUnion or TLO page.",
    "instructions_md": "<!-- Original instructions, built from the CA AG data broker registry entry for TransUnion LLC and cross-referenced against the repo's existing transunion-com.md entry, because no TLO/TLOxp-specific consumer opt-out page could be found or rendered. -->\n1. Understand the limits first: tlo.com and TLOxp (tloxp.tlo.com) are investigator/law-enforcement/debt-collector-facing tools with no public consumer opt-out page of their own. The only documented path is TransUnion LLC's company-wide CCPA/CPRA consumer-rights channel, and it is not confirmed to specifically cover TLOxp's investigative data.\n2. Go to https://www.transunion.com/consumer-privacy (TransUnion's registered CCPA consumer-privacy portal, per its California data-broker registration). If that exact page has moved, look for \"Your Privacy Choices\" or \"California Privacy Rights\" in the transunion.com site footer, or try https://www.transunion.com/consumerprivacy (an older/alternate spelling seen elsewhere) as a fallback.\n3. Alternatively, call TransUnion's registered consumer privacy line at 1-866-310-8783, or email privacy@transunion.com, and explicitly state you are submitting a CCPA/CPRA opt-out and deletion request that you want applied to all TransUnion LLC products and affiliates, by name, including TLO / TLOxp / TransUnion Risk and Alternative Data Solutions and any \"investigations\" or \"TruLookup\" branded products.\n4. Be ready to verify your identity: TransUnion's consumer-privacy process for its credit/risk data lines has historically required full name, current and prior addresses, date of birth, phone, email, and either your full Social Security number or last four digits, plus in some cases a copy of a government-issued photo ID.\n5. Select or request deletion / opt-out of sale and sharing of personal information, and ask for written confirmation of which TransUnion databases and affiliated products (including TLO/TLOxp) the request was applied to -- TransUnion is not obligated to volunteer this, so ask directly and keep the response for your records.\n6. If TransUnion's response says investigative/risk/FCRA-adjacent data (the category TLOxp data typically falls under) is outside the scope of this consumer channel, that is itself useful information: it means there may be no self-service consumer opt-out for TLOxp specifically, and your recourse is likely limited to disputing inaccurate information under the Fair Credit Reporting Act (if TLOxp data was used in an FCRA-covered decision about you) or contacting TransUnion's FCRA-dispute process separately, rather than a CCPA opt-out.\n7. Because this is a personal-safety-sensitive investigative platform (used for skip-tracing, i.e., locating people), if you have a documented safety concern -- domestic violence, stalking, law enforcement/protected-professional status -- consider requesting suppression under any address-confidentiality or safety-exception process TransUnion offers for its risk-data products, and be explicit about the safety basis in writing, in addition to the standard CCPA request.\n8. Re-check periodically: since no TLO-specific removal was ever confirmed to exist, treat this as an open request to monitor rather than a one-time fix, and consider escalating to your state Attorney General's data-broker complaint process if TransUnion does not respond or confirm scope within the statutory CCPA timeframe (45 days, extendable).",
    "link_status": "bot-blocked"
+  },
+  {
+   "id": "tracerfy-com",
+   "name": "Tracerfy",
+   "domain": "tracerfy.com",
+   "category": "real_estate_data",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "crucial",
+   "method": "form",
+   "opt_out_url": "https://www.tracerfy.com/privacy-choices",
+   "opt_out_email": "support@tracerfy.com",
+   "phone": "1-888-891-8053",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "full_name",
+    "address"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "New from the California data broker registry (registry rights_url is just www.tracerfy.com). Maintainer run 2026-11-01 fetched the homepage. Tracerfy sells pay-per-hit skip tracing: give it a property address or APN list and it returns the owners' phone numbers, emails and mailing addresses. It also sells reverse phone/email/name append and 'motivated seller' lead lists to real-estate investors, agents, contractors and lenders, via web app and API. That is a home-address/phone reseller, so people_search is true and priority is crucial. The footer link 'Do Not Sell or Share My Personal Information' goes to /privacy-choices, which was fetched and has two forms. (1) Opt-out of sale/sharing: first name, last name, street address, city and state required; ZIP optional; phone OR email (one is enough). (2) Access/Delete/Correct/Appeal: request type, self vs authorized agent, name, street address, city, state, phone, email, state of residence. The page says 'we won't ask for ID' and that Tracerfy emails to confirm receipt. The page HTML has a visible Cloudflare Turnstile widget (cf-turnstile) on the forms, so captcha is true and tier guided. Alternatives listed: email with subject 'Privacy Request' (the address is obfuscated on the page; the site's structured contact data gives support@tracerfy.com, used here as opt_out_email but not confirmed as the privacy inbox) and toll-free 1-888-891-8053. The page also says a Global Privacy Control signal is honored as an opt-out. Responses come within 45 days, extendable by 45. Nothing was submitted. last_verified left null.",
+   "instructions_md": "1. Go to https://www.tracerfy.com/privacy-choices (footer link \"Do Not Sell or Share My Personal Information\").\n2. In the opt-out form, enter your first and last name and the street address, city and state of any property you own or have owned. Tracerfy's data is keyed on property owners. Add ZIP if you like.\n3. Give either a phone number or an email address (you don't need both), complete the Cloudflare check, and click \"Submit Opt-Out Request.\"\n4. To have your records deleted rather than only withheld from sale, also use the second form on the same page: choose \"Deletion,\" select that you are the person whose information this is, fill in your name, address, phone, email and state of residence, and submit.\n5. Repeat for each property address you want covered.\n6. Tracerfy emails to confirm it received the request and says it responds within 45 days (up to 90 with an extension). If the form fails, call 1-888-891-8053 or email support@tracerfy.com with the subject \"Privacy Request.\"",
+   "link_status": "unknown"
   },
   {
    "id": "truepeoplesearch-com",
