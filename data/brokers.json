@@ -1,21 +1,21 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.17",
-  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
+  "dataset_version": "0.1.18",
+  "content_hash": "sha256:5a18712c8416f7d8d562542df4caac07414a8e104533ade74b4a32bb99a92e51",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 496,
+  "authored_count": 498,
   "backlog_count": 89,
-  "total_known": 585,
-  "unverified_count": 459,
+  "total_known": 587,
+  "unverified_count": 461,
   "tiers": {
-   "guided": 272,
-   "assisted": 152,
+   "guided": 273,
+   "assisted": 153,
    "auto": 72
   },
   "priorities": {
    "crucial": 124,
-   "high": 157,
+   "high": 159,
    "standard": 215
   }
  },
@@ -4061,7 +4061,6 @@
     "full_name",
     "address",
     "dob",
-    "ssn",
     "phone",
     "email"
    ],
@@ -4072,8 +4071,8 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "WebFetch of anchorcomputer.com homepage and /privacy-policy confirmed directly. Anchor Computer is a marketing-data/mailing-list compiler offering 'customer profiling and data validation to segmentation and targeting' built on '6B+ Permissioned signals,' and its privacy policy lists name, SSN, postal address, email, phone, plus demographic data (age, religion, ethnicity, marital status, gender, hobbies) among categories sold. Policy explicitly grants CPRA right to opt out of sale and right to deletion, and names the online form at ecom2.anchorcomputer.com/privacyrequest ('Individual Consumer Opt-Out Submission Form') plus email/phone alternatives. Form fields (name, address, last-4 SSN, DOB, phone, email) are as listed in the privacy policy text, not independently confirmed by rendering the form itself -- guided tier given the sensitive-field combination (SSN, DOB) even without CAPTCHA. last_verified left null since the live form itself wasn't rendered.",
-   "instructions_md": "1. Go to the Anchor Computer opt-out form at https://ecom2.anchorcomputer.com/privacyrequest.\n2. Select the request type for opting out of sale/sharing of your personal information (California/CPRA rights).\n3. Enter your first and last name, mailing address, phone number, and email address.\n4. Enter your date of birth and the last 4 digits of your Social Security number, which Anchor Computer uses to match and verify your record in their marketing database.\n5. Submit the form.\n6. Alternatively, skip the form and email the same information directly to privacyteam@anchorcomputer.com, or call 1-800-646-2563 to request opt-out/deletion by phone.\n\n**Sensitive-data note:** this process asks for the last 4 digits of your SSN and your date of birth. Only proceed if you're comfortable sharing that; the phone and email channels ask for the same information, so there's no lower-friction path available.",
+   "notes": "WebFetch of anchorcomputer.com homepage and /privacy-policy confirmed directly. Anchor Computer is a marketing-data/mailing-list compiler offering 'customer profiling and data validation to segmentation and targeting' built on '6B+ Permissioned signals,' and its privacy policy lists name, SSN, postal address, email, phone, plus demographic data (age, religion, ethnicity, marital status, gender, hobbies) among categories sold. Policy explicitly grants CPRA right to opt out of sale and right to deletion, and names the online form at ecom2.anchorcomputer.com/privacyrequest ('Individual Consumer Opt-Out Submission Form') plus email/phone alternatives. Form fields (name, address, last-4 SSN, DOB, phone, email) are as listed in the privacy policy text, not independently confirmed by rendering the form itself -- guided tier given the sensitive-field combination (SSN, DOB) even without CAPTCHA. last_verified left null since the live form itself wasn't rendered. 2026-10-27 maintainer, after page-monitor #17: the form no longer has the 'SSN (last 4 digits)' field (snapshot of 2026-10-26; confirmed by fetching https://ecom2.anchorcomputer.com/privacyrequest, HTTP 200: its inputs are FirstName, LastName, Suffix, Address Line 1 and 2, City, State, Zip, DateOfBirth, PhoneNumber, Email and three request checkboxes, no SSN). ssn removed from required_fields and the steps; the form marks State, Date of Birth, Phone Number and Email as required. Tier stays guided (DOB is still asked for). The page now cites California 'CRPA' instead of 'CCPA'; no change to the process. last_verified unchanged.",
+   "instructions_md": "1. Go to the Anchor Computer opt-out form at https://ecom2.anchorcomputer.com/privacyrequest.\n2. Enter your first and last name, mailing address, phone number, and email address.\n3. Enter your date of birth, which Anchor Computer uses to match your record in its marketing database. The form no longer asks for any part of your Social Security number.\n4. Tick the request you want: \"Delete my data\", \"Do not sell my data\", or (California residents) \"Request full report\". Then submit the form.\n5. Alternatively, skip the form and email the same information directly to privacyteam@anchorcomputer.com, or call 1-800-646-2563 to request opt-out/deletion by phone.\n\n**Sensitive-data note:** this process asks for your date of birth. Only proceed if you're comfortable sharing that; the phone and email channels ask for the same information, so there's no lower-friction path available.",
    "link_status": "live"
   },
   {
@@ -6043,6 +6042,37 @@
    "link_status": "live"
   },
   {
+   "id": "retention-com",
+   "name": "GETEMAILS LLC (Retention.com)",
+   "domain": "retention.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://app.retention.com/optout/",
+   "opt_out_email": null,
+   "phone": "1-855-306-2455",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "email",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-27 by the daily maintainer from California's data broker registry (GETEMAILS LLC, dba RETENTION.COM and RB2B; registry rights URLs www.retention.com and www.rb2b.com). Retention.com calls itself 'the identity data company': a site tag that resolves anonymous website visitors to a person, plus enrichment of email hashes, mobile ad IDs, IPs and 600+ attributes on 250M+ US identities, sold to e-commerce stores, publishers and adtech. That is consumer identity data, so priority is high. The site footer (fetched headless, HTTP 200) links 'Database Opt-out' (https://app.retention.com/optout/) and 'CCPA Opt-Out' (https://app.retention.com/ccpa_details/); both render the same form, open to all US residents: email and zip code, an optional authorized-agent checkbox and agent email, and a visible reCAPTCHA v2 checkbox, so captcha is true and the tier is guided. required_fields 'other' is the zip code. Both pages also offer opt-out by voicemail at 1-(855) 306-2455, stating the email address to opt out. The 'Your Privacy Choices' page links the same database opt-out plus third-party ad-network opt-outs. RB2B (rb2b.com, the B2B sister brand) was not fetched and may need its own entry. Nothing was submitted; last_verified is null.",
+   "instructions_md": "1. Go to https://app.retention.com/optout/ (\"Retention.com Opt-Out Form\"). California residents can use https://app.retention.com/ccpa_details/, which shows the same form.\n2. Enter the email address you want removed and your zip code.\n3. Complete the \"I'm not a robot\" CAPTCHA and click \"OPT-OUT\".\n4. Retention.com matches people by email, so repeat the form for every email address you use, especially ones you give to online stores.\n5. Alternatively, call 1-(855) 306-2455 and leave a voicemail saying you withdraw consent to the resale of your personal information, giving the email address to opt out.",
+   "link_status": "unknown"
+  },
+  {
    "id": "giantpartners-com",
    "name": "Giant Partners, Inc",
    "domain": "giantpartners.com",
@@ -6412,6 +6442,38 @@
    "notes": "WebFetch on inmarket.com/privacy/ confirms InMarket is a location-data and advertising broker: it collects 'precise geolocation information' and discloses personal information to third-party advertisers/agencies; certain state laws (CCPA/CPRA) classify this targeted-advertising sharing as a 'sale.' Footer link-scrape of inmarket.com found the exact opt-out URL: https://preferences.inmarket.com/form/opt_out ('Do Not Sell or Share My Personal Information' and 'Limit the Use of My Sensitive Personal Information' both point to this same form). WebFetch on that URL only returned a bare page title ('Privacy Request Center | DataGrail') -- it's a JS-rendered DataGrail-hosted privacy-request form, so exact fields/CAPTCHA could not be confirmed; DataGrail forms are typically email-based with no CAPTCHA but this was not independently verified for this instance, so tier is guided (uncertain gating) rather than assisted. Phone (1-877-782-0530) and Global Privacy Control support are also offered as alternatives per the privacy policy. people_search is false -- this is a location/ad-tech data broker, not a consumer-facing name lookup site -- priority set to high (real location-tracking privacy stakes, working documented opt-out) per instructions rather than crucial. last_verified left null since the actual form page could not be rendered.",
    "instructions_md": "1. Go to InMarket's privacy request form at https://preferences.inmarket.com/form/opt_out (also linked from the \"Do Not Sell or Share My Personal Information\" and \"Limit the Use of My Sensitive Personal Information\" links in the footer of inmarket.com).\n2. Follow the form's prompts to submit a request to opt out of the sale/sharing of your personal information and to limit use of sensitive personal information (this is a hosted DataGrail privacy-request form).\n3. If you'd rather not use the web form, email privacy@inmarket.com directly and state that you are exercising your CCPA right to opt out of the sale/sharing of your personal information (include your name and any relevant device/advertising identifiers if you have them).\n4. Alternatively, call InMarket at 1-877-782-0530 to make the same request by phone.\n5. If your browser or a browser extension supports Global Privacy Control (GPC), enabling it will automatically signal your opt-out preference to InMarket going forward.\n6. Note that InMarket applies opt-outs per browser/device, so repeat this process on each device or browser you use if you want full coverage.",
    "link_status": "live"
+  },
+  {
+   "id": "idatabasesolutions-com",
+   "name": "Innovative Database Solutions, Inc.",
+   "domain": "idatabasesolutions.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://idatabasesolutions.com/personal-information-request-all-other-states/",
+   "opt_out_email": null,
+   "phone": "888-948-0764",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "email",
+    "address"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-10-27 by the daily maintainer from California's data broker registry (Innovative Database Solutions, Inc.; registry rights URLs https://idatabasesolutions.com/personal-information-request-all-other-states/ and the homepage). IDS is a mailing-list and data-append company: its site sells phone and reverse-phone append, email and reverse-email append, demographic and social-media append to marketers. Consumer data with a real opt-out, so priority is high. The footer's 'Do Not Sell My Personal Info' page (fetched headless, HTTP 200) points to the request form; the 'CCPA/CPRA' page links a California notice PDF (wp-content/uploads/2024/08/ccpa.pdf, fetched) that names the same form (/personal-information-request, which redirects to the all-other-states form) or a call to (888) 948-0764, and says the opt-out of sale can also be requested by sending a message through the website. The form, rendered headless, requires first name, last name, email, street address, city, state and postal code, with two checkboxes: view my information, and do-not-sell plus delete. It loads reCAPTCHA v3 in invisible mode (no widget shown), so captcha is false and the tier is assisted, the same call as swordfish-ai. The page says a found record is deleted within 30 days. The CA notice says it may ask for at least two data points it already holds, and possibly a signed affidavit, to verify a request. No dedicated privacy email was found. Nothing was submitted; last_verified is null.",
+   "instructions_md": "1. Go to https://idatabasesolutions.com/personal-information-request-all-other-states/ (\"Personal Information Request\"). The same form is used for California residents.\n2. Enter your first and last name, email, and the street address, city, state and postal code your mail arrives at. IDS uses these to find your record.\n3. Tick \"I request that any information about me will not be sold to anyone and that you permanently delete any information about me.\" Tick the \"view\" box too if you also want a copy of what they hold.\n4. Submit the form. IDS says a matching record is deleted within 30 days.\n5. If you've lived at several addresses, submit once per address. IDS may contact you to confirm your identity before acting.\n6. You can also call (888) 948-0764 to make the request by phone.",
+   "link_status": "unknown"
   },
   {
    "id": "innovis-com",
