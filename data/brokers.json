@@ -1,21 +1,21 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.17",
-  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
+  "dataset_version": "0.1.18",
+  "content_hash": "sha256:ddbd7eab8b3e77436dbfcfef73391ef5324434956d11dbba26570824f3ee3f11",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 496,
-  "backlog_count": 89,
-  "total_known": 585,
-  "unverified_count": 459,
+  "authored_count": 498,
+  "backlog_count": 90,
+  "total_known": 588,
+  "unverified_count": 461,
   "tiers": {
-   "guided": 272,
+   "guided": 274,
    "assisted": 152,
    "auto": 72
   },
   "priorities": {
    "crucial": 124,
-   "high": 157,
+   "high": 159,
    "standard": 215
   }
  },
@@ -5164,6 +5164,38 @@
    "link_status": "live"
   },
   {
+   "id": "datafy-com",
+   "name": "Datafy, LLC",
+   "domain": "datafy.com",
+   "category": "location_ad_data_broker",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://www.datafy.com/opt-out",
+   "opt_out_email": "opt-out@datafy.com",
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "email",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Added 2026-11-14 by the daily maintainer from the California data broker registry (Datafy, LLC; registry email opt-out@datafy.com, rights URL datafy.com/opt-out). Datafy's homepage describes analytics and ad tech built on 'visitation, spending, and behavioral signals'. Its opt-out page ('Datafy - Personal Data Rights Request') says the Mobile Advertising ID (MAID / IDFA / AAID) is 'one of the identifiers that we use most often' and that 'we require this ID in your request, otherwise we will not be able to match your personal data' -- though the form field itself is marked optional. Rendered the form headless (nothing submitted): required first name, last name, primary email, myself/another individual, country, state, a request type (opt out of sale/use, know, limit, delete, correct) and a typed signature; optional MAID, secondary email and notes. A visible Cloudflare Turnstile widget (data-size normal) is on the page, so captcha true and tier guided. The page also mentions a request-status page keyed by request ID. Visitation/device-ID data -> high priority, not people-search. The registry email was not confirmed on Datafy's own page. last_verified left null.",
+   "instructions_md": "1. Find your phone's advertising ID first -- Datafy says it matches records by this ID. On Android: Settings > Privacy > Ads (or Settings > Google > Ads). On iPhone, Apple doesn't show the IDFA directly; Datafy's page says you need a third-party app to view it. If you can't get it, you can still submit, but Datafy may not find your data.\n2. Go to https://www.datafy.com/opt-out.\n3. Enter your first and last name, email, country and state, and choose \"Myself\".\n4. Paste your Mobile Device Advertising ID.\n5. Under the requested action, choose \"Opt-out of the sale and use of my personal data\" (submit a second request choosing the delete option if you also want deletion).\n6. Type your name as the signature, complete the CAPTCHA, and submit. Keep the request ID if one is shown so you can check its status later.\n7. If the form doesn't work, email opt-out@datafy.com (the address in Datafy's California registry filing) with the same details, including your advertising ID.",
+   "link_status": "unknown"
+  },
+  {
    "id": "datalinedata-com",
    "name": "Dataline, Inc.",
    "domain": "datalinedata.com",
@@ -7698,6 +7730,38 @@
    "notes": "WebFetch on seamless.ai/privacy-policy confirmed Seamless.AI is a well-known B2B sales-prospecting platform that sells business contact data (name, work email, phone, job title/employer) scraped and compiled from public/professional sources. It runs a dedicated 'Privacy Request Center' portal at preferences.seamless.ai for access/correction/deletion requests, plus a 'Do Not Sell or Share My Information' footer link to the same portal, and a privacy@seamlessleads.com contact email. No CAPTCHA or ID mentioned in the fetched policy text. Because the records are primarily business/professional contact info (not home address or SSN-type data) but do include personal name+contact info resold without consent, classified high (not crucial, since it is not a people-search/home-address product) and assisted tier (self-service portal, no CAPTCHA/ID barrier confirmed).",
    "instructions_md": "1. Go to https://preferences.seamless.ai/ (Seamless.AI's Privacy Request Center).\n2. Choose the option to access, correct, or delete your personal data (their listing of you as a business contact).\n3. Enter your name and email address so Seamless.AI can locate your record(s).\n4. Submit the request and watch for a confirmation email; follow any verification link included.\n5. Alternatively, email privacy@seamlessleads.com directly and state you are requesting deletion/opt-out of sale of your personal data.\n6. Re-check periodically, since B2B contact databases like this one are frequently re-scraped and re-added.",
    "link_status": "bot-blocked"
+  },
+  {
+   "id": "seekout-com",
+   "name": "SeekOut (ZipStorm, Inc.)",
+   "domain": "seekout.com",
+   "category": "recruiting_data",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://www.seekout.com/privacy/choices",
+   "opt_out_email": "legal@seekout.com",
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "email",
+    "listing_url"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Added 2026-11-14 by the daily maintainer from the California data broker registry (ZipStorm, Inc. dba SeekOut; registry email legal@seekout.com, rights URL seekout.com/privacy/choices). SeekOut is a recruiting/talent-sourcing platform; its site advertises searching '1B+ profiles', and its Candidate Privacy Policy says it collects names, contact info, work and education history and skills from public professional networking sites, personal websites and employer customers. Separately it runs a 'SeekOut Candidate Database' covered by its main privacy policy. SeekOut is also named as an upstream data vendor in our fetcher-ai entry. The 'Privacy Choices Portal' at /privacy/choices embeds a HubSpot form. Rendered headless (nothing submitted), it shows: individual / authorized-representative choice, first name*, last name*, email*, LinkedIn profile URL*, country*, state/region code*, and checkboxes for delete, copy, correction, Do Not Sell or Share, and limit sensitive PI, plus a reCAPTCHA. The page warns 'all requests for deletion are permanent'. CAPTCHA -> guided. Profiles of individuals searchable by recruiters -> people_search true; professional rather than home-address data, so high rather than crucial. The registry email was not seen on SeekOut's own pages. last_verified left null.",
+   "instructions_md": "1. Copy the URL of your LinkedIn profile -- SeekOut's form requires it to find your record.\n2. Go to https://www.seekout.com/privacy/choices (SeekOut's \"Privacy Choices Portal\").\n3. Choose \"I am the individual\" and enter your first and last name, email, LinkedIn profile URL, country and state.\n4. Tick \"Delete My Personal Information\" and \"Do Not Sell or Share My Information\". SeekOut warns that deletion is permanent.\n5. Complete the CAPTCHA and submit, then watch for any follow-up email asking you to confirm.\n6. If the form doesn't work, email legal@seekout.com (the address in SeekOut's California registry filing) with the same details.",
+   "link_status": "unknown"
   },
   {
    "id": "sharethis-com",
@@ -11932,7 +11996,7 @@
    "tier": "assisted",
    "priority": "standard",
    "method": "portal",
-   "opt_out_url": "https://privacy.leadiq.com",
+   "opt_out_url": "https://leadiq.com/request-removal",
    "opt_out_email": "privacy@leadiq.com",
    "phone": null,
    "captcha": false,
@@ -11948,9 +12012,9 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "WebFetch on leadiq.com's privacy policy confirmed: B2B sales-prospecting data broker maintaining a 'Directory Database' of professional contact info for sales and recruiting use. Policy directs removal requests to a dedicated Privacy Center at privacy.leadiq.com or via email to privacy@leadiq.com, and the footer carries a 'Do Not Sell or Share My Personal Information' link. Attempting to fetch privacy.leadiq.com itself returned only the marketing homepage content in this session (not the actual portal form), so the portal's exact fields/CAPTCHA status is inferred from the privacy policy's general language ('we may ask you to verify your identity') rather than directly observed -- no CAPTCHA or ID upload is mentioned anywhere, so kept at assisted rather than guided. B2B professional-contact data, not consumer people-search; priority standard. last_verified left null since the portal page itself wasn't directly rendered.",
-   "instructions_md": "1. Go to https://privacy.leadiq.com (LeadIQ's Privacy Center).\n2. Look for the \"Do Not Sell or Share My Personal Information\" option and follow its instructions to submit a removal request for your professional contact record.\n3. If the portal isn't accessible or you prefer email, send a request to privacy@leadiq.com with your name and the details of the record (e.g., company, job title) you want removed from LeadIQ's Directory Database.\n4. Be prepared to verify your identity if LeadIQ asks for confirmation before processing the request.\n5. Watch for a confirmation email once the removal is processed.",
-   "link_status": "live"
+   "notes": "WebFetch on leadiq.com's privacy policy confirmed: B2B sales-prospecting data broker maintaining a 'Directory Database' of professional contact info for sales and recruiting use. Policy directs removal requests to a dedicated Privacy Center at privacy.leadiq.com or via email to privacy@leadiq.com, and the footer carries a 'Do Not Sell or Share My Personal Information' link. Attempting to fetch privacy.leadiq.com itself returned only the marketing homepage content in this session (not the actual portal form), so the portal's exact fields/CAPTCHA status is inferred from the privacy policy's general language ('we may ask you to verify your identity') rather than directly observed -- no CAPTCHA or ID upload is mentioned anywhere, so kept at assisted rather than guided. B2B professional-contact data, not consumer people-search; priority standard. last_verified left null since the portal page itself wasn't directly rendered. Update 2026-11-14 (daily maintainer, refs page-monitor #225): privacy.leadiq.com still serves only the marketing homepage (title 'LeadIQ | The Smart B2B Prospecting Platform', no request form); that homepage's 'Privacy Center' and 'Do Not Sell or Share My Personal Information' links both go to leadiq.com/privacy-center, a hub offering 'Claim my profile', 'Request access' and 'Request removal' (/request-removal). Fetched leadiq.com/request-removal ('LeadIQ | Request Removal'): it embeds a Typeform titled 'LeadIQ Privacy Portal' whose first step is 'Let's start by verifying your email address' -- no CAPTCHA seen on that first step. Later Typeform steps were not walked (nothing was submitted). opt_out_url moved to /request-removal. Privacy Center also lists phone 1-888-653-2347 and says opting out of ad sharing is done via the site cookie manager. last_verified left null.",
+   "instructions_md": "1. Go to https://leadiq.com/request-removal (reachable from LeadIQ's Privacy Center at https://leadiq.com/privacy-center via \"Request removal\").\n2. The page embeds LeadIQ's Privacy Portal form. It starts by verifying your email address -- use the work email LeadIQ is likely to have on file for you.\n3. Follow the remaining steps to request removal of your professional contact record from LeadIQ's database.\n4. If the form doesn't work or you prefer email, write to privacy@leadiq.com with \"Privacy Request\" in the subject line, your name, and the details of the record (e.g. company, job title) you want removed.\n5. Watch for a confirmation email once the removal is processed. To also stop ad-related sharing on LeadIQ's own site, turn off \"Marketing cookies\" in its cookie manager.",
+   "link_status": "unknown"
   },
   {
    "id": "leadsmarket-com",
