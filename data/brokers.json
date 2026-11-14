@@ -1,21 +1,21 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.17",
-  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
+  "dataset_version": "0.1.18",
+  "content_hash": "sha256:1dfb3e2d2d66b32e7d1a5a6157ea80d861b5eadcd8525bc0872ec0dc354f4a65",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 496,
+  "authored_count": 497,
   "backlog_count": 89,
-  "total_known": 585,
-  "unverified_count": 459,
+  "total_known": 586,
+  "unverified_count": 460,
   "tiers": {
-   "guided": 272,
+   "guided": 273,
    "assisted": 152,
    "auto": 72
   },
   "priorities": {
    "crucial": 124,
-   "high": 157,
+   "high": 158,
    "standard": 215
   }
  },
@@ -6193,6 +6193,37 @@
    "notes": "WebFetch confirms Haines & Company is a lead-generation/list company selling property, owner, phone, email, and mortgage data through products like Property Connect and Criss Cross (a reverse-directory tool) to real estate agents, insurance brokers, and contractors -- a genuine data broker reselling identifiable owner/resident records, though sold to businesses rather than a public people-search UI. WebFetch on haines.com/privacy-policy found a general right-to-delete statement but no dedicated CCPA opt-out form or email; WebFetch on haines.com/contact-us/ surfaced support@haines.com, phone 330-494-9111, and a contact form as the only channels. No dedicated 'do not sell' page or process was found despite searching. Because the mechanism is a general contact channel rather than a documented CCPA-specific opt-out flow, this stays guided tier. Flagged high priority (not crucial) since Criss Cross/reverse-lookup functionality resells address+phone data on individuals but the primary sales channel is B2B licensing, not a consumer-facing people-search site. last_verified left null -- reconstructed from WebFetch renders of privacy-policy and contact-us pages, not manually confirmed.",
    "instructions_md": "1. Email support@haines.com and state that you are exercising your CCPA right to opt out of the sale/sharing of your personal information, and/or requesting deletion of any record associated with you in Haines & Company's databases (including Property Connect and Criss Cross).\n2. Provide your full name, current and any prior mailing addresses you want checked, and an email address so they can confirm the request.\n3. If email goes unanswered, call (330) 494-9111 or use the contact form at haines.com/contact-us/ to follow up, referencing your original opt-out request.\n4. Haines & Company's privacy policy does not describe a dedicated self-service opt-out page, so expect a manual response rather than an automated confirmation; keep a copy of your request and any reply for your records.\n5. Because their products are resold to real estate, insurance, and home-improvement businesses rather than offered as a public search tool, a single request may not remove your data from every downstream licensee -- consider following up periodically.",
    "link_status": "live"
+  },
+  {
+   "id": "health-union-com",
+   "name": "Health Union",
+   "domain": "health-union.com",
+   "category": "health_audience_data",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "portal",
+   "opt_out_url": "https://privacyportal.onetrust.com/webform/c402d2db-7536-4212-a23d-ed4a33c1b3b2/e3aec736-7c0a-4313-a3e7-132ff601397a",
+   "opt_out_email": "privacy@health-union.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "cpra"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Registered California data broker (CA registry row health-union.com, 'Health Union, LLC'). Fetched 2026-11-12: health-union.com/privacy-choices/ (WebFetch) names a 'Privacy Rights Request Form' hosted on OneTrust (the opt_out_url above) or email to privacy@health-union.com for opting out of sale/sharing, deletion and other rights, plus a 'Manage Cookies' control that only stops targeting cookies on the current browser/device. The privacy notice (fetched via curl) says Health Union runs condition-specific online health communities and uses personal information to 'deliver targeted advertising based on your health interests and community participation' and to 'create audience segments for our pharmaceutical and life science partners', combining it with third-party data including health and medical claims data; it honors Global Privacy Control as an opt-out of sale/sharing for that browser, does not require an account to submit a request, confirms receipt within 10 business days and responds within 45 days. The OneTrust webform itself returned HTTP 200 but is JS-rendered, so its exact fields and whether it shows a CAPTCHA or email-verification step were NOT observed; required_fields [full_name, email] are the usual OneTrust minimum and tier is guided out of caution. Health-interest data is sensitive, hence priority high. last_verified left null: no human has walked through the form.",
+   "instructions_md": "1. Open Health Union's Privacy Rights Request Form at https://privacyportal.onetrust.com/webform/c402d2db-7536-4212-a23d-ed4a33c1b3b2/e3aec736-7c0a-4313-a3e7-132ff601397a (it is also linked from https://health-union.com/privacy-choices/).\n2. Choose the request type you want: opt out of the sale or sharing of your personal information, and, if you also want it, deletion of the data they hold about you.\n3. Fill in the identifying details the form asks for (at least your name and email) and submit. Complete any verification step the form or a follow-up email asks for.\n4. If the form won't load or you prefer email, write to privacy@health-union.com saying you want to opt out of the sale/sharing of your personal information and of targeted advertising, and (optionally) that you want your data deleted.\n5. Health Union says it confirms receipt within 10 business days and responds within 45 days; if you hear nothing in 10 business days, email privacy@health-union.com.\n6. On any Health Union community site you visit, also use \"Manage Cookies\" (or turn on Global Privacy Control in your browser) to switch off targeting cookies. This only covers that browser and device, so repeat it on each one.",
+   "link_status": "unknown"
   },
   {
    "id": "here-com",
