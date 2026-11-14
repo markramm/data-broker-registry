@@ -1,21 +1,21 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.17",
-  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
+  "dataset_version": "0.1.19",
+  "content_hash": "sha256:17dd05b4176138c67a8e4536e40084aa900fd368dfdfb7742c4f38a1adad6911",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 496,
+  "authored_count": 499,
   "backlog_count": 89,
-  "total_known": 585,
-  "unverified_count": 459,
+  "total_known": 588,
+  "unverified_count": 462,
   "tiers": {
    "guided": 272,
-   "assisted": 152,
-   "auto": 72
+   "assisted": 154,
+   "auto": 73
   },
   "priorities": {
    "crucial": 124,
-   "high": 157,
+   "high": 160,
    "standard": 215
   }
  },
@@ -6946,6 +6946,36 @@
    "link_status": "live"
   },
   {
+   "id": "onspotdata-com",
+   "name": "OnSpot Data (Mobile Technology Corporation)",
+   "domain": "onspotdata.com",
+   "category": "location_data",
+   "people_search": false,
+   "tier": "auto",
+   "priority": "high",
+   "method": "email",
+   "opt_out_url": "https://www.onspotdata.com/privacy-policy/",
+   "opt_out_email": "optout@onspotdata.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Registered in the California data broker registry as Mobile Technology Corporation (DBA OnSpot Data), rights_url = the privacy policy. Fetched that page 2026-11-13: OnSpot collects device location (lat/long), mobile advertising IDs (IDFA / Android ID), IP and demographic data, builds audience segments and shares them with publishers, advertisers and ad platforms. Its opt-out route is email: OptOut@OnSpotData.com, and the footer 'Privacy Opt-Out' link asks for subject 'Privacy Opt-Out Request'. General privacy questions go to privacy@onspotdata.com. No web form, CAPTCHA or ID requirement is described, and the policy does not describe a general deletion process (deletion is only spelled out for children's data). The policy reports 520 Delete Act requests in 2025 with a median response of 4 days. Because the data is keyed to devices, not names, a request that includes the phone's advertising ID is more likely to match; the policy does not say what they need. Location data on individuals -> high priority. last_verified null: no request has been sent.",
+   "instructions_md": "1. If you can, find your phone's advertising ID. On Android it is under Settings > Google > Ads (or Settings > Privacy > Ads). iPhone doesn't show it in Settings, so skip this step there. The ID helps OnSpot match its device-based location records to you.\n2. Email optout@onspotdata.com with the subject \"Privacy Opt-Out Request\".\n3. In the body, ask them to stop selling or sharing your personal information and to delete the location and device data they hold about you under the CCPA/Delete Act. Include your name, email and, if you have it, your mobile advertising ID.\n4. Separately, reset or delete your phone's advertising ID and turn off app tracking in your device settings, so new location data is harder to link to you.\n5. Keep a copy of the email and follow up at privacy@onspotdata.com if you get no reply within 45 days.",
+   "link_status": "unknown"
+  },
+  {
    "id": "optimalfusion-com",
    "name": "Optimal Fusion",
    "domain": "optimalfusion.com",
@@ -7229,6 +7259,38 @@
    "link_status": "live"
   },
   {
+   "id": "porchgroupmedia-com",
+   "name": "Porch Group Media (PGM Solutions)",
+   "domain": "porchgroupmedia.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://optout.porchgroupmedia.com/",
+   "opt_out_email": "privacy@porchgroupmedia.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "none",
+   "required_fields": [
+    "full_name",
+    "address",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Registered in the California data broker registry as Datamentors LLC (DBA PGM Solutions / Porch Group Media); registry rights_url is just the homepage. Fetched 2026-11-13: the porchgroupmedia.com footer links 'Do Not Sell My Personal Information' to optout.porchgroupmedia.com and 'Privacy Choices' to datarightsrequest.porchgroupmedia.com. The optout page loaded and shows a plain web form: first name, middle initial, last name, address (incl. apt #), city, state, 5-digit zip, email, phone, today's date, plus a certification of whose identity it is (self / guardian-POA / deceased family member). No CAPTCHA, no ID upload, no email-verification step visible in the fetched render; required-field markers are not shown, so required_fields lists name/address/email as the minimum the page says it uses to find you. Page states removal within 10 business days and that they will stop sharing your data with third parties. Alternate routes: privacy@porchgroupmedia.com, or mail to PGM Solutions, Attn: Privacy Advocate, Wesley Chapel, FL. Homeowner/mover marketing data on individuals (name, address, phone, email) -> high priority, not people-search. datarightsrequest.porchgroupmedia.com (access/delete portal) was not fetched. last_verified null: nobody has submitted the form.",
+   "instructions_md": "1. Go to https://optout.porchgroupmedia.com/ (Porch Group Media's \"Do Not Sell My Personal Information\" form).\n2. Choose the certification option that applies (usually \"Myself\").\n3. Fill in your name and the postal address they are likely to have for you, plus your email. Phone is also asked for; include it only if you want that number removed too.\n4. Enter today's date and click \"Submit Form\". The page says removal takes up to 10 business days.\n5. If you have lived at several addresses recently, submit the form once for each address.\n6. To ask for access to or deletion of your data rather than just an opt-out of sharing, use the \"Privacy Choices\" link in the site footer or email privacy@porchgroupmedia.com.",
+   "link_status": "live"
+  },
+  {
    "id": "pulsepoint-com",
    "name": "PulsePoint, Inc.",
    "domain": "pulsepoint.com",
@@ -7347,6 +7409,37 @@
    "notes": "This session's network could not resolve rehold.com (DNS lookup failure), so the live site could not be fetched -- last_verified left null. Cross-checked against multiple independent 2026 removal guides (Incogni, Onerep, IDStrong, Deletemyinfo, internetprivacy.com) which agree Rehold has no standalone opt-out page: you search your own address on rehold.com itself, drill into state -> city -> the matching property listing, open 'information control' on that profile, click 'remove' next to each field you want taken down, click 'apply', then confirm via a link emailed to you. Guides report a ~48-hour turnaround and list support@rehold.com as a fallback contact if the self-service flow doesn't work. Property/address lookup site -- guided tier because of the CAPTCHA/multi-click flow plus the fact there's no dedicated opt-out URL to link directly to.",
    "instructions_md": "1. Go to rehold.com and search using your street address rather than your name.\n2. Drill down through state, then \"more cities\" to find your city, then scan the property list for your address and click \"view details.\"\n3. On your property's page, click \"information control,\" then click \"remove\" next to each piece of information you want taken down, and click \"apply.\" You'll need to enter your name and email and solve a CAPTCHA as part of this step.\n4. Check your email for a confirmation message from Rehold and click the link to finalize the removal.\n5. Records should disappear within about 48 hours; if they don't, email support@rehold.com directly and describe which listing you need removed.\n6. Rehold pulls from property records that get refreshed periodically, so check back and repeat the process if your listing reappears.",
    "link_status": "bot-blocked"
+  },
+  {
+   "id": "reklaimyours-com",
+   "name": "Reklaim",
+   "domain": "reklaimyours.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://reklaimyou.com/do-not-sell",
+   "opt_out_email": "privacy@reklaimyou.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "identity_check",
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Registered in the California data broker registry as Reklaim Ltd. under reklaimyours.com; that domain now 301-redirects to reklaimyou.com (kept the registry domain as the id so the registry row matches). Fetched 2026-11-13: the privacy policy says that besides its consumer data-marketplace app, Reklaim acts as a data broker, selling/sharing/licensing personal information it receives from third parties to business customers, and builds advertiser audiences. The footer 'Do Not Sell' page (reklaimyou.com/do-not-sell, updated 2026-01-23) loaded and shows a form: first name, last name, email (required), phone (optional). It says no account is needed but 'we may need to verify your identity', and requests are handled within 15 business days. No CAPTCHA visible in the fetched render. Email alternative: the page gives privacy@reklaimyou.com; the policy body says privacy@reklaimyours.com (old domain). Mail: Reklaim Ltd., PO Box 60029 Etobicoke RPO, Thorncrest, ON M9A 5G2. Deletion for account holders is via /delete-my-account (not fetched). last_verified null: the form was not submitted.",
+   "instructions_md": "1. Go to https://reklaimyou.com/do-not-sell (Reklaim's \"Do Not Sell or Share My Personal Information\" page). You don't need an account.\n2. Enter your first name, last name and email. Phone is optional.\n3. Click \"OPT-OUT\". Reklaim says it handles requests within 15 business days and may contact you to verify your identity.\n4. To ask for deletion as well, or if the form doesn't work, email privacy@reklaimyou.com asking them to delete your personal information and stop selling or sharing it, including data they got from other data brokers.\n5. If you use the Reklaim app, note that opting out ends your eligibility for its rewards; account holders can also delete their account from the site footer's \"Delete my account\" link.",
+   "link_status": "unknown"
   },
   {
    "id": "remodeling-com",
