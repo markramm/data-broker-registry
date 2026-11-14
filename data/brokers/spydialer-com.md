@@ -7,25 +7,26 @@ people_search: true
 tier: guided
 priority: crucial
 method: form
-opt_out_url: "https://www.spydialer.com/optout.aspx"
+opt_out_url: "https://www.spydialer.com/optout"
 opt_out_email: null
 phone: null
 captcha: true
 id_required: false
 phone_required: false
 charges_fee: false
-required_fields: [full_name, phone]
+verification: email_confirm
+required_fields: [full_name, email]
 readd_days: null
 legal_basis: [ccpa]
 last_verified: null
 source: data-brokers-watch
-notes: "WebFetch on /Consumers/ returned only marketing copy (JS-rendered wizard). Real removal form lives at spydialer.com/optout.aspx per multiple 2026 opt-out-guide writeups (Security.org, Incogni, mePrism); flow is: pick state, solve CAPTCHA, continue past a privacy-law notice, then add the phone number/name to opt out. CAPTCHA-gated multi-step wizard -> guided tier. Updated opt_out_url from the bare /Consumers/ landing page to the actual optout.aspx tool. Not freshly confirmed against a rendered page -- last_verified left null."
+notes: "2026-11-04 maintainer update (page-monitor #178): the old optout.aspx wizard (pick state, CAPTCHA, then name + phone) is gone. Rendered https://www.spydialer.com/optout.aspx headless today: it now redirects (HTTP 200) to https://www.spydialer.com/optout, titled 'Do Not Sell/Right to Opt-out', which is also where the footer 'Remove My Info' link points. The new flow has two stages: (1) choose subject or authorized agent, enter first/middle/last name and email, tick the consent box and pass the anti-bot check (a Cloudflare Turnstile widget and a reCAPTCHA frame were both present); (2) Spy Dialer emails a link, valid 24 hours, to the actual opt-out form, where you enter details matching the record to remove; then a confirmation page and email, with removal at least 3 days after approval. The stage-2 form is behind the emailed link and was not seen, so its exact fields (probably phone number) are unconfirmed. Nothing was submitted. Original URL came from data-brokers-watch. CAPTCHA + email-link multi-step -> guided. last_verified left null."
 ---
 
-<!-- Real instructions based on Spy Dialer's documented opt-out wizard. -->
-1. Go to https://www.spydialer.com/optout.aspx (or click "Do Not Sell Or Share My Personal Information" in the site footer).
-2. Select your state from the dropdown and solve the CAPTCHA, then click "Continue."
-3. Click through the privacy-law notice ("Got it, continue").
-4. Enter the name and phone number you want removed from Spy Dialer's reverse-lookup index.
-5. Click "Opt-out my info" to submit the request.
-6. Wait 24-72 hours, then search your own number on Spy Dialer to confirm it no longer returns a listing; repeat if it reappears.
+1. Go to https://www.spydialer.com/optout (the "Remove My Info" link in Spy Dialer's footer goes to the same page).
+2. Under "I am", choose "The subject of the request" (or "An authorized agent" if you are filing for someone else, which adds agent name and email fields).
+3. Enter your first name, optional middle name, last name, and email address, then tick the consent box.
+4. Complete the anti-bot check and click "Continue."
+5. Open the email Spy Dialer sends and click its link within 24 hours (after that you must request a new one).
+6. On the opt-out form the link opens, enter the details exactly as they appear on the listing you want removed (for example the phone number and name) and submit. Fill in every field; incomplete forms slow the request down.
+7. You should get a confirmation page and a confirmation email. Allow at least 3 days after approval, then search your number on Spy Dialer to confirm the listing is gone; repeat if it reappears.
