@@ -1,21 +1,21 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.17",
-  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
+  "dataset_version": "0.1.18",
+  "content_hash": "sha256:97f3f921cc839a080dea3300aaaa8d2b09dc70a34bcfdc5257354387854f508d",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 496,
+  "authored_count": 497,
   "backlog_count": 89,
-  "total_known": 585,
-  "unverified_count": 459,
+  "total_known": 586,
+  "unverified_count": 460,
   "tiers": {
-   "guided": 272,
+   "guided": 273,
    "assisted": 152,
    "auto": 72
   },
   "priorities": {
    "crucial": 124,
-   "high": 157,
+   "high": 158,
    "standard": 215
   }
  },
@@ -6957,7 +6957,7 @@
    "opt_out_url": "https://optimalfusion.com/do-not-sell-my-personal-information/",
    "opt_out_email": "dataprotectionofficer@optimalfusion.com",
    "phone": "866-764-1025",
-   "captcha": false,
+   "captcha": true,
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
@@ -6973,8 +6973,8 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "Confirmed via WebFetch on optimalfusion.com and optimalfusion.com/do-not-sell-my-personal-information/: Optimal Fusion is a performance advertising/audience-data company (runs the Fuze360 audience platform) using first-party consumer data for targeting -- large-scale marketing data broker, priority high. The do-not-sell page has a working form requiring First Name, Last Name, Postal Code, and Email, with a choice of 'Request to know' / 'Delete my information' / 'Do not sell or share my information', and a sworn perjury declaration required before submission -- this identity-declaration requirement pushed tier to guided rather than assisted. Page also lists an alternate contact email as dataprotectionofficer@optimalfusion.com; note this differs from the dataprotection@optimalfusion.com in the legacy CSV lead -- used the address actually confirmed on-page. No CAPTCHA was observed in the fetched content. last_verified left null since the form was not directly submitted.",
-   "instructions_md": "1. Go to https://optimalfusion.com/do-not-sell-my-personal-information/.\n2. Choose \"Do not sell or share my information\" (or \"Delete my information\" if you want deletion as well).\n3. Enter your first name, last name, postal code, and email address.\n4. Agree to the sworn declaration confirming the information you supplied is true and correct, then submit the form.\n5. Alternatively, email dataprotectionofficer@optimalfusion.com or call 866-764-1025 to make the same request.\n6. Optimal Fusion states it cannot complete the request if you fail to verify your identity, so respond promptly to any identity-confirmation follow-up.\n7. Keep a record of your submission in case you need to follow up.",
+   "notes": "Confirmed via WebFetch on optimalfusion.com and optimalfusion.com/do-not-sell-my-personal-information/: Optimal Fusion is a performance advertising/audience-data company (runs the Fuze360 audience platform) using first-party consumer data for targeting -- large-scale marketing data broker, priority high. The do-not-sell page has a working form requiring First Name, Last Name, Postal Code, and Email, with a choice of 'Request to know' / 'Delete my information' / 'Do not sell or share my information', and a sworn perjury declaration required before submission -- this identity-declaration requirement pushed tier to guided rather than assisted. Page also lists an alternate contact email as dataprotectionofficer@optimalfusion.com; note this differs from the dataprotection@optimalfusion.com in the legacy CSV lead -- used the address actually confirmed on-page. No CAPTCHA was observed in the original fetch. Update 2026-11-06 (maintainer, refs page-monitor #189): the page monitor flagged a CAPTCHA on 2026-11-05, and a fetch of the page on 2026-11-06 shows a visible Google reCAPTCHA Enterprise widget (a g-recaptcha div with no invisible size setting, action do_not_sell) above the submit button, with the form script refusing to submit without a reCAPTCHA response -- so captcha is now true. Form fields (first name, last name, postal code, email, request type, sworn declaration) are unchanged. last_verified left null since the form was not directly submitted.",
+   "instructions_md": "1. Go to https://optimalfusion.com/do-not-sell-my-personal-information/.\n2. Choose \"Do not sell or share my information\" (or \"Delete my information\" if you want deletion as well).\n3. Enter your first name, last name, postal code, and email address.\n4. Agree to the sworn declaration confirming the information you supplied is true and correct, complete the reCAPTCHA, then submit the form.\n5. Alternatively, email dataprotectionofficer@optimalfusion.com or call 866-764-1025 to make the same request.\n6. Optimal Fusion states it cannot complete the request if you fail to verify your identity, so respond promptly to any identity-confirmation follow-up.\n7. Keep a record of your submission in case you need to follow up.",
    "link_status": "live"
   },
   {
@@ -8104,6 +8104,37 @@
    "notes": "Fetched unity.com/legal/privacy-policy and unity.com/legal/do-not-sell-my-personal-information directly (HTTP 200 via curl with a browser user-agent; Claude's built-in WebFetch got 403 on both). Unity Technologies is the well-known game-engine company; the data-broker-relevant part is specifically Unity Ads / its advertising SDK. The CCPA opt-out page explicitly discloses that Unity 'shares' (and under CCPA's broad definition may 'sell') personal information via the Ad ID sent when a game using Unity's Ad Network is played, which Unity's advertising/publishing partners may use to look up your online activity. Opt-out mechanics differ by user type: (1) game players opt out via an in-game 'privacy settings' banner/icon shown inside personalized Unity ads -- there is no separate web form outside the game itself; (2) developers opt out via their Unity account privacy settings; (3) website visitors use the 'Your Privacy Choices (Cookie Settings)' footer link on unity.com. For all cases the page also offers a fallback: email dpo@unity3d.com. Because the primary channel is in-app/in-ad UI rather than a fetchable web form, and there's no way to id_required/phone_required check it directly, classified tier:guided and method:portal (the do-not-sell page functions as an explanatory portal directing to different in-product controls) with the DPO email as the concrete fallback. legal_basis is ccpa only since that's what the page cites; last_verified left null since only the static page text was confirmed, not the actual in-game/in-ad opt-out flow.",
    "instructions_md": "1. If you are opting out as a game player: while playing a game that shows Unity-powered ads, look for the small privacy icon in the bottom-left corner of a personalized ad, or a privacy settings banner. Tap it and follow the steps to opt out of personalized ads and data sharing for that game.\n2. If you are a Unity developer: log in to your Unity account, open your account's privacy settings page, and adjust or opt out of the data uses listed there.\n3. If you are only a visitor to unity.com: open the \"Your Privacy Choices (Cookie Settings)\" link in the site footer and select your opt-out preferences in the pop-up.\n4. In any case, for a broader request (deletion, correction, or a disclosure of what Unity holds on you) that the in-product controls don't cover, email dpo@unity3d.com directly and describe your request.\n5. Because Unity Ads opt-outs are largely per-app/per-device (tied to your device's advertising ID), you may need to repeat step 1 separately in each game/app that uses Unity's ad network.",
    "link_status": "live"
+  },
+  {
+   "id": "urban-vpn-com",
+   "name": "Urban Cyber Security Inc. (Urban VPN)",
+   "domain": "urban-vpn.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "email",
+   "opt_out_url": "https://www.urban-vpn.com/about-us/privacy",
+   "opt_out_email": "privacy@urban-vpn.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "other",
+   "required_fields": [
+    "email",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Registered California data broker (CA registry row: Urban Cyber Security Inc., urban-vpn.com, privacy@urban-vpn.com). Fetched https://www.urban-vpn.com/about-us/privacy on 2026-11-06 with WebFetch: the policy says the parent company is a data broker, that users' data may be sold or shared with its clients, and that it sells marketing insights and behavior segments built from browsing data collected through its free VPN and browser-extension products (URLs visited, ads viewed, search results, e-commerce activity, AI prompts). Opt-out routes stated on that page: an opt-out toggle for browsing data in the product's settings panel; a 'Do Not Sell or Share My Personal Information' link in the site footer and product settings (no URL given in the policy text, and not separately loaded); Global Privacy Control honored per browser/device; and access/deletion/opt-out requests by email to the DPO at privacy@urban-vpn.com, ideally including the product's Panelist ID (found in the extension's local storage under the key 'panalyticsid'), with identity matched against their records. Panelist ID links are kept no longer than 90 days. Tier guided because finding the Panelist ID takes manual browser-devtools steps and the company may ask for more verification. Nothing was submitted; last_verified left null.",
+   "instructions_md": "1. If you use any Urban VPN product (VPN app or browser extension), open its settings and switch off the browsing-data sharing toggle, and use the \"Do Not Sell or Share My Personal Information\" option there or in the footer of urban-vpn.com.\n2. Turn on Global Privacy Control in your browser if it supports it; Urban says it treats a GPC signal as an opt-out for that browser or device.\n3. To have your data deleted or to opt out of sale more broadly, email privacy@urban-vpn.com saying you are exercising your right to opt out of the sale/sharing of your personal information (and, if you want, to delete it).\n4. If you have the browser extension installed, include your Panelist ID: right-click a page, choose Inspect, open the Application (or Storage) tab, expand the extension's local storage, and copy the value of the key \"panalyticsid\". Urban only keeps that link for about 90 days, so do this promptly.\n5. Answer any identity-verification follow-up; Urban says it may deny a request it cannot verify and will explain how to appeal.\n6. Uninstalling the products stops future collection; the opt-out request covers what was already collected.",
+   "link_status": "unknown"
   },
   {
    "id": "usdatacorporation-com",
@@ -10771,7 +10802,7 @@
    "method": "form",
    "opt_out_url": "https://www.edvisors.com/your-privacy-choices/",
    "opt_out_email": "privacy@edvisors.com",
-   "phone": "8889721010",
+   "phone": null,
    "captcha": false,
    "id_required": false,
    "phone_required": false,
@@ -10787,8 +10818,8 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "collegeloan.com is operated by Edvisors Network, Inc., a student-loan/financial-aid marketing site that shares/sells lead data (name, contact info, financial-aid interest) to third-party lenders and marketing partners -- a lead-gen/marketing data broker rather than a people-search site. WebSearch results (Privacy Rights Clearinghouse, JoinDeleteMe, OptOutIndex) and a direct curl check confirmed the opt-out page now lives at edvisors.com/your-privacy-choices/ (redirected from the third-party-opt-out URL in the legacy CSV, which now 301s there -- curl confirmed HTTP 200 on the new path). Edvisors states it honors opt-outs submitted by email or chat as well as through the web form, and that processing can take up to 10 days. No CAPTCHA or ID requirement found. Not freshly confirmed against a rendered form; last_verified left null.",
-   "instructions_md": "1. Go to https://www.edvisors.com/your-privacy-choices/ (this replaced the older third-party-opt-out URL, which now redirects here).\n2. Follow the on-page instructions to submit a request to stop Edvisors from sharing or selling your personal information to third parties and marketing partners.\n3. If you'd rather not use the web form, email privacy@edvisors.com or customerservice@edvisors.com directly with your opt-out request, or call 1-888-972-1010.\n4. Allow up to 10 days for the opt-out to take effect.\n5. Note this stops Edvisors from sharing/selling your data going forward but does not retroactively recall data already passed to lenders or partners before your request.",
+   "notes": "collegeloan.com is operated by Edvisors Network, Inc., a student-loan/financial-aid marketing site that shares/sells lead data (name, contact info, financial-aid interest) to third-party lenders and marketing partners -- a lead-gen/marketing data broker rather than a people-search site. WebSearch results (Privacy Rights Clearinghouse, JoinDeleteMe, OptOutIndex) and a direct curl check confirmed the opt-out page now lives at edvisors.com/your-privacy-choices/ (redirected from the third-party-opt-out URL in the legacy CSV, which now 301s there -- curl confirmed HTTP 200 on the new path). Edvisors states it honors opt-outs submitted by email or chat as well as through the web form, and that processing can take up to 10 days. No CAPTCHA or ID requirement found. Not freshly confirmed against a rendered form; last_verified left null. Update 2026-11-06 (maintainer, refs page-monitor #33): the 2026-11-05 page snapshot shows Edvisors removed the phone option ('calling 1(888) 972-1010') from the privacy-choices page, which now offers only the form or an email to customerservice@edvisors.com, so phone is now null and the call step is dropped. The open CAPTCHA question in #33 is unaffected.",
+   "instructions_md": "1. Go to https://www.edvisors.com/your-privacy-choices/ (this replaced the older third-party-opt-out URL, which now redirects here).\n2. Follow the on-page instructions to submit a request to stop Edvisors from sharing or selling your personal information to third parties and marketing partners.\n3. If you'd rather not use the web form, email privacy@edvisors.com or customerservice@edvisors.com directly with your opt-out request.\n4. Allow up to 10 days for the opt-out to take effect.\n5. Note this stops Edvisors from sharing/selling your data going forward but does not retroactively recall data already passed to lenders or partners before your request.",
    "link_status": "live"
   },
   {
@@ -10802,7 +10833,7 @@
    "method": "form",
    "opt_out_url": "https://www.edvisors.com/third-party-opt-out/",
    "opt_out_email": "privacy@edvisors.com",
-   "phone": "(888) 972-1010",
+   "phone": null,
    "captcha": false,
    "id_required": false,
    "phone_required": false,
@@ -10817,8 +10848,8 @@
    ],
    "last_verified": "2026-07-03",
    "source": "data-brokers-watch",
-   "notes": "Likely miscategorized during migration: category/people_search say people_search, but the live page fetched 2026-07-03 is Edvisors' third-party marketing-data opt-out for its student-loan/financial-aid lead business, not a people-search listing removal -- there is no name/address lookup here, just a state + role + email preference form. Left category/people_search untouched per instructions (not in the fields list to change), but set priority to standard (marketing opt-out, not a personal-safety/doxxing risk) and flagged here for a human to reconsider category on a future pass. Form: choose state, choose consumer role, enter email, submit; no CAPTCHA/ID. Alternate channels: call (888) 972-1010 or email privacy@edvisors.com.",
-   "instructions_md": "1. Go to https://www.edvisors.com/third-party-opt-out/.\n2. Select your state of residence from the dropdown.\n3. Select your relationship to the data (consumer, acting on behalf of a consumer, employee, job applicant, business contact, or contractor).\n4. Enter your email address.\n5. Submit the form to stop Edvisors from sharing your data with third-party marketing partners.\n6. Alternatively, skip the form and call (888) 972-1010 or email privacy@edvisors.com directly with the same request.",
+   "notes": "Likely miscategorized during migration: category/people_search say people_search, but the live page fetched 2026-07-03 is Edvisors' third-party marketing-data opt-out for its student-loan/financial-aid lead business, not a people-search listing removal -- there is no name/address lookup here, just a state + role + email preference form. Left category/people_search untouched per instructions (not in the fields list to change), but set priority to standard (marketing opt-out, not a personal-safety/doxxing risk) and flagged here for a human to reconsider category on a future pass. Form: choose state, choose consumer role, enter email, submit; no CAPTCHA/ID. Alternate channels: call (888) 972-1010 or email privacy@edvisors.com. Update 2026-11-06 (maintainer, refs page-monitor #36): the 2026-11-05 page snapshot shows Edvisors removed the phone option ('calling 1(888) 972-1010') from the privacy-choices page (where this URL now redirects); it now offers only the form or an email to customerservice@edvisors.com. phone set to null and the call option dropped from the steps; the form route itself, and last_verified, are unchanged.",
+   "instructions_md": "1. Go to https://www.edvisors.com/third-party-opt-out/.\n2. Select your state of residence from the dropdown.\n3. Select your relationship to the data (consumer, acting on behalf of a consumer, employee, job applicant, business contact, or contractor).\n4. Enter your email address.\n5. Submit the form to stop Edvisors from sharing your data with third-party marketing partners.\n6. Alternatively, skip the form and email privacy@edvisors.com or customerservice@edvisors.com directly with the same request.",
    "link_status": "live"
   },
   {

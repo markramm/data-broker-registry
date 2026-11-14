@@ -9,7 +9,7 @@ priority: standard
 method: form
 opt_out_url: "https://www.edvisors.com/third-party-opt-out/"
 opt_out_email: "privacy@edvisors.com"
-phone: "(888) 972-1010"
+phone: null
 captcha: false
 id_required: false
 phone_required: false
@@ -19,7 +19,7 @@ readd_days: null
 legal_basis: [ccpa]
 last_verified: "2026-07-03"
 source: data-brokers-watch
-notes: "Likely miscategorized during migration: category/people_search say people_search, but the live page fetched 2026-07-03 is Edvisors' third-party marketing-data opt-out for its student-loan/financial-aid lead business, not a people-search listing removal -- there is no name/address lookup here, just a state + role + email preference form. Left category/people_search untouched per instructions (not in the fields list to change), but set priority to standard (marketing opt-out, not a personal-safety/doxxing risk) and flagged here for a human to reconsider category on a future pass. Form: choose state, choose consumer role, enter email, submit; no CAPTCHA/ID. Alternate channels: call (888) 972-1010 or email privacy@edvisors.com."
+notes: "Likely miscategorized during migration: category/people_search say people_search, but the live page fetched 2026-07-03 is Edvisors' third-party marketing-data opt-out for its student-loan/financial-aid lead business, not a people-search listing removal -- there is no name/address lookup here, just a state + role + email preference form. Left category/people_search untouched per instructions (not in the fields list to change), but set priority to standard (marketing opt-out, not a personal-safety/doxxing risk) and flagged here for a human to reconsider category on a future pass. Form: choose state, choose consumer role, enter email, submit; no CAPTCHA/ID. Alternate channels: call (888) 972-1010 or email privacy@edvisors.com. Update 2026-11-06 (maintainer, refs page-monitor #36): the 2026-11-05 page snapshot shows Edvisors removed the phone option ('calling 1(888) 972-1010') from the privacy-choices page (where this URL now redirects); it now offers only the form or an email to customerservice@edvisors.com. phone set to null and the call option dropped from the steps; the form route itself, and last_verified, are unchanged."
 ---
 
 1. Go to https://www.edvisors.com/third-party-opt-out/.
@@ -27,4 +27,4 @@ notes: "Likely miscategorized during migration: category/people_search say peopl
 3. Select your relationship to the data (consumer, acting on behalf of a consumer, employee, job applicant, business contact, or contractor).
 4. Enter your email address.
 5. Submit the form to stop Edvisors from sharing your data with third-party marketing partners.
-6. Alternatively, skip the form and call (888) 972-1010 or email privacy@edvisors.com directly with the same request.
+6. Alternatively, skip the form and email privacy@edvisors.com or customerservice@edvisors.com directly with the same request.
