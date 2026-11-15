@@ -1,22 +1,22 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.17",
-  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
+  "dataset_version": "0.1.18",
+  "content_hash": "sha256:7dc4a36941b60e7f1fc722d600fa1450f035d1fe0e9f3cdce7b67e39c2654284",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 496,
+  "authored_count": 499,
   "backlog_count": 89,
-  "total_known": 585,
-  "unverified_count": 459,
+  "total_known": 588,
+  "unverified_count": 462,
   "tiers": {
-   "guided": 272,
-   "assisted": 152,
+   "guided": 274,
+   "assisted": 153,
    "auto": 72
   },
   "priorities": {
    "crucial": 124,
-   "high": 157,
-   "standard": 215
+   "high": 159,
+   "standard": 216
   }
  },
  "brokers": [
@@ -4667,6 +4667,41 @@
    "link_status": "unknown"
   },
   {
+   "id": "catalist-us",
+   "name": "Catalist",
+   "domain": "catalist.us",
+   "category": "voter_data_broker",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://catalist.us/your-privacy-choices/",
+   "opt_out_email": "privacy@catalist.us",
+   "phone": "(800) 938-9516",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "full_name",
+    "address",
+    "dob",
+    "email",
+    "phone"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "cpra"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Registered California data broker (CA registry row catalist.us, Catalist LLC), a national voter-file and political data company. 2026-11-15 maintainer run: WebFetch of catalist.us/privacy-policy found a request form at /your-privacy-choices/ and phone (800) 938-9516. privacy@catalist.us is listed for general questions, not explicitly for requests. The policy says an opt-out removes your record from Catalist's files and suppresses it, while 'deletion' covers only data collected directly from you, not the products. So opt-out is the request that matters here. WebFetch of the form showed required fields: state of residence, request type, name, full street address, birthdate, email and phone, plus an emailed verification code and a penalty-of-perjury attestation. A headless render found an invisible reCAPTCHA v3 and a Cloudflare Turnstile widget (size=normal). Turnstile often passes without interaction, but a person must check, so captcha true and guided. The policy also says Catalist may ask for identification, which is why id_required is false but unconfirmed. Nothing was submitted. Not people search, but it holds name, address and voting data on most US adults, so priority high. last_verified null: no human has walked through the opt-out.",
+   "instructions_md": "1. Go to Catalist's [Your Privacy Choices form](https://catalist.us/your-privacy-choices/).\n2. Pick your state, then choose the option to delete and opt out of the sale of your personal information. Opting out is what removes you from Catalist's data products; \"deletion\" alone only covers data you gave Catalist directly.\n3. Say you're making the request for yourself, and tick the declaration.\n4. Enter your name, full street address, date of birth, email and phone number. Catalist says it uses the email and phone only for this request.\n5. Click \"Send Verification Code,\" enter the code from your email and click \"Verify.\"\n6. Complete the security check if one appears, tick the final attestation and submit.\n7. If the form doesn't work, call (800) 938-9516 to make the same request.",
+   "link_status": "unknown"
+  },
+  {
    "id": "cision-com",
    "name": "Cision US Inc.",
    "domain": "cision.com",
@@ -8637,6 +8672,38 @@
    "link_status": "live"
   },
   {
+   "id": "zetaglobal-com",
+   "name": "Zeta Global",
+   "domain": "zetaglobal.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://zetaglobal.com/privacy-choices/",
+   "opt_out_email": "privacy@zetaglobal.com",
+   "phone": "1.866.709.0840",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "cpra"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Registered California data broker (CA registry row zetaglobal.com, Zeta Global). 2026-11-15 maintainer run: WebFetch of zetaglobal.com/privacy-policy/ and /privacy-choices/ found two databases. One is keyed by email address and handled by a OneTrust request form linked from Privacy Choices. The other is keyed by cookie ID and handled at zetaglobal.com/rights-request/. Also found: phone 1.866.709.0840 for California residents, privacy@zetaglobal.com, and honoring of Global Privacy Control. A headless render of the OneTrust form (privacyportal-cdn.onetrust.com/dsarwebform/bc2d3301-.../d0720d0f-....html) showed request types including 'Do not sell or share' and 'Delete'. Required fields: first name, last name, email and country. A visible reCAPTCHA v2 (size=normal) means guided tier. The page says one request covers one email address and is verified through that inbox. Nothing was submitted. The cookie-ID page (/rights-request/) was not rendered. Large consumer marketing-data broker, not people search, so priority high. last_verified null: no human has walked through the opt-out.",
+   "instructions_md": "1. Go to Zeta's [Privacy Choices page](https://zetaglobal.com/privacy-choices/) and open the privacy request form for email-linked data.\n2. Choose \"Email recipient or Internet user,\" then select \"Do not sell or share my identifiable information\" and \"Delete identifiable information that relates to me\" (you can pick both).\n3. Enter your first name, last name, email address and country. Leave the details box free of personal data, as the form asks.\n4. Solve the CAPTCHA and submit, then click the verification link Zeta emails you.\n5. Zeta keys its records on email address, so repeat steps 2\u20134 for each email address you use.\n6. Back on the Privacy Choices page, also use the online behavioral advertising link (zetaglobal.com/rights-request/) in each browser you use. That covers Zeta's cookie-based data, which the email form does not.\n7. California residents can instead call 1.866.709.0840. Turning on Global Privacy Control in your browser also counts as an opt-out of sale/sharing.",
+   "link_status": "unknown"
+  },
+  {
    "id": "zoominfo-com",
    "name": "Zoominfo.Com",
    "domain": "zoominfo.com",
@@ -8816,6 +8883,38 @@
    "notes": "WebFetch of 4cinsights.com timed out/errored (likely bot-blocked or JS-rendered), so relying on WebSearch. 4C Insights is a registered CA data broker (oag.ca.gov/data-broker/registration/189767, media/marketing analytics and audience-targeting company) with a dedicated CCPA request form at 4cinsights.com/submit-ccpa-request/ and a privacy policy page describing opt-out from sale. Contact email info@4cinsights.com per legacy CSV row, consistent with WebSearch results. B2B ad-tech/marketing-analytics vendor, no consumer people-search product -- standard priority.",
    "instructions_md": "1. Go to https://www.4cinsights.com/submit-ccpa-request/.\n2. Complete the CCPA request form with your name and email address, selecting the option to opt out of sale/sharing of your personal information.\n3. Alternatively, email info@4cinsights.com directly and state you are exercising your CCPA rights to opt out and/or delete your data.\n4. Watch for any confirmation communication from 4C Insights.\n5. Allow up to 45 days for the request to be processed, per standard CCPA timelines.",
    "link_status": "broken"
+  },
+  {
+   "id": "6sense-com",
+   "name": "6sense",
+   "domain": "6sense.com",
+   "category": "b2b_contact_data",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://privacy.6sense.com/",
+   "opt_out_email": "privacy@6sense.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "cpra"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Registered California data broker (CA registry row 6sense.com, 6sense Insights, Inc., registry email privacy@6sense.com). 6sense sells B2B intent and contact data. 2026-11-15 maintainer run: 6sense.com/privacy-center/ 301-redirects to privacy.6sense.com, a DataGrail Privacy Request Center. A headless render showed country/state selectors and request types Access, Deletion, Transfer, Correct and Object to Processing. There is no separate 'Do Not Sell' option, so deletion is the closest route. Clicking 'Start Deletion Request' opened privacy.6sense.com/form/deletion?locationCode=US with fields first name, last name, email and 'Data subject's relationship with 6sense', plus optional comments, then a 'Review Request' step. No CAPTCHA iframe or widget was present on that step. Nothing was submitted, so any later verification step (DataGrail usually emails a confirmation link) is unconfirmed: verification null. Plain form with no CAPTCHA seen, so tier assisted. B2B data with no people-search product, so priority standard. last_verified null: no human has walked through the opt-out.",
+   "instructions_md": "1. Go to the [6sense Privacy Request Center](https://privacy.6sense.com/).\n2. Select your country (and state, if in the US), then click \"Start Deletion Request.\"\n3. Enter your first name, last name and email. Under \"Data subject's relationship with 6sense,\" pick the option that fits (for most people, that you're not a customer).\n4. Optionally note in the comments that you also want any sale or sharing of your data to stop, citing your state privacy rights.\n5. Click \"Review Request,\" confirm and submit, then watch for a confirmation email and follow any link in it.\n6. If the form fails, email privacy@6sense.com with the same request.",
+   "link_status": "unknown"
   },
   {
    "id": "accucomcorp-com",
