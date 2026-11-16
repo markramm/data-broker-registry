@@ -1,5 +1,35 @@
 US State Privacy Rights
-How to Exercise Your U.S. State Consumer Privacy Rights
-This feature is only available for California, Colorado, Connecticut, Florida, Montana, Oregon, Texas, Utah, and Virginia state residents. For more information, please visit
-Taboola's Privacy Policy.
-If you believe that you should have access to this page, we recommend that you visit from your personal California, Colorado, Connecticut, Florida, Montana, Oregon, Texas, Utah, and Virginia device. Otherwise, we suggest you visit Taboola’s global Data Subject Access Request Portal.
+How to Exercise Your US State Privacy Rights
+Taboola’s US State Consumer Rights Portal
+This portal outlines what personal information and behavioral information Taboola holds about you. It also explains how you can opt out from Taboola’s disclosures, sharing, and sales of this personal information, and how you can access or delete your personal information from Taboola’s services.
+Your Rights — What You Can Request
+You have the right to request that Taboola (i) provide you with access to the personal information that we hold about you, (ii) correct your personal information, (iii) delete your personal information, (iv) cease or restrict disclosures or sales of your personal information to third parties, and (v) opt out of cross-context behavioral advertising or tailored advertising. You also have a right against discrimination for exercising any of these rights, which Taboola is committed to upholding and honoring at all times.
+What Information Taboola Holds
+Taboola maintains data about you in only pseudonymized form, which means that we do not know your identity because we do not process your name, email address, or other identifiable information. Instead, we only process digital identifiers such as cookie IDs, IP addresses, mobile advertising IDs on your device, and in some limited circumstances, your hashed email address. We process this data in order to provide personalized content and advertisements to you.
+For more information about how we collect, use, and disclose information that we obtain through our websites and services, please see our
+Privacy Policy.
+Does Taboola Engage in “Sales”?
+Taboola does not “sell” personal information in the traditional sense of the word. More specifically, Taboola does not sell your data in exchange for money.
+However, Taboola may disclose or make available your personal information when we transmit ad requests to
+buyers or when we collaborate with
+data partners.
+Similarly, we also provide limited personal information to third parties such as website analytics companies and fraud detection companies (as listed
+here) that help Taboola, among other things, evaluate the ways that visitors engage with our website and verify traffic sources.
+When we do so, in most cases, we have contractually restricted their uses of this data for only Taboola’s business purposes. Under state privacy laws, such disclosures of personal information to service providers are not deemed to be strictly a “sale” and thus are not prohibited after you exercise your right to cease or restrict disclosures or sales of your personal information to third parties. However, you do have the right to restrict the sharing of this data by Taboola to third parties.
+In any instances where we have not entered into a service provider relationship with such
+third parties, we will stop sharing your personal information when you instruct us not to “sell” or “share” your personal information.
+I’d Like to Stop All Sales, If Any, and the Sharing of My Personal Information — Tell Me How
+Through this portal (by clicking where indicated below), Taboola will respond to your request to cease or restrict disclosures, sharing, or sales of your personal information to third parties. We’ll do so by placing a “Do Not Sell” cookie on your browser, which we will read and honor whenever we encounter your device.
+Please note that, because our tracking mechanisms operate at the device and browser level, to fully opt-out across devices, you will need to do so on each device and browser individually. Also, if your browser is configured to reject cookies, this request may not be effective, since we identify your choice to cease or restrict disclosures or sales based on the “Do Not Sell” opt-out cookie that we deliver to you. In such a case, you will need to confirm that your browser is configured properly in order for the opt-out to be effective: If you are using a Safari browser on iOS11 or macOS High Sierra, you must first adjust your Privacy and Security Settings to turn off both “Prevent Cross-Site Tracking” and “Block All Cookies,” and then return to this Consumer Rights Portal to set your opt out preferences. For more information about how we use cookies and other technologies, please refer to Taboola’s
+Cookie Policy.
+In order to keep your personal information secure and confirm that we have received a bona fide request, we need to take steps to verify your identity and right to access the requested personal information. If we are unable to verify your identity, we will be unable to comply with your request.
+I’d like to opt out from Taboola’s disclosures, sharing and sales of my personal information
+My Status:
+Not Opted Out
+[Opt In]
+Other Rights and Support from Taboola
+If you would like to exercise any of your additional access rights please see
+Taboola’s Data Subject Access Request Portal for instructions on how to do so.
+For general customer support inquiries relating to payment issues, technical issues, or any other issues you may be experiencing, please contact Taboola’s Customer Support Team, at
+support@taboola.com.
+General customer service questions will not be answered if submitted through this form.
