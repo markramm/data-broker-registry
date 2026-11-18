@@ -1,21 +1,21 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.18",
-  "content_hash": "sha256:5b6925e2cc19e9f0684f2a90ed070bdc5a010a5f6d3930a6ef809b51f2b1ee53",
+  "dataset_version": "0.1.19",
+  "content_hash": "sha256:16b5f9767833a0cdefae21098625e4d71142032c6b209debc9729b305cad1e46",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 495,
+  "authored_count": 498,
   "backlog_count": 89,
-  "total_known": 584,
-  "unverified_count": 458,
+  "total_known": 587,
+  "unverified_count": 461,
   "tiers": {
-   "guided": 272,
-   "assisted": 151,
+   "guided": 274,
+   "assisted": 152,
    "auto": 72
   },
   "priorities": {
    "crucial": 124,
-   "high": 157,
+   "high": 160,
    "standard": 214
   }
  },
@@ -3792,6 +3792,38 @@
    "link_status": "bot-blocked"
   },
   {
+   "id": "abovedata-io",
+   "name": "Above Data, Inc.",
+   "domain": "abovedata.io",
+   "category": "adtech_data_broker",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://www.abovedata.io/opt-out",
+   "opt_out_email": "privacy@abovedata.io",
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "cpra"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Registered California data broker (CA registry row abovedata.io, rights_url /opt-out/ and /privacy-policy/). Above Data markets a 'signal layer' / signal network of data for ad targeting. Loaded https://www.abovedata.io/opt-out/ in a headless browser on 2026-11-18. It redirected to /opt-out, a 'Data Subject & Opt Out Request Form' with required first name, last name and email; optional company and country; and checkboxes for Opt Out of Targeted Advertising, Access, Deletion and Correction. The page says Above Data will verify identity from what you provide and respond within 30 days. The form loads Google reCAPTCHA Enterprise ('Protected by reCAPTCHA' badge, invisible mode). No challenge was shown on load, but one can appear on submit, so captcha is set to true and tier guided per the 'when in doubt, guided' rule. The page also gives privacy@abovedata.io. Nothing was submitted. last_verified left null.",
+   "instructions_md": "1. Go to the [Above Data opt-out request form](https://www.abovedata.io/opt-out).\n2. Enter your first name, last name and email address. Company and country are optional.\n3. Tick **Opt out of targeted advertising**, and also **Request deletion of information about me** if you want your data removed.\n4. Submit the form. It is protected by reCAPTCHA, so you may be asked to solve a challenge.\n5. Above Data says it will verify your identity from the information you gave and respond within 30 days. If you can't get through the form, email privacy@abovedata.io with the same request.",
+   "link_status": "unknown"
+  },
+  {
    "id": "accudata-com",
    "name": "AccuData Integrated Marketing (Deep Sync)",
    "domain": "accudata.com",
@@ -5948,6 +5980,39 @@
    "notes": "FMAdata (First Movers Advantage, LLC) explicitly self-identifies on its own site as 'a registered data broker under applicable state laws, including under Texas law.' It sells a 'Comprehensive In-Market Properties Database' and 'Homeowners With New and Pending Listings' -- real-estate/homeowner sales-lead data -- to banking, insurance, mortgage, and home-improvement businesses, making it a genuine consumer data broker despite the B2B customer base. WebFetch confirmed a dedicated opt-out form at /opt-out-requests/new requiring full name, address, and a request-type selector (opt out / disclosure / deletion), plus an 'authorized agent' toggle, and a printable PDF alternative for mailing to their Privacy Desk; no fee is mentioned. CAPTCHA presence and ID requirements could not be confirmed from the fetched content, so left at defaults (false) rather than guessed, and tier kept guided given the multi-field form. The legacy CSV's privacy@fmadata.com was NOT found anywhere on the live site (no email address of any kind appeared in either the homepage or opt-out-form fetch) -- deliberately not used. opt_out_url is the confirmed live form URL. people_search left false: this sells property/homeowner marketing data, not general identity/address people-lookup profiles.",
    "instructions_md": "1. Go to https://www.fmadata.com/opt-out-requests/new.\n2. Select the request type: opt out of sale/sharing, request disclosure of data held, or request deletion.\n3. Enter your full name and address so FMAdata can match your record in its homeowner/property database.\n4. If submitting on someone else's behalf, indicate \"authorized agent\" and provide the agent's name.\n5. Submit the form; alternatively, FMAdata offers a printable PDF version of this same request that can be mailed to their Privacy Desk if you prefer not to submit personal information online.\n6. No opt-out-specific email address was found on the live site -- use the web form or mail option above rather than emailing FMAdata directly.",
    "link_status": "live"
+  },
+  {
+   "id": "focus-usa-com",
+   "name": "Focus USA, Inc.",
+   "domain": "focus-usa.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://www.focus-usa.com/your-privacy-choices/",
+   "opt_out_email": "privacy@focus-usa.com",
+   "phone": "201-489-2525",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "address",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "cpra"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Registered California data broker (CA registry row focus-usa.com, rights_url /your-privacy-choices/). Focus USA sells consumer mailing and email lists (new movers, life events, property, automotive, transactional data) for direct-mail and digital marketing. Loaded https://www.focus-usa.com/your-privacy-choices/ in a headless browser on 2026-11-18: a request form with Access / Correct / Delete / Opt-Out checkboxes. Required fields: first and last name, street, city, state, ZIP, email (with confirm-email); optional second and third email and two phone numbers; a required 'are you submitting on behalf of someone' yes/no question; an optional file upload. The page says records are matched by name + address or by email. The form ends with a required arithmetic CAPTCHA question ('3 * 2 = '), so captcha is true and tier guided. privacy@focus-usa.com is listed for questions. Nothing was submitted, so whether an email confirmation step follows is unknown. last_verified left null.",
+   "instructions_md": "1. Go to the [Focus USA Your Privacy Choices page](https://www.focus-usa.com/your-privacy-choices/).\n2. Enter your first and last name, street address, city, state and ZIP, and your email address (twice). Focus USA matches records by name and address or by email, so add any other email addresses and phone numbers you have used in the optional fields.\n3. Answer \"No\" to \"Are you submitting request on behalf of someone?\" if the request is for yourself.\n4. Under \"Your Privacy Choices\", tick **Opt-Out**, and also **Delete** if you want your record removed rather than just suppressed from sale.\n5. Solve the simple arithmetic question at the bottom of the form and submit.\n6. If the form does not work for you, email privacy@focus-usa.com with the same information and say you are opting out of the sale and sharing of your personal information.",
+   "link_status": "unknown"
   },
   {
    "id": "foursquare-com",
@@ -8604,6 +8669,41 @@
    "notes": "WebFetch on groundtruth.com/privacy-policy succeeded and rendered current text. GroundTruth is a location-based advertising platform that collects and shares device/location data with advertisers and third parties -- a genuine data broker by its own description. The policy gives a dedicated opt-out portal (groundtruth.com/privacy-rights), an email (privacyrights@groundtruth.com), an appeals email, and points to industry-wide DAA AppChoices / aboutads.info/choices as supplemental channels. No CAPTCHA or ID requirement mentioned in the fetched text -> assisted tier (real form, not gated). Policy reports it received and fully complied with ~29,000 opt-out requests in the prior year, suggesting a working, actively-used process. last_verified left null -- summarized by the fetch tool, not independently re-rendered.",
    "instructions_md": "1. Go to https://www.groundtruth.com/privacy-rights/ -- GroundTruth's dedicated privacy-rights portal.\n2. Submit a request to opt out of the sale/sharing of your personal information for targeted advertising, providing the requested contact information (typically an email address).\n3. Alternatively, email privacyrights@groundtruth.com directly with the same request.\n4. If your request is denied or you want to contest the outcome, GroundTruth's policy lists a separate appeals address: privacyrightsappeals@groundtruth.com.\n5. For broader mobile/browser ad-tracking opt-outs beyond GroundTruth specifically, also use the Digital Advertising Alliance's AppChoices tool or visit aboutads.info/choices, which GroundTruth's own policy points to as a supplemental step.",
    "link_status": "live"
+  },
+  {
+   "id": "yobi-ai",
+   "name": "Yobi Ventures, Inc.",
+   "domain": "yobi.ai",
+   "category": "adtech_data_broker",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://www.yobi.ai/opt-out",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "email",
+    "phone",
+    "address",
+    "dob"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "cpra"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Registered California data broker (CA registry row yobi.ai, DBA Yobi AI, rights_url /opt-out). Yobi describes itself as 'the foundation model for human behavior' and sells consumer behavioral data and models for CTV, retail media and agency ad targeting. Loaded https://www.yobi.ai/opt-out in a headless browser on 2026-11-18: a 'Do not sell or share my personal information' form. Required fields: first and last name, email, phone, street address, city, state, ZIP, country, date of birth, who the request is for (myself / my household / someone else), and at least one right (Access, Delete, Do Not Sell, Correct, Object/Restrict, Move My Data); 'Additional details' is optional. No CAPTCHA widget was visible on the rendered page, so captcha is a best-effort false and tier assisted; one may appear on submit. Nothing was submitted, so the verification step is unknown. The page lists info@yobi.ai as the general contact but does not name it as an opt-out channel, so opt_out_email is null. last_verified left null.",
+   "instructions_md": "1. Go to the [Yobi \"Do not sell or share my personal information\" form](https://www.yobi.ai/opt-out).\n2. Fill in your first and last name, email, phone number, street address, city, state, ZIP, country and date of birth. Yobi says it uses these only to find your records and verify the request.\n3. Under \"I am submitting on behalf of\", choose **Myself** (or **My household**).\n4. Under \"Select the right(s) you want to exercise\", tick **Do Not Sell My Information**, and also **Delete My Information** if you want your data removed.\n5. Submit the request and watch your email for any verification message from Yobi.",
+   "link_status": "unknown"
   },
   {
    "id": "zeotap-com",
