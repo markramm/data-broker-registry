@@ -1,22 +1,22 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.17",
-  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
+  "dataset_version": "0.1.18",
+  "content_hash": "sha256:f1c8265ab57ff7864bb021fad3fe5157fd4ebe599ff39910fa5b92c77b204195",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 496,
+  "authored_count": 499,
   "backlog_count": 89,
-  "total_known": 585,
-  "unverified_count": 459,
+  "total_known": 588,
+  "unverified_count": 462,
   "tiers": {
-   "guided": 272,
+   "guided": 273,
    "assisted": 152,
-   "auto": 72
+   "auto": 74
   },
   "priorities": {
    "crucial": 124,
-   "high": 157,
-   "standard": 215
+   "high": 158,
+   "standard": 217
   }
  },
  "brokers": [
@@ -5069,6 +5069,39 @@
    "source": "dbw+tcp-research",
    "notes": "WebSearch of Crunchbase's own support-center articles ('Who does the CCPA affect?', 'Do Not Sell Rights under CCPA') confirms Crunchbase publishes public 'person profiles' (name, role, company affiliations, sometimes contact info) sourced in part from public records and third parties, and offers a form to request deletion of your person profile as their CCPA 'do not sell' mechanism -- functionally a people-search/professional-profile data broker, since profiles are compiled about individuals (often without their direct involvement) and displayed/sold via their API. Crunchbase's support article explicitly frames a deletion request as opting out of sale. The exact current form URL could not be directly rendered (privacy/us-residents page returned HTTP 403), so opt_out_url is left as a <verify:> placeholder; last_verified is null. privacy@crunchbase.com is Crunchbase's general privacy contact and is offered as a fallback channel pending confirmation of the dedicated form.",
    "instructions_md": "1. Search your name on crunchbase.com and locate any \"person profile\" matching you.\n2. Go to Crunchbase's Support Center and look for the article \"Do Not Sell Rights under CCPA\" (support.crunchbase.com), which links to the current deletion-request form for person profiles.\n3. Complete the form with your name and the URL of your Crunchbase profile, and submit it as a request to delete your person profile / opt out of sale.\n4. Note that submitting this request will remove your profile from Crunchbase's site, API, and any products built on it -- you will no longer be discoverable via Crunchbase search.\n5. If you can't locate the form, email privacy@crunchbase.com directly, reference CCPA \"do not sell\" / deletion of your person profile, and include your profile URL.\n6. Watch for a confirmation email and respond if identity verification is requested.",
+   "link_status": "unknown"
+  },
+  {
+   "id": "datadecisionsgroup-com",
+   "name": "Data Decisions Group, LLC",
+   "domain": "datadecisionsgroup.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://datadecisionsgroup.com/preferences/",
+   "opt_out_email": null,
+   "phone": "1-888-530-8596",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "email",
+    "address"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "cpra"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-11-19 by the daily maintainer from California's data broker registry (row datadecisionsgroup.com, rights_url /privacy-policy/, email privacy@datadecisionsgroup.com). Fetched the privacy policy (HTTP 200, last updated 1/13/2026): DDG licenses consumer audience data (identifiers, purchase history, demographics including protected characteristics, and inferred health and political attributes) to marketers, mainly for Medicare/Medicaid and insurance outreach, and says some of those disclosures are CCPA 'sales'. California residents are told to use the web form at /preferences or call 1-888-530-8596. Loaded /preferences in a headless browser: it opens a 'Consumer Privacy Rights' portal; its 'Data Subject Rights' tab offers Delete / Correct / know what is collected / know what is sold. The 'Delete your data' form requires first name, last name, email, country, address line 1, city, state, postal code and an 'I am a (an)' type; address line 2 and request details are optional. The form loads Google reCAPTCHA in invisible mode; no challenge appeared on load but one can appear on submit, so captcha is true and tier guided (same call as abovedata-io). The portal says the Data Subject Rights tab may be hidden for visitors outside the US. The privacy@ address is listed for employees and applicants, so it is not given here as the consumer route. No standalone 'opt out of sale' request type was offered in the form; the separate 'Cookie Preferences' tab covers cookie-based sharing only. Nothing was submitted. last_verified left null.",
+   "instructions_md": "1. Go to the [Data Decisions Group privacy preferences page](https://datadecisionsgroup.com/preferences/). A \"Consumer Privacy Rights\" panel should open; if it doesn't, use the \"Privacy Choices\" link in the site footer.\n2. Click the **Data Subject Rights** tab. The panel says this tab may not appear for visitors outside the United States.\n3. Under \"Select a Request Type\", choose **Delete your data**.\n4. Fill in your first and last name, email, country, street address, city, state and postal code, and choose the option that describes you under \"I am a (an)\". Request details are optional; you can add that you also want your data excluded from future sales.\n5. Submit the form. It uses reCAPTCHA, so you may be asked to solve a challenge.\n6. DDG says it may ask for more details to verify you and aims to answer within 45 days. If you'd rather not use the form, call 1-888-530-8596.",
    "link_status": "unknown"
   },
   {
@@ -10974,6 +11007,37 @@
    "link_status": "live"
   },
   {
+   "id": "exactcustomer-com",
+   "name": "Exact Customer (Exact Opco, LLC)",
+   "domain": "exactcustomer.com",
+   "category": "lead_generation",
+   "people_search": false,
+   "tier": "auto",
+   "priority": "standard",
+   "method": "email",
+   "opt_out_url": "https://exactcustomer.com/privacy-policy/",
+   "opt_out_email": "info@exactcustomer.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-11-19 by the daily maintainer from California's data broker registry (row exactcustomer.com, Exact Opco, LLC dba Exact Customer; rights_url www.exactcustomer.com, email info@exactcustomer.com). Exact Customer is a pay-for-performance lead-generation company that collects personal information through forms on behalf of 'sponsors' (its clients). The homepage (HTTP 200) footer links a 'Do Not Sell' page at https://exactcustomer.com/DoNotSell.aspx, but that page returned HTTP 403 (nginx) both to curl and to a headless browser on 2026-11-19, so it could not be read and is not used as opt_out_url. The privacy policy (HTTP 200) says Exact Customer does not sell data, shares PII only with the sponsors you opted into, and that you can ask to see, correct or delete your data, or withdraw consent, by contacting info@ExactCustomer.com (or its contact form or phone number). The registry lists the same email. Tier auto because a plain email works; priority standard because it is a B2B-facing lead generator rather than a people-search or list-rental broker. A human should check whether DoNotSell.aspx loads in a normal browser and, if it does, what it asks for. Nothing was sent. last_verified left null.",
+   "instructions_md": "1. Email info@exactcustomer.com with the subject \"Privacy request: delete my personal information and do not sell or share it\".\n2. Give your full name and the email address (and phone number, if you used one) you may have entered on a form that sent your details to Exact Customer. Ask them to delete your data, stop sharing it with sponsors, and confirm in writing.\n3. If you can open it, Exact Customer's footer also links a \"Do Not Sell\" request page at https://exactcustomer.com/DoNotSell.aspx; it was not reachable when this entry was written.\n4. Keep a copy of your email and any reply.",
+   "link_status": "unknown"
+  },
+  {
    "id": "excite-com",
    "name": "Excite",
    "domain": "excite.com",
@@ -13413,6 +13477,38 @@
    "source": "dbw+tcp-research",
    "notes": "therecruitbot.com HTTP 301-redirects to www.recruitbot.com -- same entity, not a separate broker. RecruitBot is a B2B recruiting/sourcing SaaS product (per its own homepage copy: 'in-house recruiters,' 'hiring managers,' 'recruiting agencies') built on a self-described 'proprietary database of 655+ million candidate profiles' including contact info and employment history -- it is not a consumer people-search site and doesn't publicly surface individual listings the way Spokeo/TruePeopleSearch do, so people_search is false and priority is standard rather than crucial/high. Its privacy policy (fetched at recruitbot.com/privacy-policy) explicitly states a CCPA right to opt out of 'sale' of Personal Information via three channels: emailing privacy@recruitbot.com, calling (888) 481-6811, or a web form at https://recruitbot.com/removal-request/. The removal-request URL returned a bare HTTP 404 when fetched directly in this session, so it is not used as the primary opt_out_url and is instead flagged with a <verify> placeholder; email is the confirmed, lower-friction channel and is used as the recommended method (tier:auto). Company name/entity details were not visible on the homepage footer beyond 'RecruitBot Copyright 2026.' Not independently confirmed by rendering the removal form page itself.",
    "instructions_md": "<!-- Real instructions based on RecruitBot's published CCPA opt-out/removal channels. -->\n1. RecruitBot is a B2B candidate-sourcing tool for recruiters, not a public people-search site -- your data may appear in it only as part of its recruiting/candidate database, not as a public searchable profile page.\n2. To request that RecruitBot stop selling/sharing your personal information or remove your candidate record, email privacy@recruitbot.com from the email address you want covered by the request.\n3. State clearly that you are requesting a CCPA \"opt-out of sale\" and deletion of your personal information from RecruitBot's candidate database, and include your full name (and any known alternate names or prior employers) to help them locate your record.\n4. If you don't get a response, call RecruitBot's toll-free privacy line at 1-888-481-6811 and reference your email request.\n5. RecruitBot's published compliance metrics cite a median response time of about 2 days for these requests; if you have a web browser handy, you can also try https://recruitbot.com/removal-request/ (named in their privacy policy), but this URL did not load during verification, so email is the more reliable channel for now.",
+   "link_status": "unknown"
+  },
+  {
+   "id": "redidata-com",
+   "name": "Redi-Data, Inc.",
+   "domain": "redidata.com",
+   "category": "b2b_contact_data",
+   "people_search": false,
+   "tier": "auto",
+   "priority": "standard",
+   "method": "email",
+   "opt_out_url": "https://www.redidata.com/privacy-policy/",
+   "opt_out_email": "privacy@redidata.com",
+   "phone": "877-417-2436",
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "cpra"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-11-19 by the daily maintainer from California's data broker registry (row redidata.com, rights_url /privacy-policy/, email privacy@redidata.com). Fetched the homepage and the privacy policy (both HTTP 200). Redi-Data sells mailing and email lists of healthcare professionals (AMA/AOA physician files, nurses, NPs and PAs, prescriber and claims-derived data) and business contacts, so it is B2B-focused and priority is standard. The policy's CCPA section says that to exercise access, opt-out ('do not sell') and deletion rights you submit a verifiable consumer request by calling 877-417-2436 or emailing privacy@redidata.com, with responses within 15 business days for opt-outs and 45 calendar days for deletion/access, and identity verification first. A plain email route with no form, login or CAPTCHA means tier auto. The site's own forms (newsletter, contact) load reCAPTCHA but are not part of the opt-out. Nothing was sent. last_verified left null.",
+   "instructions_md": "1. Email privacy@redidata.com with the subject \"CCPA request: do not sell and delete my personal information\".\n2. In the email, give your full name and the email address(es) and work or mailing address Redi-Data might hold for you (for healthcare professionals, your practice address and NPI number help them find your record, if you are comfortable sharing it). Ask them to stop selling your information and to delete it.\n3. If you prefer, call 877-417-2436 and make the same request by phone.\n4. Redi-Data says it will verify your identity before acting. It aims to handle opt-outs within 15 business days and deletion requests within 45 days. Keep a copy of your email and any reply.",
    "link_status": "unknown"
   },
   {
