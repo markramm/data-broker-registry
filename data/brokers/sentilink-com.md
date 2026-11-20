@@ -8,8 +8,8 @@ tier: auto
 priority: standard
 method: email
 opt_out_url: "https://www.sentilink.com/privacy-policy"
-opt_out_email: "legal.notices@sentilink.com"
-phone: null
+opt_out_email: "privacy@sentilink.com"
+phone: "877-676-8565"
 captcha: false
 id_required: false
 phone_required: false
@@ -20,10 +20,11 @@ readd_days: null
 legal_basis: [ccpa]
 last_verified: null
 source: "dbw+tcp-research"
-notes: "SentiLink is a known identity-verification/fraud-detection vendor serving banks and fintechs (confirmed via its own tagline 'The fraud experts' and third-party search summaries); it processes consumer identity signals as part of fraud-risk scoring for its business clients rather than reselling consumer profiles directly to the public, but it does hold consumer data and offers CCPA rights. Direct WebFetch of sentilink.com/privacy-policy repeatedly returned only an empty JS-rendered shell (Next.js SPA, confirmed via curl showing only script tags, no body text) -- content below is reconstructed from a third-party search-engine summary of the same policy, not a direct render, so treat with extra caution. That summary states SentiLink recognizes CCPA rights to know/delete/opt-out of sale, handled via a plain email to legal.notices@sentilink.com -- method:email, so tier:auto per schema convention. A Google reCAPTCHA script was seen loaded site-wide in the raw HTML, but there is no confirmation it gates the email opt-out channel itself, so captcha left false rather than inferring. opt_out_url kept as the real known page (not a placeholder) since the URL itself is confirmed correct even though its rendered content wasn't independently verified by me. last_verified left null given the unverified render."
+notes: "2026-11-20 maintainer update (refs #252): the page monitor now captures the rendered text of sentilink.com/privacy-policy (snapshot dated 2026-11-19; the policy says 'Last updated: June 01, 2026'). Its 'How to Exercise Your California Consumer Rights' section names two channels: email privacy@sentilink.com with the subject line 'California Rights Request', or call 877-6-SNTLNK (877-676-8565). The entry previously used legal.notices@sentilink.com, taken from a third-party search summary when the page only returned an empty JS shell; that address does not appear in the current policy, so opt_out_email and phone now follow the page. The policy says SentiLink may need to verify identity and may ask for more information such as email and mailing address. SentiLink is an identity-verification/fraud-detection vendor for banks and fintechs; it receives consumer identity data through its clients rather than selling profiles to the public. A Google reCAPTCHA script loads site-wide but does not gate the email channel, so captcha stays false. Not walked through by a human: last_verified stays null."
 ---
 
-1. Email legal.notices@sentilink.com and state that you are exercising your CCPA rights to know what personal information SentiLink has about you, and/or requesting deletion or opt-out of sale.
-2. Include your full name and the email address(es) SentiLink may have associated with you, since SentiLink primarily receives identity data through its bank/fintech clients rather than directly from consumers.
-3. Watch for a reply confirming receipt and any further identity-verification steps SentiLink requires before acting on the request.
-4. Because SentiLink primarily receives your data via banks/fintechs it contracts with, also consider that the underlying financial institution may be a more effective point of control for the data itself.
+1. Email privacy@sentilink.com with the subject line "California Rights Request". SentiLink's privacy policy asks for this subject line.
+2. In the body, say which rights you are using: to know what personal information SentiLink holds about you, to delete it, and/or to correct it. Include your full name and the email address(es) SentiLink may have linked to you.
+3. Or call 877-6-SNTLNK (877-676-8565) and make the same request by phone.
+4. SentiLink may ask for more details, such as your email and mailing address, to verify your identity before it acts. Watch for that reply.
+5. SentiLink mostly gets your data through the banks and fintechs it works for. Those companies may also be worth contacting.
