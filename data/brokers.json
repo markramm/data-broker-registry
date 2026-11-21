@@ -1,22 +1,22 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.17",
-  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
+  "dataset_version": "0.1.18",
+  "content_hash": "sha256:a8972bc2eea399827466cf3cc3efce8b6eb27d3d40b4f2181f3e16b23c71efc4",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 496,
+  "authored_count": 498,
   "backlog_count": 89,
-  "total_known": 585,
-  "unverified_count": 459,
+  "total_known": 587,
+  "unverified_count": 461,
   "tiers": {
-   "guided": 272,
-   "assisted": 152,
+   "guided": 273,
+   "assisted": 153,
    "auto": 72
   },
   "priorities": {
    "crucial": 124,
    "high": 157,
-   "standard": 215
+   "standard": 217
   }
  },
  "brokers": [
@@ -10123,6 +10123,36 @@
    "link_status": "live"
   },
   {
+   "id": "commonroom-io",
+   "name": "Common Room",
+   "domain": "commonroom.io",
+   "category": "b2b_contact_data_broker",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://app.commonroom.io/remove-my-info",
+   "opt_out_email": "support@commonroom.io",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Listed in the California data broker registry (Common Room, Inc., rights URL app.commonroom.io/remove-my-info). Fetched commonroom.io/privacy-policy on 2026-11-20 (HTTP 200). It says Common Room is registered as a data broker for its Prospector product, which gives customers business contact information about potential leads, and that making this available may count as a 'sale' under the CCPA. To opt out it points to the form at app.commonroom.io/remove-my-info. For other privacy requests it gives support@commonroom.io. It says it will take steps to verify identity, which may include confirming the email address linked to the data. Rendered the form in a headless browser on 2026-11-20 without submitting it. It is titled 'Do Not Sell My Personal Information' and has these fields: first name, last name, email (the only required field), country and phone. No CAPTCHA widget or CAPTCHA script was present, so tier is assisted. Business contact data rather than consumer people-search, so priority standard. Not walked through by a human: last_verified null.",
+   "instructions_md": "1. Go to Common Room's \"Do Not Sell My Personal Information\" form at https://app.commonroom.io/remove-my-info.\n2. Enter the email address you want covered. It is the only required field. First name, last name, country and phone are optional. Add your name if your profile might be listed under a work address you don't know.\n3. Submit the form. Common Room says it verifies requests, which may include confirming the email address, so watch that inbox for a message.\n4. For access, deletion or other privacy requests beyond opting out of sale, email support@commonroom.io.",
+   "link_status": "unknown"
+  },
+  {
    "id": "compactlists-com",
    "name": "Compact Information Systems",
    "domain": "compactlists.com",
@@ -13326,6 +13356,38 @@
    "link_status": "live"
   },
   {
+   "id": "rampedup-io",
+   "name": "RampedUp",
+   "domain": "rampedup.io",
+   "category": "b2b_contact_data_broker",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://basic.rampedup.io/app/donotsell",
+   "opt_out_email": "contact@rampedup.io",
+   "phone": "888-278-3433",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "email",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "gdpr"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Listed in the California data broker registry (RampedUp, rights URL basic.rampedup.io/app/donotsell). Rendered that page in a headless browser on 2026-11-20 (HTTP 200) without submitting anything. It is the 'RampedUp Privacy Center'. RampedUp describes itself as a business-to-business information service built on professional and company contact data. The 'Opt Out Request' tab says it will opt you out of sale or sharing and delete any record it holds, both in one request. Fields: email (required), country (required, recorded as 'other'), and optional phone, first name and last name. A Google reCAPTCHA v2 checkbox (visible, normal size) sits above the submit button, so captcha is true and tier guided. A separate 'Data Subject Access Request' tab exists. The site header lists contact@rampedup.io and (888) 278-3433. These are general contact details, not a channel the privacy center names for opt-outs, so they're here only as a fallback. Business contact data, so priority standard. Not walked through by a human: last_verified null.",
+   "instructions_md": "1. Go to the RampedUp Privacy Center at https://basic.rampedup.io/app/donotsell and stay on the \"Opt Out Request\" tab.\n2. Enter the email address whose record you want removed, and pick your country. Both are required. Phone and name are optional.\n3. Tick the reCAPTCHA checkbox and submit. RampedUp says this one request opts you out of sale and sharing and deletes any record it holds.\n4. Repeat for each work or personal email address that might be in its database.\n5. If the form doesn't work for you, write to contact@rampedup.io or call (888) 278-3433 and ask for the same opt-out and deletion.",
+   "link_status": "unknown"
+  },
+  {
    "id": "rd-com",
    "name": "Reader's Digest (Trusted Media Brands)",
    "domain": "rd.com",
@@ -13723,8 +13785,8 @@
    "priority": "standard",
    "method": "email",
    "opt_out_url": "https://www.sentilink.com/privacy-policy",
-   "opt_out_email": "legal.notices@sentilink.com",
-   "phone": null,
+   "opt_out_email": "privacy@sentilink.com",
+   "phone": "877-676-8565",
    "captcha": false,
    "id_required": false,
    "phone_required": false,
@@ -13740,8 +13802,8 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "SentiLink is a known identity-verification/fraud-detection vendor serving banks and fintechs (confirmed via its own tagline 'The fraud experts' and third-party search summaries); it processes consumer identity signals as part of fraud-risk scoring for its business clients rather than reselling consumer profiles directly to the public, but it does hold consumer data and offers CCPA rights. Direct WebFetch of sentilink.com/privacy-policy repeatedly returned only an empty JS-rendered shell (Next.js SPA, confirmed via curl showing only script tags, no body text) -- content below is reconstructed from a third-party search-engine summary of the same policy, not a direct render, so treat with extra caution. That summary states SentiLink recognizes CCPA rights to know/delete/opt-out of sale, handled via a plain email to legal.notices@sentilink.com -- method:email, so tier:auto per schema convention. A Google reCAPTCHA script was seen loaded site-wide in the raw HTML, but there is no confirmation it gates the email opt-out channel itself, so captcha left false rather than inferring. opt_out_url kept as the real known page (not a placeholder) since the URL itself is confirmed correct even though its rendered content wasn't independently verified by me. last_verified left null given the unverified render.",
-   "instructions_md": "1. Email legal.notices@sentilink.com and state that you are exercising your CCPA rights to know what personal information SentiLink has about you, and/or requesting deletion or opt-out of sale.\n2. Include your full name and the email address(es) SentiLink may have associated with you, since SentiLink primarily receives identity data through its bank/fintech clients rather than directly from consumers.\n3. Watch for a reply confirming receipt and any further identity-verification steps SentiLink requires before acting on the request.\n4. Because SentiLink primarily receives your data via banks/fintechs it contracts with, also consider that the underlying financial institution may be a more effective point of control for the data itself.",
+   "notes": "2026-11-20 maintainer update (refs #252): the page monitor now captures the rendered text of sentilink.com/privacy-policy (snapshot dated 2026-11-19; the policy says 'Last updated: June 01, 2026'). Its 'How to Exercise Your California Consumer Rights' section names two channels: email privacy@sentilink.com with the subject line 'California Rights Request', or call 877-6-SNTLNK (877-676-8565). The entry previously used legal.notices@sentilink.com, taken from a third-party search summary when the page only returned an empty JS shell; that address does not appear in the current policy, so opt_out_email and phone now follow the page. The policy says SentiLink may need to verify identity and may ask for more information such as email and mailing address. SentiLink is an identity-verification/fraud-detection vendor for banks and fintechs; it receives consumer identity data through its clients rather than selling profiles to the public. A Google reCAPTCHA script loads site-wide but does not gate the email channel, so captcha stays false. Not walked through by a human: last_verified stays null.",
+   "instructions_md": "1. Email privacy@sentilink.com with the subject line \"California Rights Request\". SentiLink's privacy policy asks for this subject line.\n2. In the body, say which rights you are using: to know what personal information SentiLink holds about you, to delete it, and/or to correct it. Include your full name and the email address(es) SentiLink may have linked to you.\n3. Or call 877-6-SNTLNK (877-676-8565) and make the same request by phone.\n4. SentiLink may ask for more details, such as your email and mailing address, to verify your identity before it acts. Watch for that reply.\n5. SentiLink mostly gets your data through the banks and fintechs it works for. Those companies may also be worth contacting.",
    "link_status": "live"
   },
   {
