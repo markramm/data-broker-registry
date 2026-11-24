@@ -1,0 +1,120 @@
+Acxiom Opt Out Form
+Mailing Addresses
+Phone Numbers
+Email Addresses
+I wish to have the following information about me removed from use in Acxiom's
+marketing data products.
+Please choose at least one marketing segment.
+Who is opting out?
+Me
+A person for whom I am a parent, legal guardian or legal power of attorney
+A person that has died who was a member of my family
+Authorized Agent on behalf of a California Resident
+3rd party or Authorized Agent on behalf of a Non-California Resident
+I certify that the information provided below relates to an individual consumer. If I am an authorized agent acting on behalf of an individual, I have been given written consent by the individual to submit the information to Acxiom and have been approved by Acxiom to submit opt out requests as a third party. For instructions to become an “Authorized Agent” please visit https://www.acxiom.com/data-privacy-ethics/california-consumer-privacy-act/for-consumers/.
+You must choose who is opting out.
+Title
+Mr.
+Mrs.
+Ms.
+Dr.
+Honorable
+Reverend
+Other
+Suffix
+Sr.
+Jr.
+II
+III
+IV
+Add all variations of your name (i.e. nicknames, former names, married name, common spellings or misspellings)
+Invalid characters have been removed.
+At least one of first, middle, or last name must be entered.
+Click the button to add the name entered above or clear the field(s) before Submitting form.
+At least one full name must be added.
+Add all phone number variations
+Please enter a valid 3-digit area code.
+Please enter a valid 3-digit area code.
+Please enter a valid 7-digit phone number.
+Please enter a valid 7-digit phone number.
+Click the button to add the phone number entered above or clear the field(s) before Submitting form.
+Please add at least one phone number.
+Add all email address variations
+Please enter a valid email address.
+Invalid characters have been removed.
+Please enter a single valid email address.
+Click the button to add the email entered above or clear the field(s) before Submitting form.
+Please add at least one email address.
+Add all mailing addresses & P.O. boxes variations
+State
+Alabama
+Alaska
+American Samoa
+Arizona
+Arkansas
+Armed Forces Europe
+Armed Forces Pacific
+Armed Forces the Americas
+California
+Colorado
+Connecticut
+Delaware
+District of Columbia
+Federal States of Micronesia
+Florida
+Georgia
+Guam
+Hawaii
+Idaho
+Illinois
+Indiana
+Iowa
+Kansas
+Kentucky
+Louisiana
+Maine
+Marshall Islands
+Maryland
+Massachusetts
+Michigan
+Minnesota
+Mississippi
+Missouri
+Montana
+Nebraska
+Nevada
+New Hampshire
+New Jersey
+New Mexico
+New York
+North Carolina
+North Dakota
+Northern Mariana Islands
+Ohio
+Oklahoma
+Oregon
+Palau
+Pennsylvania
+Puerto Rico
+Rhode Island
+South Carolina
+South Dakota
+Tennessee
+Texas
+Utah
+Vermont
+Virgin Islands, U.S.
+Virginia
+Washington
+West Virginia
+Wisconsin
+Wyoming
+Attempting to correct address to meet postal standards...
+Invalid characters have been removed.
+Please enter a street address.
+Please enter a city.
+Please select a state.
+Please enter a zip code.
+Zip must contain either 5 or 9 digits.
+Click the button to add the address entered above or clear the field(s) before Submitting form.
+Please add at least one mailing address.
