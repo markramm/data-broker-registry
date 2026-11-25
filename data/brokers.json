@@ -1,22 +1,22 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.17",
-  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
+  "dataset_version": "0.1.18",
+  "content_hash": "sha256:8e6e73b71708829f4b1ec4aa4510c90b44fdc9bce0c5ca0325f3ba7f78dcb1f8",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 496,
+  "authored_count": 498,
   "backlog_count": 89,
-  "total_known": 585,
-  "unverified_count": 459,
+  "total_known": 587,
+  "unverified_count": 461,
   "tiers": {
-   "guided": 272,
+   "guided": 274,
    "assisted": 152,
    "auto": 72
   },
   "priorities": {
    "crucial": 124,
-   "high": 157,
-   "standard": 215
+   "high": 158,
+   "standard": 216
   }
  },
  "brokers": [
@@ -1834,7 +1834,7 @@
    "priority": "crucial",
    "method": "form",
    "opt_out_url": "https://okcaller.com/faq.php",
-   "opt_out_email": "support@okcaller.com",
+   "opt_out_email": "info@okcaller.com",
    "phone": null,
    "captcha": false,
    "id_required": false,
@@ -1851,8 +1851,8 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "Confirmed via WebFetch on okcaller.com homepage and okcaller.com/faq.php: OkCaller is a caller-ID/reverse-phone-lookup site publishing name-to-number listings ('Reliable, verifiable contact information', 300M+ Caller Name IDs given away) -- genuine people-search-adjacent broker, so priority crucial. The FAQ describes an SMS-based opt-out you trigger from the phone number being removed, plus CNAM blocking via your carrier as an alternative, and an escalation path (certified mail to their PO or emailing support@okcaller.com with subject 'OPTOUT FAILURE AFTER COMPLIANCE WITH TOS') if the SMS method fails. The exact SMS short code/keyword was not shown in the fetched content, so the process below is described at the level of detail confirmed; phone-verification-gated so tier guided, phone_required true. last_verified left null since no live render of the removal flow itself was captured.",
-   "instructions_md": "1. Find your listing on okcaller.com by looking up your own phone number, and note the exact page URL.\n2. From the phone you want removed, use OkCaller's SMS-based opt-out service (the specific short code is published on the site's FAQ/help pages) to request removal of that number's listing.\n3. As an alternative or backup, contact your telecom carrier and request CNAM (Caller Name) blocking, which stops your name from being displayed by Caller ID systems including OkCaller.\n4. If the SMS opt-out does not remove your listing, send a certified letter to: OkCaller.com Opt-Out, 10312 Orchid Reserve Dr, West Palm Beach, FL 33414.\n5. You can also email support@okcaller.com with the subject line \"OPTOUT FAILURE AFTER COMPLIANCE WITH TOS\" to escalate a failed removal request.\n6. Re-check your listing periodically, since caller-ID data can be re-aggregated from carrier and public sources.",
+   "notes": "Confirmed via WebFetch on okcaller.com homepage and okcaller.com/faq.php: OkCaller is a caller-ID/reverse-phone-lookup site publishing name-to-number listings ('Reliable, verifiable contact information', 300M+ Caller Name IDs given away) -- genuine people-search-adjacent broker, so priority crucial. The FAQ describes an SMS-based opt-out you trigger from the phone number being removed, plus CNAM blocking via your carrier as an alternative, and an escalation path (certified mail to their PO or emailing support@okcaller.com with subject 'OPTOUT FAILURE AFTER COMPLIANCE WITH TOS') if the SMS method fails. The exact SMS short code/keyword was not shown in the fetched content, so the process below is described at the level of detail confirmed; phone-verification-gated so tier guided, phone_required true. last_verified left null since no live render of the removal flow itself was captured. 2026-11-23 maintainer update (Fixes #259): the page monitor snapshot of okcaller.com/faq.php taken 2026-11-22 (now served from www.okcaller.com) shows a rewritten opt-out FAQ. You now open your number's listing, choose SMS or phone-call verification, request a PIN, and enter the PIN on the website to finish the opt-out. The certified-mail address and the 'OPTOUT FAILURE AFTER COMPLIANCE WITH TOS' email subject are gone. If verification fails, the FAQ now says to email info@okcaller.com with the listing address and a description of the error, and not to email the PIN. support@okcaller.com is still listed for general questions. Carrier CNAM settings are still mentioned, with a caveat that they may not remove every directory listing. opt_out_email moved to info@okcaller.com; verification stays sms_confirm (a PIN by text or call). A live re-fetch on 2026-11-23 got HTTP 429, so this rests on the monitor snapshot. The listing-page flow was not walked through; last_verified stays null.",
+   "instructions_md": "1. Look up your own phone number on okcaller.com and open that number's listing page. Note its exact URL.\n2. On the listing page, start the opt-out and choose SMS or phone-call verification. Only do this for a number you control.\n3. OkCaller sends a PIN to that number. Enter the PIN on the website to finish removing or updating the listing. Keep the PIN private.\n4. If verification fails, email info@okcaller.com with the listing's URL and a description of the error. Don't include the PIN or any password.\n5. You can also ask your phone carrier about its caller-name (CNAM) settings. OkCaller notes this may not remove every directory listing or records already saved.\n6. Re-check your listing from time to time, since caller-ID data can be re-aggregated from carrier and public sources.",
    "link_status": "live"
   },
   {
@@ -5069,6 +5069,36 @@
    "source": "dbw+tcp-research",
    "notes": "WebSearch of Crunchbase's own support-center articles ('Who does the CCPA affect?', 'Do Not Sell Rights under CCPA') confirms Crunchbase publishes public 'person profiles' (name, role, company affiliations, sometimes contact info) sourced in part from public records and third parties, and offers a form to request deletion of your person profile as their CCPA 'do not sell' mechanism -- functionally a people-search/professional-profile data broker, since profiles are compiled about individuals (often without their direct involvement) and displayed/sold via their API. Crunchbase's support article explicitly frames a deletion request as opting out of sale. The exact current form URL could not be directly rendered (privacy/us-residents page returned HTTP 403), so opt_out_url is left as a <verify:> placeholder; last_verified is null. privacy@crunchbase.com is Crunchbase's general privacy contact and is offered as a fallback channel pending confirmation of the dedicated form.",
    "instructions_md": "1. Search your name on crunchbase.com and locate any \"person profile\" matching you.\n2. Go to Crunchbase's Support Center and look for the article \"Do Not Sell Rights under CCPA\" (support.crunchbase.com), which links to the current deletion-request form for person profiles.\n3. Complete the form with your name and the URL of your Crunchbase profile, and submit it as a request to delete your person profile / opt out of sale.\n4. Note that submitting this request will remove your profile from Crunchbase's site, API, and any products built on it -- you will no longer be discoverable via Crunchbase search.\n5. If you can't locate the form, email privacy@crunchbase.com directly, reference CCPA \"do not sell\" / deletion of your person profile, and include your profile URL.\n6. Watch for a confirmation email and respond if identity verification is requested.",
+   "link_status": "unknown"
+  },
+  {
+   "id": "customers-ai",
+   "name": "Customers.ai",
+   "domain": "customers.ai",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://app.mobilemonkey.com/opt-out",
+   "opt_out_email": "info@customers.ai",
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Listed in the California data broker registry (MobileMonkey, Inc., doing business as Customers.ai). On 2026-11-23, customers.ai/opt-out (the registry's rights URL) answered 301 to https://app.mobilemonkey.com/opt-out, which I rendered in a headless browser without typing anything or submitting. The page, 'Opt Out of Tracking and Personal Data Processing', has a required Email Address field, a Zip Code field, an authorized-agent checkbox and an hCaptcha widget, so captcha is true and tier guided. It lists residents of CA, CO, CT, VA, UT, TX, OR, MT, NE, IA, IN, KY, TN, MD, DC, DE, NJ, RI and NH as eligible. Customers.ai's privacy policy (customers.ai/privacy-policy) describes an identity graph used for website-visitor identification ('associating a visitor to a customer's website with contact or profile information in our identity graph') and says it gives personal information to its customers 'to identify which consumers may be interested in their offerings', which 'may constitute a sale'. The policy says deletion requests go to info@customers.ai, that requests are verified using the email address tied to the data, and that it responds within 45 days. Consumer identity resolution for marketers, not people search, so priority high. Not walked through by a human: last_verified null.",
+   "instructions_md": "1. Open the Customers.ai opt-out form at https://app.mobilemonkey.com/opt-out (customers.ai/opt-out redirects there).\n2. Enter the email address you want suppressed, and your zip code.\n3. Solve the hCaptcha and click \"Opt-Out\".\n4. To have your data deleted rather than just suppressed, email info@customers.ai and ask for deletion of the personal information tied to that email address. Customers.ai says it verifies requests using that email address and responds within 45 days.\n5. Repeat for each email address you use, since the identity graph matches by email.",
    "link_status": "unknown"
   },
   {
@@ -14731,6 +14761,38 @@
    "notes": "WebFetch confirms VDX.TV is an omnichannel/programmatic video advertising company ('TV Magnify', 'Video Magnify') extending TV ad campaigns to household members' personal devices -- an ad-tech/audience-targeting business, not a people-search or identity-resale broker. Its privacy policy at vdx.tv/policies/privacy has a 'Your Rights' > 'Opting Out/Deletion/Do Not Sell' section describing a single-click, cookie-based opt-out: clicking the provided link overwrites the site's identifier cookie with a non-identifying 'ANON_ID=optout' cookie on the tribalfusion.com domain (VDX.TV's legacy corporate name), valid for 10 years. No form fields, email, CAPTCHA, or account are required -- it is a browser-cookie opt-out rather than a data-deletion request tied to identity. Because this is cookie/device-scoped rather than an identity-verified CCPA request, and per-browser/per-device re-opt-out is required, classified as assisted (a human still needs to follow a link per browser/device) rather than auto. Ad-tech targeting company rather than a people-search/address broker -> people_search false, priority standard. last_verified left null.",
    "instructions_md": "1. Go to the VDX.TV privacy policy at [vdx.tv/policies/privacy](https://vdx.tv/policies/privacy) and find the \"Opting Out/Deletion/Do Not Sell\" section under \"Your Rights.\"\n2. Click the \"opt out\" link provided there.\n3. Your browser will receive a replacement cookie (ANON_ID=optout, on the tribalfusion.com domain, valid 10 years) marking you as opted out of VDX.TV's ad targeting and data sale.\n4. Repeat this step in every browser and on every device you use, since the opt-out is stored per-browser/per-device via cookie rather than tied to your identity.\n5. If you clear your cookies later, you will need to repeat the opt-out.",
    "link_status": "live"
+  },
+  {
+   "id": "vector-co",
+   "name": "Vector",
+   "domain": "vector.co",
+   "category": "b2b_contact_data",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://privacy.vector.co/",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "email",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Listed in the California data broker registry (GetVector, Inc.). On 2026-11-23, vector.co/opt-out (the registry's rights URL) answered 308 Permanent Redirect to https://privacy.vector.co/, a DataGrail 'Privacy Request Center'. I rendered it in a headless browser and opened the Deletion Request form without typing anything or submitting. The center asks for your country and state of residence, then offers Access, Deletion, Transfer and Update Inaccuracies requests. The US deletion form asks for first name, last name, email and 'Data subject's relationship with Vector' (a dropdown), plus optional comments, followed by a 'Review Request' step that I did not open. No CAPTCHA rendered on the form. Tier is guided rather than assisted because the review step and any email confirmation were not seen (CONTRIBUTING: when in doubt, guided). Vector's homepage sells 'contact-level de-anonymization' of website visitors and contact-level ad targeting to B2B sales teams. Its privacy policy (vector.co/legal/privacy) lists security@vector.co as its only contact and says it may ask for information to confirm your identity. The policy did not name a dedicated privacy email, so opt_out_email is null. B2B professional-contact data, so priority standard. Not walked through by a human: last_verified null.",
+   "instructions_md": "1. Open Vector's Privacy Request Center at https://privacy.vector.co/ (vector.co/opt-out redirects there).\n2. Choose your country and state of residence, then click \"Start Deletion Request\".\n3. Enter your first and last name and the email address you want matched (a work email if Vector is likely to hold that). Under \"Data subject's relationship with Vector\", pick the option that fits, for example that you are not a customer.\n4. Click \"Review Request\", check the details, and submit. Solve a CAPTCHA or confirm by email if Vector asks you to.\n5. To opt out of sale or sharing instead of deleting, use the same center. Its footer link \"Do not sell or share my personal information\" points there too.",
+   "link_status": "unknown"
   },
   {
    "id": "veeva-com",
