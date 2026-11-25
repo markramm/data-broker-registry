@@ -1,22 +1,22 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.17",
-  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
+  "dataset_version": "0.1.18",
+  "content_hash": "sha256:02f4900de419000a4ad8618b147ea062a6a67197f13c9763349597ac6dd16d61",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 496,
+  "authored_count": 499,
   "backlog_count": 89,
-  "total_known": 585,
-  "unverified_count": 459,
+  "total_known": 588,
+  "unverified_count": 462,
   "tiers": {
-   "guided": 272,
-   "assisted": 152,
+   "guided": 274,
+   "assisted": 153,
    "auto": 72
   },
   "priorities": {
    "crucial": 124,
-   "high": 157,
-   "standard": 215
+   "high": 158,
+   "standard": 217
   }
  },
  "brokers": [
@@ -7822,6 +7822,37 @@
    "link_status": "live"
   },
   {
+   "id": "swoop-com",
+   "name": "Swoop",
+   "domain": "swoop.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "portal",
+   "opt_out_url": "https://swoop.com/your-privacy-choices/",
+   "opt_out_email": "privacyrights@swoop.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "email",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Listed in the California data broker registry (Swoop.com Inc, privacyrights@swoop.com). Rendered the registry's rights URL, swoop.com/your-privacy-choices/, in a headless browser on 2026-11-22 without submitting anything. Swoop builds health and pharmaceutical advertising audiences (its site describes patient, caregiver and HCP audiences, including 'predictive non-adherence' segments). The page says it processes personal information for targeted advertising that may count as a sale or share, and that consumers, caregivers and healthcare providers can opt out through the form or by emailing privacyrights@swoop.com. It also says Swoop holds consumer data only in de-identified form and can't find individuals itself, so an opt-out is passed on to its third-party onboarders. The form is an embedded my.datasubject.com portal: it asks you to confirm your country and state (state is required for the US), then choose 'Opt-Out Request' or 'Employee Request'. I did not go past choosing the request type, so the later fields are unconfirmed; the page itself shows an email field. No CAPTCHA was present on the first step. Tier guided because the portal is multi-step and its later steps are unverified. Health-related targeting data, so priority high. The page also says it honours Global Privacy Control. Not walked through by a human: last_verified null.",
+   "instructions_md": "1. Go to https://swoop.com/your-privacy-choices/ and find the opt-out form under \"Your Privacy Rights\".\n2. In the embedded privacy portal, confirm your country and choose your state.\n3. Choose \"Opt-Out Request\" and fill in the details it asks for, usually your email address. Swoop says it only keeps de-identified consumer data, so it forwards your request to the data onboarders it works with.\n4. Submit, and watch your inbox for a follow-up.\n5. If the portal doesn't work, email the same request to privacyrights@swoop.com.\n6. Turning on Global Privacy Control in your browser also tells Swoop's websites not to sell or share your data.",
+   "link_status": "unknown"
+  },
+  {
    "id": "swordfish-ai",
    "name": "Swordfish AI Inc.",
    "domain": "swordfish.ai",
@@ -9150,6 +9181,37 @@
    "notes": "WebSearch confirmed Amobee is a registered CA data broker and an ad-tech platform (targeted advertising). CCPA request portal at amobee.com/ccpa/ and a browser/device-based consumer opt-out at amobee.com/trust/consumer-opt-out/ (opts out of the tracking cookie/device ID rather than a name-based lookup, since Amobee says it typically only holds a cookie ID / mobile device ID / social username, not name or email). Also confirmed amobeeprivacy@amobee.com as a privacy contact email. required_fields uses 'other' since identity here is a device/cookie ID, not a listed enum value. Adtech data broker with no consumer-facing people-search -> priority standard. Not independently confirmed against the live opt-out page; last_verified left null.",
    "instructions_md": "1. Go to the [Amobee Consumer Opt Out page](https://www.amobee.com/trust/consumer-opt-out/) and follow the browser-based opt-out instructions; this ties the opt-out to your Amobee cookie ID or mobile device ID rather than your name.\n2. For a formal CCPA data access, deletion, or opt-out-of-sale request, use the [CCPA request portal](https://www.amobee.com/ccpa/) or email amobeeprivacy@amobee.com.\n3. You can also call +1.877.326.5657 with questions about your request.\n4. Save any case number you receive -- Amobee's portal reportedly only shows it once and requests can take up to 30 days to process.\n5. Note that browser-based opt-outs (cookies) can be lost if you clear cookies or switch browsers/devices, so you may need to repeat the opt-out periodically.",
    "link_status": "live"
+  },
+  {
+   "id": "amplemarket-com",
+   "name": "Amplemarket",
+   "domain": "amplemarket.com",
+   "category": "b2b_contact_data",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://amplemarket.portal.usepylon.com/forms/privacy-request-form",
+   "opt_out_email": "legal@amplemarket.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Listed in the California data broker registry (Tagis Inc, dba Amplemarket, legal@amplemarket.com). Rendered both registry rights URLs in a headless browser on 2026-11-22 without submitting anything. amplemarket.com/legal/data-broker-privacy-notice (last updated April 1, 2025) says Amplemarket is a registered data broker that licenses personal information about business professionals for sales outreach, collected from public sources, website and email engagement tracking, market research surveys and data resellers. It sends rights requests to its Privacy Center. The registry's other URL, portal.usepylon.com/amplemarket/forms/privacy-request-form, redirects to amplemarket.portal.usepylon.com/forms/privacy-request-form: a 'Privacy Request Form' with Name, Email and Request Option, all required. The options are 'Request to delete', 'Request to correct' and 'Request to access'; there is no separate opt-out-of-sale option, so the steps use deletion. No CAPTCHA was present, so tier is assisted. The notice says identity verification may be needed for access, correction and deletion. B2B sales data, so priority standard. Not walked through by a human: last_verified null.",
+   "instructions_md": "1. Open Amplemarket's Privacy Request Form at https://amplemarket.portal.usepylon.com/forms/privacy-request-form.\n2. Enter your name and the email address Amplemarket is likely to hold (often a work email).\n3. Under \"Request Option\", choose \"Request to delete\". The form has no separate \"do not sell\" option, and deletion also ends licensing of your data.\n4. Submit, and answer any identity-verification email Amplemarket sends.\n5. If the form doesn't work, email your deletion and opt-out-of-sale request to legal@amplemarket.com.",
+   "link_status": "unknown"
   },
   {
    "id": "amrent-com",
@@ -10999,6 +11061,39 @@
    "notes": "The legacy CSV's privacy_policy URL (eula.mindspark.com/excite/privacypolicy) no longer resolves (DNS failure). WebFetch on the live excite.com/privacy page shows Excite is now operated by Ask Media Group LLC, not Mindspark, and the policy is a shared interest-based-advertising opt-out: an on-page 'Opt Out' toggle button tied to a per-browser cookie ID, plus a contact email of privacy@ask.com and a note that one ad partner (LiveRamp) requires its own separate opt-out at optout.liveramp.com. Because the primary mechanism is a no-login, no-CAPTCHA browser toggle (not a data-deletion form per se), classified assisted rather than guided; still a search-portal/adtech opt-out rather than a people-search removal, so priority standard. Not independently re-verified with a live render beyond the single WebFetch pass; last_verified left null.",
    "instructions_md": "1. Go to https://www.excite.com/privacy in the same browser you normally use to visit Excite (the opt-out is tied to your browser's cookie, so it only affects that browser/device).\n2. Find the interest-based-advertising section and click the \"Opt Out\" toggle/button described there to stop Excite's advertising partners from using your browsing data for personalized ads.\n3. If you use multiple browsers or devices, repeat the toggle opt-out on each one separately.\n4. For a broader privacy request (data access or deletion, not just ad-targeting), email privacy@ask.com directly and describe what you're requesting.\n5. Note that one of Excite's ad-data partners, LiveRamp, maintains its own separate opt-out; visit https://optout.liveramp.com/opt_out if you want to also stop LiveRamp's use of your data.",
    "link_status": "broken"
+  },
+  {
+   "id": "explorium-ai",
+   "name": "Explorium",
+   "domain": "explorium.ai",
+   "category": "b2b_contact_data",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://www.explorium.ai/do-not-sell-my-personal-info/",
+   "opt_out_email": "privacy@explorium.ai",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "email",
+    "address"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "gdpr"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Listed in the California data broker registry (Explorium Inc.). Rendered the registry's rights URL, explorium.ai/do-not-sell-my-personal-info/, in a headless browser on 2026-11-22 without submitting it. The page says Explorium sells 'Enrichment Data' about businesses and professionals to its customers, and that this may count as a sale under US state law. It offers a 'Privacy Request Form' to opt out of that enrichment (and, for EEA residents, to have the data erased). Required fields: first name, last name, email, country of residence, address of residence and zip code; phone is optional. The form is a HubSpot embed whose config names reCAPTCHA v2, but no CAPTCHA widget rendered in the headless browser, so captcha is false; tier is guided because a CAPTCHA may appear for a real visitor (CONTRIBUTING: when in doubt, guided). Access and correction requests go to privacy@explorium.ai. A site banner says Explorium's AgentSource product will be discontinued on December 2, 2026; that is a product change, not the data business. B2B professional data, so priority standard. Not walked through by a human: last_verified null.",
+   "instructions_md": "1. Open Explorium's \"Do not sell my personal information and right to be forgotten\" page at https://www.explorium.ai/do-not-sell-my-personal-info/ and scroll to the \"Privacy Request Form\".\n2. Enter your first and last name, the email address you want matched (a work email if Explorium is likely to hold that), your country of residence, and your residential address and zip code. Phone is optional.\n3. Solve a CAPTCHA if one appears, then submit the form.\n4. To ask for a copy of your data or a correction instead, email privacy@explorium.ai.",
+   "link_status": "unknown"
   },
   {
    "id": "ezlocal-com",
