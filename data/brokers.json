@@ -1,22 +1,22 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.17",
-  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
+  "dataset_version": "0.1.18",
+  "content_hash": "sha256:176c97c4c9dc515623a32e44c9f411fe16e5730fd5ca38717863b240e48b0566",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 496,
+  "authored_count": 499,
   "backlog_count": 89,
-  "total_known": 585,
-  "unverified_count": 459,
+  "total_known": 588,
+  "unverified_count": 462,
   "tiers": {
-   "guided": 272,
-   "assisted": 152,
+   "guided": 274,
+   "assisted": 153,
    "auto": 72
   },
   "priorities": {
    "crucial": 124,
    "high": 157,
-   "standard": 215
+   "standard": 218
   }
  },
  "brokers": [
@@ -6764,16 +6764,15 @@
    "opt_out_url": "https://apps.melissa.com/user/consumerprivacy.aspx",
    "opt_out_email": null,
    "phone": "1-800-800-6245 ext. 4",
-   "captcha": false,
+   "captcha": true,
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
-   "verification": "none",
+   "verification": "email_confirm",
    "required_fields": [
     "email",
     "full_name",
-    "address",
-    "phone"
+    "address"
    ],
    "readd_days": null,
    "legal_basis": [
@@ -6782,8 +6781,8 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "WebFetch on the melissa.com homepage failed directly (blocked), but curl -L retrieved it and surfaced the real Consumer Privacy Request Form at apps.melissa.com/user/consumerprivacy.aspx, which I fetched via curl and parsed (stripped HTML). Melissa sells contact/identity/address verification data (an identity-data broker, B2B-facing data products but built on real consumer PII) -- confirmed via their own form, which offers delete, opt-out of sale/sharing, right-to-know, correct, and limit-sensitive-use options. The form requires email, first/last name, address, city, state, ZIP, and phone as required fields; ID/driver's license upload is only required for 'know'/'correct' requests, NOT for delete or opt-out-of-sale, which is why id_required is false. No CAPTCHA was observed. melissadata.com (also in my assigned batch) 301-redirects permanently to www.melissa.com (confirmed via curl -sI -L) -- it is the same company/product under a legacy domain, not a separate broker, so no separate file was created for it. Legacy CSV's CCParequest@melissa.com email was not confirmed as a live inbox during this research (the form appears to be the primary/preferred channel), so opt_out_email is left null rather than asserting it -- form-only -> guided tier given the number of required fields and identity-adjacent nature, even without CAPTCHA.",
-   "instructions_md": "1. Go to https://apps.melissa.com/user/consumerprivacy.aspx (Melissa's Consumer Privacy Request Form).\n2. Review the linked Privacy Policy and, if you are a California resident, the linked Privacy Notice for Residents of California to understand which rights apply to you.\n3. Fill in the required fields: email address, first name, last name, address line 1, city, state, ZIP code, and phone.\n4. Under \"Consumer Privacy Request Options,\" check \"I want Melissa to delete any personal information they have collected about me\" and/or \"I want to opt out of the sale or sharing of my personal information.\" (These two options do not require identity-document verification.)\n5. Do not check the \"know,\" \"obtain a copy,\" or \"correct\" options unless you are prepared to upload a copy of your driver's license or other ID -- Melissa requires document verification for those specific requests.\n6. Submit the form.\n7. If you prefer not to use the web form or need to submit multiple records at once, call 1-800-800-6245 ext. 4 instead.",
+   "notes": "WebFetch on the melissa.com homepage failed directly (blocked), but curl -L retrieved it and surfaced the real Consumer Privacy Request Form at apps.melissa.com/user/consumerprivacy.aspx, which I fetched via curl and parsed (stripped HTML). Melissa sells contact/identity/address verification data (an identity-data broker, B2B-facing data products but built on real consumer PII) -- confirmed via their own form, which offers delete, opt-out of sale/sharing, right-to-know, correct, and limit-sensitive-use options. The form requires email, first/last name, address, city, state, ZIP, and phone as required fields; ID/driver's license upload is only required for 'know'/'correct' requests, NOT for delete or opt-out-of-sale, which is why id_required is false. No CAPTCHA was observed. melissadata.com (also in my assigned batch) 301-redirects permanently to www.melissa.com (confirmed via curl -sI -L) -- it is the same company/product under a legacy domain, not a separate broker, so no separate file was created for it. Legacy CSV's CCParequest@melissa.com email was not confirmed as a live inbox during this research (the form appears to be the primary/preferred channel), so opt_out_email is left null rather than asserting it -- form-only -> guided tier given the number of required fields and identity-adjacent nature, even without CAPTCHA. Maintainer update 2026-11-24 (page-monitor #263): the 2026-11-23 monitor snapshot of the form and a curl fetch of the live page the same day both show that the form now asks you to check a reCAPTCHA 'I'm not a robot' box (the page loads recaptcha/api) and to click 'Send Confirmation Code', which emails a one-time code that must be entered before the request is submitted; so captcha is now true and verification email_confirm. Phone is no longer marked required (only email, first/last name, address line 1, city, state and ZIP carry the asterisk). The form now also offers 'opt out of targeted ads/profiling' and 'limit sensitive information' options, and the Right to Correct section says ID documents are normally not needed. Not walked through by a human: last_verified stays null.",
+   "instructions_md": "1. Go to https://apps.melissa.com/user/consumerprivacy.aspx (Melissa's Consumer Privacy Request Form).\n2. Fill in the required fields: email address, first name, last name, address line 1, city, state and ZIP code. Phone is optional.\n3. In the \"Delete/Opt-Out\" section, check \"I want Melissa to delete any personal information it has collected about me\" and \"I want to opt out of the sale or sharing of my personal information\". You can also check the targeted-ads/profiling and limit-sensitive-information options.\n4. Check the reCAPTCHA \"I'm not a robot\" box and click \"Send Confirmation Code\". This does not submit the request yet.\n5. Open the email Melissa sends and enter the one-time code on the form to submit the request.\n6. If you prefer not to use the web form or need to submit multiple records at once, call 1-800-800-6245 ext. 4 instead.",
    "link_status": "live"
   },
   {
@@ -9635,6 +9634,38 @@
    "link_status": "live"
   },
   {
+   "id": "biscred-com",
+   "name": "Biscred",
+   "domain": "biscred.com",
+   "category": "b2b_contact_data",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://www.biscred.com/do-not-sell-my-information",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": "email_confirm",
+   "required_fields": [
+    "email",
+    "full_name",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Listed in the California data broker registry (Biscred, LLC), whose rights URL is biscred.com/do-not-sell-my-information. On 2026-11-24 I fetched that page with curl and rendered it in a headless browser without typing anything or submitting. The page, 'Do Not Sell or Share My Information \u2013 Including CCPA and TDPSA Rights', has an 'Opt-Out' form with required First Name, Last Name and Email fields, two required dropdowns (an option select and 'State of residence'), an optional 'Country of residence' field, and a required Google reCAPTCHA (enterprise) checkbox, so captcha is true and tier guided. It says you will receive an email to verify your address and must follow its instructions to finish the request, so verification is email_confirm. Biscred sells prospect and contact data on people working in commercial real estate to sales and marketing teams, so this is a B2B contact-data broker: priority standard. The site lists support@biscred.com as a contact address, but the page does not offer it as an opt-out channel, so opt_out_email is null. I could not see the options in the first dropdown without interacting with the form. Not walked through by a human: last_verified null.",
+   "instructions_md": "1. Open Biscred's opt-out page at https://www.biscred.com/do-not-sell-my-information.\n2. Enter your first name, last name and the email address Biscred might hold for you (often a work email).\n3. Choose an option in the first dropdown and select your state of residence. Country of residence is optional.\n4. Check the reCAPTCHA box and click \"Submit\".\n5. Open the verification email Biscred sends and follow its instructions to complete the request.\n6. Repeat for each work email address you have used in commercial real estate.",
+   "link_status": "unknown"
+  },
+  {
    "id": "bisi-com",
    "name": "BISI (Background Information Services, Inc.)",
    "domain": "bisi.com",
@@ -11028,6 +11059,36 @@
    "notes": "WebFetch on ezlocal.com/about/privacy.aspx confirmed EZlocal is a local-business-listing directory and reputation-management platform, not a people-search site -- listings are business profiles, not individual dossiers. The policy states CCPA disclosure requests and business-account deletion requests both go to privacy@ezlocal.com (or by phone), so classified as a plain email opt-out (tier: auto). Standard priority since this is a business-directory listing removal, not a personal-safety-relevant people-search record.",
    "instructions_md": "1. Email privacy@ezlocal.com and state that you are a California resident (if applicable) requesting deletion of your business listing / account data and/or exercising your CCPA right to know what personal information has been disclosed to third parties for direct marketing.\n2. Include the business name, listing URL, and any account email associated with the EZlocal profile you want removed.\n3. Alternatively, call EZlocal support at 877-416-2378 to request removal.\n4. If you manage the listing directly, you can also use the EZlocal dashboard's own removal tools to take down the business profile without contacting support.",
    "link_status": "live"
+  },
+  {
+   "id": "fi-navigator-com",
+   "name": "FI Navigator",
+   "domain": "fi-navigator.com",
+   "category": "b2b_contact_data",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://www.fi-navigator.com/remove/",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Listed in the California data broker registry (FI Navigator Corporation, Atlanta), whose rights URL is fi-navigator.com/remove/. On 2026-11-24 I fetched that page with curl. Titled 'Request to Remove Your Information', it says FI Navigator builds professional profiles (name, business and mobile phone numbers, email, job title, office address, employer, work history, social profile links, inferences) of people working at or selling to financial institutions and licenses them to customers for sales, marketing and recruiting, and that 'You can opt out of our database by submitting a removal request.' The request form is embedded in an iframe from dsr.trustsuperset.com, which I rendered in a headless browser without typing anything or submitting. That form, 'Data Subject Access Request Form', has a required Email Address field, a required Request Type select (including 'Right to Erasure' and 'Right to Opt-out of Sales'), optional First Name and Last Name fields, and a Cloudflare Turnstile 'Please verify you're human' check, so captcha is true and tier guided. Neither page says whether a confirmation email follows, so verification is null. B2B contact data about banking professionals, so priority standard. Not walked through by a human: last_verified null.",
+   "instructions_md": "1. Open FI Navigator's removal page at https://www.fi-navigator.com/remove/ and scroll to the embedded \"Data Subject Access Request Form\".\n2. Enter the email address FI Navigator might hold for you (usually a work email). First and last name are optional but help them find your profile.\n3. Under \"Request Type\", choose \"Right to Erasure\" to have your profile removed. If you only want them to stop selling it, choose \"Right to Opt-out of Sales\" instead.\n4. Complete the Cloudflare \"verify you're human\" check and click \"Submit Request\".\n5. Watch your inbox for any confirmation or follow-up from FI Navigator.",
+   "link_status": "unknown"
   },
   {
    "id": "fifty-io",
@@ -14578,6 +14639,37 @@
    "last_verified": null,
    "source": "data-brokers-watch",
    "instructions_md": "1. Call 800.706.4741 and request removal of your information.\n2. No verified step-by-step procedure exists yet for this broker -- if you learn one, please contribute it.",
+   "link_status": "unknown"
+  },
+  {
+   "id": "upcell-io",
+   "name": "upcell",
+   "domain": "upcell.io",
+   "category": "b2b_contact_data",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://www.upcell.io/data-claim",
+   "opt_out_email": null,
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "email",
+    "full_name"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Listed in the California data broker registry (upcell, LLC), whose rights URL is upcell.io/data-claim. On 2026-11-24 I fetched that page with curl and rendered it in a headless browser without typing anything or submitting. The page, 'Data Rights & Removal Request', says that after you submit the form 'your record will be permanently suppressed and will no longer be available through our platform', that opt-out and deletion requests are handled the same way, and that upcell responds within 30 days. The form has required First Name, Last Name and Business Email fields, an optional Phone Number field, and a required 'Request Type' select with 'Opt-Out / Delete My Information', 'Data Access' and 'Other Privacy Request'. No CAPTCHA widget or captcha script loaded, so tier assisted. The page says nothing about a confirmation email, so verification is left null rather than guessed. upcell is a B2B sales-prospecting and contact-enrichment platform (its site compares itself with ZoomInfo, Apollo, Lusha and RocketReach), so priority standard. Not walked through by a human: last_verified null.",
+   "instructions_md": "1. Open upcell's removal form at https://www.upcell.io/data-claim.\n2. Enter your first name, last name and the business email address upcell might hold for you. Phone number is optional.\n3. Under \"Request Type\", choose \"Opt-Out / Delete My Information\".\n4. Click \"Submit\". upcell says your record will be permanently suppressed and that it responds within 30 days.\n5. Repeat for each work email address you have used.",
    "link_status": "unknown"
   },
   {
