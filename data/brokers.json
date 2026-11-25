@@ -1,22 +1,22 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.17",
-  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
+  "dataset_version": "0.1.19",
+  "content_hash": "sha256:214be1edf1f61a937b73a5561a30a79b0db1d20034d1b76edd673791eeb46e71",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 496,
+  "authored_count": 499,
   "backlog_count": 89,
-  "total_known": 585,
-  "unverified_count": 459,
+  "total_known": 588,
+  "unverified_count": 462,
   "tiers": {
    "guided": 272,
-   "assisted": 152,
-   "auto": 72
+   "assisted": 153,
+   "auto": 74
   },
   "priorities": {
    "crucial": 124,
    "high": 157,
-   "standard": 215
+   "standard": 218
   }
  },
  "brokers": [
@@ -2428,7 +2428,7 @@
    "tier": "guided",
    "priority": "crucial",
    "method": "form",
-   "opt_out_url": "https://www.numberguru.com/",
+   "opt_out_url": "https://www.beenverified.com/app/optout/search",
    "opt_out_email": "ccpa@numberguru.com",
    "phone": "1-866-673-9048",
    "captcha": true,
@@ -2445,9 +2445,9 @@
    ],
    "last_verified": null,
    "source": "data-brokers-watch",
-   "notes": "WebFetch of the migrated PD.aspx?_act=OptOut URL 301-redirected to numberguru.com, confirmed by WebSearch: phonedetective.com is now folded into NumberGuru, which is owned by BeenVerified. Corrected opt_out_url to numberguru.com and category/people_search (reverse-phone lookup is a people-search variant). Flow is: NumberGuru's 'Do Not Sell My Personal Information' footer link -> BeenVerified opt-out portal -> name+state search -> CAPTCHA -> email verification link. BeenVerified's opt-out form does not support removing multiple profiles at once; for that, contact privacy@beenverified.com or use the numberguru.com CCPA request path (ccpa@numberguru.com / 1-866-673-9048). CAPTCHA -> guided. last_verified left null (redirect target confirmed via WebSearch, not independently re-fetched).",
-   "instructions_md": "1. Note that phonedetective.com now redirects to numberguru.com, which is owned by BeenVerified.\n2. Go to numberguru.com, scroll to the footer, and click \"Do Not Sell My Personal Information.\" You'll be redirected to the BeenVerified opt-out page.\n3. Click \"Do Not Sell My Info,\" then enter your first and last name and select your state, and click \"Search.\"\n4. Locate your matching record, complete the CAPTCHA, and submit the removal request.\n5. Check your inbox for a message from support@email.beenverified.com and click \"Verify Opt-Out.\"\n6. If you have multiple listings and BeenVerified's form won't remove them all at once, email privacy@beenverified.com, or use NumberGuru's direct CCPA request path at ccpa@numberguru.com / 1-866-673-9048.",
-   "link_status": "live"
+   "notes": "WebFetch of the migrated PD.aspx?_act=OptOut URL 301-redirected to numberguru.com, confirmed by WebSearch: phonedetective.com is now folded into NumberGuru, which is owned by BeenVerified. Corrected opt_out_url to numberguru.com and category/people_search (reverse-phone lookup is a people-search variant). Flow is: NumberGuru's 'Do Not Sell My Personal Information' footer link -> BeenVerified opt-out portal -> name+state search -> CAPTCHA -> email verification link. BeenVerified's opt-out form does not support removing multiple profiles at once; for that, contact privacy@beenverified.com or use the numberguru.com CCPA request path (ccpa@numberguru.com / 1-866-673-9048). CAPTCHA -> guided. last_verified left null (redirect target confirmed via WebSearch, not independently re-fetched). 2026-11-21 maintainer update (refs #255, #250): opt_out_url moved from the numberguru.com homepage to the page its footer link points to. A fetch today showed phonedetective.com still 301-redirects to https://www.numberguru.com/, and that homepage's footer link 'Do Not Sell My Personal Information' goes to https://www.beenverified.com/app/optout/search, the same URL the numberguru-com and beenverified-com entries use. That page answered a plain fetch with a Cloudflare challenge, so its form was not re-checked. The homepage URL made the page monitor flag a change every day, because the homepage carries a feed of user comments. Routing unchanged otherwise; last_verified stays null.",
+   "instructions_md": "1. Note that phonedetective.com now redirects to numberguru.com, which is owned by BeenVerified.\n2. Open the BeenVerified opt-out page at https://www.beenverified.com/app/optout/search. This is where the \"Do Not Sell My Personal Information\" link in numberguru.com's footer goes.\n3. Click \"Do Not Sell My Info,\" then enter your first and last name and select your state, and click \"Search.\"\n4. Locate your matching record, complete the CAPTCHA, and submit the removal request.\n5. Check your inbox for a message from support@email.beenverified.com and click \"Verify Opt-Out.\"\n6. If you have multiple listings and BeenVerified's form won't remove them all at once, email privacy@beenverified.com, or use NumberGuru's direct CCPA request path at ccpa@numberguru.com / 1-866-673-9048.",
+   "link_status": "bot-blocked"
   },
   {
    "id": "phoneregistry-com",
@@ -9414,6 +9414,36 @@
    "link_status": "broken"
   },
   {
+   "id": "audiencemix-net",
+   "name": "AudienceMix",
+   "domain": "audiencemix.net",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://www.audiencemix.net/do-not-sell",
+   "opt_out_email": "privacy@audiencemix.net",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Listed in the California data broker registry (Audience Mix LLC, dba AudienceMix, privacy@audiencemix.net). The registry's rights URL (audiencemix.net/do-no-sell-or-share-my-personal-informat) rendered a 404 page on 2026-11-21. The site footer's 'Do Not Sell or Share My Personal Information' link goes to audiencemix.net/do-not-sell instead, so opt_out_url uses that. Rendered that page in a headless browser on 2026-11-21 without submitting it. It is titled 'Opt Out Request' and covers deletion, correction, access, opting out of sale or sharing, and limiting sensitive data. Fields: first name, last name, email (required), subject, message, 'I am submitting this request on behalf of' (required: Myself or authorized agent), and relationship with AudienceMix. No CAPTCHA widget was present, so tier is assisted. The page also says you can opt out by emailing privacy@audiencemix.net. AudienceMix sells curated advertising audience segments (the site says 16,635 syndicated audiences), not people-search, so priority standard. The page doesn't say how requests are verified. Not walked through by a human: last_verified null.",
+   "instructions_md": "1. Go to AudienceMix's \"Opt Out Request\" form at https://www.audiencemix.net/do-not-sell.\n2. Enter your email address (required), and your first and last name so AudienceMix can match you. In \"I am submitting this request on behalf of\", choose \"Myself\".\n3. In the message box, say which requests you are making: opt out of the sale or sharing of your personal information, and delete it if you want that too.\n4. Submit the form and watch your inbox for a follow-up.\n5. If the form doesn't work, email the same request to privacy@audiencemix.net.",
+   "link_status": "unknown"
+  },
+  {
    "id": "audientco-com",
    "name": "Audient Company LLC",
    "domain": "audientco.com",
@@ -10451,6 +10481,37 @@
    "last_verified": null,
    "source": "data-brokers-watch",
    "instructions_md": "1. Call 855-755-(3282) and request removal of your information.\n2. No verified step-by-step procedure exists yet for this broker -- if you learn one, please contribute it.",
+   "link_status": "unknown"
+  },
+  {
+   "id": "datadesk-io",
+   "name": "DataDesk",
+   "domain": "datadesk.io",
+   "category": "advertising_adtech",
+   "people_search": false,
+   "tier": "auto",
+   "priority": "standard",
+   "method": "email",
+   "opt_out_url": "https://datadesk.io/help/do-not-sell-my-personal-info",
+   "opt_out_email": "privacy@datadesk.io",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "gdpr"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Listed in the California data broker registry (Datadesk Inc., privacy@datadesk.io). The rights URL is a JavaScript app. A plain fetch returned only 'You need to enable JavaScript', so I rendered it in a headless browser on 2026-11-21. The page, 'Do Not Sell or Share My Personal Information' (effective Sept 1 2026), says DataDesk is a registered California data broker. To opt out, email privacy@datadesk.io, or in Europe use the consent tool of the site or app (IAB TCF vendor 1641). It honours Global Privacy Control. It asks you to include your Advertising Identifier (iOS or Android ad ID) or browser cookie ID, because it holds no names, addresses or phone numbers. It builds advertising profiles from device and cookie IDs, IP addresses, browsing data and hashed emails, so the ad ID is what it matches on. It says it acts within 15 business days and tells clients and partners to stop using the data. Opting out does not delete the data: deletion needs a separate request, or California's DROP platform at privacy.ca.gov. required_fields is 'other' for the advertising ID. Ad-tech data, so priority standard. Not walked through by a human: last_verified null.",
+   "instructions_md": "1. Find your device's advertising ID. On iOS: Settings \u2192 Privacy & Security \u2192 Apple Advertising. On Android: Settings \u2192 Google \u2192 Ads. On a computer, DataDesk also accepts a browser cookie ID.\n2. Email privacy@datadesk.io. Say you are opting out of the sale and sharing of your personal information and of its use for advertising and profiling. Include the advertising ID(s) from step 1.\n3. Opting out does not delete your data. To delete it too, ask for deletion in the same email. California residents can also use the DROP platform at privacy.ca.gov.\n4. DataDesk says it acts within 15 business days. Turning on Global Privacy Control in your browser also sends an opt-out signal it says it honours.",
    "link_status": "unknown"
   },
   {
@@ -12789,6 +12850,36 @@
    "notes": "Confirmed via WebFetch on kycdata.com and kycdata.com/consumer-privacy/. KYC Data compiles and sells bulk homeowner/mortgage records (35,000+ new records weekly) to direct-mail and marketing customers -- a bulk marketing data broker, not a per-name people-search lookup tool, so people_search is false. Consumer-privacy page confirms consumers@kycdata.com as the opt-out contact and describes an optional web portal (consumer.kycdata.com) where you can view your compiled data and suppress it after confirming your identity via email link; no CAPTCHA or government ID mentioned. Because a direct, documented opt-out email exists, tier is auto. Standard priority: bulk marketing data broker, not a consumer-facing people-search product.",
    "instructions_md": "1. Email consumers@kycdata.com and state you are exercising your CCPA right to opt out of the sale of your personal information (include the phrase \"Do Not Sell My Personal Information\" and, if you want, request deletion).\n2. Include your full name and mailing address so KYC Data can locate your homeowner/mortgage record.\n3. Alternatively, visit https://consumer.kycdata.com to view what KYC Data has compiled about you and suppress it directly -- you will need to confirm your identity via an email link before you can view or suppress the record.\n4. Watch for a confirmation email and follow any link it contains to complete the process.\n5. Keep a copy of your email or portal confirmation for your records; re-check periodically since new homeowner/mortgage records are added weekly.",
    "link_status": "live"
+  },
+  {
+   "id": "onaudience-com",
+   "name": "OnAudience",
+   "domain": "onaudience.com",
+   "category": "advertising_adtech",
+   "people_search": false,
+   "tier": "auto",
+   "priority": "standard",
+   "method": "email",
+   "opt_out_url": "https://onaudience.com/do-not-sell-my-personal-info/",
+   "opt_out_email": "privacy@onaudience.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Listed in the California data broker registry (ONAUDIENCE LTD, privacy@onaudience.com). Fetched the rights URL onaudience.com/do-not-sell-my-personal-info/ on 2026-11-21 (HTTP 200). It says California residents can stop OnAudience selling their personal information, either with its 'opt-out automatic tools' or by contacting its data protection officer at privacy@onaudience.com. It needs your Advertising Identifier, and says it holds no names, emails, addresses or phone numbers and can't find you by them. The footer's 'Opt-out' page (onaudience.com/opt-out/), rendered in a headless browser on 2026-11-21 without submitting anything, offers three options: opt out of OnAudience products by email (an email field), opt out of its third-party cookie, and opt out of its Mobile ID (device type plus device ID). Those forms load a reCAPTCHA. The email route to privacy@onaudience.com has no CAPTCHA, so method is email and tier auto, and captcha refers to that route. required_fields is 'other' for the advertising ID. Ad-tech audience data, so priority standard. Not walked through by a human: last_verified null.",
+   "instructions_md": "1. Find your device's advertising ID. On iOS: Settings \u2192 Privacy & Security \u2192 Apple Advertising. On Android: Settings \u2192 Google \u2192 Ads (or Settings \u2192 Privacy \u2192 Ads).\n2. Email privacy@onaudience.com. Say you are a California resident opting out of the sale of your personal information, and include the advertising ID(s) from step 1.\n3. Alternatively, use the forms at https://onaudience.com/opt-out/: one opts out by email address, one sets an opt-out on OnAudience's third-party cookie in the browser you're using, and one takes a mobile device ID. These forms show a reCAPTCHA.\n4. Cookie opt-outs only cover the browser you used. If you clear cookies, set it again.",
+   "link_status": "unknown"
   },
   {
    "id": "novalist-com",
