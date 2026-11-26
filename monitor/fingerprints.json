@@ -407,9 +407,8 @@
    "home_redirect": false,
    "last_changed": "2026-11-07",
    "offsite": false,
-   "pending": "bot-blocked",
-   "state": "live",
-   "status": 200,
+   "state": "bot-blocked",
+   "status": 403,
    "text_hash": "sha256:32889a1cf3c102098302cc6182c3c2a9966dd373568c61a8fdc92867f6786d02",
    "text_lines": 18,
    "title": "AllPeople Privacy Policy",
@@ -586,7 +585,6 @@
    "captcha": true,
    "fields": [
     "*:text",
-    "address:text",
     "attest:checkbox",
     "city:text",
     "data-request:radio",
@@ -596,6 +594,7 @@
     "data-request:radio",
     "email:email",
     "email:email",
+    "first_name:text",
     "first_name:text",
     "info_update:textarea",
     "last_name:text",
@@ -2153,9 +2152,8 @@
    "vendors": []
   },
   "exactdata-com": {
-   "captcha": false,
+   "captcha": true,
    "fields": [
-    "ak_hp_textarea:textarea",
     "input_10:tel",
     "input_11:select",
     "input_12:text",
@@ -2165,7 +2163,7 @@
     "input_14.3:text",
     "input_14.4:select",
     "input_14.5:text",
-    "input_16:text",
+    "input_17:text",
     "input_1:text",
     "input_3:text",
     "input_9:email",
@@ -2173,8 +2171,11 @@
     "s:search"
    ],
    "final_url": "https://www.data-axle.com/privacy-rights-request/",
+   "flags": [
+    "page loads a CAPTCHA but entry says captcha: false"
+   ],
    "home_redirect": false,
-   "last_changed": "2026-10-14",
+   "last_changed": "2026-11-26",
    "offsite": false,
    "state": "live",
    "status": 200,
@@ -2338,7 +2339,6 @@
    "final_url": "https://www.fhamortgagefinder.com/CCPArequest.php",
    "home_redirect": false,
    "last_changed": "2026-11-17",
-   "misses": 4,
    "offsite": false,
    "state": "broken",
    "status": 404,
@@ -2524,7 +2524,7 @@
    "final_url": "https://www.governmentregistry.org/opt-out",
    "home_redirect": false,
    "last_changed": "2026-10-14",
-   "misses": 41,
+   "misses": 42,
    "offsite": false,
    "state": "live",
    "status": 200,
@@ -2933,9 +2933,8 @@
    "url": "https://infotracer.com/optout/"
   },
   "infousa-com": {
-   "captcha": false,
+   "captcha": true,
    "fields": [
-    "ak_hp_textarea:textarea",
     "input_10:tel",
     "input_11:select",
     "input_12:text",
@@ -2945,7 +2944,7 @@
     "input_14.3:text",
     "input_14.4:select",
     "input_14.5:text",
-    "input_16:text",
+    "input_17:text",
     "input_1:text",
     "input_3:text",
     "input_9:email",
@@ -2953,8 +2952,11 @@
     "s:search"
    ],
    "final_url": "https://www.data-axle.com/privacy-rights-request/",
+   "flags": [
+    "page loads a CAPTCHA but entry says captcha: false"
+   ],
    "home_redirect": false,
-   "last_changed": "2026-10-14",
+   "last_changed": "2026-11-26",
    "offsite": false,
    "state": "live",
    "status": 200,
@@ -3274,9 +3276,8 @@
    "vendors": []
   },
   "lakegroupmedia-com": {
-   "captcha": false,
+   "captcha": true,
    "fields": [
-    "ak_hp_textarea:textarea",
     "input_10:tel",
     "input_11:select",
     "input_12:text",
@@ -3286,7 +3287,7 @@
     "input_14.3:text",
     "input_14.4:select",
     "input_14.5:text",
-    "input_16:text",
+    "input_17:text",
     "input_1:text",
     "input_3:text",
     "input_9:email",
@@ -3294,8 +3295,11 @@
     "s:search"
    ],
    "final_url": "https://www.data-axle.com/privacy-rights-request/",
+   "flags": [
+    "page loads a CAPTCHA but entry says captcha: false"
+   ],
    "home_redirect": false,
-   "last_changed": "2026-10-14",
+   "last_changed": "2026-11-26",
    "offsite": false,
    "state": "live",
    "status": 200,
@@ -3931,7 +3935,7 @@
    "final_url": "https://mugshots.com/record-maintenance",
    "home_redirect": false,
    "last_changed": "2026-10-14",
-   "misses": 2,
+   "misses": 3,
    "offsite": false,
    "state": "live",
    "status": 200,
@@ -4077,7 +4081,7 @@
    "final_url": "https://www.n-focus.com/do-not-sell-or-share-my-personal-information/",
    "home_redirect": false,
    "last_changed": "2026-10-14",
-   "misses": 35,
+   "misses": 36,
    "offsite": false,
    "state": "live",
    "status": 200,
@@ -4812,12 +4816,12 @@
    ],
    "final_url": "https://www.numberguru.com/",
    "home_redirect": false,
-   "last_changed": "2026-11-25",
+   "last_changed": "2026-11-26",
    "offsite": false,
    "state": "live",
    "status": 200,
-   "text_hash": "sha256:dfdba3b6daad9a606493affae1f585c02b2bde41e24459863a8775332fc87b73",
-   "text_lines": 84,
+   "text_hash": "sha256:fe43175b47661948f67f5c1d39badef24ac94b0eff7a38355e2debdc5793d2ba",
+   "text_lines": 86,
    "title": "Reverse Phone Lookup | NumberGuru",
    "url": "https://www.numberguru.com/",
    "vendors": []
@@ -4978,9 +4982,8 @@
    "home_redirect": false,
    "last_changed": "2026-10-14",
    "offsite": false,
-   "pending": "bot-blocked",
-   "state": "live",
-   "status": 200,
+   "state": "bot-blocked",
+   "status": 403,
    "text_hash": "sha256:e75a5d8bca8a85e105c2641c21a394c8304be151ee6c9e2dff92cd4a76c3b9e1",
    "text_lines": 18,
    "title": "This Domain Has Been Transferred by Court Order — Radaris.com",
@@ -5933,16 +5936,16 @@
    "vendors": []
   },
   "taboola-com": {
-   "captcha": false,
+   "captcha": true,
    "fields": [],
    "final_url": "https://ccparequest.taboola.com/",
    "home_redirect": false,
-   "last_changed": "2026-11-25",
+   "last_changed": "2026-11-26",
    "offsite": false,
    "state": "live",
    "status": 200,
-   "text_hash": "sha256:0385f058d1915f15b055b347df7fbc6a9cbd3f9487875af3dd27debf47478252",
-   "text_lines": 5,
+   "text_hash": "sha256:4c5dbe288163359923afdfaecc764380974169c106e40b3185b06dff81e63a1f",
+   "text_lines": 35,
    "title": "US State Privacy Rights",
    "url": "https://ccparequest.taboola.com/",
    "vendors": []
@@ -6144,7 +6147,7 @@
   },
   "truedata-co": {
    "last_changed": "2026-10-14",
-   "misses": 3,
+   "misses": 4,
    "state": "broken",
    "status": 404,
    "url": "https://info-prod.truedata.co/opt-out-request"
@@ -6567,7 +6570,7 @@
   "webbula-com": {
    "captcha": true,
    "fields": [
-    "hcap_hp_lSSLoEqzycx4:text",
+    "hcap_hp_Ek1d0S7dHtE3:text",
     "input_1:text",
     "input_22:text",
     "input_3:text",
@@ -6587,7 +6590,7 @@
     "page loads a CAPTCHA but entry says captcha: false"
    ],
    "home_redirect": false,
-   "last_changed": "2026-11-25",
+   "last_changed": "2026-11-26",
    "offsite": false,
    "state": "live",
    "status": 200,
