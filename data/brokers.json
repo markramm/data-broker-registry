@@ -1,22 +1,22 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.17",
-  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
+  "dataset_version": "0.1.18",
+  "content_hash": "sha256:91f6bf6c1227cc6f61d064d74d50b8d66f9cc3c45752790ccb6042d1d1500992",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 496,
+  "authored_count": 498,
   "backlog_count": 89,
-  "total_known": 585,
-  "unverified_count": 459,
+  "total_known": 587,
+  "unverified_count": 461,
   "tiers": {
    "guided": 272,
    "assisted": 152,
-   "auto": 72
+   "auto": 74
   },
   "priorities": {
    "crucial": 124,
    "high": 157,
-   "standard": 215
+   "standard": 217
   }
  },
  "brokers": [
@@ -9605,6 +9605,41 @@
    "link_status": "unknown"
   },
   {
+   "id": "becausal-com",
+   "name": "Becausal",
+   "domain": "becausal.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "assisted",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://www.becausal.com/personal-information",
+   "opt_out_email": "privacy@becausal.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "email",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "cpra",
+    "vcdpa",
+    "cdpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Written 2026-11-26 by the daily maintainer from California's data broker registry (BECAUSAL, INC.; rights URL https://www.becausal.com/personal-information; registry email privacy@becausal.com). Becausal sells marketing and advertising data built with 'causal AI'. It has no consumer people-search product, so priority is standard. A plain fetch of the rights URL returned HTTP 200 as a static Webflow page titled 'Do Not Sell or Share My Personal Information'. The page offers two separate opt-outs. (1) A toggle that opts the current browser or device out of targeted advertising. It says Global Privacy Control is also honored, and the toggle has to be repeated on each browser and device and after clearing cookies. (2) A form to opt out of the sale and sharing of data tied to Becausal's products and its data-broker status. The form asks for your state of residence (marked required; the list covers about 19 states with privacy laws), first name, last name and email. You must also pick one statement: that you are the person named, or their authorized agent. No CAPTCHA script or widget was found in the page markup, so the tier is assisted. What happens after you submit (e.g. email confirmation) was not observed. The registry's privacy@becausal.com is kept as a fallback contact, but the page itself does not mention email. Nothing was submitted; last_verified is null.",
+   "instructions_md": "1. Go to https://www.becausal.com/personal-information.\n2. To opt this browser out of targeted advertising, move the toggle on the page to the left. Repeat this on every browser and device you use, and again after clearing cookies. Turning on Global Privacy Control in your browser also counts as an opt-out.\n3. To opt out of Becausal selling or sharing your data as a data broker, fill in the form below the toggle. Pick your state of residence, then enter your first name, last name and email address.\n4. Pick the statement that says you are the person named (or their authorized agent), then submit.\n5. If the form doesn't work, email privacy@becausal.com and ask them not to sell or share your personal information. Include your name, email and state.",
+   "link_status": "unknown"
+  },
+  {
    "id": "littlebrookmedia-com",
    "name": "Big Brook Media, LLC",
    "domain": "littlebrookmedia.com",
@@ -11148,6 +11183,37 @@
    "source": "dbw+tcp-research",
    "notes": "WebFetch on grayhairsoftware.com/privacy-policy succeeded and rendered current text. GrayHair is primarily a B2B postal-data/mail-tracking vendor for enterprise clients, but its own privacy policy explicitly states it 'sells and shares personal information as part of its Services... for its own marketing purposes and for targeted advertising,' including name/address/phone categories -- so it does touch individual consumer data, not just business clients, and belongs in the dataset. A dedicated /ccpa page 404'd on fetch; the working contact is the email/phone listed in the main privacy policy. Priority set to standard rather than high because this is an enterprise mail-analytics vendor, not a consumer-facing lookup/marketing-list service with obvious individual harm. Plain email/phone contact, no form seen -> tier auto. last_verified left null.",
    "instructions_md": "1. Email privacy@grayhairsoftware.com and state that you are exercising your CCPA right to opt out of the sale/sharing of your personal information, and/or requesting deletion.\n2. Include your full name and any mailing address(es) or contact info you believe GrayHair holds, so they can locate your record among their mail-tracking/postal data.\n3. Alternatively, call 856-727-9372 to make the same request by phone.\n4. Note the dedicated \"Do Not Sell My Personal Information\" footer link referenced in their policy may lead to a web form as an alternative channel, but that page could not be independently confirmed at authoring time -- email is the verified fallback.\n5. Expect GrayHair to require some identity verification before completing deletion, consistent with standard CCPA request-verification practice.",
+   "link_status": "unknown"
+  },
+  {
+   "id": "growthcode-io",
+   "name": "GrowthCode",
+   "domain": "growthcode.io",
+   "category": "adtech_data_broker",
+   "people_search": false,
+   "tier": "auto",
+   "priority": "standard",
+   "method": "email",
+   "opt_out_url": "https://www.growthcode.io/do-not-sell",
+   "opt_out_email": "delete@growthcode.io",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa",
+    "cpra"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Written 2026-11-26 by the daily maintainer from California's data broker registry (GrowthCode, LLC). The registry's rights URL https://growthcode.io/do-not-sell-or-share-my-personal-information now returns a 404 page. The site footer's 'Do Not Sell or Share My Personal Information' link goes to https://www.growthcode.io/do-not-sell, which a plain fetch returned with HTTP 200. That page says GrowthCode is a registered data broker in California, Texas and Vermont, and sells or shares identity-resolution data collected through publisher and partner networks. It lists four opt-out methods. (1) A request form; it is rendered by JavaScript and not in the static HTML, so its fields were not seen. (2) Email delete@growthcode.io with the subject 'Do Not Sell or Share My Personal Information' and enough identifiers to find your data, such as your email address. The page says requests sent to privacy@growthcode.io will NOT be handled as opt-outs. (3) Global Privacy Control, honored for California and Texas residents. (4) California's DROP platform (cppa.ca.gov), which the page says GrowthCode checks weekly. Requests are confirmed within 15 business days. The plain email route needs no login or form, so tier is auto. The registry lists a staff member's personal address as its contact; it was not used because the page names delete@growthcode.io. Adtech identity graph with no people-search product, so priority is standard. Nothing was sent; last_verified is null.",
+   "instructions_md": "1. Email delete@growthcode.io with the subject line \"Do Not Sell or Share My Personal Information\". Don't use privacy@growthcode.io. GrowthCode says that inbox doesn't handle opt-outs.\n2. In the email, ask GrowthCode to stop selling and sharing your personal information and to delete it. Include the email address(es) and any other identifiers you think its records may have.\n3. GrowthCode says it confirms requests within 15 business days. You can also use the request form on https://www.growthcode.io/do-not-sell instead of emailing.\n4. Turn on Global Privacy Control in your browser. GrowthCode treats it as an opt-out for California and Texas residents.\n5. California residents can instead file one deletion request through the state's DROP platform at cppa.ca.gov, which GrowthCode says it checks every week.",
    "link_status": "unknown"
   },
   {
@@ -14532,18 +14598,19 @@
    "domain": "truedata.co",
    "category": "adtech_data_broker",
    "people_search": false,
-   "tier": "assisted",
+   "tier": "auto",
    "priority": "standard",
-   "method": "form",
-   "opt_out_url": "https://info-prod.truedata.co/opt-out-request",
-   "opt_out_email": "privacy@truedata.co",
+   "method": "email",
+   "opt_out_url": "https://truedata.co/assets/TrueData-Advertising-Privacy-Policy.pdf",
+   "opt_out_email": "dataprivacy@truedata.co",
    "phone": null,
    "captcha": false,
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
    "required_fields": [
-    "email"
+    "email",
+    "other"
    ],
    "readd_days": null,
    "legal_basis": [
@@ -14552,9 +14619,9 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "Not to be confused with the unrelated stock-market/financial-data-feed company also called 'TrueData' (truedata.in/.tv). This truedata.co is a Texas-registered data broker (site footer states 'the entity maintaining this website is a data broker under Texas law') doing offline/identity-resolution data for digital advertising; recently acquired by ID5. WebFetch on the homepage and on /opt-out-request rendered directly (not bot-blocked): the opt-out form only requires country/state/email, with name/address/phone/mobile-ad-ID as optional fields, no CAPTCHA and no ID upload mentioned. WebFetch on /privacy-policy/ (a rendered PDF) confirmed the same opt-out URL plus a separate access/delete-request form at https://info-prod.truedata.co/access-delete-request and a privacy@truedata.co contact address for verification follow-up. Not a people-search site (no per-person profile pages found) -- classified as an adtech/marketing data broker, standard priority. tier set to assisted rather than auto because the primary documented path is the web form, not a plain email opt-out, even though the email address is also usable.",
-   "instructions_md": "1. Go to https://info-prod.truedata.co/opt-out-request (TrueData's CCPA/CPRA \"Do Not Sell My Personal Information\" form).\n2. Select your country and state, and enter your email address -- these are the only required fields.\n3. Optionally add your full name, mailing address, phone number, or mobile/CTV advertising identifiers to make the suppression match more precise (TrueData notes a separate submission is needed per email address or device identifier).\n4. Click Submit. No CAPTCHA or government ID is required based on the rendered form.\n5. If you'd rather use email, write to privacy@truedata.co and state you are requesting to opt out of the sale/sharing of your personal information under CCPA/CPRA; TrueData may follow up to verify the request.\n6. To request a copy of, or deletion of, the data TrueData holds on you, use the separate form at https://info-prod.truedata.co/access-delete-request.\n7. Because TrueData works from identifiers (email hashes, mobile ad IDs, connected-TV IDs) rather than name/address lookups alone, consider submitting the opt-out for each email address and device identifier you use.",
-   "link_status": "live"
+   "notes": "Not to be confused with the unrelated stock-market/financial-data-feed company also called 'TrueData' (truedata.in/.tv). This truedata.co is a Texas-registered data broker (site footer states 'the entity maintaining this website is a data broker under Texas law') doing offline/identity-resolution data for digital advertising; recently acquired by ID5. WebFetch on the homepage and on /opt-out-request rendered directly (not bot-blocked): the opt-out form only requires country/state/email, with name/address/phone/mobile-ad-ID as optional fields, no CAPTCHA and no ID upload mentioned. WebFetch on /privacy-policy/ (a rendered PDF) confirmed the same opt-out URL plus a separate access/delete-request form at https://info-prod.truedata.co/access-delete-request and a privacy@truedata.co contact address for verification follow-up. Not a people-search site (no per-person profile pages found) -- classified as an adtech/marketing data broker, standard priority. tier set to assisted rather than auto because the primary documented path is the web form, not a plain email opt-out, even though the email address is also usable. 2026-11-26 maintainer update (fixes #267): the page monitor found the old form host info-prod.truedata.co unreachable for 3 runs, and today it did not connect at all. The truedata.co homepage (fetched today, HTTP 200) now carries a notice: on September 30, 2026 the TrueData audience business and brand were acquired by Cloud Technologies S.A., and the former TrueData Solutions, Inc. now operates separately as Twine Data, Inc. (twinedata.com, privacy@twinedata.com). The homepage links a new Advertising Privacy Policy PDF from TrueData Audiences LLC (Delaware). Its section 9.2 says opt-out, deletion and access requests go to dataprivacy@truedata.co, and you must include enough to identify the browser, device or advertising ID. It also says recognized opt-out preference signals are honored. No web form is linked anymore, so method changed form -> email and tier assisted -> auto, and opt_out_url now points to that policy. The old privacy@truedata.co address and the access/delete form were dropped because the new policy does not mention them. Did not email anyone or check whether the Twine Data route works. last_verified stays null.",
+   "instructions_md": "1. TrueData's old opt-out web form no longer loads. Since a September 30, 2026 acquisition, TrueData Audiences LLC (part of Cloud Technologies S.A.) runs the TrueData audience data. Its Advertising Privacy Policy is at https://truedata.co/assets/TrueData-Advertising-Privacy-Policy.pdf.\n2. Email dataprivacy@truedata.co. Say you are opting out of the sale and sharing of your personal information and of targeted advertising under your state's privacy law (e.g. CCPA/CPRA), and that you also want your data deleted if you wish.\n3. TrueData keys its data to pseudonymous identifiers, not names. Include the email address(es) you want suppressed and, if you can, your phone's mobile advertising ID (and any connected-TV ad ID). Its policy says it may turn down requests it can't match to an identifier.\n4. Turn on a browser opt-out preference signal such as Global Privacy Control. TrueData's policy says it honors these where the law requires it.\n5. The company that used to be TrueData Solutions, Inc. is now a separate business, Twine Data, Inc. It may also hold older data about you. For full coverage, send the same request to privacy@twinedata.com (see https://twinedata.com).",
+   "link_status": "unknown"
   },
   {
    "id": "ucc411-com",
