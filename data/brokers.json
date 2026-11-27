@@ -1,21 +1,21 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.17",
-  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
+  "dataset_version": "0.1.18",
+  "content_hash": "sha256:2fec70074014fea710eb12953c8f4d3f9382c6649adcf62c0f6bf8aa16ec8666",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 496,
+  "authored_count": 498,
   "backlog_count": 89,
-  "total_known": 585,
-  "unverified_count": 459,
+  "total_known": 587,
+  "unverified_count": 461,
   "tiers": {
-   "guided": 272,
-   "assisted": 152,
+   "guided": 276,
+   "assisted": 150,
    "auto": 72
   },
   "priorities": {
    "crucial": 124,
-   "high": 157,
+   "high": 159,
    "standard": 215
   }
  },
@@ -4233,6 +4233,38 @@
    "link_status": "live"
   },
   {
+   "id": "batchleads-io",
+   "name": "BatchLeads (Equimine Inc., d/b/a PropStream)",
+   "domain": "batchleads.io",
+   "category": "real_estate_data",
+   "people_search": true,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://privacyportal.onetrust.com/webform/23dbbccc-a76c-4410-a68e-f247d70e566c/37b7cf37-7f45-4cac-9ee1-ef6d0ae4f9f2",
+   "opt_out_email": null,
+   "phone": "1-877-204-9040",
+   "captcha": true,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "email",
+    "other"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-11-27 by the daily maintainer from California's data broker registry (EquiMine Inc., d/b/a BatchLeads; registry rights_url is just www.batchleads.io; registry email ops@equimine.com). The batchleads.io homepage (fetched, HTTP 200) sells real-estate investors and agents 'free skip tracing', lead lists 'complete with owner email and phone numbers' and outbound calling/texting to property owners. That means a customer can get a homeowner's phone and email from an address, a people-search variant, so people_search is true. It is sold by subscription to businesses rather than as a free public lookup, so priority is high rather than crucial (same reasoning as the DealMachine entry). The footer link goes to https://batchleads.io/your-privacy-choices (loaded headless, HTTP 200). That page says BatchLeads is now owned and run by Equimine Inc. (d/b/a PropStream). Its 'Do Not Sell or Share' section covers only cookies and Global Privacy Control. For privacy rights requests it gives a 'Privacy Request' link and the phone number 1-(877) 204-9040, and says you may need to verify your identity. The Privacy Request link opens a OneTrust web form (loaded headless). Required fields: 'I am a' (requester type), who the request is for (myself / authorized agent), whether you made a similar request in the past 12 months, first name, last name, country of residence, and email. A visible Google reCAPTCHA widget (size normal) sits before Submit, so captcha is true and tier is guided. More request-type options may appear after the first choices; they were not explored because nothing was entered or submitted. The form also says covered public servants (New Jersey's Daniel's Law, Missouri and Oklahoma judicial privacy acts) should email redactionrequest@propstream.com instead. PropStream itself is not yet a separate entry in this dataset; it is unclear whether this form also covers PropStream's own data product. No general privacy email was shown, so opt_out_email is null. last_verified is null.",
+   "instructions_md": "1. Go to the BatchLeads privacy request form (linked above; it is also the \"Privacy Request\" link on https://batchleads.io/your-privacy-choices). BatchLeads is now run by Equimine Inc., which does business as PropStream.\n2. Choose what kind of requester you are, select that the request is for yourself, and answer whether you made a similar request in the past 12 months.\n3. Pick the request type you want, such as opting out of sale/sharing or deleting your information, if the form offers that choice.\n4. Enter your first name, last name, country of residence, and an email address for correspondence.\n5. Complete the reCAPTCHA and submit. BatchLeads may email you to verify your identity before acting on the request.\n6. If the form doesn't work for you, call 1-877-204-9040 to make the request by phone.\n7. If you are a judge, prosecutor, police officer or other public servant covered by New Jersey's Daniel's Law or a similar state judicial-privacy law, email redactionrequest@propstream.com instead. Name the law, say why you are covered, and list the address or unpublished phone number to suppress.",
+   "link_status": "unknown"
+  },
+  {
    "id": "bbdirect-com",
    "name": "BB Direct, Inc.",
    "domain": "bbdirect.com",
@@ -4899,13 +4931,15 @@
    "opt_out_url": "https://www.data-axle.com/privacy-rights-request/",
    "opt_out_email": "privacyteam@data-axle.com",
    "phone": null,
-   "captcha": false,
+   "captcha": true,
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
    "required_fields": [
     "full_name",
-    "email"
+    "address",
+    "email",
+    "phone"
    ],
    "readd_days": null,
    "legal_basis": [
@@ -4914,8 +4948,8 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "WebFetch on exactdata.com/info/privacy-policy confirmed Exact Data is 'now backed by Data Axle' and sells consumer/business contact records (315M consumer, 15M business contacts). Privacy rights are handled entirely through the parent company Data Axle's portal, not a standalone Exact Data page: consumer privacy rights request form at data-axle.com/privacy-rights-request, an authorized-agent variant, a 'Do Not Sell' link at data-axle.com/do-not-sell-my-data, and privacyteam@data-axle.com as contact email. Data Axle states it honors Global Privacy Control signals. Not independently confirmed by rendering the live form (fields/CAPTCHA inferred from page description, not screenshot), so guided tier chosen conservatively and last_verified left null.",
-   "instructions_md": "1. Go to https://www.data-axle.com/privacy-rights-request/ -- Exact Data's opt-out/deletion requests are processed by its parent company, Data Axle.\n2. Select the request type you want: opt out of sale/sharing, opt out of behavioral-advertising data use, or delete your personal information.\n3. Fill in your name and email address (and any other requested identifying details) and submit the form.\n4. If you'd rather use email, send your request directly to privacyteam@data-axle.com, stating you want to opt out of data sale/sharing and be removed from Exact Data / Data Axle marketing records.\n5. If a browser add-on that broadcasts Global Privacy Control (GPC) is available to you, enabling it may also register as a valid opt-out per Data Axle's stated policy.\n6. Data Axle states average completion time is about a week; if you don't hear back, follow up by replying to any confirmation email or re-submitting the form.",
+   "notes": "Re-checked 2026-11-27 by the daily maintainer (Refs page-monitor issue #270): fetched https://www.data-axle.com/privacy-rights-request/ (HTTP 200). The shared Data Axle Gravity Form now includes a visible Cloudflare Turnstile widget (gfield type turnstile, data-size normal) before the Submit button, replacing the Akismet honeypot it had before; the monitor's new input_17 field is a hidden honeypot, not a user field. Required fields are unchanged: first name, last name, street address/city/state/ZIP, email, phone, a Privacy Choice dropdown (opt out of sale/sharing, correct, delete, access, limit use of sensitive data) and an identity-verification acknowledgement checkbox. captcha set to true (tier was already guided); required_fields updated to match the form. Nothing was submitted; last_verified stays null. Earlier research: WebFetch on exactdata.com/info/privacy-policy confirmed Exact Data is 'now backed by Data Axle' and sells consumer/business contact records (315M consumer, 15M business contacts). Privacy rights are handled entirely through the parent company Data Axle's portal, not a standalone Exact Data page: consumer privacy rights request form at data-axle.com/privacy-rights-request, an authorized-agent variant, a 'Do Not Sell' link at data-axle.com/do-not-sell-my-data, and privacyteam@data-axle.com as contact email. Data Axle states it honors Global Privacy Control signals. Not independently confirmed by rendering the live form (fields/CAPTCHA inferred from page description, not screenshot), so guided tier chosen conservatively and last_verified left null.",
+   "instructions_md": "1. Go to https://www.data-axle.com/privacy-rights-request/ -- Exact Data's opt-out/deletion requests are processed by its parent company, Data Axle.\n2. Select the request type you want: opt out of sale/sharing, opt out of behavioral-advertising data use, or delete your personal information.\n3. Fill in your first and last name, street address, city, state, ZIP code, email, and phone number, check the identity-verification acknowledgement box, complete the Cloudflare \"verify you are human\" check, and submit the form.\n4. If you'd rather use email, send your request directly to privacyteam@data-axle.com, stating you want to opt out of data sale/sharing and be removed from Exact Data / Data Axle marketing records.\n5. If a browser add-on that broadcasts Global Privacy Control (GPC) is available to you, enabling it may also register as a valid opt-out per Data Axle's stated policy.\n6. Data Axle states average completion time is about a week; if you don't hear back, follow up by replying to any confirmation email or re-submitting the form.",
    "link_status": "live"
   },
   {
@@ -8483,6 +8517,38 @@
    "link_status": "live"
   },
   {
+   "id": "windfall-com",
+   "name": "Windfall (Windfall Data, Inc.)",
+   "domain": "windfall.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "high",
+   "method": "form",
+   "opt_out_url": "https://www.windfall.com/your-privacy-choices",
+   "opt_out_email": "privacy@windfall.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "address",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Authored 2026-11-27 by the daily maintainer from California's data broker registry (Windfall Data, Inc.; registry rights_url https://www.windfall.com/your-privacy-choices; registry email privacy@windfall.com). Windfall sells wealth and net-worth intelligence about individual people (wealth screening, enrichment, propensity models) to nonprofits, retailers, financial services and others. It is not a public people-search site, so people_search is false and priority is high. Fetched the Your Privacy Choices page (HTTP 200, also rendered headless). It says Windfall's database is organized by name and address, so an opt-out of sale needs first and last name plus current address, and an email for status updates. It also says the opt-out covers only Windfall's own databases, not its customers' copies. It says the opt-out form is 'below', but no such form showed up in the static HTML or the headless render; only a blog-subscribe email box appeared. Access, correct, delete and authorized-agent requests go through an 'Exercise Privacy Rights' button linking to an Osano portal (my.datasubject.com). Loaded headless, that portal auto-detected the US as the location and said privacy rights were not supported there. It has a location picker at the top right, but choosing a state could not be scripted. The page says access requests need a phone number that matches Windfall's records. Its 2025 metrics show 202 opt-out and 751 deletion requests, all complied with, median about one day. A CAPTCHA could not be confirmed either way (the page HTML mentions a CAPTCHA library, but no widget rendered), so captcha stays false. Tier is guided because the form did not render and the portal needs a state chosen by hand. opt_out_email is the privacy contact from the CA registry filing, not shown on the fetched page. Nothing was submitted; last_verified is null.",
+   "instructions_md": "1. Go to https://www.windfall.com/your-privacy-choices.\n2. Use the opt-out-of-sale form on that page. Give your first and last name, your current address, and an email address. Windfall's records are matched by name and address, so both are needed.\n3. If the form doesn't show up, click \"Exercise Privacy Rights\" at the bottom of the page. In the portal that opens, use the location selector at the top right to choose your state (for example, United States \u2192 California) before filling in the request.\n4. To have your record deleted rather than only withheld from sale, choose a deletion request in that portal. Windfall may ask for a phone number that matches its records to verify you.\n5. If neither works, email privacy@windfall.com. Ask to opt out of the sale of your personal information and to have it deleted, and include your full name and current address.\n6. Windfall reports handling most opt-out and deletion requests within a day or two. The opt-out covers only Windfall's own databases, not copies its customers already hold.",
+   "link_status": "live"
+  },
+  {
    "id": "windfalldata-com",
    "name": "Windfall Data",
    "domain": "windfalldata.com",
@@ -11474,29 +11540,31 @@
    "domain": "infousa.com",
    "category": "direct_marketers",
    "people_search": false,
-   "tier": "assisted",
+   "tier": "guided",
    "priority": "standard",
    "method": "form",
-   "opt_out_url": "https://www.data-axle.com/do-not-sell-my-data/",
+   "opt_out_url": "https://www.data-axle.com/privacy-rights-request/",
    "opt_out_email": null,
    "phone": null,
-   "captcha": false,
+   "captcha": true,
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
    "required_fields": [
     "full_name",
-    "email"
+    "address",
+    "email",
+    "phone"
    ],
    "readd_days": null,
    "legal_basis": [
     "ccpa"
    ],
    "last_verified": null,
-   "source": "data-brokers-watch",
-   "notes": "InfoUSA was rebranded to Data Axle (Salesgenie is its consumer-facing product). The migrated opt_out_url 301-redirected to dataaxleusa.com and then to salesgenie.com's privacy policy, confirming the brand has moved off the old infousa.com domain; updated opt_out_url to Data Axle's current do-not-sell form. Direct WebFetch of that form was blocked (403), so not freshly verified -- based on web search of Data Axle's own do-not-sell page copy, which describes a footer link to a form requiring first name, last name, and email (address/phone optional), or emailing them directly. B2B direct-marketing data broker, not people-search, so priority standard. last_verified left null pending a direct fetch.",
-   "instructions_md": "1. Go to Data Axle's \"Do Not Sell or Share My Data\" page (linked above) -- InfoUSA's data and brand now operate under Data Axle/Salesgenie.\n2. Fill in your first name, last name, and email address (address and phone fields are optional but can help them match your record).\n3. Submit the form to register your opt-out request.\n4. Alternatively, you can skip the form and email your opt-out/deletion request directly to Data Axle's privacy contact listed on the same page.\n5. Data Axle reports fulfilling all \"do not sell\" requests it receives, but there's no published turnaround time -- follow up by email if you don't get confirmation within a few weeks.",
-   "link_status": "bot-blocked"
+   "source": "data-brokers-watch+tcp-research",
+   "notes": "Re-checked 2026-11-27 by the daily maintainer (Refs page-monitor issue #271). The page monitor's fetch of the previous opt_out_url, https://www.data-axle.com/do-not-sell-my-data/, ends at https://www.data-axle.com/privacy-rights-request/ (Consumer Privacy Rights Request | Data Axle), the same shared form the Lake Group Media and Exact Data entries use, so opt_out_url now points there directly (a direct curl of the do-not-sell URL still returns 403). Fetched the form page (HTTP 200): it is a Gravity Form requiring first name, last name, street address/city/state/ZIP, email, phone, a Privacy Choice dropdown (opt out of sale/sharing, correct, delete, access, limit use of sensitive data) and an identity-verification acknowledgement checkbox, followed by a visible Cloudflare Turnstile widget. So captcha is true, tier is guided (CAPTCHA-gated), and required_fields now include address and phone. The earlier notes' claim that address/phone were optional came from web-search copy, not the form, and no longer matches. No Data Axle privacy email was visible in the fetched form page, so the email alternative was dropped from the steps (the Exact Data entry lists privacyteam@data-axle.com from Exact Data's own privacy policy). Nothing was submitted; last_verified stays null. Earlier research: InfoUSA was rebranded to Data Axle (Salesgenie is its consumer-facing product). The migrated opt_out_url 301-redirected to dataaxleusa.com and then to salesgenie.com's privacy policy, confirming the brand has moved off the old infousa.com domain; updated opt_out_url to Data Axle's current do-not-sell form. Direct WebFetch of that form was blocked (403), so not freshly verified -- based on web search of Data Axle's own do-not-sell page copy, which describes a footer link to a form requiring first name, last name, and email (address/phone optional), or emailing them directly. B2B direct-marketing data broker, not people-search, so priority standard. last_verified left null pending a direct fetch.",
+   "instructions_md": "1. Go to https://www.data-axle.com/privacy-rights-request/ -- InfoUSA's data and brand now operate under Data Axle, and its consumer privacy requests go through Data Axle's shared request form.\n2. Fill in your first name, last name, street address, city, state, ZIP code, email, and phone number (all are marked required).\n3. From the \"Privacy Choice\" dropdown, select \"Request to opt out of sale/sharing\" (or \"Request to delete\" if you also want your record removed).\n4. Check the box acknowledging that Data Axle may need to verify your identity, complete the Cloudflare \"verify you are human\" check, and submit the form.\n5. Watch for a follow-up email in case Data Axle asks for more information to verify your identity, and respond to complete the request.",
+   "link_status": "live"
   },
   {
    "id": "insideview-com",
@@ -11808,13 +11876,13 @@
    "domain": "lakegroupmedia.com",
    "category": "marketing_data_broker",
    "people_search": false,
-   "tier": "assisted",
+   "tier": "guided",
    "priority": "standard",
    "method": "form",
    "opt_out_url": "https://www.data-axle.com/privacy-rights-request/",
    "opt_out_email": null,
    "phone": null,
-   "captcha": false,
+   "captcha": true,
    "id_required": false,
    "phone_required": false,
    "charges_fee": false,
@@ -11831,8 +11899,8 @@
    ],
    "last_verified": null,
    "source": "dbw+tcp-research",
-   "notes": "lakegroupmedia.com now 301-redirects (confirmed via curl) to https://www.data-axle.com/?visitor=lake_group -- Lake Group Media has been absorbed into Data Axle. WebFetch on data-axle.com/privacy-policy confirmed 'Lake Group Media, Inc.' is explicitly listed among Data Axle's affiliates/subsidiaries. Requests for all Data Axle brands route through the shared Consumer Privacy Rights Request form. WebFetch on that form found required fields: first name, last name, street address, city, state, ZIP, email, and phone, plus a dropdown to select opt-out/correct/delete/access/limit-use and a checkbox acknowledging identity verification may be required. No CAPTCHA or government-ID upload observed. opt_out_email left null since no Lake-Group-specific or Data-Axle-specific email address was confirmed (page uses a Cloudflare-obfuscated mailto). B2B/marketing list data broker, no consumer-facing people-search product -- standard priority. Substantial required-field form without confirmed CAPTCHA/ID -> assisted tier.",
-   "instructions_md": "1. Go to https://www.data-axle.com/privacy-rights-request/ -- Lake Group Media is now operated as a Data Axle brand, and consumer privacy requests for it are handled through Data Axle's shared form.\n2. Fill in your first name, last name, street address, city, state, ZIP code, email, and phone number.\n3. From the \"Privacy Choice\" dropdown, select \"Opt out of sale/sharing\" (or \"Delete personal information\" if you also want your record removed).\n4. Check the box acknowledging that Data Axle may need to verify your identity, and submit the form.\n5. Watch for a follow-up email if additional identity verification is requested, and respond to complete the process.\n6. Data Axle should process the request within the CCPA-mandated timeframe (typically within 45 days).",
+   "notes": "Re-checked 2026-11-27 by the daily maintainer (Refs page-monitor issue #272): fetched https://www.data-axle.com/privacy-rights-request/ (HTTP 200). The shared Data Axle Gravity Form now includes a visible Cloudflare Turnstile widget (gfield type turnstile, data-size normal) before the Submit button, replacing the Akismet honeypot it had before; the monitor's new input_17 field is a hidden honeypot, not a user field. Required fields are unchanged: first name, last name, street address/city/state/ZIP, email, phone, a Privacy Choice dropdown (opt out of sale/sharing, correct, delete, access, limit use of sensitive data) and an identity-verification acknowledgement checkbox. captcha set to true and tier to guided per CONTRIBUTING (CAPTCHA-gated). Nothing was submitted; last_verified stays null. Earlier research: lakegroupmedia.com now 301-redirects (confirmed via curl) to https://www.data-axle.com/?visitor=lake_group -- Lake Group Media has been absorbed into Data Axle. WebFetch on data-axle.com/privacy-policy confirmed 'Lake Group Media, Inc.' is explicitly listed among Data Axle's affiliates/subsidiaries. Requests for all Data Axle brands route through the shared Consumer Privacy Rights Request form. WebFetch on that form found required fields: first name, last name, street address, city, state, ZIP, email, and phone, plus a dropdown to select opt-out/correct/delete/access/limit-use and a checkbox acknowledging identity verification may be required. No government-ID upload observed (no CAPTCHA at the time; see 2026-11-27 re-check above). opt_out_email left null since no Lake-Group-specific or Data-Axle-specific email address was confirmed (page uses a Cloudflare-obfuscated mailto). B2B/marketing list data broker, no consumer-facing people-search product -- standard priority. Was assisted tier until the Turnstile CAPTCHA appeared.",
+   "instructions_md": "1. Go to https://www.data-axle.com/privacy-rights-request/ -- Lake Group Media is now operated as a Data Axle brand, and consumer privacy requests for it are handled through Data Axle's shared form.\n2. Fill in your first name, last name, street address, city, state, ZIP code, email, and phone number.\n3. From the \"Privacy Choice\" dropdown, select \"Opt out of sale/sharing\" (or \"Delete personal information\" if you also want your record removed).\n4. Check the box acknowledging that Data Axle may need to verify your identity, complete the Cloudflare \"verify you are human\" check, and submit the form.\n5. Watch for a follow-up email if additional identity verification is requested, and respond to complete the process.\n6. Data Axle should process the request within the CCPA-mandated timeframe (typically within 45 days).",
    "link_status": "live"
   },
   {
