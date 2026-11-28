@@ -1,22 +1,22 @@
 {
  "_meta": {
   "schema_version": "1.0",
-  "dataset_version": "0.1.17",
-  "content_hash": "sha256:9649cf87902187efbc0a65f681e4b84885d920c3c5424f8642d8122f686e49bc",
+  "dataset_version": "0.1.18",
+  "content_hash": "sha256:68c6da9b04f069d2789b3e9d5316852049733568c40a986fe085b0151ce1ec4b",
   "attribution": "Broker facts drawn from Data Brokers Watch, Privacy Rights Clearinghouse, and Yael Grauer's Big Ass Data Broker Opt-Out List (BADBOOL). Verification research, tiering, and instructions are original work by Transparency Cascade Press. See LICENSE-DATA for the full attribution and licensing notes.",
-  "authored_count": 496,
+  "authored_count": 498,
   "backlog_count": 89,
-  "total_known": 585,
-  "unverified_count": 459,
+  "total_known": 587,
+  "unverified_count": 461,
   "tiers": {
-   "guided": 272,
+   "guided": 273,
    "assisted": 152,
-   "auto": 72
+   "auto": 73
   },
   "priorities": {
    "crucial": 124,
-   "high": 157,
-   "standard": 215
+   "high": 158,
+   "standard": 216
   }
  },
  "brokers": [
@@ -6660,6 +6660,39 @@
    "link_status": "live"
   },
   {
+   "id": "logictree-com",
+   "name": "LogicTree (Data247, EZCNAM)",
+   "domain": "logictree.com",
+   "category": "marketing_data_broker",
+   "people_search": false,
+   "tier": "auto",
+   "priority": "high",
+   "method": "email",
+   "opt_out_url": "https://www.data247.com/privacy",
+   "opt_out_email": "support@data247.com",
+   "phone": null,
+   "captcha": false,
+   "id_required": false,
+   "phone_required": false,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "address",
+    "phone",
+    "email"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Listed in the California data broker registry as LogicTree, Inc. (doing business as Data247 and EZCNAM). On 2026-11-28 I fetched the registry's rights URL, https://www.data247.com/privacy (HTTP 200). The policy says LogicTree collects and sells personal information about consumers it has no direct relationship with. The categories include name, current and prior addresses, email, phone, age, the subscriber name tied to a phone number (caller-name data) with carrier and line type, property and deed records, vehicle records, credit-derived and household demographic data, and inferred identity and household links. It also says it may sell sensitive data such as ethnicity and the presence of children. Section F lists two ways to make a request, email or mail, with no web form. The email address is obfuscated on the page; decoded, it is support@data247.com (the same address is used for appeals). Requests should have 'Privacy Request' in the subject line and include your full name, current and recent postal addresses, phone number and email. The policy says it verifies identity before acting, may treat an unverified deletion request as an opt-out of sale, answers within 45 days (one 45-day extension possible), and handles appeals within 60 days. It also says it checks the California CPPA deletion platform at least every 45 days. The verification method isn't described, so verification is left null. It sells consumer data through B2B APIs rather than running a public people-search site, so priority is high, not crucial. Not walked through by a human: last_verified null.",
+   "instructions_md": "1. Email support@data247.com with the subject line \"Privacy Request\".\n2. Say you want LogicTree (Data247 / EZCNAM) to delete your personal information and to stop selling or sharing it.\n3. Include your full name, your current and recent postal addresses, your phone number(s) and your email address so they can find your records. LogicTree says it uses these details only to process the request.\n4. Reply to any identity-verification follow-up. LogicTree says it may treat an unverified deletion request as an opt-out of sale.\n5. Expect an answer within 45 days. If they decline, you can appeal by emailing the same address with \"Privacy Appeal\" in the subject line.\n6. Alternatively, mail the same request to LogicTree, Inc., Attn: Privacy Requests, 15 Main Street, Suite 12A, Franklin, MA 02038. California residents can also use the CPPA's statewide deletion platform at https://cppa.ca.gov/data_brokers/.",
+   "link_status": "unknown"
+  },
+  {
    "id": "lotame-com",
    "name": "Lotame Solutions, Inc.",
    "domain": "lotame.com",
@@ -12419,6 +12452,38 @@
    "notes": "WebFetch on modernize.com/privacy confirmed Modernize is a QuinStreet-owned home-improvement contractor-matching/leads marketplace (homeowners submit project details, get matched to contractors) -- a leads-generation data broker rather than a people-search site. CCPA 'Do Not Sell or Share' requests route through a Securiti.ai-hosted privacy-central self-service portal, also linked in the site footer. Additional channels found: phone (888-945-1080), SMS opt-out (reply STOP), and postal mail to QuinStreet's Legal Department at 950 Tower Lane, Suite 1200, Foster City, CA 94404. An email address was present on the fetched page but rendered as a Cloudflare-obfuscated cdn-cgi/l/email-protection link that could not be decoded from the fetched content, so opt_out_email is left null rather than guessing the address -- use the portal or phone channel instead. Portal-based with unconfirmed field/CAPTCHA gating -> guided tier chosen conservatively.",
    "instructions_md": "1. Go to Modernize's privacy request portal: https://privacy-central.securiti.ai/#/dsr/1b319101-f00c-470f-a7f0-26aa81f057b8 (also reachable via the \"Do Not Sell or Share My Personal Information\" link in the modernize.com footer).\n2. Select the request type for opting out of sale/sharing of your personal information (deletion may also be offered).\n3. Provide your name and email address as requested by the portal; submitting the request does not require creating an account.\n4. Submit and watch for a confirmation email.\n5. If you prefer not to use the web portal, call 888-945-1080, or mail a written request to: Privacy Notice Questions, c/o QuinStreet, Inc. Legal Department, 950 Tower Lane, Suite 1200, Foster City, CA 94404. If you've received a text message from Modernize/QuinStreet, you can also reply \"STOP\" to opt out of that channel specifically.",
    "link_status": "live"
+  },
+  {
+   "id": "modigie-com",
+   "name": "Modigie",
+   "domain": "modigie.com",
+   "category": "b2b_contact_data",
+   "people_search": false,
+   "tier": "guided",
+   "priority": "standard",
+   "method": "form",
+   "opt_out_url": "https://privacyportal.onetrust.com/webform/4a8e10dc-2293-42ea-ad06-886bc22167a6/20341940-11c2-4c43-9b64-194e952203fd",
+   "opt_out_email": "privacy@modigie.com",
+   "phone": null,
+   "captcha": true,
+   "id_required": false,
+   "phone_required": true,
+   "charges_fee": false,
+   "verification": null,
+   "required_fields": [
+    "full_name",
+    "email",
+    "phone"
+   ],
+   "readd_days": null,
+   "legal_basis": [
+    "ccpa"
+   ],
+   "last_verified": null,
+   "source": "ca-registry+tcp-research",
+   "notes": "Listed in the California data broker registry as Modigie Inc. On 2026-11-28 I fetched the registry's rights URL, https://modigie.com/privacy-policy/. It sends requests to a OneTrust webform ('You can contact us by filling out a request form linked here') and lists support@Modigie.com and Modigie, Inc., 36 Main Street, Tiburon, CA 94920. I rendered the webform in a headless browser without typing anything or submitting. It is titled 'Welcome to the Modigie Privacy Webform!' and offers request types Info Request, Data Deletion and Do Not Sell My Information. Required fields are request type, first name, last name, email, mobile phone number and request details. Country, state and employer are optional. The page loads a reCAPTCHA, so captcha is true and tier guided. The form footer lists privacy@modigie.com. Modigie's homepage describes LiveRecord, a real-time identity-resolution engine for B2B go-to-market records that matches on verified emails, phones and devices. Neither page says exactly which personal data it supplies to customers. B2B contact data, so priority standard. The form asks for your mobile number, presumably so it can match the record; that is why phone_required is true. Not walked through by a human: last_verified null.",
+   "instructions_md": "1. Open Modigie's privacy webform at https://privacyportal.onetrust.com/webform/4a8e10dc-2293-42ea-ad06-886bc22167a6/20341940-11c2-4c43-9b64-194e952203fd (linked from modigie.com/privacy-policy).\n2. Tick \"Data Deletion\" and \"Do Not Sell My Information\".\n3. Enter your first name, last name, email and mobile phone number. Employer is optional, but adding it may help them match a business-contact record.\n4. In \"Request Details\", ask them to delete your record and stop selling it. The form asks you not to put extra personal information there.\n5. Complete the CAPTCHA if one appears and submit. Watch your email for any verification follow-up.\n6. Or email privacy@modigie.com with the same request.",
+   "link_status": "unknown"
   },
   {
    "id": "myfico-com",
